@@ -1,0 +1,39 @@
+{
+  "interventions": [
+    {
+      "name": "rapamycin",
+      "aliases": ["sirolimus", "rapamune", "mTOR inhibitor"],
+      "category": "mTOR inhibition"
+    },
+    {
+      "name": "metformin",
+      "aliases": ["glucophage", "dimethylbiguanide"],
+      "category": "metabolic intervention"
+    },
+    {
+      "name": "NAD+ precursors",
+      "aliases": ["NMN", "nicotinamide mononucleotide", "NR", "nicotinamide riboside", "niacin"],
+      "category": "NAD+ metabolism"
+    },
+    {
+      "name": "senolytics",
+      "aliases": ["dasatinib", "quercetin", "dasatinib+quercetin", "D+Q", "fisetin"],
+      "category": "senescent cell clearance"
+    },
+    {
+      "name": "young plasma",
+      "aliases": ["parabiosis", "plasma exchange", "young blood", "heterochronic parabiosis"],
+      "category": "systemic factors"
+    },
+    {
+      "name": "hyperbaric oxygen therapy",
+      "aliases": ["HBOT", "hyperbaric oxygen", "HBO"],
+      "category": "oxygen therapy"
+    },
+    {
+      "name": "epigenetic reprogramming",
+      "aliases": ["Yamanaka factors", "OSKM", "partial reprogramming", "iPSC reprogramming", "Oct4 Sox2 Klf4 Myc"],
+      "category": "epigenetic intervention"
+    }
+  ]
+}
