@@ -32,6 +32,7 @@ from src.ingest.pubmed import PubMedAgent
 from src.ingest.semantic_scholar import SemanticScholarAgent
 from src.ingest.social import SocialAgent
 from src.ingest.web_search import WebSearchAgent
+from src.stats.summary import generate_summary
 from src.storage.manager import StorageManager
 
 # Document-producing agents (implement BaseIngestAgent)
@@ -124,7 +125,16 @@ async def seed(
         except Exception as e:
             logger.error(f"  Google Trends failed: {e}")
 
-    # 6. Summary
+    # 6. Generate summary stats
+    logger.info("--- Summary Stats ---")
+    summary = generate_summary(intervention)
+    if summary:
+        logger.info(
+            f"  Summary: {summary['total_documents']} docs across "
+            f"{len(summary['by_source_type'])} sources"
+        )
+
+    # 7. Final report
     total_stored = await storage.count_documents(intervention)
     logger.info(f"\nSeeding complete for '{intervention}':")
     logger.info(f"  New documents added this run: {total}")

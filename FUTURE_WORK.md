@@ -34,6 +34,30 @@
 - Commercial interest + funding momentum as additional trajectory signals
 - **Why it matters:** Patent filings and grant awards are leading indicators of translational potential
 
+### S6. MCP Server — ChatGPT & Claude Connector
+- Build a single MCP (Model Context Protocol) server that exposes all LongevityLens tools
+- One server, all tools — ChatGPT and Claude both connect to the same endpoint
+- Architecture:
+  ```
+  Single MCP Server (longevity-lens) at /sse
+  ├── Tool: list_interventions
+  ├── Tool: get_intervention_stats
+  ├── Tool: get_evidence_grade
+  ├── Tool: get_evidence_trajectory
+  ├── Tool: get_evidence_gaps
+  ├── Tool: get_hype_ratio
+  ├── Tool: get_full_report
+  └── Tool: search_documents
+      └── All tools share the same StorageManager (JSON + SQLite)
+  ```
+- Implementation: Use `mcp[server]` Python package with SSE transport, mount on existing FastAPI app or standalone Starlette app
+- Tools are thin wrappers around the same reasoning functions the REST API calls — no duplication of logic
+- Deployment for demo: `ngrok http 8001` gives a public URL, or deploy to Lyceum VM
+- **ChatGPT connection**: Settings → Apps & Connectors → Developer Mode → Create connector with MCP Server URL
+- **Claude connection**: Native MCP support — just add the server URL in settings
+- **Why it matters:** "Let me show you this working live inside ChatGPT right now" is a showstopper demo moment. It proves the system isn't just a standalone app — it's an infrastructure layer any LLM can plug into. Similar to how Gosset.ai exposes drug pipeline data via MCP, LongevityLens exposes evidence grading as a service.
+- **Build in last 2-3 hours only if reasoning modules and Streamlit demo are solid.** The MCP layer is ~2 hours of work (the tools already exist as functions, you're just wrapping them in the MCP protocol).
+
 ---
 
 ## Post-Hackathon Roadmap
@@ -47,11 +71,9 @@
 - Extract specific data: effect sizes, confidence intervals, p-values, dosing protocols
 
 #### Expanded Source Coverage
-- **Preprint servers**: bioRxiv, medRxiv (API available)
-- **Regulatory**: FDA approvals, EMA opinions
-- **Conference abstracts**: Scrape from aging conference proceedings
-- **GenAge/DrugAge databases**: Integrate genomics.senescence.info data
-- **ITP results**: Structured data from NIA Interventions Testing Program
+- **Already built**: PubMed, ClinicalTrials.gov, Europe PMC (journals + preprints + Cochrane), Semantic Scholar, DrugAge, NIH Reporter, Patents, FDA/DailyMed, Tavily web search, Reddit, Google Trends, AnAge, Edison (PaperQA3)
+- **Next to add**: Conference abstracts (scrape aging conference proceedings), EMA opinions, ITP results (structured data from NIA Interventions Testing Program), YouTube (longevity influencer hype signal), Podcast transcripts (Huberman, Attia, Sinclair)
+- **Semantic search layer**: Add ChromaDB or similar vector DB for embedding-based search across all documents. Currently using SQL LIKE search — semantic search would surface papers by meaning rather than keywords.
 
 #### Continuous Ingest Pipeline
 - Replace manual seeding with scheduled cron jobs
@@ -121,6 +143,15 @@
 - Integration with reference managers (Zotero, Mendeley)
 - API for longevity news sites and podcasts to embed evidence grades
 
+#### MCP Platform Integrations (Production)
+- Harden the MCP server from hackathon demo to production: add OAuth authentication, rate limiting, usage analytics
+- Publish as a verified ChatGPT connector (remove developer mode requirement)
+- Publish to Claude's MCP marketplace
+- Add MCP tools for advanced workflows: `compare_interventions`, `monitor_intervention` (set up alerts), `export_report_pdf`
+- Support MCP tool composition — let the LLM chain tools (e.g., search → grade → compare in a single conversation)
+- Explore integration with other MCP-compatible platforms as the ecosystem grows (Cursor, Windsurf, custom agents)
+- Enterprise deployment: self-hosted MCP server behind customer's firewall with their proprietary data layered on top of public evidence
+
 #### Regulatory Intelligence
 - Track FDA/EMA pipeline for aging-adjacent indications
 - Map clinical trial failures and their implications for the evidence base
@@ -128,16 +159,41 @@
 
 ---
 
+## Agent Data Access Strategy
+
+### Current: JSON Tool Functions (Active)
+Agents access data through thin Python tool functions that read from JSON files (`data/documents/{intervention}.json`). JSON is the source of truth — one file per intervention, self-contained, human-debuggable.
+
+Tool functions handle filtering and field selection so agents never load full files into context:
+- `search_documents(intervention, source_type, date_from, fields, limit)` — filtered rows with only requested fields
+- `count_documents(intervention, source_type, ...)` — returns counts, no content
+- `get_document(intervention, doc_id)` — single doc by ID, full detail
+- `get_stats(intervention)` — aggregate counts by source type, year, etc.
+- `get_trends(intervention)` — Google Trends time-series data
+
+The `fields` parameter is key — an agent asking for `["title", "pmid", "date_published"]` gets ~3 fields per doc instead of 20+. This keeps context lean.
+
+See `JSON_SCHEMA_REFERENCE.md` for the full schema reference agents use to know which fields and filters are available.
+
+### Future: SQLite Query Layer
+If cross-intervention queries become necessary (e.g. "which intervention has the most Phase 3 trials?", "rank all interventions by evidence volume"), SQLite already mirrors the JSON with indexes on `intervention`, `source_type`, `date_published`, and `evidence_level`. A future `query_across_interventions(...)` tool could use SQL for aggregations that don't make sense at the single-file level. This avoids loading every intervention's JSON file to answer one question.
+
+Not needed now — agents currently operate on one intervention at a time.
+
+---
+
 ## Technical Debt to Address
 
 - [ ] Move from synchronous to fully async ingest pipeline
 - [ ] Add proper retry logic with exponential backoff for all external APIs
-- [ ] Implement document deduplication (same study appearing in PubMed + preprint)
+- [x] Implement document deduplication (same study appearing in PubMed + Europe PMC — dedup by DOI/PMID)
 - [ ] Add embedding model versioning (re-embed when model changes)
 - [ ] Proper database migrations (Alembic for SQLite→Postgres transition)
 - [ ] Comprehensive test suite with fixtures for each source API
-- [ ] Rate limit monitoring and alerting
+- [ ] Rate limit monitoring and alerting (Semantic Scholar rate limiting is a known issue)
 - [ ] LLM response caching with TTL to reduce API costs
+- [ ] Consolidate document schemas — 11 subclasses may be more than needed long-term
+- [ ] Add data freshness tracking — flag when an intervention's data is stale and needs re-ingestion
 
 ## Research Questions
 
