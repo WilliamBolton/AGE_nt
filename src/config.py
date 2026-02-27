@@ -49,6 +49,7 @@ class Settings(BaseSettings):
     # External APIs
     ncbi_api_key: str = ""
     tavily_api_key: str = ""
+    edison_api_key: str = ""
 
     # Storage
     database_url: str = "sqlite:///data/longevity_lens.db"

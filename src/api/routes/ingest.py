@@ -46,7 +46,7 @@ async def trigger_ingest(
     from src.ingest.query_expander import expand_query
     from src.ingest.semantic_scholar import SemanticScholarAgent
     from src.ingest.social import SocialAgent
-    from src.ingest.web_search import WebSearchAgent
+    from src.ingest.tavily import TavilyAgent
 
     ALL_SOURCES = {
         "pubmed": PubMedAgent,
@@ -57,7 +57,7 @@ async def trigger_ingest(
         "nih_reporter": NIHReporterAgent,
         "patents": PatentAgent,
         "fda": FDAAgent,
-        "web": WebSearchAgent,
+        "tavily": TavilyAgent,
         "social": SocialAgent,
     }
     EXTRA_SOURCES = {"trends"}

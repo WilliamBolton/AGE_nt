@@ -16,10 +16,10 @@ from src.ingest.query_expander import QueryExpansion
 from src.schema.document import Document, NewsDocument
 
 
-class WebSearchAgent(BaseIngestAgent):
+class TavilyAgent(BaseIngestAgent):
     @property
     def source_name(self) -> str:
-        return "Web Search (Tavily)"
+        return "Tavily"
 
     async def ingest(
         self,
