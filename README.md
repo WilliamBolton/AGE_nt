@@ -95,7 +95,7 @@ src/
     nih_reporter.py         # NIH Reporter grants
     patents.py              # Lens.org / Google Patents
     fda.py                  # FDA DailyMed + openFDA
-    web_search.py           # Tavily web search (news/media)
+    tavily.py               # Tavily web search (news/media)
     social.py               # Reddit
     google_trends.py        # Google Trends (time series, not documents)
     query_expander.py       # LLM-powered search term expansion

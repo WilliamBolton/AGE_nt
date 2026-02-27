@@ -31,7 +31,7 @@ from src.ingest.patents import PatentAgent
 from src.ingest.pubmed import PubMedAgent
 from src.ingest.semantic_scholar import SemanticScholarAgent
 from src.ingest.social import SocialAgent
-from src.ingest.web_search import WebSearchAgent
+from src.ingest.tavily import TavilyAgent
 from src.stats.summary import generate_summary
 from src.storage.manager import StorageManager
 
@@ -45,7 +45,7 @@ ALL_SOURCES: dict[str, type[BaseIngestAgent]] = {
     "nih_reporter": NIHReporterAgent,
     "patents": PatentAgent,
     "fda": FDAAgent,
-    "web": WebSearchAgent,
+    "tavily": TavilyAgent,
     "social": SocialAgent,
 }
 

@@ -26,12 +26,16 @@ dependencies = [
     "aiosqlite>=0.20.0",
     # Search
     "tavily-python>=0.5.0",
+    # Edison Scientific
+    "edison-client>=0.1.0",
     # Google Trends
     "pytrends>=4.9.0",
     # Frontend
     "streamlit>=1.40.0",
     # Logging
     "loguru>=0.7.0",
+    # MCP server
+    "mcp[cli]>=1.2.0",
 ]
 
 [project.optional-dependencies]

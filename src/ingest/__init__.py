@@ -7,7 +7,7 @@ from src.ingest.patents import PatentAgent
 from src.ingest.pubmed import PubMedAgent
 from src.ingest.semantic_scholar import SemanticScholarAgent
 from src.ingest.social import SocialAgent
-from src.ingest.web_search import WebSearchAgent
+from src.ingest.tavily import TavilyAgent
 
 __all__ = [
     "ClinicalTrialsAgent",
@@ -19,5 +19,5 @@ __all__ = [
     "PubMedAgent",
     "SemanticScholarAgent",
     "SocialAgent",
-    "WebSearchAgent",
+    "TavilyAgent",
 ]
