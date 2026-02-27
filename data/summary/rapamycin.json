@@ -1,0 +1,275 @@
+{
+  "intervention": "rapamycin",
+  "aliases": [
+    "sirolimus",
+    "rapamune",
+    "mTOR inhibitor"
+  ],
+  "generated_at": "2026-02-27",
+  "total_documents": 312,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "europe_pmc": 42,
+    "drugage": 38,
+    "regulatory": 15,
+    "news": 15,
+    "patent": 2
+  },
+  "date_range": {
+    "earliest": "1984-09-01",
+    "latest": "2026-02-27"
+  },
+  "by_year": {
+    "1984": 1,
+    "1999": 1,
+    "2002": 1,
+    "2005": 2,
+    "2007": 7,
+    "2008": 4,
+    "2009": 3,
+    "2010": 5,
+    "2011": 5,
+    "2012": 1,
+    "2013": 4,
+    "2014": 6,
+    "2015": 5,
+    "2016": 1,
+    "2017": 9,
+    "2018": 4,
+    "2019": 7,
+    "2020": 45,
+    "2021": 13,
+    "2022": 21,
+    "2023": 26,
+    "2024": 40,
+    "2025": 59,
+    "2026": 42
+  },
+  "academic": {
+    "unique_authors": 741,
+    "unique_journals": 28,
+    "top_journals": {
+      "GeroScience": 6,
+      "Aging": 5,
+      "Aging cell": 4,
+      "Nature aging": 4,
+      "International journal of molecular sciences": 3,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 3,
+      "The lancet. Healthy longevity": 2,
+      "Molecular cell": 2,
+      "Nature communications": 2,
+      "JAMA": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 14,
+      "Review": 12,
+      "Research Support, N.I.H., Extramural": 7,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 4,
+      "Meta-Analysis": 3,
+      "Randomized Controlled Trial": 3,
+      "Systematic Review": 2,
+      "Clinical Trial, Phase II": 1,
+      "Clinical Trial, Phase III": 1,
+      "Clinical Trial Protocol": 1,
+      "Historical Article": 1
+    },
+    "top_mesh_terms": {
+      "Sirolimus": 48,
+      "Humans": 35,
+      "Animals": 33,
+      "Aging": 30,
+      "Longevity": 24,
+      "Mice": 20,
+      "Male": 15,
+      "Cellular Senescence": 15,
+      "Female": 14,
+      "TOR Serine-Threonine Kinases": 14,
+      "Signal Transduction": 10,
+      "Metformin": 7,
+      "Caenorhabditis elegans": 7,
+      "MTOR Inhibitors": 6,
+      "Caloric Restriction": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE1": 15,
+      "PHASE2": 9,
+      "PHASE4": 8,
+      "NA": 6,
+      "Unknown": 6,
+      "PHASE3": 5,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 46,
+      "RECRUITING": 2,
+      "ACTIVE_NOT_RECRUITING": 1,
+      "TERMINATED": 1
+    },
+    "total_enrollment": 14719,
+    "median_enrollment": 57.5,
+    "with_results": 14,
+    "top_sponsors": {
+      "National Heart, Lung, and Blood Institute (NHLBI)": 2,
+      "M.D. Anderson Cancer Center": 2,
+      "Cordis US Corp.": 2,
+      "Memorial Sloan Kettering Cancer Center": 2,
+      "Novartis Pharmaceuticals": 2,
+      "Seung-Jung Park": 2,
+      "University of Thessaly": 1,
+      "University Hospital, Strasbourg, France": 1,
+      "Ohio State University": 1,
+      "University Hospital, Toulouse": 1
+    },
+    "top_conditions": {
+      "Coronary Artery Disease": 9,
+      "Sarcopenia": 2,
+      "Lymphangioleiomyomatosis": 2,
+      "Lymphoma": 2,
+      "Breast Cancer": 2,
+      "Carcinoma, Renal Cell": 2,
+      "Renal Cell Carcinoma": 2,
+      "Prostate Cancer": 2,
+      "Inflammaging": 1,
+      "BK Virus Nephropathy After Kidney Transplantation": 1
+    }
+  },
+  "drugage": {
+    "count": 38,
+    "by_species": {
+      "Mus musculus": 24,
+      "Caenorhabditis elegans": 8,
+      "Drosophila melanogaster": 6
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Female": 15,
+      "Male": 12,
+      "Unknown": 11
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 24951240.0,
+    "mean_funding_usd": 509208.98,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 33,
+      "NIGMS": 6,
+      "NEI": 3,
+      "NCI": 3,
+      "NIDDK": 1,
+      "NIAMS": 1,
+      "NIAAA": 1,
+      "NHLBI": 1
+    },
+    "top_organisations": {
+      "HARVARD MEDICAL SCHOOL": 3,
+      "UNIVERSITY OF PENNSYLVANIA": 3,
+      "UNIVERSITY OF CALIFORNIA LOS ANGELES": 3,
+      "NEW YORK UNIVERSITY SCHOOL OF MEDICINE": 2,
+      "UNIVERSITY OF KENTUCKY": 2,
+      "WEILL MEDICAL COLL OF CORNELL UNIV": 2,
+      "UNIVERSITY OF VIRGINIA": 2,
+      "UNIVERSITY OF WISCONSIN-MADISON": 2,
+      "EAST TENNESSEE STATE UNIVERSITY": 2,
+      "TEXAS A&M AGRILIFE RESEARCH": 1
+    },
+    "by_fiscal_year": {
+      "2025": 24,
+      "2026": 26
+    }
+  },
+  "patents": {
+    "count": 2,
+    "by_status": {},
+    "by_office": {
+      "JPO": 1,
+      "EPO": 1
+    },
+    "top_assignees": {}
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "1 INDICATIONS AND USAGE Sirolimus is an mTOR inhibitor immunosuppressant indicated for the prophylaxis of organ rejection in patients aged \u226513 years receiving renal transplants: Patients at low- to moderate-immunologic risk: Use initially with cyclosporine (CsA) and corticosteroids. CsA withdrawal is recommended 2 months to 4 months after transplantation ( 1.1 ). Patients at high-immunologic risk: Use in combination with CsA and corticosteroids for the first 12 months following transplantation (": 1,
+      "1 INDICATIONS AND USAGE FYARRO \u2122 is indicated for the treatment of adult patients with locally advanced unresectable or metastatic malignant perivascular epithelioid cell tumor (PEComa). FYARRO is an mTOR inhibitor indicated for the treatment of adult patients with locally advanced unresectable or metastatic malignant perivascular epithelioid cell tumor (PEComa). ( 1 )": 1,
+      "1 INDICATIONS AND USAGE Sirolimus is an mTOR inhibitor immunosuppressant indicated for the prophylaxis of organ rejection in patients aged \u226513 years receiving renal transplants: Patients at low- to moderate-immunologic risk: Use initially with cyclosporine (CsA) and corticosteroids. CsA withdrawal is recommended 2 - 4 months after transplantation ( 1.1 ). Patients at high-immunologic risk: Use in combination with CsA and corticosteroids for the first 12 months following transplantation ( 1.1 ). ": 1,
+      "1 INDICATIONS AND USAGE \u2022 Sirolimus tablet is an mTOR inhibitor immunosuppressant indicated for the prophylaxis of organ rejection in patients aged \u226513 years receiving renal transplants: o Patients at low-to moderate-immunologic risk: Use initially with cyclosporine (CsA) and corticosteroids. CsA withdrawal is recommended 2-4 months after transplantation ( 1.1 ). o Patients at high-immunologic risk: Use in combination with CsA and corticosteroids for the first 12 months following transplantation": 1,
+      "1 INDICATIONS AND USAGE Sirolimus is an mTOR inhibitor immunosuppressant indicated for the prophylaxis of organ rejection in patients aged \u226513 years receiving renal transplants: Patients at low-to moderate-immunologic risk: Use initially with cyclosporine (CsA) and corticosteroids. CsA withdrawal is recommended 2 to 4 months after transplantation ( 1.1 ). Patients at high-immunologic risk: Use in combination with CsA and corticosteroids for the first 12 months following transplantation (1.1) . S": 1
+    },
+    "drug_classes": {
+      "mTOR Inhibitor Immunosuppressant [EPC]": 5
+    }
+  },
+  "news": {
+    "count": 15,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "aging-us.com": 2,
+      "gethealthspan.com": 2,
+      "youtube.com": 2,
+      "eurekalert.org": 1,
+      "drdavidfein.com": 1,
+      "lifespan.io": 1,
+      "archivesofmedicalscience.com": 1,
+      "nad.com": 1,
+      "news.uthscsa.edu": 1,
+      "touroscholar.touro.edu": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "longevity": 34,
+      "Biohackers": 13,
+      "supplements": 3
+    },
+    "total_score": 11248,
+    "mean_score": 225.0,
+    "total_comments": 3588,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 42,
+    "total_citations": 666,
+    "mean_citations": 15.9,
+    "max_citations": 565,
+    "open_access": 35,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 57,
+    "data_points_count": 262
+  }
+}

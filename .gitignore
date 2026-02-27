@@ -7,10 +7,14 @@ build/
 *.egg
 
 .env
-data/chroma_db/
+
+# SQLite database (regenerable, binary)
 data/longevity_lens.db
-data/anage
-data/drugage
+*.sqlite
+*.db
+
+# Old/unused
+data/chroma_db/
 
 .venv/
 venv/
@@ -19,6 +23,5 @@ venv/
 .pytest_cache/
 .mypy_cache/
 
-*.sqlite
-*.db
+.DS_Store
 
