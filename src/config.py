@@ -6,7 +6,23 @@ from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+import os
+from dotenv import load_dotenv
+from google.genai import types
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+load_dotenv()  # reads .env from project root
+
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+# OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
+
+retry_config=types.HttpRetryOptions(
+    attempts=5,  # Maximum retry attempts
+    exp_base=7,  # Delay multiplier
+    initial_delay=1, # Initial delay before first retry (in seconds)
+    http_status_codes=[429, 500, 503, 504] # Retry on these HTTP errors
+)
 
 
 class LLMProvider(str, Enum):

@@ -4,7 +4,7 @@ import google.genai as genai
 from langgraph.graph import StateGraph, START, END
 
 from config import GOOGLE_API_KEY
-from my_agent.tools import search_pubmed
+from agents.tools import search_pubmed
 
 
 class BioState(TypedDict):
