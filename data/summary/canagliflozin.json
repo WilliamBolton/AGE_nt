@@ -1,0 +1,233 @@
+{
+  "intervention": "canagliflozin",
+  "aliases": [
+    "invokana",
+    "SGLT2 inhibitor"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 266,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "news": 29,
+    "social": 16,
+    "regulatory": 15,
+    "drugage": 6
+  },
+  "date_range": {
+    "earliest": "2007-01-01",
+    "latest": "2026-03-01"
+  },
+  "by_year": {
+    "2007": 1,
+    "2008": 2,
+    "2009": 1,
+    "2010": 2,
+    "2012": 2,
+    "2013": 2,
+    "2015": 3,
+    "2016": 9,
+    "2017": 5,
+    "2018": 7,
+    "2019": 8,
+    "2020": 14,
+    "2021": 8,
+    "2022": 16,
+    "2023": 18,
+    "2024": 40,
+    "2025": 75,
+    "2026": 53
+  },
+  "academic": {
+    "unique_authors": 1201,
+    "unique_journals": 50,
+    "top_journals": {
+      "GeroScience": 9,
+      "Aging (Albany NY)": 7,
+      "Aging Cell": 7,
+      "Nature Aging": 6,
+      "Frontiers in Aging": 6,
+      "International journal of molecular sciences": 4,
+      "Biogerontology": 4,
+      "Aging and Disease": 4,
+      "Ageing research reviews": 3,
+      "Diabetic medicine : a journal of the British Diabetic Association": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 12,
+      "Research Support, Non-U.S. Gov't": 11,
+      "Research Support, N.I.H., Extramural": 4,
+      "Randomized Controlled Trial": 3,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 2,
+      "Multicenter Study": 1,
+      "Comparative Study": 1
+    },
+    "top_mesh_terms": {
+      "Animals": 38,
+      "Sodium-Glucose Transporter 2 Inhibitors": 33,
+      "Aging": 29,
+      "Male": 28,
+      "Mice": 27,
+      "Humans": 24,
+      "Cellular Senescence": 23,
+      "Glucosides": 19,
+      "Benzhydryl Compounds": 18,
+      "Diabetes Mellitus, Type 2": 15,
+      "Mice, Inbred C57BL": 15,
+      "Female": 14,
+      "Sodium-Glucose Transporter 2": 9,
+      "Disease Models, Animal": 9,
+      "Canagliflozin": 8
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE4": 12,
+      "Unknown": 9,
+      "PHASE2": 9,
+      "PHASE3": 7,
+      "NA": 7,
+      "PHASE1": 6
+    },
+    "by_status": {
+      "COMPLETED": 39,
+      "RECRUITING": 4,
+      "NOT_YET_RECRUITING": 3,
+      "SUSPENDED": 1,
+      "UNKNOWN": 1,
+      "TERMINATED": 1,
+      "ENROLLING_BY_INVITATION": 1
+    },
+    "total_enrollment": 362594,
+    "median_enrollment": 89.0,
+    "with_results": 16,
+    "top_sponsors": {
+      "Janssen Research & Development, LLC": 6,
+      "Yale University": 2,
+      "Washington University School of Medicine": 2,
+      "Janssen-Cilag International NV": 2,
+      "Theracos": 2,
+      "Johnson & Johnson Pharmaceutical Research & Development, L.L.C.": 2,
+      "Hilda Elizabeth Mac\u00edas Cervantes": 1,
+      "Matteo Cameli": 1,
+      "Albert Einstein Healthcare Network": 1,
+      "Omar Tarek Elfarargi": 1
+    },
+    "top_conditions": {
+      "Diabetes Mellitus, Type 2": 13,
+      "Healthy": 3,
+      "Diabete Type 2": 2,
+      "Heart Failure With Reduced Ejection Fraction": 2,
+      "Acute Kidney Injury": 2,
+      "Heart Failure With Preserved Ejection Fraction (HFPEF)": 2,
+      "Obesity": 2,
+      "Type 2 Diabetes": 2,
+      "Unstable Angina": 1,
+      "Myocardial Infarction": 1
+    }
+  },
+  "drugage": {
+    "count": 6,
+    "by_species": {
+      "Mus musculus": 6
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Female": 3,
+      "Male": 3
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "1 INDICATIONS AND USAGE SYNJARDY SYNJARDY is a combination of empagliflozin, a sodium-glucose co-transporter 2 (SGLT2) inhibitor and metformin hydrochloride (HCl) immediate-release, a biguanide, indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients aged 10 years and older with type 2 diabetes mellitus. SYNJARDY XR SYNJARDY XR is a combination of empagliflozin, a SGLT2 inhibitor and metformin HCl extended-release, a biguanide, indicated as an ad": 1,
+      "1 INDICATIONS AND USAGE JARDIANCE is indicated: to reduce the risk of cardiovascular death and hospitalization for heart failure in adults with heart failure. to reduce the risk of cardiovascular death in adults with type 2 diabetes mellitus and established cardiovascular disease. as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. JARDIANCE is a sodium-glucose co-transporter 2 (SGLT2) inhibitor indicated: To reduce the risk of cardiovascular d": 1,
+      "1 INDICATIONS AND USAGE JARDIANCE is indicated: to reduce the risk of cardiovascular death and hospitalization for heart failure in adults with heart failure. to reduce the risk of sustained decline in eGFR, end-stage kidney disease, cardiovascular death, and hospitalization in adults with chronic kidney disease at risk of progression. to reduce the risk of cardiovascular death in adults with type 2 diabetes mellitus and established cardiovascular disease. as an adjunct to diet and exercise to i": 1,
+      "1 INDICATIONS AND USAGE JARDIANCE is indicated: \u2022 to reduce the risk of cardiovascular death and hospitalization for heart failure in adults with heart failure. \u2022 to reduce the risk of sustained decline in eGFR, end-stage kidney disease, cardiovascular death, and hospitalization in adults with chronic kidney disease at risk of progression. \u2022 to reduce the risk of cardiovascular death in adults with type 2 diabetes mellitus and established cardiovascular disease. \u2022 as an adjunct to diet and exerc": 1,
+      "1 INDICATIONS AND USAGE TRIJARDY XR is a combination of empagliflozin, linagliptin, and metformin hydrochloride (HCl) indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus . Empagliflozin is indicated to reduce the risk of cardiovascular (CV) death in adults with type 2 diabetes mellitus and established CV disease [see Clinical Studies (14.2) ] . TRIJARDY XR is a combination of empagliflozin, a sodium-glucose co-transporter 2 (SGLT2) inh": 1
+    },
+    "drug_classes": {
+      "Sodium-Glucose Cotransporter 2 Inhibitor [EPC]": 4,
+      "Dipeptidyl Peptidase 4 Inhibitor [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 29,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "gethealthspan.com": 5,
+      "agelessrx.com": 2,
+      "longevies.com": 2,
+      "news-medical.net": 2,
+      "journals.viamedica.pl": 2,
+      "nad.com": 2,
+      "pharmacia.pensoft.net": 1,
+      "antpublisher.com": 1,
+      "diabetesjournals.org": 1,
+      "diabetesincontrol.com": 1
+    }
+  },
+  "social": {
+    "count": 16,
+    "by_platform": {
+      "reddit": 16
+    },
+    "top_subreddits": {
+      "Biohackers": 8,
+      "longevity": 7,
+      "supplements": 1
+    },
+    "total_score": 1104,
+    "mean_score": 69.0,
+    "total_comments": 410,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 191,
+    "mean_citations": 3.8,
+    "max_citations": 51,
+    "open_access": 49,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2249,
+    "mean_citations": 45.0,
+    "max_citations": 350,
+    "total_influential_citations": 58,
+    "open_access": 37
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-23",
+    "current_interest": 50,
+    "data_points_count": 261
+  }
+}

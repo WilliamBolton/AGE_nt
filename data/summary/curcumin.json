@@ -1,0 +1,264 @@
+{
+  "intervention": "curcumin",
+  "aliases": [
+    "turmeric extract",
+    "diferuloylmethane"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 357,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "drugage": 43,
+    "news": 12,
+    "regulatory": 2
+  },
+  "date_range": {
+    "earliest": "2005-10-06",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2005": 1,
+    "2007": 1,
+    "2008": 2,
+    "2009": 3,
+    "2010": 1,
+    "2011": 1,
+    "2012": 2,
+    "2013": 8,
+    "2014": 3,
+    "2015": 1,
+    "2016": 7,
+    "2017": 8,
+    "2018": 20,
+    "2019": 18,
+    "2020": 55,
+    "2021": 15,
+    "2022": 28,
+    "2023": 29,
+    "2024": 39,
+    "2025": 84,
+    "2026": 31
+  },
+  "academic": {
+    "unique_authors": 799,
+    "unique_journals": 68,
+    "top_journals": {
+      "International journal of molecular sciences": 8,
+      "GeroScience": 4,
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology": 3,
+      "Critical reviews in food science and nutrition": 3,
+      "Aging (Albany NY)": 3,
+      "Aging and Disease": 3,
+      "Nutrients": 2,
+      "Ageing research reviews": 2,
+      "Scientific reports": 2,
+      "Experimental gerontology": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 23,
+      "Research Support, Non-U.S. Gov't": 8,
+      "Systematic Review": 7,
+      "Randomized Controlled Trial": 2,
+      "Meta-Analysis": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1,
+      "Retracted Publication": 1,
+      "English Abstract": 1,
+      "Research Support, N.I.H., Extramural": 1
+    },
+    "top_mesh_terms": {
+      "Curcumin": 41,
+      "Humans": 36,
+      "Aging": 31,
+      "Animals": 29,
+      "Oxidative Stress": 17,
+      "Antioxidants": 12,
+      "Male": 11,
+      "Longevity": 11,
+      "Cellular Senescence": 11,
+      "Mice": 10,
+      "Aged": 8,
+      "Inflammation": 8,
+      "Dietary Supplements": 7,
+      "Rats": 7,
+      "Anti-Inflammatory Agents": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 29,
+      "PHASE2": 9,
+      "PHASE1": 5,
+      "PHASE4": 4,
+      "EARLY_PHASE1": 2,
+      "PHASE3": 1
+    },
+    "by_status": {
+      "COMPLETED": 45,
+      "UNKNOWN": 3,
+      "ACTIVE_NOT_RECRUITING": 1,
+      "RECRUITING": 1
+    },
+    "total_enrollment": 4079,
+    "median_enrollment": 58.0,
+    "with_results": 6,
+    "top_sponsors": {
+      "University of Florida": 2,
+      "Appalachian State University": 2,
+      "University of Hohenheim": 1,
+      "University of Reading": 1,
+      "Indena S.p.A": 1,
+      "Washington University School of Medicine": 1,
+      "Government College of Dentistry, Indore": 1,
+      "Merck KGaA, Darmstadt, Germany": 1,
+      "NXTVSION SDN. BHD.": 1,
+      "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico": 1
+    },
+    "top_conditions": {
+      "Healthy": 3,
+      "Mild Cognitive Impairment": 2,
+      "Healthy Adults": 2,
+      "Pharmacokinetics of Novel Curcumin Formulations": 1,
+      "Safety of Novel Curcumin Formulations": 1,
+      "Cognitive Change": 1,
+      "Mood": 1,
+      "Metabolism": 1,
+      "Inflammatory Response": 1,
+      "Satiety": 1
+    }
+  },
+  "drugage": {
+    "count": 43,
+    "by_species": {
+      "Drosophila melanogaster": 37,
+      "Caenorhabditis elegans": 4,
+      "Mus musculus": 2
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Female": 18,
+      "Male": 14,
+      "Unknown": 11
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 13180784.0,
+    "mean_funding_usd": 321482.54,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 26,
+      "NIEHS": 7,
+      "NHLBI": 2,
+      "NIDCD": 2,
+      "NIAMS": 2,
+      "NINDS": 1,
+      "NCCIH": 1
+    },
+    "top_organisations": {
+      "BOSTON UNIVERSITY MEDICAL CAMPUS": 7,
+      "NATIONAL INSTITUTE ON AGING": 7,
+      "UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN": 7,
+      "MASSACHUSETTS GENERAL HOSPITAL": 5,
+      "STRATTON VETERANS ADMIN MEDICAL CENTER": 5,
+      "UNIVERSITY OF FLORIDA": 4,
+      "WM S. MIDDLETON MEMORIAL VETERANS HOSP": 4,
+      "UNIVERSITY OF TENNESSEE HEALTH SCI CTR": 2,
+      "UNIVERSITY OF IOWA": 2,
+      "TUFTS UNIVERSITY BOSTON": 2
+    },
+    "by_fiscal_year": {
+      "2018": 6,
+      "2019": 6,
+      "2020": 5,
+      "2021": 7,
+      "2022": 8,
+      "2023": 6,
+      "2024": 6,
+      "2025": 4,
+      "2026": 2
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 2,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 12,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "lifeextension.com": 2,
+      "aging-us.com": 2,
+      "journals.sagepub.com": 2,
+      "longevity-ai.com": 1,
+      "ovid.com": 1,
+      "iherb.com": 1,
+      "lifespa.com": 1,
+      "healthline.com": 1,
+      "newsroom.ucla.edu": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "supplements": 29,
+      "Biohackers": 21
+    },
+    "total_score": 1938,
+    "mean_score": 38.8,
+    "total_comments": 1802,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 254,
+    "mean_citations": 5.1,
+    "max_citations": 82,
+    "open_access": 42,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2220,
+    "mean_citations": 44.4,
+    "max_citations": 350,
+    "total_influential_citations": 58,
+    "open_access": 34
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 47,
+    "data_points_count": 261
+  }
+}

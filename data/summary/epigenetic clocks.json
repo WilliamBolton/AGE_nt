@@ -1,0 +1,204 @@
+{
+  "intervention": "epigenetic clocks",
+  "aliases": [
+    "Horvath clock",
+    "GrimAge",
+    "PhenoAge",
+    "DunedinPACE",
+    "methylation clock"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 248,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "news": 26,
+    "social": 22
+  },
+  "date_range": {
+    "earliest": "2015-01-01",
+    "latest": "2026-03-01"
+  },
+  "by_year": {
+    "2015": 1,
+    "2017": 4,
+    "2018": 2,
+    "2019": 7,
+    "2020": 8,
+    "2021": 12,
+    "2022": 20,
+    "2023": 17,
+    "2024": 46,
+    "2025": 85,
+    "2026": 46
+  },
+  "academic": {
+    "unique_authors": 1331,
+    "unique_journals": 55,
+    "top_journals": {
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 8,
+      "GeroScience": 7,
+      "Aging": 5,
+      "bioRxiv": 5,
+      "Nature aging": 4,
+      "JAMA network open": 3,
+      "Aging cell": 3,
+      "Genome Biology": 3,
+      "Aging Cell": 3,
+      "Aging (Albany NY)": 3
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, N.I.H., Extramural": 17,
+      "Research Support, Non-U.S. Gov't": 15,
+      "Systematic Review": 9,
+      "Meta-Analysis": 8,
+      "Review": 7,
+      "Twin Study": 4,
+      "Randomized Controlled Trial": 3,
+      "Research Support, N.I.H., Intramural": 2,
+      "Clinical Trial": 1,
+      "Multicenter Study": 1
+    },
+    "top_mesh_terms": {
+      "DNA Methylation": 49,
+      "Aging": 48,
+      "Humans": 47,
+      "Epigenesis, Genetic": 46,
+      "Female": 26,
+      "Male": 25,
+      "Middle Aged": 19,
+      "Aged": 17,
+      "Epigenomics": 13,
+      "Adult": 12,
+      "Biomarkers": 11,
+      "Animals": 10,
+      "Aged, 80 and over": 7,
+      "Longitudinal Studies": 7,
+      "Life Style": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 19,
+      "Unknown": 14,
+      "PHASE2": 7,
+      "PHASE1": 5,
+      "EARLY_PHASE1": 2,
+      "PHASE4": 2,
+      "PHASE3": 1
+    },
+    "by_status": {
+      "RECRUITING": 18,
+      "COMPLETED": 9,
+      "NOT_YET_RECRUITING": 7,
+      "UNKNOWN": 6,
+      "ACTIVE_NOT_RECRUITING": 6,
+      "WITHDRAWN": 3,
+      "ENROLLING_BY_INVITATION": 1
+    },
+    "total_enrollment": 283573,
+    "median_enrollment": 96,
+    "with_results": 2,
+    "top_sponsors": {
+      "National University of Singapore": 4,
+      "University of Primorska": 2,
+      "Mayo Clinic": 2,
+      "Odense University Hospital": 2,
+      "PINER Pastor Manfredi Winery": 1,
+      "Ankara Etlik City Hospital": 1,
+      "Peking University": 1,
+      "The University of Texas Health Science Center at San Antonio": 1,
+      "Technical University of Munich": 1,
+      "BlueBird Age Reversal SA": 1
+    },
+    "top_conditions": {
+      "Aging": 20,
+      "Obesity": 4,
+      "Healthy Aging": 3,
+      "Aging, Biological": 3,
+      "Healthy": 3,
+      "Longevity": 2,
+      "Biological Aging": 2,
+      "Menopause Hot Flashes": 2,
+      "Aging, Healthy": 2,
+      "Epigenetic Aging": 2
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 26,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "youtube.com": 3,
+      "tandfonline.com": 2,
+      "jinfiniti.com": 2,
+      "aging-us.com": 2,
+      "foundmyfitness.com": 1,
+      "umu.se": 1,
+      "stjude.org": 1,
+      "cnio.es": 1,
+      "lifespan.io": 1,
+      "embl.org": 1
+    }
+  },
+  "social": {
+    "count": 22,
+    "by_platform": {
+      "reddit": 22
+    },
+    "top_subreddits": {
+      "Biohackers": 12,
+      "longevity": 9,
+      "supplements": 1
+    },
+    "total_score": 3230,
+    "mean_score": 146.8,
+    "total_comments": 915,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 83,
+    "mean_citations": 1.7,
+    "max_citations": 50,
+    "open_access": 43,
+    "preprints": 2,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2262,
+    "mean_citations": 45.2,
+    "max_citations": 793,
+    "total_influential_citations": 73,
+    "open_access": 30
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 16,
+    "data_points_count": 261
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "intervention": "ubx0101",
+  "aliases": [
+    "Unity Biotechnology senolytic"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 177,
+  "by_source_type": {
+    "pubmed": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "news": 21,
+    "clinicaltrials": 4,
+    "social": 2
+  },
+  "date_range": {
+    "earliest": "2004-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2004": 1,
+    "2007": 1,
+    "2012": 1,
+    "2016": 2,
+    "2017": 2,
+    "2018": 5,
+    "2019": 9,
+    "2020": 9,
+    "2021": 4,
+    "2022": 9,
+    "2023": 20,
+    "2024": 41,
+    "2025": 52,
+    "2026": 21
+  },
+  "academic": {
+    "unique_authors": 1243,
+    "unique_journals": 46,
+    "top_journals": {
+      "Aging cell": 8,
+      "Aging (Albany NY)": 8,
+      "Nature communications": 7,
+      "Frontiers in Aging": 6,
+      "Aging Cell": 6,
+      "International journal of molecular sciences": 5,
+      "Nature medicine": 4,
+      "Nature Aging": 4,
+      "Aging and Disease": 4,
+      "Nature reviews. Drug discovery": 3
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 18,
+      "Review": 17,
+      "Research Support, N.I.H., Extramural": 9,
+      "Clinical Trial, Phase II": 3,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 3,
+      "Randomized Controlled Trial": 2,
+      "Clinical Trial, Phase I": 2,
+      "Multicenter Study": 1,
+      "Clinical Trial": 1
+    },
+    "top_mesh_terms": {
+      "Senotherapeutics": 48,
+      "Cellular Senescence": 47,
+      "Humans": 42,
+      "Animals": 37,
+      "Mice": 26,
+      "Aging": 21,
+      "Male": 16,
+      "Female": 12,
+      "Senescence-Associated Secretory Phenotype": 11,
+      "Mice, Inbred C57BL": 9,
+      "Dasatinib": 8,
+      "Aged": 7,
+      "Disease Models, Animal": 6,
+      "Middle Aged": 5,
+      "Biomarkers": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 4,
+    "by_phase": {
+      "PHASE1": 2,
+      "PHASE2": 1,
+      "Unknown": 1
+    },
+    "by_status": {
+      "COMPLETED": 3,
+      "TERMINATED": 1
+    },
+    "total_enrollment": 457,
+    "median_enrollment": 119.5,
+    "with_results": 1,
+    "top_sponsors": {
+      "Unity Biotechnology, Inc.": 4
+    },
+    "top_conditions": {
+      "Osteoarthritis, Knee": 2,
+      "Knee Osteoarthritis": 2
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 21,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "globenewswire.com": 2,
+      "fightaging.org": 2,
+      "biospace.com": 2,
+      "firstwordpharma.com": 2,
+      "youtube.com": 1,
+      "cnn.com": 1,
+      "buckinstitute.org": 1,
+      "prnewswire.com": 1,
+      "oarsijournal.com": 1,
+      "fiercebiotech.com": 1
+    }
+  },
+  "social": {
+    "count": 2,
+    "by_platform": {
+      "reddit": 2
+    },
+    "top_subreddits": {
+      "longevity": 2
+    },
+    "total_score": 57,
+    "mean_score": 28.5,
+    "total_comments": 51,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 5044,
+    "mean_citations": 100.9,
+    "max_citations": 968,
+    "open_access": 40,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2398,
+    "mean_citations": 48.0,
+    "max_citations": 350,
+    "total_influential_citations": 61,
+    "open_access": 37
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-09-28",
+    "current_interest": 4,
+    "data_points_count": 261
+  }
+}

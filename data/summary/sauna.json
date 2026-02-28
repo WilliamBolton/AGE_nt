@@ -1,0 +1,241 @@
+{
+  "intervention": "sauna",
+  "aliases": [
+    "heat therapy",
+    "heat shock proteins",
+    "infrared sauna",
+    "Finnish sauna"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 263,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "news": 35,
+    "social": 20,
+    "nih_grant": 8
+  },
+  "date_range": {
+    "earliest": "1976-11-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1976": 1,
+    "1981": 1,
+    "1987": 1,
+    "1988": 1,
+    "2000": 1,
+    "2005": 2,
+    "2006": 1,
+    "2007": 3,
+    "2008": 3,
+    "2009": 2,
+    "2010": 3,
+    "2011": 3,
+    "2012": 3,
+    "2013": 1,
+    "2014": 2,
+    "2015": 5,
+    "2016": 8,
+    "2017": 6,
+    "2018": 13,
+    "2019": 10,
+    "2020": 13,
+    "2021": 14,
+    "2022": 18,
+    "2023": 18,
+    "2024": 30,
+    "2025": 50,
+    "2026": 50
+  },
+  "academic": {
+    "unique_authors": 1052,
+    "unique_journals": 63,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Frontiers in Aging": 6,
+      "Aging Cell": 6,
+      "Nature Aging": 5,
+      "Aging and Disease": 4,
+      "Complementary therapies in medicine": 3,
+      "Aging Clinical and Experimental Research": 3,
+      "Physiological reports": 2,
+      "Rheumatology international": 2,
+      "Journal of applied physiology (Bethesda, Md. : 1985)": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 47,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 17,
+      "Review": 7,
+      "Randomized Controlled Trial": 6,
+      "Clinical Trial": 3,
+      "Systematic Review": 2,
+      "Case Reports": 2,
+      "Meta-Analysis": 2,
+      "Consensus Statement": 1,
+      "Scoping Review": 1,
+      "Comparative Study": 1,
+      "Research Support, N.I.H., Extramural": 1
+    },
+    "top_mesh_terms": {
+      "Humans": 48,
+      "Steam Bath": 48,
+      "Male": 37,
+      "Middle Aged": 31,
+      "Adult": 23,
+      "Female": 23,
+      "Aged": 20,
+      "Cardiovascular Diseases": 11,
+      "Prospective Studies": 10,
+      "Risk Factors": 9,
+      "Finland": 7,
+      "Aged, 80 and over": 7,
+      "Blood Pressure": 6,
+      "Baths": 6,
+      "Surveys and Questionnaires": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 34,
+      "Unknown": 8,
+      "PHASE1": 4,
+      "PHASE2": 3,
+      "PHASE3": 1
+    },
+    "by_status": {
+      "COMPLETED": 34,
+      "RECRUITING": 6,
+      "ACTIVE_NOT_RECRUITING": 3,
+      "UNKNOWN": 3,
+      "NOT_YET_RECRUITING": 2,
+      "WITHDRAWN": 1,
+      "ENROLLING_BY_INVITATION": 1
+    },
+    "total_enrollment": 5024,
+    "median_enrollment": 60,
+    "with_results": 4,
+    "top_sponsors": {
+      "University of Gran Rosario": 2,
+      "University of Sao Paulo General Hospital": 2,
+      "University Medical Center Groningen": 1,
+      "Istanbul University - Cerrahpasa": 1,
+      "Manhattan Eye, Ear & Throat Hospital": 1,
+      "Palmer College of Chiropractic": 1,
+      "Sheffield Children's NHS Foundation Trust": 1,
+      "University of Delaware": 1,
+      "International Centre for Diarrhoeal Disease Research, Bangladesh": 1,
+      "University of Texas Southwestern Medical Center": 1
+    },
+    "top_conditions": {
+      "Breast Cancer": 2,
+      "Low Back Pain": 2,
+      "Chronic Low Back Pain": 2,
+      "Fibromyalgia": 2,
+      "Osteoarthritis, Knee": 2,
+      "Preterm": 1,
+      "Motor": 1,
+      "Development, Infant": 1,
+      "Therapy": 1,
+      "TMD": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 8,
+    "total_funding_usd": 1952252.0,
+    "mean_funding_usd": 244031.5,
+    "by_mechanism": {},
+    "by_institute": {
+      "NHLBI": 3,
+      "NIA": 2,
+      "NCRR": 2,
+      "OD": 1
+    },
+    "top_organisations": {
+      "UNIVERSITY OF OREGON": 4,
+      "PENNSYLVANIA STATE UNIV HERSHEY MED CTR": 2,
+      "UNIVERSITY OF COLORADO": 1,
+      "MEDICAL COLLEGE OF WISCONSIN": 1
+    },
+    "by_fiscal_year": {
+      "2007": 1,
+      "2008": 1,
+      "2019": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 35,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "foundmyfitness.com": 2,
+      "celsiumwellness.com": 2,
+      "steamandsaunaexperts.com": 2,
+      "examine.com": 2,
+      "gethealthspan.com": 2,
+      "youtube.com": 2,
+      "peakprimalwellness.com": 1,
+      "cleanslatewax.com": 1,
+      "lifespan.io": 1,
+      "healingsauna.com": 1
+    }
+  },
+  "social": {
+    "count": 20,
+    "by_platform": {
+      "reddit": 20
+    },
+    "top_subreddits": {
+      "Biohackers": 15,
+      "supplements": 5
+    },
+    "total_score": 748,
+    "mean_score": 37.4,
+    "total_comments": 872,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 112,
+    "mean_citations": 2.2,
+    "max_citations": 22,
+    "open_access": 29,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2193,
+    "mean_citations": 43.9,
+    "max_citations": 350,
+    "total_influential_citations": 58,
+    "open_access": 37
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-12-28",
+    "current_interest": 66,
+    "data_points_count": 261
+  }
+}

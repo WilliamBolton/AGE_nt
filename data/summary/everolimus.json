@@ -1,0 +1,260 @@
+{
+  "intervention": "everolimus",
+  "aliases": [
+    "afinitor",
+    "RAD001"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 217,
+  "by_source_type": {
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "nih_grant": 50,
+    "pubmed": 39,
+    "news": 13,
+    "regulatory": 10,
+    "social": 3,
+    "drugage": 1,
+    "patent": 1
+  },
+  "date_range": {
+    "earliest": "2004-12-03",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2004": 1,
+    "2005": 3,
+    "2007": 4,
+    "2008": 2,
+    "2009": 5,
+    "2010": 2,
+    "2011": 6,
+    "2012": 1,
+    "2013": 7,
+    "2014": 6,
+    "2015": 6,
+    "2016": 4,
+    "2017": 6,
+    "2018": 4,
+    "2019": 5,
+    "2020": 11,
+    "2021": 8,
+    "2022": 8,
+    "2023": 20,
+    "2024": 24,
+    "2025": 51,
+    "2026": 33
+  },
+  "academic": {
+    "unique_authors": 628,
+    "unique_journals": 34,
+    "top_journals": {
+      "International journal of molecular sciences": 4,
+      "Cell death & disease": 2,
+      "Journal of medicinal chemistry": 2,
+      "The lancet. Healthy longevity": 1,
+      "Nature aging": 1,
+      "JAMA": 1,
+      "Journal of cellular physiology": 1,
+      "Lung cancer (Amsterdam, Netherlands)": 1,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 1,
+      "Aging": 1
+    }
+  },
+  "pubmed": {
+    "count": 39,
+    "peer_reviewed": 39,
+    "with_doi": 39,
+    "publication_types": {
+      "Journal Article": 39,
+      "Review": 15,
+      "Research Support, Non-U.S. Gov't": 7,
+      "Clinical Trial, Phase II": 2,
+      "Research Support, N.I.H., Extramural": 2,
+      "Clinical Trial, Phase III": 1,
+      "Randomized Controlled Trial": 1,
+      "Multicenter Study": 1,
+      "Historical Article": 1
+    },
+    "top_mesh_terms": {
+      "MTOR Inhibitors": 39,
+      "Humans": 35,
+      "TOR Serine-Threonine Kinases": 30,
+      "Animals": 28,
+      "Autophagy": 25,
+      "Signal Transduction": 17,
+      "Mice": 16,
+      "Sirolimus": 13,
+      "Cell Line, Tumor": 12,
+      "Aging": 10,
+      "Cell Proliferation": 9,
+      "Antineoplastic Agents": 9,
+      "Female": 8,
+      "Disease Models, Animal": 6,
+      "Cellular Senescence": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE4": 12,
+      "PHASE1": 12,
+      "PHASE2": 10,
+      "NA": 7,
+      "PHASE3": 4,
+      "Unknown": 3,
+      "EARLY_PHASE1": 2
+    },
+    "by_status": {
+      "COMPLETED": 44,
+      "TERMINATED": 2,
+      "UNKNOWN": 2,
+      "NOT_YET_RECRUITING": 1,
+      "RECRUITING": 1
+    },
+    "total_enrollment": 13199,
+    "median_enrollment": 52.5,
+    "with_results": 17,
+    "top_sponsors": {
+      "Novartis Pharmaceuticals": 6,
+      "M.D. Anderson Cancer Center": 3,
+      "University Medical Center Groningen": 2,
+      "Yonsei University": 2,
+      "Memorial Sloan Kettering Cancer Center": 2,
+      "University Hospital, Strasbourg, France": 1,
+      "Universita di Verona": 1,
+      "Jules Bordet Institute": 1,
+      "North Texas Veterans Healthcare System": 1,
+      "Assistance Publique - H\u00f4pitaux de Paris": 1
+    },
+    "top_conditions": {
+      "Breast Cancer": 4,
+      "Coronary Artery Disease": 4,
+      "Kidney Transplantation": 3,
+      "Acute Coronary Syndrome": 3,
+      "Renal Cell Carcinoma": 3,
+      "Metastatic Renal Cell Carcinoma": 2,
+      "Stable Angina": 2,
+      "Liver Transplant": 2,
+      "Solid Tumors": 2,
+      "Lymphoma": 2
+    }
+  },
+  "drugage": {
+    "count": 1,
+    "by_species": {
+      "Drosophila melanogaster": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 30620720.0,
+    "mean_funding_usd": 651504.68,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 20,
+      "NHLBI": 8,
+      "NCI": 6,
+      "NIAMS": 5,
+      "NINDS": 4,
+      "NIAID": 3,
+      "NHGRI": 1
+    },
+    "top_organisations": {
+      "UNIVERSITY OF WISCONSIN-MADISON": 8,
+      "BAYLOR COLLEGE OF MEDICINE": 6,
+      "UNIVERSITY OF ROCHESTER": 5,
+      "DUKE UNIVERSITY": 4,
+      "UNIV OF NORTH CAROLINA CHAPEL HILL": 4,
+      "UNIVERSITY OF PENNSYLVANIA": 4,
+      "YALE UNIVERSITY": 4,
+      "VETERANS HEALTH ADMINISTRATION": 3,
+      "UNIVERSITY OF KENTUCKY": 2,
+      "UT SOUTHWESTERN MEDICAL CENTER": 2
+    },
+    "by_fiscal_year": {
+      "2020": 5,
+      "2021": 5,
+      "2022": 7,
+      "2023": 12,
+      "2024": 12,
+      "2025": 9
+    }
+  },
+  "patents": {
+    "count": 1,
+    "by_status": {},
+    "by_office": {
+      "USPTO": 1
+    },
+    "top_assignees": {}
+  },
+  "regulatory": {
+    "count": 10,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 13,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "gethealthspan.com": 3,
+      "aging-us.com": 2,
+      "withpower.com": 1,
+      "newscientist.com": 1,
+      "konopkalab.medicine.wisc.edu": 1,
+      "technologyreview.com": 1,
+      "nad.com": 1,
+      "oncologynewscentral.com": 1,
+      "nytimes.com": 1,
+      "captimes.com": 1
+    }
+  },
+  "social": {
+    "count": 3,
+    "by_platform": {
+      "reddit": 3
+    },
+    "top_subreddits": {
+      "Biohackers": 1,
+      "longevity": 1,
+      "supplements": 1
+    },
+    "total_score": 177,
+    "mean_score": 59.0,
+    "total_comments": 154,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 864,
+    "mean_citations": 17.3,
+    "max_citations": 565,
+    "open_access": 40,
+    "preprints": 2,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-16",
+    "current_interest": 36,
+    "data_points_count": 261
+  }
+}

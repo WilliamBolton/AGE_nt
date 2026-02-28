@@ -1,0 +1,239 @@
+{
+  "intervention": "nr",
+  "aliases": [
+    "nicotinamide riboside",
+    "niagen",
+    "TRU niagen"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 284,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "social": 50,
+    "news": 19,
+    "drugage": 10,
+    "regulatory": 5
+  },
+  "date_range": {
+    "earliest": "2003-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2003": 1,
+    "2005": 3,
+    "2006": 1,
+    "2007": 2,
+    "2008": 4,
+    "2009": 2,
+    "2010": 3,
+    "2011": 2,
+    "2012": 3,
+    "2013": 3,
+    "2014": 6,
+    "2015": 5,
+    "2016": 8,
+    "2017": 8,
+    "2018": 11,
+    "2019": 20,
+    "2020": 30,
+    "2021": 14,
+    "2022": 9,
+    "2023": 17,
+    "2024": 31,
+    "2025": 59,
+    "2026": 42
+  },
+  "academic": {
+    "unique_authors": 1228,
+    "unique_journals": 58,
+    "top_journals": {
+      "Aging Cell": 11,
+      "Aging cell": 6,
+      "Nature communications": 5,
+      "Cell metabolism": 5,
+      "JCI insight": 3,
+      "Frontiers in Aging": 3,
+      "Nature Aging": 3,
+      "Oxidative Medicine and Cellular Longevity": 3,
+      "GeroScience": 2,
+      "Experimental gerontology": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 23,
+      "Randomized Controlled Trial": 16,
+      "Research Support, N.I.H., Extramural": 10,
+      "Review": 9,
+      "Systematic Review": 3,
+      "Meta-Analysis": 1,
+      "Research Support, N.I.H., Intramural": 1,
+      "Clinical Trial, Phase I": 1,
+      "Observational Study": 1
+    },
+    "top_mesh_terms": {
+      "Niacinamide": 50,
+      "Pyridinium Compounds": 50,
+      "Humans": 38,
+      "NAD": 34,
+      "Animals": 29,
+      "Male": 20,
+      "Mice": 20,
+      "Aging": 16,
+      "Aged": 14,
+      "Middle Aged": 12,
+      "Female": 12,
+      "Dietary Supplements": 11,
+      "Nicotinamide Mononucleotide": 10,
+      "Mitochondria": 10,
+      "Mice, Inbred C57BL": 10
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 14,
+      "PHASE3": 11,
+      "Unknown": 9,
+      "PHASE2": 7,
+      "PHASE4": 5,
+      "EARLY_PHASE1": 2,
+      "PHASE1": 2
+    },
+    "by_status": {
+      "COMPLETED": 45,
+      "UNKNOWN": 2,
+      "TERMINATED": 1,
+      "RECRUITING": 1,
+      "ENROLLING_BY_INVITATION": 1
+    },
+    "total_enrollment": 16611,
+    "median_enrollment": 85.5,
+    "with_results": 16,
+    "top_sponsors": {
+      "University of Zurich": 4,
+      "Haukeland University Hospital": 2,
+      "Hoffmann-La Roche": 2,
+      "Universidad Santo Tomas": 2,
+      "Guerbet": 1,
+      "Triemli Hospital": 1,
+      "Stefano Colagrande": 1,
+      "AIT Austrian Institute of Technology GmbH": 1,
+      "St. Borbala Hospital": 1,
+      "Ajou University School of Medicine": 1
+    },
+    "top_conditions": {
+      "Healthy": 2,
+      "Obesity": 2,
+      "Alzheimer Disease": 1,
+      "Dementia": 1,
+      "Lesion in Body Region": 1,
+      "Gastroesophageal Reflux": 1,
+      "Dyspepsia": 1,
+      "Aortic Diseases": 1,
+      "Liver Metastases": 1,
+      "Hepatocarcinoma": 1
+    }
+  },
+  "drugage": {
+    "count": 10,
+    "by_species": {
+      "Mus musculus": 5,
+      "Saccharomyces cerevisiae": 3,
+      "Caenorhabditis elegans": 1,
+      "Drosophila melanogaster": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 5,
+      "Male": 3,
+      "Female": 2
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 5,
+    "approved_indications": {
+      "INDICATIONS: Provides potentized homeo-nutritional support for the body's natural ability to methylate properly.\u2020 \u2020Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.": 1
+    },
+    "drug_classes": {
+      "Non-Standardized Food Allergenic Extract [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 19,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "lifeextension.com": 2,
+      "longdom.org": 1,
+      "crimsonpublishers.com": 1,
+      "verywellhealth.com": 1,
+      "healthline.com": 1,
+      "advancedfunctionalmedicine.com.au": 1,
+      "fightaging.org": 1,
+      "vailhealth.org": 1,
+      "colorado.edu": 1,
+      "medicine.uiowa.edu": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "longevity": 22,
+      "Biohackers": 17,
+      "supplements": 11
+    },
+    "total_score": 3725,
+    "mean_score": 74.5,
+    "total_comments": 3178,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 186,
+    "mean_citations": 3.7,
+    "max_citations": 80,
+    "open_access": 39,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 3946,
+    "mean_citations": 78.9,
+    "max_citations": 1107,
+    "total_influential_citations": 120,
+    "open_access": 37
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2021-08-29",
+    "current_interest": 66,
+    "data_points_count": 261
+  }
+}

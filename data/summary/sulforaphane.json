@@ -1,0 +1,265 @@
+{
+  "intervention": "sulforaphane",
+  "aliases": [
+    "broccoli extract",
+    "NRF2 activator"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 237,
+  "by_source_type": {
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 46,
+    "news": 24,
+    "social": 8,
+    "pubmed": 4,
+    "drugage": 4,
+    "regulatory": 1
+  },
+  "date_range": {
+    "earliest": "1989-08-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1989": 4,
+    "2000": 5,
+    "2001": 1,
+    "2005": 1,
+    "2006": 1,
+    "2008": 11,
+    "2009": 5,
+    "2010": 7,
+    "2011": 6,
+    "2012": 12,
+    "2013": 12,
+    "2014": 7,
+    "2015": 10,
+    "2016": 14,
+    "2017": 9,
+    "2018": 16,
+    "2019": 11,
+    "2020": 14,
+    "2021": 7,
+    "2022": 9,
+    "2023": 13,
+    "2024": 16,
+    "2025": 17,
+    "2026": 29
+  },
+  "academic": {
+    "unique_authors": 638,
+    "unique_journals": 31,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Frontiers in Aging": 6,
+      "Aging Cell": 4,
+      "Aging and Disease": 3,
+      "Psychology and aging": 2,
+      "NPJ Aging": 2,
+      "Nature Aging": 2,
+      "bioRxiv": 2,
+      "AGE": 2,
+      "Oxidative Medicine and Cellular Longevity": 2
+    }
+  },
+  "pubmed": {
+    "count": 4,
+    "peer_reviewed": 4,
+    "with_doi": 4,
+    "publication_types": {
+      "Journal Article": 4,
+      "Research Support, Non-U.S. Gov't": 2,
+      "Research Support, N.I.H., Extramural": 1,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1
+    },
+    "top_mesh_terms": {
+      "Aging": 4,
+      "Animals": 4,
+      "Brassica": 3,
+      "Mice": 2,
+      "Sulfoxides": 2,
+      "Brain": 2,
+      "Diet": 2,
+      "Inflammation": 2,
+      "Microglia": 2,
+      "Rats": 2,
+      "Rats, Inbred SHR": 2,
+      "Cognitive Dysfunction": 1,
+      "DNA": 1,
+      "Gene Expression": 1,
+      "Hippocampus": 1
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 29,
+      "PHASE2": 11,
+      "EARLY_PHASE1": 3,
+      "PHASE1": 3,
+      "PHASE4": 2,
+      "PHASE3": 1,
+      "Unknown": 1
+    },
+    "by_status": {
+      "COMPLETED": 42,
+      "TERMINATED": 2,
+      "UNKNOWN": 2,
+      "ACTIVE_NOT_RECRUITING": 2,
+      "NOT_YET_RECRUITING": 1,
+      "WITHDRAWN": 1
+    },
+    "total_enrollment": 5166,
+    "median_enrollment": 40,
+    "with_results": 13,
+    "top_sponsors": {
+      "Johns Hopkins University": 6,
+      "Quadram Institute Bioscience": 4,
+      "Central South University": 3,
+      "Johns Hopkins Bloomberg School of Public Health": 3,
+      "Appalachian State University": 2,
+      "University of North Carolina, Chapel Hill": 2,
+      "Helse Stavanger HF": 1,
+      "University of California, San Francisco": 1,
+      "Pharmanex": 1,
+      "Texas Tech University Health Sciences Center": 1
+    },
+    "top_conditions": {
+      "Prostate Cancer": 5,
+      "Schizophrenia": 4,
+      "Autism Spectrum Disorder": 2,
+      "COPD": 2,
+      "Inflammation": 2,
+      "Healthy Volunteers": 2,
+      "Environmental Carcinogenesis": 2,
+      "Healthy": 2,
+      "Healthy Aging": 1,
+      "Healthy Adults": 1
+    }
+  },
+  "drugage": {
+    "count": 4,
+    "by_species": {
+      "Caenorhabditis elegans": 3,
+      "Tribolium castaneum": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 4
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 46,
+    "total_funding_usd": 15241943.0,
+    "mean_funding_usd": 331346.59,
+    "by_mechanism": {},
+    "by_institute": {
+      "NEI": 14,
+      "NIA": 12,
+      "NINDS": 11,
+      "NCI": 9
+    },
+    "top_organisations": {
+      "UNIVERSITY OF OKLAHOMA HLTH SCIENCES CTR": 7,
+      "VANDERBILT UNIVERSITY": 6,
+      "UNIVERSITY OF COLORADO DENVER": 6,
+      "UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN": 5,
+      "JOHNS HOPKINS UNIVERSITY": 5,
+      "UNIVERSITY OF TEXAS HLTH SCI CTR HOUSTON": 5,
+      "OKLAHOMA MEDICAL RESEARCH FOUNDATION": 4,
+      "UNIVERSITY OF VERMONT & ST AGRIC COLLEGE": 2,
+      "UNIVERSITY OF FLORIDA": 2,
+      "NORTHERN ARIZONA UNIVERSITY": 1
+    },
+    "by_fiscal_year": {
+      "2007": 1,
+      "2008": 5,
+      "2009": 5,
+      "2010": 3,
+      "2011": 3,
+      "2012": 4,
+      "2013": 2,
+      "2014": 2,
+      "2015": 3,
+      "2016": 1,
+      "2017": 1,
+      "2018": 4,
+      "2019": 4,
+      "2020": 2,
+      "2021": 3,
+      "2022": 3
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 1,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 24,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "novoslabs.com": 3,
+      "aging-us.com": 2,
+      "purethera.com": 2,
+      "fightaging.org": 1,
+      "read.qxmd.com": 1,
+      "foundmyfitness.com": 1,
+      "chiro.org": 1,
+      "uk.naturecan.com": 1,
+      "medium.com": 1,
+      "cyrildelatorre.substack.com": 1
+    }
+  },
+  "social": {
+    "count": 8,
+    "by_platform": {
+      "reddit": 8
+    },
+    "top_subreddits": {
+      "supplements": 4,
+      "Biohackers": 4
+    },
+    "total_score": 13,
+    "mean_score": 1.6,
+    "total_comments": 114,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 5096,
+    "mean_citations": 101.9,
+    "max_citations": 714,
+    "open_access": 37,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2348,
+    "mean_citations": 47.0,
+    "max_citations": 350,
+    "total_influential_citations": 76,
+    "open_access": 35
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-17",
+    "current_interest": 29,
+    "data_points_count": 261
+  }
+}

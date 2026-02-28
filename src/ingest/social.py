@@ -53,7 +53,7 @@ class SocialAgent(BaseIngestAgent):
 
         async with httpx.AsyncClient(
             timeout=15.0,
-            headers={"User-Agent": "LongevityLens/0.1 (research tool)"},
+            headers={"User-Agent": "AGE-nt/0.1 (research tool)"},
         ) as client:
             for subreddit in SUBREDDITS:
                 try:

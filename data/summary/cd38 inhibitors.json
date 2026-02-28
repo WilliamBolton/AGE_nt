@@ -1,0 +1,228 @@
+{
+  "intervention": "cd38 inhibitors",
+  "aliases": [
+    "apigenin",
+    "quercetin CD38",
+    "78c"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 195,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "news": 15,
+    "social": 15,
+    "regulatory": 10,
+    "drugage": 5
+  },
+  "date_range": {
+    "earliest": "1991-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1991": 1,
+    "2000": 1,
+    "2003": 2,
+    "2004": 1,
+    "2005": 1,
+    "2006": 2,
+    "2007": 1,
+    "2008": 2,
+    "2009": 2,
+    "2010": 1,
+    "2011": 1,
+    "2012": 1,
+    "2013": 1,
+    "2015": 3,
+    "2016": 2,
+    "2017": 7,
+    "2018": 6,
+    "2019": 4,
+    "2020": 10,
+    "2021": 13,
+    "2022": 10,
+    "2023": 12,
+    "2024": 20,
+    "2025": 50,
+    "2026": 41
+  },
+  "academic": {
+    "unique_authors": 687,
+    "unique_journals": 43,
+    "top_journals": {
+      "Aging cell": 3,
+      "European journal of pharmacology": 3,
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)": 2,
+      "Cell reports": 2,
+      "Experimental gerontology": 2,
+      "Cell proliferation": 1,
+      "International journal of food sciences and nutrition": 1,
+      "International journal of molecular medicine": 1,
+      "Cell metabolism": 1,
+      "Nutrients": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 15,
+      "Review": 7,
+      "Research Support, N.I.H., Extramural": 4,
+      "Randomized Controlled Trial": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1
+    },
+    "top_mesh_terms": {
+      "Animals": 32,
+      "Humans": 31,
+      "Aging": 29,
+      "Apigenin": 26,
+      "Cellular Senescence": 21,
+      "Male": 19,
+      "Mice": 17,
+      "Oxidative Stress": 11,
+      "Female": 10,
+      "Signal Transduction": 9,
+      "Reactive Oxygen Species": 9,
+      "Mice, Inbred C57BL": 8,
+      "Fibroblasts": 7,
+      "Longevity": 7,
+      "Inflammation": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE2": 17,
+      "NA": 14,
+      "PHASE1": 7,
+      "Unknown": 7,
+      "PHASE3": 3,
+      "PHASE4": 2
+    },
+    "by_status": {
+      "COMPLETED": 23,
+      "UNKNOWN": 8,
+      "RECRUITING": 6,
+      "NOT_YET_RECRUITING": 5,
+      "TERMINATED": 4,
+      "ACTIVE_NOT_RECRUITING": 2,
+      "WITHDRAWN": 1,
+      "SUSPENDED": 1
+    },
+    "total_enrollment": 12235,
+    "median_enrollment": 50,
+    "with_results": 6,
+    "top_sponsors": {
+      "Stony Brook University": 2,
+      "National Institute of Allergy and Infectious Diseases (NIAID)": 2,
+      "Advancing Clinical Therapeutics Globally for HIV/AIDS and Other Infections": 2,
+      "Hospitales Universitarios Virgen del Roc\u00edo": 1,
+      "Zhujiang Hospital": 1,
+      "Poitiers University Hospital": 1,
+      "Larysa Sanchez": 1,
+      "Assistance Publique Hopitaux De Marseille": 1,
+      "Jinnah Postgraduate Medical Centre": 1,
+      "University of Turin, Italy": 1
+    },
+    "top_conditions": {
+      "HIV Infections": 8,
+      "Multiple Myeloma": 5,
+      "Healthy": 3,
+      "Multiple Myeloma in Relapse": 2,
+      "Coagulation Disorder": 2,
+      "HIV": 2,
+      "HIV Infection": 2,
+      "Relapsed/Refractory Multiple Myeloma": 2,
+      "COVID-19": 2,
+      "Sepsis": 1
+    }
+  },
+  "drugage": {
+    "count": 5,
+    "by_species": {
+      "Mus musculus": 3,
+      "Saccharomyces cerevisiae": 1,
+      "Drosophila melanogaster": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 2,
+      "Female": 2,
+      "Male": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 10,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 15,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "renuebyscience.com": 2,
+      "aging-us.com": 2,
+      "lifespan.io": 2,
+      "openaccessgovernment.org": 1,
+      "myagingtests.com": 1,
+      "dash.harvard.edu": 1,
+      "aboutnad.com": 1,
+      "journals.sagepub.com": 1,
+      "nad.com": 1,
+      "mayoclinic.elsevierpure.com": 1
+    }
+  },
+  "social": {
+    "count": 15,
+    "by_platform": {
+      "reddit": 15
+    },
+    "top_subreddits": {
+      "supplements": 8,
+      "Biohackers": 4,
+      "longevity": 3
+    },
+    "total_score": 311,
+    "mean_score": 20.7,
+    "total_comments": 280,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 190,
+    "mean_citations": 3.8,
+    "max_citations": 80,
+    "open_access": 39,
+    "preprints": 2,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-22",
+    "current_interest": 100,
+    "data_points_count": 261
+  }
+}

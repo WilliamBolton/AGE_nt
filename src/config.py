@@ -52,7 +52,7 @@ class Settings(BaseSettings):
     edison_api_key: str = ""
 
     # Storage
-    database_url: str = "sqlite:///data/longevity_lens.db"
+    database_url: str = "sqlite:///data/age_nt.db"
 
     # Logging
     log_level: str = "INFO"

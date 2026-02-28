@@ -1,4 +1,4 @@
-# ARCHITECTURE.md — LongevityLens Technical Reference
+# ARCHITECTURE.md — AGE-nt Technical Reference
 
 ## Purpose of This Document
 
@@ -257,7 +257,7 @@ data/
 │   └── ...
 ├── classifications/
 │   └── {intervention}.json      # LLM classification results (written by reasoning agents)
-├── longevity_lens.db            # SQLite database (mirrors JSON)
+├── age_nt.db                    # SQLite database (mirrors JSON)
 └── reports/
     └── {intervention}_{timestamp}.json  # Generated reports
 ```

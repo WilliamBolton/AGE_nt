@@ -1,0 +1,246 @@
+{
+  "intervention": "hyperbaric oxygen therapy",
+  "aliases": [
+    "HBOT",
+    "hyperbaric oxygen",
+    "HBO"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 301,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "social": 50,
+    "news": 28,
+    "nih_grant": 23
+  },
+  "date_range": {
+    "earliest": "1976-09-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1976": 6,
+    "1977": 5,
+    "1979": 9,
+    "2000": 3,
+    "2002": 1,
+    "2003": 2,
+    "2004": 3,
+    "2005": 1,
+    "2006": 2,
+    "2007": 1,
+    "2008": 3,
+    "2010": 5,
+    "2011": 1,
+    "2012": 4,
+    "2013": 3,
+    "2014": 3,
+    "2015": 5,
+    "2016": 5,
+    "2017": 6,
+    "2018": 5,
+    "2019": 4,
+    "2020": 10,
+    "2021": 14,
+    "2022": 10,
+    "2023": 21,
+    "2024": 44,
+    "2025": 83,
+    "2026": 42
+  },
+  "academic": {
+    "unique_authors": 701,
+    "unique_journals": 77,
+    "top_journals": {
+      "Science (New York, N.Y.)": 6,
+      "Cell metabolism": 5,
+      "Undersea & hyperbaric medicine : journal of the Undersea and Hyperbaric Medical Society, Inc": 5,
+      "Aging": 3,
+      "Diving and hyperbaric medicine": 3,
+      "Nature": 2,
+      "Annals of the New York Academy of Sciences": 2,
+      "Medecine sciences : M/S": 2,
+      "Cureus": 2,
+      "Science signaling": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 47,
+    "publication_types": {
+      "Journal Article": 49,
+      "Comment": 12,
+      "Review": 11,
+      "Research Support, Non-U.S. Gov't": 4,
+      "Historical Article": 2,
+      "Research Support, U.S. Gov't, P.H.S.": 2,
+      "Clinical Trial": 1,
+      "Autobiography": 1,
+      "Portrait": 1,
+      "Interview": 1,
+      "Comparative Study": 1
+    },
+    "top_mesh_terms": {
+      "Longevity": 43,
+      "Animals": 31,
+      "Humans": 30,
+      "Aging": 24,
+      "Male": 10,
+      "Hyperbaric Oxygenation": 8,
+      "Female": 7,
+      "Mice": 6,
+      "Caenorhabditis elegans": 6,
+      "Age Factors": 5,
+      "Aged": 5,
+      "Oxidative Stress": 5,
+      "Middle Aged": 4,
+      "Epigenesis, Genetic": 4,
+      "Caloric Restriction": 4
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 23,
+      "Unknown": 10,
+      "PHASE2": 6,
+      "PHASE1": 5,
+      "PHASE4": 4,
+      "PHASE3": 1,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 33,
+      "UNKNOWN": 11,
+      "RECRUITING": 3,
+      "ENROLLING_BY_INVITATION": 2,
+      "NOT_YET_RECRUITING": 1
+    },
+    "total_enrollment": 2791,
+    "median_enrollment": 40.0,
+    "with_results": 3,
+    "top_sponsors": {
+      "Assaf-Harofeh Medical Center": 7,
+      "University Health Network, Toronto": 3,
+      "The Hong Kong Polytechnic University": 3,
+      "National Cheng-Kung University Hospital": 2,
+      "Lindell Weaver": 2,
+      "Karolinska Institutet": 2,
+      "Cairo University": 2,
+      "Paul G. Harch, M.D.": 2,
+      "CW Optics, Inc.": 1,
+      "Vachira Phuket Hospital": 1
+    },
+    "top_conditions": {
+      "Healthy": 3,
+      "Gait Disorders, Neurologic": 2,
+      "Aging": 2,
+      "Stroke": 2,
+      "Hyperbaric Oxygen Therapy": 2,
+      "Major Depressive Disorder": 2,
+      "Breast Cancer": 2,
+      "Fibromyalgia": 2,
+      "Healthy Aging": 1,
+      "Brain Injury, Chronic": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 23,
+    "total_funding_usd": 5919152.0,
+    "mean_funding_usd": 257354.43,
+    "by_mechanism": {},
+    "by_institute": {
+      "NEI": 20,
+      "NIGMS": 2,
+      "NIA": 1
+    },
+    "top_organisations": {
+      "OAKLAND UNIVERSITY": 19,
+      "PROGENITEC, INC.": 2,
+      "NORTHEASTERN UNIVERSITY": 1,
+      "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 1
+    },
+    "by_fiscal_year": {
+      "1989": 2,
+      "1990": 2,
+      "1991": 3,
+      "1992": 3,
+      "1993": 3,
+      "1994": 3,
+      "1995": 2,
+      "1997": 1,
+      "1998": 1,
+      "2006": 1,
+      "2016": 1,
+      "2017": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 28,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "effectdoctors.com": 3,
+      "bayareahyperbarics.com": 2,
+      "hyperbaricvermont.org": 1,
+      "hyperbarium.com": 1,
+      "mdhyperbaric.com": 1,
+      "hbotchicago.com": 1,
+      "nexgenhyperbaric.com": 1,
+      "hpotech.com": 1,
+      "hbotusa.com": 1,
+      "aviv-clinics.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 43,
+      "longevity": 6,
+      "supplements": 1
+    },
+    "total_score": 2626,
+    "mean_score": 52.5,
+    "total_comments": 1627,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 147,
+    "mean_citations": 2.9,
+    "max_citations": 38,
+    "open_access": 38,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 149,
+    "mean_citations": 3.0,
+    "max_citations": 47,
+    "total_influential_citations": 9,
+    "open_access": 10
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 47,
+    "data_points_count": 261
+  }
+}

@@ -9,7 +9,7 @@ build/
 .env
 
 # SQLite database (regenerable, binary)
-data/longevity_lens.db
+data/age_nt.db
 *.sqlite
 *.db
 

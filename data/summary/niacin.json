@@ -1,0 +1,280 @@
+{
+  "intervention": "niacin",
+  "aliases": [
+    "nicotinic acid",
+    "vitamin B3"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 313,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "news": 39,
+    "regulatory": 15,
+    "drugage": 9
+  },
+  "date_range": {
+    "earliest": "1988-10-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1988": 1,
+    "1990": 1,
+    "1994": 3,
+    "1995": 1,
+    "1996": 2,
+    "1997": 1,
+    "1999": 5,
+    "2002": 1,
+    "2004": 1,
+    "2005": 4,
+    "2006": 3,
+    "2007": 4,
+    "2008": 8,
+    "2009": 4,
+    "2010": 4,
+    "2011": 3,
+    "2012": 2,
+    "2013": 5,
+    "2014": 2,
+    "2015": 3,
+    "2016": 3,
+    "2017": 15,
+    "2018": 1,
+    "2019": 8,
+    "2020": 16,
+    "2021": 24,
+    "2022": 15,
+    "2023": 19,
+    "2024": 35,
+    "2025": 52,
+    "2026": 67
+  },
+  "academic": {
+    "unique_authors": 790,
+    "unique_journals": 34,
+    "top_journals": {
+      "Annals of the New York Academy of Sciences": 5,
+      "Aging cell": 5,
+      "Cell metabolism": 3,
+      "Drugs & aging": 3,
+      "Cell reports": 2,
+      "Aging": 2,
+      "Science (New York, N.Y.)": 2,
+      "Trends in biochemical sciences": 2,
+      "Experimental gerontology": 1,
+      "International journal of cosmetic science": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 15,
+      "Review": 12,
+      "Randomized Controlled Trial": 9,
+      "Research Support, N.I.H., Extramural": 8,
+      "Clinical Trial": 8,
+      "Comparative Study": 4,
+      "Research Support, U.S. Gov't, P.H.S.": 2,
+      "Systematic Review": 1,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1,
+      "Multicenter Study": 1,
+      "Research Support, N.I.H., Intramural": 1
+    },
+    "top_mesh_terms": {
+      "Aging": 40,
+      "Humans": 35,
+      "Niacinamide": 32,
+      "Animals": 30,
+      "NAD": 18,
+      "Male": 17,
+      "Mice": 16,
+      "Aged": 14,
+      "Pyridinium Compounds": 13,
+      "Female": 13,
+      "Mitochondria": 11,
+      "Cellular Senescence": 11,
+      "Oxidative Stress": 9,
+      "Middle Aged": 9,
+      "Niacin": 7
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE1": 12,
+      "PHASE2": 12,
+      "NA": 11,
+      "PHASE3": 6,
+      "Unknown": 5,
+      "EARLY_PHASE1": 2,
+      "PHASE4": 2
+    },
+    "by_status": {
+      "COMPLETED": 43,
+      "UNKNOWN": 3,
+      "TERMINATED": 3,
+      "RECRUITING": 1
+    },
+    "total_enrollment": 9434,
+    "median_enrollment": 55,
+    "with_results": 11,
+    "top_sponsors": {
+      "Bayer": 3,
+      "Haukeland University Hospital": 2,
+      "National Institute of Allergy and Infectious Diseases (NIAID)": 2,
+      "National Cancer Institute (NCI)": 2,
+      "M.D. Anderson Cancer Center": 2,
+      "GlaxoSmithKline": 1,
+      "University of Washington": 1,
+      "National Cancer Centre, Singapore": 1,
+      "POLYSAN Scientific & Technological Pharmaceutical Company": 1,
+      "Fondazione Policlinico Universitario Agostino Gemelli IRCCS": 1
+    },
+    "top_conditions": {
+      "Carcinoma, Renal Cell": 2,
+      "Atherosclerosis": 2,
+      "Hepatocellular Cancer": 2,
+      "Kidney Cancer": 2,
+      "COVID-19": 2,
+      "Dyslipidemia": 2,
+      "Advanced Cancer": 2,
+      "Coronary Artery Disease": 1,
+      "Carotid Artery Diseases": 1,
+      "Non-Small Cell Lung Cancer": 1
+    }
+  },
+  "drugage": {
+    "count": 9,
+    "by_species": {
+      "Mus musculus": 5,
+      "Saccharomyces cerevisiae": 3,
+      "Caenorhabditis elegans": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 5,
+      "Male": 3,
+      "Female": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 20402989.0,
+    "mean_funding_usd": 523153.56,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 8,
+      "NICHD": 7,
+      "NIGMS": 6,
+      "NEI": 6,
+      "NIDDK": 5,
+      "OD": 3,
+      "NIEHS": 2,
+      "NIAMS": 2
+    },
+    "top_organisations": {
+      "UNIVERSITY OF CALIFORNIA AT DAVIS": 8,
+      "UTAH STATE UNIVERSITY": 7,
+      "UNIVERSITY OF MARYLAND BALTIMORE": 5,
+      "UNIVERSITY OF PENNSYLVANIA": 5,
+      "MIAMI VA HEALTH CARE SYSTEM": 4,
+      "VETERANS HEALTH ADMINISTRATION": 4,
+      "WAYNE STATE UNIVERSITY": 4,
+      "CHARLIE NORWOOD VA MEDICAL CENTER": 3,
+      "NATIONAL INSTITUTE OF ENVIRONMENTAL HEALTH SCIENCES": 2,
+      "UNIVERSITY OF TX MD ANDERSON CAN CTR": 2
+    },
+    "by_fiscal_year": {
+      "2020": 4,
+      "2021": 10,
+      "2022": 7,
+      "2023": 8,
+      "2024": 8,
+      "2025": 10,
+      "2026": 3
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "INDICATIONS AND USAGE Supplementation of the diet with ten essential vitamins. Supplementation of the diet with fluoride for caries prophylaxis. M ultivitamin with Fluoride 0.5 mg Chewable Tablets provide 0.5 mg fluoride in tablet form for children 4-6 years of age in areas where the drinking water fluoride level is less than 0.3 ppm, and for children 6 years of age and above where the drinking water contains 0.3 through 0.6 ppm of fluoride. Multivitamin with Fluoride 0.5 mg Chewable Tablets sup": 1,
+      "INDICATIONS AND USAGE Supplementation of the diet with ten essential vitamins. Supplementation of the diet with fluoride for caries prophylaxis. Multivitamin with Fluoride 0.25 mg Chewable Tablets provide 0.25 mg fluoride in tablet form for children 4-6years of age in areas where the drinking water contains 0.3 through 0.6 ppm of fluoride. Multivitamin with Fluoride 0.25 mg Chewable Tablets supply significant amounts of Vitamins A, C, D, E, thiamine, riboflavin, niacin, vitamin B6, vitamin B12, ": 1,
+      "INDICATIONS Slimming effect, water retention.": 1,
+      "INDICATIONS: Assists in correction of circulatory disorders.\u2020 \u2020Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.": 1
+    },
+    "drug_classes": {
+      "Vitamin C [EPC]": 3,
+      "Nicotinic Acid [EPC]": 1,
+      "alpha-Adrenergic Agonist [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 39,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "naturelo.com": 5,
+      "iulabs.co.uk": 3,
+      "novoslabs.com": 3,
+      "isom.ca": 1,
+      "slowaging.org": 1,
+      "lifespan.io": 1,
+      "nmrc.ca": 1,
+      "isef.net": 1,
+      "esmed.org": 1,
+      "journals.lww.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "supplements": 26,
+      "Biohackers": 21,
+      "longevity": 3
+    },
+    "total_score": 2721,
+    "mean_score": 54.4,
+    "total_comments": 2859,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 379,
+    "mean_citations": 7.6,
+    "max_citations": 92,
+    "open_access": 41,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2024-02-18",
+    "current_interest": 58,
+    "data_points_count": 261
+  }
+}

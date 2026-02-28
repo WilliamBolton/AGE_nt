@@ -1,0 +1,238 @@
+{
+  "intervention": "berberine",
+  "aliases": [],
+  "generated_at": "2026-02-28",
+  "total_documents": 200,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "news": 26,
+    "nih_grant": 12,
+    "drugage": 9,
+    "social": 2,
+    "regulatory": 1
+  },
+  "date_range": {
+    "earliest": "2001-04-10",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2001": 1,
+    "2007": 6,
+    "2008": 2,
+    "2011": 1,
+    "2012": 1,
+    "2014": 5,
+    "2015": 3,
+    "2016": 9,
+    "2017": 7,
+    "2018": 5,
+    "2019": 5,
+    "2020": 11,
+    "2021": 4,
+    "2022": 9,
+    "2023": 16,
+    "2024": 33,
+    "2025": 45,
+    "2026": 37
+  },
+  "academic": {
+    "unique_authors": 703,
+    "unique_journals": 39,
+    "top_journals": {
+      "Journal of ethnopharmacology": 8,
+      "Drug design, development and therapy": 3,
+      "International journal of molecular sciences": 2,
+      "International journal of biological macromolecules": 2,
+      "Current medical research and opinion": 1,
+      "ACS biomaterials science & engineering": 1,
+      "Chinese medical journal": 1,
+      "Microbial pathogenesis": 1,
+      "Phytotherapy research : PTR": 1,
+      "Archives of microbiology": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 8,
+      "Randomized Controlled Trial": 6,
+      "Review": 5,
+      "Multicenter Study": 2,
+      "Meta-Analysis": 2,
+      "Systematic Review": 2,
+      "Clinical Trial, Phase III": 1,
+      "Equivalence Trial": 1
+    },
+    "top_mesh_terms": {
+      "Berberine": 38,
+      "Animals": 35,
+      "Humans": 23,
+      "Coptis chinensis": 19,
+      "Drugs, Chinese Herbal": 17,
+      "Mice": 16,
+      "Male": 15,
+      "Coptis": 8,
+      "Anti-Inflammatory Agents": 7,
+      "Rats": 7,
+      "Anti-Bacterial Agents": 6,
+      "Disease Models, Animal": 6,
+      "Mice, Inbred C57BL": 6,
+      "Rats, Sprague-Dawley": 6,
+      "Signal Transduction": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 25,
+      "PHASE4": 7,
+      "PHASE2": 6,
+      "PHASE3": 5,
+      "PHASE1": 3,
+      "EARLY_PHASE1": 3,
+      "Unknown": 1
+    },
+    "by_status": {
+      "COMPLETED": 47,
+      "ENROLLING_BY_INVITATION": 1,
+      "UNKNOWN": 1,
+      "RECRUITING": 1
+    },
+    "total_enrollment": 7215,
+    "median_enrollment": 56.0,
+    "with_results": 1,
+    "top_sponsors": {
+      "Xijing Hospital of Digestive Diseases": 5,
+      "HighTide Biopharma Pty Ltd": 3,
+      "The University of Hong Kong": 2,
+      "Factors Group of Nutritional Companies Inc.": 2,
+      "Federico II University": 2,
+      "Tianjin Anding Hospital": 2,
+      "University Medicine Greifswald": 2,
+      "National Polytechnic Institute, Mexico": 2,
+      "Shanghai Jiao Tong University School of Medicine": 2,
+      "Zagazig University": 1
+    },
+    "top_conditions": {
+      "Metabolic Syndrome": 5,
+      "Obesity": 4,
+      "Helicobacter Pylori Infection": 3,
+      "Chronic Gastritis": 3,
+      "Schizophrenia": 3,
+      "Diabetes Mellitus": 3,
+      "Hypercholesterolemia": 3,
+      "Hyperlipidemia": 2,
+      "Berberine": 2,
+      "T2DM (Type 2 Diabetes Mellitus)": 2
+    }
+  },
+  "drugage": {
+    "count": 9,
+    "by_species": {
+      "Caenorhabditis elegans": 7,
+      "Mus musculus": 1,
+      "Drosophila melanogaster": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 7,
+      "Male": 2
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 12,
+    "total_funding_usd": 3183136.0,
+    "mean_funding_usd": 397892.0,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIDDK": 4,
+      "NCCIH": 4
+    },
+    "top_organisations": {
+      "EAST CAROLINA UNIVERSITY": 4,
+      "VA SAN DIEGO HEALTHCARE SYSTEM": 4,
+      "VIRGINIA COMMONWEALTH UNIVERSITY": 4
+    },
+    "by_fiscal_year": {
+      "2007": 1,
+      "2008": 1,
+      "2009": 1,
+      "2010": 1,
+      "2015": 1,
+      "2016": 2,
+      "2017": 2,
+      "2018": 2,
+      "2019": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 1,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 26,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "feelvaleo.com": 2,
+      "wellbeingnutrition.com": 2,
+      "biogena.com": 1,
+      "youthandearth.com": 1,
+      "alzdiscovery.org": 1,
+      "lifespan.io": 1,
+      "foliuslabs.com": 1,
+      "fightaging.org": 1,
+      "gethealthspan.com": 1,
+      "observatoireprevention.org": 1
+    }
+  },
+  "social": {
+    "count": 2,
+    "by_platform": {
+      "reddit": 2
+    },
+    "top_subreddits": {
+      "Biohackers": 2
+    },
+    "total_score": 9,
+    "mean_score": 4.5,
+    "total_comments": 8,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 110,
+    "mean_citations": 2.2,
+    "max_citations": 27,
+    "open_access": 43,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-01",
+    "current_interest": 77,
+    "data_points_count": 261
+  }
+}

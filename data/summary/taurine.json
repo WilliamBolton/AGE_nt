@@ -1,0 +1,281 @@
+{
+  "intervention": "taurine",
+  "aliases": [],
+  "generated_at": "2026-02-28",
+  "total_documents": 357,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "social": 50,
+    "nih_grant": 48,
+    "drugage": 23,
+    "news": 21,
+    "regulatory": 15
+  },
+  "date_range": {
+    "earliest": "1985-11-04",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1985": 1,
+    "1999": 1,
+    "2000": 4,
+    "2005": 3,
+    "2007": 8,
+    "2008": 7,
+    "2009": 1,
+    "2010": 2,
+    "2011": 1,
+    "2012": 6,
+    "2013": 4,
+    "2014": 4,
+    "2015": 5,
+    "2016": 7,
+    "2017": 8,
+    "2018": 9,
+    "2019": 13,
+    "2020": 40,
+    "2021": 16,
+    "2022": 11,
+    "2023": 29,
+    "2024": 40,
+    "2025": 82,
+    "2026": 55
+  },
+  "academic": {
+    "unique_authors": 1278,
+    "unique_journals": 67,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Aging Cell": 6,
+      "Nature Aging": 5,
+      "Frontiers in Aging": 4,
+      "Science (New York, N.Y.)": 3,
+      "Aging cell": 3,
+      "Aging and Disease": 3,
+      "International journal of molecular sciences": 2,
+      "Nature communications": 2,
+      "Life sciences": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 10,
+      "Review": 8,
+      "Randomized Controlled Trial": 4,
+      "Clinical Trial": 2,
+      "Systematic Review": 1,
+      "Research Support, N.I.H., Extramural": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1
+    },
+    "top_mesh_terms": {
+      "Taurine": 44,
+      "Animals": 35,
+      "Humans": 31,
+      "Male": 22,
+      "Aging": 20,
+      "Mice": 15,
+      "Female": 13,
+      "Aged": 12,
+      "Oxidative Stress": 11,
+      "Cellular Senescence": 10,
+      "Middle Aged": 9,
+      "Dietary Supplements": 9,
+      "Antioxidants": 9,
+      "Rats": 9,
+      "Adult": 7
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 33,
+      "PHASE4": 8,
+      "Unknown": 4,
+      "PHASE3": 2,
+      "PHASE2": 2,
+      "PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 39,
+      "UNKNOWN": 6,
+      "RECRUITING": 3,
+      "WITHDRAWN": 1,
+      "NOT_YET_RECRUITING": 1
+    },
+    "total_enrollment": 7346,
+    "median_enrollment": 44,
+    "with_results": 5,
+    "top_sponsors": {
+      "Texas A&M University": 6,
+      "Tu Nguyen Song": 2,
+      "University of Sao Paulo": 2,
+      "Medical University of Vienna": 2,
+      "Ain Shams University": 2,
+      "University of Central Lancashire Cyprus": 1,
+      "University of Maryland, Baltimore": 1,
+      "Technical University of Munich": 1,
+      "Istanbul Medipol University Hospital": 1,
+      "Medical Center Alkmaar": 1
+    },
+    "top_conditions": {
+      "Taurine": 4,
+      "Alcohol Dependence": 4,
+      "Sarcopenia": 3,
+      "Wasting": 2,
+      "Undernutrition": 2,
+      "Malnourished": 2,
+      "Malnutrition": 2,
+      "Oxidative Stress": 2,
+      "Physical Activity": 2,
+      "Alcoholism": 2
+    }
+  },
+  "drugage": {
+    "count": 23,
+    "by_species": {
+      "Caenorhabditis elegans": 15,
+      "Drosophila melanogaster": 4,
+      "Mus musculus": 4
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 15,
+      "Male": 6,
+      "Female": 2
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 48,
+    "total_funding_usd": 26836524.0,
+    "mean_funding_usd": 583402.7,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 16,
+      "NINDS": 12,
+      "NEI": 5,
+      "NHLBI": 5,
+      "NIEHS": 3,
+      "NCCIH": 2,
+      "NIGMS": 1,
+      "NCI": 1,
+      "NIMH": 1
+    },
+    "top_organisations": {
+      "UNIVERSITY OF MARYLAND BALTIMORE": 5,
+      "MASSACHUSETTS GENERAL HOSPITAL": 4,
+      "TULANE UNIVERSITY OF LOUISIANA": 4,
+      "TRUSTEES OF INDIANA UNIVERSITY": 4,
+      "NATIONAL INSTITUTE OF ENVIRONMENTAL HEALTH SCIENCES": 3,
+      "NATIONAL HEART, LUNG, AND BLOOD INSTITUTE": 3,
+      "UNIVERSITY OF CALIFORNIA LOS ANGELES": 3,
+      "UNIVERSITY OF TEXAS DALLAS": 2,
+      "UNIVERSITY OF TEXAS HLTH SCI CTR HOUSTON": 2,
+      "UNIVERSITY OF KANSAS MEDICAL CENTER": 2
+    },
+    "by_fiscal_year": {
+      "2007": 6,
+      "2008": 4,
+      "2009": 3,
+      "2013": 1,
+      "2014": 2,
+      "2015": 2,
+      "2016": 2,
+      "2017": 1,
+      "2019": 1,
+      "2020": 5,
+      "2021": 4,
+      "2022": 3,
+      "2023": 4,
+      "2024": 4,
+      "2025": 6
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "INDICATIONS: For temporary relief of liver congestion, nervous anxiety, irritability, and inability to sleep.": 1,
+      "USE: Provides potentized homeo-nutritional support of the heart.\u2020 \u2020Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.": 1,
+      "INDICATIONS AND USAGE Aminosyn-PF 7%, Sulfite-Free, (an amino acid injection \u2014 pediatric formula) is indicated for the nutritional support of infants (including those of low birth weight) and young children requiring TPN via either central or peripheral infusion routes. Parenteral nutrition with Aminosyn-PF 7% is indicated to prevent nitrogen and weight loss or treat negative nitrogen balance in infants and young children where (1) the alimentary tract by the oral gastrostomy, or jejunostomy rou": 1,
+      "USES: \u2022 For the temporary relief of symptoms related to: \u2022 emotional problems \u2022 sleep problems \u2022 memory problems These statements are based upon homeopathic principles. They have not been reviewed by the Food and Drug Administration.": 1,
+      "INDICATIONS AND USAGE Aminosyn-PF 10%, Sulfite-Free, (an amino acid injection \u2014 pediatric formula) is indicated for the nutritional support of infants (including those of low birth weight) and young children requiring TPN via either central or peripheral infusion routes. Parenteral nutrition with Aminosyn-PF 10% is indicated to prevent nitrogen and weight loss or treat negative nitrogen balance in infants and young children where (1) the alimentary tract by the oral gastrostomy, or jejunostomy r": 1
+    },
+    "drug_classes": {
+      "Amino Acid [EPC]": 2,
+      "alpha-Adrenergic Agonist [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 21,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "novoslabs.com": 2,
+      "youtube.com": 2,
+      "metabolon.com": 1,
+      "utmb.edu": 1,
+      "insideprecisionmedicine.com": 1,
+      "columbiadoctors.org": 1,
+      "time.com": 1,
+      "cnbc.com": 1,
+      "nih.gov": 1,
+      "discovery.dundee.ac.uk": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "supplements": 27,
+      "Biohackers": 16,
+      "longevity": 7
+    },
+    "total_score": 7598,
+    "mean_score": 152.0,
+    "total_comments": 4296,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 411,
+    "mean_citations": 8.2,
+    "max_citations": 288,
+    "open_access": 44,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2412,
+    "mean_citations": 48.2,
+    "max_citations": 350,
+    "total_influential_citations": 65,
+    "open_access": 34
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2023-06-04",
+    "current_interest": 38,
+    "data_points_count": 261
+  }
+}

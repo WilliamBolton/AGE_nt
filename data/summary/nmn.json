@@ -1,0 +1,255 @@
+{
+  "intervention": "nmn",
+  "aliases": [
+    "nicotinamide mononucleotide",
+    "beta-NMN"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 326,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "drugage": 10,
+    "news": 9,
+    "regulatory": 7
+  },
+  "date_range": {
+    "earliest": "1999-07-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1999": 1,
+    "2008": 1,
+    "2011": 1,
+    "2014": 3,
+    "2016": 6,
+    "2017": 12,
+    "2018": 6,
+    "2019": 18,
+    "2020": 28,
+    "2021": 31,
+    "2022": 35,
+    "2023": 42,
+    "2024": 41,
+    "2025": 75,
+    "2026": 26
+  },
+  "academic": {
+    "unique_authors": 1109,
+    "unique_journals": 62,
+    "top_journals": {
+      "Aging (Albany NY)": 5,
+      "Aging Cell": 5,
+      "International journal of molecular sciences": 4,
+      "GeroScience": 4,
+      "Nature communications": 3,
+      "Cell reports": 3,
+      "Cell metabolism": 3,
+      "Biogerontology": 3,
+      "Ageing research reviews": 3,
+      "Nature Aging": 3
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 18,
+      "Review": 14,
+      "Research Support, N.I.H., Extramural": 8,
+      "Systematic Review": 2,
+      "Meta-Analysis": 1,
+      "English Abstract": 1,
+      "Comparative Study": 1
+    },
+    "top_mesh_terms": {
+      "Animals": 42,
+      "Aging": 40,
+      "Nicotinamide Mononucleotide": 33,
+      "Humans": 30,
+      "NAD": 29,
+      "Mice": 20,
+      "Cellular Senescence": 14,
+      "Mitochondria": 13,
+      "Dietary Supplements": 10,
+      "Oxidative Stress": 10,
+      "Male": 10,
+      "Mice, Inbred C57BL": 9,
+      "Niacinamide": 8,
+      "Longevity": 8,
+      "Pyridinium Compounds": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 29,
+      "PHASE1": 9,
+      "PHASE2": 6,
+      "Unknown": 2,
+      "EARLY_PHASE1": 2,
+      "PHASE4": 1,
+      "PHASE3": 1
+    },
+    "by_status": {
+      "COMPLETED": 26,
+      "RECRUITING": 12,
+      "UNKNOWN": 5,
+      "NOT_YET_RECRUITING": 5,
+      "TERMINATED": 1,
+      "ACTIVE_NOT_RECRUITING": 1
+    },
+    "total_enrollment": 6257,
+    "median_enrollment": 58.5,
+    "with_results": 1,
+    "top_sponsors": {
+      "Seneque SA": 4,
+      "Metro International Biotech, LLC": 3,
+      "Brigham and Women's Hospital": 3,
+      "Peking University Third Hospital": 3,
+      "EffePharm LTD": 2,
+      "Shanghai Cell Therapy Group Co.,Ltd": 2,
+      "Haukeland University Hospital": 2,
+      "University of Helsinki": 2,
+      "Washington University School of Medicine": 2,
+      "Poznan University of Physical Education": 1
+    },
+    "top_conditions": {
+      "Healthy": 5,
+      "Aging": 5,
+      "Hypertension": 2,
+      "Healthy Adults": 2,
+      "Healthy Volunteers": 2,
+      "Mitochondrial Myopathies": 2,
+      "Glucose Metabolism Disorders": 2,
+      "Diminished Ovarian Reserve": 2,
+      "Wrinkle": 1,
+      "Fatigue": 1
+    }
+  },
+  "drugage": {
+    "count": 10,
+    "by_species": {
+      "Mus musculus": 5,
+      "Saccharomyces cerevisiae": 3,
+      "Caenorhabditis elegans": 1,
+      "Drosophila melanogaster": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 5,
+      "Male": 3,
+      "Female": 2
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 24377372.0,
+    "mean_funding_usd": 580413.62,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 19,
+      "NHLBI": 11,
+      "NINDS": 5,
+      "NEI": 5,
+      "NIDDK": 1,
+      "NIAMS": 1
+    },
+    "top_organisations": {
+      "WASHINGTON UNIVERSITY": 5,
+      "UNIVERSITY OF MISSOURI-COLUMBIA": 5,
+      "UNIVERSITY OF SOUTHERN CALIFORNIA": 4,
+      "MIAMI VA HEALTH CARE SYSTEM": 4,
+      "INDIANA UNIVERSITY INDIANAPOLIS": 4,
+      "WAYNE STATE UNIVERSITY": 4,
+      "UNIVERSITY OF PITTSBURGH AT PITTSBURGH": 3,
+      "VA LOMA LINDA HEALTHCARE SYSTEM": 3,
+      "UNIVERSITY OF OKLAHOMA HLTH SCIENCES CTR": 2,
+      "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 2
+    },
+    "by_fiscal_year": {
+      "2022": 13,
+      "2023": 14,
+      "2024": 11,
+      "2025": 9,
+      "2026": 3
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 7,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 9,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "examine.com": 1,
+      "ezra.com": 1,
+      "nmn.com": 1,
+      "nad.com": 1,
+      "pubs.rsc.org": 1,
+      "probiologists.com": 1,
+      "peterattiamd.com": 1,
+      "youtube.com": 1,
+      "tandfonline.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "supplements": 18,
+      "Biohackers": 16,
+      "longevity": 16
+    },
+    "total_score": 6789,
+    "mean_score": 135.8,
+    "total_comments": 3975,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 165,
+    "mean_citations": 3.3,
+    "max_citations": 80,
+    "open_access": 42,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 3625,
+    "mean_citations": 72.5,
+    "max_citations": 853,
+    "total_influential_citations": 97,
+    "open_access": 36
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-01",
+    "current_interest": 86,
+    "data_points_count": 261
+  }
+}

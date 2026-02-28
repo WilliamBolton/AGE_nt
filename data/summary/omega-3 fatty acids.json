@@ -1,0 +1,257 @@
+{
+  "intervention": "omega-3 fatty acids",
+  "aliases": [
+    "fish oil",
+    "EPA",
+    "DHA",
+    "icosapent ethyl"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 296,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "news": 27,
+    "regulatory": 11,
+    "drugage": 8
+  },
+  "date_range": {
+    "earliest": "2001-04-01",
+    "latest": "2026-03-01"
+  },
+  "by_year": {
+    "2001": 1,
+    "2005": 2,
+    "2006": 2,
+    "2007": 2,
+    "2008": 1,
+    "2010": 3,
+    "2011": 2,
+    "2012": 5,
+    "2013": 4,
+    "2014": 2,
+    "2015": 6,
+    "2016": 12,
+    "2017": 7,
+    "2018": 8,
+    "2019": 12,
+    "2020": 16,
+    "2021": 20,
+    "2022": 16,
+    "2023": 24,
+    "2024": 35,
+    "2025": 65,
+    "2026": 51
+  },
+  "academic": {
+    "unique_authors": 562,
+    "unique_journals": 41,
+    "top_journals": {
+      "The journal of nutrition, health & aging": 4,
+      "Nutrients": 3,
+      "The American journal of clinical nutrition": 3,
+      "Aging": 2,
+      "Current opinion in clinical nutrition and metabolic care": 2,
+      "Journal of human nutrition and dietetics : the official journal of the British Dietetic Association": 1,
+      "The journal of prevention of Alzheimer's disease": 1,
+      "Neurobiology of aging": 1,
+      "Clinical nutrition (Edinburgh, Scotland)": 1,
+      "Nutrition research (New York, N.Y.)": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 48,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 16,
+      "Review": 14,
+      "Randomized Controlled Trial": 12,
+      "Systematic Review": 5,
+      "Research Support, N.I.H., Extramural": 5,
+      "Research Support, N.I.H., Intramural": 1,
+      "Comment": 1
+    },
+    "top_mesh_terms": {
+      "Humans": 44,
+      "Fatty Acids, Omega-3": 41,
+      "Aging": 33,
+      "Aged": 25,
+      "Male": 24,
+      "Female": 21,
+      "Dietary Supplements": 20,
+      "Docosahexaenoic Acids": 20,
+      "Animals": 17,
+      "Middle Aged": 15,
+      "Eicosapentaenoic Acid": 15,
+      "Fish Oils": 15,
+      "Double-Blind Method": 11,
+      "Brain": 10,
+      "Cognition": 9
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 33,
+      "PHASE2": 8,
+      "PHASE4": 4,
+      "Unknown": 3,
+      "PHASE3": 1,
+      "PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 40,
+      "UNKNOWN": 5,
+      "RECRUITING": 3,
+      "TERMINATED": 1,
+      "ENROLLING_BY_INVITATION": 1
+    },
+    "total_enrollment": 7007,
+    "median_enrollment": 78,
+    "with_results": 5,
+    "top_sponsors": {
+      "Universitas Airlangga": 1,
+      "Madrigal Pharmaceuticals, Inc.": 1,
+      "University of Glasgow": 1,
+      "University of Pavia": 1,
+      "Academia Sinica, Taiwan": 1,
+      "Mayo Clinic": 1,
+      "University of East Anglia": 1,
+      "Hospices Civils de Lyon": 1,
+      "Health and Healing Research Education and Service, Inc.": 1,
+      "London School of Hygiene and Tropical Medicine": 1
+    },
+    "top_conditions": {
+      "Sarcopenia": 3,
+      "Inflammation": 3,
+      "Malnutrition": 3,
+      "Cardiovascular Diseases": 3,
+      "Non-alcoholic Steatohepatitis": 2,
+      "Dyslipidemias": 2,
+      "Mild Cognitive Impairment": 2,
+      "Pulmonary Infection": 1,
+      "COVID-19": 1,
+      "Extracellular Matrix Alteration": 1
+    }
+  },
+  "drugage": {
+    "count": 8,
+    "by_species": {
+      "Caenorhabditis elegans": 4,
+      "Mus musculus": 4
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 4,
+      "Male": 2,
+      "Female": 2
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 18915395.0,
+    "mean_funding_usd": 439892.91,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 27,
+      "NCI": 5,
+      "NCCIH": 3,
+      "NIEHS": 3,
+      "NIDDK": 2,
+      "OD": 1,
+      "NIMH": 1,
+      "NINDS": 1
+    },
+    "top_organisations": {
+      "RUSH UNIVERSITY MEDICAL CENTER": 4,
+      "UNIVERSITY OF ROCHESTER": 4,
+      "UNIVERSITY OF NEVADA RENO": 3,
+      "UNIVERSITY OF MARYLAND BALTIMORE": 3,
+      "OKLAHOMA CITY VA MEDICAL CENTER": 3,
+      "UNIVERSITY OF CINCINNATI": 2,
+      "OHIO STATE UNIVERSITY": 2,
+      "NORTH DAKOTA STATE UNIVERSITY": 2,
+      "OREGON HEALTH & SCIENCE UNIVERSITY": 2,
+      "HARVARD PILGRIM HEALTH CARE, INC.": 2
+    },
+    "by_fiscal_year": {
+      "2023": 10,
+      "2024": 16,
+      "2025": 20,
+      "2026": 4
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 11,
+    "approved_indications": {},
+    "drug_classes": {
+      "Vitamin B12 [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 27,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "youtube.com": 2,
+      "omegaquant.com": 2,
+      "draxe.com": 1,
+      "mvs-pharma.com": 1,
+      "aging-us.com": 1,
+      "rsdjournal.org": 1,
+      "prohealth.com": 1,
+      "nutraingredients.com": 1,
+      "naturalhealthresearch.org": 1,
+      "nytimes.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 30,
+      "supplements": 20
+    },
+    "total_score": 6163,
+    "mean_score": 123.3,
+    "total_comments": 2827,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 116,
+    "mean_citations": 2.3,
+    "max_citations": 24,
+    "open_access": 39,
+    "preprints": 2,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-23",
+    "current_interest": 37,
+    "data_points_count": 261
+  }
+}

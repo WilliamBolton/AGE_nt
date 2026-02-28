@@ -1,0 +1,237 @@
+{
+  "intervention": "ketogenic diet",
+  "aliases": [
+    "keto",
+    "ketosis",
+    "beta-hydroxybutyrate",
+    "BHB"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 274,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "news": 23,
+    "regulatory": 1
+  },
+  "date_range": {
+    "earliest": "2008-01-17",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2008": 3,
+    "2009": 1,
+    "2010": 2,
+    "2011": 6,
+    "2012": 5,
+    "2013": 3,
+    "2014": 3,
+    "2015": 7,
+    "2016": 2,
+    "2017": 8,
+    "2018": 9,
+    "2019": 13,
+    "2020": 18,
+    "2021": 27,
+    "2022": 10,
+    "2023": 14,
+    "2024": 38,
+    "2025": 65,
+    "2026": 40
+  },
+  "academic": {
+    "unique_authors": 605,
+    "unique_journals": 38,
+    "top_journals": {
+      "Nutrients": 6,
+      "Cell metabolism": 4,
+      "The journal of nutrition, health & aging": 2,
+      "GeroScience": 2,
+      "PloS one": 2,
+      "Annals of the New York Academy of Sciences": 2,
+      "Annals of neurology": 1,
+      "Science advances": 1,
+      "Cell reports. Medicine": 1,
+      "The Journal of the Association of Nurses in AIDS Care : JANAC": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 11,
+      "Research Support, N.I.H., Extramural": 10,
+      "Research Support, Non-U.S. Gov't": 10,
+      "Randomized Controlled Trial": 2,
+      "Comparative Study": 2,
+      "Research Support, N.I.H., Intramural": 2,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 2,
+      "Scoping Review": 1,
+      "Comment": 1,
+      "Evaluation Study": 1
+    },
+    "top_mesh_terms": {
+      "Diet, Ketogenic": 50,
+      "Animals": 36,
+      "Aging": 35,
+      "Male": 28,
+      "Humans": 25,
+      "Mice": 18,
+      "Female": 14,
+      "Mice, Inbred C57BL": 14,
+      "Longevity": 14,
+      "Caloric Restriction": 8,
+      "Brain": 7,
+      "Muscle, Skeletal": 7,
+      "Rats": 7,
+      "Ketosis": 7,
+      "Fasting": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 25,
+      "Unknown": 8,
+      "PHASE2": 8,
+      "PHASE1": 7,
+      "PHASE4": 1,
+      "PHASE3": 1
+    },
+    "by_status": {
+      "COMPLETED": 35,
+      "RECRUITING": 4,
+      "NOT_YET_RECRUITING": 3,
+      "UNKNOWN": 3,
+      "TERMINATED": 3,
+      "WITHDRAWN": 1,
+      "ENROLLING_BY_INVITATION": 1
+    },
+    "total_enrollment": 219748,
+    "median_enrollment": 45,
+    "with_results": 7,
+    "top_sponsors": {
+      "Washington University School of Medicine": 2,
+      "Janssen Research & Development, LLC": 2,
+      "Cerecin": 1,
+      "Northern California Institute of Research and Education": 1,
+      "Hospices Civils de Lyon": 1,
+      "University of Cambridge": 1,
+      "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School": 1,
+      "University of Colorado, Denver": 1,
+      "Manchester University NHS Foundation Trust": 1,
+      "University of California, Davis": 1
+    },
+    "top_conditions": {
+      "Diabetes Mellitus, Type 1": 4,
+      "Diabetes Mellitus, Type 2": 4,
+      "Type 1 Diabetes Mellitus": 3,
+      "Type 1 Diabetes": 3,
+      "Diabetes Mellitus": 3,
+      "Obesity": 3,
+      "Diabete Type 2": 2,
+      "Diabetic Ketoacidosis": 2,
+      "Hyperglycemia": 2,
+      "Heart Failure": 2
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 28730107.0,
+    "mean_funding_usd": 586328.71,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 31,
+      "NEI": 4,
+      "NINDS": 4,
+      "NIDDK": 4,
+      "OD": 3,
+      "NHLBI": 2,
+      "NIAMS": 1
+    },
+    "top_organisations": {
+      "BUCK INSTITUTE FOR RESEARCH ON AGING": 8,
+      "UNIVERSITY OF CALIFORNIA AT DAVIS": 4,
+      "UNIVERSITY OF PENNSYLVANIA": 3,
+      "OKLAHOMA MEDICAL RESEARCH FOUNDATION": 3,
+      "TUFTS UNIVERSITY BOSTON": 3,
+      "UNIVERSITY OF PITTSBURGH AT PITTSBURGH": 3,
+      "UNIVERSITY OF CALIFORNIA LOS ANGELES": 2,
+      "UNIVERSITY OF KANSAS MEDICAL CENTER": 2,
+      "MASSACHUSETTS GENERAL HOSPITAL": 2,
+      "UNIVERSITY OF VIRGINIA": 2
+    },
+    "by_fiscal_year": {
+      "2023": 4,
+      "2024": 23,
+      "2025": 18,
+      "2026": 5
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 1,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 23,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "medicalxpress.com": 2,
+      "medicalnewstoday.com": 2,
+      "fountainlife.com": 1,
+      "nmn.com": 1,
+      "groovyketo.co.uk": 1,
+      "cinnamondays.co.uk": 1,
+      "foracare.ch": 1,
+      "ketogenic.com": 1,
+      "news-medical.net": 1,
+      "prevention.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 27,
+      "supplements": 23
+    },
+    "total_score": 1935,
+    "mean_score": 38.7,
+    "total_comments": 1616,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 111,
+    "mean_citations": 2.2,
+    "max_citations": 27,
+    "open_access": 41,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-23",
+    "current_interest": 45,
+    "data_points_count": 261
+  }
+}

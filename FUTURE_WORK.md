@@ -59,7 +59,7 @@ These tools consume existing data via `StorageManager` and expose reasoning thro
   ```json
   {
     "mcpServers": {
-      "longevity-lens": {
+      "age-nt": {
         "url": "http://localhost:8001/sse"
       }
     }

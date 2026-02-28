@@ -1,0 +1,219 @@
+{
+  "intervention": "cold exposure",
+  "aliases": [
+    "cryotherapy",
+    "cold immersion",
+    "cold plunge",
+    "cold shock proteins"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 249,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "news": 34,
+    "social": 15
+  },
+  "date_range": {
+    "earliest": "1991-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1991": 1,
+    "1992": 1,
+    "1996": 1,
+    "1997": 2,
+    "1998": 1,
+    "2000": 4,
+    "2004": 1,
+    "2005": 1,
+    "2006": 4,
+    "2007": 4,
+    "2008": 5,
+    "2009": 2,
+    "2010": 2,
+    "2011": 4,
+    "2012": 3,
+    "2013": 4,
+    "2014": 1,
+    "2015": 4,
+    "2016": 6,
+    "2017": 4,
+    "2018": 6,
+    "2019": 5,
+    "2020": 9,
+    "2021": 9,
+    "2022": 11,
+    "2023": 25,
+    "2024": 25,
+    "2025": 58,
+    "2026": 46
+  },
+  "academic": {
+    "unique_authors": 948,
+    "unique_journals": 79,
+    "top_journals": {
+      "Biogerontology": 6,
+      "GeroScience": 4,
+      "Life sciences": 3,
+      "Journal of thermal biology": 3,
+      "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]": 2,
+      "Experimental aging research": 2,
+      "Biochemical and biophysical research communications": 2,
+      "Cell metabolism": 2,
+      "Scientific reports": 2,
+      "Ageing research reviews": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 48,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 20,
+      "Review": 14,
+      "Research Support, N.I.H., Extramural": 6,
+      "Randomized Controlled Trial": 4,
+      "Clinical Trial": 3,
+      "Research Support, U.S. Gov't, P.H.S.": 3,
+      "Comparative Study": 2,
+      "Systematic Review": 1,
+      "Multicenter Study": 1,
+      "Observational Study": 1,
+      "Preprint": 1
+    },
+    "top_mesh_terms": {
+      "Humans": 30,
+      "Male": 29,
+      "Animals": 28,
+      "Aging": 26,
+      "Cold Temperature": 19,
+      "Female": 15,
+      "Aged": 12,
+      "Mice": 12,
+      "Longevity": 9,
+      "Hypothermia, Induced": 9,
+      "Mice, Inbred C57BL": 9,
+      "Adult": 8,
+      "Middle Aged": 8,
+      "Body Temperature Regulation": 7,
+      "Cryotherapy": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 31,
+      "Unknown": 7,
+      "PHASE1": 5,
+      "PHASE2": 3,
+      "PHASE4": 2,
+      "PHASE3": 1,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 41,
+      "UNKNOWN": 4,
+      "RECRUITING": 3,
+      "ACTIVE_NOT_RECRUITING": 1,
+      "TERMINATED": 1
+    },
+    "total_enrollment": 4814,
+    "median_enrollment": 40.0,
+    "with_results": 9,
+    "top_sponsors": {
+      "Gaziler Physical Medicine and Rehabilitation Education and Research Hospital": 1,
+      "Centre Georges Francois Leclerc": 1,
+      "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)": 1,
+      "Boston Scientific Corporation": 1,
+      "Ataturk University": 1,
+      "Penn State University": 1,
+      "University Hospital, Caen": 1,
+      "Singapore Institute of Food and Biotechnology Innovation": 1,
+      "Trakya University": 1,
+      "Rehabilitation Centre Zivot": 1
+    },
+    "top_conditions": {
+      "Healthy": 3,
+      "Obesity": 3,
+      "Recurrent Prostate Cancer": 2,
+      "Energy Expenditure": 2,
+      "Cryotherapy": 2,
+      "Cryotherapy Effect": 2,
+      "Neuroma Amputation": 1,
+      "Brachytherapy Remedial": 1,
+      "Metastatic Lung Cancer": 1,
+      "Thorax; Fracture": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 34,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "celsiumwellness.com": 2,
+      "gethealthspan.com": 2,
+      "facebook.com": 2,
+      "oneskin.co": 2,
+      "hal.science": 1,
+      "the-well.com": 1,
+      "modern-age.com": 1,
+      "lifespan.io": 1,
+      "fightaging.org": 1,
+      "longsal.ai": 1
+    }
+  },
+  "social": {
+    "count": 15,
+    "by_platform": {
+      "reddit": 15
+    },
+    "top_subreddits": {
+      "Biohackers": 14,
+      "supplements": 1
+    },
+    "total_score": 297,
+    "mean_score": 19.8,
+    "total_comments": 179,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 279,
+    "mean_citations": 5.6,
+    "max_citations": 135,
+    "open_access": 36,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1298,
+    "mean_citations": 26.0,
+    "max_citations": 195,
+    "total_influential_citations": 59,
+    "open_access": 26
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-01",
+    "current_interest": 49,
+    "data_points_count": 261
+  }
+}

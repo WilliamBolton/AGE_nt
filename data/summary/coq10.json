@@ -1,0 +1,303 @@
+{
+  "intervention": "coq10",
+  "aliases": [
+    "coenzyme Q10",
+    "ubiquinone",
+    "ubiquinol",
+    "MitoQ"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 373,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "drugage": 40,
+    "news": 18,
+    "regulatory": 15
+  },
+  "date_range": {
+    "earliest": "1992-06-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1992": 1,
+    "1994": 1,
+    "1995": 1,
+    "1998": 2,
+    "2000": 1,
+    "2001": 1,
+    "2002": 3,
+    "2004": 1,
+    "2005": 1,
+    "2006": 1,
+    "2007": 2,
+    "2008": 4,
+    "2009": 5,
+    "2010": 13,
+    "2011": 9,
+    "2012": 6,
+    "2013": 8,
+    "2014": 11,
+    "2015": 6,
+    "2016": 4,
+    "2017": 8,
+    "2018": 10,
+    "2019": 14,
+    "2020": 55,
+    "2021": 7,
+    "2022": 20,
+    "2023": 18,
+    "2024": 38,
+    "2025": 75,
+    "2026": 47
+  },
+  "academic": {
+    "unique_authors": 1069,
+    "unique_journals": 57,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Aging Cell": 6,
+      "Annals of the New York Academy of Sciences": 5,
+      "Frontiers in Aging": 5,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 4,
+      "Nature Aging": 4,
+      "Oxidative medicine and cellular longevity": 3,
+      "Oxidative Medicine and Cellular Longevity": 3,
+      "Aging and Disease": 3,
+      "Aging": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 17,
+      "Review": 14,
+      "Randomized Controlled Trial": 9,
+      "Research Support, N.I.H., Extramural": 5,
+      "Comparative Study": 4,
+      "Clinical Trial": 3,
+      "Meta-Analysis": 2,
+      "Systematic Review": 2
+    },
+    "top_mesh_terms": {
+      "Ubiquinone": 50,
+      "Aging": 39,
+      "Humans": 34,
+      "Animals": 24,
+      "Oxidative Stress": 23,
+      "Male": 20,
+      "Female": 17,
+      "Mitochondria": 17,
+      "Antioxidants": 15,
+      "Dietary Supplements": 15,
+      "Aged": 11,
+      "Mice": 9,
+      "Reactive Oxygen Species": 9,
+      "Cellular Senescence": 8,
+      "Organophosphorus Compounds": 7
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 27,
+      "PHASE2": 7,
+      "PHASE4": 6,
+      "PHASE1": 3,
+      "Unknown": 3,
+      "EARLY_PHASE1": 2,
+      "PHASE3": 2
+    },
+    "by_status": {
+      "COMPLETED": 37,
+      "UNKNOWN": 3,
+      "ACTIVE_NOT_RECRUITING": 3,
+      "RECRUITING": 3,
+      "SUSPENDED": 1,
+      "NOT_YET_RECRUITING": 1,
+      "TERMINATED": 1,
+      "WITHDRAWN": 1
+    },
+    "total_enrollment": 4871,
+    "median_enrollment": 42,
+    "with_results": 12,
+    "top_sponsors": {
+      "Chung Shan Medical University": 3,
+      "University of Copenhagen": 3,
+      "Eli Lilly and Company": 2,
+      "Beth Israel Deaconess Medical Center": 2,
+      "University of Colorado, Denver": 2,
+      "Kaneka Americas Holding Inc.": 1,
+      "VIST - Faculty of Applied Sciences": 1,
+      "Vectura Limited": 1,
+      "Auburn University": 1,
+      "University Hospital, Linkoeping": 1
+    },
+    "top_conditions": {
+      "Healthy": 3,
+      "Hypercholesterolemia": 3,
+      "Erectile Dysfunction": 2,
+      "Cardiovascular Disease": 2,
+      "Diabetes Mellitus": 2,
+      "Dermis Density": 1,
+      "Trans Epidermal Water Loss (TEWL)": 1,
+      "Skin Hydration": 1,
+      "Wrinkles": 1,
+      "Dermis Thickness": 1
+    }
+  },
+  "drugage": {
+    "count": 40,
+    "by_species": {
+      "Caenorhabditis elegans": 13,
+      "Zaprionus paravittiger": 10,
+      "Paramecium tetraurelia": 5,
+      "Mus musculus": 4,
+      "Asplanchna brightwelli": 3,
+      "Drosophila melanogaster": 2,
+      "Musca domestica": 1,
+      "Philodina acuticornis": 1,
+      "Rattus norvegicus": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 23,
+      "Male": 9,
+      "Female": 7,
+      "Pooled": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 20880140.0,
+    "mean_funding_usd": 417602.8,
+    "by_mechanism": {},
+    "by_institute": {
+      "NICHD": 19,
+      "NIGMS": 8,
+      "NCI": 5,
+      "NHLBI": 4,
+      "NIA": 3,
+      "NINDS": 2,
+      "OD": 2,
+      "NIMH": 2,
+      "FIC": 2,
+      "NINR": 2,
+      "NCRR": 1
+    },
+    "top_organisations": {
+      "COLUMBIA UNIVERSITY HEALTH SCIENCES": 10,
+      "CHILDREN'S HOSP OF PHILADELPHIA": 9,
+      "COLUMBIA UNIV NEW YORK MORNINGSIDE": 5,
+      "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 5,
+      "SANFORD RESEARCH/USD": 4,
+      "DANA-FARBER CANCER INST": 4,
+      "VANDERBILT UNIVERSITY MEDICAL CENTER": 2,
+      "CLEVELAND CLINIC LERNER COM-CWRU": 2,
+      "STELLENBOSCH UNIVERSITY": 2,
+      "OHIO STATE UNIVERSITY": 2
+    },
+    "by_fiscal_year": {
+      "2010": 1,
+      "2011": 3,
+      "2012": 2,
+      "2013": 2,
+      "2014": 4,
+      "2015": 3,
+      "2016": 4,
+      "2017": 5,
+      "2018": 6,
+      "2019": 3,
+      "2020": 2,
+      "2021": 3,
+      "2022": 3,
+      "2023": 6,
+      "2024": 2,
+      "2025": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "Uses reduces underarm wetness": 1,
+      "INDICATIONS: Aids in temporary relief of minor aches and pains of muscles and joints\u2020 \u2020Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.": 1,
+      "Suggest use: As a dietary supplement, adults take one (1) capsule daily preferably with a meal or as recommended by a physician.": 1
+    },
+    "drug_classes": {
+      "Vitamin C [EPC]": 4
+    }
+  },
+  "news": {
+    "count": 18,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "lifeextension.com": 2,
+      "renuebyscience.com": 2,
+      "caringsunshine.com": 2,
+      "insidetracker.com": 1,
+      "purethera.com": 1,
+      "whatsgood.vitaminshoppe.com": 1,
+      "nad.com": 1,
+      "aging-us.com": 1,
+      "news-medical.net": 1,
+      "jcadonline.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 29,
+      "supplements": 21
+    },
+    "total_score": 5346,
+    "mean_score": 106.9,
+    "total_comments": 3678,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 67,
+    "mean_citations": 1.3,
+    "max_citations": 15,
+    "open_access": 39,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2297,
+    "mean_citations": 45.9,
+    "max_citations": 350,
+    "total_influential_citations": 64,
+    "open_access": 38
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-30",
+    "current_interest": 69,
+    "data_points_count": 261
+  }
+}

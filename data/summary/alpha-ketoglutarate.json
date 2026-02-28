@@ -1,0 +1,280 @@
+{
+  "intervention": "alpha-ketoglutarate",
+  "aliases": [
+    "AKG",
+    "calcium alpha-ketoglutarate",
+    "CaAKG"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 337,
+  "by_source_type": {
+    "pubmed": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "clinicaltrials": 33,
+    "news": 21,
+    "drugage": 18,
+    "regulatory": 15
+  },
+  "date_range": {
+    "earliest": "1980-05-01",
+    "latest": "2026-03-01"
+  },
+  "by_year": {
+    "1980": 1,
+    "1985": 2,
+    "1991": 1,
+    "1998": 1,
+    "2003": 1,
+    "2005": 1,
+    "2006": 1,
+    "2007": 1,
+    "2008": 3,
+    "2011": 3,
+    "2012": 3,
+    "2013": 4,
+    "2014": 4,
+    "2015": 2,
+    "2016": 6,
+    "2017": 7,
+    "2018": 3,
+    "2019": 8,
+    "2020": 43,
+    "2021": 29,
+    "2022": 22,
+    "2023": 29,
+    "2024": 41,
+    "2025": 67,
+    "2026": 54
+  },
+  "academic": {
+    "unique_authors": 1137,
+    "unique_journals": 71,
+    "top_journals": {
+      "GeroScience": 5,
+      "Experimental gerontology": 4,
+      "Cell metabolism": 4,
+      "Ageing research reviews": 4,
+      "bioRxiv": 4,
+      "Aging cell": 3,
+      "Nutrients": 3,
+      "Aging Cell": 3,
+      "Cell reports": 2,
+      "Life sciences": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 48,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 21,
+      "Research Support, N.I.H., Extramural": 11,
+      "Review": 8,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 2,
+      "Comment": 2,
+      "Randomized Controlled Trial": 1,
+      "Clinical Trial Protocol": 1,
+      "English Abstract": 1,
+      "Research Support, N.I.H., Intramural": 1,
+      "Comparative Study": 1
+    },
+    "top_mesh_terms": {
+      "Ketoglutaric Acids": 39,
+      "Aging": 38,
+      "Animals": 37,
+      "Humans": 21,
+      "Mice": 20,
+      "Male": 18,
+      "Female": 15,
+      "Longevity": 12,
+      "Rats": 9,
+      "Mice, Inbred C57BL": 8,
+      "Energy Metabolism": 8,
+      "Dietary Supplements": 7,
+      "Mitochondria": 7,
+      "Citric Acid Cycle": 6,
+      "Epigenesis, Genetic": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 33,
+    "by_phase": {
+      "NA": 17,
+      "Unknown": 6,
+      "PHASE1": 3,
+      "PHASE2": 2,
+      "PHASE3": 2,
+      "PHASE4": 2,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 18,
+      "RECRUITING": 8,
+      "UNKNOWN": 5,
+      "ACTIVE_NOT_RECRUITING": 1,
+      "TERMINATED": 1
+    },
+    "total_enrollment": 6423,
+    "median_enrollment": 60,
+    "with_results": 4,
+    "top_sponsors": {
+      "National University Hospital, Singapore": 2,
+      "G\u00f6teborg University": 2,
+      "Texas A&M University": 2,
+      "Ponce De Leon Health": 1,
+      "Kuopio University Hospital": 1,
+      "Stanford University": 1,
+      "University of Greenwich": 1,
+      "Jun Tao": 1,
+      "Robert Bok, MD, PhD": 1,
+      "Shenzhen Hygieia Biotech Co., Ltd": 1
+    },
+    "top_conditions": {
+      "Aging": 2,
+      "Noise Exposure": 2,
+      "Sleep Disturbance": 2,
+      "Sleep Hygiene": 2,
+      "Metabolic Disturbance": 2,
+      "Cognitive Change": 2,
+      "Coronary Artery Disease": 2,
+      "Dietary Modification": 2,
+      "Aging Well": 1,
+      "Affected and Unaffected Knee in Adoloescent": 1
+    }
+  },
+  "drugage": {
+    "count": 18,
+    "by_species": {
+      "Caenorhabditis elegans": 7,
+      "Mus musculus": 6,
+      "Caenorhabditis briggsae": 3,
+      "Drosophila melanogaster": 2
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 10,
+      "Female": 5,
+      "Male": 3
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 24309148.0,
+    "mean_funding_usd": 486182.96,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 18,
+      "NIAID": 8,
+      "NCI": 6,
+      "NHLBI": 4,
+      "NIGMS": 4,
+      "NIAMS": 3,
+      "NINDS": 3,
+      "NIDCR": 2,
+      "OD": 1,
+      "NIAAA": 1
+    },
+    "top_organisations": {
+      "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 5,
+      "LA JOLLA INSTITUTE FOR IMMUNOLOGY": 5,
+      "DANA-FARBER CANCER INST": 3,
+      "BAYLOR COLLEGE OF MEDICINE": 3,
+      "BROWN UNIVERSITY": 3,
+      "RESEARCH INST NATIONWIDE CHILDREN'S HOSP": 3,
+      "UNIVERSITY OF WASHINGTON": 2,
+      "ADVANCED SCIENCE RESEARCH CENTER": 2,
+      "SCRIPPS RESEARCH INSTITUTE, THE": 2,
+      "TEMPLE UNIV OF THE COMMONWEALTH": 2
+    },
+    "by_fiscal_year": {
+      "2023": 10,
+      "2024": 17,
+      "2025": 18,
+      "2026": 5
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "Take 15 minutes before meals": 2,
+      "Directions: Turn tube upside down and rotate cap to release pellets into cap. Unscrew cap and without touching pellets tip them into the mouth under the tongue. Allow to dissolve Take 15 minutes before meals.": 1,
+      "Take 15 minutes before meals.": 1,
+      "INDICATIONS: Niferex\u00ae is a multivitamin/multimineral dietary supplement indicated for use in improving the nutritional status of patients with iron deficiency.": 1
+    },
+    "drug_classes": {
+      "Vitamin C [EPC]": 3,
+      "Interferon gamma [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 21,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "aging-us.com": 2,
+      "escholarship.ucop.edu": 2,
+      "academia.edu": 2,
+      "purovitalis.com": 1,
+      "lifespan.io": 1,
+      "research.vu.nl": 1,
+      "massspec.fas.harvard.edu": 1,
+      "science.gov": 1,
+      "examine.com": 1,
+      "nad.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "supplements": 26,
+      "Biohackers": 15,
+      "longevity": 9
+    },
+    "total_score": 1259,
+    "mean_score": 25.2,
+    "total_comments": 777,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 439,
+    "mean_citations": 8.8,
+    "max_citations": 298,
+    "open_access": 38,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2013,
+    "mean_citations": 40.3,
+    "max_citations": 390,
+    "total_influential_citations": 44,
+    "open_access": 26
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-17",
+    "current_interest": 22,
+    "data_points_count": 261
+  }
+}
