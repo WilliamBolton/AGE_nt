@@ -1,0 +1,3430 @@
+{
+  "intervention": "rapamycin",
+  "created_at": "2026-02-28T09:01:46.074883+00:00",
+  "updated_at": "2026-02-28T09:08:38.845006+00:00",
+  "schema_path": "JSON_SCHEMA_REFERENCE.md",
+  "summary_path": "data/summary/rapamycin.json",
+  "task_hints": {
+    "source_type_allowlist": [],
+    "source_type_blocklist": [],
+    "min_fetch_docs": null,
+    "auto_fetch_per_search": null,
+    "min_per_source": null
+  },
+  "source_types_allowed": [
+    "pubmed",
+    "clinicaltrials",
+    "europe_pmc",
+    "nih_grant",
+    "drugage",
+    "regulatory",
+    "patent"
+  ],
+  "selected_rows": [
+    {
+      "step": 0,
+      "args": {
+        "source_type": "pubmed",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8"
+        },
+        {
+          "id": "520a79e8-2d34-4f5a-81ea-e078281d8d5e"
+        },
+        {
+          "id": "04ac41c0-94cc-4985-a72b-a7ec54f2bdf1"
+        },
+        {
+          "id": "b8830a23-db03-45f9-a5c9-7fdd064853e5"
+        },
+        {
+          "id": "87e1a7af-343b-40f7-aa0b-5dde68159d8e"
+        },
+        {
+          "id": "e5a05b27-21cc-432a-85ca-764530ee03b7"
+        },
+        {
+          "id": "26dd1260-8ccb-4e3a-9961-7e32234818ed"
+        },
+        {
+          "id": "4cfe47b6-d531-46bd-a6c9-aa7e6de6acbe"
+        },
+        {
+          "id": "c2fefc02-082b-44d6-a138-a386dfd1e32d"
+        },
+        {
+          "id": "eabdb1aa-ce60-4374-8f3e-12ecbb85d042"
+        },
+        {
+          "id": "8891478f-af45-439e-986c-b336c870ad95"
+        },
+        {
+          "id": "61d8c574-05c9-4830-b9e3-8490f104c9b0"
+        },
+        {
+          "id": "427337c7-0f25-454d-8b7b-741f33aa22bf"
+        },
+        {
+          "id": "90e1e269-8ecd-470e-b5e2-c1577fa53001"
+        },
+        {
+          "id": "5e9ba05e-4b54-4d4e-a639-2b0513e97b8b"
+        },
+        {
+          "id": "7dc7af0d-c039-4cd6-94a6-e8188eecaa8e"
+        },
+        {
+          "id": "0ea6bc34-37c4-472d-939a-2f42e26a2d08"
+        },
+        {
+          "id": "9c3c73e7-8f71-4222-8d3c-a9b6717d4b8b"
+        },
+        {
+          "id": "6aa7268d-7796-40b4-b3d6-848dc822c53f"
+        },
+        {
+          "id": "97f2773b-774c-434b-b7c6-9884e34f140a"
+        },
+        {
+          "id": "22605f8d-53a3-4906-b1e5-cdbe6bd95c71"
+        },
+        {
+          "id": "d4318a5b-4e9c-4128-ba97-f3ef0dfba874"
+        },
+        {
+          "id": "66d4d414-46b5-4533-8b6f-3c27f8ba0d2c"
+        },
+        {
+          "id": "d33991b6-8d3a-4c93-8a1d-81a2484f977b"
+        },
+        {
+          "id": "49b25be1-d865-4691-9823-e3b4bf8ff43c"
+        }
+      ]
+    },
+    {
+      "step": 1,
+      "args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "4f511fa1-c771-4757-8e74-fe3dff4d95f5"
+        },
+        {
+          "id": "8179eaf6-f1cc-49fd-a651-3c1e4d0cd666"
+        },
+        {
+          "id": "d8dbed5a-1eac-408c-b5eb-4b2541788643"
+        },
+        {
+          "id": "3efb9f14-0244-4318-b152-60620504fc4c"
+        },
+        {
+          "id": "82d3d3f4-88e3-4d49-873e-c08bde9ffddd"
+        },
+        {
+          "id": "4a41db90-6bb5-4db9-b592-5a8f08a8cd73"
+        },
+        {
+          "id": "3287f2a6-5530-4f9a-a8bb-0b4683b27484"
+        },
+        {
+          "id": "f757eb27-7575-42f2-9f3e-aba9414d2937"
+        },
+        {
+          "id": "7fd87c6c-b6b9-45ec-8e5b-79d1a866833f"
+        },
+        {
+          "id": "d35708dd-cac1-43a4-a6a3-872a72f74a43"
+        },
+        {
+          "id": "d1ceda0c-d075-409e-8f0a-cb24cf5ec199"
+        },
+        {
+          "id": "51e87aa9-83b4-43e8-81a5-207c408b008d"
+        },
+        {
+          "id": "375165eb-56a9-4c2b-b6df-dd2b7a1df783"
+        },
+        {
+          "id": "e05d7d34-dac6-47f2-a392-857466a88ddb"
+        },
+        {
+          "id": "0555a35c-9762-4bc9-b5a2-b7bf7bb6c8d0"
+        },
+        {
+          "id": "79046e83-e080-4aac-8ccd-4083480103d4"
+        },
+        {
+          "id": "618db944-3a8f-4e23-bddc-fe8ff11e0c58"
+        },
+        {
+          "id": "6849acd1-e95e-49f1-9766-4083b196ef1e"
+        },
+        {
+          "id": "31e0cda3-2493-413a-918f-1d5a6b40c2f9"
+        },
+        {
+          "id": "ba7c737e-bfdb-4b2c-861f-dabd2066637c"
+        },
+        {
+          "id": "1ee4a42e-c429-4deb-bf9f-e0f8f625a3ce"
+        },
+        {
+          "id": "bf35f06f-cbd7-4c3a-9c82-409c5697133a"
+        },
+        {
+          "id": "a4ed9b7c-dd8c-4e06-bea9-b9b8374b29c3"
+        },
+        {
+          "id": "9054f064-0f4e-40bd-ad17-4cffe7af6b7f"
+        },
+        {
+          "id": "41224369-faeb-4563-a46e-998eb230159b"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "5b41f4d2-147b-486a-a705-aa1656f979b4"
+        },
+        {
+          "id": "43623f2d-dfa5-45f0-bc00-028b5aeb1681"
+        },
+        {
+          "id": "7dbf3704-ffe9-419a-9a3e-7e73d6ee0905"
+        },
+        {
+          "id": "f8e43323-bbda-4151-a532-5732e85d8459"
+        },
+        {
+          "id": "0e86d6cb-1f9e-4eba-921b-1d9a5429c3db"
+        },
+        {
+          "id": "e149065f-e613-4f89-bb97-0c39760d640e"
+        },
+        {
+          "id": "2f996190-ce8c-451e-93a1-90feeab519c7"
+        },
+        {
+          "id": "4b4ffb22-1c2c-4d36-896b-98bb793c9a9e"
+        },
+        {
+          "id": "9717fe88-a221-4286-9ff7-2277b35f0e54"
+        },
+        {
+          "id": "986b8e4a-9f4d-4a61-af0d-44774d3b7ca1"
+        },
+        {
+          "id": "1b5a2762-4747-47f4-8b9d-774ee103d60d"
+        },
+        {
+          "id": "02d5926f-c903-4239-8104-8b5c3a723d54"
+        },
+        {
+          "id": "7394ccf9-3811-4dd8-a007-218a86a457f0"
+        },
+        {
+          "id": "9a0ed901-4ffe-4748-a30d-acf03acd5e55"
+        },
+        {
+          "id": "a477b882-df78-4673-a389-ae6dc2c5f96d"
+        },
+        {
+          "id": "9fdb1cad-f67d-4054-98cf-0ed271c373e4"
+        },
+        {
+          "id": "2842bf5b-d4ca-45a5-aa77-a0d281b965b9"
+        },
+        {
+          "id": "8737f087-5ebf-432a-936b-9f45345880b7"
+        },
+        {
+          "id": "4eefb7be-0539-4d3a-b5e5-e19dfcc58c14"
+        },
+        {
+          "id": "3aed5f4d-f645-4de6-b9c9-02a7d10f1298"
+        },
+        {
+          "id": "dfcd8fe7-a836-40d5-adb4-d3b79612f788"
+        },
+        {
+          "id": "61add72a-ebec-4595-a9ea-de160ad6f744"
+        },
+        {
+          "id": "5e3778c9-7515-4a56-81e4-70eb13bb769a"
+        },
+        {
+          "id": "3403bc6c-5bf7-42a6-90cf-b632281a7835"
+        },
+        {
+          "id": "be2cde87-5be7-46f8-8bc0-0ac4b5e3725b"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "args": {
+        "source_type": "nih_grant",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "91851f31-5897-4e02-bb68-39d189e442f0"
+        },
+        {
+          "id": "b98e3bbe-69cf-4bdf-af96-cf2e3d2c9ce6"
+        },
+        {
+          "id": "a763b9c9-733b-4f43-ae95-2e30cff68efe"
+        },
+        {
+          "id": "7b597b2a-e93b-43e6-ad23-2d2e17e315f5"
+        },
+        {
+          "id": "403bce3f-d5c5-4c11-bd7b-4b4929aee834"
+        },
+        {
+          "id": "a9d45de3-2539-4ac3-947e-40ae218abd48"
+        },
+        {
+          "id": "68493bfd-a087-44cb-b321-59bef268e492"
+        },
+        {
+          "id": "de87517e-3954-493f-baeb-c81e9bb85293"
+        },
+        {
+          "id": "110e6dbc-10b5-4586-aa99-ea73cb1c530f"
+        },
+        {
+          "id": "5733877c-8daa-4b21-afb9-4130b517d9ca"
+        },
+        {
+          "id": "bf9e54a4-6c14-40a8-8c13-e65a1dfb7701"
+        },
+        {
+          "id": "a8000361-7ccb-49ad-9525-0c41d5ff5bcb"
+        },
+        {
+          "id": "f0167052-c147-47bc-b6ee-14d27154df30"
+        },
+        {
+          "id": "c5be685f-f578-4d60-b041-d1e555032455"
+        },
+        {
+          "id": "17ec0d0e-07b3-499d-bfd9-dd2ed33fe02c"
+        },
+        {
+          "id": "9558609b-1076-4349-99b4-42502bacfccc"
+        },
+        {
+          "id": "7d44d038-e098-4a40-9b7a-a6400367abce"
+        },
+        {
+          "id": "4beb8d9c-078a-4adc-bd38-05f7ab9dcb71"
+        },
+        {
+          "id": "7e0f5935-8e67-48a3-abbf-f07c8c419bf0"
+        },
+        {
+          "id": "06f14c6b-ed56-4f84-8e6e-13b2fab19592"
+        },
+        {
+          "id": "c2a9f606-e7c3-4cc9-892d-5197d96d7dff"
+        },
+        {
+          "id": "25a5090b-690a-4e5b-8dd6-c301975fde31"
+        },
+        {
+          "id": "aaee1d96-1459-45f3-a7e7-cfdf3c946b7b"
+        },
+        {
+          "id": "79863343-392c-4a09-ba7f-dc4ed464d1e3"
+        },
+        {
+          "id": "7a4bcf4d-cc40-427d-9f0e-1fd5377d517d"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "args": {
+        "source_type": "drugage",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "27092290-7f91-489f-8555-ec28eca51707"
+        },
+        {
+          "id": "1be734bf-6f12-4b30-a20c-a950d1feb2cd"
+        },
+        {
+          "id": "629b9478-442e-4bf2-81ec-d401c487374d"
+        },
+        {
+          "id": "9e716502-c64e-46e7-ae92-4155a499ee89"
+        },
+        {
+          "id": "8529957a-a7aa-4005-8b54-94d8c639f207"
+        },
+        {
+          "id": "910850b5-001f-4db5-94fc-f5ef5b6fb90e"
+        },
+        {
+          "id": "b1797d24-fde7-4ab2-bcc1-1105c6892eb7"
+        },
+        {
+          "id": "a2692e8c-24fe-4771-9985-06006a924574"
+        },
+        {
+          "id": "e44fb52b-ad72-44f3-9a90-03c6e740d377"
+        },
+        {
+          "id": "9966ba2f-d526-4ce8-8215-89006b2d924c"
+        },
+        {
+          "id": "22d760f5-a62c-467a-9f4a-931ba0a67dc7"
+        },
+        {
+          "id": "123bf0c0-5de2-4843-98e1-7809f21e507d"
+        },
+        {
+          "id": "efde20f7-f091-48eb-87c4-a177f1d9af6e"
+        },
+        {
+          "id": "1f1457af-d524-4a28-b974-618793f64d3c"
+        },
+        {
+          "id": "10cbaa28-cdc6-4c16-bb20-e73e7408d35c"
+        },
+        {
+          "id": "caeacc18-a6a1-471f-9f99-044861942835"
+        },
+        {
+          "id": "74252df3-3a5c-4eb1-aee9-e856df462911"
+        },
+        {
+          "id": "81975f6e-a1ec-45b5-8d9f-a71931b48d12"
+        },
+        {
+          "id": "96998640-c23e-4ee4-8c37-f944da906f51"
+        },
+        {
+          "id": "3d4cd910-bb5a-4263-a66b-6ec7829f1d17"
+        },
+        {
+          "id": "cf7326da-4aba-448d-a284-7c495c8eaad4"
+        },
+        {
+          "id": "74ef968e-f2d7-45ed-9753-dae6a1e8e865"
+        },
+        {
+          "id": "55cf2f78-7215-4c71-9f53-0778367b4da2"
+        },
+        {
+          "id": "cabca368-d12f-4675-acbf-51da01dfd8d3"
+        },
+        {
+          "id": "00335bc5-14cd-46df-97c4-bbce27362eed"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "args": {
+        "source_type": "regulatory",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "f803a4ab-142f-4703-adc6-fb019030ecf5"
+        },
+        {
+          "id": "213bbe8b-be57-48d3-a723-3f5decb70808"
+        },
+        {
+          "id": "baa35d43-4bad-4915-a423-2042c897f722"
+        },
+        {
+          "id": "9d23d36a-dd53-46ac-b330-749129b36872"
+        },
+        {
+          "id": "e66a1b66-6dde-4d4e-a611-61f73a313975"
+        },
+        {
+          "id": "5957e93f-6ba5-4609-88fb-d07c66789470"
+        },
+        {
+          "id": "7b0f18ef-0f96-451c-80d6-6e8f0b46ce18"
+        },
+        {
+          "id": "bd005795-5fd3-4be4-a630-c078af44c9cf"
+        },
+        {
+          "id": "f30f94f3-9906-45a6-bde6-54855e9cfbe3"
+        },
+        {
+          "id": "9c8e6b71-fc41-4aba-8cb3-34452e47e636"
+        },
+        {
+          "id": "af55f663-963a-42ed-b7c1-ebdc2f826375"
+        },
+        {
+          "id": "813f01b0-863e-4f9d-8630-e81236b4ff68"
+        },
+        {
+          "id": "18866741-f05b-4f53-bacd-e1dec5bb7fa5"
+        },
+        {
+          "id": "fddc1f72-5cee-425e-ae85-c35a927f5e6c"
+        },
+        {
+          "id": "c3086e26-cd3c-4edc-b68b-01dfc9482dc9"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "args": {
+        "source_type": "patent",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "9d5fe711-7791-4724-8867-b0f1809bf063"
+        },
+        {
+          "id": "9714930b-b282-4ef0-a2d1-954cc8064c1e"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "4f511fa1-c771-4757-8e74-fe3dff4d95f5"
+        },
+        {
+          "id": "8179eaf6-f1cc-49fd-a651-3c1e4d0cd666"
+        },
+        {
+          "id": "d8dbed5a-1eac-408c-b5eb-4b2541788643"
+        },
+        {
+          "id": "3efb9f14-0244-4318-b152-60620504fc4c"
+        },
+        {
+          "id": "82d3d3f4-88e3-4d49-873e-c08bde9ffddd"
+        },
+        {
+          "id": "4a41db90-6bb5-4db9-b592-5a8f08a8cd73"
+        },
+        {
+          "id": "3287f2a6-5530-4f9a-a8bb-0b4683b27484"
+        },
+        {
+          "id": "f757eb27-7575-42f2-9f3e-aba9414d2937"
+        },
+        {
+          "id": "7fd87c6c-b6b9-45ec-8e5b-79d1a866833f"
+        },
+        {
+          "id": "d35708dd-cac1-43a4-a6a3-872a72f74a43"
+        },
+        {
+          "id": "d1ceda0c-d075-409e-8f0a-cb24cf5ec199"
+        },
+        {
+          "id": "51e87aa9-83b4-43e8-81a5-207c408b008d"
+        },
+        {
+          "id": "375165eb-56a9-4c2b-b6df-dd2b7a1df783"
+        },
+        {
+          "id": "e05d7d34-dac6-47f2-a392-857466a88ddb"
+        },
+        {
+          "id": "0555a35c-9762-4bc9-b5a2-b7bf7bb6c8d0"
+        },
+        {
+          "id": "79046e83-e080-4aac-8ccd-4083480103d4"
+        },
+        {
+          "id": "618db944-3a8f-4e23-bddc-fe8ff11e0c58"
+        },
+        {
+          "id": "6849acd1-e95e-49f1-9766-4083b196ef1e"
+        },
+        {
+          "id": "31e0cda3-2493-413a-918f-1d5a6b40c2f9"
+        },
+        {
+          "id": "ba7c737e-bfdb-4b2c-861f-dabd2066637c"
+        },
+        {
+          "id": "1ee4a42e-c429-4deb-bf9f-e0f8f625a3ce"
+        },
+        {
+          "id": "bf35f06f-cbd7-4c3a-9c82-409c5697133a"
+        },
+        {
+          "id": "a4ed9b7c-dd8c-4e06-bea9-b9b8374b29c3"
+        },
+        {
+          "id": "9054f064-0f4e-40bd-ad17-4cffe7af6b7f"
+        },
+        {
+          "id": "41224369-faeb-4563-a46e-998eb230159b"
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "4f511fa1-c771-4757-8e74-fe3dff4d95f5"
+        },
+        {
+          "id": "8179eaf6-f1cc-49fd-a651-3c1e4d0cd666"
+        },
+        {
+          "id": "d8dbed5a-1eac-408c-b5eb-4b2541788643"
+        },
+        {
+          "id": "3efb9f14-0244-4318-b152-60620504fc4c"
+        },
+        {
+          "id": "82d3d3f4-88e3-4d49-873e-c08bde9ffddd"
+        },
+        {
+          "id": "4a41db90-6bb5-4db9-b592-5a8f08a8cd73"
+        },
+        {
+          "id": "3287f2a6-5530-4f9a-a8bb-0b4683b27484"
+        },
+        {
+          "id": "f757eb27-7575-42f2-9f3e-aba9414d2937"
+        },
+        {
+          "id": "7fd87c6c-b6b9-45ec-8e5b-79d1a866833f"
+        },
+        {
+          "id": "d35708dd-cac1-43a4-a6a3-872a72f74a43"
+        },
+        {
+          "id": "d1ceda0c-d075-409e-8f0a-cb24cf5ec199"
+        },
+        {
+          "id": "51e87aa9-83b4-43e8-81a5-207c408b008d"
+        },
+        {
+          "id": "375165eb-56a9-4c2b-b6df-dd2b7a1df783"
+        },
+        {
+          "id": "e05d7d34-dac6-47f2-a392-857466a88ddb"
+        },
+        {
+          "id": "0555a35c-9762-4bc9-b5a2-b7bf7bb6c8d0"
+        },
+        {
+          "id": "79046e83-e080-4aac-8ccd-4083480103d4"
+        },
+        {
+          "id": "618db944-3a8f-4e23-bddc-fe8ff11e0c58"
+        },
+        {
+          "id": "6849acd1-e95e-49f1-9766-4083b196ef1e"
+        },
+        {
+          "id": "31e0cda3-2493-413a-918f-1d5a6b40c2f9"
+        },
+        {
+          "id": "ba7c737e-bfdb-4b2c-861f-dabd2066637c"
+        },
+        {
+          "id": "1ee4a42e-c429-4deb-bf9f-e0f8f625a3ce"
+        },
+        {
+          "id": "bf35f06f-cbd7-4c3a-9c82-409c5697133a"
+        },
+        {
+          "id": "a4ed9b7c-dd8c-4e06-bea9-b9b8374b29c3"
+        },
+        {
+          "id": "9054f064-0f4e-40bd-ad17-4cffe7af6b7f"
+        },
+        {
+          "id": "41224369-faeb-4563-a46e-998eb230159b"
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "5b41f4d2-147b-486a-a705-aa1656f979b4"
+        },
+        {
+          "id": "43623f2d-dfa5-45f0-bc00-028b5aeb1681"
+        },
+        {
+          "id": "7dbf3704-ffe9-419a-9a3e-7e73d6ee0905"
+        },
+        {
+          "id": "f8e43323-bbda-4151-a532-5732e85d8459"
+        },
+        {
+          "id": "0e86d6cb-1f9e-4eba-921b-1d9a5429c3db"
+        },
+        {
+          "id": "e149065f-e613-4f89-bb97-0c39760d640e"
+        },
+        {
+          "id": "2f996190-ce8c-451e-93a1-90feeab519c7"
+        },
+        {
+          "id": "4b4ffb22-1c2c-4d36-896b-98bb793c9a9e"
+        },
+        {
+          "id": "9717fe88-a221-4286-9ff7-2277b35f0e54"
+        },
+        {
+          "id": "986b8e4a-9f4d-4a61-af0d-44774d3b7ca1"
+        },
+        {
+          "id": "1b5a2762-4747-47f4-8b9d-774ee103d60d"
+        },
+        {
+          "id": "02d5926f-c903-4239-8104-8b5c3a723d54"
+        },
+        {
+          "id": "7394ccf9-3811-4dd8-a007-218a86a457f0"
+        },
+        {
+          "id": "9a0ed901-4ffe-4748-a30d-acf03acd5e55"
+        },
+        {
+          "id": "a477b882-df78-4673-a389-ae6dc2c5f96d"
+        },
+        {
+          "id": "9fdb1cad-f67d-4054-98cf-0ed271c373e4"
+        },
+        {
+          "id": "2842bf5b-d4ca-45a5-aa77-a0d281b965b9"
+        },
+        {
+          "id": "8737f087-5ebf-432a-936b-9f45345880b7"
+        },
+        {
+          "id": "4eefb7be-0539-4d3a-b5e5-e19dfcc58c14"
+        },
+        {
+          "id": "3aed5f4d-f645-4de6-b9c9-02a7d10f1298"
+        },
+        {
+          "id": "dfcd8fe7-a836-40d5-adb4-d3b79612f788"
+        },
+        {
+          "id": "61add72a-ebec-4595-a9ea-de160ad6f744"
+        },
+        {
+          "id": "5e3778c9-7515-4a56-81e4-70eb13bb769a"
+        },
+        {
+          "id": "3403bc6c-5bf7-42a6-90cf-b632281a7835"
+        },
+        {
+          "id": "be2cde87-5be7-46f8-8bc0-0ac4b5e3725b"
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "5b41f4d2-147b-486a-a705-aa1656f979b4"
+        },
+        {
+          "id": "43623f2d-dfa5-45f0-bc00-028b5aeb1681"
+        },
+        {
+          "id": "7dbf3704-ffe9-419a-9a3e-7e73d6ee0905"
+        },
+        {
+          "id": "f8e43323-bbda-4151-a532-5732e85d8459"
+        },
+        {
+          "id": "0e86d6cb-1f9e-4eba-921b-1d9a5429c3db"
+        },
+        {
+          "id": "e149065f-e613-4f89-bb97-0c39760d640e"
+        },
+        {
+          "id": "2f996190-ce8c-451e-93a1-90feeab519c7"
+        },
+        {
+          "id": "4b4ffb22-1c2c-4d36-896b-98bb793c9a9e"
+        },
+        {
+          "id": "9717fe88-a221-4286-9ff7-2277b35f0e54"
+        },
+        {
+          "id": "986b8e4a-9f4d-4a61-af0d-44774d3b7ca1"
+        },
+        {
+          "id": "1b5a2762-4747-47f4-8b9d-774ee103d60d"
+        },
+        {
+          "id": "02d5926f-c903-4239-8104-8b5c3a723d54"
+        },
+        {
+          "id": "7394ccf9-3811-4dd8-a007-218a86a457f0"
+        },
+        {
+          "id": "9a0ed901-4ffe-4748-a30d-acf03acd5e55"
+        },
+        {
+          "id": "a477b882-df78-4673-a389-ae6dc2c5f96d"
+        },
+        {
+          "id": "9fdb1cad-f67d-4054-98cf-0ed271c373e4"
+        },
+        {
+          "id": "2842bf5b-d4ca-45a5-aa77-a0d281b965b9"
+        },
+        {
+          "id": "8737f087-5ebf-432a-936b-9f45345880b7"
+        },
+        {
+          "id": "4eefb7be-0539-4d3a-b5e5-e19dfcc58c14"
+        },
+        {
+          "id": "3aed5f4d-f645-4de6-b9c9-02a7d10f1298"
+        },
+        {
+          "id": "dfcd8fe7-a836-40d5-adb4-d3b79612f788"
+        },
+        {
+          "id": "61add72a-ebec-4595-a9ea-de160ad6f744"
+        },
+        {
+          "id": "5e3778c9-7515-4a56-81e4-70eb13bb769a"
+        },
+        {
+          "id": "3403bc6c-5bf7-42a6-90cf-b632281a7835"
+        },
+        {
+          "id": "be2cde87-5be7-46f8-8bc0-0ac4b5e3725b"
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "5b41f4d2-147b-486a-a705-aa1656f979b4"
+        },
+        {
+          "id": "43623f2d-dfa5-45f0-bc00-028b5aeb1681"
+        },
+        {
+          "id": "7dbf3704-ffe9-419a-9a3e-7e73d6ee0905"
+        },
+        {
+          "id": "f8e43323-bbda-4151-a532-5732e85d8459"
+        },
+        {
+          "id": "0e86d6cb-1f9e-4eba-921b-1d9a5429c3db"
+        },
+        {
+          "id": "e149065f-e613-4f89-bb97-0c39760d640e"
+        },
+        {
+          "id": "2f996190-ce8c-451e-93a1-90feeab519c7"
+        },
+        {
+          "id": "4b4ffb22-1c2c-4d36-896b-98bb793c9a9e"
+        },
+        {
+          "id": "9717fe88-a221-4286-9ff7-2277b35f0e54"
+        },
+        {
+          "id": "986b8e4a-9f4d-4a61-af0d-44774d3b7ca1"
+        },
+        {
+          "id": "1b5a2762-4747-47f4-8b9d-774ee103d60d"
+        },
+        {
+          "id": "02d5926f-c903-4239-8104-8b5c3a723d54"
+        },
+        {
+          "id": "7394ccf9-3811-4dd8-a007-218a86a457f0"
+        },
+        {
+          "id": "9a0ed901-4ffe-4748-a30d-acf03acd5e55"
+        },
+        {
+          "id": "a477b882-df78-4673-a389-ae6dc2c5f96d"
+        },
+        {
+          "id": "9fdb1cad-f67d-4054-98cf-0ed271c373e4"
+        },
+        {
+          "id": "2842bf5b-d4ca-45a5-aa77-a0d281b965b9"
+        },
+        {
+          "id": "8737f087-5ebf-432a-936b-9f45345880b7"
+        },
+        {
+          "id": "4eefb7be-0539-4d3a-b5e5-e19dfcc58c14"
+        },
+        {
+          "id": "3aed5f4d-f645-4de6-b9c9-02a7d10f1298"
+        },
+        {
+          "id": "dfcd8fe7-a836-40d5-adb4-d3b79612f788"
+        },
+        {
+          "id": "61add72a-ebec-4595-a9ea-de160ad6f744"
+        },
+        {
+          "id": "5e3778c9-7515-4a56-81e4-70eb13bb769a"
+        },
+        {
+          "id": "3403bc6c-5bf7-42a6-90cf-b632281a7835"
+        },
+        {
+          "id": "be2cde87-5be7-46f8-8bc0-0ac4b5e3725b"
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "5b41f4d2-147b-486a-a705-aa1656f979b4"
+        },
+        {
+          "id": "43623f2d-dfa5-45f0-bc00-028b5aeb1681"
+        },
+        {
+          "id": "7dbf3704-ffe9-419a-9a3e-7e73d6ee0905"
+        },
+        {
+          "id": "f8e43323-bbda-4151-a532-5732e85d8459"
+        },
+        {
+          "id": "0e86d6cb-1f9e-4eba-921b-1d9a5429c3db"
+        },
+        {
+          "id": "e149065f-e613-4f89-bb97-0c39760d640e"
+        },
+        {
+          "id": "2f996190-ce8c-451e-93a1-90feeab519c7"
+        },
+        {
+          "id": "4b4ffb22-1c2c-4d36-896b-98bb793c9a9e"
+        },
+        {
+          "id": "9717fe88-a221-4286-9ff7-2277b35f0e54"
+        },
+        {
+          "id": "986b8e4a-9f4d-4a61-af0d-44774d3b7ca1"
+        },
+        {
+          "id": "1b5a2762-4747-47f4-8b9d-774ee103d60d"
+        },
+        {
+          "id": "02d5926f-c903-4239-8104-8b5c3a723d54"
+        },
+        {
+          "id": "7394ccf9-3811-4dd8-a007-218a86a457f0"
+        },
+        {
+          "id": "9a0ed901-4ffe-4748-a30d-acf03acd5e55"
+        },
+        {
+          "id": "a477b882-df78-4673-a389-ae6dc2c5f96d"
+        },
+        {
+          "id": "9fdb1cad-f67d-4054-98cf-0ed271c373e4"
+        },
+        {
+          "id": "2842bf5b-d4ca-45a5-aa77-a0d281b965b9"
+        },
+        {
+          "id": "8737f087-5ebf-432a-936b-9f45345880b7"
+        },
+        {
+          "id": "4eefb7be-0539-4d3a-b5e5-e19dfcc58c14"
+        },
+        {
+          "id": "3aed5f4d-f645-4de6-b9c9-02a7d10f1298"
+        },
+        {
+          "id": "dfcd8fe7-a836-40d5-adb4-d3b79612f788"
+        },
+        {
+          "id": "61add72a-ebec-4595-a9ea-de160ad6f744"
+        },
+        {
+          "id": "5e3778c9-7515-4a56-81e4-70eb13bb769a"
+        },
+        {
+          "id": "3403bc6c-5bf7-42a6-90cf-b632281a7835"
+        },
+        {
+          "id": "be2cde87-5be7-46f8-8bc0-0ac4b5e3725b"
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "5b41f4d2-147b-486a-a705-aa1656f979b4"
+        },
+        {
+          "id": "43623f2d-dfa5-45f0-bc00-028b5aeb1681"
+        },
+        {
+          "id": "7dbf3704-ffe9-419a-9a3e-7e73d6ee0905"
+        },
+        {
+          "id": "f8e43323-bbda-4151-a532-5732e85d8459"
+        },
+        {
+          "id": "0e86d6cb-1f9e-4eba-921b-1d9a5429c3db"
+        },
+        {
+          "id": "e149065f-e613-4f89-bb97-0c39760d640e"
+        },
+        {
+          "id": "2f996190-ce8c-451e-93a1-90feeab519c7"
+        },
+        {
+          "id": "4b4ffb22-1c2c-4d36-896b-98bb793c9a9e"
+        },
+        {
+          "id": "9717fe88-a221-4286-9ff7-2277b35f0e54"
+        },
+        {
+          "id": "986b8e4a-9f4d-4a61-af0d-44774d3b7ca1"
+        },
+        {
+          "id": "1b5a2762-4747-47f4-8b9d-774ee103d60d"
+        },
+        {
+          "id": "02d5926f-c903-4239-8104-8b5c3a723d54"
+        },
+        {
+          "id": "7394ccf9-3811-4dd8-a007-218a86a457f0"
+        },
+        {
+          "id": "9a0ed901-4ffe-4748-a30d-acf03acd5e55"
+        },
+        {
+          "id": "a477b882-df78-4673-a389-ae6dc2c5f96d"
+        },
+        {
+          "id": "9fdb1cad-f67d-4054-98cf-0ed271c373e4"
+        },
+        {
+          "id": "2842bf5b-d4ca-45a5-aa77-a0d281b965b9"
+        },
+        {
+          "id": "8737f087-5ebf-432a-936b-9f45345880b7"
+        },
+        {
+          "id": "4eefb7be-0539-4d3a-b5e5-e19dfcc58c14"
+        },
+        {
+          "id": "3aed5f4d-f645-4de6-b9c9-02a7d10f1298"
+        },
+        {
+          "id": "dfcd8fe7-a836-40d5-adb4-d3b79612f788"
+        },
+        {
+          "id": "61add72a-ebec-4595-a9ea-de160ad6f744"
+        },
+        {
+          "id": "5e3778c9-7515-4a56-81e4-70eb13bb769a"
+        },
+        {
+          "id": "3403bc6c-5bf7-42a6-90cf-b632281a7835"
+        },
+        {
+          "id": "be2cde87-5be7-46f8-8bc0-0ac4b5e3725b"
+        }
+      ]
+    }
+  ],
+  "fetched_documents": [
+    {
+      "id": "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Targeting ageing with rapamycin and its derivatives in humans: a systematic review.",
+      "abstract": "Rapamycin and its derivatives (rapalogs) are inhibitors of mTOR, a major regulator of the ageing process. We aimed to summarise the effects of rapamycin and its derivatives on the severity of ageing-related physiological changes and disease in adults. A search across five databases yielded 18 400 unique articles, resulting in 19 included studies. Rapamycin and its derivatives improved physiological parameters associated with ageing in the immune, cardiovascular, and integumentary systems of healthy individuals or individuals with ageing-related diseases. Overall, no significant effects on the endocrine, muscular, or neurological systems were found. The effects of rapamycin or its derivatives on the respiratory, digestive, renal, and reproductive systems were not assessed. No serious adverse events attributed to rapamycin and its derivatives were reported in healthy individuals; however, there were increased numbers of infections and increases in total cholesterol, LDL cholesterol, and triglycerides in individuals with ageing-related diseases. Future studies should assess the remaining unexamined systems and test the effects of long-term exposure to rapamycin and its derivatives.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38310895/",
+      "date_published": "2024-02-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "38310895",
+      "doi": "10.1016/S2666-7568(23)00258-1",
+      "authors": [
+        "Lee Deborah J W",
+        "Hodzic Kuerec Ajla",
+        "Maier Andrea B"
+      ],
+      "journal": "The lancet. Healthy longevity",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Aging",
+        "Sirolimus"
+      ],
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "520a79e8-2d34-4f5a-81ea-e078281d8d5e",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Rapamycin not dietary restriction improves resilience against pathogens: a meta-analysis.",
+      "abstract": "Dietary restriction (DR) and rapamycin both increase lifespan across a number of taxa. Despite this positive effect on lifespan and other aspects of health, reductions in some physiological functions have been reported for DR, and rapamycin has been used as an immunosuppressant. Perhaps surprisingly, both interventions have been suggested to improve immune function and delay immunosenescence. The immune system is complex and consists of many components. Therefore, arguably, the most holistic measurement of immune function is survival from an acute pathogenic infection. We reanalysed published post-infection short-term survival data of mice (n = 1223 from 23 studies comprising 46 effect sizes involving DR (n = 17) and rapamycin treatment (n = 29) and analysed these results using meta-analysis. Rapamycin treatment significantly increased post infection survival rate (lnHR =  - 0.72; CI =  - 1.17, -0.28; p = 0.0015). In contrast, DR reduced post-infection survival (lnHR = 0.80; CI = 0.08, 1.52; p = 0.03). Importantly, the overall effect size of rapamycin treatment was significantly lower (p < 0.001) than the estimate from DR studies, suggesting opposite effects on immune function. Our results show that immunomodulation caused by rapamycin treatment is beneficial to the survival from acute infection. For DR, our results are based on a smaller number of studies, but do warrant caution as they indicate possible immune costs of DR. Our quantitative synthesis suggests that the geroprotective effects of rapamycin extend to the immune system and warrants further clinical trials of rapamycin to boost immunity in humans.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36399256/",
+      "date_published": "2023-04-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "36399256",
+      "doi": "10.1007/s11357-022-00691-4",
+      "authors": [
+        "Phillips Eleanor J",
+        "Simons Mirre J P"
+      ],
+      "journal": "GeroScience",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Mice",
+        "Animals",
+        "Sirolimus",
+        "Caloric Restriction",
+        "Longevity",
+        "Immunosuppressive Agents",
+        "Immunosenescence"
+      ],
+      "publication_types": [
+        "Meta-Analysis",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "04ac41c0-94cc-4985-a72b-a7ec54f2bdf1",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Rapamycin, Not Metformin, Mirrors Dietary Restriction-Driven Lifespan Extension in Vertebrates: A Meta-Analysis.",
+      "abstract": "Dietary restriction (DR) robustly increases lifespan across taxa. However, in humans, long-term DR is difficult to maintain, leading to the search for compounds that regulate metabolism and increase lifespan without reducing caloric intake. The magnitude of lifespan extension from two such compounds, rapamycin and metformin, remains inconclusive, particularly in vertebrates. Here, we conducted a meta-analysis comparing lifespan extension conferred by rapamycin and metformin to DR-mediated lifespan extension across vertebrates. We assessed whether these effects were sex- and, when considering DR, treatment-specific. In total, we analysed 911 effect sizes from 167 papers covering eight different vertebrate species. We find that DR robustly extends lifespan across log-response means and medians and, importantly, rapamycin-but not metformin-produced a significant lifespan extension. We also observed no consistent effect of sex across all treatments and log-response measures. Furthermore, we found that the effect of DR was robust to differences in the type of DR methodology used. However, high heterogeneity and significant publication bias influenced results across all treatments. Additionally, results were sensitive to how lifespan was reported, although some consistent patterns still emerged. Overall, this study suggests that rapamycin and DR confer comparable lifespan extension across a broad range of vertebrates.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40532901/",
+      "date_published": "2025-09-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "40532901",
+      "doi": "10.1111/acel.70131",
+      "authors": [
+        "Ivimey-Cook Edward R",
+        "Sultanova Zahida",
+        "Maklakov Alexei A"
+      ],
+      "journal": "Aging cell",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Caloric Restriction",
+        "Longevity",
+        "Metformin",
+        "Sirolimus",
+        "Vertebrates"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Meta-Analysis"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "b8830a23-db03-45f9-a5c9-7fdd064853e5",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results.",
+      "abstract": "DESIGN: This 48-week decentralized, double-blinded, randomized, placebo-controlled trial (NCT04488601) evaluated the long-term safety of intermittent low-dose rapamycin in a healthy, normative-aging human cohort. Participants received placebo, 5 mg or 10 mg compounded rapamycin weekly. The primary outcome measure was visceral adiposity (by DXA scan), secondary outcomes were blood biomarkers, and lean tissue and bone mineral content (by DXA scan). Established surveys were utilized to evaluate health and well-being. Safety was assessed through adverse events and blood biomarker monitoring.\nRESULTS: Adverse and serious adverse events were similar across all groups. Visceral adiposity did not change significantly (η\nCONCLUSIONS: Low-dose, intermittent rapamycin administration over 48 weeks is relatively safe in healthy, normative-aging adults, and was associated with significant improvements in lean tissue mass and pain in women. Future work will evaluate benefits of a broader range of rapamycin doses on healthspan metrics for longevity, and will aim to more comprehensively establish efficacy.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40188830/",
+      "date_published": "2025-04-04",
+      "date_indexed": "2026-02-28",
+      "pmid": "40188830",
+      "doi": "10.18632/aging.206235",
+      "authors": [
+        "Moel Mauricio",
+        "Harinath Girish",
+        "Lee Virginia",
+        "Nyquist Andy",
+        "Morgan Stefanie L",
+        "Isman Anar",
+        "Zalzala Sajad"
+      ],
+      "journal": "Aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Sirolimus",
+        "Male",
+        "Double-Blind Method",
+        "Middle Aged",
+        "Adult",
+        "Aged",
+        "Bone Density",
+        "Biomarkers",
+        "Aging"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "87e1a7af-343b-40f7-aa0b-5dde68159d8e",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Meta-Analysis of 29 Experiments Evaluating the Effects of Rapamycin on Life Span in the Laboratory Mouse.",
+      "abstract": "Rapamycin has favorable effects on aging in mice and may eventually be applied to encourage \"healthy aging\" in humans. This study analyzed raw data from 29 survival studies of rapamycin- and control-treated mice, with the goals of estimating summary statistics and identifying factors associated with effect size heterogeneity. Meta-analysis demonstrated significant heterogeneity across studies, with hazard ratio (HR) estimates ranging from 0.22 (95% confidence interval [CI]: 0.06-0.82) to 0.92 (95% CI: 0.65-1.28). Sex was the major factor accounting for effect size variation, and mortality was decreased more in females (HR = 0.41; 95% CI: 0.35-0.48) as compared with males (HR = 0.63; 95% CI: 0.55-0.71). Rapamycin effects were also genotype dependent, however, with stronger survivorship increases in hybrid mice (14.4%; 95% CI: 12.5-16.3%) relative to pure inbred strains (8.8%; 95% CI: 6.2-11.6%). Number needed to treat was applied as an effect size metric, which consistently identified early senescence as the age of peak treatment benefit. These results provide synthesis of existing data to support the potential translation of findings from mouse to primate species. Because rapamycin's effect on survival depends on sex and genotype, further work is justified to understand how these factors shape treatment response.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27519886/",
+      "date_published": "2017-08-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "27519886",
+      "doi": "10.1093/gerona/glw153",
+      "authors": [
+        "Swindell William R"
+      ],
+      "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Animal Experimentation",
+        "Animals",
+        "Immunosuppressive Agents",
+        "Mice",
+        "Sirolimus"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Meta-Analysis"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "e5a05b27-21cc-432a-85ca-764530ee03b7",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Topical rapamycin reduces markers of senescence and aging in human skin: an exploratory, prospective, randomized trial.",
+      "abstract": "Aging is a major risk factor for the majority of human diseases, and the development of interventions to reduce the intrinsic rate of aging is expected to reduce the risk for age-related diseases including cardiovascular disease, cancer, and dementia. In the skin, aging manifests itself in photodamage and dermal atrophy, with underlying tissue reduction and impaired barrier function. To determine whether rapamycin, an FDA-approved drug targeting the mechanistic target of rapamycin (mTOR) complex, can reduce senescence and markers of aging in human skin, an exploratory, placebo-controlled, interventional trial was conducted in a clinical dermatology setting. Participants were greater than 40 years of age with evidence of age-related photoaging and dermal volume loss and no major morbidities. Thirty-six participants were enrolled in the study, and nineteen discontinued or were lost to follow-up. A significant (P = 0.008) reduction in p16",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31761958/",
+      "date_published": "2019-12-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "31761958",
+      "doi": "10.1007/s11357-019-00113-y",
+      "authors": [
+        "Chung Christina Lee",
+        "Lawrence Ibiyonu",
+        "Hoffman Melissa",
+        "Elgindi Dareen",
+        "Nadhan Kumar",
+        "Potnis Manali",
+        "Jin Annie",
+        "Sershon Catlin",
+        "Binnebose Rhonda",
+        "Lorenzini Antonello",
+        "Sell Christian"
+      ],
+      "journal": "GeroScience",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Administration, Topical",
+        "Adult",
+        "Biopsy",
+        "Cellular Senescence",
+        "Collagen Type VII",
+        "Cyclin-Dependent Kinase Inhibitor p16",
+        "Female",
+        "Humans",
+        "Immunohistochemistry",
+        "Immunosuppressive Agents",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Sirolimus",
+        "Skin",
+        "Skin Aging",
+        "Skin Diseases"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "MyMD-1 Improves Health Span and Prolongs Life Span in Old Mice: A Noninferiority Study to Rapamycin.",
+      "abstract": "Aging and age-related diseases represent a compelling therapeutic goal for senolytics and drugs targeting inflammatory or metabolic pathways. We compared MyMD-1, a synthetic derivative of the alkaloid myosmine capable of suppressing TNF-α production, to rapamycin, the best characterized drug endowed with antiaging properties. In vivo, a longitudinal cohort of 54 C57BL/6 mice, 19-month-old at the start, was randomized to receive MyMD-1, high-dose (126 ppm) rapamycin, or low-dose (14 ppm) rapamycin plus metformin. Each treatment arm included 18 mice (10 females and 8 males) and was followed for 16 months or until death. Life span was significantly longer in MyMD-1 than rapamycin (p = .019 vs high-dose and .01 vs low-dose) in a Cox survival model that accounted for sex and serum levels of IL-6, TNF-α, and IL-17A. MyMD-1 also improved several health span characteristics, resulting in milder body weight loss, greater muscle strength, and slower progression to frailty. In vitro, MyMD-1 and rapamycin were compared using a panel of 12 human primary cell systems (BioMAP Diversity PLUS), where a total of 148 biomarkers were measured. MyMD-1 possessed antiproliferative, anti-inflammatory, and antifibrotic properties. Many were shared with rapamycin, but MyMD-1 was more active in the inhibition of proinflammatory and profibrotic biomarkers. Overall, MyMD-1 emerges as a new compound that, even when begun at an advanced age, induces beneficial effects on health and life span by modulating inflammation and tissue remodeling.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35914953/",
+      "date_published": "2023-02-24",
+      "date_indexed": "2026-02-28",
+      "pmid": "35914953",
+      "doi": "10.1093/gerona/glac142",
+      "authors": [
+        "Sabini Elena",
+        "O'Mahony Alison",
+        "Caturegli Patrizio"
+      ],
+      "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Male",
+        "Female",
+        "Mice",
+        "Animals",
+        "Humans",
+        "Longevity",
+        "Sirolimus",
+        "Tumor Necrosis Factor-alpha",
+        "Mice, Inbred C57BL",
+        "Alkaloids",
+        "Biomarkers"
+      ],
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Equivalence Trial"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "4cfe47b6-d531-46bd-a6c9-aa7e6de6acbe",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Targeting the biology of aging with mTOR inhibitors.",
+      "abstract": "Inhibition of the protein kinase mechanistic target of rapamycin (mTOR) with the Food and Drug Administration (FDA)-approved therapeutic rapamycin promotes health and longevity in diverse model organisms. More recently, specific inhibition of mTORC1 to treat aging-related conditions has become the goal of basic and translational scientists, clinicians and biotechnology companies. Here, we review the effects of rapamycin on the longevity and survival of both wild-type mice and mouse models of human diseases. We discuss recent clinical trials that have explored whether existing mTOR inhibitors can safely prevent, delay or treat multiple diseases of aging. Finally, we discuss how new molecules may provide routes to the safer and more selective inhibition of mTOR complex 1 (mTORC1) in the decade ahead. We conclude by discussing what work remains to be done and the questions that will need to be addressed to make mTOR inhibitors part of the standard of care for diseases of aging.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37142830/",
+      "date_published": "2023-06-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "37142830",
+      "doi": "10.1038/s43587-023-00416-y",
+      "authors": [
+        "Mannick Joan B",
+        "Lamming Dudley W"
+      ],
+      "journal": "Nature aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Mice",
+        "Aging",
+        "Biology",
+        "Mechanistic Target of Rapamycin Complex 1",
+        "MTOR Inhibitors",
+        "Sirolimus",
+        "TOR Serine-Threonine Kinases",
+        "United States"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "c2fefc02-082b-44d6-a138-a386dfd1e32d",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Modulating mTOR-dependent astrocyte substate transitions to alleviate neurodegeneration.",
+      "abstract": "Traditional approaches to studying astrocyte heterogeneity have mostly focused on analyzing static properties, failing to identify whether subtypes represent intermediate or final states of reactive astrocytes. Here we show that previously proposed neuroprotective and neurotoxic astrocytes are transitional states rather than distinct subtypes, as revealed through time-series multiomic sequencing. Neuroprotective astrocytes are an intermediate state of the transition from a nonreactive to a neurotoxic state in response to neuroinflammation, a process regulated by the mTOR signaling pathway. In Alzheimer's disease (AD) and aging, we observed an imbalance in neurotoxic and neuroprotective astrocytes in animal models and human patients. Moreover, targeting mTOR in astrocytes with rapamycin or shRNA mitigated astrocyte neurotoxic effects in neurodegenerative mouse models. Overall, our study uncovers a mechanism through which astrocytes exhibit neuroprotective functions before becoming neurotoxic under neuroinflammatory conditions and highlights mTOR modulation specifically in astrocytes as a potential therapeutic strategy for neurodegenerative diseases.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39779911/",
+      "date_published": "2025-03-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "39779911",
+      "doi": "10.1038/s43587-024-00792-z",
+      "authors": [
+        "Zhang Liansheng",
+        "Xu Zhengzheng",
+        "Jia Zhiheng",
+        "Cai Shicheng",
+        "Wu Qiang",
+        "Liu Xingyu",
+        "Hu Xinde",
+        "Bai Tao",
+        "Chen Yongyu",
+        "Li Tianwen",
+        "Liu Zhen",
+        "Wu Bin",
+        "Zhu Jianhong",
+        "Zhou Haibo"
+      ],
+      "journal": "Nature aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Astrocytes",
+        "TOR Serine-Threonine Kinases",
+        "Animals",
+        "Mice",
+        "Humans",
+        "Disease Models, Animal",
+        "Alzheimer Disease",
+        "Sirolimus",
+        "Signal Transduction",
+        "Aging",
+        "Neurodegenerative Diseases",
+        "Male",
+        "Mice, Inbred C57BL",
+        "Neuroprotection",
+        "Female"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "eabdb1aa-ce60-4374-8f3e-12ecbb85d042",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Evaluation of off-label rapamycin use to promote healthspan in 333 adults.",
+      "abstract": "Rapamycin (sirolimus) is an FDA-approved drug with immune-modulating and growth-inhibitory properties. Preclinical studies have shown that rapamycin extends lifespan and healthspan metrics in yeast, invertebrates, and rodents. Several physicians are now prescribing rapamycin off-label as a preventative therapy to maintain healthspan. Thus far, however, there is limited data available on side effects or efficacy associated with use of rapamycin in this context. To begin to address this gap in knowledge, we collected data from 333 adults with a history of off-label use of rapamycin by survey. Similar data were also collected from 172 adults who had never used rapamycin. Here, we describe the general characteristics of a patient cohort using off-label rapamycin and present initial evidence that rapamycin can be used safely in adults of normal health status.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37191826/",
+      "date_published": "2023-10-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "37191826",
+      "doi": "10.1007/s11357-023-00818-1",
+      "authors": [
+        "Kaeberlein Tammi L",
+        "Green Alan S",
+        "Haddad George",
+        "Hudson Johnny",
+        "Isman Anar",
+        "Nyquist Andy",
+        "Rosen Bradley S",
+        "Suh Yousin",
+        "Zalzala Sajad",
+        "Zhang Xingyu",
+        "Blagosklonny Mikhail V",
+        "An Jonathan Y",
+        "Kaeberlein Matt"
+      ],
+      "journal": "GeroScience",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Sirolimus",
+        "Off-Label Use",
+        "TOR Serine-Threonine Kinases",
+        "Longevity"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "8891478f-af45-439e-986c-b336c870ad95",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Test of Rapamycin in Aging Dogs (TRIAD): study design and rationale for a prospective, parallel-group, double-masked, randomized, placebo-controlled, multicenter trial of rapamycin in healthy middle-aged dogs from the Dog Aging Project.",
+      "abstract": "Companion dogs are a powerful model for aging research given their morphologic and genetic variability, risk for age-related disease, and habitation of the human environment. In addition, the shorter life expectancy of dogs compared to human beings provides a unique opportunity for an accelerated timeline to test interventions that might extend healthy lifespan. The Test of Rapamycin In Aging Dogs (TRIAD) randomized clinical trial is a parallel-group, double-masked, randomized, placebo-controlled, multicenter trial that will test the ability of rapamycin to prolong lifespan and improve several healthspan metrics in healthy, middle-aged dogs recruited from Dog Aging Project participants. Here, we describe the rationale, design, and goals of the TRIAD randomized clinical trial, the first rigorous test of a pharmacologic intervention against biological aging with lifespan and healthspan metrics as endpoints to be performed outside of the laboratory in any species.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39951177/",
+      "date_published": "2025-06-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "39951177",
+      "doi": "10.1007/s11357-024-01484-7",
+      "authors": [
+        "Coleman Amanda E",
+        "Creevy Kate E",
+        "Anderson Rozalyn",
+        "Reed May J",
+        "Fajt Virginia R",
+        "Aicher Kathleen M",
+        "Atiee Genna",
+        "Barnett Brian G",
+        "Baumwart Ryan D",
+        "Boudreau Beth",
+        "Cunningham Suzanne M",
+        "Dunbar Matthew D",
+        "Ditzler Bobbie",
+        "Ferguson Anna M",
+        "Forsyth Kiersten K",
+        "Gambino Anya N",
+        "Gordon Sonya G",
+        "Hammond Hillary K",
+        "Holland Sydney N",
+        "Iannaccone Mary K",
+        "Illing Kate",
+        "Kadotani Saki",
+        "Knowles Shelby A",
+        "MacLean Evan L",
+        "Maran Brian A",
+        "Markovic Lauren E",
+        "McGrath Stephanie",
+        "Melvin Rachel L",
+        "Mueller Mikaela S",
+        "Nelson O Lynne",
+        "Olby Natasha J",
+        "Pancotto Theresa E",
+        "Parsley Elizabeth",
+        "Potter Brianna M",
+        "Prescott Jena O",
+        "Saunders Ashley B",
+        "Sawyer Holly M",
+        "Scansen Brian A",
+        "Schmid Sarah M",
+        "Smith Courtney C",
+        "Tjostheim Sonja S",
+        "Tolbert M Katherine",
+        "Tropf Melissa A",
+        "Visser Lance C",
+        "Ward Jessica L",
+        "Wesselowski Sonya R",
+        "Windsor Rebecca C",
+        "Yang Vicky K",
+        "Ruple Audrey",
+        "Promislow Daniel E L",
+        "Kaeberlein Matt"
+      ],
+      "journal": "GeroScience",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Dogs",
+        "Female",
+        "Male",
+        "Aging",
+        "Double-Blind Method",
+        "Longevity",
+        "Prospective Studies",
+        "Sirolimus",
+        "Randomized Controlled Trials as Topic",
+        "Multicenter Studies as Topic"
+      ],
+      "publication_types": [
+        "Clinical Trial Protocol",
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "61d8c574-05c9-4830-b9e3-8490f104c9b0",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Nucleolar stress caused by arginine-rich peptides triggers a ribosomopathy and accelerates aging in mice.",
+      "abstract": "Nucleolar stress (NS) has been associated with age-related diseases such as cancer or neurodegeneration. To investigate how NS triggers toxicity, we used (PR)n arginine-rich peptides present in some neurodegenerative diseases as inducers of this perturbation. We here reveal that whereas (PR)n expression leads to a decrease in translation, this occurs concomitant with an accumulation of free ribosomal (r) proteins. Conversely, (PR)n-resistant cells have lower rates of r-protein synthesis, and targeting ribosome biogenesis by mTOR inhibition or MYC depletion alleviates (PR)n toxicity in vitro. In mice, systemic expression of (PR)",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38521064/",
+      "date_published": "2024-04-18",
+      "date_indexed": "2026-02-28",
+      "pmid": "38521064",
+      "doi": "10.1016/j.molcel.2024.02.031",
+      "authors": [
+        "Sirozh Oleksandra",
+        "Saez-Mas Anabel",
+        "Jung Bomi",
+        "Sanchez-Burgos Laura",
+        "Zarzuela Eduardo",
+        "Rodrigo-Perez Sara",
+        "Ventoso Ivan",
+        "Lafarga Vanesa",
+        "Fernandez-Capetillo Oscar"
+      ],
+      "journal": "Molecular cell",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Mice",
+        "Animals",
+        "Ribosomes",
+        "Aging",
+        "Peptides",
+        "Sirolimus",
+        "Neoplasms",
+        "Cell Nucleolus",
+        "Mammals"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "427337c7-0f25-454d-8b7b-741f33aa22bf",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "The geroprotectors trametinib and rapamycin combine additively to extend mouse healthspan and lifespan.",
+      "abstract": "Suppression of the insulin-IGF-mTORC1-Ras network ameliorates aging in animals. Many drugs have targets in the network because of its roles in cancer and metabolic disease and are candidates for repurposing as geroprotectors. Rapamycin, an established geroprotective drug, blocks mTORC1 signaling, and trametinib inhibits the Ras-MEK-ERK pathway. In this study, we assessed survival and health of male and female mice treated with trametinib, rapamycin or their combination. We show here that trametinib treatment extended lifespan in both sexes and that its combination with rapamycin was additive. Combination treatment reduced liver tumors in both sexes and spleen tumors in male mice, blocked the age-related increase in brain glucose uptake and strongly reduced inflammation in brain, kidney, spleen and muscle and circulating levels of pro-inflammatory cytokines. We conclude that trametinib is a geroprotector in mice and that its combination with rapamycin is more effective than either drug alone, making the combination a candidate for repurposing as a gerotherapy in humans.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40437307/",
+      "date_published": "2025-07-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "40437307",
+      "doi": "10.1038/s43587-025-00876-4",
+      "authors": [
+        "Gkioni Lisonia",
+        "Nespital Tobias",
+        "Baghdadi Maarouf",
+        "Monzó Carolina",
+        "Bali Jitin",
+        "Nassr Taim",
+        "Cremer Anna Lena",
+        "Beyer Andreas",
+        "Deelen Joris",
+        "Backes Heiko",
+        "Grönke Sebastian",
+        "Partridge Linda"
+      ],
+      "journal": "Nature aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Pyridones",
+        "Sirolimus",
+        "Pyrimidinones",
+        "Female",
+        "Male",
+        "Mice",
+        "Longevity",
+        "Aging",
+        "Mice, Inbred C57BL",
+        "Drug Therapy, Combination",
+        "Glucose"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "90e1e269-8ecd-470e-b5e2-c1577fa53001",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Suppressed basal mitophagy drives cellular aging phenotypes that can be reversed by a p62-targeting small molecule.",
+      "abstract": "Selective degradation of damaged mitochondria by autophagy (mitophagy) is proposed to play an important role in cellular homeostasis. However, the molecular mechanisms and the requirement of mitochondrial quality control by mitophagy for cellular physiology are poorly understood. Here, we demonstrated that primary human cells maintain highly active basal mitophagy initiated by mitochondrial superoxide signaling. Mitophagy was found to be mediated by PINK1/Parkin-dependent pathway involving p62 as a selective autophagy receptor (SAR). Importantly, this pathway was suppressed upon the induction of cellular senescence and in naturally aged cells, leading to a robust shutdown of mitophagy. Inhibition of mitophagy in proliferating cells was sufficient to trigger the senescence program, while reactivation of mitophagy was necessary for the anti-senescence effects of NAD precursors or rapamycin. Furthermore, reactivation of mitophagy by a p62-targeting small molecule rescued markers of cellular aging, which establishes mitochondrial quality control as a promising target for anti-aging interventions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38897197/",
+      "date_published": "2024-08-05",
+      "date_indexed": "2026-02-28",
+      "pmid": "38897197",
+      "doi": "10.1016/j.devcel.2024.04.020",
+      "authors": [
+        "Kelly George",
+        "Kataura Tetsushi",
+        "Panek Johan",
+        "Ma Gailing",
+        "Salmonowicz Hanna",
+        "Davis Ashley",
+        "Kendall Hannah",
+        "Brookes Charlotte",
+        "Ayine-Tora Daniel Moscoh",
+        "Banks Peter",
+        "Nelson Glyn",
+        "Dobby Laura",
+        "Pitrez Patricia R",
+        "Booth Laura",
+        "Costello Lydia",
+        "Richardson Gavin D",
+        "Lovat Penny",
+        "Przyborski Stefan",
+        "Ferreira Lino",
+        "Greaves Laura",
+        "Szczepanowska Karolina",
+        "von Zglinicki Thomas",
+        "Miwa Satomi",
+        "Brown Max",
+        "Flagler Michael",
+        "Oblong John E",
+        "Bascom Charles C",
+        "Carroll Bernadette",
+        "Reynisson Jóhannes",
+        "Korolchuk Viktor I"
+      ],
+      "journal": "Developmental cell",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Mitophagy",
+        "Humans",
+        "Cellular Senescence",
+        "Mitochondria",
+        "Ubiquitin-Protein Ligases",
+        "Protein Kinases",
+        "Phenotype",
+        "Autophagy",
+        "Sequestosome-1 Protein",
+        "Signal Transduction",
+        "Sirolimus",
+        "Superoxides",
+        "RNA-Binding Proteins",
+        "PTEN-Induced Putative Kinase"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "5e9ba05e-4b54-4d4e-a639-2b0513e97b8b",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "YTHDF1 differentiates the contributing roles of mTORC1 in aging.",
+      "abstract": "The mechanistic target of rapamycin (mTOR) serves as an essential hub in sensing metabolic stress and regulating aging, although the differential contributions of mTOR-regulated protein and cholesterol synthesis are unclear. Post-transcriptional modifications of mRNAs, such as N6-methyladenosine (m6A), occur rapidly in response to acute environmental changes to maintain tissue homeostasis. Here, we showed that loss of YTH m6A RNA-binding protein 1 (YTHDF1) accelerated murine aging. Mechanistically, YTHDF1 is anchored to the lysosome surface by lysosome-associated membrane protein (LAMP2), whereby it recruits tuberous sclerosis complex (TSC2) to inhibit mTOR complex 1 (mTORC1). Ythdf1 loss activated mTORC1-sterol regulatory element-binding protein 2 (SREBP2)-axis-mediated cholesterol biosynthesis but not m6A-reader-regulated protein translation. Rapamycin restored murine healthspan in contrast to the maximum lifespan shortening caused by Ythdf1 depletion. Our data reveal an m6A-independent function of YTHDF1, which differentiates the contributing roles of mTORC1 in the regulation of aging.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40441158/",
+      "date_published": "2025-06-05",
+      "date_indexed": "2026-02-28",
+      "pmid": "40441158",
+      "doi": "10.1016/j.molcel.2025.05.003",
+      "authors": [
+        "Xu Chenzhong",
+        "Yu Cong",
+        "Zhang Jie",
+        "Zhang Zhen",
+        "Zhang Jin",
+        "Meng Yuan",
+        "Wang Ming",
+        "Wen Minting",
+        "Chen Junhao",
+        "Ning Yuping",
+        "Chen Xinchun",
+        "Gu Jinke",
+        "Su Wen",
+        "Liu Baohua"
+      ],
+      "journal": "Molecular cell",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Mechanistic Target of Rapamycin Complex 1",
+        "RNA-Binding Proteins",
+        "Aging",
+        "Mice",
+        "Tuberous Sclerosis Complex 2 Protein",
+        "Humans",
+        "Cholesterol",
+        "Mice, Inbred C57BL",
+        "Lysosomes",
+        "Signal Transduction",
+        "Mice, Knockout",
+        "Sirolimus",
+        "Longevity",
+        "Male",
+        "Adenosine"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "7dc7af0d-c039-4cd6-94a6-e8188eecaa8e",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Translatability of life-extending pharmacological treatments between different species.",
+      "abstract": "Anti-aging research has made significant strides in identifying treatments capable of extending lifespan across a range of organisms, from simple invertebrates to mammals. This review showcases the current state of anti-aging interventions, highlighting the lifespan extensions observed in animal models through various treatments and the challenges encountered in translating these findings to humans. Despite promising results in lower organisms, the translation of anti-aging treatments to human applications presents a considerable challenge. This discrepancy can be attributed to the increasing complexity of biological systems, species-specific metabolic and genetic differences, and the redundancy of metabolic pathways linked to longevity. Our review focuses on analyzing these challenges, offering insights into the efficacy of anti-aging mechanisms across species and identifying key barriers to their translation into human treatments. By synthesizing current knowledge and identifying gaps in translatability, this review aims to underscore the importance of advancing these therapies for human benefit. Bridging this gap is essential to assess the potential of such treatments in extending the human healthspan.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38797976/",
+      "date_published": "2024-07-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "38797976",
+      "doi": "10.1111/acel.14208",
+      "authors": [
+        "Burdusel Daiana",
+        "Coman Cristin",
+        "Ancuta Diana-Larisa",
+        "Hermann Dirk M",
+        "Doeppner Thorsten R",
+        "Gresita Andrei",
+        "Popa-Wagner Aurel"
+      ],
+      "journal": "Aging cell",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Longevity",
+        "Animals",
+        "Metformin",
+        "Saccharomyces",
+        "Drosophila melanogaster",
+        "Mice",
+        "Resveratrol",
+        "Sirolimus",
+        "Caenorhabditis elegans",
+        "Spermidine",
+        "Chloroquine",
+        "Aging",
+        "Species Specificity"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "0ea6bc34-37c4-472d-939a-2f42e26a2d08",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Ribosome dysregulation and intervention in age-related infertility.",
+      "abstract": "Fertility in women decreases with age, but the molecular basis for age-related, unexplained infertility remains elusive. Here, we reveal distinct transcriptome changes in oocytes and surrounding cumulus cells from women in their mid-thirties, as evidenced by notably increased transcription of ribosome genes. Additionally, meiosis genes and actin and cohesin components are downregulated in oocytes with age. Lysosomes and proteostasis are also disrupted in cumulus cells. Moreover, DNA hypomethylation and altered heterochromatin deposition at specific genomic loci are linked to increased transcription of ribosome genes. Rapamycin effectively reduces translation and promotes protein homeostasis in cumulus cells. Remarkably, short-term rapamycin allows patients who fail repeated in vitro fertilization cycles with embryo developmental arrest to achieve high-quality blastocysts that yield successful pregnancy and live birth. These data suggest a causal role for elevated transcription of ribosome genes in aging oocytes and cumulus cells and identify rapamycin as a promising treatment for age-related infertility. This study is registered at Chinese Clinical Trial Registry (ChiCTR2300069828).",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41151579/",
+      "date_published": "2025-11-18",
+      "date_indexed": "2026-02-28",
+      "pmid": "41151579",
+      "doi": "10.1016/j.xcrm.2025.102424",
+      "authors": [
+        "Li Jie",
+        "Wang Honghong",
+        "Zhu Pengfei",
+        "Chen Haixia",
+        "Zuo Haiyang",
+        "Liu Chang",
+        "Liu Linlin",
+        "Ye Xiaoying",
+        "Feng Guofeng",
+        "Wu Yiwei",
+        "Liu Qinli",
+        "Yang Tao",
+        "Keefe David L",
+        "Bai Xiaohong",
+        "Shang Wei",
+        "Wu Xueqing",
+        "Liu Lin"
+      ],
+      "journal": "Cell reports. Medicine",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Ribosomes",
+        "Oocytes",
+        "Adult",
+        "Sirolimus",
+        "Cumulus Cells",
+        "Infertility, Female",
+        "Aging",
+        "DNA Methylation",
+        "Pregnancy",
+        "Transcriptome",
+        "Fertilization in Vitro",
+        "Meiosis"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "9c3c73e7-8f71-4222-8d3c-a9b6717d4b8b",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Towards disease-oriented dosing of rapamycin for longevity: does aging exist or only age-related diseases?",
+      "abstract": "Both individuals taking rapamycin, an anti-aging drug, and those not taking it will ultimately succumb to age-related diseases. However, the former, if administered disease-oriented dosages for a long time, may experience a delayed onset of such diseases and live longer. The goal is to delay a particular disease that is expected to be life-limiting in a particular person. Age-related diseases, quasi-programmed during development, progress at varying rates in different individuals. Rapamycin is a prophylactic anti-aging drug that decelerates early development of age-related diseases. I further discuss hyperfunction theory of quasi-programmed diseases, which challenges the need for the traditional concept of aging itself.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37477535/",
+      "date_published": "2023-07-20",
+      "date_indexed": "2026-02-28",
+      "pmid": "37477535",
+      "doi": "10.18632/aging.204920",
+      "authors": [
+        "Blagosklonny Mikhail V"
+      ],
+      "journal": "Aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Longevity",
+        "Sirolimus",
+        "Aging"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "6aa7268d-7796-40b4-b3d6-848dc822c53f",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Inhibition of S6K lowers age-related inflammation and increases lifespan through the endolysosomal system.",
+      "abstract": "Suppression of target of rapamycin complex 1 (TORC1) by rapamycin ameliorates aging in diverse species. S6 kinase (S6K) is an essential mediator, but the mechanisms involved are unclear. Here we show that activation of S6K specifically in Drosophila fat-body blocked extension of lifespan by rapamycin, induced accumulation of multilamellar lysosomes and blocked age-associated hyperactivation of the NF-κB-like immune deficiency (IMD) pathway, indicative of reduced inflammaging. Syntaxin 13 mediated the effects of TORC1-S6K signaling on lysosome morphology and inflammaging, suggesting they may be linked. Inflammaging depended on the IMD receptor regulatory isoform PGRP-LC, and repression of the IMD pathway from midlife extended lifespan. Age-related inflammaging was higher in females than in males and was not lowered in males by rapamycin treatment or lowered S6K. Rapamycin treatment also elevated Syntaxin 12/13 levels in mouse liver and prevented age-related increase in noncanonical NF-κB signaling, suggesting that the effect of TORC1 on inflammaging is conserved from flies to mammals.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38413780/",
+      "date_published": "2024-04-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "38413780",
+      "doi": "10.1038/s43587-024-00578-3",
+      "authors": [
+        "Zhang Pingze",
+        "Catterson James H",
+        "Grönke Sebastian",
+        "Partridge Linda"
+      ],
+      "journal": "Nature aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Female",
+        "Male",
+        "Mice",
+        "Drosophila",
+        "Inflammation",
+        "Longevity",
+        "Mechanistic Target of Rapamycin Complex 1",
+        "NF-kappa B",
+        "Ribosomal Protein S6 Kinases",
+        "Sirolimus",
+        "Protein Serine-Threonine Kinases",
+        "Drosophila Proteins"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "97f2773b-774c-434b-b7c6-9884e34f140a",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Immunotherapy for metastatic renal cell carcinoma.",
+      "abstract": "BACKGROUND: Since the mid-2000s, the field of metastatic renal cell carcinoma (mRCC) has experienced a paradigm shift from non-specific therapy with broad-acting cytokines to specific regimens, which directly target the cancer, the tumour microenvironment, or both.Current guidelines recommend targeted therapies with agents such as sunitinib, pazopanib or temsirolimus (for people with poor prognosis) as the standard of care for first-line treatment of people with mRCC and mention non-specific cytokines as an alternative option for selected patients.In November 2015, nivolumab, a checkpoint inhibitor directed against programmed death-1 (PD-1), was approved as the first specific immunotherapeutic agent as second-line therapy in previously treated mRCC patients.\nOBJECTIVES: To assess the effects of immunotherapies either alone or in combination with standard targeted therapies for the treatment of metastatic renal cell carcinoma and their efficacy to maximize patient benefit.\nSEARCH METHODS: We searched the Cochrane Library, MEDLINE (Ovid), Embase (Ovid), ISI Web of Science and registers of ongoing clinical trials in November 2016 without language restrictions. We scanned reference lists and contacted experts in the field to obtain further information.\nSELECTION CRITERIA: We included randomized controlled trials (RCTs) and quasi-RCTs with or without blinding involving people with mRCC.\nDATA COLLECTION AND ANALYSIS: We collected and analyzed studies according to the published protocol. Summary statistics for the primary endpoints were risk ratios (RRs) and mean differences (MD) with their 95% confidence intervals (CIs). We rated the quality of evidence using GRADE methodology and summarized the quality and magnitude of relative and absolute effects for each primary outcome in our 'Summary of findings' tables.\nMAIN RESULTS: We identified eight studies with 4732 eligible participants and an additional 13 ongoing studies. We categorized studies into comparisons, all against standard therapy accordingly as first-line (five comparisons) or second-line therapy (one comparison) for mRCC.Interferon (IFN)-α monotherapy probably increases one-year overall mortality compared to standard targeted therapies with temsirolimus or sunitinib (RR 1.30, 95% CI 1.13 to 1.51; 2 studies; 1166 participants; moderate-quality evidence), may lead to similar quality of life (QoL) (e.g. MD -5.58 points, 95% CI -7.25 to -3.91 for Functional Assessment of Cancer - General (FACT-G); 1 study;...",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28504837/",
+      "date_published": "2017-05-15",
+      "date_indexed": "2026-02-28",
+      "pmid": "28504837",
+      "doi": "10.1002/14651858.CD011673.pub2",
+      "authors": [
+        "Unverzagt Susanne",
+        "Moldenhauer Ines",
+        "Nothacker Monika",
+        "Roßmeißl Dorothea",
+        "Hadjinicolaou Andreas V",
+        "Peinemann Frank",
+        "Greco Francesco",
+        "Seliger Barbara"
+      ],
+      "journal": "The Cochrane database of systematic reviews",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Antineoplastic Agents",
+        "Bevacizumab",
+        "Cancer Vaccines",
+        "Carcinoma, Renal Cell",
+        "Clinical Trials, Phase III as Topic",
+        "Humans",
+        "Immunologic Factors",
+        "Immunotherapy",
+        "Indoles",
+        "Interferon-alpha",
+        "Kidney Neoplasms",
+        "Longevity",
+        "Pyrroles",
+        "Quality of Life",
+        "Randomized Controlled Trials as Topic",
+        "Sirolimus",
+        "Sunitinib"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "22605f8d-53a3-4906-b1e5-cdbe6bd95c71",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "What is the clinical evidence to support off-label rapamycin therapy in healthy adults?",
+      "abstract": "Low dose rapamycin therapy has been proposed as a longevity candidate in healthy aging adults. We present a review of the evidence for low dose rapamycin and rapalog therapies in healthy human adults and model the findings of one cohort study using the PhenoAge model. Despite the preclinical evidence supporting the use of sirolimus to enhance mean and maximal lifespan, the data in humans have yet to establish that rapamycin, or its analogues, is a proven seno-therapeutic that can delay aging in healthy older adults. Rapamycin and rapalogs warrant further study with larger cohorts to better establish their contribution to human aging.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40778880/",
+      "date_published": "2025-08-07",
+      "date_indexed": "2026-02-28",
+      "pmid": "40778880",
+      "doi": "10.18632/aging.206300",
+      "authors": [
+        "Hands Jacob M",
+        "Lustgarten Michael S",
+        "Frame Leigh A",
+        "Rosen Bradley"
+      ],
+      "journal": "Aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Sirolimus",
+        "Off-Label Use",
+        "Adult",
+        "Longevity",
+        "Aging",
+        "Animals"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "d4318a5b-4e9c-4128-ba97-f3ef0dfba874",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "PINK1/Parkin-Mediated Mitophagy Ameliorates Mitochondrial Dysfunction in Lacrimal Gland Acinar Cells During Aging.",
+      "abstract": "PURPOSE: Aging alters the function of the lacrimal gland and disrupts the balance of the microenvironment on the ocular surface, eventually leading to aqueous-tear-deficient dry eye. Mitophagy has been reported to play an important role in aging, but the underlying mechanism remains unclear.\nMETHODS: The young (6 weeks) and middle-aged (12 months) male C57BL/6J mice were used in this study, and mitophagy agonist rapamycin and inhibitor Mdivi-1 were used in in vivo experiments. Hematoxylin and eosin, Masson, Oil Red O, and reactive oxygen species (ROS) staining were used to detect histological changes and lipids in lacrimal gland. Changes in the expression of proteins were identified by Western blotting of lacrimal gland lysates. Transmission electron microscopy and immunofluorescence staining were used to assess mitophagy. The single-cell RNA sequencing (scRNA-seq) and bioinformatics analyses were used to detect transcription signature changes during aging.\nRESULTS: In this study, we discovered that aging increased oxidative stress, which increased apoptosis, and generated ROS in acinar epithelial cells. Furthermore, activation of PINK1/Parkin-mediated mitophagy by rapamycin reduced lacrimal gland ROS concentrations and prevented aging-induced apoptosis of acinar cells, thereby causing histological alterations, microstructural degradation, and increasing tear secretion associated with ROS accumulation. By contrast, Mdivi-1 aggregates mitochondrial function and thereafter leads to lacrimal gland function impairment by inhibiting mitochondrial fission and giving rise to mitophagy.\nCONCLUSIONS: Overall, our findings suggested that aging could impair mitochondrial function of acinar cells, and age-related alterations may be treated with therapeutic approaches that enhance mitophagy while maintaining mitochondrial function.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39504053/",
+      "date_published": "2024-11-04",
+      "date_indexed": "2026-02-28",
+      "pmid": "39504053",
+      "doi": "10.1167/iovs.65.13.12",
+      "authors": [
+        "Zhao Han",
+        "Zhang Yue",
+        "Ren Yujie",
+        "Wang Wanpeng"
+      ],
+      "journal": "Investigative ophthalmology & visual science",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Male",
+        "Mice",
+        "Acinar Cells",
+        "Aging",
+        "Apoptosis",
+        "Blotting, Western",
+        "Lacrimal Apparatus",
+        "Mice, Inbred C57BL",
+        "Microscopy, Electron, Transmission",
+        "Mitochondria",
+        "Mitophagy",
+        "Oxidative Stress",
+        "Protein Kinases",
+        "Reactive Oxygen Species",
+        "Sirolimus",
+        "Ubiquitin-Protein Ligases",
+        "PTEN-Induced Putative Kinase"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "66d4d414-46b5-4533-8b6f-3c27f8ba0d2c",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Unraveling effects of anti-aging drugs on C. elegans using liposomes.",
+      "abstract": "Liposome-mediated delivery is a possible means to overcome several shortcomings with C. elegans as a model for identifying and testing drugs that retard aging. These include confounding interactions between drugs and the nematodes' bacterial food source and failure of drugs to be taken up into nematode tissues. To explore this, we have tested liposome-mediated delivery of a range of fluorescent dyes and drugs in C. elegans. Liposome encapsulation led to enhanced effects on lifespan, requiring smaller quantities of compounds, and enhanced uptake of several dyes into the gut lumen. However, one dye (Texas red) did not cross into nematode tissues, showing that liposomes cannot ensure the uptake of all compounds. Of six compounds previously reported to extend lifespan (vitamin C, N-acetylcysteine, glutathione (GSH), trimethadione, thioflavin T (ThT), and rapamycin), this effect was reproduced for the latter four in a condition-dependent manner. For GSH and ThT, antibiotics abrogated life extension, implying a bacterially mediated effect. With GSH, this was attributable to reduced early death from pharyngeal infection and associated with alterations of mitochondrial morphology in a manner suggesting a possible innate immune training effect. By contrast, ThT itself exhibited antibiotic effects. For rapamycin, significant increases in lifespan were only seen when bacterial proliferation was prevented. These results document the utility and limitations of liposome-mediated drug delivery for C. elegans. They also illustrate how nematode-bacteria interactions can determine the effects of compounds on C. elegans lifespan in a variety of ways.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37140725/",
+      "date_published": "2023-06-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "37140725",
+      "doi": "10.1007/s11357-023-00800-x",
+      "authors": [
+        "Zhang Aihan",
+        "Hsiung Kuei Ching",
+        "Kern Carina C",
+        "Wang Yuting",
+        "Girtle Anna L",
+        "Xu Nuo",
+        "Gems David"
+      ],
+      "journal": "GeroScience",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Caenorhabditis elegans",
+        "Liposomes",
+        "Aging",
+        "Longevity",
+        "Bacteria",
+        "Sirolimus"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "d33991b6-8d3a-4c93-8a1d-81a2484f977b",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Age-related changes to adipose tissue and peripheral neuropathy in genetically diverse HET3 mice differ by sex and are not mitigated by rapamycin longevity treatment.",
+      "abstract": "Neural communication between the brain and adipose tissues regulates energy expenditure and metabolism through modulation of adipose tissue functions. We have recently demonstrated that under pathophysiological conditions (obesity, diabetes, and aging), total subcutaneous white adipose tissue (scWAT) innervation is decreased ('adipose neuropathy'). With advanced age in the C57BL/6J mouse, small fiber peripheral nerve endings in adipose tissue die back, resulting in reduced contact with adipose-resident blood vessels and other cells. This vascular neuropathy and parenchymal neuropathy together likely pose a physiological challenge for tissue function. In the current work, we used the genetically diverse HET3 mouse model to investigate the incidence of peripheral neuropathy and adipose tissue dysregulation across several ages in both male and female mice. We also investigated the anti-aging treatment rapamycin, an mTOR inhibitor, as a means to prevent or reduce adipose neuropathy. We found that HET3 mice displayed a reduced neuropathy phenotype compared to inbred C56BL/6 J mice, indicating genetic contributions to this aging phenotype. Compared to female HET3 mice, male HET3 mice had worse neuropathic phenotypes by 62 weeks of age. Female HET3 mice appeared to have increased protection from neuropathy until advanced age (126 weeks), after reproductive senescence. We found that rapamycin overall had little impact on neuropathy measures, and actually worsened adipose tissue inflammation and fibrosis. Despite its success as a longevity treatment in mice, higher doses and longer delivery paradigms for rapamycin may lead to a disconnect between life span and beneficial health outcomes.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36798047/",
+      "date_published": "2023-04-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "36798047",
+      "doi": "10.1111/acel.13784",
+      "authors": [
+        "Willows Jake W",
+        "Robinson Morganne",
+        "Alshahal Zahra",
+        "Morrison Samantha K",
+        "Mishra Gargi",
+        "Cyr Harrison",
+        "Blaszkiewicz Magdalena",
+        "Gunsch Gilian",
+        "DiPietro Sabrina",
+        "Paradie Emma",
+        "Tero Benjamin",
+        "Harrington Anne",
+        "Ryzhova Larisa",
+        "Liaw Lucy",
+        "Reifsnyder Peter C",
+        "Harrison David E",
+        "Townsend Kristy L"
+      ],
+      "journal": "Aging cell",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Male",
+        "Female",
+        "Animals",
+        "Mice",
+        "Sirolimus",
+        "Longevity",
+        "Mice, Inbred C57BL",
+        "Adipose Tissue",
+        "Obesity",
+        "Peripheral Nervous System Diseases"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "49b25be1-d865-4691-9823-e3b4bf8ff43c",
+      "source_type": "pubmed",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Characterization of Effects of mTOR Inhibitors on Aging in Caenorhabditis elegans.",
+      "abstract": "Pharmacological inhibition of the mechanistic target of rapamycin (mTOR) signaling pathway with rapamycin can extend lifespan in several organisms. Although this includes the nematode Caenorhabditis elegans, effects in this species are relatively weak and sometimes difficult to reproduce. Here we test effects of drug dosage and timing of delivery to establish the upper limits of its capacity to extend life, and investigate drug effects on age-related pathology and causes of mortality. Liposome-mediated rapamycin treatment throughout adulthood showed a dose-dependent effect, causing a maximal 21.9% increase in mean lifespan, but shortening of lifespan at the highest dose, suggesting drug toxicity. Rapamycin treatment of larvae delayed development, weakly reduced fertility and modestly extended lifespan. By contrast, treatment initiated later in life robustly increased lifespan, even from Day 16 (or ~70 years in human terms). The rapalog temsirolimus extended lifespan similarly to rapamycin, but effects of everolimus were weaker. As in mouse, rapamycin had mixed effects on age-related pathologies, inhibiting one (uterine tumor growth) but not several others, suggesting a segmental antigeroid effect. These findings should usefully inform future experimental studies with rapamycin and rapalogs in C. elegans.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39150882/",
+      "date_published": "2024-11-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "39150882",
+      "doi": "10.1093/gerona/glae196",
+      "authors": [
+        "Zhang Aihan",
+        "Meecham-Garcia Gadea",
+        "Nguyen Hong Chiminh",
+        "Xie Peiyun",
+        "Kern Carina C",
+        "Zhang Bruce",
+        "Chapman Hannah",
+        "Gems David"
+      ],
+      "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Caenorhabditis elegans",
+        "Sirolimus",
+        "Aging",
+        "Longevity",
+        "MTOR Inhibitors",
+        "TOR Serine-Threonine Kinases",
+        "Dose-Response Relationship, Drug",
+        "Signal Transduction"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "4f511fa1-c771-4757-8e74-fe3dff4d95f5",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Effects of Low-grade Systemic Inflammation on Muscle Protein Synthesis and Breakdown in the Aged Skeletal Muscle.",
+      "abstract": "The development of a low-grade, chronic, systemic inflammation observed in the elderly (inflammaing) has been associated with increased risk for skeletal muscle wasting, strength loss and functional impairments. According to studies performed in animals and cell cultures increased concentrations of pro-inflammatory cytokines such as IL-6 and TNF-α as well as increased levels of hs-CRP lead to elevated protein degradation through proteasome activation and reduced muscle protein synthesis (MPS) via downregulation of the Akt-mTOR signaling pathway. However, evidence regarding the effects of inflammaging on skeletal muscle mass in humans is lacking. Thus, the present study will compare proteasome activation and the protein synthetic response in the fasted and postprandial period between older adults with increased systemic inflammation and their healthy control counterparts.",
+      "source_url": "https://clinicaltrials.gov/study/NCT03308747",
+      "date_published": "2017-10-02",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT03308747",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 44,
+      "sponsor": "University of Thessaly",
+      "conditions": [
+        "Inflammaging",
+        "Sarcopenia"
+      ],
+      "primary_outcomes": [
+        "Systemic inflammation",
+        "Change in muscle protein synthesis (MPS)",
+        "Change in intracellular signaling proteins in muscle",
+        "Change in proteasome activities in muscle",
+        "Change in protein expression level of proteasome subunits"
+      ],
+      "results_summary": null,
+      "date_registered": "2017-10-02",
+      "date_started": "2017-09-01",
+      "date_completed": "2018-05-30",
+      "date_results_posted": null
+    },
+    {
+      "id": "8179eaf6-f1cc-49fd-a651-3c1e4d0cd666",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Multicenter Randomized Two-arms Study Evaluating the BK Viral Clearance in Kidney Transplant Recipients With BK Viremia After Reduction of Immunosuppression Alone vs. Reduction of Immunosuppression and Replacement of Mycophenolate Mofetil by Everolimus",
+      "abstract": "BK virus nephropathy (BKVN), a consequence of the strong immunosuppressive therapy given after kidney transplantation, represents a growing problem in the kidney transplant (KT) setting. In recent cohorts, BKVN concerns up to 10% of kidney transplant recipients and early signs of BK virus (BKV) infection as development of asymptomatic viruria and viremia are even much more frequent (40% and 20% of patients, respectively). In this context, finding strategies to prevent BKV infection or treat patients before the occurrence of BKV nephropathy is challenging. For several years, detection of BKV replication by real-time PCR in urine and/or blood of kidney transplant recipients at early stages of infection allowed adaptation of their therapy. As BKV reactivates essentially in patients with over-immunosuppression, the first step of the treatment is the reduction of immunosuppression. However, reducing immunosuppression (IS) can lead to acute rejection and allograft loss. Other treatments have been proposed (cidofovir, quinolones) but their toxicity profile or their lack of clinical efficacy are now demonstrated. Hence, an efficient and safe strategy against uncontrolled BKV replication is urgently needed. MTor-inhibitors are well known immunosuppressive drugs used in organ transplantation to prevent graft-rejection. They have furthermore anti-viral effects that can be beneficial for prevention of viral infections after transplantation. Recent evidence that inhibition of mTor pathway had an impact on BK infected cells provides additional insight into the observed benefits associated with these drugs. The aim of our study is to evaluate the effect of the mTor inhibitor everolimus on the prevention of severe BKV infection (BKV nephropathy or loss of the allograft) after kidney transplantation compared to the reduction of immunosuppression alone in kidney recipients with BK viremia.",
+      "source_url": "https://clinicaltrials.gov/study/NCT03216967",
+      "date_published": "2017-07-04",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT03216967",
+      "phase": "PHASE4",
+      "status": "COMPLETED",
+      "enrollment": 130,
+      "sponsor": "University Hospital, Strasbourg, France",
+      "conditions": [
+        "BK Virus Nephropathy After Kidney Transplantation"
+      ],
+      "primary_outcomes": [
+        "The main objective of our study is to evaluate the proportion of patients with BKV clearance 6 months after introduction of everolimus in kidney recipients who develop BKV viremia compared to patients managed with IS reduction alone"
+      ],
+      "results_summary": null,
+      "date_registered": "2017-07-04",
+      "date_started": "2018-01-15",
+      "date_completed": "2024-08-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "d8dbed5a-1eac-408c-b5eb-4b2541788643",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Sirolimus for Cowden Syndrome With Colon Polyposis",
+      "abstract": "Colon polyposis (the presence of multiple colon polyps) is very common with Cowden syndrome, as over 60% of patients have 50 or more polyps. In a previous clinical trial, some participants had reduction in the number of colon polyps with the use of the medication sirolimus for a very short time period. This study is investigating sirolimus and its effect on the number of colon polyps in patients with Cowden syndrome and polyposis over a 1 year period.",
+      "source_url": "https://clinicaltrials.gov/study/NCT04094675",
+      "date_published": "2019-05-13",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT04094675",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "enrollment": 5,
+      "sponsor": "Ohio State University",
+      "conditions": [
+        "PTEN Gene Mutation",
+        "PTEN Hamartoma Tumor Syndrome",
+        "PTEN Hamartoma Syndrome",
+        "Cowden Syndrome",
+        "Bannayan Syndrome",
+        "Bannayan Zonana Syndrome",
+        "Polyposis"
+      ],
+      "primary_outcomes": [
+        "Change in colon polyp burden by number",
+        "Change in colon polyp burden by staging"
+      ],
+      "results_summary": null,
+      "date_registered": "2019-05-13",
+      "date_started": "2019-09-16",
+      "date_completed": "2025-06-05",
+      "date_results_posted": null
+    },
+    {
+      "id": "3efb9f14-0244-4318-b152-60620504fc4c",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Rapamycin in Combination With Low-dose Aracytin in Elderly Acute Myeloid Leukemia Patients. A Study From the Groupe Ouest Est d'étude Des Leucémies Aiguës Myéloïdes (GOELAMS)",
+      "abstract": "These study is designed to evaluate the tolerability and efficacy of sirolimus (rapamycin) in combination with low-dose aracytin in elderly AML.",
+      "source_url": "https://clinicaltrials.gov/study/NCT00235560",
+      "date_published": "2005-09-09",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT00235560",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "enrollment": 50,
+      "sponsor": "University Hospital, Toulouse",
+      "conditions": [
+        "Acute Myeloid Leukemia"
+      ],
+      "primary_outcomes": [
+        "response rate"
+      ],
+      "results_summary": null,
+      "date_registered": "2005-09-09",
+      "date_started": "2005-06-01",
+      "date_completed": "2008-06-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "82d3d3f4-88e3-4d49-873e-c08bde9ffddd",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Inpatient Evaluation of Neuropsychiatric Patients",
+      "abstract": "The purpose of this study is to understand the biologic basis of schizophrenia and to determine which symptoms are related to the illness itself and which are related to medications used to treat the illness.\n\nSchizophrenia and related psychoses are chronic brain disorders whose prognosis is often poor and whose pathophysiology remains obscure. Brain imaging technologies such s positron emission tomography (PET), functional magnetic resonance imaging (fMRI), and magnetic resonance imaging (MRI) offer opportunities to study the pathophysiology of psychotic disorders by evaluating brain function. However, the use of anti-psychotic drugs may interfere with the results of such studies. In this study, psychotropic medication will be discontinued in patients for a short period of time to distinguish the effects of the illness on the brain without the interference of the medication's effects on the brain. Given that there is a risk that the patient's symptoms will increase, they are asked to stay on an inpatient unit where the NIMH clinical staff is available to help them 24 hours a day.\n\nThis study will be conducted in three phases. In Phase 1, participants will be admitted to the Clinical Center while continuing to take their medication and will undergo diagnostic interviews, physical and laboratory assessments, physiological monitoring, and neuropsychological testing. Behavioral ratings will also be performed and blood and urine samples will be collected. During Phase 2, participants will continue taking medications in a blinded fashion for 8 to 12 weeks. The active medications will be replaced with a placebo (an inactive pill) part of that time. PET, fMRI, and MRI scans will be used to monitor how the continuation or lack of medication affects the brain. Psychological tests will also be given to measure changes in cognition. In Phase 3, participants will have the opportunity for clinical stabilization.",
+      "source_url": "https://clinicaltrials.gov/study/NCT00001247",
+      "date_published": "1999-11-03",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT00001247",
+      "phase": null,
+      "status": "COMPLETED",
+      "enrollment": 648,
+      "sponsor": "National Institute of Mental Health (NIMH)",
+      "conditions": [
+        "Schizophrenia"
+      ],
+      "primary_outcomes": [
+        "To map the physiological fMRI BOLD response, the brain electrical activity through MEG response and the blood flow, presynaptic and post-synaptic dopaminergic function through PET studies during different cognitive tasks",
+        "To explore the neuropsychological response in research subjects with schizophrenia under placebo conditions without the confounding effect of antipsychotics."
+      ],
+      "results_summary": null,
+      "date_registered": "1999-11-03",
+      "date_started": "1989-09-15",
+      "date_completed": null,
+      "date_results_posted": null
+    },
+    {
+      "id": "4a41db90-6bb5-4db9-b592-5a8f08a8cd73",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Addition of JSP191 (C-kit Antibody) to Non-myeloablative Hematopoietic Cell Transplantation For Sickle Cell Disease and Beta-Thalassemia",
+      "abstract": "Background:\n\nSickle cell disease (SCD) is an inherited disorder of the blood. It can damage a person s organs and cause serious illness and death. A blood stem cell transplant is the only potential cure for SCD. Treatments that improve survival rates are needed.\n\nObjective:\n\nTo find out if a new antibody drug (briquilimab, JSP191) improves the success of a blood stem cell transplant\n\nEligibility:\n\nPeople aged 13 or older who are eligible for a blood stem cell transplant to treat SCD. Healthy family members over age 13 who are matched to transplant recipients are also needed to donate blood.\n\nDesign:\n\nParticipants receiving transplants will undergo screening. They will have blood drawn. They will have tests of their breathing and heart function. They may have chest x-rays. A sample of marrow will be collected from a pelvic bone.\n\nParticipants will remain in the hospital about 30 days for the transplant and recovery. They will have a large intravenous line inserted into the upper arm or chest. The line will remain in place for the entire transplant and recovery period. The line will be used to draw blood as needed. It will also be used to administer the transplant stem cells as well as various drugs and blood transfusions. Participants will also receive some drugs by mouth.\n\nParticipants must remain within 1 hour of the NIH for 3 months after transplant. During that time, they will visit the clinic up to 2 times a week.\n\nFollow-up visits will include tests to evaluate participants mental functions. They will have MRI scans of their brain and heart.\n\n...",
+      "source_url": "https://clinicaltrials.gov/study/NCT05357482",
+      "date_published": "2022-04-30",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT05357482",
+      "phase": "PHASE1",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 40,
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "conditions": [
+        "Sickle Cell Anemia",
+        "Beta Thalassemia"
+      ],
+      "primary_outcomes": [
+        "percent myeloid (CD14/15) chimerism"
+      ],
+      "results_summary": null,
+      "date_registered": "2022-04-30",
+      "date_started": "2022-05-12",
+      "date_completed": "2027-01-31",
+      "date_results_posted": null
+    },
+    {
+      "id": "3287f2a6-5530-4f9a-a8bb-0b4683b27484",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Tuberous Sclerosis Complex and Lymphangioleiomyomatosis Pregnancy Registry",
+      "abstract": "This study is an observational registry designed to gather information about Tuberous Sclerosis Complex (TSC) and Lymphangioleiomyomatosis (LAM) in pregnant women and their child.",
+      "source_url": "https://clinicaltrials.gov/study/NCT06160310",
+      "date_published": "2023-10-16",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT06160310",
+      "phase": null,
+      "status": "RECRUITING",
+      "enrollment": 300,
+      "sponsor": "David M. Ritter",
+      "conditions": [
+        "Tuberous Sclerosis Complex",
+        "Lymphangioleiomyomatosis"
+      ],
+      "primary_outcomes": [
+        "Safety of mTOR inhibitor in Pregnancy -- mTOR inhibitor adherence",
+        "Safety of mTOR inhibitor in Pregnancy -- mTOR inhibitor dosing",
+        "Safety of mTOR inhibitor in Pregnancy -- side effects",
+        "Maternal-Fetal Complications in TSC",
+        "Maternal Post-Partum Behavioral Health",
+        "Maternal Post-Partum Mental Health",
+        "Optimum Time of Fetal Imaging for TSC"
+      ],
+      "results_summary": null,
+      "date_registered": "2023-10-16",
+      "date_started": "2023-07-01",
+      "date_completed": "2029-07-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "f757eb27-7575-42f2-9f3e-aba9414d2937",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Prevention of Skin Cancer in High Risk Patients After Conversion to a Sirolimus-based Immunosuppressive Protocol",
+      "abstract": "Transplant recipients have a high risk to develop skin malignancies. This effect depends on the one hand on the immunosuppressive drugs themselves and relates on the other hand on the dosage. Based on the encouraging results of previous, retrospective studies on patients treated with Sirolimus (SRL), these patients should be switched to an immunosuppressive regime including SRL, decreasing the dosage of calcineurin-inhibitors or converting from former immunosuppression. A conversion to a SRL-based therapy is effective in immunosuppression and safe regarding graft and patient survival.\n\nThis study was designed to assess whether a switch to a SRL-immunosuppressive therapy decreases the incidence/reoccurrence of skin neoplasm.",
+      "source_url": "https://clinicaltrials.gov/study/NCT01797315",
+      "date_published": "2013-02-15",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT01797315",
+      "phase": "PHASE4",
+      "status": "TERMINATED",
+      "enrollment": 40,
+      "sponsor": "University Hospital of Berlin",
+      "conditions": [
+        "Renal Transplant Patients at High-risk for Skin Cancer"
+      ],
+      "primary_outcomes": [
+        "Progression of actinic keratosis or invasive squamous cell carcinoma (SCC) or incidence/reoccurrence of neoplastic skin tumors",
+        "Progression of actinic keratosis or invasive squamous cell carcinoma (SCC) or incidence/reoccurrence of neoplastic skin tumors",
+        "Progression of actinic keratosis or invasive squamous cell carcinoma (SCC) or incidence/reoccurrence of neoplastic skin tumors",
+        "Progression of actinic keratosis or invasive squamous cell carcinoma (SCC) or incidence/reoccurrence of neoplastic skin tumors",
+        "Progression of actinic keratosis or invasive squamous cell carcinoma (SCC) or incidence/reoccurrence of neoplastic skin tumors",
+        "Progression of actinic keratosis or invasive squamous cell carcinoma (SCC) or incidence/reoccurrence of neoplastic skin tumors",
+        "Progression of actinic keratosis or invasive squamous cell carcinoma (SCC) or incidence/reoccurrence of neoplastic skin tumors",
+        "Progression of actinic keratosis or invasive squamous cell carcinoma (SCC) or incidence/reoccurrence of neoplastic skin tumors"
+      ],
+      "results_summary": null,
+      "date_registered": "2013-02-15",
+      "date_started": "2007-03-01",
+      "date_completed": "2013-06-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "7fd87c6c-b6b9-45ec-8e5b-79d1a866833f",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Exercise and Nutrition for Healthy AgeiNg: Anabolic Interventions for Older People With (Pre)Sarcopenia to Improve Physical Functioning, Muscle Mass and Muscle Strength and to Understand the Underlying Mechanisms of Action.",
+      "abstract": "The aim of this randomized placebo-controlled 5-arm clinical trial is to evaluate the effect of combined anabolic interventions compared to single or placebo interventions on physical performance in community-dwelling (pre)sarcopenic elderly (≥ 65 years) and to determine the underlying mechanisms of action. Important secondary outcome measures are muscle mass, muscle strength, compliance to the interventions (exercise program, protein and omega-3 supplementation) and functional, cognitive and nutritional status.",
+      "source_url": "https://clinicaltrials.gov/study/NCT03649698",
+      "date_published": "2018-08-07",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT03649698",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "enrollment": 180,
+      "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+      "conditions": [
+        "Sarcopenia"
+      ],
+      "primary_outcomes": [
+        "Change in physical functioning",
+        "Percentage of participants with change in physical functioning"
+      ],
+      "results_summary": null,
+      "date_registered": "2018-08-07",
+      "date_started": "2018-02-12",
+      "date_completed": "2025-06-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "d35708dd-cac1-43a4-a6a3-872a72f74a43",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Phase I Study of Infusion of Umbilical Cord Blood (UCB) Derived CD25+CD4+ T-Regulatory (Treg) Cells After Nonmyeloablative Cord Blood Transplantation",
+      "abstract": "RATIONALE: Giving chemotherapy, such as fludarabine and cyclophosphamide, and total-body irradiation before a donor umbilical cord blood transplant helps stop the patient's immune system from rejecting the donor's stem cells. The donated stem cells may replace the patient's immune cells and help destroy any remaining cancer cells (graft-versus-tumor effect). Giving an infusion of the donor's T-regulatory cells after the transplant may decrease this effect. Sometimes the transplanted cells from a donor can also make an immune response against the body's normal cells. However, the donor immune system may also react against the recipient's tissues (graft-versus-host disease).\n\nPURPOSE: This phase I trial is studying the side effects and best dose of donor T-regulatory cells after an umbilical cord blood transplant in treating patients with advanced hematologic cancer or other disorder.",
+      "source_url": "https://clinicaltrials.gov/study/NCT00602693",
+      "date_published": "2008-01-10",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT00602693",
+      "phase": "PHASE1",
+      "status": "COMPLETED",
+      "enrollment": 41,
+      "sponsor": "Masonic Cancer Center, University of Minnesota",
+      "conditions": [
+        "Leukemia",
+        "Lymphoma",
+        "Multiple Myeloma",
+        "Plasma Cell Neoplasm",
+        "Myelodysplastic Syndromes"
+      ],
+      "primary_outcomes": [
+        "Maximum tolerated dose"
+      ],
+      "results_summary": null,
+      "date_registered": "2008-01-10",
+      "date_started": "2007-07-23",
+      "date_completed": "2015-04-16",
+      "date_results_posted": null
+    },
+    {
+      "id": "d1ceda0c-d075-409e-8f0a-cb24cf5ec199",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Comparison of Stent Graft, Sirolimus Stent, and Bare Metal Stent Implanted in Patients With Acute Coronary Syndrome: Clinical and Angiographic Follow-up",
+      "abstract": "During the 6-month period 119 patients with acute coronary syndrome, were randomized to either stent graft group (n=40), sirolimus eluting stent group (n=39), or bare metal stent group (n=40). Demographic, angiographic and procedural characteristics were similar for all three groups. The incidence of 6-month major adverse coronary events were analysed.",
+      "source_url": "https://clinicaltrials.gov/study/NCT00452517",
+      "date_published": "2007-03-26",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT00452517",
+      "phase": "PHASE4",
+      "status": "COMPLETED",
+      "enrollment": 100,
+      "sponsor": "University of Zagreb",
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "primary_outcomes": [
+        "Three groups of stents implanted in patients with acute coronary syndrome (stent-graft, sirolimus and bare metal), did not differ regarding the incidence of major adverse cardiac events."
+      ],
+      "results_summary": null,
+      "date_registered": "2007-03-26",
+      "date_started": "2004-03-01",
+      "date_completed": "2004-11-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "51e87aa9-83b4-43e8-81a5-207c408b008d",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "A 12-month, Multicenter, Randomized, Open-label Study to Investigate Efficacy and Safety of Concentration Controlled Everolimus With Reduced Dose Cyclosporine A Versus Mycophenolate Mofetil With Standard Dose Cyclosporine A in de Novo Renal Transplant Adult Recipients Treated With Basiliximab and Corticosteroids",
+      "abstract": "The 12 Month Core Study (CRAD001A1202) was designed to evaluate the efficacy and safety comparing concentration-controlled everolimus (1.5 mg/day starting dose) with reduced dose cyclosporine and corticosteroids versus 2 g/day mycophenolate mofetil (MMF) with standard dose cyclosporine and corticosteroids in de novo renal transplant recipients.\n\nExtension Study (CRAD001A1202E1): Until 24 months after renal transplantation, the study was designed to evaluate the long-term safety and efficacy comparing concentration-controlled everolimus with reduced dose cyclosporine (Neoral®) and corticosteroids versus mycophenolate mofetil with standard dose Neoral® and corticosteroids in de novo renal transplant recipients. Beyond 24 months after renal transplantation, the study was designed to provide everolimus treatment for patients in everolimus group until everolimus is approved and marketed in Japan.",
+      "source_url": "https://clinicaltrials.gov/study/NCT00658320",
+      "date_published": "2008-04-10",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT00658320",
+      "phase": "PHASE3",
+      "status": "COMPLETED",
+      "enrollment": 122,
+      "sponsor": "Novartis",
+      "conditions": [
+        "Kidney Transplantation"
+      ],
+      "primary_outcomes": [
+        "Core Study: Number of Patients With Composite Efficacy Endpoint",
+        "Extension Study: Renal Function Measured by Calculated Glomerular Filtration Rate (cGFR) Using the Modification of Diet in Renal Disease (MDRD) Formula",
+        "Extension Study: Renal Function Measured by Calculated Glomerular Filtration Rate (cGFR) Using the Modification of Diet in Renal Disease (MDRD) Formula"
+      ],
+      "results_summary": "Enrollment: N/A",
+      "date_registered": "2008-04-10",
+      "date_started": "2008-02-01",
+      "date_completed": "2012-05-01",
+      "date_results_posted": "2011-08-10"
+    },
+    {
+      "id": "375165eb-56a9-4c2b-b6df-dd2b7a1df783",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Prospective Multicenter Observational Study for Evaluating Efficacy and Safety of GENOSS Sirolimus-eluting Stent in Patients With Coronary Artery Disease (GENOSS Registry)",
+      "abstract": "This registry is a clinical post-market evaluation of the Genoss DES in subjects requiring coronary revascularization with Drug Eluting Stents (DES).",
+      "source_url": "https://clinicaltrials.gov/study/NCT03045913",
+      "date_published": "2017-01-23",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT03045913",
+      "phase": null,
+      "status": "COMPLETED",
+      "enrollment": 2000,
+      "sponsor": "Young Jin Youn, MD, PhD",
+      "conditions": [
+        "Coronary Artery Disease",
+        "Myocardial Ischemia",
+        "Myocardial Infarction"
+      ],
+      "primary_outcomes": [
+        "Device-oriented composite end point (TLF)"
+      ],
+      "results_summary": null,
+      "date_registered": "2017-01-23",
+      "date_started": "2016-11-18",
+      "date_completed": "2022-12-31",
+      "date_results_posted": null
+    },
+    {
+      "id": "e05d7d34-dac6-47f2-a392-857466a88ddb",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Phase I Study of Nelfinavir in Combination With Temsirolimus in the Treatment of Patients With Advanced Cancers, Including Second Line Renal Cell Cancer",
+      "abstract": "In the present study the investigators want to explore the safety, pharmacokinetics, and activity of the combination of temsirolimus and nelfinavir, both agents with PI3K /Akt/mTOR inhibiting activity, in patients with advanced malignancies.Temsirolimus has proven anti tumoral activity by mTOR inhibition. Nelfinavir is a potential inhibitor of Akt. Combining both agents might prevent upregulation of the P13k pathway and increase the anti-cancer activity of temsirolimus. The strong CYP3A4 inhibition of nelfinavir and the dependence of temsirolimus on CYP3 A4 metabolism makes a dose finding study essential. The investigators will also look at the prospective value of biomarkers of activity and the outcome of the treatment.",
+      "source_url": "https://clinicaltrials.gov/study/NCT01079286",
+      "date_published": "2010-02-25",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT01079286",
+      "phase": "PHASE1",
+      "status": "COMPLETED",
+      "enrollment": 18,
+      "sponsor": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+      "conditions": [
+        "Renal Cell Cancer",
+        "Cancer"
+      ],
+      "primary_outcomes": [
+        "Pharmacokinetics/pharmacodynamics",
+        "Toxicity profile"
+      ],
+      "results_summary": null,
+      "date_registered": "2010-02-25",
+      "date_started": "2009-06-01",
+      "date_completed": "2011-08-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "0555a35c-9762-4bc9-b5a2-b7bf7bb6c8d0",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "Treatment of Chronic Hepatitis C Virus Infection With Direct Acting Antivirals in Kidney Transplant Recipients",
+      "abstract": "Chronic hepatitis C virus (HCV) infection, an important cause of morbidity and mortality worldwide, is a significant problem in kidney transplant recipients (KTRs) given its high prevalence in patients undergoing hemodialysis. Interferon based regimens were cornerstone of treatment of HCV infection in the past; however, due to their low efficacy and high rates of adverse effects, they have been abandoned in the new era of direct acting antivirals (DAAs). Several studies demonstrated the efficacy and safety of DAAs, yet data regarding clinical practice of these agents in KTRs is still needed. Therefore, we conducted a study using our registry data to evaluate the efficacy and safety of DAAs in KTRs.",
+      "source_url": "https://clinicaltrials.gov/study/NCT03880682",
+      "date_published": "2019-03-17",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT03880682",
+      "phase": null,
+      "status": "COMPLETED",
+      "enrollment": 30,
+      "sponsor": "Istanbul University",
+      "conditions": [
+        "Kidney Transplant; Complications",
+        "Hepatitis C, Chronic"
+      ],
+      "primary_outcomes": [
+        "SVR12"
+      ],
+      "results_summary": null,
+      "date_registered": "2019-03-17",
+      "date_started": "2018-11-01",
+      "date_completed": "2019-10-31",
+      "date_results_posted": null
+    },
+    {
+      "id": "79046e83-e080-4aac-8ccd-4083480103d4",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "A Randomized Phase 2 Trial of Pazopanib Versus Temsirolimus in Poor-Risk Clear-Cell Renal Cell Carcinoma",
+      "abstract": "The goal of this clinical research study is to compare pazopanib to temsirolimus in the treatment of advanced clear-cell renal cell carcinoma. The safety of each drug will also be studied.\n\nPazopanib is designed to block the growth of blood vessels that supply nutrients needed for tumor growth. This may prevent or slow the growth of cancer cells.\n\nTemsirolimus is designed to block the growth of cancer cells, which may cause cancer cells to die.\n\nThis is an investigational study. Pazopanib and temsirolimus are both FDA approved and commercially available for the treatment of kidney cancer. It is investigational to compare the 2 drugs.\n\nUp to 90 patients will be enrolled in this study. All will be enrolled at MD Anderson.",
+      "source_url": "https://clinicaltrials.gov/study/NCT01392183",
+      "date_published": "2011-07-08",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT01392183",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "enrollment": 69,
+      "sponsor": "M.D. Anderson Cancer Center",
+      "conditions": [
+        "Kidney Cancer"
+      ],
+      "primary_outcomes": [
+        "Progression Free Survival (PFS)"
+      ],
+      "results_summary": "Enrollment: Recruitment Period: October 2012 to September 2017",
+      "date_registered": "2011-07-08",
+      "date_started": "2012-10-24",
+      "date_completed": "2019-09-08",
+      "date_results_posted": "2020-08-21"
+    },
+    {
+      "id": "618db944-3a8f-4e23-bddc-fe8ff11e0c58",
+      "source_type": "clinicaltrials",
+      "intervention": "rapamycin",
+      "intervention_aliases": [
+        "sirolimus",
+        "rapamune"
+      ],
+      "title": "A Prospective Multicenter Post Market Trial to Assess the Safety and Effectiveness of the Firehawk™ Rapamycin Target Eluting Cobalt Chromium Coronary Stent System (Firehawk™ Stent System) for the Treatment of Atherosclerotic Lesion(s)",
+      "abstract": "Purpose The TARGET All comers trial is a prospective, multicenter, randomized, two-arm, non-inferiority, open-label study with 1656 patients at 20 centers in Europe. The study is a \"real world, all comers\" study.",
+      "source_url": "https://clinicaltrials.gov/study/NCT02520180",
+      "date_published": "2015-07-29",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT02520180",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 1653,
+      "sponsor": "Shanghai MicroPort Medical (Group) Co., Ltd.",
+      "conditions": [
+        "Coronary Artery Disease"
+      ],
+      "primary_outcomes": [
+        "Target Lesion Failure"
+      ],
+      "results_summary": null,
+      "date_registered": "2015-07-29",
+      "date_started": "2015-12-01",
+      "date_completed": "2022-06-01",
+      "date_results_posted": null
+    }
+  ],
+  "candidate_doc_ids": [
+    "6849acd1-e95e-49f1-9766-4083b196ef1e",
+    "31e0cda3-2493-413a-918f-1d5a6b40c2f9",
+    "ba7c737e-bfdb-4b2c-861f-dabd2066637c",
+    "1ee4a42e-c429-4deb-bf9f-e0f8f625a3ce",
+    "bf35f06f-cbd7-4c3a-9c82-409c5697133a",
+    "a4ed9b7c-dd8c-4e06-bea9-b9b8374b29c3",
+    "9054f064-0f4e-40bd-ad17-4cffe7af6b7f",
+    "41224369-faeb-4563-a46e-998eb230159b",
+    "5b41f4d2-147b-486a-a705-aa1656f979b4",
+    "43623f2d-dfa5-45f0-bc00-028b5aeb1681",
+    "7dbf3704-ffe9-419a-9a3e-7e73d6ee0905",
+    "f8e43323-bbda-4151-a532-5732e85d8459",
+    "0e86d6cb-1f9e-4eba-921b-1d9a5429c3db",
+    "e149065f-e613-4f89-bb97-0c39760d640e",
+    "2f996190-ce8c-451e-93a1-90feeab519c7",
+    "4b4ffb22-1c2c-4d36-896b-98bb793c9a9e",
+    "9717fe88-a221-4286-9ff7-2277b35f0e54",
+    "986b8e4a-9f4d-4a61-af0d-44774d3b7ca1",
+    "1b5a2762-4747-47f4-8b9d-774ee103d60d",
+    "02d5926f-c903-4239-8104-8b5c3a723d54",
+    "7394ccf9-3811-4dd8-a007-218a86a457f0",
+    "9a0ed901-4ffe-4748-a30d-acf03acd5e55",
+    "a477b882-df78-4673-a389-ae6dc2c5f96d",
+    "9fdb1cad-f67d-4054-98cf-0ed271c373e4",
+    "2842bf5b-d4ca-45a5-aa77-a0d281b965b9",
+    "8737f087-5ebf-432a-936b-9f45345880b7",
+    "4eefb7be-0539-4d3a-b5e5-e19dfcc58c14",
+    "3aed5f4d-f645-4de6-b9c9-02a7d10f1298",
+    "dfcd8fe7-a836-40d5-adb4-d3b79612f788",
+    "61add72a-ebec-4595-a9ea-de160ad6f744",
+    "5e3778c9-7515-4a56-81e4-70eb13bb769a",
+    "3403bc6c-5bf7-42a6-90cf-b632281a7835",
+    "be2cde87-5be7-46f8-8bc0-0ac4b5e3725b",
+    "91851f31-5897-4e02-bb68-39d189e442f0",
+    "b98e3bbe-69cf-4bdf-af96-cf2e3d2c9ce6",
+    "a763b9c9-733b-4f43-ae95-2e30cff68efe",
+    "7b597b2a-e93b-43e6-ad23-2d2e17e315f5",
+    "403bce3f-d5c5-4c11-bd7b-4b4929aee834",
+    "a9d45de3-2539-4ac3-947e-40ae218abd48",
+    "68493bfd-a087-44cb-b321-59bef268e492",
+    "de87517e-3954-493f-baeb-c81e9bb85293",
+    "110e6dbc-10b5-4586-aa99-ea73cb1c530f",
+    "5733877c-8daa-4b21-afb9-4130b517d9ca",
+    "bf9e54a4-6c14-40a8-8c13-e65a1dfb7701",
+    "a8000361-7ccb-49ad-9525-0c41d5ff5bcb",
+    "f0167052-c147-47bc-b6ee-14d27154df30",
+    "c5be685f-f578-4d60-b041-d1e555032455",
+    "17ec0d0e-07b3-499d-bfd9-dd2ed33fe02c",
+    "9558609b-1076-4349-99b4-42502bacfccc",
+    "7d44d038-e098-4a40-9b7a-a6400367abce",
+    "4beb8d9c-078a-4adc-bd38-05f7ab9dcb71",
+    "7e0f5935-8e67-48a3-abbf-f07c8c419bf0",
+    "06f14c6b-ed56-4f84-8e6e-13b2fab19592",
+    "c2a9f606-e7c3-4cc9-892d-5197d96d7dff",
+    "25a5090b-690a-4e5b-8dd6-c301975fde31",
+    "aaee1d96-1459-45f3-a7e7-cfdf3c946b7b",
+    "79863343-392c-4a09-ba7f-dc4ed464d1e3",
+    "7a4bcf4d-cc40-427d-9f0e-1fd5377d517d",
+    "27092290-7f91-489f-8555-ec28eca51707",
+    "1be734bf-6f12-4b30-a20c-a950d1feb2cd",
+    "629b9478-442e-4bf2-81ec-d401c487374d",
+    "9e716502-c64e-46e7-ae92-4155a499ee89",
+    "8529957a-a7aa-4005-8b54-94d8c639f207",
+    "910850b5-001f-4db5-94fc-f5ef5b6fb90e",
+    "b1797d24-fde7-4ab2-bcc1-1105c6892eb7",
+    "a2692e8c-24fe-4771-9985-06006a924574",
+    "e44fb52b-ad72-44f3-9a90-03c6e740d377",
+    "9966ba2f-d526-4ce8-8215-89006b2d924c",
+    "22d760f5-a62c-467a-9f4a-931ba0a67dc7",
+    "123bf0c0-5de2-4843-98e1-7809f21e507d",
+    "efde20f7-f091-48eb-87c4-a177f1d9af6e",
+    "1f1457af-d524-4a28-b974-618793f64d3c",
+    "10cbaa28-cdc6-4c16-bb20-e73e7408d35c",
+    "caeacc18-a6a1-471f-9f99-044861942835",
+    "74252df3-3a5c-4eb1-aee9-e856df462911",
+    "81975f6e-a1ec-45b5-8d9f-a71931b48d12",
+    "96998640-c23e-4ee4-8c37-f944da906f51",
+    "3d4cd910-bb5a-4263-a66b-6ec7829f1d17",
+    "cf7326da-4aba-448d-a284-7c495c8eaad4",
+    "74ef968e-f2d7-45ed-9753-dae6a1e8e865",
+    "55cf2f78-7215-4c71-9f53-0778367b4da2",
+    "cabca368-d12f-4675-acbf-51da01dfd8d3",
+    "00335bc5-14cd-46df-97c4-bbce27362eed",
+    "f803a4ab-142f-4703-adc6-fb019030ecf5",
+    "213bbe8b-be57-48d3-a723-3f5decb70808",
+    "baa35d43-4bad-4915-a423-2042c897f722",
+    "9d23d36a-dd53-46ac-b330-749129b36872",
+    "e66a1b66-6dde-4d4e-a611-61f73a313975",
+    "5957e93f-6ba5-4609-88fb-d07c66789470",
+    "7b0f18ef-0f96-451c-80d6-6e8f0b46ce18",
+    "bd005795-5fd3-4be4-a630-c078af44c9cf",
+    "f30f94f3-9906-45a6-bde6-54855e9cfbe3",
+    "9c8e6b71-fc41-4aba-8cb3-34452e47e636",
+    "af55f663-963a-42ed-b7c1-ebdc2f826375",
+    "813f01b0-863e-4f9d-8630-e81236b4ff68",
+    "18866741-f05b-4f53-bacd-e1dec5bb7fa5",
+    "fddc1f72-5cee-425e-ae85-c35a927f5e6c",
+    "c3086e26-cd3c-4edc-b68b-01dfc9482dc9",
+    "9d5fe711-7791-4724-8867-b0f1809bf063",
+    "9714930b-b282-4ef0-a2d1-954cc8064c1e"
+  ],
+  "history": [
+    {
+      "step": 0,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "pubmed",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8",
+        "520a79e8-2d34-4f5a-81ea-e078281d8d5e",
+        "04ac41c0-94cc-4985-a72b-a7ec54f2bdf1"
+      ],
+      "fetched_documents_count": 3
+    },
+    {
+      "step": 1,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "b8830a23-db03-45f9-a5c9-7fdd064853e5",
+        "87e1a7af-343b-40f7-aa0b-5dde68159d8e",
+        "e5a05b27-21cc-432a-85ca-764530ee03b7"
+      ],
+      "fetched_documents_count": 6
+    },
+    {
+      "step": 2,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+        "4cfe47b6-d531-46bd-a6c9-aa7e6de6acbe",
+        "c2fefc02-082b-44d6-a138-a386dfd1e32d"
+      ],
+      "fetched_documents_count": 9
+    },
+    {
+      "step": 3,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "nih_grant",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "eabdb1aa-ce60-4374-8f3e-12ecbb85d042",
+        "8891478f-af45-439e-986c-b336c870ad95",
+        "61d8c574-05c9-4830-b9e3-8490f104c9b0"
+      ],
+      "fetched_documents_count": 12
+    },
+    {
+      "step": 4,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "drugage",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "427337c7-0f25-454d-8b7b-741f33aa22bf",
+        "90e1e269-8ecd-470e-b5e2-c1577fa53001",
+        "5e9ba05e-4b54-4d4e-a639-2b0513e97b8b"
+      ],
+      "fetched_documents_count": 15
+    },
+    {
+      "step": 5,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 15,
+      "effective_args": {
+        "source_type": "regulatory",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "7dc7af0d-c039-4cd6-94a6-e8188eecaa8e",
+        "0ea6bc34-37c4-472d-939a-2f42e26a2d08",
+        "9c3c73e7-8f71-4222-8d3c-a9b6717d4b8b"
+      ],
+      "fetched_documents_count": 18
+    },
+    {
+      "step": 6,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 2,
+      "effective_args": {
+        "source_type": "patent",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "6aa7268d-7796-40b4-b3d6-848dc822c53f",
+        "97f2773b-774c-434b-b7c6-9884e34f140a",
+        "22605f8d-53a3-4906-b1e5-cdbe6bd95c71"
+      ],
+      "fetched_documents_count": 21
+    },
+    {
+      "step": 7,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "d4318a5b-4e9c-4128-ba97-f3ef0dfba874",
+        "66d4d414-46b5-4533-8b6f-3c27f8ba0d2c",
+        "d33991b6-8d3a-4c93-8a1d-81a2484f977b"
+      ],
+      "fetched_documents_count": 24
+    },
+    {
+      "step": 8,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "49b25be1-d865-4691-9823-e3b4bf8ff43c",
+        "4f511fa1-c771-4757-8e74-fe3dff4d95f5",
+        "8179eaf6-f1cc-49fd-a651-3c1e4d0cd666"
+      ],
+      "fetched_documents_count": 27
+    },
+    {
+      "step": 9,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "d8dbed5a-1eac-408c-b5eb-4b2541788643",
+        "3efb9f14-0244-4318-b152-60620504fc4c",
+        "82d3d3f4-88e3-4d49-873e-c08bde9ffddd"
+      ],
+      "fetched_documents_count": 30
+    },
+    {
+      "step": 10,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "4a41db90-6bb5-4db9-b592-5a8f08a8cd73",
+        "3287f2a6-5530-4f9a-a8bb-0b4683b27484",
+        "f757eb27-7575-42f2-9f3e-aba9414d2937"
+      ],
+      "fetched_documents_count": 33
+    },
+    {
+      "step": 11,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "7fd87c6c-b6b9-45ec-8e5b-79d1a866833f",
+        "d35708dd-cac1-43a4-a6a3-872a72f74a43",
+        "d1ceda0c-d075-409e-8f0a-cb24cf5ec199"
+      ],
+      "fetched_documents_count": 36
+    },
+    {
+      "step": 12,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "51e87aa9-83b4-43e8-81a5-207c408b008d",
+        "375165eb-56a9-4c2b-b6df-dd2b7a1df783",
+        "e05d7d34-dac6-47f2-a392-857466a88ddb"
+      ],
+      "fetched_documents_count": 39
+    },
+    {
+      "step": 13,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "0555a35c-9762-4bc9-b5a2-b7bf7bb6c8d0",
+        "79046e83-e080-4aac-8ccd-4083480103d4",
+        "618db944-3a8f-4e23-bddc-fe8ff11e0c58"
+      ],
+      "fetched_documents_count": 42
+    },
+    {
+      "step": "final",
+      "action": "final_output_written"
+    }
+  ],
+  "final_output": {
+    "confidence": 54.9,
+    "confidence_raw": 54.9,
+    "gating_penalty": 1.0,
+    "checklist": {
+      "any_human_evidence": true,
+      "any_rct": true,
+      "any_human_endpoints": true,
+      "any_human_safety": true
+    },
+    "tier_contributions": {
+      "1": 28.55,
+      "2": 23.67,
+      "3": 1.06,
+      "4": 1.62,
+      "5": 0.0,
+      "6": 0.0
+    },
+    "selected_counts_by_level": {
+      "1": 5,
+      "2": 23,
+      "3": 2,
+      "4": 12,
+      "5": 0,
+      "6": 0
+    },
+    "top_docs": [
+      {
+        "id": "520a79e8-2d34-4f5a-81ea-e078281d8d5e",
+        "source_type": "pubmed",
+        "title": "Rapamycin not dietary restriction improves resilience against pathogens: a meta-analysis.",
+        "level": 1,
+        "doc_weight": 1.1,
+        "relevance": 2,
+        "endpoint_grade": 3,
+        "effect_direction": 1,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "87e1a7af-343b-40f7-aa0b-5dde68159d8e",
+        "source_type": "pubmed",
+        "title": "Meta-Analysis of 29 Experiments Evaluating the Effects of Rapamycin on Life Span in the Laboratory Mouse.",
+        "level": 1,
+        "doc_weight": 1.1,
+        "relevance": 2,
+        "endpoint_grade": 3,
+        "effect_direction": 1,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+        "source_type": "pubmed",
+        "title": "MyMD-1 Improves Health Span and Prolongs Life Span in Old Mice: A Noninferiority Study to Rapamycin.",
+        "level": 2,
+        "doc_weight": 0.7565,
+        "relevance": 2,
+        "endpoint_grade": 3,
+        "effect_direction": 1,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8",
+        "source_type": "pubmed",
+        "title": "Targeting ageing with rapamycin and its derivatives in humans: a systematic review.",
+        "level": 1,
+        "doc_weight": 0.6636,
+        "relevance": 2,
+        "endpoint_grade": 2,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "4cfe47b6-d531-46bd-a6c9-aa7e6de6acbe",
+        "source_type": "pubmed",
+        "title": "Targeting the biology of aging with mTOR inhibitors.",
+        "level": 2,
+        "doc_weight": 0.5238,
+        "relevance": 2,
+        "endpoint_grade": 3,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "b8830a23-db03-45f9-a5c9-7fdd064853e5",
+        "source_type": "pubmed",
+        "title": "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results.",
+        "level": 2,
+        "doc_weight": 0.4438,
+        "relevance": 2,
+        "endpoint_grade": 2,
+        "effect_direction": -1,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "e5a05b27-21cc-432a-85ca-764530ee03b7",
+        "source_type": "pubmed",
+        "title": "Topical rapamycin reduces markers of senescence and aging in human skin: an exploratory, prospective, randomized trial.",
+        "level": 2,
+        "doc_weight": 0.3858,
+        "relevance": 2,
+        "endpoint_grade": 1,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "0ea6bc34-37c4-472d-939a-2f42e26a2d08",
+        "source_type": "pubmed",
+        "title": "Ribosome dysregulation and intervention in age-related infertility.",
+        "level": 2,
+        "doc_weight": 0.1849,
+        "relevance": 2,
+        "endpoint_grade": 0,
+        "effect_direction": 1,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      }
+    ],
+    "notes": [
+      "deterministic_rubric_score_v1",
+      "documents_scored=42"
+    ]
+  },
+  "analysis_report": {
+    "generated": true,
+    "doc_count_in_pack": 11,
+    "preview": "# Evidence Confidence Report\n\n## 1) Executive Summary\n\n*   The confidence score is 54.9, indicating a moderate level of evidence supporting the beneficial effects of rapamycin on ageing/healthspan/longevity in humans.\n*   The score is primarily driven by high-quality meta-analyses and systematic reviews (level 1) that synthesize data from multiple human trials and observational studies.\n*   Evidence from randomized controlled trials (RCTs) (level 2) provides direct human data, but the overall score is tempered by the inclusion of lower-level evidence.\n*   The score is lowered by the absence of strong human safety data (level 1) and the lack of direct human endpoint data (level 3) in the available evidence.\n*   The score is raised by the inclusion of high-weighted meta-analyses and systematic reviews that demonstrate consistent positive effects across multiple studies.\n\n## 2) Score Breakdown\n\n*   **Raw Confidence:** 54.9\n*   **Gating Penalty:** 1.0 (No human safety reporting in humans/r",
+    "path": "outputs/rapamycin.md"
+  }
+}

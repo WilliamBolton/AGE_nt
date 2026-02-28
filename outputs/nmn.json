@@ -1,0 +1,3476 @@
+{
+  "intervention": "NMN",
+  "created_at": "2026-02-28T08:15:43.817967+00:00",
+  "updated_at": "2026-02-28T08:23:18.856502+00:00",
+  "schema_path": "JSON_SCHEMA_REFERENCE.md",
+  "summary_path": "data/summary/nmn.json",
+  "task_hints": {
+    "source_type_allowlist": [],
+    "source_type_blocklist": [],
+    "min_fetch_docs": null,
+    "auto_fetch_per_search": null,
+    "min_per_source": null
+  },
+  "source_types_allowed": [
+    "pubmed",
+    "clinicaltrials",
+    "europe_pmc",
+    "semantic_scholar",
+    "nih_grant",
+    "drugage",
+    "regulatory"
+  ],
+  "selected_rows": [
+    {
+      "step": 0,
+      "args": {
+        "source_type": "pubmed",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "1351c6f7-fdae-4840-8b9a-4f9d873133a4"
+        },
+        {
+          "id": "4dcbfd5d-d9ef-4ca1-9856-ae27001813d5"
+        },
+        {
+          "id": "31b26a25-9d37-411d-8c73-e4d2ce0c429b"
+        },
+        {
+          "id": "7dcbb876-f795-4335-8d64-2f5423ea4994"
+        },
+        {
+          "id": "a2c0656f-0f74-458c-a395-328b9445a136"
+        },
+        {
+          "id": "e12e3351-1991-4480-81f8-a2376dc3a5da"
+        },
+        {
+          "id": "68d5bc71-be23-42bf-9fee-7c5f6d3b57f9"
+        },
+        {
+          "id": "2efa5ff1-d699-4770-a156-63495d3ebb48"
+        },
+        {
+          "id": "847192f7-ad2a-427b-807b-c9cdf150519a"
+        },
+        {
+          "id": "299bc931-91c4-458d-ab08-58e96260be76"
+        },
+        {
+          "id": "da88f181-3f86-4f80-86e1-a2ca8a1f53a0"
+        },
+        {
+          "id": "3406f3f6-678c-4b17-945a-061a17d5a16a"
+        },
+        {
+          "id": "eb56c1fc-d0b9-4531-be5a-aff4c807c24a"
+        },
+        {
+          "id": "d0d524df-a7f6-4cce-8d8b-5055a0c2f478"
+        },
+        {
+          "id": "c73fd761-0c1c-48c2-8061-f093e025ec14"
+        },
+        {
+          "id": "9e807155-6396-4205-8118-aa207c68b379"
+        },
+        {
+          "id": "d46670c3-a8a4-44a8-8833-cbc17a1e2f8d"
+        },
+        {
+          "id": "f25f8289-2cb4-4e4a-a5e8-a26e056c2800"
+        },
+        {
+          "id": "4c81525d-baf0-41b9-84c1-25c5bd691726"
+        },
+        {
+          "id": "b8483aef-6fe8-4465-a27c-b1c33c15604f"
+        },
+        {
+          "id": "5d35d923-417e-464d-85f1-81660e87b371"
+        },
+        {
+          "id": "4d4bd8d7-75db-4332-bfb3-a5139a46165b"
+        },
+        {
+          "id": "553d1132-cf6c-44a5-91ed-e70144dbe9de"
+        },
+        {
+          "id": "7e5adf25-8e3a-42fd-b38c-ea42f2b7719e"
+        },
+        {
+          "id": "91d3736c-bf2c-4d0b-85c5-9c4622b80f23"
+        }
+      ]
+    },
+    {
+      "step": 1,
+      "args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "b46e8572-3782-4a3b-a217-1bafac04cd20"
+        },
+        {
+          "id": "6308398e-ff3b-42c3-9b68-0698551a8a76"
+        },
+        {
+          "id": "67c06cb3-9449-4e56-9e34-d1928401b013"
+        },
+        {
+          "id": "dc7c3bd0-b7de-467f-80b4-046f447cee4d"
+        },
+        {
+          "id": "647c6a89-42f8-4a61-8fae-ad386b588dcd"
+        },
+        {
+          "id": "a20d1ccb-bfde-4b41-b712-84c0f3074ab8"
+        },
+        {
+          "id": "1b102b05-df25-4fff-88ef-072d4eebd720"
+        },
+        {
+          "id": "88841bd8-e86e-4e4e-90b8-fd9ca72c09a4"
+        },
+        {
+          "id": "7e41273d-cea1-492b-89d0-148687907e13"
+        },
+        {
+          "id": "ad104e6e-ff9f-4a23-acd3-937b470cc6fd"
+        },
+        {
+          "id": "c7cca63f-a994-4a34-b35d-205dd0d350e0"
+        },
+        {
+          "id": "4aebd792-c3e4-4607-b71c-d10c3b0e182a"
+        },
+        {
+          "id": "2366c3a0-730a-42e2-96d7-157506b93d8f"
+        },
+        {
+          "id": "5554f6af-56db-419d-bc5e-0c24dc657ddf"
+        },
+        {
+          "id": "363cd95a-356e-4741-8b72-23030e111a4d"
+        },
+        {
+          "id": "1f8357e4-c4ec-40a0-bb23-ee004ed7f5f1"
+        },
+        {
+          "id": "8babfdf3-bc13-48ef-9c9e-c1c12637d9f2"
+        },
+        {
+          "id": "0876a00f-797a-48d8-8d23-7cbd2efc68fb"
+        },
+        {
+          "id": "8c1fb013-fd74-4301-a8cd-73ebae2a03cf"
+        },
+        {
+          "id": "baacef78-11b3-4082-a3dd-dc6ed9f3e9ff"
+        },
+        {
+          "id": "fcba617c-d971-4566-92bf-e24a3858602e"
+        },
+        {
+          "id": "a04a7c64-b7da-4daf-9862-8317bf1a06f4"
+        },
+        {
+          "id": "15195a42-a9ad-45c8-8bfb-9051939cbd43"
+        },
+        {
+          "id": "84a6d969-1e1a-4786-93c6-7d76e1752ae2"
+        },
+        {
+          "id": "b4339907-53ea-4d36-80d2-66323481c658"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "d37e1506-3c58-4c71-b86d-e4d74e579b7a"
+        },
+        {
+          "id": "d7f72d38-0194-40e5-bfdd-212a41e40a03"
+        },
+        {
+          "id": "98e7f6bf-c88f-4331-99ff-f1de20ea3749"
+        },
+        {
+          "id": "f07cbc3f-8674-4897-86d3-47c882fd234c"
+        },
+        {
+          "id": "da7c8e27-c2a2-4f99-bd01-136e21efdbd4"
+        },
+        {
+          "id": "3c27d891-7577-4e35-8e5f-1a3aafa53d6c"
+        },
+        {
+          "id": "bfc6fdb8-58b3-4669-85d7-59693693a3b3"
+        },
+        {
+          "id": "dda785b7-b563-4a11-a77e-5b694bcb020c"
+        },
+        {
+          "id": "14e352a6-0096-49c3-a4fb-374a0873c1f7"
+        },
+        {
+          "id": "415666a8-f69a-4cad-ac4a-2bbfef5ba91c"
+        },
+        {
+          "id": "007ad787-c383-4d9a-90bf-4316eadbcccf"
+        },
+        {
+          "id": "4115bab1-b16d-474e-b492-14124dfc0ee6"
+        },
+        {
+          "id": "54dd0c0a-ab69-4870-9d12-951744fde1d7"
+        },
+        {
+          "id": "193a356e-1ccb-4299-942d-7d72e25b954d"
+        },
+        {
+          "id": "e828f64e-e8df-4332-999e-58071198b79a"
+        },
+        {
+          "id": "ed66bf5e-cd62-4e2d-bf5a-49fd76b4e260"
+        },
+        {
+          "id": "66e7f4a9-26e3-4d36-aa61-bf3a93317df6"
+        },
+        {
+          "id": "6ed95329-064e-4cf3-bd07-9dd016db2177"
+        },
+        {
+          "id": "36d1ffa9-617d-45cd-8084-f4927fed58bd"
+        },
+        {
+          "id": "9a030cbd-6fe7-43a2-8855-c1ea3915bc34"
+        },
+        {
+          "id": "cda64065-79e8-4506-a8b9-afd361a1dce8"
+        },
+        {
+          "id": "1c158245-0d51-413b-b0f6-98363077b5f5"
+        },
+        {
+          "id": "c6327b78-7134-4177-b3d6-ed9a0e35fa78"
+        },
+        {
+          "id": "4ce9758c-8b1d-46fd-89c2-7d6c73aae4b8"
+        },
+        {
+          "id": "0203d8ae-b8f1-4c86-962d-20b09495d50a"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "args": {
+        "source_type": "semantic_scholar",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "8171bbcf-227b-4e7b-ae43-2411a3565263"
+        },
+        {
+          "id": "779abc9c-6437-49ca-a346-c6212a83b26c"
+        },
+        {
+          "id": "c5ac972b-f320-4ad0-b33d-0eda4c3e571c"
+        },
+        {
+          "id": "3033f031-a194-4f4e-98e1-b79b9fdf4b1a"
+        },
+        {
+          "id": "10e4f850-a915-4c82-88dc-271edfb8a9d6"
+        },
+        {
+          "id": "97f4653b-08d5-406b-bbad-47991118ac73"
+        },
+        {
+          "id": "4be1f4f7-914f-44ce-b165-3703d6465f7b"
+        },
+        {
+          "id": "475f6851-9299-49fb-860c-ab3304f78f73"
+        },
+        {
+          "id": "3cb1cb67-ccb5-4b7b-babf-8fb1160b61cc"
+        },
+        {
+          "id": "18afdd58-4af9-47ed-9f74-1f620effb035"
+        },
+        {
+          "id": "d9b86e11-d2a2-43c2-90e3-0a0fd521ffab"
+        },
+        {
+          "id": "fcf1cc3d-1b67-4271-a863-8c0a6319b0fd"
+        },
+        {
+          "id": "217fd507-9860-4b5e-82fa-6a933b0e0283"
+        },
+        {
+          "id": "bb65c306-c28b-4336-8a55-3b294a7e27af"
+        },
+        {
+          "id": "4267e912-2928-4cbd-a029-13775e10accb"
+        },
+        {
+          "id": "e2b8246a-293a-4157-9876-3cd7bde1c4a1"
+        },
+        {
+          "id": "9f1af5cd-37e1-453b-bfa7-21ae0275f22b"
+        },
+        {
+          "id": "7586f62f-3dbe-4dc8-8bfc-6b57b906d251"
+        },
+        {
+          "id": "13265a8a-032a-47eb-ac25-6ad6d8e6a319"
+        },
+        {
+          "id": "c8e166c1-1d91-4df8-9b03-5c50610afd9f"
+        },
+        {
+          "id": "28452478-24e3-4006-adbc-6cbacb09bd20"
+        },
+        {
+          "id": "83a0a1d3-0476-4111-a8e7-1ebee9ca0c62"
+        },
+        {
+          "id": "537b0f4d-c3a9-4e82-985a-e0a52a2be82d"
+        },
+        {
+          "id": "bfd8c432-d2e3-4714-8d1a-88dcb3b816e5"
+        },
+        {
+          "id": "f88f6532-3d05-4804-ad5d-a84522cd2268"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "args": {
+        "source_type": "nih_grant",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "a6dae558-0598-4fbe-83b4-e84d43e98f57"
+        },
+        {
+          "id": "1f199010-3e7d-4d8a-b83e-2f96e2666837"
+        },
+        {
+          "id": "f949a575-fce6-4aff-84e1-703a1370f741"
+        },
+        {
+          "id": "2308e6f7-29b4-4513-9575-4e77b1902433"
+        },
+        {
+          "id": "1a96a042-3e80-4f41-bd3f-8df53ba5d426"
+        },
+        {
+          "id": "36b6aa1c-72af-4b9a-9d46-fa20a007e6cd"
+        },
+        {
+          "id": "6c4e1b7a-fca8-42fe-96e8-0d5af7880085"
+        },
+        {
+          "id": "c3740aa2-2472-4276-8ba1-844c958d1901"
+        },
+        {
+          "id": "35e32fd6-b30f-43c8-8bff-ac62f29dd8e3"
+        },
+        {
+          "id": "1b61e4af-fb53-4b6d-b29e-30a15771290e"
+        },
+        {
+          "id": "f693c770-2792-432c-92c7-9ddd0c08c685"
+        },
+        {
+          "id": "06c7eb9b-6feb-4f71-9ad4-51a6ea542d12"
+        },
+        {
+          "id": "c732dc03-6f2b-4183-b39d-c411bc9e480f"
+        },
+        {
+          "id": "84ecfc80-1336-4eeb-9463-7a843a15da2a"
+        },
+        {
+          "id": "d06cee87-d50f-4ed7-80dd-25f4a1bf967c"
+        },
+        {
+          "id": "e85d0c25-58ea-4854-a05a-12addfb868ca"
+        },
+        {
+          "id": "77c8617e-4a5f-4026-a6c3-82f74db5d0fc"
+        },
+        {
+          "id": "b16cf9c4-1a59-4f13-adbd-7f780f358d88"
+        },
+        {
+          "id": "506a4551-581b-454c-808c-1e8602eb400a"
+        },
+        {
+          "id": "ae54eb36-5656-4384-82c9-a9f7d0575fdb"
+        },
+        {
+          "id": "a5592317-4cb1-49bb-93f4-929b5c205cef"
+        },
+        {
+          "id": "bc1fc98a-9d88-434c-bba7-39b26a71026c"
+        },
+        {
+          "id": "9051491f-7355-4b25-afdc-612ffe688bf9"
+        },
+        {
+          "id": "08e0c229-e8a5-45d2-9a98-9cfde1ec2629"
+        },
+        {
+          "id": "d418b0f4-67d6-478f-89b9-16dc9c4d1561"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "args": {
+        "source_type": "drugage",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "8262eb9b-1609-4218-ac52-93233e054919"
+        },
+        {
+          "id": "e5c66f8f-2b74-4e97-b708-8dc03ef32bc7"
+        },
+        {
+          "id": "f5a50dbf-feb0-4b6d-b5ec-1ddb518463f7"
+        },
+        {
+          "id": "0cf210af-08f6-470b-bf51-c733e25fd1fc"
+        },
+        {
+          "id": "d448ad7e-c053-4b53-a08f-d24ba66850a6"
+        },
+        {
+          "id": "10b12c79-8b82-4e28-a232-5eb3445d7913"
+        },
+        {
+          "id": "e2e1c8e5-1111-47ce-8b4a-394a177273af"
+        },
+        {
+          "id": "4681cf32-69da-4d15-bbe9-dc6b4ea697b6"
+        },
+        {
+          "id": "6c5a1b9c-434d-47cf-8643-aebf802e394d"
+        },
+        {
+          "id": "11d6e736-cbeb-4c00-b431-8f522354d8e2"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "args": {
+        "source_type": "regulatory",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "6cf24c65-c485-4152-b5a3-7587c9e9622c"
+        },
+        {
+          "id": "4ae7d7bf-c216-4265-9540-d8cffe4d6e76"
+        },
+        {
+          "id": "57081948-c581-41dd-8f31-1ba0fa6da6ed"
+        },
+        {
+          "id": "9d19216b-f52c-47ac-86c5-63e2a2c3dc4b"
+        },
+        {
+          "id": "5f12600d-704b-4099-85cc-4dd6fb35b445"
+        },
+        {
+          "id": "c7f23168-e030-4f27-9407-5d33033cb820"
+        },
+        {
+          "id": "166eee7f-6f64-47c8-bb02-9d0e0fecf121"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "b46e8572-3782-4a3b-a217-1bafac04cd20"
+        },
+        {
+          "id": "6308398e-ff3b-42c3-9b68-0698551a8a76"
+        },
+        {
+          "id": "67c06cb3-9449-4e56-9e34-d1928401b013"
+        },
+        {
+          "id": "dc7c3bd0-b7de-467f-80b4-046f447cee4d"
+        },
+        {
+          "id": "647c6a89-42f8-4a61-8fae-ad386b588dcd"
+        },
+        {
+          "id": "a20d1ccb-bfde-4b41-b712-84c0f3074ab8"
+        },
+        {
+          "id": "1b102b05-df25-4fff-88ef-072d4eebd720"
+        },
+        {
+          "id": "88841bd8-e86e-4e4e-90b8-fd9ca72c09a4"
+        },
+        {
+          "id": "7e41273d-cea1-492b-89d0-148687907e13"
+        },
+        {
+          "id": "ad104e6e-ff9f-4a23-acd3-937b470cc6fd"
+        },
+        {
+          "id": "c7cca63f-a994-4a34-b35d-205dd0d350e0"
+        },
+        {
+          "id": "4aebd792-c3e4-4607-b71c-d10c3b0e182a"
+        },
+        {
+          "id": "2366c3a0-730a-42e2-96d7-157506b93d8f"
+        },
+        {
+          "id": "5554f6af-56db-419d-bc5e-0c24dc657ddf"
+        },
+        {
+          "id": "363cd95a-356e-4741-8b72-23030e111a4d"
+        },
+        {
+          "id": "1f8357e4-c4ec-40a0-bb23-ee004ed7f5f1"
+        },
+        {
+          "id": "8babfdf3-bc13-48ef-9c9e-c1c12637d9f2"
+        },
+        {
+          "id": "0876a00f-797a-48d8-8d23-7cbd2efc68fb"
+        },
+        {
+          "id": "8c1fb013-fd74-4301-a8cd-73ebae2a03cf"
+        },
+        {
+          "id": "baacef78-11b3-4082-a3dd-dc6ed9f3e9ff"
+        },
+        {
+          "id": "fcba617c-d971-4566-92bf-e24a3858602e"
+        },
+        {
+          "id": "a04a7c64-b7da-4daf-9862-8317bf1a06f4"
+        },
+        {
+          "id": "15195a42-a9ad-45c8-8bfb-9051939cbd43"
+        },
+        {
+          "id": "84a6d969-1e1a-4786-93c6-7d76e1752ae2"
+        },
+        {
+          "id": "b4339907-53ea-4d36-80d2-66323481c658"
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "b46e8572-3782-4a3b-a217-1bafac04cd20"
+        },
+        {
+          "id": "6308398e-ff3b-42c3-9b68-0698551a8a76"
+        },
+        {
+          "id": "67c06cb3-9449-4e56-9e34-d1928401b013"
+        },
+        {
+          "id": "dc7c3bd0-b7de-467f-80b4-046f447cee4d"
+        },
+        {
+          "id": "647c6a89-42f8-4a61-8fae-ad386b588dcd"
+        },
+        {
+          "id": "a20d1ccb-bfde-4b41-b712-84c0f3074ab8"
+        },
+        {
+          "id": "1b102b05-df25-4fff-88ef-072d4eebd720"
+        },
+        {
+          "id": "88841bd8-e86e-4e4e-90b8-fd9ca72c09a4"
+        },
+        {
+          "id": "7e41273d-cea1-492b-89d0-148687907e13"
+        },
+        {
+          "id": "ad104e6e-ff9f-4a23-acd3-937b470cc6fd"
+        },
+        {
+          "id": "c7cca63f-a994-4a34-b35d-205dd0d350e0"
+        },
+        {
+          "id": "4aebd792-c3e4-4607-b71c-d10c3b0e182a"
+        },
+        {
+          "id": "2366c3a0-730a-42e2-96d7-157506b93d8f"
+        },
+        {
+          "id": "5554f6af-56db-419d-bc5e-0c24dc657ddf"
+        },
+        {
+          "id": "363cd95a-356e-4741-8b72-23030e111a4d"
+        },
+        {
+          "id": "1f8357e4-c4ec-40a0-bb23-ee004ed7f5f1"
+        },
+        {
+          "id": "8babfdf3-bc13-48ef-9c9e-c1c12637d9f2"
+        },
+        {
+          "id": "0876a00f-797a-48d8-8d23-7cbd2efc68fb"
+        },
+        {
+          "id": "8c1fb013-fd74-4301-a8cd-73ebae2a03cf"
+        },
+        {
+          "id": "baacef78-11b3-4082-a3dd-dc6ed9f3e9ff"
+        },
+        {
+          "id": "fcba617c-d971-4566-92bf-e24a3858602e"
+        },
+        {
+          "id": "a04a7c64-b7da-4daf-9862-8317bf1a06f4"
+        },
+        {
+          "id": "15195a42-a9ad-45c8-8bfb-9051939cbd43"
+        },
+        {
+          "id": "84a6d969-1e1a-4786-93c6-7d76e1752ae2"
+        },
+        {
+          "id": "b4339907-53ea-4d36-80d2-66323481c658"
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "d37e1506-3c58-4c71-b86d-e4d74e579b7a"
+        },
+        {
+          "id": "d7f72d38-0194-40e5-bfdd-212a41e40a03"
+        },
+        {
+          "id": "98e7f6bf-c88f-4331-99ff-f1de20ea3749"
+        },
+        {
+          "id": "f07cbc3f-8674-4897-86d3-47c882fd234c"
+        },
+        {
+          "id": "da7c8e27-c2a2-4f99-bd01-136e21efdbd4"
+        },
+        {
+          "id": "3c27d891-7577-4e35-8e5f-1a3aafa53d6c"
+        },
+        {
+          "id": "bfc6fdb8-58b3-4669-85d7-59693693a3b3"
+        },
+        {
+          "id": "dda785b7-b563-4a11-a77e-5b694bcb020c"
+        },
+        {
+          "id": "14e352a6-0096-49c3-a4fb-374a0873c1f7"
+        },
+        {
+          "id": "415666a8-f69a-4cad-ac4a-2bbfef5ba91c"
+        },
+        {
+          "id": "007ad787-c383-4d9a-90bf-4316eadbcccf"
+        },
+        {
+          "id": "4115bab1-b16d-474e-b492-14124dfc0ee6"
+        },
+        {
+          "id": "54dd0c0a-ab69-4870-9d12-951744fde1d7"
+        },
+        {
+          "id": "193a356e-1ccb-4299-942d-7d72e25b954d"
+        },
+        {
+          "id": "e828f64e-e8df-4332-999e-58071198b79a"
+        },
+        {
+          "id": "ed66bf5e-cd62-4e2d-bf5a-49fd76b4e260"
+        },
+        {
+          "id": "66e7f4a9-26e3-4d36-aa61-bf3a93317df6"
+        },
+        {
+          "id": "6ed95329-064e-4cf3-bd07-9dd016db2177"
+        },
+        {
+          "id": "36d1ffa9-617d-45cd-8084-f4927fed58bd"
+        },
+        {
+          "id": "9a030cbd-6fe7-43a2-8855-c1ea3915bc34"
+        },
+        {
+          "id": "cda64065-79e8-4506-a8b9-afd361a1dce8"
+        },
+        {
+          "id": "1c158245-0d51-413b-b0f6-98363077b5f5"
+        },
+        {
+          "id": "c6327b78-7134-4177-b3d6-ed9a0e35fa78"
+        },
+        {
+          "id": "4ce9758c-8b1d-46fd-89c2-7d6c73aae4b8"
+        },
+        {
+          "id": "0203d8ae-b8f1-4c86-962d-20b09495d50a"
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "d37e1506-3c58-4c71-b86d-e4d74e579b7a"
+        },
+        {
+          "id": "d7f72d38-0194-40e5-bfdd-212a41e40a03"
+        },
+        {
+          "id": "98e7f6bf-c88f-4331-99ff-f1de20ea3749"
+        },
+        {
+          "id": "f07cbc3f-8674-4897-86d3-47c882fd234c"
+        },
+        {
+          "id": "da7c8e27-c2a2-4f99-bd01-136e21efdbd4"
+        },
+        {
+          "id": "3c27d891-7577-4e35-8e5f-1a3aafa53d6c"
+        },
+        {
+          "id": "bfc6fdb8-58b3-4669-85d7-59693693a3b3"
+        },
+        {
+          "id": "dda785b7-b563-4a11-a77e-5b694bcb020c"
+        },
+        {
+          "id": "14e352a6-0096-49c3-a4fb-374a0873c1f7"
+        },
+        {
+          "id": "415666a8-f69a-4cad-ac4a-2bbfef5ba91c"
+        },
+        {
+          "id": "007ad787-c383-4d9a-90bf-4316eadbcccf"
+        },
+        {
+          "id": "4115bab1-b16d-474e-b492-14124dfc0ee6"
+        },
+        {
+          "id": "54dd0c0a-ab69-4870-9d12-951744fde1d7"
+        },
+        {
+          "id": "193a356e-1ccb-4299-942d-7d72e25b954d"
+        },
+        {
+          "id": "e828f64e-e8df-4332-999e-58071198b79a"
+        },
+        {
+          "id": "ed66bf5e-cd62-4e2d-bf5a-49fd76b4e260"
+        },
+        {
+          "id": "66e7f4a9-26e3-4d36-aa61-bf3a93317df6"
+        },
+        {
+          "id": "6ed95329-064e-4cf3-bd07-9dd016db2177"
+        },
+        {
+          "id": "36d1ffa9-617d-45cd-8084-f4927fed58bd"
+        },
+        {
+          "id": "9a030cbd-6fe7-43a2-8855-c1ea3915bc34"
+        },
+        {
+          "id": "cda64065-79e8-4506-a8b9-afd361a1dce8"
+        },
+        {
+          "id": "1c158245-0d51-413b-b0f6-98363077b5f5"
+        },
+        {
+          "id": "c6327b78-7134-4177-b3d6-ed9a0e35fa78"
+        },
+        {
+          "id": "4ce9758c-8b1d-46fd-89c2-7d6c73aae4b8"
+        },
+        {
+          "id": "0203d8ae-b8f1-4c86-962d-20b09495d50a"
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "d37e1506-3c58-4c71-b86d-e4d74e579b7a"
+        },
+        {
+          "id": "d7f72d38-0194-40e5-bfdd-212a41e40a03"
+        },
+        {
+          "id": "98e7f6bf-c88f-4331-99ff-f1de20ea3749"
+        },
+        {
+          "id": "f07cbc3f-8674-4897-86d3-47c882fd234c"
+        },
+        {
+          "id": "da7c8e27-c2a2-4f99-bd01-136e21efdbd4"
+        },
+        {
+          "id": "3c27d891-7577-4e35-8e5f-1a3aafa53d6c"
+        },
+        {
+          "id": "bfc6fdb8-58b3-4669-85d7-59693693a3b3"
+        },
+        {
+          "id": "dda785b7-b563-4a11-a77e-5b694bcb020c"
+        },
+        {
+          "id": "14e352a6-0096-49c3-a4fb-374a0873c1f7"
+        },
+        {
+          "id": "415666a8-f69a-4cad-ac4a-2bbfef5ba91c"
+        },
+        {
+          "id": "007ad787-c383-4d9a-90bf-4316eadbcccf"
+        },
+        {
+          "id": "4115bab1-b16d-474e-b492-14124dfc0ee6"
+        },
+        {
+          "id": "54dd0c0a-ab69-4870-9d12-951744fde1d7"
+        },
+        {
+          "id": "193a356e-1ccb-4299-942d-7d72e25b954d"
+        },
+        {
+          "id": "e828f64e-e8df-4332-999e-58071198b79a"
+        },
+        {
+          "id": "ed66bf5e-cd62-4e2d-bf5a-49fd76b4e260"
+        },
+        {
+          "id": "66e7f4a9-26e3-4d36-aa61-bf3a93317df6"
+        },
+        {
+          "id": "6ed95329-064e-4cf3-bd07-9dd016db2177"
+        },
+        {
+          "id": "36d1ffa9-617d-45cd-8084-f4927fed58bd"
+        },
+        {
+          "id": "9a030cbd-6fe7-43a2-8855-c1ea3915bc34"
+        },
+        {
+          "id": "cda64065-79e8-4506-a8b9-afd361a1dce8"
+        },
+        {
+          "id": "1c158245-0d51-413b-b0f6-98363077b5f5"
+        },
+        {
+          "id": "c6327b78-7134-4177-b3d6-ed9a0e35fa78"
+        },
+        {
+          "id": "4ce9758c-8b1d-46fd-89c2-7d6c73aae4b8"
+        },
+        {
+          "id": "0203d8ae-b8f1-4c86-962d-20b09495d50a"
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "d37e1506-3c58-4c71-b86d-e4d74e579b7a"
+        },
+        {
+          "id": "d7f72d38-0194-40e5-bfdd-212a41e40a03"
+        },
+        {
+          "id": "98e7f6bf-c88f-4331-99ff-f1de20ea3749"
+        },
+        {
+          "id": "f07cbc3f-8674-4897-86d3-47c882fd234c"
+        },
+        {
+          "id": "da7c8e27-c2a2-4f99-bd01-136e21efdbd4"
+        },
+        {
+          "id": "3c27d891-7577-4e35-8e5f-1a3aafa53d6c"
+        },
+        {
+          "id": "bfc6fdb8-58b3-4669-85d7-59693693a3b3"
+        },
+        {
+          "id": "dda785b7-b563-4a11-a77e-5b694bcb020c"
+        },
+        {
+          "id": "14e352a6-0096-49c3-a4fb-374a0873c1f7"
+        },
+        {
+          "id": "415666a8-f69a-4cad-ac4a-2bbfef5ba91c"
+        },
+        {
+          "id": "007ad787-c383-4d9a-90bf-4316eadbcccf"
+        },
+        {
+          "id": "4115bab1-b16d-474e-b492-14124dfc0ee6"
+        },
+        {
+          "id": "54dd0c0a-ab69-4870-9d12-951744fde1d7"
+        },
+        {
+          "id": "193a356e-1ccb-4299-942d-7d72e25b954d"
+        },
+        {
+          "id": "e828f64e-e8df-4332-999e-58071198b79a"
+        },
+        {
+          "id": "ed66bf5e-cd62-4e2d-bf5a-49fd76b4e260"
+        },
+        {
+          "id": "66e7f4a9-26e3-4d36-aa61-bf3a93317df6"
+        },
+        {
+          "id": "6ed95329-064e-4cf3-bd07-9dd016db2177"
+        },
+        {
+          "id": "36d1ffa9-617d-45cd-8084-f4927fed58bd"
+        },
+        {
+          "id": "9a030cbd-6fe7-43a2-8855-c1ea3915bc34"
+        },
+        {
+          "id": "cda64065-79e8-4506-a8b9-afd361a1dce8"
+        },
+        {
+          "id": "1c158245-0d51-413b-b0f6-98363077b5f5"
+        },
+        {
+          "id": "c6327b78-7134-4177-b3d6-ed9a0e35fa78"
+        },
+        {
+          "id": "4ce9758c-8b1d-46fd-89c2-7d6c73aae4b8"
+        },
+        {
+          "id": "0203d8ae-b8f1-4c86-962d-20b09495d50a"
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "d37e1506-3c58-4c71-b86d-e4d74e579b7a"
+        },
+        {
+          "id": "d7f72d38-0194-40e5-bfdd-212a41e40a03"
+        },
+        {
+          "id": "98e7f6bf-c88f-4331-99ff-f1de20ea3749"
+        },
+        {
+          "id": "f07cbc3f-8674-4897-86d3-47c882fd234c"
+        },
+        {
+          "id": "da7c8e27-c2a2-4f99-bd01-136e21efdbd4"
+        },
+        {
+          "id": "3c27d891-7577-4e35-8e5f-1a3aafa53d6c"
+        },
+        {
+          "id": "bfc6fdb8-58b3-4669-85d7-59693693a3b3"
+        },
+        {
+          "id": "dda785b7-b563-4a11-a77e-5b694bcb020c"
+        },
+        {
+          "id": "14e352a6-0096-49c3-a4fb-374a0873c1f7"
+        },
+        {
+          "id": "415666a8-f69a-4cad-ac4a-2bbfef5ba91c"
+        },
+        {
+          "id": "007ad787-c383-4d9a-90bf-4316eadbcccf"
+        },
+        {
+          "id": "4115bab1-b16d-474e-b492-14124dfc0ee6"
+        },
+        {
+          "id": "54dd0c0a-ab69-4870-9d12-951744fde1d7"
+        },
+        {
+          "id": "193a356e-1ccb-4299-942d-7d72e25b954d"
+        },
+        {
+          "id": "e828f64e-e8df-4332-999e-58071198b79a"
+        },
+        {
+          "id": "ed66bf5e-cd62-4e2d-bf5a-49fd76b4e260"
+        },
+        {
+          "id": "66e7f4a9-26e3-4d36-aa61-bf3a93317df6"
+        },
+        {
+          "id": "6ed95329-064e-4cf3-bd07-9dd016db2177"
+        },
+        {
+          "id": "36d1ffa9-617d-45cd-8084-f4927fed58bd"
+        },
+        {
+          "id": "9a030cbd-6fe7-43a2-8855-c1ea3915bc34"
+        },
+        {
+          "id": "cda64065-79e8-4506-a8b9-afd361a1dce8"
+        },
+        {
+          "id": "1c158245-0d51-413b-b0f6-98363077b5f5"
+        },
+        {
+          "id": "c6327b78-7134-4177-b3d6-ed9a0e35fa78"
+        },
+        {
+          "id": "4ce9758c-8b1d-46fd-89c2-7d6c73aae4b8"
+        },
+        {
+          "id": "0203d8ae-b8f1-4c86-962d-20b09495d50a"
+        }
+      ]
+    }
+  ],
+  "fetched_documents": [
+    {
+      "id": "1351c6f7-fdae-4840-8b9a-4f9d873133a4",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Effects of Nicotinamide Mononucleotide Supplementation on Muscle and Liver Functions Among the Middle-aged and Elderly: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+      "abstract": "INTRODUCTION: Nicotinamide Mononucleotide (NMN) has gained attention as a precursor to Nicotinamide Adenine Dinucleotide (NAD+) in recent years, commonly utilized in anti-aging therapies. The anti-aging effects of NMN on muscle and liver functions in middleaged and elderly people are still unclear.\nOBJECTIVE: Based on available randomized controlled trials, we conducted a meta-analysis to evaluate the impact of NMN on muscle and liver functions in middle-aged and elderly individuals.\nMETHODS: We conducted searches on three electronic databases (PubMed, Embase, Web of Science) for randomized controlled trials involving NMN interventions in middle-aged and elderly populations. Through the Cochrane Handbook, we assessed the specific methodological quality. All statistical analyses were obtained by Stata15, and statistical significance was set as P<0.05.\nRESULTS: There were 412 participants from 9 studies in this meta-analysis. Based on changes in gait speed (SMD: 0.34 m/s, 95%CI [0.03, 0.66] p = 0.033), NMN had significant effects on muscle mass. Moreover, NMN had a better effect on ALT (SMD: -0.29 IU/L, 95%CI [-0.55, -0.03] p = 0.028). Subgroup analysis indicated that administering a small dose of NMN exerted the most prominent impact on Homeostasis Model Assessment-Insulin Resistance (HOMA-IR).\nCONCLUSION: NMN has positive efficacy in enhancing muscle function, reducing insulin resistance and lowering aminotransferase levels in middle-aged and elderly individuals. NMN is an encouraging and considerable drug for anti-aging treatment.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39185644/",
+      "date_published": "2025-01-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "39185644",
+      "doi": "10.2174/0113892010306242240808094303",
+      "authors": [
+        "Wang Jian-Peng",
+        "Wang Li",
+        "Wang Ting",
+        "Zhang Yi-Dan",
+        "Zhou Ao-Jia",
+        "Wang Zi-Ping",
+        "Xiong Zhang-E"
+      ],
+      "journal": "Current pharmaceutical biotechnology",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Randomized Controlled Trials as Topic",
+        "Nicotinamide Mononucleotide",
+        "Aged",
+        "Liver",
+        "Middle Aged",
+        "Dietary Supplements",
+        "Muscle, Skeletal",
+        "Aging"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "4dcbfd5d-d9ef-4ca1-9856-ae27001813d5",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "NAD+ therapy in age-related degenerative disorders: A benefit/risk analysis.",
+      "abstract": "Nicotinamide adenine dinucleotide (NAD+) is an essential pyridine nucleotide that is present in all living cells. NAD+ acts as an important cofactor and substrate for a multitude of biological processes including energy production, DNA repair, gene expression, calcium-dependent secondary messenger signalling and immunoregulatory roles. The de novo synthesis of NAD+ is primarily dependent on the kynurenine pathway (KP), although NAD+ can also be recycled from nicotinic acid (NA), nicotinamide (NAM) and nicotinamide riboside (NR). NAD+ levels have been reported to decline during ageing and age-related diseases. Recent studies have shown that raising intracellular NAD+ levels represents a promising therapeutic strategy for age-associated degenerative diseases in general and to extend lifespan in small animal models. A systematic review of the literature available on Medline, Embase and Pubmed was undertaken to evaluate the potential health and/or longevity benefits due to increasing NAD+ levels. A total of 1545 articles were identified and 147 articles (113 preclinical and 34 clinical) met criteria for inclusion. Most studies indicated that the NAD+ precursors NAM, NR, nicotinamide mononucleotide (NMN), and to a lesser extent NAD+ and NADH had a favourable outcome on several age-related disorders associated with the accumulation of chronic oxidative stress, inflammation and impaired mitochondrial function. While these compounds presented with a limited acute toxicity profile, evidence is still quite limited and long-term human clinical trials are still nascent in the current literature. Potential risks in raising NAD+ levels in various clinical disorders using NAD+ precursors include the accumulation of putative toxic metabolites, tumorigenesis and promotion of cellular senescence. Therefore, NAD+ metabolism represents a promising target and further studies are needed to recapitulate the preclinical benefits in human clinical trials.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31917996/",
+      "date_published": "2020-04-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "31917996",
+      "doi": "10.1016/j.exger.2020.110831",
+      "authors": [
+        "Braidy Nady",
+        "Liu Yue"
+      ],
+      "journal": "Experimental gerontology",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Animals",
+        "Humans",
+        "Inflammation",
+        "Mice",
+        "NAD",
+        "Neurodegenerative Diseases",
+        "Niacinamide",
+        "Nicotinamide Mononucleotide",
+        "Oxidative Stress",
+        "Pyridinium Compounds",
+        "Rats",
+        "Risk Assessment"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "31b26a25-9d37-411d-8c73-e4d2ce0c429b",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Role and Potential Mechanisms of Nicotinamide Mononucleotide in Aging.",
+      "abstract": "Nicotinamide adenine dinucleotide (NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37548938/",
+      "date_published": "2024-04-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "37548938",
+      "doi": "10.14336/AD.2023.0519-1",
+      "authors": [
+        "Rahman Sajid Ur",
+        "Qadeer Abdul",
+        "Wu Ziyun"
+      ],
+      "journal": "Aging and disease",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Animals",
+        "Aged",
+        "NAD",
+        "Nicotinamide Mononucleotide",
+        "Aging",
+        "Longevity",
+        "Homeostasis"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "7dcbb876-f795-4335-8d64-2f5423ea4994",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Dietary Supplementation With NAD+-Boosting Compounds in Humans: Current Knowledge and Future Directions.",
+      "abstract": "Advancing age and many disease states are associated with declines in nicotinamide adenine dinucleotide (NAD+) levels. Preclinical studies suggest that boosting NAD+ abundance with precursor compounds, such as nicotinamide riboside or nicotinamide mononucleotide, has profound effects on physiological function in models of aging and disease. Translation of these compounds for oral supplementation in humans has been increasingly studied within the last 10 years; however, the clinical evidence that raising NAD+ concentrations can improve physiological function is unclear. The goal of this review was to synthesize the published literature on the effects of chronic oral supplementation with NAD+ precursors on healthy aging and age-related chronic diseases. We identified nicotinamide riboside, nicotinamide riboside co-administered with pterostilbene, and nicotinamide mononucleotide as the most common candidates in investigations of NAD+-boosting compounds for improving physiological function in humans. Studies have been performed in generally healthy midlife and older adults, adults with cardiometabolic disease risk factors such as overweight and obesity, and numerous patient populations. Supplementation with these compounds is safe, tolerable, and can increase the abundance of NAD+ and related metabolites in multiple tissues. Dosing regimens and study durations vary greatly across interventions, and small sample sizes limit data interpretation of physiological outcomes. Limitations are identified and future research directions are suggested to further our understanding of the potential efficacy of NAD+-boosting compounds for improving physiological function and extending human health span.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37068054/",
+      "date_published": "2023-12-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "37068054",
+      "doi": "10.1093/gerona/glad106",
+      "authors": [
+        "Freeberg Kaitlin A",
+        "Udovich CeAnn C",
+        "Martens Christopher R",
+        "Seals Douglas R",
+        "Craighead Daniel H"
+      ],
+      "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Aged",
+        "NAD",
+        "Nicotinamide Mononucleotide",
+        "Aging",
+        "Obesity",
+        "Dietary Supplements"
+      ],
+      "publication_types": [
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "a2c0656f-0f74-458c-a395-328b9445a136",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "SLC29A1 and SLC29A2 are human nicotinamide cell membrane transporters.",
+      "abstract": "Nicotinamide (NAM), a main precursor of NAD+, is essential for cellular fuel respiration, energy production, and other cellular processes. Transporters for other precursors of NAD+ such as nicotinic acid and nicotinamide mononucleotide (NMN) have been identified, but the cellular transporter of nicotinamide has not been elucidated. Here, we demonstrate that equilibrative nucleoside transporter 1 and 2 (ENT1 and 2, encoded by SLC29A1 and 2) drive cellular nicotinamide uptake and establish nicotinamide metabolism homeostasis. In addition, ENT1/2 exhibits a strong capacity to change the cellular metabolite composition and the transcript, especially those related to nicotinamide. We further observe that ENT1/2 regulates cellular respiration and senescence, contributing by altering the NAD+ pool level and mitochondrial status. Changes to cellular respiration, mitochondrial status and senescence by ENT1/2 knockdown are reversed by NMN supplementation. Together, ENT1 and ENT2 act as both cellular nicotinamide-level keepers and nicotinamide biological regulators through their NAM transport functions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39885119/",
+      "date_published": "2025-01-30",
+      "date_indexed": "2026-02-28",
+      "pmid": "39885119",
+      "doi": "10.1038/s41467-025-56402-y",
+      "authors": [
+        "Chen Mingyang",
+        "Yuan Luexiang",
+        "Chen Binxin",
+        "Chang Hui",
+        "Luo Jun",
+        "Zhang Hengbin",
+        "Chen Zhongjian",
+        "Kong Jiao",
+        "Yi Yaodong",
+        "Bai Mengru",
+        "Dong Minlei",
+        "Zhou Hui",
+        "Jiang Huidi"
+      ],
+      "journal": "Nature communications",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Niacinamide",
+        "Equilibrative Nucleoside Transporter 1",
+        "Equilibrative-Nucleoside Transporter 2",
+        "NAD",
+        "Mitochondria",
+        "HEK293 Cells",
+        "Nicotinamide Mononucleotide",
+        "Biological Transport",
+        "Cellular Senescence",
+        "Homeostasis"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "e12e3351-1991-4480-81f8-a2376dc3a5da",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "LXR/CD38 activation drives cholesterol-induced macrophage senescence and neurodegeneration via NAD",
+      "abstract": "Although dysregulated cholesterol metabolism predisposes aging tissues to inflammation and a plethora of diseases, the underlying molecular mechanism remains poorly defined. Here, we show that metabolic and genotoxic stresses, convergently acting through liver X nuclear receptor, upregulate CD38 to promote lysosomal cholesterol efflux, leading to nicotinamide adenine dinucleotide (NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38636518/",
+      "date_published": "2024-05-28",
+      "date_indexed": "2026-02-28",
+      "pmid": "38636518",
+      "doi": "10.1016/j.celrep.2024.114102",
+      "authors": [
+        "Terao Ryo",
+        "Lee Tae Jun",
+        "Colasanti Jason",
+        "Pfeifer Charles W",
+        "Lin Joseph B",
+        "Santeford Andrea",
+        "Hase Keitaro",
+        "Yamaguchi Shinobu",
+        "Du Daniel",
+        "Sohn Brian S",
+        "Sasaki Yo",
+        "Yoshida Mitsukuni",
+        "Apte Rajendra S"
+      ],
+      "journal": "Cell reports",
+      "impact_factor": null,
+      "mesh_terms": [
+        "NAD",
+        "Animals",
+        "Liver X Receptors",
+        "Macrophages",
+        "Cellular Senescence",
+        "Cholesterol",
+        "ADP-ribosyl Cyclase 1",
+        "Mice",
+        "Mice, Inbred C57BL",
+        "Humans",
+        "Macular Degeneration",
+        "Lysosomes",
+        "Membrane Glycoproteins",
+        "Male"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "68d5bc71-be23-42bf-9fee-7c5f6d3b57f9",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "NAD",
+      "abstract": "Aging in mammals is accompanied by an imbalance of intestinal homeostasis and accumulation of mitochondrial DNA (mtDNA) mutations. However, little is known about how accumulated mtDNA mutations modulate intestinal homeostasis. We observe the accumulation of mtDNA mutations in the small intestine of aged male mice, suggesting an association with physiological intestinal aging. Using polymerase gamma (POLG) mutator mice and wild-type mice, we generate male mice with progressive mtDNA mutation burdens. Investigation utilizing organoid technology and in vivo intestinal stem cell labeling reveals decreased colony formation efficiency of intestinal crypts and LGR5-expressing intestinal stem cells in response to a threshold mtDNA mutation burden. Mechanistically, increased mtDNA mutation burden exacerbates the aging phenotype of the small intestine through ATF5 dependent mitochondrial unfolded protein response (UPR",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38228611/",
+      "date_published": "2024-01-16",
+      "date_indexed": "2026-02-28",
+      "pmid": "38228611",
+      "doi": "10.1038/s41467-024-44808-z",
+      "authors": [
+        "Yang Liang",
+        "Ruan Zifeng",
+        "Lin Xiaobing",
+        "Wang Hao",
+        "Xin Yanmin",
+        "Tang Haite",
+        "Hu Zhijuan",
+        "Zhou Yunhao",
+        "Wu Yi",
+        "Wang Junwei",
+        "Qin Dajiang",
+        "Lu Gang",
+        "Loomes Kerry M",
+        "Chan Wai-Yee",
+        "Liu Xingguo"
+      ],
+      "journal": "Nature communications",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Mice",
+        "Male",
+        "Animals",
+        "NAD",
+        "Aging",
+        "Mutation",
+        "Mitochondria",
+        "DNA, Mitochondrial",
+        "DNA Polymerase gamma",
+        "Mammals"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "2efa5ff1-d699-4770-a156-63495d3ebb48",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Nicotinamide Mononucleotide in the Context of Myocardiocyte Longevity.",
+      "abstract": "Cellular and subcellular metabolic activities are crucial processes involved in the regulation of intracellular homeostasis, including cellular and subcellular signaling pathways. Dysregulation of intracellular regulation mechanisms is catastrophic and cumulates into cell death. To overcome the issue of dysregulation of intracellular regulation mechanisms, the preservation of subcellular and extracellular components is essential to maintain healthy cells with increased longevity. Several physiopathological changes occur during cell ageing, one of which is the dysregulation of intracellular physiology of the oxidative phosphorylation process. Nicotinamide mononucleotide (NMN) remains in the debut of anti-aging therapeutic effect. Aged myocardiocyte characterized by disrupted NMN and or its precursors or signaling pathways. Simultaneously, several other pathophysiological occur that collectively impair intracellular homeostasis. The NMN role in the antiaging effect remains unclear and several hypotheses have been introduced into describing the mechanism and the potential outcomes from NMN exogenous supply. Correction of the impaired intracellular homeostasis includes correction to the NMN metabolism. Additionally, autophagy correction, which is the key element in the regulation of intracellular intoxication, including oxidative stress, unfolding protein response, and other degradation of intracellular metabolites. Several signaling pathways are involved in the regulation mechanism of NMN effects on myocardiocyte health and further longevity. NMN protects myocardiocytes from ischemic injury by reducing anabolism and, increasing catabolism and further passing the myocardiocytes into dormant status. NMN applications include ischemic heart, disease, and failed heart, as well as dilated cardiomyopathies. Cytosolic and mitochondrial NADPH are independently functioning and regulating. Each of these plays a role in the determination of the longevity of the myocardiocytes. NMN has a cornerstone in the functionality of Sirtuins, which are an essential anti-senescent intrinsic molecule. The study aims to assess the role of NMN in the longevity and antisenescent of myocardiocytes.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38151845/",
+      "date_published": "2024-01-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "38151845",
+      "doi": "10.2174/0118746098266041231212105020",
+      "authors": [
+        "Marzoog Basheer Abdullah"
+      ],
+      "journal": "Current aging science",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Aging",
+        "Autophagy",
+        "Cellular Senescence",
+        "Myocytes, Cardiac",
+        "Nicotinamide Mononucleotide",
+        "Oxidative Stress",
+        "Signal Transduction"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "847192f7-ad2a-427b-807b-c9cdf150519a",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Research advances in the function and anti-aging effects of nicotinamide mononucleotide.",
+      "abstract": "Aging and age-related ailments have emerged as critical challenges and great burdens within the global contemporary society. Addressing these concerns is an imperative task, with the aims of postponing the aging process and finding effective treatments for age-related degenerative diseases. Recent investigations have highlighted the significant roles of nicotinamide adenine dinucleotide (NAD\n老龄化和年龄相关疾病已成为全球当代社会面临的重大挑战和沉重负担。解决这些问题是一项势在必行的任务，其目的是延缓衰老过程，并找到与年龄有关的退行性疾病的有效治疗方法。最近的研究强调了烟酰胺腺嘌呤二核苷酸（NAD\n老龄化和年龄相关疾病已成为全球当代社会面临的重大挑战和沉重负担。解决这些问题是一项势在必行的任务，其目的是延缓衰老过程，并找到与年龄有关的退行性疾病的有效治疗方法。最近的研究强调了烟酰胺腺嘌呤二核苷酸（NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39308064/",
+      "date_published": "2024-09-15",
+      "date_indexed": "2026-02-28",
+      "pmid": "39308064",
+      "doi": "10.1631/jzus.B2300886",
+      "authors": [
+        "Wang Min",
+        "Cao Yuan",
+        "Li Yun",
+        "Wang Lu",
+        "Liu Yuyan",
+        "Deng Zihui",
+        "Zhu Lianrong",
+        "Kang Hongjun"
+      ],
+      "journal": "Journal of Zhejiang University. Science. B",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Nicotinamide Mononucleotide",
+        "Humans",
+        "Aging",
+        "NAD",
+        "Animals",
+        "Apoptosis",
+        "Energy Metabolism",
+        "Genomic Instability"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "299bc931-91c4-458d-ab08-58e96260be76",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Preventive and Protective Effects of Nicotinamide Adenine Dinucleotide Boosters in Aging and Retinal Diseases.",
+      "abstract": "Nicotinamide adenine dinucleotide (NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41303405/",
+      "date_published": "2025-11-11",
+      "date_indexed": "2026-02-28",
+      "pmid": "41303405",
+      "doi": "10.3390/ijms262210923",
+      "authors": [
+        "Noreen Saba",
+        "Lim Soon Sung",
+        "Lee Deokho"
+      ],
+      "journal": "International journal of molecular sciences",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "NAD",
+        "Animals",
+        "Aging",
+        "Retinal Diseases",
+        "Niacinamide",
+        "Diabetic Retinopathy",
+        "Macular Degeneration",
+        "Mitochondria",
+        "Retina",
+        "Oxidative Stress",
+        "Protective Agents",
+        "Nicotinamide Mononucleotide",
+        "Pyridinium Compounds"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "da88f181-3f86-4f80-86e1-a2ca8a1f53a0",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Neuronal C/EBPβ Shortens the Lifespan via Inactivating NAMPT.",
+      "abstract": "The brain plays a central role in aging and longevity in diverse model organisms. Morphological and functional alteration in the aging brain elicits age-associated neuronal dysfunctions. However, the primary mechanism deteriorating the brain functions to regulate the aging process remains incompletely understood. Here, it is shown that neuronal CCAAT/enhancer binding protein β (C/EBPβ) escalation during aging dictates the frailty and lifespan via inactivating nicotinamide phosphoribosyltransferase (NAMPT). Upregulated C/EBPβ drives neuronal senescence and neuronal loss, associated with NAMPT fragmentation by active asparagine endopeptidase (AEP), leading to nicotinamide adenine dinucleotide (NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40308001/",
+      "date_published": "2025-06-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "40308001",
+      "doi": "10.1002/advs.202414871",
+      "authors": [
+        "Li Bowei",
+        "Xie Zhongyun",
+        "Wang Mengmeng",
+        "Nie Shuke",
+        "Qian Zhengjiang",
+        "Meng Xin",
+        "Liu Xia",
+        "Kang Seong Su",
+        "Ye Keqiang"
+      ],
+      "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Nicotinamide Phosphoribosyltransferase",
+        "Mice",
+        "Longevity",
+        "CCAAT-Enhancer-Binding Protein-beta",
+        "Mice, Transgenic",
+        "Neurons",
+        "Cytokines",
+        "Caenorhabditis elegans",
+        "Aging",
+        "Humans",
+        "NAD"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "3406f3f6-678c-4b17-945a-061a17d5a16a",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Testing the amount of nicotinamide mononucleotide and urolithin A as compared to the label claim.",
+      "abstract": "Healthy Longevity Medicine aims to optimize health by targeting aging processes across the lifespan. Addressing accelerated aging involves adaptation of lifestyle and the use of geroprotective drugs and supplements, including nutritional supplements and bioactive compounds. The Food and Drug Administration, under the Dietary Supplement Health and Education Act, categorizes bioactive compounds and medicinal products as dietary supplements. While numerous companies sell ingredients that can be deemed geroprotectors, there's limited oversight in their quality control. Governmental safety authorities only verify the presence of prohibited compounds, not the accuracy of ingredients listed on labels.Here, Nicotinamide mononucleotide and Urolithin A supplements, easily accessible online or in pharmacies, were tested for their active ingredient content. Results showed a significant deviation from the labeled amounts, ranging from + 28.6% to -100%. This indicates a considerable disparity in the quality of geroprotective supplements.To address this variability, collaboration between and within societies representing healthcare professionals, industry and regulatory bodies is imperative to ensure the quality of geroprotective supplements.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38935229/",
+      "date_published": "2024-10-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "38935229",
+      "doi": "10.1007/s11357-024-01257-2",
+      "authors": [
+        "Sandalova E",
+        "Li H",
+        "Guan L",
+        "Raj S D",
+        "Lim T G",
+        "Tian E",
+        "Kennedy B K",
+        "Maier A B"
+      ],
+      "journal": "GeroScience",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Coumarins",
+        "Dietary Supplements",
+        "Humans",
+        "Nicotinamide Mononucleotide",
+        "United States",
+        "Drug Labeling",
+        "Longevity"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "eb56c1fc-d0b9-4531-be5a-aff4c807c24a",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Triple-Isotope Tracing for Pathway Discernment of NMN-Induced NAD",
+      "abstract": "Numerous efforts in basic and clinical studies have explored the potential anti-aging and health-promoting effects of NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37446292/",
+      "date_published": "2023-07-05",
+      "date_indexed": "2026-02-28",
+      "pmid": "37446292",
+      "doi": "10.3390/ijms241311114",
+      "authors": [
+        "Sauve Anthony A",
+        "Wang Qinghui",
+        "Zhang Ning",
+        "Kang Seolhee",
+        "Rathmann Abigail",
+        "Yang Yue"
+      ],
+      "journal": "International journal of molecular sciences",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Mice",
+        "Animals",
+        "Nicotinamide Mononucleotide",
+        "NAD",
+        "Aging",
+        "Biological Transport"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "d0d524df-a7f6-4cce-8d8b-5055a0c2f478",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Nicotinamide mononucleotide biosynthesis and the F-actin cytoskeleton regulate spindle assembly and oocyte maturation quality in post-ovulatory aged porcine oocytes.",
+      "abstract": "BACKGROUND: Post-ovulatory aging (POA) is associated with reduced fertilization rates and poor embryo quality both in vivo and in vitro. However, the relationship between nicotinamide adenine dinucleotide (NAD\nMETHODS: Porcine oocytes were aged by extending in vitro maturation (IVM) for an additional 24 h to create a POA model. F-actin and adducin 1 (ADD1)-related spindle assembly were analyzed using immunofluorescence, western blotting, and RNA sequencing to identify key gene categories in the POA and IVM groups. To assess NAD\nRESULTS: We revealed unique interactions between the F-actin/ADD1-related cytoskeleton and aging factors (clusterin (CLU) and FAM111 trypsin-like peptidase A (FAM111A)) in poor-quality oocytes. POA oocytes were established with an extension of 24 h based on 44 h of IVM. They exhibited actin collapses and abnormal cortical F-actin, ADD1, and acetyl(Ac)-α-tubulin protein levels, which resulted in defective spindle assembly. RNA sequencing analysis was performed to identify differentially expressed genes involved in the oocyte viability response to aging, the cytoskeleton, and NAD metabolic processes using IVM and/or POA oocytes. This showed that NAD-binding genes were differentially expressed after POA induction, eight of which were downregulated compared with IVM oocytes. Importantly, activation of NAD\nCONCLUSION: F-actin polymerization through NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40247324/",
+      "date_published": "2025-04-17",
+      "date_indexed": "2026-02-28",
+      "pmid": "40247324",
+      "doi": "10.1186/s12964-025-02200-4",
+      "authors": [
+        "Park Hyo-Jin",
+        "Yang Seul-Gi",
+        "Shin Ji-Hyun",
+        "Yoon Seung-Bin",
+        "Kim Ji-Su",
+        "Koo Deog-Bon"
+      ],
+      "journal": "Cell communication and signaling : CCS",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Oocytes",
+        "Swine",
+        "Spindle Apparatus",
+        "Nicotinamide Mononucleotide",
+        "Actin Cytoskeleton",
+        "Female",
+        "NAD",
+        "Actins",
+        "Cellular Senescence"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "c73fd761-0c1c-48c2-8061-f093e025ec14",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "NAD",
+      "abstract": "Understanding the connection between senescence phenotypes and mitochondrial dysfunction is crucial in aging and premature aging diseases. Loss of mitochondrial function leads to a decline in T cell function, which plays a significant role in this process. However, more research is required to determine if improving mitochondrial homeostasis alleviates senescence phenotypes. Our research has shown an association between NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38224175/",
+      "date_published": "2024-03-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "38224175",
+      "doi": "10.1002/jcb.30522",
+      "authors": [
+        "Ye Bin",
+        "Pei Yingting",
+        "Wang Lujing",
+        "Meng Dehao",
+        "Zhang Yu",
+        "Zou Shuang",
+        "Li Henian",
+        "Liu Jinying",
+        "Xie Ziying",
+        "Tian Changhong",
+        "Jiang Yuqi",
+        "Qiao Yu",
+        "Gao Xu",
+        "Zhang Yanfen",
+        "Ma Ning"
+      ],
+      "journal": "Journal of cellular biochemistry",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Mice",
+        "Animals",
+        "NAD",
+        "CD8-Positive T-Lymphocytes",
+        "Mitochondria",
+        "Cellular Senescence",
+        "Homeostasis",
+        "Mitochondrial Diseases",
+        "Dietary Supplements"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "9e807155-6396-4205-8118-aa207c68b379",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "NMN: The NAD precursor at the intersection between axon degeneration and anti-ageing therapies.",
+      "abstract": "The past 20 years of research on axon degeneration has revealed fine details on how NAD biology controls axonal survival. Extensive data demonstrate that the NAD precursor NMN binds to and activates the pro-degenerative enzyme SARM1, so a failure to convert sufficient NMN into NAD leads to toxic NMN accumulation and axon degeneration. This involvement of NMN brings the axon degeneration field to an unexpected overlap with research into ageing and extending healthy lifespan. A decline in NAD levels throughout life, at least in some tissues, is believed to contribute to age-related functional decay and boosting NAD production with supplementation of NMN or other NAD precursors has gained attention as a potential anti-ageing therapy. Recent years have witnessed an influx of NMN-based products and related molecules on the market, sold as food supplements, with many people taking these supplements daily. While several clinical trials are ongoing to check the safety profiles and efficacy of NAD precursors, sufficient data to back their therapeutic use are still lacking. Here, we discuss NMN supplementation, SARM1 and anti-ageing strategies, with an important question in mind: considering that NMN accumulation can lead to axon degeneration, how is this compatible with its beneficial effect in ageing and are there circumstances in which NMN supplementation could become harmful?",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36657725/",
+      "date_published": "2023-12-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "36657725",
+      "doi": "10.1016/j.neures.2023.01.004",
+      "authors": [
+        "Loreto Andrea",
+        "Antoniou Christina",
+        "Merlini Elisa",
+        "Gilley Jonathan",
+        "Coleman Michael P"
+      ],
+      "journal": "Neuroscience research",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "NAD",
+        "Axons",
+        "Aging"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "d46670c3-a8a4-44a8-8833-cbc17a1e2f8d",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "SIRT1 Prevents Lens Epithelial Cell Senescence During Age-Related Cataract via Regulating p66Shc.",
+      "abstract": "Lens epithelial cell (LEC) senescence is one of the key pathological processes of age-related cataract (ARC) and is associated with oxidative stress, mitochondrial dysfunction, and protein aggregation. This study aimed to elucidate the pathogenesis of LEC senescence in ARC. The protein expression level of silencing regulatory protein 1 (SIRT1) and aptamer protein (p66Shc) was quantified. Reactive oxygen species (ROS) and mitochondrial superoxide levels were measured to evaluate cellular oxidative stress. Senescence-associated protein expression (p21 and p53) and SA-β-galactosidase staining were employed to assess the aging status of LEC. Targeted metabolic analysis was conducted to explore energy changes during LEC senescence, and mitochondrial morphology and function were assessed in the cell models. The aging and damage conditions of the lens in ARC rats were evaluated through histological staining, transmission electron microscopy, expression of senescence-related proteins, and oxidative stress markers. We comprehensively investigated the downregulation of SIRT1 expression and the upregulation of p66Shc expression in human cataract samples, UVB-induced rat cataract models, and UVB-treated LEC. SIRT1 could alleviate UVB-induced oxidative stress, as well as mitochondrial dysfunction, inhibiting p66Shc expression in LEC. Nicotinamide mononucleotide (NMN) effectively alleviated the abnormal expression of aging-related proteins and inhibited mitochondrial morphological and functional disorders by activating SIRT1. In conclusion, NMN activated SIRT1, inhibiting mitochondrial dysfunction, oxidative stress, and senescence in LEC, delaying lens opacity. This mechanism could be associated with the onset and progression of ARC, providing a new strategy for its prevention and treatment.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40569566/",
+      "date_published": "2025-09-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "40569566",
+      "doi": "10.1111/acel.70155",
+      "authors": [
+        "Liu Huirui",
+        "Sun Liyao",
+        "Mi Yu",
+        "Gao Yi",
+        "Luo Jialin",
+        "Kang Fengchun",
+        "Bai Yujing",
+        "Yu Xiaohan",
+        "Ge Hongyan"
+      ],
+      "journal": "Aging cell",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Sirtuin 1",
+        "Src Homology 2 Domain-Containing, Transforming Protein 1",
+        "Animals",
+        "Cellular Senescence",
+        "Epithelial Cells",
+        "Cataract",
+        "Humans",
+        "Lens, Crystalline",
+        "Rats",
+        "Oxidative Stress",
+        "Male",
+        "Aging",
+        "Rats, Sprague-Dawley",
+        "Mitochondria"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "f25f8289-2cb4-4e4a-a5e8-a26e056c2800",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Nicotinamide Mononucleotide Supplementation Reverses the Declining Quality of Maternally Aged Oocytes.",
+      "abstract": "Advanced maternal age is highly associated with a decline in oocyte quality, but effective approaches to improve it have still not been fully determined. Here, we report that in vivo supplementation of nicotinamide mononucleotide (NMN) efficaciously improves the quality of oocytes from naturally aged mice by recovering nicotinamide adenine dinucleotide (NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32755581/",
+      "date_published": "2020-08-04",
+      "date_indexed": "2026-02-28",
+      "pmid": "32755581",
+      "doi": "10.1016/j.celrep.2020.107987",
+      "authors": [
+        "Miao Yilong",
+        "Cui Zhaokang",
+        "Gao Qian",
+        "Rui Rong",
+        "Xiong Bo"
+      ],
+      "journal": "Cell reports",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Animals",
+        "Apoptosis",
+        "Cellular Senescence",
+        "Chromosomes, Mammalian",
+        "Cytoplasmic Granules",
+        "DNA Damage",
+        "Dietary Supplements",
+        "Embryonic Development",
+        "Female",
+        "Fertilization",
+        "Kinetochores",
+        "Male",
+        "Meiosis",
+        "Metalloproteases",
+        "Mice, Inbred ICR",
+        "Microtubules",
+        "Mitochondria",
+        "NAD",
+        "Nicotinamide Mononucleotide",
+        "Oocytes",
+        "Reactive Oxygen Species",
+        "Spermatozoa",
+        "Spindle Apparatus",
+        "Transcriptome"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "4c81525d-baf0-41b9-84c1-25c5bd691726",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "CD38 ecto-enzyme in immune cells is induced during aging and regulates NAD",
+      "abstract": "Decreased NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33199925/",
+      "date_published": "2020-11-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "33199925",
+      "doi": "10.1038/s42255-020-00298-z",
+      "authors": [
+        "Chini Claudia C S",
+        "Peclat Thais R",
+        "Warner Gina M",
+        "Kashyap Sonu",
+        "Espindola-Netto Jair Machado",
+        "de Oliveira Guilherme C",
+        "Gomez Lilian S",
+        "Hogan Kelly A",
+        "Tarragó Mariana G",
+        "Puranik Amrutesh S",
+        "Agorrody Guillermo",
+        "Thompson Katie L",
+        "Dang Kevin",
+        "Clarke Starlynn",
+        "Childs Bennett G",
+        "Kanamori Karina S",
+        "Witte Micaela A",
+        "Vidal Paola",
+        "Kirkland Anna L",
+        "De Cecco Marco",
+        "Chellappa Karthikeyani",
+        "McReynolds Melanie R",
+        "Jankowski Connor",
+        "Tchkonia Tamara",
+        "Kirkland James L",
+        "Sedivy John M",
+        "van Deursen Jan M",
+        "Baker Darren J",
+        "van Schooten Wim",
+        "Rabinowitz Joshua D",
+        "Baur Joseph A",
+        "Chini Eduardo N"
+      ],
+      "journal": "Nature metabolism",
+      "impact_factor": null,
+      "mesh_terms": [
+        "ADP-ribosyl Cyclase 1",
+        "Adipocytes, White",
+        "Adipose Tissue, White",
+        "Aging",
+        "Animals",
+        "Bone Marrow Transplantation",
+        "Cellular Senescence",
+        "HEK293 Cells",
+        "Humans",
+        "Inflammation",
+        "Liver",
+        "Membrane Glycoproteins",
+        "Mice",
+        "Mice, Inbred C57BL",
+        "Mice, Knockout",
+        "Mice, Transgenic",
+        "NAD",
+        "Nicotinamide Mononucleotide",
+        "Phenotype"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "b8483aef-6fe8-4465-a27c-b1c33c15604f",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "NAD",
+      "abstract": "Blood-brain barrier (BBB) function deteriorates during aging, contributing to cognitive impairment and neurodegeneration. It is unclear what drives BBB leakage in aging and how it can be prevented. Using single-nucleus transcriptomics, we identified decreased connexin 43 (CX43) expression in cadherin-5",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37683629/",
+      "date_published": "2023-11-15",
+      "date_indexed": "2026-02-28",
+      "pmid": "37683629",
+      "doi": "10.1016/j.neuron.2023.08.010",
+      "authors": [
+        "Zhan Rui",
+        "Meng Xia",
+        "Tian Dongping",
+        "Xu Jie",
+        "Cui Hongtu",
+        "Yang Jialei",
+        "Xu Yangkai",
+        "Shi Mingming",
+        "Xue Jing",
+        "Yu Weiwei",
+        "Hu Gaofei",
+        "Li Ke",
+        "Ge Xiaoxiao",
+        "Zhang Qi",
+        "Zhao Mingming",
+        "Du Jianyong",
+        "Guo Xin",
+        "Xu Wenli",
+        "Gao Yang",
+        "Yao Changyu",
+        "Chen Fan",
+        "Chen Yue",
+        "Shan Wenxin",
+        "Zhu Yujie",
+        "Ji Liang",
+        "Pan Bing",
+        "Yu Yan",
+        "Li Wenguang",
+        "Zhao Xuyang",
+        "He Qihua",
+        "Liu Xiaohui",
+        "Huang Yue",
+        "Liao Shengyou",
+        "Zhou Bin",
+        "Chui Dehua",
+        "Chen Y Eugene",
+        "Sun Zheng",
+        "Dong Erdan",
+        "Wang Yongjun",
+        "Zheng Lemin"
+      ],
+      "journal": "Neuron",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Mice",
+        "Aging",
+        "Blood-Brain Barrier",
+        "Brain",
+        "Connexin 43",
+        "NAD",
+        "Poly (ADP-Ribose) Polymerase-1"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "5d35d923-417e-464d-85f1-81660e87b371",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "NAD",
+      "abstract": "Reproductive aging in female mammals is an irreversible process associated with declining oocyte quality, which is the rate-limiting factor to fertility. Here, we show that this loss of oocyte quality with age accompanies declining levels of the prominent metabolic cofactor nicotinamide adenine dinucleotide (NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32049001/",
+      "date_published": "2020-02-11",
+      "date_indexed": "2026-02-28",
+      "pmid": "32049001",
+      "doi": "10.1016/j.celrep.2020.01.058",
+      "authors": [
+        "Bertoldo Michael J",
+        "Listijono Dave R",
+        "Ho Wing-Hong Jonathan",
+        "Riepsamen Angelique H",
+        "Goss Dale M",
+        "Richani Dulama",
+        "Jin Xing L",
+        "Mahbub Saabah",
+        "Campbell Jared M",
+        "Habibalahi Abbas",
+        "Loh Wei-Guo Nicholas",
+        "Youngson Neil A",
+        "Maniam Jayanthi",
+        "Wong Ashley S A",
+        "Selesniemi Kaisa",
+        "Bustamante Sonia",
+        "Li Catherine",
+        "Zhao Yiqing",
+        "Marinova Maria B",
+        "Kim Lynn-Jee",
+        "Lau Laurin",
+        "Wu Rachael M",
+        "Mikolaizak A Stefanie",
+        "Araki Toshiyuki",
+        "Le Couteur David G",
+        "Turner Nigel",
+        "Morris Margaret J",
+        "Walters Kirsty A",
+        "Goldys Ewa",
+        "O'Neill Christopher",
+        "Gilchrist Robert B",
+        "Sinclair David A",
+        "Homer Hayden A",
+        "Wu Lindsay E"
+      ],
+      "journal": "Cell reports",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Animals",
+        "Female",
+        "Fertility",
+        "Mice",
+        "Mice, Transgenic",
+        "NAD"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "4d4bd8d7-75db-4332-bfb3-a5139a46165b",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "CD38 Dictates Age-Related NAD Decline and Mitochondrial Dysfunction through an SIRT3-Dependent Mechanism.",
+      "abstract": "Nicotinamide adenine dinucleotide (NAD) levels decrease during aging and are involved in age-related metabolic decline. To date, the mechanism responsible for the age-related reduction in NAD has not been elucidated. Here we demonstrate that expression and activity of the NADase CD38 increase with aging and that CD38 is required for the age-related NAD decline and mitochondrial dysfunction via a pathway mediated at least in part by regulation of SIRT3 activity. We also identified CD38 as the main enzyme involved in the degradation of the NAD precursor nicotinamide mononucleotide (NMN) in vivo, indicating that CD38 has a key role in the modulation of NAD-replacement therapy for aging and metabolic diseases.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27304511/",
+      "date_published": "2016-06-14",
+      "date_indexed": "2026-02-28",
+      "pmid": "27304511",
+      "doi": "10.1016/j.cmet.2016.05.006",
+      "authors": [
+        "Camacho-Pereira Juliana",
+        "Tarragó Mariana G",
+        "Chini Claudia C S",
+        "Nin Veronica",
+        "Escande Carlos",
+        "Warner Gina M",
+        "Puranik Amrutesh S",
+        "Schoon Renee A",
+        "Reid Joel M",
+        "Galina Antonio",
+        "Chini Eduardo N"
+      ],
+      "journal": "Cell metabolism",
+      "impact_factor": null,
+      "mesh_terms": [
+        "ADP-ribosyl Cyclase 1",
+        "Aging",
+        "Animals",
+        "Diet, High-Fat",
+        "Mammals",
+        "Mice, Inbred C57BL",
+        "Mice, Knockout",
+        "Mitochondria",
+        "NAD",
+        "NAD+ Nucleosidase",
+        "Niacinamide",
+        "Organ Specificity",
+        "Pyridinium Compounds",
+        "RNA, Messenger",
+        "Sirtuin 3"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "553d1132-cf6c-44a5-91ed-e70144dbe9de",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Nicotinamide Mononucleotide Supplementation Improves Mitochondrial Dysfunction and Rescues Cellular Senescence by NAD",
+      "abstract": "In vitro expansion-mediated replicative senescence has severely limited the clinical applications of mesenchymal stem cells (MSCs). Accumulating studies manifested that nicotinamide adenine dinucleotide (NAD",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36499074/",
+      "date_published": "2022-11-25",
+      "date_indexed": "2026-02-28",
+      "pmid": "36499074",
+      "doi": "10.3390/ijms232314739",
+      "authors": [
+        "Wang Huan",
+        "Sun Yanan",
+        "Pi Chenchen",
+        "Yu Xiao",
+        "Gao Xingyu",
+        "Zhang Chang",
+        "Sun Hui",
+        "Zhang Haiying",
+        "Shi Yingai",
+        "He Xu"
+      ],
+      "journal": "International journal of molecular sciences",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Cellular Senescence",
+        "Mesenchymal Stem Cells",
+        "Mitochondria",
+        "Mitochondrial Diseases",
+        "NAD",
+        "Nicotinamide Mononucleotide",
+        "Sirtuin 3",
+        "Animals"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "7e5adf25-8e3a-42fd-b38c-ea42f2b7719e",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Signaling pathways and effectors of aging.",
+      "abstract": "Aging leads to and is associated with aberrant function of multiple signaling pathways and a host of factors that maintain cellular health. Under normal conditions, the prolongevity, 5' AMP-activated protein kinase (AMPK), is dedicated to the homeostasis of metabolism and autophagy for removal of damaged cellular compartments and molecules. A host of sirtuin family of molecules, that extend life-span, regulate metabolism and repair DNA damage, and possess either mono-ADP-ribosyltransferase, or deacylase activity. Another group of pro-longevity factors, include FOX (forkhead box) proteins, a family of transcription factors that regulate the expression of genes involved in cell growth, proliferation, differentiation, and longevity. Nicotinamide phosphoribosyltransferase (NAmPRTase or Nampt) catalyzes the condensation of nicotinamide with 5-phosphoribosyl-1-pyrophosphate to yield nicotinamide mononucleotide (NMN), a requisite step for production of NAD+, which is known to increase longevity. Loss of Klotho, a transmembrane enzyme that controls the sensitivity of the organism to insulin and suppresses oxidative stress and inflammation, leads to premature aging in mice. Hydrogen sulfide and transsulfuration pathways are crucial to the long life and are required in protection of cells against damage. Aging also leads to the imbalanced activation of other pathways and factors including p53, insulin and IGF signaling, P13K/AKT, mTOR, PKA, RAS, RTK, MEK, ERK, MAPK, CRTC-1/CREB and NFkB. Such aberrant cellular functions, disturb cell metabolism, derail autophagy and other housekeeping actions, inhibit cell division, induce inflammaging and immunosenecence, cause stem cell exhaustion and induce either senescence, apoptosis or cancer.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33049665/",
+      "date_published": "2021-01-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "33049665",
+      "doi": "10.2741/4889",
+      "authors": [
+        "Tabibzadeh Siamak"
+      ],
+      "journal": "Frontiers in bioscience (Landmark edition)",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Animals",
+        "Homeostasis",
+        "Humans",
+        "Signal Transduction"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "91d3736c-bf2c-4d0b-85c5-9c4622b80f23",
+      "source_type": "pubmed",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Nicotinamide mononucleotide, a key NAD(+) intermediate, treats the pathophysiology of diet- and age-induced diabetes in mice.",
+      "abstract": "Type 2 diabetes (T2D) has become epidemic in our modern lifestyle, likely due to calorie-rich diets overwhelming our adaptive metabolic pathways. One such pathway is mediated by nicotinamide phosphoribosyltransferase (NAMPT), the rate-limiting enzyme in mammalian NAD(+) biosynthesis, and the NAD(+)-dependent protein deacetylase SIRT1. Here, we show that NAMPT-mediated NAD(+) biosynthesis is severely compromised in metabolic organs by high-fat diet (HFD). Strikingly, nicotinamide mononucleotide (NMN), a product of the NAMPT reaction and a key NAD(+) intermediate, ameliorates glucose intolerance by restoring NAD(+) levels in HFD-induced T2D mice. NMN also enhances hepatic insulin sensitivity and restores gene expression related to oxidative stress, inflammatory response, and circadian rhythm, partly through SIRT1 activation. Furthermore, NAD(+) and NAMPT levels show significant decreases in multiple organs during aging, and NMN improves glucose intolerance and lipid profiles in age-induced T2D mice. These findings provide critical insights into a potential nutriceutical intervention against diet- and age-induced T2D.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21982712/",
+      "date_published": "2011-10-05",
+      "date_indexed": "2026-02-28",
+      "pmid": "21982712",
+      "doi": "10.1016/j.cmet.2011.08.014",
+      "authors": [
+        "Yoshino Jun",
+        "Mills Kathryn F",
+        "Yoon Myeong Jin",
+        "Imai Shin-ichiro"
+      ],
+      "journal": "Cell metabolism",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Animals",
+        "Circadian Rhythm",
+        "Cytokines",
+        "Diabetes Mellitus, Type 2",
+        "Diet, High-Fat",
+        "Disease Models, Animal",
+        "Gene Expression Regulation",
+        "Glucose",
+        "Hypoglycemic Agents",
+        "Insulin",
+        "Lipid Metabolism",
+        "Mice",
+        "NAD",
+        "Nicotinamide Mononucleotide",
+        "Nicotinamide Phosphoribosyltransferase",
+        "Oxidative Stress",
+        "Sirtuin 1"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "b46e8572-3782-4a3b-a217-1bafac04cd20",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Efficacy Evaluation of the Anti-ageing Effect of a Cosmetic Active Versus Placebo",
+      "abstract": "The study aims at evaluating skin wrinkling, puffiness and fatigue and dark circle appearance on asian and african-american healthy volunteer cohorts receiving a cosmetic formulation containing NMN (2%). The product will be evaluated after 28 and 56 days of twice-daily application in comparison with a reference cosmetic formulation using clinical scoring under dermatological control. Cosmetic acceptability and future use will also be subjectively evaluated by analysis of the subjects answers to an evaluation questionnaire.",
+      "source_url": "https://clinicaltrials.gov/study/NCT04685096",
+      "date_published": "2020-12-11",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT04685096",
+      "phase": null,
+      "status": "COMPLETED",
+      "enrollment": 89,
+      "sponsor": "Seneque SA",
+      "conditions": [
+        "Wrinkle",
+        "Fatigue",
+        "Puffiness Around the Eyes"
+      ],
+      "primary_outcomes": [
+        "Wrinkles",
+        "Eye bags",
+        "Dark circles",
+        "Relaxed features"
+      ],
+      "results_summary": null,
+      "date_registered": "2020-12-11",
+      "date_started": "2020-12-12",
+      "date_completed": "2021-04-16",
+      "date_results_posted": null
+    },
+    {
+      "id": "6308398e-ff3b-42c3-9b68-0698551a8a76",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "The Influence of Age and Physical Fitness Level on the Level of Energy Metabolism and Antioxidant Capacity in Adult Males",
+      "abstract": "The influence of age and physical fitness level on the level of energy metabolism and antioxidant capacity in adult males.",
+      "source_url": "https://clinicaltrials.gov/study/NCT05113914",
+      "date_published": "2021-10-07",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT05113914",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 420,
+      "sponsor": "Poznan University of Physical Education",
+      "conditions": [
+        "Healthy"
+      ],
+      "primary_outcomes": [
+        "Cardio-respiratory measures"
+      ],
+      "results_summary": null,
+      "date_registered": "2021-10-07",
+      "date_started": "2011-01-01",
+      "date_completed": "2019-12-20",
+      "date_results_posted": null
+    },
+    {
+      "id": "67c06cb3-9449-4e56-9e34-d1928401b013",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "A Prospective, Multi-center, Double-blind, Placebo-controlled, Randomized, Multiple-arm, Parallel Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of UthPeak NMNH (Reduced Nicotinamide Mononucleotide) in Healthy Adult Participants",
+      "abstract": "This study is to assess the safety and tolerability of NMNH as a dietary supplement for human consumption. The current study aims to comprehensively evaluate its potential effects on pharmacokinetics, physical performance, biological age and overall quality of life. These findings will expand our understanding of NMNH therapeutic potential and guide its future clinical applications in anti-aging interventions.",
+      "source_url": "https://clinicaltrials.gov/study/NCT06889740",
+      "date_published": "2025-03-17",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT06889740",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 80,
+      "sponsor": "EffePharm LTD",
+      "conditions": [
+        "Healthy Aging"
+      ],
+      "primary_outcomes": [
+        "To assess NAD+ Values in blood",
+        "Assessment of Biological Age",
+        "Physical Performance walking test",
+        "Change in BMI",
+        "Quality (QoL) Questionnaire"
+      ],
+      "results_summary": null,
+      "date_registered": "2025-03-17",
+      "date_started": "2024-07-08",
+      "date_completed": "2025-01-25",
+      "date_results_posted": null
+    },
+    {
+      "id": "dc7c3bd0-b7de-467f-80b4-046f447cee4d",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "The Effect of Diet on Learning Abilities for Children in Kindergarden",
+      "abstract": "The main aim of this intervention study is to test the effect of diet on improvement in cognitive performanc in kindergarden children aged 4-6 years. Children will be randomly allocated into two groups, one consuming prepared meals with herring or mackerel for four months, and one group consuming meals containing meat as a control group.",
+      "source_url": "https://clinicaltrials.gov/study/NCT02331667",
+      "date_published": "2014-12-17",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT02331667",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 233,
+      "sponsor": "National Institute of Nutrition and Seafood Research, Norway",
+      "conditions": [
+        "Cognitive Performance"
+      ],
+      "primary_outcomes": [
+        "WPSSI-III and Nine Hole peg test."
+      ],
+      "results_summary": null,
+      "date_registered": "2014-12-17",
+      "date_started": "2014-12-01",
+      "date_completed": "2015-06-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "647c6a89-42f8-4a61-8fae-ad386b588dcd",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "A Multi Center Two Part Study to Evaluate the Efficacy and Safety of NMN as an Anti-ageing Supplement in Middle Aged and Older (40-65 Years) Adults",
+      "abstract": "It will be a two-part study. Part I will be six arms; randomized, double blind, parallel design, placebo-controlled dose ranging study. Part II will be open-label single dose study at the highest dose.\n\nA total of 90 Subjects (Part 1 \\& Part 2) will be enrolled in the study. The Part 1 group subjects (80 Subjects) shall be randomly distributed between the six arms, i.e. 20 Subjects each in IP arms, and 7, 7 and 6 subjects in corresponding placebo arms.\n\nAll Part 2 Group subjects (10 Subjects) will be assigned into the cluster where all receive the maximum NMN dose (900 mg)",
+      "source_url": "https://clinicaltrials.gov/study/NCT04823260",
+      "date_published": "2021-03-06",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT04823260",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 90,
+      "sponsor": "Abinopharm, Inc",
+      "conditions": [
+        "Aging"
+      ],
+      "primary_outcomes": [
+        "Blood cellular NAD+/ NADH",
+        "Blood cellular NAD+/ NADH",
+        "Blood cellular NAD+/ NADH",
+        "Six walking endurance test",
+        "Six walking endurance test",
+        "Six walking endurance test",
+        "SF-36 questionnaire",
+        "SF-36 questionnaire",
+        "SF-36 questionnaire",
+        "PART II : Telomerase test results",
+        "PART II : Telomerase test results",
+        "PART II : SF-36 questionnaire",
+        "PART II : SF-36 questionnaire"
+      ],
+      "results_summary": null,
+      "date_registered": "2021-03-06",
+      "date_started": "2021-05-25",
+      "date_completed": "2021-09-09",
+      "date_results_posted": null
+    },
+    {
+      "id": "a20d1ccb-bfde-4b41-b712-84c0f3074ab8",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "A Multicentre, Randomized, Double Blind, Parallel Design, Placebo Controlled Study to Evaluate the Efficacy and Safety of Uthever (NMN), an Orally Administered Supplementation in Middle Aged and Older Adults.",
+      "abstract": "This will be a multi-center, two arm study in 66 healthy adults. Subjects will complete a screening visit (V1, Day -7) to determine eligibility for the study based on Inclusion \\& Exclusion Criteria, patient history and safety measures. Eligibility confirmation will be done on visit 2 (Day 1). Patients successfully completing screen will be assigned to either of the two treatments. Subjects will receive the treatment for at-home use and will also be given diaries for recording information of medication, and adverse events. At 2 different intervals i.e. Day 30 and Day 60 (V3, V4) subjects will return to the clinic to review and collect patient diaries, safety data and medication reconciliation. Efficacy and safety assessments will be done at baseline, Day 30 and Day 60 .",
+      "source_url": "https://clinicaltrials.gov/study/NCT04228640",
+      "date_published": "2020-01-09",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT04228640",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 66,
+      "sponsor": "EffePharm LTD",
+      "conditions": [
+        "Aging"
+      ],
+      "primary_outcomes": [
+        "Blood cellular NAD+ concentration in serum",
+        "Blood cellular NAD+ concentration in serum",
+        "Blood cellular NAD+ concentration in serum",
+        "Blood cellular NADH concentration in serum",
+        "Blood cellular NADH concentration in serum",
+        "Blood cellular NADH concentration in serum",
+        "Six minutes walking endurance test",
+        "Six minutes walking endurance test",
+        "Six minutes walking endurance test",
+        "Systolic",
+        "Systolic",
+        "Systolic",
+        "Diastolic blood pressure",
+        "Diastolic blood pressure",
+        "Diastolic blood pressure",
+        "Pulse pressure",
+        "Pulse pressure",
+        "Pulse pressure",
+        "SF-36 questionnaire",
+        "SF-36 questionnaire",
+        "SF-36 questionnaire"
+      ],
+      "results_summary": null,
+      "date_registered": "2020-01-09",
+      "date_started": "2020-12-15",
+      "date_completed": "2021-03-30",
+      "date_results_posted": null
+    },
+    {
+      "id": "1b102b05-df25-4fff-88ef-072d4eebd720",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "The Exploratory Study on the Nicotinamide Mononucleotide (Vital NAD ) to Promote the Rejuvenation of the Peripheral Blood Immune Cells of Adults.",
+      "abstract": "The purpose of this study is to investigate the changes in adult peripheral blood immune cell subpopulations, subpopulations, and cell functional status before and after intervention with Nicotinamide Mononucleotide (Vital NAD ) as NAD+ supplement for a certain period of time。To Explore and validate the biological functions of Nicotinamide Mononucleotide (Vital NAD ) of rejuvenation of the Peripheral blood immune cells of Adults.",
+      "source_url": "https://clinicaltrials.gov/study/NCT05984550",
+      "date_published": "2023-08-01",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT05984550",
+      "phase": "EARLY_PHASE1",
+      "status": "UNKNOWN",
+      "enrollment": 10,
+      "sponsor": "Shanghai Cell Therapy Group Co.,Ltd",
+      "conditions": [
+        "Enhance Immune Function"
+      ],
+      "primary_outcomes": [
+        "Changes in Nicotinamide mononucleotide (Vital NAD) in whole blood.",
+        "Changes in NAD+ and NADH concentrations in whole blood.",
+        "The change of Blood cell indicators TBNK cells of the healthy adults at the points before and after intervention.",
+        "The change of Blood biochemical indicators of the healthy adults at the points before and after intervention.",
+        "The change of Peripheral blood immune T cells phenotype of the healthy adults at baseline.",
+        "The change of Tnaïve, Tscm, Tcm and Tem in peripheral blood of the healthy adults at the points before and after intervention.",
+        "The change of SITR1 expression in immune cells of peripheral blood at the points before and after intervention."
+      ],
+      "results_summary": null,
+      "date_registered": "2023-08-01",
+      "date_started": "2023-08-01",
+      "date_completed": "2024-12-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "88841bd8-e86e-4e4e-90b8-fd9ca72c09a4",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "The Impact of Nicotinamide Mononucleotide Sustained-release Tablets on Immunosenescence and Metablism in Middle-aged and Elderly Individuals With Metabolic Disorders.",
+      "abstract": "The ageing of our country is increasing and the ageing of the population has led to a significant increase in aging related diseases. During the aging process of the organism, cellular senescence can occur in all systems of the body, of which the senescence of the immune system is called immunosenescence. Some studies have shown that metabolic disorders can also trigger aging. This study investigated the effect of nicotinamide mononucleotide (NMN) supplementation on immunosenescence in middle-aged and elderly people through a placebo-controlled long-range clinical trail, aiming to provide a new method to improve immunosenescence. The effects of NMN supplementation on glucose and lipid metabolic indexes, body composition and telomere length of peripheral blood cells are also investigated, which may open up new ideas for the prevention and treatment of glucose and lipid metabolic diseases.",
+      "source_url": "https://clinicaltrials.gov/study/NCT06907329",
+      "date_published": "2025-03-19",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT06907329",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "enrollment": 126,
+      "sponsor": "Qing Su",
+      "conditions": [
+        "Immunosenescence",
+        "Metabolism"
+      ],
+      "primary_outcomes": [
+        "CD3+CD8+CD27-CD28- T cells as a percentage of CD3+CD8+ T cells, expressed in %, evaluated by flow cytometry"
+      ],
+      "results_summary": null,
+      "date_registered": "2025-03-19",
+      "date_started": "2025-06-05",
+      "date_completed": "2027-03-31",
+      "date_results_posted": null
+    },
+    {
+      "id": "7e41273d-cea1-492b-89d0-148687907e13",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Quzhou Population Cohort Research Project (Aging Related Research: Intervention of Nicotinamide Mononucleotide in Middle-aged and Elderly People)",
+      "abstract": "This study is a single center, randomized, double-blind, placebo-controlled clinical trial of drug intervention on aging. The purpose is to explore the effectiveness of NMN on the premise of ensuring the safety of oral drug, in order to provide effective intervention means for delaying aging and improve the quality of life of the elderly population. The main outcome measures of this study were the efficacy and safety of NMN on aging intervention.",
+      "source_url": "https://clinicaltrials.gov/study/NCT06592859",
+      "date_published": "2024-07-30",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT06592859",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "enrollment": 240,
+      "sponsor": "People's Hospital of Quzhou",
+      "conditions": [
+        "Aging",
+        "NMN"
+      ],
+      "primary_outcomes": [
+        "blood NAD+ levels",
+        "SF-36 questionnaire"
+      ],
+      "results_summary": null,
+      "date_registered": "2024-07-30",
+      "date_started": "2023-08-23",
+      "date_completed": "2026-12-31",
+      "date_results_posted": null
+    },
+    {
+      "id": "ad104e6e-ff9f-4a23-acd3-937b470cc6fd",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Nicotinamide Mononucleotide Supplementation for Exercise Tolerance Improvement in Healthy Older Adults",
+      "abstract": "This is a randomized, double-blind, placebo-controlled, two-arm crossover clinical trial evaluating the effects of a patented age-reversal therapy, EGA®, compared to conventional nicotinamide mononucleotide (NMN) supplementation. The study will assess safety and efficacy in improving exercise tolerance and modulating biomarkers of aging in healthy older adults.\n\nThe primary outcome is cycle ergometry constant work rate (CWR) exercise tolerance, measured as time to fatigue. Secondary outcomes include changes in peak oxygen consumption (VO₂peak), critical power, anaerobic work capacity, lactate threshold, and NAD⁺ metabolite levels.\n\nEGA® is composed of three metabolomic compounds that are endogenous to humans. The formulation has been used in prior exploratory studies and real-world applications, which have helped inform the design of this current trial.",
+      "source_url": "https://clinicaltrials.gov/study/NCT07144527",
+      "date_published": "2025-08-19",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT07144527",
+      "phase": "NA",
+      "status": "RECRUITING",
+      "enrollment": 40,
+      "sponsor": "Scott Silveira",
+      "conditions": [
+        "Aging",
+        "Frailty",
+        "Exercise Tolerance",
+        "Healthy Male and Female Subjects"
+      ],
+      "primary_outcomes": [
+        "Time to Fatigue During Constant Work Rate Cycle Ergometry (tLIM)."
+      ],
+      "results_summary": null,
+      "date_registered": "2025-08-19",
+      "date_started": "2026-02-21",
+      "date_completed": "2027-01-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "c7cca63f-a994-4a34-b35d-205dd0d350e0",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "A Randomized, Double-blind, Parallel Controlled Clinical Trial to Evaluate the Efficacy of Coenzyme I for Injection in the Treatment of Vascular Aging（Pilot Stydy）",
+      "abstract": "Emerging evidence identifies vascular aging independently predicting cardiovascular events, yet effective clinical interventions remain lacking. Nicotinamide adenine dinucleotide (NAD+) is an essential cofactor whose levels decline with age, and preclinical studies suggest that boosting NAD+ can improve vascular function and structure. Preliminary clinical studies in healthy older adults indicate that supplementation with NAD+ precursors, such as nicotinamide riboside(NR) or nicotinamide mononucleotide (NMN), can reduce arterial stiffness as measured by pulse wave velocity (PWV). However, whether NAD+ supplementation can improve vascular endothelial function and exert anti-stiffening effects in patients who have already developed measurable arterial stiffness remains unknown. Based on this evidence, the investigator hypothesize that the Coenzyme I for Injection will reverse vascular aging in older adults with established arterial stiffening.",
+      "source_url": "https://clinicaltrials.gov/study/NCT07328100",
+      "date_published": "2025-12-28",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT07328100",
+      "phase": "NA",
+      "status": "NOT_YET_RECRUITING",
+      "enrollment": 60,
+      "sponsor": "Shanghai 10th People's Hospital",
+      "conditions": [
+        "Vascular Aging",
+        "NAD"
+      ],
+      "primary_outcomes": [
+        "The change in flow-mediated vasodilation(FMD)"
+      ],
+      "results_summary": null,
+      "date_registered": "2025-12-28",
+      "date_started": "2026-01-16",
+      "date_completed": "2027-12-31",
+      "date_results_posted": null
+    },
+    {
+      "id": "4aebd792-c3e4-4607-b71c-d10c3b0e182a",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Pilot Study of Nicotinamide Mononucleotide Supplementation in Patients With Hypertension",
+      "abstract": "Cardiovascular and cerebrovascular diseases are most terrible killers endangering the health of Chinese residents, and hypertension is the most important risk factor. Hypertension related vascular function and structural damage are the common pathological basis and initiation of cardiovascular and cerebrovascular disease. Therefore, reducing blood pressure and delaying or reversing vascular injury is an effective way to treat hypertension and prevent cardiovascular disease. NAD+ (nicotinamide adenine dinucleotide) is a coenzyme of many kinds of dehydrogenases in the body, and is an essential molecule in the basic process of life support. The latest research found that with the growth of age, the level of NAD+ is decreasing, and increasing the content of NAD+ can prolong the life of multiple species including human. NMN (β - nicotinamide mononucleotide) is a natural NAD+ precursor in cells. Recent clinical trials found that NMN supplementation can effectively improve the level of NAD+ in cells, delay aging, improve the metabolic process of cells without adverse reactions. However, the effect of NMN supplementation on reducing blood pressure and protecting vascular endothelial function has not been reported. Therefore, this study aims to focus on hypertension, a major chronic disease, and to observe the effects of NMN supplementation on vascular function and blood pressure in patients with hypertension, so as to provide a new treatment strategy for hypertension and associated vascular injury.",
+      "source_url": "https://clinicaltrials.gov/study/NCT04903210",
+      "date_published": "2021-05-21",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT04903210",
+      "phase": "PHASE4",
+      "status": "UNKNOWN",
+      "enrollment": 20,
+      "sponsor": "First Affiliated Hospital, Sun Yat-Sen University",
+      "conditions": [
+        "Hypertension"
+      ],
+      "primary_outcomes": [
+        "Effect of NMN on flow mediated dilation (FMD)",
+        "Effect of NMN on brachial-ankle pulse wave velocity (baPWV)"
+      ],
+      "results_summary": null,
+      "date_registered": "2021-05-21",
+      "date_started": "2021-06-01",
+      "date_completed": "2022-07-31",
+      "date_results_posted": null
+    },
+    {
+      "id": "2366c3a0-730a-42e2-96d7-157506b93d8f",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Tracing the Metabolic Flux of Orally Administered NAD+ Precursors in Healthy Young and Older Adults",
+      "abstract": "We are doing this research to learn how healthy younger and older adults use two forms of vitamin B3-called nicotinamide mononucleotide (NMN) and nicotinamide (NAM)-to make NAD+. NAD+ is a natural substance that cells need for energy and other important processes. Our goal is to find out how these NAD precursors are absorbed and metabolized and how they raise NAD+ in different tissues.\n\nWho can join? Healthy adults men and women aged 18 to 40 (younger group) or 65 and older (older group) Participants with a body mass index ranging between 19 and 35 No major health issues like diabetes or severe kidney disease\n\nWhat will happen? Participants will take labeled or unlabeled NMN or NAM by mouth every day for 14 days.\n\nResearchers will collect blood, urine, and stool samples. Researchers also do a small muscle biopsy (under local numbing) twice to check how these NAD precursors raise NAD+ in muscle.\n\nWhy is this important? NAD+ levels may drop as people age, and this drop could affect overall health and energy in cells.\n\nA better understanding of how NMN and NAM are metabolized in the body to raise NAD+ levels in both younger and older adults may help us optimize dosing and strategies for raising NAD in older people.\n\nPossible benefits and risks:\n\nParticipants may not get any direct health benefit from this study; the main goal is to gather new knowledge.\n\nNMN and NAM appear safe in the doses used. A muscle biopsy may cause soreness or bruising.\n\nResearchers will monitor participants closely for any side effects throughout the study.",
+      "source_url": "https://clinicaltrials.gov/study/NCT06882096",
+      "date_published": "2025-03-11",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT06882096",
+      "phase": "PHASE1",
+      "status": "RECRUITING",
+      "enrollment": 32,
+      "sponsor": "Metro International Biotech, LLC",
+      "conditions": [
+        "Healthy Adults"
+      ],
+      "primary_outcomes": [
+        "Labelled NAD+ in Peripheral Blood"
+      ],
+      "results_summary": null,
+      "date_registered": "2025-03-11",
+      "date_started": "2025-04-28",
+      "date_completed": "2027-06-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "5554f6af-56db-419d-bc5e-0c24dc657ddf",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Nicotinamide Riboside Supplementation for Treating Elevated Systolic Blood Pressure and Arterial Stiffness in Middle-aged and Older Adults",
+      "abstract": "Aging is the primary risk factor for cardiovascular diseases (CVD), the number one cause of death in developed societies. Systolic blood pressure (SBP) increase with age and is a key intermediary factor linking aging to increased CVD risk. The primary mechanisms underlying the age-associated increase in SBP is stiffening of the large elastic arteries, which is mediated by increases in oxidative stress, inflammation, and vascular smooth muscle tone. Regular caloric restriction is effective at lowering SBP in middle-aged and older adults; however, adherence to caloric restriction is poor and may be detrimental to normal weight older adults due to reduced skeletal muscle mass and bone mineral density. Therefore, identification of more practical alternative interventions that mimic the beneficial effects of caloric restriction, with stronger adherence and less risk of adverse consequences, is of significant biomedical importance.\n\nNicotinamide riboside is a naturally occurring precursor of nicotinamide adenine dinucleotide (NAD+), a critical mediator of the beneficial effects of caloric restriction, and therefore a novel caloric restriction mimetic compound. We recently completed the first pilot study of nicotinamide riboside supplementation in healthy middle-aged and older adults and demonstrated that 6 weeks of supplementation decreased systolic blood pressure (SBP) by 8 mmHg in individuals with baseline SBP of 120-139 mmHg (elevated SBP/stage 1 hypertension) compared with placebo, and lowered arterial stiffness, a strong independent predictor of CVD and related morbidity and mortality.\n\nAs a next translational step, we will conduct a randomized, placebo-controlled, double-blind clinical trial to further assess the safety and efficacy of oral nicotinamide riboside (3 months vs placebo) for decreasing SBP and arterial stiffness in middle-aged and older men and women with SBP between 120 and 139 mmHg at baseline.",
+      "source_url": "https://clinicaltrials.gov/study/NCT03821623",
+      "date_published": "2019-01-14",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT03821623",
+      "phase": "PHASE2",
+      "status": "RECRUITING",
+      "enrollment": 118,
+      "sponsor": "Douglas Seals",
+      "conditions": [
+        "Hypertension",
+        "Aging"
+      ],
+      "primary_outcomes": [
+        "Systolic blood pressure"
+      ],
+      "results_summary": null,
+      "date_registered": "2019-01-14",
+      "date_started": "2019-05-10",
+      "date_completed": "2025-06-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "363cd95a-356e-4741-8b72-23030e111a4d",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Nicotinamide Adenine Dinucleotide Augmentation to Prevent or Reverse the Progression of Alzheimer's Disease in People With Down Syndrome",
+      "abstract": "The aim of the study is to determine the safety and tolerability of different increasing doses of MIB-626 (a microcrystalline form of β nicotinamide mononucleotide; NMN) given daily for 28 consecutive days to adults with Down syndrome (DS). The study will also explore how the drug moves through the body over time (pharmacokinetics or PK) and how the drug affects the body in different ways (pharmacodynamics or PD). The study participants will be monitored for adverse events and measurements to detect safety events will take place including laboratory tests of blood counts, chemistries and coagulation profile, and electrocardiogram (ECG). The trial will enroll a total of 24 adults with DS who are 18 years or older and are medically stable. People enrolled in the study will be randomly assigned to receive either the active intervention (MIB-626) tablets, or placebo tablets for 28 days. Study participants will be followed for an additional 28 days (total 56 days of follow-up). This study will also explore the effect of MIB-626 on different measures associated with aging and risk of Alzheimer's Disease (AD).",
+      "source_url": "https://clinicaltrials.gov/study/NCT07278492",
+      "date_published": "2025-11-24",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT07278492",
+      "phase": "PHASE1",
+      "status": "NOT_YET_RECRUITING",
+      "enrollment": 24,
+      "sponsor": "Brigham and Women's Hospital",
+      "conditions": [
+        "Down Syndrome (DS)"
+      ],
+      "primary_outcomes": [
+        "Treatment emergent adverse events",
+        "Treatment emergent serious adverse events"
+      ],
+      "results_summary": null,
+      "date_registered": "2025-11-24",
+      "date_started": "2026-04-01",
+      "date_completed": "2028-06-30",
+      "date_results_posted": null
+    },
+    {
+      "id": "1f8357e4-c4ec-40a0-bb23-ee004ed7f5f1",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "THE Exploratory Study on the Biological Function of Dendritic Cells In Vivo Supported by Nicotinamide Mononucleotide (Vital NAD)",
+      "abstract": "The main purpose of this study is to explore the PK/PD changes of NMN and DC cells after oral NMN combined with DC cells injection in patients after tumor surgery, and evaluate the biological age of adults, TCR diversity, SiRT1 expression level, SF-36 quality of life, OS, antigen specific immune response (TAA), cytokines and so on. In this study, 20 postoperative tumor patients who meet the entry and excretion criteria were recruited to explore the clinical potential of NMN combined with DC cell vaccine.",
+      "source_url": "https://clinicaltrials.gov/study/NCT06036355",
+      "date_published": "2023-08-15",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT06036355",
+      "phase": "EARLY_PHASE1",
+      "status": "UNKNOWN",
+      "enrollment": 20,
+      "sponsor": "Shanghai Cell Therapy Group Co.,Ltd",
+      "conditions": [
+        "Postoperative Prevention of Tumor"
+      ],
+      "primary_outcomes": [
+        "Concentration of double antibodies in peripheral blood",
+        "Concentration of NMN (nicotinamide mononucleotide) in peripheral blood",
+        "Peripheral blood NAD+",
+        "Cytokines (IL6, TNF- goat, INF- γ, IL-4, IL-10)",
+        "T cell depletion index (PD1/Tim-3/lag3)",
+        "T cell activation index CD107",
+        "T cell and NK cell function index (INF- γ) and granzyme",
+        "High quality Survival benefit Endpoint (DFS)",
+        "Survival benefit (OS)",
+        "Distant Metastasis-Free Survival (DMFS)"
+      ],
+      "results_summary": null,
+      "date_registered": "2023-08-15",
+      "date_started": "2023-09-30",
+      "date_completed": "2024-12-30",
+      "date_results_posted": null
+    },
+    {
+      "id": "8babfdf3-bc13-48ef-9c9e-c1c12637d9f2",
+      "source_type": "clinicaltrials",
+      "intervention": "nmn",
+      "intervention_aliases": [
+        "nicotinamide mononucleotide",
+        "beta-NMN"
+      ],
+      "title": "Pharmacodynamics and Tolerance Study of Nicotinamide Mononucleotide (NMN) Supplementation at 400 mg/Day",
+      "abstract": "The purpose of this study is to evaluate the physiological and/or biological actions of nicotinamide mononucleotide (NMN-C) in healthy adults receiving a repeated-dose over the course of 28 days by studying the tolerance and pharmacodynamics of this product.",
+      "source_url": "https://clinicaltrials.gov/study/NCT04862338",
+      "date_published": "2021-04-21",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT04862338",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 17,
+      "sponsor": "Seneque SA",
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "primary_outcomes": [
+        "Change from baseline in NAD+ concentrations in whole blood"
+      ],
+      "results_summary": null,
+      "date_registered": "2021-04-21",
+      "date_started": "2021-04-26",
+      "date_completed": "2022-04-04",
+      "date_results_posted": null
+    }
+  ],
+  "candidate_doc_ids": [
+    "0876a00f-797a-48d8-8d23-7cbd2efc68fb",
+    "8c1fb013-fd74-4301-a8cd-73ebae2a03cf",
+    "baacef78-11b3-4082-a3dd-dc6ed9f3e9ff",
+    "fcba617c-d971-4566-92bf-e24a3858602e",
+    "a04a7c64-b7da-4daf-9862-8317bf1a06f4",
+    "15195a42-a9ad-45c8-8bfb-9051939cbd43",
+    "84a6d969-1e1a-4786-93c6-7d76e1752ae2",
+    "b4339907-53ea-4d36-80d2-66323481c658",
+    "d37e1506-3c58-4c71-b86d-e4d74e579b7a",
+    "d7f72d38-0194-40e5-bfdd-212a41e40a03",
+    "98e7f6bf-c88f-4331-99ff-f1de20ea3749",
+    "f07cbc3f-8674-4897-86d3-47c882fd234c",
+    "da7c8e27-c2a2-4f99-bd01-136e21efdbd4",
+    "3c27d891-7577-4e35-8e5f-1a3aafa53d6c",
+    "bfc6fdb8-58b3-4669-85d7-59693693a3b3",
+    "dda785b7-b563-4a11-a77e-5b694bcb020c",
+    "14e352a6-0096-49c3-a4fb-374a0873c1f7",
+    "415666a8-f69a-4cad-ac4a-2bbfef5ba91c",
+    "007ad787-c383-4d9a-90bf-4316eadbcccf",
+    "4115bab1-b16d-474e-b492-14124dfc0ee6",
+    "54dd0c0a-ab69-4870-9d12-951744fde1d7",
+    "193a356e-1ccb-4299-942d-7d72e25b954d",
+    "e828f64e-e8df-4332-999e-58071198b79a",
+    "ed66bf5e-cd62-4e2d-bf5a-49fd76b4e260",
+    "66e7f4a9-26e3-4d36-aa61-bf3a93317df6",
+    "6ed95329-064e-4cf3-bd07-9dd016db2177",
+    "36d1ffa9-617d-45cd-8084-f4927fed58bd",
+    "9a030cbd-6fe7-43a2-8855-c1ea3915bc34",
+    "cda64065-79e8-4506-a8b9-afd361a1dce8",
+    "1c158245-0d51-413b-b0f6-98363077b5f5",
+    "c6327b78-7134-4177-b3d6-ed9a0e35fa78",
+    "4ce9758c-8b1d-46fd-89c2-7d6c73aae4b8",
+    "0203d8ae-b8f1-4c86-962d-20b09495d50a",
+    "8171bbcf-227b-4e7b-ae43-2411a3565263",
+    "779abc9c-6437-49ca-a346-c6212a83b26c",
+    "c5ac972b-f320-4ad0-b33d-0eda4c3e571c",
+    "3033f031-a194-4f4e-98e1-b79b9fdf4b1a",
+    "10e4f850-a915-4c82-88dc-271edfb8a9d6",
+    "97f4653b-08d5-406b-bbad-47991118ac73",
+    "4be1f4f7-914f-44ce-b165-3703d6465f7b",
+    "475f6851-9299-49fb-860c-ab3304f78f73",
+    "3cb1cb67-ccb5-4b7b-babf-8fb1160b61cc",
+    "18afdd58-4af9-47ed-9f74-1f620effb035",
+    "d9b86e11-d2a2-43c2-90e3-0a0fd521ffab",
+    "fcf1cc3d-1b67-4271-a863-8c0a6319b0fd",
+    "217fd507-9860-4b5e-82fa-6a933b0e0283",
+    "bb65c306-c28b-4336-8a55-3b294a7e27af",
+    "4267e912-2928-4cbd-a029-13775e10accb",
+    "e2b8246a-293a-4157-9876-3cd7bde1c4a1",
+    "9f1af5cd-37e1-453b-bfa7-21ae0275f22b",
+    "7586f62f-3dbe-4dc8-8bfc-6b57b906d251",
+    "13265a8a-032a-47eb-ac25-6ad6d8e6a319",
+    "c8e166c1-1d91-4df8-9b03-5c50610afd9f",
+    "28452478-24e3-4006-adbc-6cbacb09bd20",
+    "83a0a1d3-0476-4111-a8e7-1ebee9ca0c62",
+    "537b0f4d-c3a9-4e82-985a-e0a52a2be82d",
+    "bfd8c432-d2e3-4714-8d1a-88dcb3b816e5",
+    "f88f6532-3d05-4804-ad5d-a84522cd2268",
+    "a6dae558-0598-4fbe-83b4-e84d43e98f57",
+    "1f199010-3e7d-4d8a-b83e-2f96e2666837",
+    "f949a575-fce6-4aff-84e1-703a1370f741",
+    "2308e6f7-29b4-4513-9575-4e77b1902433",
+    "1a96a042-3e80-4f41-bd3f-8df53ba5d426",
+    "36b6aa1c-72af-4b9a-9d46-fa20a007e6cd",
+    "6c4e1b7a-fca8-42fe-96e8-0d5af7880085",
+    "c3740aa2-2472-4276-8ba1-844c958d1901",
+    "35e32fd6-b30f-43c8-8bff-ac62f29dd8e3",
+    "1b61e4af-fb53-4b6d-b29e-30a15771290e",
+    "f693c770-2792-432c-92c7-9ddd0c08c685",
+    "06c7eb9b-6feb-4f71-9ad4-51a6ea542d12",
+    "c732dc03-6f2b-4183-b39d-c411bc9e480f",
+    "84ecfc80-1336-4eeb-9463-7a843a15da2a",
+    "d06cee87-d50f-4ed7-80dd-25f4a1bf967c",
+    "e85d0c25-58ea-4854-a05a-12addfb868ca",
+    "77c8617e-4a5f-4026-a6c3-82f74db5d0fc",
+    "b16cf9c4-1a59-4f13-adbd-7f780f358d88",
+    "506a4551-581b-454c-808c-1e8602eb400a",
+    "ae54eb36-5656-4384-82c9-a9f7d0575fdb",
+    "a5592317-4cb1-49bb-93f4-929b5c205cef",
+    "bc1fc98a-9d88-434c-bba7-39b26a71026c",
+    "9051491f-7355-4b25-afdc-612ffe688bf9",
+    "08e0c229-e8a5-45d2-9a98-9cfde1ec2629",
+    "d418b0f4-67d6-478f-89b9-16dc9c4d1561",
+    "8262eb9b-1609-4218-ac52-93233e054919",
+    "e5c66f8f-2b74-4e97-b708-8dc03ef32bc7",
+    "f5a50dbf-feb0-4b6d-b5ec-1ddb518463f7",
+    "0cf210af-08f6-470b-bf51-c733e25fd1fc",
+    "d448ad7e-c053-4b53-a08f-d24ba66850a6",
+    "10b12c79-8b82-4e28-a232-5eb3445d7913",
+    "e2e1c8e5-1111-47ce-8b4a-394a177273af",
+    "4681cf32-69da-4d15-bbe9-dc6b4ea697b6",
+    "6c5a1b9c-434d-47cf-8643-aebf802e394d",
+    "11d6e736-cbeb-4c00-b431-8f522354d8e2",
+    "6cf24c65-c485-4152-b5a3-7587c9e9622c",
+    "4ae7d7bf-c216-4265-9540-d8cffe4d6e76",
+    "57081948-c581-41dd-8f31-1ba0fa6da6ed",
+    "9d19216b-f52c-47ac-86c5-63e2a2c3dc4b",
+    "5f12600d-704b-4099-85cc-4dd6fb35b445",
+    "c7f23168-e030-4f27-9407-5d33033cb820",
+    "166eee7f-6f64-47c8-bb02-9d0e0fecf121"
+  ],
+  "history": [
+    {
+      "step": 0,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "pubmed",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "1351c6f7-fdae-4840-8b9a-4f9d873133a4",
+        "4dcbfd5d-d9ef-4ca1-9856-ae27001813d5",
+        "31b26a25-9d37-411d-8c73-e4d2ce0c429b"
+      ],
+      "fetched_documents_count": 3
+    },
+    {
+      "step": 1,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "7dcbb876-f795-4335-8d64-2f5423ea4994",
+        "a2c0656f-0f74-458c-a395-328b9445a136",
+        "e12e3351-1991-4480-81f8-a2376dc3a5da"
+      ],
+      "fetched_documents_count": 6
+    },
+    {
+      "step": 2,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "68d5bc71-be23-42bf-9fee-7c5f6d3b57f9",
+        "2efa5ff1-d699-4770-a156-63495d3ebb48",
+        "847192f7-ad2a-427b-807b-c9cdf150519a"
+      ],
+      "fetched_documents_count": 9
+    },
+    {
+      "step": 3,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "semantic_scholar",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "299bc931-91c4-458d-ab08-58e96260be76",
+        "da88f181-3f86-4f80-86e1-a2ca8a1f53a0",
+        "3406f3f6-678c-4b17-945a-061a17d5a16a"
+      ],
+      "fetched_documents_count": 12
+    },
+    {
+      "step": 4,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "nih_grant",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "eb56c1fc-d0b9-4531-be5a-aff4c807c24a",
+        "d0d524df-a7f6-4cce-8d8b-5055a0c2f478",
+        "c73fd761-0c1c-48c2-8061-f093e025ec14"
+      ],
+      "fetched_documents_count": 15
+    },
+    {
+      "step": 5,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 10,
+      "effective_args": {
+        "source_type": "drugage",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "9e807155-6396-4205-8118-aa207c68b379",
+        "d46670c3-a8a4-44a8-8833-cbc17a1e2f8d",
+        "f25f8289-2cb4-4e4a-a5e8-a26e056c2800"
+      ],
+      "fetched_documents_count": 18
+    },
+    {
+      "step": 6,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 7,
+      "effective_args": {
+        "source_type": "regulatory",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "4c81525d-baf0-41b9-84c1-25c5bd691726",
+        "b8483aef-6fe8-4465-a27c-b1c33c15604f",
+        "5d35d923-417e-464d-85f1-81660e87b371"
+      ],
+      "fetched_documents_count": 21
+    },
+    {
+      "step": 7,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "4d4bd8d7-75db-4332-bfb3-a5139a46165b",
+        "553d1132-cf6c-44a5-91ed-e70144dbe9de",
+        "7e5adf25-8e3a-42fd-b38c-ea42f2b7719e"
+      ],
+      "fetched_documents_count": 24
+    },
+    {
+      "step": 8,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "91d3736c-bf2c-4d0b-85c5-9c4622b80f23",
+        "b46e8572-3782-4a3b-a217-1bafac04cd20",
+        "6308398e-ff3b-42c3-9b68-0698551a8a76"
+      ],
+      "fetched_documents_count": 27
+    },
+    {
+      "step": 9,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "67c06cb3-9449-4e56-9e34-d1928401b013",
+        "dc7c3bd0-b7de-467f-80b4-046f447cee4d",
+        "647c6a89-42f8-4a61-8fae-ad386b588dcd"
+      ],
+      "fetched_documents_count": 30
+    },
+    {
+      "step": 10,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "a20d1ccb-bfde-4b41-b712-84c0f3074ab8",
+        "1b102b05-df25-4fff-88ef-072d4eebd720",
+        "88841bd8-e86e-4e4e-90b8-fd9ca72c09a4"
+      ],
+      "fetched_documents_count": 33
+    },
+    {
+      "step": 11,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "7e41273d-cea1-492b-89d0-148687907e13",
+        "ad104e6e-ff9f-4a23-acd3-937b470cc6fd",
+        "c7cca63f-a994-4a34-b35d-205dd0d350e0"
+      ],
+      "fetched_documents_count": 36
+    },
+    {
+      "step": 12,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "4aebd792-c3e4-4607-b71c-d10c3b0e182a",
+        "2366c3a0-730a-42e2-96d7-157506b93d8f",
+        "5554f6af-56db-419d-bc5e-0c24dc657ddf"
+      ],
+      "fetched_documents_count": 39
+    },
+    {
+      "step": 13,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "363cd95a-356e-4741-8b72-23030e111a4d",
+        "1f8357e4-c4ec-40a0-bb23-ee004ed7f5f1",
+        "8babfdf3-bc13-48ef-9c9e-c1c12637d9f2"
+      ],
+      "fetched_documents_count": 42
+    },
+    {
+      "step": "final",
+      "action": "final_output_written"
+    }
+  ],
+  "final_output": {
+    "confidence": 37.41,
+    "confidence_raw": 37.41,
+    "gating_penalty": 1.0,
+    "checklist": {
+      "any_human_evidence": true,
+      "any_rct": true,
+      "any_human_endpoints": true,
+      "any_human_safety": true
+    },
+    "tier_contributions": {
+      "1": 15.81,
+      "2": 20.08,
+      "3": 0.0,
+      "4": 1.46,
+      "5": 0.01,
+      "6": 0.05
+    },
+    "selected_counts_by_level": {
+      "1": 2,
+      "2": 18,
+      "3": 0,
+      "4": 15,
+      "5": 1,
+      "6": 6
+    },
+    "top_docs": [
+      {
+        "id": "9e807155-6396-4205-8118-aa207c68b379",
+        "source_type": "pubmed",
+        "title": "NMN: The NAD precursor at the intersection between axon degeneration and anti-ageing therapies.",
+        "level": 2,
+        "doc_weight": 0.5635,
+        "relevance": 2,
+        "endpoint_grade": 3,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "4dcbfd5d-d9ef-4ca1-9856-ae27001813d5",
+        "source_type": "pubmed",
+        "title": "NAD+ therapy in age-related degenerative disorders: A benefit/risk analysis.",
+        "level": 1,
+        "doc_weight": 0.4684,
+        "relevance": 2,
+        "endpoint_grade": 1,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "ad104e6e-ff9f-4a23-acd3-937b470cc6fd",
+        "source_type": "clinicaltrials",
+        "title": "Nicotinamide Mononucleotide Supplementation for Exercise Tolerance Improvement in Healthy Older Adults",
+        "level": 2,
+        "doc_weight": 0.321,
+        "relevance": 2,
+        "endpoint_grade": 2,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "1351c6f7-fdae-4840-8b9a-4f9d873133a4",
+        "source_type": "pubmed",
+        "title": "Effects of Nicotinamide Mononucleotide Supplementation on Muscle and Liver Functions Among the Middle-aged and Elderly: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+        "level": 1,
+        "doc_weight": 0.2805,
+        "relevance": 2,
+        "endpoint_grade": 0,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "c7cca63f-a994-4a34-b35d-205dd0d350e0",
+        "source_type": "clinicaltrials",
+        "title": "A Randomized, Double-blind, Parallel Controlled Clinical Trial to Evaluate the Efficacy of Coenzyme I for Injection in the Treatment of Vascular Aging（Pilot Stydy）",
+        "level": 2,
+        "doc_weight": 0.1929,
+        "relevance": 2,
+        "endpoint_grade": 0,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "7e41273d-cea1-492b-89d0-148687907e13",
+        "source_type": "clinicaltrials",
+        "title": "Quzhou Population Cohort Research Project (Aging Related Research: Intervention of Nicotinamide Mononucleotide in Middle-aged and Elderly People)",
+        "level": 2,
+        "doc_weight": 0.181,
+        "relevance": 2,
+        "endpoint_grade": 0,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "67c06cb3-9449-4e56-9e34-d1928401b013",
+        "source_type": "clinicaltrials",
+        "title": "A Prospective, Multi-center, Double-blind, Placebo-controlled, Randomized, Multiple-arm, Parallel Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of UthPeak NMNH (Reduced Nicotinamide Mononucleotide) in Healthy Adult Participants",
+        "level": 2,
+        "doc_weight": 0.164,
+        "relevance": 2,
+        "endpoint_grade": 0,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      },
+      {
+        "id": "a20d1ccb-bfde-4b41-b712-84c0f3074ab8",
+        "source_type": "clinicaltrials",
+        "title": "A Multicentre, Randomized, Double Blind, Parallel Design, Placebo Controlled Study to Evaluate the Efficacy and Safety of Uthever (NMN), an Orally Administered Supplementation in Middle Aged and Older Adults.",
+        "level": 2,
+        "doc_weight": 0.164,
+        "relevance": 2,
+        "endpoint_grade": 0,
+        "effect_direction": 0,
+        "why_influential": "High weighted contribution under rubric multipliers."
+      }
+    ],
+    "notes": [
+      "deterministic_rubric_score_v1",
+      "documents_scored=42"
+    ]
+  },
+  "analysis_report": {
+    "generated": true,
+    "doc_count_in_pack": 16,
+    "preview": "The user wants me to generate a confidence score report based on the provided evidence pack and final output numbers.\n\n**Plan:**\n\n1.  **Executive Summary:** Briefly summarize the key findings and the final score.\n2.  **Score Breakdown:** Detail the contribution of each level (1-6) to the final score, based on the provided `tier_contributions`.\n3.  **Evidence Quality and Relevance Diagnosis:** Analyze the quality and relevance of the top documents contributing to the score.\n4.  **Top Influential Documents:** List the top 5-10 documents identified as most influential based on the `top_docs` list and the `why_influential` notes.\n5.  **Limitations:** Discuss potential limitations of the evidence synthesis process based on the provided information (e.g., missing data, potential biases).\n6.  **Actionable Insights:** Suggest what would increase or decrease the score, based on the evidence and the rubric.\n\n**Detailed Steps:**\n\n1.  **Executive Summary:**\n    *   The final confidence score is 37",
+    "path": "outputs/nmn.md"
+  }
+}
