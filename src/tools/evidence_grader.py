@@ -10,6 +10,7 @@ from typing import Any, Callable, Literal, Optional
 
 try:
     from .json_corpus_query_tool import (
+        AgentConfig,
         JsonCorpusQueryTool,
         compact_docs_for_final,
         parse_json_obj,
@@ -17,6 +18,7 @@ try:
     )
 except ImportError:
     from json_corpus_query_tool import (
+        AgentConfig,
         JsonCorpusQueryTool,
         compact_docs_for_final,
         parse_json_obj,
@@ -480,6 +482,30 @@ class EvidenceGraderConfig:
     scoring_mode: Literal["deterministic_only", "llm_then_fallback", "llm_only"] = "deterministic_only"
 
 
+@dataclass
+class EvidenceRetrievalConfig:
+    min_fetch_docs: int = 20
+    auto_fetch_per_search: int = 3
+    min_per_source: int = 2
+    max_steps: int = 14
+    max_new_tokens: int = 900
+    max_schema_chars: int = 12000
+    explore_first: bool = True
+    default_blocklist: tuple[str, ...] = ("social", "news")
+
+    def to_agent_config(self) -> AgentConfig:
+        return AgentConfig(
+            min_fetch_docs=self.min_fetch_docs,
+            auto_fetch_per_search=self.auto_fetch_per_search,
+            min_per_source=self.min_per_source,
+            max_steps=self.max_steps,
+            max_new_tokens=self.max_new_tokens,
+            max_schema_chars=self.max_schema_chars,
+            explore_first=self.explore_first,
+            default_blocklist=self.default_blocklist,
+        )
+
+
 class EvidenceGrader:
     """Final grading component (separate from retrieval/query tool)."""
 
@@ -656,6 +682,64 @@ TEXT:
         return obj
 
     def grade_with_query_tool(
+        self,
+        *,
+        query_tool: JsonCorpusQueryTool,
+        rubric_text: str,
+        context_path: Optional[str] = None,
+        report_out_path: Optional[str] = None,
+        report_extra_doc_ids: Optional[list[str]] = None,
+        report_max_docs: int = 20,
+        report_max_text_chars: int = 1200,
+        generate_report: bool = True,
+    ) -> dict[str, Any]:
+        return self._grade_from_query_tool_context(
+            query_tool=query_tool,
+            rubric_text=rubric_text,
+            context_path=context_path,
+            report_out_path=report_out_path,
+            report_extra_doc_ids=report_extra_doc_ids,
+            report_max_docs=report_max_docs,
+            report_max_text_chars=report_max_text_chars,
+            generate_report=generate_report,
+        )
+
+    def grade_with_corpus(
+        self,
+        *,
+        corpus_path: str,
+        stats_path: str,
+        schema_path: str,
+        rubric_text: str,
+        retrieval_cfg: EvidenceRetrievalConfig | None = None,
+        context_path: Optional[str] = None,
+        report_out_path: Optional[str] = None,
+        report_extra_doc_ids: Optional[list[str]] = None,
+        report_max_docs: int = 20,
+        report_max_text_chars: int = 1200,
+        generate_report: bool = True,
+    ) -> dict[str, Any]:
+        query_tool = JsonCorpusQueryTool(
+            corpus_path=corpus_path,
+            stats_path=stats_path,
+            schema_path=schema_path,
+            hf_token=self.hf_token,
+            device=self.device,
+            model=self.model,
+            cfg=(retrieval_cfg or EvidenceRetrievalConfig()).to_agent_config(),
+        )
+        return self._grade_from_query_tool_context(
+            query_tool=query_tool,
+            rubric_text=rubric_text,
+            context_path=context_path,
+            report_out_path=report_out_path,
+            report_extra_doc_ids=report_extra_doc_ids,
+            report_max_docs=report_max_docs,
+            report_max_text_chars=report_max_text_chars,
+            generate_report=generate_report,
+        )
+
+    def _grade_from_query_tool_context(
         self,
         *,
         query_tool: JsonCorpusQueryTool,
