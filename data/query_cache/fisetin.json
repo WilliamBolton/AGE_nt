@@ -1,0 +1,31 @@
+{
+  "primary_name": "fisetin",
+  "synonyms": [
+    "3,3',4',7-tetrahydroxyflavone",
+    "flavonoid fisetin"
+  ],
+  "analogs": [
+    "quercetin",
+    "kaempferol",
+    "myricetin"
+  ],
+  "mechanism_terms": [
+    "Nrf2 pathway",
+    "antioxidant activity",
+    "senolytic activity",
+    "anti-inflammatory effects"
+  ],
+  "mesh_terms": [
+    "Fisetin[MeSH Terms]",
+    "Flavonoids[MeSH Terms]",
+    "Antioxidants[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Fisetin[MeSH Terms] OR 3,3',4',7-tetrahydroxyflavone OR flavonoid fisetin OR flavonoids[MeSH Terms] AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "fisetin",
+    "general": "research on fisetin and its effects on aging and longevity",
+    "preprint": "fisetin aging longevity intervention"
+  }
+}

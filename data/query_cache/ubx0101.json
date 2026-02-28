@@ -1,0 +1,31 @@
+{
+  "primary_name": "UBX0101",
+  "synonyms": [
+    "Unity Biotechnology senolytic",
+    "UBX-0101",
+    "UBX 0101"
+  ],
+  "analogs": [
+    "UBX1967",
+    "UBX1325"
+  ],
+  "mechanism_terms": [
+    "senolytic therapy",
+    "apoptosis",
+    "cellular senescence",
+    "p53 pathway",
+    "Bcl-2 family proteins"
+  ],
+  "mesh_terms": [
+    "Senolytic Agents",
+    "Cell Aging",
+    "Apoptosis",
+    "Biological Aging"
+  ],
+  "queries": {
+    "pubmed": "UBX0101[All Fields] OR 'Unity Biotechnology senolytic'[All Fields] OR 'UBX-0101'[All Fields] OR 'UBX 0101'[All Fields] OR 'senolytic therapy'[MeSH Terms] OR 'senolytic agents'[MeSH Terms] OR 'cellular senescence'[MeSH Terms] OR 'apoptosis'[MeSH Terms]",
+    "clinical_trials": "UBX0101 OR 'Unity Biotechnology senolytic' OR 'UBX-0101' OR 'UBX 0101'",
+    "general": "Research on UBX0101, a senolytic therapy developed by Unity Biotechnology, and its effects on aging and cellular senescence.",
+    "preprint": "UBX0101 OR 'Unity Biotechnology senolytic' OR 'UBX-0101' OR 'UBX 0101'"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "primary_name": "alpha-ketoglutarate",
+  "synonyms": [
+    "AKG",
+    "calcium alpha-ketoglutarate",
+    "CaAKG"
+  ],
+  "analogs": [
+    "beta-ketoglutarate",
+    "succinic acid"
+  ],
+  "mechanism_terms": [
+    "TCA cycle",
+    "energy metabolism",
+    "NAD+ metabolism",
+    "glutamate metabolism"
+  ],
+  "mesh_terms": [
+    "Alpha-Ketoglutarate[MeSH Terms]",
+    "Calcium[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "alpha-ketoglutarate[MeSH Terms] OR AKG OR calcium alpha-ketoglutarate OR CaAKG AND (aging[MeSH Terms] OR longevity[MeSH Terms])",
+    "clinical_trials": "alpha-ketoglutarate OR AKG OR calcium alpha-ketoglutarate OR CaAKG",
+    "general": "research studies on alpha-ketoglutarate and its effects on aging and longevity",
+    "preprint": "alpha-ketoglutarate OR AKG OR calcium alpha-ketoglutarate OR CaAKG aging longevity"
+  }
+}

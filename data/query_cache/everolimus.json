@@ -1,0 +1,33 @@
+{
+  "primary_name": "everolimus",
+  "synonyms": [
+    "Afinitor",
+    "RAD001",
+    "RAD-001",
+    "everolimus (INN)",
+    "everolimus (USAN)"
+  ],
+  "analogs": [
+    "sirolimus",
+    "temsirolimus"
+  ],
+  "mechanism_terms": [
+    "mTOR inhibitor",
+    "mechanistic target of rapamycin",
+    "autophagy modulation",
+    "cellular senescence"
+  ],
+  "mesh_terms": [
+    "Everolimus[MeSH Terms]",
+    "mTOR Inhibitors[MeSH Terms]",
+    "Cell Aging[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Autophagy[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Everolimus[MeSH Terms] OR Afinitor OR RAD001 OR RAD-001 OR everolimus (INN) OR everolimus (USAN) OR mTOR Inhibitors[MeSH Terms] AND (Aging[MeSH Terms] OR Cell Aging[MeSH Terms] OR Autophagy[MeSH Terms])",
+    "clinical_trials": "everolimus OR Afinitor OR RAD001",
+    "general": "Research on everolimus and its effects on aging and longevity",
+    "preprint": "everolimus aging longevity intervention OR Afinitor aging OR RAD001 longevity"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "primary_name": "CoQ10",
+  "synonyms": [
+    "coenzyme Q10",
+    "ubiquinone",
+    "ubiquinol",
+    "MitoQ"
+  ],
+  "analogs": [
+    "idebenone",
+    "vitamin E",
+    "vitamin C"
+  ],
+  "mechanism_terms": [
+    "mitochondrial function",
+    "oxidative phosphorylation",
+    "antioxidant activity",
+    "energy metabolism"
+  ],
+  "mesh_terms": [
+    "Coenzyme Q10[MeSH Terms]",
+    "Ubiquinone[MeSH Terms]",
+    "Ubiquinol[MeSH Terms]",
+    "Mitochondria[MeSH Terms]",
+    "Oxidative Stress[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Coenzyme Q10[MeSH Terms] OR Ubiquinone[MeSH Terms] OR Ubiquinol[MeSH Terms] AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "CoQ10 OR coenzyme Q10 OR ubiquinone OR ubiquinol OR MitoQ",
+    "general": "research on CoQ10 and its effects on aging and longevity",
+    "preprint": "CoQ10 OR coenzyme Q10 OR ubiquinone OR ubiquinol OR MitoQ in aging and longevity studies"
+  }
+}

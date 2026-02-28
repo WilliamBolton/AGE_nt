@@ -1,0 +1,38 @@
+{
+  "primary_name": "epigenetic reprogramming",
+  "synonyms": [
+    "Yamanaka factors",
+    "OSKM",
+    "partial reprogramming",
+    "iPSC reprogramming",
+    "Oct4",
+    "Sox2",
+    "Klf4",
+    "Myc"
+  ],
+  "analogs": [
+    "induced pluripotent stem cells (iPSCs)",
+    "somatic cell nuclear transfer (SCNT)",
+    "transcription factor-mediated reprogramming"
+  ],
+  "mechanism_terms": [
+    "cellular reprogramming",
+    "epigenetic modification",
+    "gene expression regulation",
+    "stem cell differentiation",
+    "telomere lengthening"
+  ],
+  "mesh_terms": [
+    "Epigenesis, Genetic[MeSH Terms]",
+    "Stem Cells[MeSH Terms]",
+    "Cell Reprogramming[MeSH Terms]",
+    "Gene Expression Regulation[MeSH Terms]",
+    "Aging[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "epigenetic reprogramming[MeSH Terms] OR Yamanaka factors OR OSKM OR partial reprogramming OR iPSC reprogramming OR Oct4 OR Sox2 OR Klf4 OR Myc",
+    "clinical_trials": "epigenetic reprogramming OR Yamanaka factors OR OSKM OR partial reprogramming OR iPSC reprogramming",
+    "general": "research on epigenetic reprogramming and its effects on aging and longevity, including Yamanaka factors and iPSC technology",
+    "preprint": "epigenetic reprogramming OR Yamanaka factors OR OSKM OR partial reprogramming OR iPSC reprogramming"
+  }
+}

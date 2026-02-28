@@ -1,0 +1,34 @@
+{
+  "primary_name": "omega-3 fatty acids",
+  "synonyms": [
+    "fish oil",
+    "EPA",
+    "DHA",
+    "icosapent ethyl",
+    "docosahexaenoic acid",
+    "eicosapentaenoic acid"
+  ],
+  "analogs": [
+    "alpha-linolenic acid",
+    "omega-6 fatty acids"
+  ],
+  "mechanism_terms": [
+    "anti-inflammatory pathways",
+    "lipid metabolism",
+    "cell membrane fluidity",
+    "neuroprotective effects"
+  ],
+  "mesh_terms": [
+    "Fatty Acids, Omega-3[MeSH Terms]",
+    "Eicosapentaenoic Acid[MeSH Terms]",
+    "Docosahexaenoic Acid[MeSH Terms]",
+    "Fish Oils[MeSH Terms]",
+    "Dietary Fats[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "(Fatty Acids, Omega-3[MeSH Terms] OR fish oil OR EPA OR DHA OR icosapent ethyl) AND (aging OR longevity)",
+    "clinical_trials": "omega-3 fatty acids OR fish oil OR EPA OR DHA OR icosapent ethyl",
+    "general": "Research on the effects of omega-3 fatty acids, including fish oil and EPA/DHA, on aging and longevity",
+    "preprint": "omega-3 fatty acids OR fish oil OR EPA OR DHA OR icosapent ethyl aging longevity"
+  }
+}

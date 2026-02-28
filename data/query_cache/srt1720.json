@@ -1,0 +1,33 @@
+{
+  "primary_name": "SRT1720",
+  "synonyms": [
+    "SRT 1720",
+    "SRT-1720",
+    "SRT1720",
+    "SRT-1720",
+    "SRT1720A"
+  ],
+  "analogs": [
+    "SRT2183",
+    "SRT1460"
+  ],
+  "mechanism_terms": [
+    "SIRT1 activator",
+    "sirtuin",
+    "NAD+ metabolism",
+    "caloric restriction mimetic"
+  ],
+  "mesh_terms": [
+    "Sirtuin 1",
+    "Sirtuins",
+    "Caloric Restriction",
+    "Aging",
+    "Longevity"
+  ],
+  "queries": {
+    "pubmed": "(SRT1720[MeSH Terms] OR SRT 1720[MeSH Terms] OR SRT-1720[MeSH Terms] OR SIRT1 activator[MeSH Terms] OR sirtuin[MeSH Terms]) AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "SRT1720 OR SRT 1720 OR SRT-1720",
+    "general": "Research on SRT1720 and its effects on aging and longevity",
+    "preprint": "SRT1720 aging longevity intervention"
+  }
+}

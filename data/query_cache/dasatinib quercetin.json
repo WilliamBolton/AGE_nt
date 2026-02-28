@@ -1,0 +1,32 @@
+{
+  "primary_name": "dasatinib quercetin",
+  "synonyms": [
+    "D+Q",
+    "dasatinib plus quercetin",
+    "senolytic cocktail"
+  ],
+  "analogs": [
+    "dasatinib",
+    "quercetin"
+  ],
+  "mechanism_terms": [
+    "senolytic therapy",
+    "apoptosis",
+    "cellular senescence",
+    "inhibition of SRC family kinases",
+    "antioxidant activity"
+  ],
+  "mesh_terms": [
+    "Dasatinib[MeSH Terms]",
+    "Quercetin[MeSH Terms]",
+    "Senolytics[MeSH Terms]",
+    "Cell Senescence[MeSH Terms]",
+    "Apoptosis[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "dasatinib[MeSH Terms] AND quercetin[MeSH Terms] AND (senolytic OR senolytics OR 'senolytic cocktail')",
+    "clinical_trials": "dasatinib quercetin OR D+Q OR 'dasatinib plus quercetin' OR 'senolytic cocktail'",
+    "general": "research on dasatinib and quercetin as a senolytic cocktail for aging and longevity",
+    "preprint": "dasatinib quercetin senolytic therapy aging longevity"
+  }
+}

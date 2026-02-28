@@ -1,0 +1,32 @@
+{
+  "primary_name": "CD38 inhibitors",
+  "synonyms": [
+    "apigenin",
+    "quercetin CD38",
+    "78c"
+  ],
+  "analogs": [
+    "NAD+ precursors",
+    "NADH",
+    "Nicotinamide riboside",
+    "Nicotinamide mononucleotide"
+  ],
+  "mechanism_terms": [
+    "NAD+ metabolism",
+    "calcium signaling",
+    "immune modulation"
+  ],
+  "mesh_terms": [
+    "CD38 [MeSH Terms]",
+    "NAD [MeSH Terms]",
+    "Aging [MeSH Terms]",
+    "Longevity [MeSH Terms]",
+    "Inflammation [MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "CD38 inhibitors [MeSH Terms] OR apigenin OR quercetin CD38 OR 78c AND (Aging [MeSH Terms] OR Longevity [MeSH Terms])",
+    "clinical_trials": "CD38 inhibitors OR apigenin OR quercetin CD38 OR 78c",
+    "general": "Research on CD38 inhibitors and their effects on aging and longevity, including compounds like apigenin and quercetin.",
+    "preprint": "CD38 inhibitors, apigenin, quercetin CD38, 78c, aging, longevity"
+  }
+}

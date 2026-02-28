@@ -1,0 +1,36 @@
+{
+  "primary_name": "methylene blue",
+  "synonyms": [
+    "methylthioninium chloride",
+    "MB",
+    "methylthionine",
+    "methylene blue chloride",
+    "methylene blue dye"
+  ],
+  "analogs": [
+    "toluidine blue",
+    "brilliant blue",
+    "thionine"
+  ],
+  "mechanism_terms": [
+    "mitochondrial function",
+    "oxidative stress",
+    "neuroprotection",
+    "electron transport chain",
+    "antioxidant activity"
+  ],
+  "mesh_terms": [
+    "Methylene Blue[MeSH Terms]",
+    "Antioxidants[MeSH Terms]",
+    "Oxidative Stress[MeSH Terms]",
+    "Neuroprotective Agents[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Methylene Blue[MeSH Terms] OR methylthioninium chloride OR MB OR methylthionine OR methylene blue dye OR methylene blue chloride AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "methylene blue OR methylthioninium chloride",
+    "general": "What are the effects of methylene blue on aging and longevity?",
+    "preprint": "methylene blue OR methylthioninium chloride effects on aging and longevity"
+  }
+}

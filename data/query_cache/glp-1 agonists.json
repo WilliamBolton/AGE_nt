@@ -1,0 +1,39 @@
+{
+  "primary_name": "GLP-1 agonists",
+  "synonyms": [
+    "semaglutide",
+    "liraglutide",
+    "ozempic",
+    "wegovy",
+    "tirzepatide",
+    "GLP-1 receptor agonists",
+    "glucagon-like peptide-1 receptor agonists"
+  ],
+  "analogs": [
+    "exenatide",
+    "dulaglutide",
+    "albiglutide"
+  ],
+  "mechanism_terms": [
+    "GLP-1 signaling pathway",
+    "insulin secretion",
+    "glucose metabolism",
+    "appetite regulation",
+    "neuroprotection"
+  ],
+  "mesh_terms": [
+    "Glucagon-Like Peptide-1",
+    "Receptor, Glucagon-Like Peptide-1",
+    "Insulin",
+    "Diabetes Mellitus, Type 2",
+    "Obesity",
+    "Weight Loss",
+    "Neurodegenerative Diseases"
+  ],
+  "queries": {
+    "pubmed": "GLP-1 agonists[MeSH Terms] OR semaglutide[MeSH Terms] OR liraglutide[MeSH Terms] OR ozempic[MeSH Terms] OR wegovy[MeSH Terms] OR tirzepatide[MeSH Terms]",
+    "clinical_trials": "GLP-1 agonists OR semaglutide OR liraglutide OR ozempic OR wegovy OR tirzepatide",
+    "general": "research on GLP-1 agonists and their effects on aging and longevity, including studies on semaglutide, liraglutide, ozempic, wegovy, and tirzepatide",
+    "preprint": "GLP-1 agonists OR semaglutide OR liraglutide OR ozempic OR wegovy OR tirzepatide"
+  }
+}

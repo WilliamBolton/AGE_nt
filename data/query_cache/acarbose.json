@@ -1,0 +1,31 @@
+{
+  "primary_name": "acarbose",
+  "synonyms": [
+    "precose",
+    "glucobay",
+    "alpha-glucosidase inhibitor",
+    "ACB"
+  ],
+  "analogs": [
+    "miglitol",
+    "voglibose"
+  ],
+  "mechanism_terms": [
+    "alpha-glucosidase inhibition",
+    "carbohydrate metabolism",
+    "postprandial glucose control"
+  ],
+  "mesh_terms": [
+    "Acarbose[MeSH Terms]",
+    "Alpha-Glucosidase Inhibitors[MeSH Terms]",
+    "Diabetes Mellitus[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Acarbose[MeSH Terms] OR precose OR glucobay OR alpha-glucosidase inhibitor OR ACB AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "acarbose OR precose OR glucobay",
+    "general": "research on acarbose and its effects on aging and longevity",
+    "preprint": "acarbose OR precose OR glucobay AND aging OR longevity"
+  }
+}

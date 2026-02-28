@@ -1,0 +1,32 @@
+{
+  "primary_name": "spermidine",
+  "synonyms": [
+    "N-(3-aminopropyl)butane-1,4-diamine",
+    "1,4-butanediamine, N-(3-aminopropyl)-",
+    "SPM",
+    "N-(3-aminopropyl)putrescine"
+  ],
+  "analogs": [
+    "putrescine",
+    "spermine"
+  ],
+  "mechanism_terms": [
+    "autophagy",
+    "cellular senescence",
+    "mTOR pathway",
+    "longevity pathways"
+  ],
+  "mesh_terms": [
+    "Spermidine",
+    "Autophagy",
+    "Cell Aging",
+    "Longevity",
+    "Aging"
+  ],
+  "queries": {
+    "pubmed": "Spermidine[MeSH Terms] OR N-(3-aminopropyl)butane-1,4-diamine[MeSH Terms] OR SPM[MeSH Terms] OR N-(3-aminopropyl)putrescine[MeSH Terms] OR putrescine[MeSH Terms] OR spermine[MeSH Terms] AND (Autophagy[MeSH Terms] OR Cell Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "spermidine",
+    "general": "research on the effects of spermidine on aging and longevity",
+    "preprint": "spermidine aging longevity intervention"
+  }
+}

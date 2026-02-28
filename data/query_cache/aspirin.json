@@ -1,0 +1,31 @@
+{
+  "primary_name": "aspirin",
+  "synonyms": [
+    "acetylsalicylic acid",
+    "ASA",
+    "low-dose aspirin"
+  ],
+  "analogs": [
+    "salicylic acid",
+    "diflunisal",
+    "salsalate"
+  ],
+  "mechanism_terms": [
+    "cyclooxygenase inhibition",
+    "anti-inflammatory",
+    "antiplatelet",
+    "prostaglandin synthesis inhibition"
+  ],
+  "mesh_terms": [
+    "Aspirin[MeSH Terms]",
+    "Acetylsalicylic Acid[MeSH Terms]",
+    "Anti-Inflammatory Agents[MeSH Terms]",
+    "Platelet Aggregation Inhibitors[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Aspirin[MeSH Terms] OR Acetylsalicylic Acid[MeSH Terms] OR ASA OR low-dose aspirin AND aging",
+    "clinical_trials": "Aspirin OR Acetylsalicylic Acid OR ASA OR low-dose aspirin",
+    "general": "Research on the effects of aspirin on aging and longevity",
+    "preprint": "Aspirin OR Acetylsalicylic Acid OR ASA OR low-dose aspirin AND aging"
+  }
+}

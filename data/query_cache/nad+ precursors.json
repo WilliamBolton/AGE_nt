@@ -1,0 +1,40 @@
+{
+  "primary_name": "NAD+ precursors",
+  "synonyms": [
+    "NMN",
+    "NR",
+    "nicotinamide mononucleotide",
+    "nicotinamide riboside",
+    "niacin",
+    "nicotinic acid",
+    "nicotinamide",
+    "vitamin B3"
+  ],
+  "analogs": [
+    "NADH",
+    "NADP+",
+    "NADPH"
+  ],
+  "mechanism_terms": [
+    "NAD+ biosynthesis",
+    "sirtuin activation",
+    "NAD+ metabolism",
+    "NAD+ signaling",
+    "energy metabolism"
+  ],
+  "mesh_terms": [
+    "Nicotinamide Adenine Dinucleotide [MeSH Terms]",
+    "Nicotinamide [MeSH Terms]",
+    "Nicotinic Acid [MeSH Terms]",
+    "Nicotinamide Riboside [MeSH Terms]",
+    "Nicotinamide Mononucleotide [MeSH Terms]",
+    "Aging [MeSH Terms]",
+    "Longevity [MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Nicotinamide Adenine Dinucleotide [MeSH Terms] OR NMN OR NR OR nicotinamide mononucleotide OR nicotinamide riboside OR niacin OR nicotinic acid OR nicotinamide AND Aging [MeSH Terms]",
+    "clinical_trials": "NAD+ precursors OR NMN OR NR OR nicotinamide mononucleotide OR nicotinamide riboside OR niacin",
+    "general": "Research on NAD+ precursors like NMN and NR and their effects on aging and longevity",
+    "preprint": "NAD+ precursors, NMN, NR, nicotinamide mononucleotide, nicotinamide riboside, niacin in aging and longevity studies"
+  }
+}

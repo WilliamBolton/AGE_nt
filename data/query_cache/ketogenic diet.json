@@ -1,0 +1,33 @@
+{
+  "primary_name": "ketogenic diet",
+  "synonyms": [
+    "keto",
+    "ketosis",
+    "beta-hydroxybutyrate",
+    "BHB"
+  ],
+  "analogs": [
+    "low-carbohydrate diet",
+    "high-fat diet"
+  ],
+  "mechanism_terms": [
+    "ketogenesis",
+    "fatty acid oxidation",
+    "energy metabolism",
+    "insulin sensitivity"
+  ],
+  "mesh_terms": [
+    "Diet, Ketogenic[MeSH Terms]",
+    "Weight Loss[MeSH Terms]",
+    "Metabolic Syndrome[MeSH Terms]",
+    "Diabetes Mellitus[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Diet, Ketogenic[MeSH Terms] AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "ketogenic diet OR keto OR ketosis OR beta-hydroxybutyrate OR BHB",
+    "general": "What is the impact of the ketogenic diet on aging and longevity?",
+    "preprint": "ketogenic diet OR keto OR ketosis OR beta-hydroxybutyrate OR BHB"
+  }
+}

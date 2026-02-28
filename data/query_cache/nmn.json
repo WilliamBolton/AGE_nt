@@ -1,0 +1,31 @@
+{
+  "primary_name": "Nicotinamide Mononucleotide",
+  "synonyms": [
+    "NMN",
+    "beta-NMN",
+    "nicotinamide-5'-mononucleotide"
+  ],
+  "analogs": [
+    "Nicotinamide riboside",
+    "Nicotinic acid",
+    "Nicotinamide"
+  ],
+  "mechanism_terms": [
+    "NAD+ biosynthesis",
+    "sirtuin activation",
+    "NAD+ metabolism"
+  ],
+  "mesh_terms": [
+    "Nicotinamide Mononucleotide[MeSH Terms]",
+    "Nicotinamide[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]",
+    "NAD[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Nicotinamide Mononucleotide[MeSH Terms] OR NMN OR beta-NMN OR nicotinamide-5'-mononucleotide AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "Nicotinamide Mononucleotide OR NMN OR beta-NMN",
+    "general": "Research on the effects of Nicotinamide Mononucleotide (NMN) on aging and longevity",
+    "preprint": "Nicotinamide Mononucleotide OR NMN OR beta-NMN AND aging OR longevity"
+  }
+}

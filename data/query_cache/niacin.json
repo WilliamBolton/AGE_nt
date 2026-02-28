@@ -1,0 +1,33 @@
+{
+  "primary_name": "niacin",
+  "synonyms": [
+    "nicotinic acid",
+    "vitamin B3",
+    "niacine",
+    "3-pyridinecarboxylic acid"
+  ],
+  "analogs": [
+    "nicotinamide",
+    "nicotinamide riboside",
+    "nicotinic acid adenine dinucleotide"
+  ],
+  "mechanism_terms": [
+    "NAD+ biosynthesis",
+    "NAD+ metabolism",
+    "sirtuin activation",
+    "lipid metabolism"
+  ],
+  "mesh_terms": [
+    "Nicotinic Acid[MeSH Terms]",
+    "Vitamin B3[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]",
+    "Metabolism[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Nicotinic Acid[MeSH Terms] OR Vitamin B3[MeSH Terms] AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "niacin OR nicotinic acid OR vitamin B3",
+    "general": "Research on niacin and its effects on aging and longevity",
+    "preprint": "niacin OR nicotinic acid OR vitamin B3 AND aging OR longevity"
+  }
+}

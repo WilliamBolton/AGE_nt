@@ -1,0 +1,32 @@
+{
+  "primary_name": "pioglitazone",
+  "synonyms": [
+    "Actos",
+    "BRL 49653",
+    "GW 1929",
+    "Pio",
+    "Pioglitazone hydrochloride"
+  ],
+  "analogs": [
+    "rosiglitazone",
+    "troglitazone"
+  ],
+  "mechanism_terms": [
+    "PPAR gamma agonist",
+    "peroxisome proliferator-activated receptor gamma",
+    "insulin sensitizer"
+  ],
+  "mesh_terms": [
+    "Thiazolidinediones",
+    "Pioglitazone",
+    "Insulin Sensitizing Agents",
+    "Diabetes Mellitus, Type 2",
+    "Aging"
+  ],
+  "queries": {
+    "pubmed": "(Pioglitazone[MeSH Terms] OR Actos[MeSH Terms] OR BRL 49653[MeSH Terms] OR GW 1929[MeSH Terms] OR Pio[MeSH Terms] OR Pioglitazone hydrochloride[MeSH Terms]) AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "pioglitazone OR Actos",
+    "general": "Research on pioglitazone and its effects on aging and longevity",
+    "preprint": "pioglitazone aging longevity intervention"
+  }
+}
