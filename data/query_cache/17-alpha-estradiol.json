@@ -1,0 +1,31 @@
+{
+  "primary_name": "17-alpha-estradiol",
+  "synonyms": [
+    "17aE2",
+    "17-alpha-estradiol",
+    "17-alpha-estradiol-3-methyl ether"
+  ],
+  "analogs": [
+    "estradiol",
+    "estrone",
+    "estriol"
+  ],
+  "mechanism_terms": [
+    "estrogen receptor",
+    "nuclear hormone receptor",
+    "gene expression modulation"
+  ],
+  "mesh_terms": [
+    "Estradiol[MeSH Terms]",
+    "Estrogens[MeSH Terms]",
+    "Hormones[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "(17-alpha-estradiol[MeSH Terms] OR 17aE2[MeSH Terms] OR 17-alpha-estradiol-3-methyl ether[MeSH Terms]) AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "17-alpha-estradiol OR 17aE2",
+    "general": "research on the effects of 17-alpha-estradiol on aging and longevity",
+    "preprint": "17-alpha-estradiol OR 17aE2 effects on aging and longevity"
+  }
+}

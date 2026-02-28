@@ -1,0 +1,32 @@
+{
+  "primary_name": "berberine",
+  "synonyms": [
+    "berberina",
+    "berberine hydrochloride",
+    "Coptis chinensis extract"
+  ],
+  "analogs": [
+    "palmatine",
+    "jatrorrhizine",
+    "coptisine"
+  ],
+  "mechanism_terms": [
+    "AMP-activated protein kinase",
+    "Nrf2 pathway",
+    "sirtuins",
+    "insulin signaling pathway"
+  ],
+  "mesh_terms": [
+    "Berberine[MeSH Terms]",
+    "Plant Extracts[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]",
+    "Metabolic Syndrome[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "berberine[MeSH Terms] OR berberina OR berberine hydrochloride OR Coptis chinensis extract",
+    "clinical_trials": "berberine",
+    "general": "What are the effects of berberine on aging and longevity?",
+    "preprint": "berberine aging longevity"
+  }
+}

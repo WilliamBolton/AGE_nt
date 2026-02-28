@@ -1,0 +1,33 @@
+{
+  "primary_name": "Nicotinamide Riboside",
+  "synonyms": [
+    "NR",
+    "Niagen",
+    "TRU Niagen",
+    "nicotinamide riboside chloride"
+  ],
+  "analogs": [
+    "Nicotinamide",
+    "Nicotinic Acid",
+    "Nicotinamide Mononucleotide"
+  ],
+  "mechanism_terms": [
+    "NAD+ biosynthesis",
+    "Nicotinamide adenine dinucleotide",
+    "sirtuins",
+    "NAD+ precursors"
+  ],
+  "mesh_terms": [
+    "Nicotinamide Riboside[MeSH Terms]",
+    "Nicotinamide[MeSH Terms]",
+    "Nicotinic Acids[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Nicotinamide Riboside[MeSH Terms] OR NR OR Niagen OR TRU Niagen OR nicotinamide riboside chloride",
+    "clinical_trials": "Nicotinamide Riboside OR NR OR Niagen OR TRU Niagen",
+    "general": "Research on Nicotinamide Riboside and its effects on aging and longevity",
+    "preprint": "Nicotinamide Riboside OR NR OR Niagen OR TRU Niagen"
+  }
+}

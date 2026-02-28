@@ -10,6 +10,7 @@ Test with MCP Inspector:
 from __future__ import annotations
 
 import json
+import sys
 from contextlib import asynccontextmanager
 
 from loguru import logger
@@ -353,7 +354,10 @@ async def search_documents(
 
 
 def main():
-    mcp.run(transport="sse")
+    transport = "stdio"
+    if "--sse" in sys.argv:
+        transport = "sse"
+    mcp.run(transport=transport)
 
 
 if __name__ == "__main__":

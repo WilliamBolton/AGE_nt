@@ -1,0 +1,31 @@
+{
+  "primary_name": "rapamycin",
+  "synonyms": [
+    "sirolimus",
+    "rapamune",
+    "mTOR inhibitor"
+  ],
+  "analogs": [
+    "everolimus",
+    "temsirolimus"
+  ],
+  "mechanism_terms": [
+    "mTOR pathway",
+    "mechanistic target of rapamycin",
+    "autophagy modulation",
+    "cellular senescence"
+  ],
+  "mesh_terms": [
+    "Sirolimus[MeSH Terms]",
+    "mTOR Inhibitors[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]",
+    "Cell Senescence[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "rapamycin[MeSH Terms] OR sirolimus[MeSH Terms] OR rapamune[MeSH Terms] OR mTOR inhibitor[MeSH Terms] AND (Aging[MeSH Terms] OR Longevity[MeSH Terms] OR Cell Senescence[MeSH Terms])",
+    "clinical_trials": "rapamycin OR sirolimus OR rapamune",
+    "general": "research on rapamycin and its effects on aging and longevity",
+    "preprint": "rapamycin OR sirolimus OR rapamune in the context of aging and longevity"
+  }
+}

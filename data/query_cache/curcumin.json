@@ -1,0 +1,32 @@
+{
+  "primary_name": "curcumin",
+  "synonyms": [
+    "turmeric extract",
+    "diferuloylmethane",
+    "curcuma longa extract",
+    "curcuma extract"
+  ],
+  "analogs": [
+    "demethoxycurcumin",
+    "bisdemethoxycurcumin"
+  ],
+  "mechanism_terms": [
+    "NF-kB pathway",
+    "Nrf2 activation",
+    "antioxidant activity",
+    "anti-inflammatory effects"
+  ],
+  "mesh_terms": [
+    "Curcumin[MeSH Terms]",
+    "Turmeric[MeSH Terms]",
+    "Anti-Inflammatory Agents[MeSH Terms]",
+    "Phytotherapy[MeSH Terms]",
+    "Oxidative Stress[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "curcumin[MeSH Terms] OR turmeric extract OR diferuloylmethane OR curcuma longa extract OR curcuma extract AND (aging OR longevity OR lifespan OR senescence)",
+    "clinical_trials": "curcumin OR turmeric extract OR diferuloylmethane",
+    "general": "What are the effects of curcumin on aging and longevity?",
+    "preprint": "curcumin OR turmeric extract OR diferuloylmethane AND aging OR longevity"
+  }
+}

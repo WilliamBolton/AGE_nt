@@ -1,0 +1,36 @@
+{
+  "primary_name": "thymus regeneration",
+  "synonyms": [
+    "TRIIM trial",
+    "growth hormone thymus",
+    "thymic rejuvenation",
+    "thymic regeneration",
+    "thymus rejuvenation therapy"
+  ],
+  "analogs": [
+    "thymosin",
+    "thymopoietin",
+    "growth hormone",
+    "insulin-like growth factor 1 (IGF-1)"
+  ],
+  "mechanism_terms": [
+    "thymic involution",
+    "immune system rejuvenation",
+    "hormonal modulation",
+    "stem cell therapy"
+  ],
+  "mesh_terms": [
+    "Thymus Gland [MeSH Terms]",
+    "Thymectomy [MeSH Terms]",
+    "Hormones [MeSH Terms]",
+    "Growth Hormone [MeSH Terms]",
+    "Aging [MeSH Terms]",
+    "Immune System [MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "(Thymus Gland[MeSH Terms] OR thymus regeneration OR TRIIM trial OR growth hormone thymus OR thymic rejuvenation OR thymic regeneration) AND (Aging[MeSH Terms] OR Immune System[MeSH Terms])",
+    "clinical_trials": "thymus regeneration OR TRIIM trial OR growth hormone thymus OR thymic rejuvenation",
+    "general": "What are the latest research findings on thymus regeneration and its potential impact on aging and immune system rejuvenation?",
+    "preprint": "thymus regeneration OR TRIIM trial OR growth hormone thymus OR thymic rejuvenation"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "primary_name": "hyperbaric oxygen therapy",
+  "synonyms": [
+    "HBOT",
+    "hyperbaric oxygen",
+    "HBO"
+  ],
+  "analogs": [
+    "oxygen therapy",
+    "normobaric oxygen therapy"
+  ],
+  "mechanism_terms": [
+    "hypoxia-inducible factor",
+    "reactive oxygen species",
+    "angiogenesis",
+    "cellular respiration"
+  ],
+  "mesh_terms": [
+    "Oxygen Inhalation Therapy[MeSH Terms]",
+    "Hyperbaric Oxygenation[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "hyperbaric oxygen therapy[MeSH Terms] OR HBOT OR hyperbaric oxygen OR HBO AND Aging[MeSH Terms] OR Longevity[MeSH Terms]",
+    "clinical_trials": "hyperbaric oxygen therapy OR HBOT OR hyperbaric oxygen OR HBO",
+    "general": "What is the impact of hyperbaric oxygen therapy on aging and longevity?",
+    "preprint": "hyperbaric oxygen therapy OR HBOT OR hyperbaric oxygen OR HBO aging longevity"
+  }
+}

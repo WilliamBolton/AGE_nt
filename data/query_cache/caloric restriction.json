@@ -1,0 +1,36 @@
+{
+  "primary_name": "caloric restriction",
+  "synonyms": [
+    "calorie restriction",
+    "dietary restriction",
+    "CR",
+    "intermittent fasting",
+    "time-restricted eating"
+  ],
+  "analogs": [
+    "energy restriction",
+    "nutritional restriction"
+  ],
+  "mechanism_terms": [
+    "AMPK pathway",
+    "mTOR pathway",
+    "sirtuins",
+    "autophagy",
+    "insulin signaling",
+    "oxidative stress"
+  ],
+  "mesh_terms": [
+    "Caloric Restriction[MeSH Terms]",
+    "Dietary Restriction[MeSH Terms]",
+    "Intermittent Fasting[MeSH Terms]",
+    "Time-Restricted Feeding[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "(Caloric Restriction[MeSH Terms] OR \"calorie restriction\" OR \"dietary restriction\" OR CR OR \"intermittent fasting\" OR \"time-restricted eating\") AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "caloric restriction OR calorie restriction OR dietary restriction OR CR OR intermittent fasting OR time-restricted eating",
+    "general": "What are the effects of caloric restriction and intermittent fasting on aging and longevity?",
+    "preprint": "caloric restriction OR calorie restriction OR dietary restriction OR CR OR intermittent fasting OR time-restricted eating"
+  }
+}

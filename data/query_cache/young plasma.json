@@ -1,0 +1,33 @@
+{
+  "primary_name": "young plasma",
+  "synonyms": [
+    "parabiosis",
+    "plasma exchange",
+    "young blood",
+    "heterochronic parabiosis"
+  ],
+  "analogs": [
+    "old plasma",
+    "aged plasma"
+  ],
+  "mechanism_terms": [
+    "growth factors",
+    "cytokines",
+    "exosomes",
+    "stem cells",
+    "immune modulation"
+  ],
+  "mesh_terms": [
+    "Plasma Exchange[MeSH Terms]",
+    "Blood Transfusion[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Young Adult[MeSH Terms]",
+    "Heterochronic Parabiosis[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "(young plasma[MeSH Terms] OR parabiosis[MeSH Terms] OR plasma exchange[MeSH Terms] OR young blood OR heterochronic parabiosis) AND (aging[MeSH Terms] OR longevity[MeSH Terms])",
+    "clinical_trials": "young plasma OR parabiosis OR plasma exchange OR young blood OR heterochronic parabiosis",
+    "general": "What are the effects of young plasma or young blood on aging and longevity?",
+    "preprint": "young plasma OR parabiosis OR plasma exchange OR young blood OR heterochronic parabiosis"
+  }
+}

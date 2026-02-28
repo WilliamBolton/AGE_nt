@@ -1,0 +1,33 @@
+{
+  "primary_name": "cold exposure",
+  "synonyms": [
+    "cryotherapy",
+    "cold immersion",
+    "cold plunge",
+    "cold shock proteins"
+  ],
+  "analogs": [
+    "ice baths",
+    "cold water therapy",
+    "therapeutic hypothermia"
+  ],
+  "mechanism_terms": [
+    "heat shock proteins",
+    "stress response",
+    "thermogenesis",
+    "inflammation reduction"
+  ],
+  "mesh_terms": [
+    "Cryotherapy[MeSH Terms]",
+    "Cold Temperature[MeSH Terms]",
+    "Therapeutic Hypothermia[MeSH Terms]",
+    "Stress, Physiological[MeSH Terms]",
+    "Heat Shock Proteins[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "(Cryotherapy[MeSH Terms] OR \"cold exposure\" OR \"cold immersion\" OR \"cold plunge\" OR \"cold shock proteins\") AND (aging OR longevity OR lifespan OR age-related disorders)",
+    "clinical_trials": "cold exposure OR cryotherapy OR cold immersion OR cold plunge OR cold shock proteins",
+    "general": "What are the effects of cold exposure on aging and longevity?",
+    "preprint": "cold exposure OR cryotherapy OR cold immersion OR cold plunge OR cold shock proteins"
+  }
+}

@@ -1,12 +1,8 @@
 {
   "intervention": "rapamycin",
-  "fetched_at": "2026-02-27T20:28:06.087046",
+  "fetched_at": "2026-02-28T01:26:46.843259",
   "timeframe": "today 5-y",
   "data_points": [
-    {
-      "date": "2021-02-21",
-      "interest": 11
-    },
     {
       "date": "2021-02-28",
       "interest": 11
@@ -17,7 +13,7 @@
     },
     {
       "date": "2021-03-14",
-      "interest": 11
+      "interest": 12
     },
     {
       "date": "2021-03-21",
@@ -25,7 +21,7 @@
     },
     {
       "date": "2021-03-28",
-      "interest": 10
+      "interest": 9
     },
     {
       "date": "2021-04-04",
@@ -33,15 +29,15 @@
     },
     {
       "date": "2021-04-11",
-      "interest": 10
+      "interest": 11
     },
     {
       "date": "2021-04-18",
-      "interest": 7
+      "interest": 8
     },
     {
       "date": "2021-04-25",
-      "interest": 13
+      "interest": 12
     },
     {
       "date": "2021-05-02",
@@ -61,7 +57,7 @@
     },
     {
       "date": "2021-05-30",
-      "interest": 21
+      "interest": 20
     },
     {
       "date": "2021-06-06",
@@ -81,15 +77,15 @@
     },
     {
       "date": "2021-07-04",
-      "interest": 15
+      "interest": 14
     },
     {
       "date": "2021-07-11",
-      "interest": 12
+      "interest": 13
     },
     {
       "date": "2021-07-18",
-      "interest": 16
+      "interest": 15
     },
     {
       "date": "2021-07-25",
@@ -101,7 +97,7 @@
     },
     {
       "date": "2021-08-08",
-      "interest": 12
+      "interest": 11
     },
     {
       "date": "2021-08-15",
@@ -117,7 +113,7 @@
     },
     {
       "date": "2021-09-05",
-      "interest": 11
+      "interest": 12
     },
     {
       "date": "2021-09-12",
@@ -137,23 +133,23 @@
     },
     {
       "date": "2021-10-10",
-      "interest": 12
+      "interest": 13
     },
     {
       "date": "2021-10-17",
-      "interest": 15
+      "interest": 16
     },
     {
       "date": "2021-10-24",
-      "interest": 13
+      "interest": 12
     },
     {
       "date": "2021-10-31",
-      "interest": 13
+      "interest": 14
     },
     {
       "date": "2021-11-07",
-      "interest": 14
+      "interest": 15
     },
     {
       "date": "2021-11-14",
@@ -213,15 +209,15 @@
     },
     {
       "date": "2022-02-20",
-      "interest": 17
+      "interest": 16
     },
     {
       "date": "2022-02-27",
-      "interest": 33
+      "interest": 34
     },
     {
       "date": "2022-03-06",
-      "interest": 19
+      "interest": 18
     },
     {
       "date": "2022-03-13",
@@ -237,11 +233,11 @@
     },
     {
       "date": "2022-04-03",
-      "interest": 18
+      "interest": 19
     },
     {
       "date": "2022-04-10",
-      "interest": 16
+      "interest": 17
     },
     {
       "date": "2022-04-17",
@@ -257,7 +253,7 @@
     },
     {
       "date": "2022-05-08",
-      "interest": 16
+      "interest": 15
     },
     {
       "date": "2022-05-15",
@@ -265,7 +261,7 @@
     },
     {
       "date": "2022-05-22",
-      "interest": 16
+      "interest": 15
     },
     {
       "date": "2022-05-29",
@@ -293,7 +289,7 @@
     },
     {
       "date": "2022-07-10",
-      "interest": 15
+      "interest": 16
     },
     {
       "date": "2022-07-17",
@@ -325,7 +321,7 @@
     },
     {
       "date": "2022-09-04",
-      "interest": 29
+      "interest": 30
     },
     {
       "date": "2022-09-11",
@@ -337,7 +333,7 @@
     },
     {
       "date": "2022-09-25",
-      "interest": 19
+      "interest": 20
     },
     {
       "date": "2022-10-02",
@@ -345,7 +341,7 @@
     },
     {
       "date": "2022-10-09",
-      "interest": 21
+      "interest": 20
     },
     {
       "date": "2022-10-16",
@@ -369,7 +365,7 @@
     },
     {
       "date": "2022-11-20",
-      "interest": 18
+      "interest": 19
     },
     {
       "date": "2022-11-27",
@@ -389,7 +385,7 @@
     },
     {
       "date": "2022-12-25",
-      "interest": 16
+      "interest": 17
     },
     {
       "date": "2023-01-01",
@@ -421,15 +417,15 @@
     },
     {
       "date": "2023-02-19",
-      "interest": 26
+      "interest": 25
     },
     {
       "date": "2023-02-26",
-      "interest": 23
+      "interest": 22
     },
     {
       "date": "2023-03-05",
-      "interest": 22
+      "interest": 23
     },
     {
       "date": "2023-03-12",
@@ -437,7 +433,7 @@
     },
     {
       "date": "2023-03-19",
-      "interest": 26
+      "interest": 25
     },
     {
       "date": "2023-03-26",
@@ -445,7 +441,7 @@
     },
     {
       "date": "2023-04-02",
-      "interest": 40
+      "interest": 39
     },
     {
       "date": "2023-04-09",
@@ -453,7 +449,7 @@
     },
     {
       "date": "2023-04-16",
-      "interest": 26
+      "interest": 25
     },
     {
       "date": "2023-04-23",
@@ -469,7 +465,7 @@
     },
     {
       "date": "2023-05-14",
-      "interest": 24
+      "interest": 23
     },
     {
       "date": "2023-05-21",
@@ -485,7 +481,7 @@
     },
     {
       "date": "2023-06-11",
-      "interest": 25
+      "interest": 26
     },
     {
       "date": "2023-06-18",
@@ -493,11 +489,11 @@
     },
     {
       "date": "2023-06-25",
-      "interest": 28
+      "interest": 27
     },
     {
       "date": "2023-07-02",
-      "interest": 35
+      "interest": 34
     },
     {
       "date": "2023-07-09",
@@ -505,7 +501,7 @@
     },
     {
       "date": "2023-07-16",
-      "interest": 24
+      "interest": 25
     },
     {
       "date": "2023-07-23",
@@ -525,7 +521,7 @@
     },
     {
       "date": "2023-08-20",
-      "interest": 30
+      "interest": 29
     },
     {
       "date": "2023-08-27",
@@ -533,7 +529,7 @@
     },
     {
       "date": "2023-09-03",
-      "interest": 25
+      "interest": 26
     },
     {
       "date": "2023-09-10",
@@ -545,7 +541,7 @@
     },
     {
       "date": "2023-09-24",
-      "interest": 38
+      "interest": 39
     },
     {
       "date": "2023-10-01",
@@ -557,11 +553,11 @@
     },
     {
       "date": "2023-10-15",
-      "interest": 24
+      "interest": 23
     },
     {
       "date": "2023-10-22",
-      "interest": 26
+      "interest": 25
     },
     {
       "date": "2023-10-29",
@@ -577,11 +573,11 @@
     },
     {
       "date": "2023-11-19",
-      "interest": 22
+      "interest": 21
     },
     {
       "date": "2023-11-26",
-      "interest": 32
+      "interest": 33
     },
     {
       "date": "2023-12-03",
@@ -605,11 +601,11 @@
     },
     {
       "date": "2024-01-07",
-      "interest": 28
+      "interest": 27
     },
     {
       "date": "2024-01-14",
-      "interest": 24
+      "interest": 23
     },
     {
       "date": "2024-01-21",
@@ -621,7 +617,7 @@
     },
     {
       "date": "2024-02-04",
-      "interest": 30
+      "interest": 29
     },
     {
       "date": "2024-02-11",
@@ -633,7 +629,7 @@
     },
     {
       "date": "2024-02-25",
-      "interest": 26
+      "interest": 27
     },
     {
       "date": "2024-03-03",
@@ -645,15 +641,15 @@
     },
     {
       "date": "2024-03-17",
-      "interest": 48
+      "interest": 47
     },
     {
       "date": "2024-03-24",
-      "interest": 32
+      "interest": 33
     },
     {
       "date": "2024-03-31",
-      "interest": 28
+      "interest": 29
     },
     {
       "date": "2024-04-07",
@@ -669,11 +665,11 @@
     },
     {
       "date": "2024-04-28",
-      "interest": 41
+      "interest": 40
     },
     {
       "date": "2024-05-05",
-      "interest": 34
+      "interest": 33
     },
     {
       "date": "2024-05-12",
@@ -681,7 +677,7 @@
     },
     {
       "date": "2024-05-19",
-      "interest": 24
+      "interest": 25
     },
     {
       "date": "2024-05-26",
@@ -693,11 +689,11 @@
     },
     {
       "date": "2024-06-09",
-      "interest": 26
+      "interest": 24
     },
     {
       "date": "2024-06-16",
-      "interest": 24
+      "interest": 23
     },
     {
       "date": "2024-06-23",
@@ -705,23 +701,23 @@
     },
     {
       "date": "2024-06-30",
-      "interest": 55
+      "interest": 54
     },
     {
       "date": "2024-07-07",
-      "interest": 39
+      "interest": 40
     },
     {
       "date": "2024-07-14",
-      "interest": 32
+      "interest": 31
     },
     {
       "date": "2024-07-21",
-      "interest": 45
+      "interest": 44
     },
     {
       "date": "2024-07-28",
-      "interest": 53
+      "interest": 54
     },
     {
       "date": "2024-08-04",
@@ -733,7 +729,7 @@
     },
     {
       "date": "2024-08-18",
-      "interest": 30
+      "interest": 31
     },
     {
       "date": "2024-08-25",
@@ -745,7 +741,7 @@
     },
     {
       "date": "2024-09-08",
-      "interest": 31
+      "interest": 32
     },
     {
       "date": "2024-09-15",
@@ -757,7 +753,7 @@
     },
     {
       "date": "2024-09-29",
-      "interest": 48
+      "interest": 47
     },
     {
       "date": "2024-10-06",
@@ -837,7 +833,7 @@
     },
     {
       "date": "2025-02-16",
-      "interest": 32
+      "interest": 30
     },
     {
       "date": "2025-02-23",
@@ -861,7 +857,7 @@
     },
     {
       "date": "2025-03-30",
-      "interest": 38
+      "interest": 39
     },
     {
       "date": "2025-04-06",
@@ -877,11 +873,11 @@
     },
     {
       "date": "2025-04-27",
-      "interest": 29
+      "interest": 30
     },
     {
       "date": "2025-05-04",
-      "interest": 31
+      "interest": 32
     },
     {
       "date": "2025-05-11",
@@ -893,11 +889,11 @@
     },
     {
       "date": "2025-05-25",
-      "interest": 38
+      "interest": 37
     },
     {
       "date": "2025-06-01",
-      "interest": 34
+      "interest": 35
     },
     {
       "date": "2025-06-08",
@@ -913,7 +909,7 @@
     },
     {
       "date": "2025-06-29",
-      "interest": 36
+      "interest": 35
     },
     {
       "date": "2025-07-06",
@@ -921,19 +917,19 @@
     },
     {
       "date": "2025-07-13",
-      "interest": 32
+      "interest": 33
     },
     {
       "date": "2025-07-20",
-      "interest": 43
+      "interest": 44
     },
     {
       "date": "2025-07-27",
-      "interest": 39
+      "interest": 38
     },
     {
       "date": "2025-08-03",
-      "interest": 64
+      "interest": 65
     },
     {
       "date": "2025-08-10",
@@ -941,19 +937,19 @@
     },
     {
       "date": "2025-08-17",
-      "interest": 90
+      "interest": 89
     },
     {
       "date": "2025-08-24",
-      "interest": 74
+      "interest": 73
     },
     {
       "date": "2025-08-31",
-      "interest": 80
+      "interest": 79
     },
     {
       "date": "2025-09-07",
-      "interest": 71
+      "interest": 70
     },
     {
       "date": "2025-09-14",
@@ -961,27 +957,27 @@
     },
     {
       "date": "2025-09-21",
-      "interest": 72
+      "interest": 71
     },
     {
       "date": "2025-09-28",
-      "interest": 78
+      "interest": 77
     },
     {
       "date": "2025-10-05",
-      "interest": 63
+      "interest": 62
     },
     {
       "date": "2025-10-12",
-      "interest": 58
-    },
-    {
-      "date": "2025-10-19",
       "interest": 57
     },
     {
+      "date": "2025-10-19",
+      "interest": 56
+    },
+    {
       "date": "2025-10-26",
-      "interest": 70
+      "interest": 71
     },
     {
       "date": "2025-11-02",
@@ -989,7 +985,7 @@
     },
     {
       "date": "2025-11-09",
-      "interest": 74
+      "interest": 73
     },
     {
       "date": "2025-11-16",
@@ -997,7 +993,7 @@
     },
     {
       "date": "2025-11-23",
-      "interest": 59
+      "interest": 60
     },
     {
       "date": "2025-11-30",
@@ -1005,11 +1001,11 @@
     },
     {
       "date": "2025-12-07",
-      "interest": 58
+      "interest": 59
     },
     {
       "date": "2025-12-14",
-      "interest": 63
+      "interest": 62
     },
     {
       "date": "2025-12-21",
@@ -1021,15 +1017,15 @@
     },
     {
       "date": "2026-01-04",
-      "interest": 70
+      "interest": 69
     },
     {
       "date": "2026-01-11",
-      "interest": 78
+      "interest": 77
     },
     {
       "date": "2026-01-18",
-      "interest": 73
+      "interest": 72
     },
     {
       "date": "2026-01-25",
@@ -1041,7 +1037,7 @@
     },
     {
       "date": "2026-02-08",
-      "interest": 54
+      "interest": 56
     },
     {
       "date": "2026-02-15",
@@ -1049,22 +1045,22 @@
     },
     {
       "date": "2026-02-22",
-      "interest": 57
+      "interest": 56
     }
   ],
   "related_queries": [
     "rapamycin aging",
-    "rapamycin mtor",
     "rapamycin news",
     "what is rapamycin",
     "rapamycin longevity",
-    "sirolimus rapamycin",
+    "rapamycin buy",
     "rapamycin supplement",
-    "buy rapamycin",
     "rapamycin anti aging",
-    "rapamycin side effects"
+    "rapamycin side effects",
+    "rapamycin cancer",
+    "target of rapamycin"
   ],
   "peak_interest": 100,
   "peak_date": "2025-08-10",
-  "current_interest": 57
+  "current_interest": 56
 }

@@ -1,0 +1,31 @@
+{
+  "primary_name": "trehalose",
+  "synonyms": [
+    "alpha,alpha-trehalose",
+    "trehalose dihydrate",
+    "Treh",
+    "Treh-1"
+  ],
+  "analogs": [
+    "maltose",
+    "sucrose"
+  ],
+  "mechanism_terms": [
+    "autophagy",
+    "cellular stress response",
+    "glycogen metabolism",
+    "protein homeostasis"
+  ],
+  "mesh_terms": [
+    "Trehalose[MeSH Terms]",
+    "Autophagy[MeSH Terms]",
+    "Cell Stress[MeSH Terms]",
+    "Metabolism[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "trehalose[MeSH Terms] OR alpha,alpha-trehalose OR trehalose dihydrate OR Treh OR Treh-1 AND (aging OR longevity OR lifespan OR senescence)",
+    "clinical_trials": "trehalose",
+    "general": "research on trehalose and its effects on aging and longevity",
+    "preprint": "trehalose aging longevity intervention"
+  }
+}

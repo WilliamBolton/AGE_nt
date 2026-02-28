@@ -1,0 +1,47 @@
+{
+  "primary_name": "exercise",
+  "synonyms": [
+    "physical activity",
+    "aerobic exercise",
+    "resistance training",
+    "HIIT",
+    "fitness",
+    "workout",
+    "training",
+    "cardiovascular exercise",
+    "strength training"
+  ],
+  "analogs": [
+    "yoga",
+    "pilates",
+    "dance",
+    "sports activities",
+    "stretching"
+  ],
+  "mechanism_terms": [
+    "muscle hypertrophy",
+    "cardiovascular health",
+    "metabolic rate",
+    "insulin sensitivity",
+    "neurogenesis",
+    "inflammation reduction",
+    "oxidative stress",
+    "hormesis"
+  ],
+  "mesh_terms": [
+    "Exercise [MeSH Terms]",
+    "Physical Activity [MeSH Terms]",
+    "Resistance Training [MeSH Terms]",
+    "Aerobic Exercise [MeSH Terms]",
+    "High-Intensity Interval Training [MeSH Terms]",
+    "Aging [MeSH Terms]",
+    "Longevity [MeSH Terms]",
+    "Health Promotion [MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "exercise[MeSH Terms] OR physical activity[MeSH Terms] OR aerobic exercise[MeSH Terms] OR resistance training[MeSH Terms] OR High-Intensity Interval Training[MeSH Terms] AND Aging[MeSH Terms] OR Longevity[MeSH Terms]",
+    "clinical_trials": "exercise OR physical activity OR aerobic exercise OR resistance training OR HIIT",
+    "general": "What is the impact of exercise on aging and longevity? Research on physical activity, aerobic exercise, resistance training, and HIIT for promoting health in older adults.",
+    "preprint": "exercise OR physical activity OR aerobic exercise OR resistance training OR HIIT AND aging OR longevity"
+  }
+}

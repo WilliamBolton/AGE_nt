@@ -1,0 +1,31 @@
+{
+  "primary_name": "taurine",
+  "synonyms": [
+    "2-aminoethanesulfonic acid",
+    "Taurin",
+    "Taurine sulfate"
+  ],
+  "analogs": [
+    "cysteine",
+    "glutamate",
+    "glycine"
+  ],
+  "mechanism_terms": [
+    "antioxidant activity",
+    "osmoregulation",
+    "calcium signaling",
+    "neuroprotective effects"
+  ],
+  "mesh_terms": [
+    "Taurine[MeSH Terms]",
+    "Amino Acids[MeSH Terms]",
+    "Antioxidants[MeSH Terms]",
+    "Neuroprotective Agents[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Taurine[MeSH Terms] AND (aging OR longevity OR lifespan OR age-related diseases)",
+    "clinical_trials": "Taurine",
+    "general": "What is the role of taurine in aging and longevity research?",
+    "preprint": "taurine aging longevity intervention"
+  }
+}

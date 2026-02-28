@@ -1,0 +1,33 @@
+{
+  "primary_name": "epigenetic clocks",
+  "synonyms": [
+    "Horvath clock",
+    "GrimAge",
+    "PhenoAge",
+    "DunedinPACE",
+    "methylation clock"
+  ],
+  "analogs": [
+    "DNA methylation",
+    "biological age predictors",
+    "epigenetic biomarkers"
+  ],
+  "mechanism_terms": [
+    "DNA methylation",
+    "epigenetic regulation",
+    "age-related epigenetic changes"
+  ],
+  "mesh_terms": [
+    "Aging[MeSH Terms]",
+    "Biomarkers[MeSH Terms]",
+    "DNA Methylation[MeSH Terms]",
+    "Epigenesis, Genetic[MeSH Terms]",
+    "Biological Markers[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "epigenetic clocks OR Horvath clock OR GrimAge OR PhenoAge OR DunedinPACE OR methylation clock AND (Aging[MeSH Terms] OR Biomarkers[MeSH Terms] OR DNA Methylation[MeSH Terms])",
+    "clinical_trials": "epigenetic clocks OR Horvath clock OR GrimAge OR PhenoAge OR DunedinPACE OR methylation clock",
+    "general": "What are epigenetic clocks and how do they relate to aging and longevity research?",
+    "preprint": "epigenetic clocks OR Horvath clock OR GrimAge OR PhenoAge OR DunedinPACE OR methylation clock"
+  }
+}

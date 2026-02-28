@@ -1,0 +1,32 @@
+{
+  "primary_name": "quercetin",
+  "synonyms": [
+    "quercetin dihydrate",
+    "3,3',4',5,7-pentahydroxyflavone",
+    "flavonoid quercetin"
+  ],
+  "analogs": [
+    "rutin",
+    "kaempferol",
+    "myricetin"
+  ],
+  "mechanism_terms": [
+    "NF-kB pathway",
+    "antioxidant activity",
+    "anti-inflammatory effects",
+    "sirtuin activation"
+  ],
+  "mesh_terms": [
+    "Quercetin[MeSH Terms]",
+    "Flavonoids[MeSH Terms]",
+    "Antioxidants[MeSH Terms]",
+    "Inflammation[MeSH Terms]",
+    "Aging[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "quercetin[MeSH Terms] OR quercetin dihydrate OR 3,3',4',5,7-pentahydroxyflavone OR flavonoid quercetin OR flavonoids[MeSH Terms] AND aging[MeSH Terms]",
+    "clinical_trials": "quercetin",
+    "general": "research on quercetin and its effects on aging and longevity",
+    "preprint": "quercetin aging longevity intervention"
+  }
+}

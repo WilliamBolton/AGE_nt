@@ -1,0 +1,32 @@
+{
+  "primary_name": "telomerase activation",
+  "synonyms": [
+    "TA-65",
+    "telomerase gene therapy",
+    "TERT",
+    "cycloastragenol"
+  ],
+  "analogs": [
+    "telomerase reverse transcriptase",
+    "telomerase activators"
+  ],
+  "mechanism_terms": [
+    "telomere lengthening",
+    "cellular senescence",
+    "DNA repair",
+    "chromosome stability"
+  ],
+  "mesh_terms": [
+    "Telomerase[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Cell Aging[MeSH Terms]",
+    "Gene Therapy[MeSH Terms]",
+    "Telomere[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "telomerase activation[MeSH Terms] OR TA-65 OR 'telomerase gene therapy' OR TERT OR cycloastragenol",
+    "clinical_trials": "telomerase activation OR TA-65 OR 'telomerase gene therapy' OR TERT OR cycloastragenol",
+    "general": "research on telomerase activation and its effects on aging and longevity, including TA-65 and cycloastragenol",
+    "preprint": "telomerase activation OR TA-65 OR 'telomerase gene therapy' OR TERT OR cycloastragenol"
+  }
+}

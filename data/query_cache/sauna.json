@@ -1,0 +1,40 @@
+{
+  "primary_name": "sauna",
+  "synonyms": [
+    "heat therapy",
+    "heat shock proteins",
+    "infrared sauna",
+    "Finnish sauna",
+    "steam bath",
+    "dry sauna",
+    "traditional sauna"
+  ],
+  "analogs": [
+    "steam room",
+    "hot tub",
+    "whirlpool bath"
+  ],
+  "mechanism_terms": [
+    "heat shock response",
+    "thermogenesis",
+    "oxidative stress",
+    "inflammation reduction",
+    "cardiovascular health",
+    "muscle recovery"
+  ],
+  "mesh_terms": [
+    "Heat Stress[MeSH Terms]",
+    "Thermotherapy[MeSH Terms]",
+    "Sauna[MeSH Terms]",
+    "Heat Shock Proteins[MeSH Terms]",
+    "Cardiovascular Diseases[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Inflammation[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "sauna[MeSH Terms] OR heat therapy OR heat shock proteins OR infrared sauna OR Finnish sauna OR steam bath OR dry sauna",
+    "clinical_trials": "sauna OR heat therapy OR infrared sauna OR Finnish sauna",
+    "general": "What are the effects of sauna use on aging and longevity?",
+    "preprint": "sauna OR heat therapy OR infrared sauna OR Finnish sauna effects on aging"
+  }
+}

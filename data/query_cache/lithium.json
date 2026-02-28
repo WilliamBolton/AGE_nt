@@ -1,0 +1,39 @@
+{
+  "primary_name": "lithium",
+  "synonyms": [
+    "lithium chloride",
+    "lithium orotate",
+    "lithium carbonate",
+    "Li",
+    "Eskalith",
+    "Lithobid"
+  ],
+  "analogs": [
+    "sodium valproate",
+    "carbamazepine",
+    "lamotrigine"
+  ],
+  "mechanism_terms": [
+    "glycogen synthase kinase 3 (GSK-3) inhibitor",
+    "neuroprotective agent",
+    "mood stabilizer",
+    "inhibition of apoptosis",
+    "anti-inflammatory effects"
+  ],
+  "mesh_terms": [
+    "Lithium [MeSH Terms]",
+    "Lithium Carbonate [MeSH Terms]",
+    "Lithium Chloride [MeSH Terms]",
+    "Lithium Orotate [MeSH Terms]",
+    "Neuroprotective Agents [MeSH Terms]",
+    "Mood Stabilizers [MeSH Terms]",
+    "Aging [MeSH Terms]",
+    "Longevity [MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Lithium [MeSH Terms] OR Lithium Carbonate [MeSH Terms] OR Lithium Chloride [MeSH Terms] OR Lithium Orotate [MeSH Terms] AND (Aging [MeSH Terms] OR Longevity [MeSH Terms])",
+    "clinical_trials": "lithium OR lithium chloride OR lithium orotate",
+    "general": "research on lithium and its effects on aging and longevity",
+    "preprint": "lithium aging longevity intervention"
+  }
+}

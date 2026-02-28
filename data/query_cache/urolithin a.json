@@ -1,0 +1,31 @@
+{
+  "primary_name": "urolithin A",
+  "synonyms": [
+    "mitopure",
+    "urolithin A methyl ether",
+    "urolithin A glucuronide"
+  ],
+  "analogs": [
+    "urolithin B",
+    "urolithin C",
+    "urolithin D"
+  ],
+  "mechanism_terms": [
+    "mitophagy",
+    "autophagy",
+    "AMPK pathway",
+    "Nrf2 activation"
+  ],
+  "mesh_terms": [
+    "Urolithins",
+    "Aging",
+    "Longevity",
+    "Cellular Senescence"
+  ],
+  "queries": {
+    "pubmed": "urolithin A[MeSH Terms] OR mitopure[MeSH Terms] OR urolithin A methyl ether[MeSH Terms] OR urolithin A glucuronide[MeSH Terms] OR urolithin B[MeSH Terms] OR urolithin C[MeSH Terms] OR urolithin D[MeSH Terms] AND (aging[MeSH Terms] OR longevity[MeSH Terms] OR cellular senescence[MeSH Terms])",
+    "clinical_trials": "urolithin A OR mitopure",
+    "general": "research on urolithin A and its effects on aging and longevity",
+    "preprint": "urolithin A OR mitopure effects on aging OR longevity"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "primary_name": "glycine",
+  "synonyms": [
+    "aminoacetic acid",
+    "2-aminoacetic acid",
+    "Gly",
+    "Glycine (Gly)"
+  ],
+  "analogs": [
+    "serine",
+    "alanine",
+    "threonine"
+  ],
+  "mechanism_terms": [
+    "NMDA receptor modulation",
+    "collagen synthesis",
+    "antioxidant activity",
+    "neurotransmitter"
+  ],
+  "mesh_terms": [
+    "Glycine[MeSH Terms]",
+    "Amino Acids[MeSH Terms]",
+    "Neurotransmitter Agents[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Glycine[MeSH Terms] AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "glycine",
+    "general": "research on glycine and its effects on aging and longevity",
+    "preprint": "glycine aging longevity intervention"
+  }
+}

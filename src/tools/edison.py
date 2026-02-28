@@ -33,6 +33,24 @@ from src.config import settings
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 EDISON_DATA_DIR = PROJECT_ROOT / "data" / "edison"
 
+# Module-level flag: set when Edison returns auth/credit errors.
+# Once set, all subsequent calls skip the API immediately.
+_EDISON_EXHAUSTED = False
+
+
+def edison_is_exhausted() -> bool:
+    """Check whether Edison credits have been exhausted this session."""
+    return _EDISON_EXHAUSTED
+
+
+def _check_edison_exhaustion(error: Exception) -> bool:
+    """Return True if this error indicates Edison auth/credit issues."""
+    msg = str(error).lower()
+    return any(term in msg for term in (
+        "429", "rate limit", "insufficient", "credit", "quota",
+        "unauthorized", "forbidden", "403", "too many requests",
+    ))
+
 
 def _patch_coredis() -> None:
     """Fix coredis 2.3.x compatibility: alias StrictRedis → Redis.
@@ -85,6 +103,12 @@ async def ask_edison(
         Dict with keys {query, answer, formatted_answer, successful, task_id}
         on success, or None on failure.
     """
+    global _EDISON_EXHAUSTED
+
+    if _EDISON_EXHAUSTED:
+        logger.info("Edison credits exhausted — skipping")
+        return None
+
     if not settings.edison_api_key:
         logger.debug("EDISON_API_KEY not set — skipping")
         return None
@@ -114,7 +138,14 @@ async def ask_edison(
             "timestamp": datetime.now().isoformat(),
         }
     except Exception as e:
-        logger.error(f"Edison query failed: {e}")
+        if _check_edison_exhaustion(e):
+            _EDISON_EXHAUSTED = True
+            logger.warning(
+                f"Edison credits/auth exhausted: {e}. "
+                "Skipping Edison for all remaining queries."
+            )
+        else:
+            logger.error(f"Edison query failed: {e}")
         return None
 
 
@@ -131,6 +162,12 @@ async def run_edison_batch(
     Returns:
         List of result dicts (only successful responses included).
     """
+    global _EDISON_EXHAUSTED
+
+    if _EDISON_EXHAUSTED:
+        logger.info("Edison credits exhausted — skipping batch")
+        return []
+
     if not settings.edison_api_key:
         logger.debug("EDISON_API_KEY not set — skipping Edison batch")
         return []
@@ -158,7 +195,14 @@ async def run_edison_batch(
             responses = [responses]
 
     except Exception as e:
-        logger.error(f"Edison batch failed: {e}")
+        if _check_edison_exhaustion(e):
+            _EDISON_EXHAUSTED = True
+            logger.warning(
+                f"Edison credits/auth exhausted: {e}. "
+                "Skipping Edison for all remaining queries."
+            )
+        else:
+            logger.error(f"Edison batch failed: {e}")
         return []
 
     results: list[dict] = []
