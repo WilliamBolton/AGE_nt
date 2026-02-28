@@ -74,5 +74,3 @@ builder.add_edge("researcher", "analyst")
 builder.add_edge("analyst", END)
 
 bio_pipeline = builder.compile()
-
-

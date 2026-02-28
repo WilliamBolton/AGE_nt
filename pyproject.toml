@@ -59,3 +59,12 @@ select = ["E", "F", "I", "UP"]
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
+
+# So the type checker resolves "src" (open workspace at repo root, or run from repo root)
+[tool.pyright]
+extraPaths = ["."]
+root = "."
+
+[tool.basedpyright]
+extraPaths = ["."]
+root = "."

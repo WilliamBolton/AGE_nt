@@ -1,8 +1,12 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
+*$py.class
+
+# Distribution / packaging
 build/
+dist/
+*.egg-info/
 .eggs/
 *.egg
 
@@ -16,12 +20,23 @@ data/age_nt.db
 # Old/unused
 data/chroma_db/
 
+# Virtual environments
 .venv/
 venv/
+env/
 
-.ruff_cache/
-.pytest_cache/
-.mypy_cache/
+# Environment & secrets
+.env
+*.env
 
+# IDE / editor settings
+.vscode/
+.idea/
+
+# macOS
 .DS_Store
 
+# Cursor / project internals (not needed in repo)
+.cursor/
+agent-transcripts/
+terminals/
