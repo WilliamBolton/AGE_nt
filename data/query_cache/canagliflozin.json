@@ -1,0 +1,32 @@
+{
+  "primary_name": "canagliflozin",
+  "synonyms": [
+    "Invokana",
+    "SGLT2 inhibitor",
+    "canagliflozin hydrate"
+  ],
+  "analogs": [
+    "dapagliflozin",
+    "empagliflozin",
+    "ertugliflozin"
+  ],
+  "mechanism_terms": [
+    "sodium-glucose cotransporter 2",
+    "SGLT2",
+    "glucose homeostasis",
+    "renal glucose reabsorption"
+  ],
+  "mesh_terms": [
+    "Canagliflozin[MeSH Terms]",
+    "Sodium-Glucose Transporter 2 Inhibitors[MeSH Terms]",
+    "Diabetes Mellitus[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "canagliflozin[MeSH Terms] OR Invokana OR SGLT2 inhibitor OR canagliflozin hydrate OR sodium-glucose cotransporter 2[MeSH Terms] AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "canagliflozin OR Invokana OR SGLT2 inhibitor",
+    "general": "Research on canagliflozin and its effects on aging and longevity",
+    "preprint": "canagliflozin OR Invokana OR SGLT2 inhibitor AND aging OR longevity"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "primary_name": "GDF11",
+  "synonyms": [
+    "growth differentiation factor 11",
+    "GDF-11",
+    "GDF 11",
+    "GDF11 protein",
+    "GDF11 peptide"
+  ],
+  "analogs": [
+    "GDF8",
+    "myostatin",
+    "GDF15"
+  ],
+  "mechanism_terms": [
+    "TGF-beta signaling pathway",
+    "transforming growth factor beta",
+    "cellular senescence",
+    "muscle regeneration",
+    "neurogenesis"
+  ],
+  "mesh_terms": [
+    "Growth Differentiation Factor 11",
+    "Transforming Growth Factor beta",
+    "Aging",
+    "Cell Aging",
+    "Muscle Regeneration",
+    "Neurogenesis"
+  ],
+  "queries": {
+    "pubmed": "(Growth Differentiation Factor 11[MeSH Terms] OR GDF11[MeSH Terms] OR GDF-11[MeSH Terms] OR GDF 11[MeSH Terms]) AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "GDF11 OR growth differentiation factor 11",
+    "general": "What is the role of GDF11 in aging and longevity research?",
+    "preprint": "GDF11 OR growth differentiation factor 11 aging longevity"
+  }
+}

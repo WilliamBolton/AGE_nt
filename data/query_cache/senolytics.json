@@ -1,0 +1,36 @@
+{
+  "primary_name": "senolytics",
+  "synonyms": [
+    "senolytic",
+    "senescent cell clearance",
+    "dasatinib",
+    "quercetin",
+    "fisetin"
+  ],
+  "analogs": [
+    "apigenin",
+    "curcumin",
+    "rapamycin"
+  ],
+  "mechanism_terms": [
+    "senescence",
+    "apoptosis",
+    "cellular senescence",
+    "inflammation",
+    "p53 pathway"
+  ],
+  "mesh_terms": [
+    "Senolytics[MeSH Terms]",
+    "Cell Senescence[MeSH Terms]",
+    "Apoptosis[MeSH Terms]",
+    "Quercetin[MeSH Terms]",
+    "Dasatinib[MeSH Terms]",
+    "Fisetin[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "(Senolytics[MeSH Terms] OR senolytic OR senescent cell clearance OR dasatinib OR quercetin OR fisetin) AND (aging OR longevity OR lifespan OR age-related diseases)",
+    "clinical_trials": "senolytics OR senolytic OR dasatinib OR quercetin OR fisetin",
+    "general": "What are senolytics and how do they impact aging and longevity?",
+    "preprint": "senolytics OR senolytic OR dasatinib OR quercetin OR fisetin"
+  }
+}

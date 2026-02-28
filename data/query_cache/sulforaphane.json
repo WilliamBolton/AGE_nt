@@ -1,0 +1,34 @@
+{
+  "primary_name": "sulforaphane",
+  "synonyms": [
+    "broccoli extract",
+    "NRF2 activator",
+    "1-isothiocyanato-4-(methylsulfinyl)butane",
+    "sulforaphane glucosinolate"
+  ],
+  "analogs": [
+    "glucosinolates",
+    "indole-3-carbinol",
+    "isothiocyanates"
+  ],
+  "mechanism_terms": [
+    "Nrf2 pathway",
+    "antioxidant response element",
+    "phase II detoxifying enzymes",
+    "cellular stress response"
+  ],
+  "mesh_terms": [
+    "Sulforaphane[MeSH Terms]",
+    "Broccoli[MeSH Terms]",
+    "Antioxidants[MeSH Terms]",
+    "Neoplasm[MeSH Terms]",
+    "Oxidative Stress[MeSH Terms]",
+    "Aging[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "sulforaphane[MeSH Terms] OR broccoli extract OR NRF2 activator OR 1-isothiocyanato-4-(methylsulfinyl)butane OR sulforaphane glucosinolate AND (aging[MeSH Terms] OR longevity[MeSH Terms] OR lifespan[MeSH Terms])",
+    "clinical_trials": "sulforaphane OR broccoli extract OR NRF2 activator",
+    "general": "What are the effects of sulforaphane, also known as broccoli extract or NRF2 activator, on aging and longevity?",
+    "preprint": "sulforaphane OR broccoli extract OR NRF2 activator AND aging OR longevity"
+  }
+}

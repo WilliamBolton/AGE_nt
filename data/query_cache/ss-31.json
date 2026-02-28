@@ -1,0 +1,33 @@
+{
+  "primary_name": "SS-31",
+  "synonyms": [
+    "elamipretide",
+    "Bendavia",
+    "MTP-131"
+  ],
+  "analogs": [
+    "MTP-132",
+    "MTP-134"
+  ],
+  "mechanism_terms": [
+    "mitochondrial targeting",
+    "mitochondrial dysfunction",
+    "oxidative stress",
+    "apoptosis",
+    "cardioprotection"
+  ],
+  "mesh_terms": [
+    "Mitochondria [MeSH Terms]",
+    "Mitochondrial Diseases [MeSH Terms]",
+    "Oxidative Stress [MeSH Terms]",
+    "Aging [MeSH Terms]",
+    "Longevity [MeSH Terms]",
+    "Cardiovascular Diseases [MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "SS-31 OR elamipretide OR Bendavia OR MTP-131 [MeSH Terms] OR Mitochondria [MeSH Terms] OR Mitochondrial Diseases [MeSH Terms] OR Oxidative Stress [MeSH Terms] OR Aging [MeSH Terms] OR Longevity [MeSH Terms]",
+    "clinical_trials": "SS-31 OR elamipretide OR Bendavia OR MTP-131",
+    "general": "Research on SS-31, elamipretide, Bendavia, and MTP-131 in relation to aging and longevity interventions.",
+    "preprint": "SS-31 OR elamipretide OR Bendavia OR MTP-131 aging longevity"
+  }
+}

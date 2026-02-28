@@ -1,0 +1,31 @@
+{
+  "primary_name": "metformin",
+  "synonyms": [
+    "glucophage",
+    "dimethylbiguanide",
+    "N,N-dimethylimidodicarbonimidic diamide"
+  ],
+  "analogs": [
+    "phenformin",
+    "buformin"
+  ],
+  "mechanism_terms": [
+    "AMP-activated protein kinase",
+    "mTOR pathway",
+    "insulin signaling",
+    "glucose metabolism"
+  ],
+  "mesh_terms": [
+    "Metformin[MeSH Terms]",
+    "Antidiabetic Agents[MeSH Terms]",
+    "Diabetes Mellitus[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Metformin[MeSH Terms] AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "metformin OR glucophage OR dimethylbiguanide",
+    "general": "research on metformin and its effects on aging and longevity",
+    "preprint": "metformin aging longevity intervention"
+  }
+}

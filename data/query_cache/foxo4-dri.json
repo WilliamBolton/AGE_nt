@@ -1,0 +1,31 @@
+{
+  "primary_name": "FOXO4-DRI",
+  "synonyms": [
+    "FOXO4 peptide",
+    "proxofim"
+  ],
+  "analogs": [
+    "FOXO4",
+    "FOXO3",
+    "FOXO1"
+  ],
+  "mechanism_terms": [
+    "FOXO signaling pathway",
+    "cellular senescence",
+    "apoptosis",
+    "oxidative stress"
+  ],
+  "mesh_terms": [
+    "Peptides[MeSH Terms]",
+    "Cellular Senescence[MeSH Terms]",
+    "Apoptosis[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Oxidative Stress[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "(FOXO4-DRI[MeSH Terms] OR FOXO4 peptide[MeSH Terms] OR proxofim[MeSH Terms]) AND (Aging[MeSH Terms] OR Cellular Senescence[MeSH Terms] OR Apoptosis[MeSH Terms] OR Oxidative Stress[MeSH Terms])",
+    "clinical_trials": "FOXO4-DRI OR FOXO4 peptide OR proxofim",
+    "general": "Research on FOXO4-DRI, FOXO4 peptide, and proxofim in relation to aging and longevity interventions.",
+    "preprint": "FOXO4-DRI OR FOXO4 peptide OR proxofim AND aging OR longevity"
+  }
+}

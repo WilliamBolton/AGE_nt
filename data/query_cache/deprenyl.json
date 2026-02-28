@@ -1,0 +1,32 @@
+{
+  "primary_name": "deprenyl",
+  "synonyms": [
+    "selegiline",
+    "eldepryl",
+    "L-deprenyl",
+    "(-)-deprenyl",
+    "deprenyl hydrochloride"
+  ],
+  "analogs": [
+    "rasagiline",
+    "methamphetamine"
+  ],
+  "mechanism_terms": [
+    "monoamine oxidase B inhibitor",
+    "dopaminergic activity",
+    "neuroprotective effects"
+  ],
+  "mesh_terms": [
+    "Selegiline[MeSH Terms]",
+    "Monoamine Oxidase Inhibitors[MeSH Terms]",
+    "Neuroprotective Agents[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "deprenyl[MeSH Terms] OR selegiline[MeSH Terms] OR eldepryl[MeSH Terms] OR L-deprenyl OR (-)-deprenyl OR deprenyl hydrochloride",
+    "clinical_trials": "deprenyl OR selegiline OR eldepryl",
+    "general": "research on deprenyl and its effects on aging and longevity",
+    "preprint": "deprenyl OR selegiline OR eldepryl aging longevity"
+  }
+}

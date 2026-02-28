@@ -1,0 +1,30 @@
+{
+  "primary_name": "navitoclax",
+  "synonyms": [
+    "ABT-263",
+    "ABT-737",
+    "AbbVie 263",
+    "Navitoclax (ABT-263)"
+  ],
+  "analogs": [
+    "ABT-199 (Venetoclax)",
+    "Obatoclax"
+  ],
+  "mechanism_terms": [
+    "BCL-2 inhibitor",
+    "apoptosis modulation",
+    "BCL-XL inhibition"
+  ],
+  "mesh_terms": [
+    "Antineoplastic Agents",
+    "BCL2 Antagonists",
+    "Apoptosis",
+    "Neoplasms"
+  ],
+  "queries": {
+    "pubmed": "navitoclax[MeSH Terms] OR ABT-263[MeSH Terms] OR ABT-737[MeSH Terms] OR \"BCL-2 inhibitor\"[MeSH Terms] OR \"apoptosis modulation\"[MeSH Terms]",
+    "clinical_trials": "navitoclax OR ABT-263 OR ABT-737",
+    "general": "navitoclax and aging research, effects of navitoclax on longevity, ABT-263 and lifespan studies",
+    "preprint": "navitoclax OR ABT-263 OR ABT-737 in aging research"
+  }
+}

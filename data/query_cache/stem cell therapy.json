@@ -1,0 +1,40 @@
+{
+  "primary_name": "stem cell therapy",
+  "synonyms": [
+    "mesenchymal stem cells",
+    "MSC",
+    "stem cell transplant",
+    "iPSC therapy",
+    "induced pluripotent stem cell therapy",
+    "adult stem cell therapy",
+    "hematopoietic stem cell therapy"
+  ],
+  "analogs": [
+    "hematopoietic stem cells",
+    "adipose-derived stem cells",
+    "neural stem cells",
+    "umbilical cord stem cells"
+  ],
+  "mechanism_terms": [
+    "regenerative medicine",
+    "cell differentiation",
+    "tissue repair",
+    "immune modulation",
+    "paracrine signaling"
+  ],
+  "mesh_terms": [
+    "Stem Cells[MeSH Terms]",
+    "Cell Transplantation[MeSH Terms]",
+    "Mesenchymal Stem Cells[MeSH Terms]",
+    "Induced Pluripotent Stem Cells[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]",
+    "Regenerative Medicine[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Stem Cells[MeSH Terms] OR \"mesenchymal stem cells\" OR MSC OR \"stem cell transplant\" OR \"iPSC therapy\" OR \"induced pluripotent stem cell therapy\" OR \"adult stem cell therapy\" OR \"hematopoietic stem cell therapy\" AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "stem cell therapy OR mesenchymal stem cells OR MSC OR stem cell transplant OR iPSC therapy",
+    "general": "What are the effects of stem cell therapy on aging and longevity?",
+    "preprint": "stem cell therapy OR mesenchymal stem cells OR MSC OR stem cell transplant OR iPSC therapy"
+  }
+}

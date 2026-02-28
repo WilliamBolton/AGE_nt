@@ -1,0 +1,35 @@
+{
+  "primary_name": "klotho",
+  "synonyms": [
+    "alpha-klotho",
+    "Klotho protein",
+    "Klotho gene",
+    "KL",
+    "Klotho hormone"
+  ],
+  "analogs": [
+    "beta-klotho",
+    "gamma-klotho"
+  ],
+  "mechanism_terms": [
+    "FGF23 signaling",
+    "calcium homeostasis",
+    "phosphate metabolism",
+    "insulin signaling",
+    "aging pathways"
+  ],
+  "mesh_terms": [
+    "Klotho Protein[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]",
+    "Signal Transduction[MeSH Terms]",
+    "Phosphates[MeSH Terms]",
+    "Fibroblast Growth Factor 23[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Klotho[MeSH Terms] OR alpha-klotho OR Klotho protein OR Klotho gene OR KL OR Klotho hormone AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "klotho OR alpha-klotho",
+    "general": "Research on klotho and its role in aging and longevity",
+    "preprint": "klotho aging longevity intervention"
+  }
+}

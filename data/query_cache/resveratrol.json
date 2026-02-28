@@ -1,0 +1,38 @@
+{
+  "primary_name": "resveratrol",
+  "synonyms": [
+    "trans-resveratrol",
+    "3,5,4'-trihydroxy-trans-stilbene",
+    "resveratrol-3-O-glucoside",
+    "revesterol",
+    "SRT501",
+    "SRT1720"
+  ],
+  "analogs": [
+    "quercetin",
+    "curcumin",
+    "epicatechin",
+    "pterostilbene"
+  ],
+  "mechanism_terms": [
+    "sirtuin activation",
+    "AMPK activation",
+    "Nrf2 pathway",
+    "antioxidant activity",
+    "anti-inflammatory effects"
+  ],
+  "mesh_terms": [
+    "Resveratrol[MeSH Terms]",
+    "Sirtuins[MeSH Terms]",
+    "Aging[MeSH Terms]",
+    "Longevity[MeSH Terms]",
+    "Antioxidants[MeSH Terms]",
+    "Inflammation[MeSH Terms]"
+  ],
+  "queries": {
+    "pubmed": "Resveratrol[MeSH Terms] OR trans-resveratrol OR 3,5,4'-trihydroxy-trans-stilbene OR revesterol OR SRT501 OR SRT1720 AND (Aging[MeSH Terms] OR Longevity[MeSH Terms])",
+    "clinical_trials": "resveratrol OR trans-resveratrol OR SRT501 OR SRT1720",
+    "general": "What are the effects of resveratrol on aging and longevity?",
+    "preprint": "resveratrol OR trans-resveratrol AND aging OR longevity"
+  }
+}
