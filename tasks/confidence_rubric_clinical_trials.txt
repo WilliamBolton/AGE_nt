@@ -1,0 +1,152 @@
+@source_types: clinicaltrials
+@exclude_source_types: pubmed,europe_pmc,semantic_scholar,drugage,regulatory,nih_grant,patent,news,social,preprint
+TITLE: Scraped-corpus confidence score rubric (CLINICALTRIALS ONLY; LOCAL JSON ONLY)
+
+You are an evidence synthesis agent operating over a LOCAL JSON corpus.
+You MUST NOT use outside knowledge or browse the internet.
+Only use documents present in the corpus JSON.
+
+You have:
+1) A JSON schema reference: use it to understand the JSON structure and which fields exist for source_type="clinicaltrials".
+2) Summary statistics: use by_source_type to confirm how many clinicaltrials records exist and plan coverage.
+3) The corpus documents: these are the only evidence.
+
+GOAL
+Return a confidence score (0–100) that the intervention has beneficial effects on ageing/healthspan/longevity in humans,
+based ONLY on scraped documents with source_type="clinicaltrials".
+
+STRICT SOURCE FILTER (CRITICAL)
+- You MUST ONLY query and score documents where source_type == "clinicaltrials".
+- Do NOT use pubmed, europe_pmc, drugage, regulatory, nih_grant, patent, news, or social — even if present.
+- If the corpus has zero clinicaltrials documents, return JSON with confidence=0 and notes explaining that there is no clinicaltrials evidence in the scraped corpus.
+
+EVIDENCE GATHERING STRATEGY (CLINICALTRIALS ONLY)
+- Use summary_stats.by_source_type to confirm clinicaltrials availability.
+- Query clinicaltrials records broadly first (no full-text query), then refine using clinicaltrials fields:
+  - status (e.g. Completed, Recruiting)
+  - phase (e.g. Phase 2, Phase 3)
+  - enrollment (if present)
+  - date_started, date_completed, date_results_posted (if present)
+- Prefer trials with results posted or clear results_summary fields when available.
+- Aggregate evidence across multiple trials; do not score from a single trial.
+
+PER-DOCUMENT GRADING (for fetched clinicaltrials records)
+For each clinicaltrials record you use in scoring, infer the following fields ONLY from scraped content:
+
+A) Evidence level and design (use canonical hierarchy)
+- level ∈ {1,2,3,4,5,6}
+  - 1 = Systematic reviews & meta-analyses
+  - 2 = Randomised controlled trials (RCTs), including phase trials
+  - 3 = Observational / epidemiological studies
+  - 4 = Animal model studies (in vivo)
+  - 5 = Cell culture / in vitro studies
+  - 6 = In silico / computational predictions
+- In this CLINICALTRIALS-ONLY rubric, clinicaltrials records should be treated as level 2 evidence by default.
+- Do not downgrade a clinicaltrials record to level 3/6 only because fields are sparse; reflect missingness in quality subscores instead (especially info_sufficiency/reporting_quality).
+- design_label ∈ {rct, interventional_nonrandomized, clinical_trial_registry, other}
+- human_flag: true
+- source_type: "clinicaltrials"
+
+B) Relevance to ageing/healthspan/longevity claims
+- relevance ∈ {0,1,2}
+  0 = not relevant to ageing/healthspan/longevity (e.g. unrelated disease population without ageing rationale)
+  1 = indirectly relevant (surrogate biomarkers, adjacent indication, unclear ageing connection)
+  2 = directly relevant (older adults, immune ageing, frailty, functional outcomes, clinically meaningful healthspan proxies, or explicitly ageing-targeted trial)
+
+C) Quality subscores (0–2 each; do NOT invent missing info)
+Score based ONLY on fields present in the record (title, design/arms, outcomes, results_summary, dates, enrollment, etc.)
+- methods_clarity: is trial design described clearly (randomized/blinded/controls/arms)?
+- bias_controls: randomization/blinding/comparator present?
+- sample_adequacy: enrollment size adequate for design (0 tiny/unclear, 1 moderate, 2 adequate)
+- reporting_quality: are outcomes/results/AEs described clearly (esp. if results are posted)?
+- info_sufficiency: are key fields present (status, phase, outcomes, enrollment, results_summary)?
+
+D) Outcome directness
+- endpoint_grade ∈ {0,1,2,3}
+  0 = no outcomes interpretable / mechanistic only
+  1 = surrogate biomarkers only
+  2 = validated functional/clinical proxies (frailty, infections, gait, immune function with clinical relevance)
+  3 = hard endpoints (morbidity/mortality/disability-free survival, hospitalizations)
+
+E) Direction of evidence (only if results are present)
+- effect_direction ∈ {-1,0,+1}
+  +1 = benefit signal
+  0 = unclear/mixed/insufficient results
+  -1 = harm/negative signal
+- effect_strength ∈ {0,1,2} (weak/moderate/strong)
+IMPORTANT: If results are not present in the record, set effect_direction=0 and effect_strength=0.
+
+DOCUMENT WEIGHT (clinicaltrials-only; conceptual)
+Base weight by level (canonical):
+  level1 1.00
+  level2 0.85
+  level3 0.55
+  level4 0.25
+  level5 0.12
+  level6 0.06
+Multipliers:
+  m_relevance: 0->0.0, 1->0.6, 2->1.0
+  m_quality: q_mean = mean(5 quality subscores), m_quality = 0.45 + 0.275*q_mean
+  m_endpoint: 0->0.3, 1->0.6, 2->0.85, 3->1.0
+  m_direction: +1->1.0, 0->0.85, -1->0.65
+  m_strength: 0->0.85, 1->1.0, 2->1.1
+doc_weight = w_level * m_relevance * m_quality * m_endpoint * m_direction * m_strength
+
+AGGREGATION (clinical trials only)
+Use canonical tier aggregation:
+- For each level i in {1..6}, compute S_i = sum(doc_weight at level i)
+- C_i = cap_i * (1 - exp(-S_i / tau_i))
+- Caps: cap1=30, cap2=30, cap3=15, cap4=12, cap5=8, cap6=5
+- Taus: tau1=1, tau2=2, tau3=3, tau4=5, tau5=7, tau6=8
+- raw_confidence = sum(C_i for i=1..6)
+
+In this clinicaltrials-only run, most contribution should typically come from level 2.
+
+GATING CHECKLIST (clinicaltrials-only; scraped corpus only)
+Compute booleans from your graded clinicaltrials docs:
+1) any_human_evidence: true if >=1 clinicaltrials record has relevance>0
+2) any_rct: true if >=1 level 2 doc has relevance>0
+3) any_human_endpoints: true if any level 2–3 doc has endpoint_grade >=2
+4) any_human_safety: true if any level 2–3 doc has reporting_quality >=1 AND mentions AEs/safety/tolerability (or explicit safety outcomes)
+
+Penalties (multiply):
+- If no human evidence: x0.0 (confidence must be 0)
+- Else if human evidence but no RCT: x0.75
+- If RCTs exist but no endpoint_grade>=2: x0.85
+- If no safety reporting: x0.90
+gating_penalty = product of applicable penalties
+confidence = raw_confidence * gating_penalty
+
+OUTPUT (JSON ONLY)
+Return exactly one JSON object:
+{
+  "confidence": float,
+  "confidence_raw": float,
+  "gating_penalty": float,
+  "checklist": {
+    "any_human_evidence": bool,
+    "any_rct": bool,
+    "any_human_endpoints": bool,
+    "any_human_safety": bool
+  },
+  "tier_contributions": {"1": float, "2": float, "3": float, "4": float, "5": float, "6": float},
+  "selected_counts_by_level": {"1": int, "2": int, "3": int, "4": int, "5": int, "6": int},
+  "top_docs": [
+    {
+      "id": "string",
+      "source_type": "clinicaltrials",
+      "title": "string",
+      "level": int,
+      "doc_weight": float,
+      "relevance": int,
+      "endpoint_grade": int,
+      "effect_direction": int,
+      "why_influential": "string"
+    }
+  ],
+  "notes": ["string", "..."]
+}
+
+IMPORTANT
+- Do not invent sample sizes, endpoints, or results that are not in the scraped clinicaltrials record.
+- If key details are missing (e.g. no results), reflect that in info_sufficiency/reporting_quality and in notes.
