@@ -6,7 +6,7 @@ evidence report with a transparent confidence score.
 
 from __future__ import annotations
 
-from typing import TypedDict
+from typing import Any, TypedDict
 
 
 class EvidencePipelineState(TypedDict, total=False):
@@ -41,4 +41,36 @@ class EvidencePipelineState(TypedDict, total=False):
     confidence_reasoning: str  # Transparent explanation
 
     # Errors (non-fatal) collected along the pipeline
+    errors: list[str]
+
+
+class ReportPipelineState(TypedDict, total=False):
+    """State for the multi-agent report pipeline: Retriever → Classifier → Gap/Social → Judge → Reporter."""
+
+    # Input
+    user_query: str
+    intervention: str  # Resolved canonical name from interventions.json
+
+    # Retriever
+    retriever_error: str
+
+    # Researcher Classifier (evidence_grader)
+    researcher_classifier_output: dict[str, Any]  # final_output + optional analysis_report preview
+    researcher_classifier_summary: str  # Short text for Reporter
+
+    # Gap Analyst
+    gap_analyst_output: dict[str, Any]
+    gap_analyst_summary: str
+
+    # Social Media Expert
+    social_media_expert_output: dict[str, Any]
+    social_media_expert_summary: str
+
+    # Judge
+    judge_output: str  # Critical quality report / limitations
+
+    # Reporter
+    report_text: str  # Full narrative report (before PDF)
+    pdf_path: str  # Path to generated PDF
+
     errors: list[str]

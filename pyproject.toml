@@ -22,6 +22,7 @@ dependencies = [
     # LLM
     "openai>=1.0",
     "google-genai>=1.0.0",
+    "langgraph>=0.2.0",
     # Storage
     "aiosqlite>=0.20.0",
     # Search
@@ -34,6 +35,8 @@ dependencies = [
     "streamlit>=1.40.0",
     # Logging
     "loguru>=0.7.0",
+    # PDF report
+    "reportlab>=4.0.0",
     # MCP server
     "mcp[cli]>=1.2.0",
 ]
