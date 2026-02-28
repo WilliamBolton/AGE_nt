@@ -14,7 +14,38 @@ Use these prompts with another LLM to generate a **5-minute pitch presentation**
 
 ## Prompt 1 — Master prompt (full deck, run once)
 
-Use this as a **single, self-contained prompt** when the next LLM does not have access to PROJECT_CONTEXT.md, EVALUATION_CONTEXT.md, or PITCH_REPORT.md. All required evaluation criteria, project context, and pitch content are embedded below so the model can produce the full deck in one run for best performance.
+Use this as a **single, self-contained prompt** when the next LLM does not have access to PROJECT_CONTEXT.md, EVALUATION_CONTEXT.md, or PITCH_REPORT.md. **Short version** below fits smaller context windows.
+
+---
+
+### Prompt 1 — SHORT (for limited context window)
+
+```
+You are a pitch-deck designer for a hackathon VC track. Create a complete **5-minute pitch** slide deck. Use ONLY the information below; do not invent facts.
+
+**EVALUATION (must satisfy):**
+- 5 min total, one speaker. Cover in order: (1) Technical overview, (2) Rationale, (3) Innovation, (4) Outlook. Judges emphasise **novelty**—explicitly highlight elements beyond the core project brief in Innovation. Audience: track judges + possible VC mentor (Heal Capital). Tone: professional, evidence-based.
+
+**PROJECT:** Track = Evidence Grading for Aging Interventions. Objective: agentic system (Gemini + MedGemma) that retrieves, classifies, synthesises ageing intervention evidence. Deliverable: given intervention name → structured evidence report + transparent confidence score. Challenge: differentiate rigorous clinical evidence from cell/animal studies; handle metformin/rapamycin to NMN/hyperbaric oxygen/epigenetic reprogramming. Evidence levels 1–6 (systematic review → RCT → observational → animal → in vitro → in silico). Why it matters: due-diligence problem; **$5.2B VC** longevity 2021–2024; **six-figure** consultant cost; manual reviews slow/outdated; need minutes not months, transparent & reproducible.
+
+**KEY FACTS FOR SLIDES (use these exact numbers/names):**
+- One-liner: Agentic system → any ageing intervention → evidence report with confidence score, gap analysis, social-hype context, limitations → PDF; path to API/SaaS.
+- Problem: Due-diligence problem; $5.2B VC; evidence assessment manual, slow, expensive; six-figure consultant cost; inconsistent standards, hype risk.
+- Solution: 11 sources, evidence levels 1–6, gap analysis with "how to close", Reddit + Google Trends hype score, **Judge** agent (critique-only), **50+ interventions** + aliases → one query, one PDF, minutes.
+- Pipeline (6 steps): Retriever → [Researcher Classifier | Gap Analyst | Social Media Expert] (parallel) → Judge → Reporter → PDF. LangGraph; Gemini + optional MedGemma; unified schema; JSON + SQLite; 11 sources (PubMed, ClinicalTrials.gov, Europe PMC, Semantic Scholar, DrugAge, NIH Reporter, Patents, FDA/DailyMed, Tavily, Reddit, Google Trends).
+- Rationale: Automate due diligence; schema-first (one store, multiple use cases); multi-source; deterministic rubric = reproducible; Judge = critical self-check, trust for VCs.
+- Novelty (stress these): Judge agent (not in brief); social hype vs evidence in one report; end-to-end PDF; deterministic + optional LLM; 50+ interventions + aliases; rubric-driven auditable; single query → full report; unified data layer.
+- Market: $5.2B VC; primary = VCs/family offices, secondary = pharma BD, tertiary = research/regulators. Vs consultants (slow/expensive) vs generic AI (no hierarchy/gap/hype in one report). Differentiation: evidence intelligence, not generic search.
+- Outlook: Positioning = "Evidence intelligence for longevity." Revenue: SaaS/API, custom rubrics, white-label. Roadmap: short = API, web UI, on-demand ingest; medium = more sources, verticals, enterprise; long = regulatory/academic, beyond ageing, data products. **Ask:** support for production API + first paying pilots (compute, advisory, intros to longevity funds and pharma innovation). Vision: fast, transparent, reproducible evidence → capital to strongest evidence not loudest hype.
+
+**TASK:** Produce 8–12 slides (title + problem, then Technical → Rationale → Innovation → Outlook, then thank-you/ask). Per slide: number, title, 3–5 bullets (use exact facts above), optional speaker note, optional [Visual: ...]. Call out novelty in Innovation. Professional, VC-ready. No content beyond the facts above.
+```
+
+---
+
+### Prompt 1 — LONG (full context; use when window allows)
+
+Use when your context window can fit the full prompt. All required evaluation criteria, project context, and pitch content are embedded so the model can produce the full deck in one run for best performance.
 
 ```
 You are a pitch-deck designer for a hackathon VC track. Create a complete slide deck for a **5-minute pitch**. The following sections contain the full evaluation criteria, project context, and pitch content. Use only this information; do not invent facts.
