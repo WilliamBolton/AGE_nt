@@ -1,0 +1,302 @@
+{
+  "intervention": "deprenyl",
+  "aliases": [
+    "selegiline",
+    "eldepryl"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 244,
+  "by_source_type": {
+    "pubmed": 50,
+    "semantic_scholar": 50,
+    "clinicaltrials": 43,
+    "nih_grant": 40,
+    "news": 23,
+    "social": 20,
+    "drugage": 12,
+    "regulatory": 6
+  },
+  "date_range": {
+    "earliest": "1981-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1981": 1,
+    "1983": 2,
+    "1985": 1,
+    "1986": 1,
+    "1990": 9,
+    "1991": 3,
+    "1992": 4,
+    "1993": 5,
+    "1994": 2,
+    "1995": 3,
+    "1996": 3,
+    "1997": 6,
+    "1998": 5,
+    "1999": 11,
+    "2000": 4,
+    "2001": 4,
+    "2002": 6,
+    "2004": 10,
+    "2005": 3,
+    "2006": 6,
+    "2007": 9,
+    "2008": 2,
+    "2010": 2,
+    "2011": 1,
+    "2012": 1,
+    "2013": 3,
+    "2014": 6,
+    "2015": 9,
+    "2016": 1,
+    "2017": 1,
+    "2018": 2,
+    "2019": 12,
+    "2020": 17,
+    "2021": 7,
+    "2022": 4,
+    "2023": 9,
+    "2024": 14,
+    "2025": 26,
+    "2026": 29
+  },
+  "academic": {
+    "unique_authors": 610,
+    "unique_journals": 59,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Frontiers in Aging": 5,
+      "Aging Cell": 5,
+      "Nature Aging": 4,
+      "Innovation in Aging": 4,
+      "Ageing research reviews": 3,
+      "Neurology": 3,
+      "Acta neurologica Scandinavica. Supplementum": 3,
+      "Aging Clinical and Experimental Research": 3,
+      "Aging and Disease": 3
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 45,
+    "publication_types": {
+      "Journal Article": 50,
+      "Clinical Trial": 24,
+      "Research Support, Non-U.S. Gov't": 14,
+      "Review": 14,
+      "Randomized Controlled Trial": 13,
+      "Research Support, U.S. Gov't, P.H.S.": 8,
+      "Controlled Clinical Trial": 6,
+      "Comparative Study": 5,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 3,
+      "Meta-Analysis": 2,
+      "Multicenter Study": 2,
+      "Clinical Trial, Phase II": 1,
+      "Systematic Review": 1,
+      "Historical Article": 1,
+      "Research Support, N.I.H., Extramural": 1,
+      "Validation Study": 1
+    },
+    "top_mesh_terms": {
+      "Selegiline": 50,
+      "Humans": 41,
+      "Male": 34,
+      "Female": 28,
+      "Aged": 24,
+      "Middle Aged": 24,
+      "Animals": 22,
+      "Aging": 20,
+      "Parkinson Disease": 20,
+      "Monoamine Oxidase Inhibitors": 18,
+      "Double-Blind Method": 13,
+      "Alzheimer Disease": 12,
+      "Adult": 11,
+      "Rats": 10,
+      "Levodopa": 9
+    }
+  },
+  "clinical_trials": {
+    "count": 43,
+    "by_phase": {
+      "PHASE2": 16,
+      "PHASE4": 10,
+      "PHASE1": 6,
+      "NA": 5,
+      "PHASE3": 4,
+      "Unknown": 1,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 32,
+      "UNKNOWN": 7,
+      "RECRUITING": 2,
+      "TERMINATED": 2
+    },
+    "total_enrollment": 3684,
+    "median_enrollment": 44.0,
+    "with_results": 10,
+    "top_sponsors": {
+      "National Institute on Drug Abuse (NIDA)": 7,
+      "National Institute of Neurological Disorders and Stroke (NINDS)": 4,
+      "Somerset Pharmaceuticals": 4,
+      "National Institute of Allergy and Infectious Diseases (NIAID)": 2,
+      "Boehringer Ingelheim": 1,
+      "Peking University Third Hospital": 1,
+      "Corium Innovations, Inc.": 1,
+      "Second Affiliated Hospital of Soochow University": 1,
+      "Baylor College of Medicine": 1,
+      "Mood and Anxiety Research, Inc": 1
+    },
+    "top_conditions": {
+      "Parkinson's Disease": 6,
+      "Cocaine-Related Disorders": 5,
+      "Parkinson Disease": 5,
+      "Healthy": 4,
+      "HIV Infections": 3,
+      "Dyskinesias": 2,
+      "Cognitive Disorders": 2,
+      "Nicotine Dependence": 2,
+      "Major Depression": 1,
+      "Major Depressive Disorder": 1
+    }
+  },
+  "drugage": {
+    "count": 12,
+    "by_species": {
+      "Rattus norvegicus": 5,
+      "Mus musculus": 4,
+      "Mesocricetus auratus": 2,
+      "Canis lupus familiaris": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Male": 6,
+      "Female": 4,
+      "Unknown": 2
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 40,
+    "total_funding_usd": 29481376.0,
+    "mean_funding_usd": 842325.03,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 10,
+      "NINDS": 8,
+      "NCRR": 6,
+      "NINR": 5,
+      "NIDA": 5,
+      "NEI": 1
+    },
+    "top_organisations": {
+      "COLUMBIA UNIVERSITY HEALTH SCIENCES": 6,
+      "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 5,
+      "BUCK INSTITUTE FOR RESEARCH ON AGING": 4,
+      "NATIONAL INSTITUTE OF MENTAL HEALTH": 4,
+      "DREXEL UNIVERSITY": 4,
+      "UNIVERSITY OF PITTSBURGH AT PITTSBURGH": 3,
+      "SINAI HOSPITAL OF DETROIT": 3,
+      "NORTHWESTERN UNIVERSITY AT CHICAGO": 3,
+      "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 1,
+      "UNIVERSITY OF FLORIDA": 1
+    },
+    "by_fiscal_year": {
+      "1990": 3,
+      "1991": 2,
+      "1992": 2,
+      "1996": 1,
+      "1997": 1,
+      "1998": 1,
+      "1999": 3,
+      "2000": 1,
+      "2001": 2,
+      "2002": 2,
+      "2003": 1,
+      "2007": 3,
+      "2008": 1,
+      "2009": 1,
+      "2014": 1,
+      "2015": 3,
+      "2016": 2,
+      "2017": 2,
+      "2018": 2,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 6,
+    "approved_indications": {
+      "1 INDICATIONS AND USAGE Methamphetamine hydrochloride tablets are indicated for the treatment of Attention Deficit Hyperactivity Disorder (ADHD) in pediatric patients 6 years of age and older. \u2022 Methamphetamine hydrochloride tablets are a central nervous system (CNS) stimulant indicated for the treatment of Attention Deficit Hyperactivity Disorder (ADHD) in pediatric patients 6 years of age and older. ( 1 )": 1,
+      "1. INDICATIONS AND USAGE Methamphetamine hydrochloride tablets, USP is indicated for the treatment of Attention Deficit Hyperactivity Disorder (ADHD) in pediatric patients 6 years of age and older. Methamphetamine hydrochloride tablets, USP is a central nervous system (CNS) stimulant indicated for the treatment of Attention Deficit Hyperactivity Disorder (ADHD) in pediatric patients 6 years of age and older.": 1,
+      "INDICATIONS AND USAGE Attention Deficit Disorder with Hyperactivity Methamphetamine hydrochloride tablets are indicated as an integral part of a total treatment program which typically includes other remedial measures (psychological, educational, social) for a stabilizing effect in children over 6 years of age with a behavioral syndrome characterized by the following group of developmentally inappropriate symptoms: moderate to severe distractibility, short attention span, hyperactivity, emotiona": 1
+    },
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 23,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "lifeextension.com": 4,
+      "ovid.com": 2,
+      "worldhealth.net": 1,
+      "aging-matters.com": 1,
+      "longevity.technology": 1,
+      "benthamdirect.com": 1,
+      "benbest.com": 1,
+      "hero.epa.gov": 1,
+      "en.longevitywiki.org": 1,
+      "benthambooks.com": 1
+    }
+  },
+  "social": {
+    "count": 20,
+    "by_platform": {
+      "reddit": 20
+    },
+    "top_subreddits": {
+      "Biohackers": 16,
+      "supplements": 4
+    },
+    "total_score": 106,
+    "mean_score": 5.3,
+    "total_comments": 134,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1115,
+    "mean_citations": 22.3,
+    "max_citations": 214,
+    "total_influential_citations": 40,
+    "open_access": 22
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-16",
+    "current_interest": 31,
+    "data_points_count": 261
+  }
+}

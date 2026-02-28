@@ -1,0 +1,242 @@
+{
+  "intervention": "thymus regeneration",
+  "aliases": [
+    "TRIIM trial",
+    "growth hormone thymus",
+    "thymic rejuvenation"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 225,
+  "by_source_type": {
+    "pubmed": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 42,
+    "news": 20,
+    "clinicaltrials": 12,
+    "social": 1
+  },
+  "date_range": {
+    "earliest": "1995-01-19",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1995": 1,
+    "1997": 3,
+    "1999": 1,
+    "2000": 1,
+    "2003": 1,
+    "2004": 1,
+    "2005": 2,
+    "2006": 2,
+    "2007": 2,
+    "2008": 2,
+    "2009": 3,
+    "2010": 2,
+    "2011": 1,
+    "2012": 2,
+    "2013": 3,
+    "2015": 2,
+    "2016": 5,
+    "2017": 10,
+    "2018": 6,
+    "2019": 15,
+    "2020": 10,
+    "2021": 8,
+    "2022": 11,
+    "2023": 16,
+    "2024": 15,
+    "2025": 65,
+    "2026": 35
+  },
+  "academic": {
+    "unique_authors": 832,
+    "unique_journals": 77,
+    "top_journals": {
+      "Frontiers in immunology": 7,
+      "Immunological reviews": 5,
+      "Seminars in immunology": 3,
+      "Frontiers in Immunology": 3,
+      "Nature reviews. Immunology": 2,
+      "Cell reports": 2,
+      "Science immunology": 2,
+      "International Journal of Molecular Sciences": 2,
+      "Cosmetics": 2,
+      "Advanced Science": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 33,
+      "Research Support, Non-U.S. Gov't": 20,
+      "Research Support, N.I.H., Extramural": 6,
+      "Research Support, N.I.H., Intramural": 3,
+      "Clinical Trial": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1,
+      "Comparative Study": 1
+    },
+    "top_mesh_terms": {
+      "Thymus Gland": 50,
+      "Animals": 40,
+      "Aging": 40,
+      "Humans": 40,
+      "T-Lymphocytes": 19,
+      "Regeneration": 16,
+      "Mice": 16,
+      "Epithelial Cells": 14,
+      "Cell Differentiation": 12,
+      "Rejuvenation": 8,
+      "Male": 6,
+      "Mice, Inbred C57BL": 5,
+      "Female": 5,
+      "Cellular Senescence": 5,
+      "Stem Cells": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 12,
+    "by_phase": {
+      "PHASE2": 7,
+      "Unknown": 2,
+      "NA": 1,
+      "PHASE3": 1,
+      "PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 6,
+      "RECRUITING": 2,
+      "TERMINATED": 2,
+      "WITHDRAWN": 1,
+      "UNKNOWN": 1
+    },
+    "total_enrollment": 816,
+    "median_enrollment": 40,
+    "with_results": 3,
+    "top_sponsors": {
+      "National Institute of Allergy and Infectious Diseases (NIAID)": 2,
+      "St. Joseph's Healthcare Hamilton": 1,
+      "Centre Hospitalier Universitaire Dijon": 1,
+      "Intervene Immune, Inc.": 1,
+      "Ipsen": 1,
+      "Stanford University": 1,
+      "Pfizer": 1,
+      "Cambridge University Hospitals NHS Foundation Trust": 1,
+      "University of Texas Southwestern Medical Center": 1,
+      "National Institute of Dental and Craniofacial Research (NIDCR)": 1
+    },
+    "top_conditions": {
+      "HIV Infections": 2,
+      "Patient Discharge": 1,
+      "Drug-Related Side Effects and Adverse Reactions": 1,
+      "Aged": 1,
+      "Health Care Costs": 1,
+      "Neuroendocrine Tumors": 1,
+      "MEN1 Mutation": 1,
+      "Epigenetic Aging": 1,
+      "Immunosenescence": 1,
+      "Neuroendocrine Tumours": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 42,
+    "total_funding_usd": 20023661.0,
+    "mean_funding_usd": 476753.83,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 13,
+      "NHLBI": 12,
+      "NIAID": 7,
+      "NCI": 6,
+      "OD": 4
+    },
+    "top_organisations": {
+      "FRED HUTCHINSON CANCER CENTER": 8,
+      "UNIVERSITY OF ARIZONA": 7,
+      "SLOAN-KETTERING INST CAN RESEARCH": 5,
+      "FRED HUTCHINSON CANCER RESEARCH CENTER": 5,
+      "UNIVERSITY OF TEXAS HLTH SCIENCE CENTER": 4,
+      "UNIVERSITY OF CONNECTICUT STORRS": 3,
+      "UNIVERSITY OF CALIFORNIA LOS ANGELES": 3,
+      "UNIVERSITY OF CALIFORNIA, MERCED": 2,
+      "UNIVERSITY OF WASHINGTON": 2,
+      "SCRIPPS FLORIDA": 2
+    },
+    "by_fiscal_year": {
+      "2018": 4,
+      "2019": 5,
+      "2020": 3,
+      "2021": 3,
+      "2022": 6,
+      "2023": 8,
+      "2024": 7,
+      "2025": 6
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 20,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "aging-us.com": 1,
+      "eurekalert.org": 1,
+      "wehi.edu.au": 1,
+      "fightaging.org": 1,
+      "news.ucmerced.edu": 1,
+      "globalhumanaging.org": 1,
+      "medicalxpress.com": 1,
+      "imrpress.com": 1,
+      "eurostemcell.org": 1,
+      "yangtan.mit.edu": 1
+    }
+  },
+  "social": {
+    "count": 1,
+    "by_platform": {
+      "reddit": 1
+    },
+    "top_subreddits": {
+      "Biohackers": 1
+    },
+    "total_score": 418,
+    "mean_score": 418.0,
+    "total_comments": 230,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 26,
+    "mean_citations": 0.5,
+    "max_citations": 10,
+    "open_access": 37,
+    "preprints": 4,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 358,
+    "mean_citations": 7.2,
+    "max_citations": 47,
+    "total_influential_citations": 10,
+    "open_access": 22
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2024-06-30",
+    "current_interest": 9,
+    "data_points_count": 261
+  }
+}

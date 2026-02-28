@@ -1,0 +1,283 @@
+{
+  "intervention": "metformin",
+  "aliases": [
+    "glucophage",
+    "dimethylbiguanide"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 385,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "drugage": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "regulatory": 15,
+    "news": 15,
+    "patent": 5
+  },
+  "date_range": {
+    "earliest": "1996-12-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1996": 1,
+    "1997": 1,
+    "1999": 1,
+    "2000": 1,
+    "2001": 1,
+    "2002": 1,
+    "2005": 1,
+    "2006": 4,
+    "2007": 2,
+    "2008": 3,
+    "2009": 1,
+    "2010": 3,
+    "2011": 3,
+    "2012": 5,
+    "2013": 9,
+    "2014": 5,
+    "2015": 3,
+    "2016": 6,
+    "2017": 9,
+    "2018": 9,
+    "2019": 10,
+    "2020": 67,
+    "2021": 17,
+    "2022": 24,
+    "2023": 31,
+    "2024": 40,
+    "2025": 77,
+    "2026": 50
+  },
+  "academic": {
+    "unique_authors": 1184,
+    "unique_journals": 62,
+    "top_journals": {
+      "Aging cell": 8,
+      "Aging Cell": 7,
+      "GeroScience": 4,
+      "Cell": 4,
+      "Cell metabolism": 4,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 4,
+      "bioRxiv": 4,
+      "eLife": 2,
+      "Ageing research reviews": 2,
+      "Nature aging": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 17,
+      "Research Support, Non-U.S. Gov't": 15,
+      "Research Support, N.I.H., Extramural": 10,
+      "Meta-Analysis": 4,
+      "Randomized Controlled Trial": 4,
+      "Systematic Review": 2,
+      "Comparative Study": 1,
+      "Research Support, N.I.H., Intramural": 1
+    },
+    "top_mesh_terms": {
+      "Metformin": 50,
+      "Humans": 38,
+      "Animals": 35,
+      "Aging": 34,
+      "Cellular Senescence": 23,
+      "Mice": 17,
+      "Hypoglycemic Agents": 16,
+      "Longevity": 14,
+      "Male": 10,
+      "Caloric Restriction": 7,
+      "Female": 7,
+      "Sirolimus": 6,
+      "Senotherapeutics": 6,
+      "Mitochondria": 6,
+      "Caenorhabditis elegans": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE3": 14,
+      "PHASE4": 10,
+      "PHASE1": 9,
+      "NA": 9,
+      "PHASE2": 7,
+      "Unknown": 1
+    },
+    "by_status": {
+      "COMPLETED": 48,
+      "RECRUITING": 1,
+      "UNKNOWN": 1
+    },
+    "total_enrollment": 20998,
+    "median_enrollment": 95.5,
+    "with_results": 18,
+    "top_sponsors": {
+      "Merck Sharp & Dohme LLC": 6,
+      "Sanofi": 3,
+      "Novo Nordisk A/S": 3,
+      "Eli Lilly and Company": 2,
+      "GlaxoSmithKline": 2,
+      "Wake Forest University Health Sciences": 1,
+      "University Hospital, Basel, Switzerland": 1,
+      "SingHealth Polyclinics": 1,
+      "University of California, Los Angeles": 1,
+      "Central South University": 1
+    },
+    "top_conditions": {
+      "Type 2 Diabetes Mellitus": 11,
+      "Diabetes Mellitus, Type 2": 10,
+      "Diabetes": 4,
+      "Type 2 Diabetes": 4,
+      "Polycystic Ovary Syndrome": 3,
+      "Hypertension": 2,
+      "Vitamin B 12 Deficiency": 2,
+      "Diabetes Mellitus": 2,
+      "Coronary Artery Disease": 1,
+      "Mild Cognitive Impairment": 1
+    }
+  },
+  "drugage": {
+    "count": 50,
+    "by_species": {
+      "Caenorhabditis elegans": 21,
+      "Drosophila melanogaster": 16,
+      "Mus musculus": 9,
+      "Rattus norvegicus": 2,
+      "Acheta domesticus": 2
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 23,
+      "Male": 15,
+      "Female": 12
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 22752830.0,
+    "mean_funding_usd": 474017.29,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 31,
+      "NCI": 4,
+      "NEI": 3,
+      "NHLBI": 3,
+      "NIDDK": 2,
+      "NIDCR": 1,
+      "OD": 1,
+      "NIAAA": 1,
+      "NIGMS": 1,
+      "NIAID": 1
+    },
+    "top_organisations": {
+      "CEDARS-SINAI MEDICAL CENTER": 5,
+      "TUFTS UNIVERSITY BOSTON": 3,
+      "OKLAHOMA MEDICAL RESEARCH FOUNDATION": 3,
+      "BAYLOR COLLEGE OF MEDICINE": 3,
+      "WEILL MEDICAL COLL OF CORNELL UNIV": 2,
+      "UNIVERSITY OF CALIFORNIA LOS ANGELES": 2,
+      "DUKE UNIVERSITY": 2,
+      "UNIVERSITY OF TEXAS HLTH SCIENCE CENTER": 2,
+      "EAST TENNESSEE STATE UNIVERSITY": 2,
+      "UNIVERSITY OF WASHINGTON": 2
+    },
+    "by_fiscal_year": {
+      "2025": 42,
+      "2026": 8
+    }
+  },
+  "patents": {
+    "count": 5,
+    "by_status": {},
+    "by_office": {
+      "USPTO": 4,
+      "EPO": 1
+    },
+    "top_assignees": {}
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "1 INDICATIONS & USAGE Metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. Metformin hydrochloride tablets are biguanide indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. ( 1 )": 2,
+      "1 INDICATIONS AND USAGE ZITUVIMET is a combination of sitagliptin, a dipeptidyl peptidase-4 (DPP-4) inhibitor, and metformin hydrochloride (HCl), a biguanide, indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) Limitations of Use: ZITUVIMET is not recommended in patients with type 1 diabetes mellitus. ( 1 ) ZITUVIMET has not been studied in patients with a history of pancreatitis. ( 1 ) ZITUVIMET is indicated as an adjunct to di": 1,
+      "1 INDICATIONS AND USAGE Metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. Metformin hydrochloride tablets is a biguanide indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. ( 1 )": 1,
+      "INDICATIONS AND USAGE Glipizide and metformin hydrochloride tablets USP are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.": 1
+    },
+    "drug_classes": {
+      "Dipeptidyl Peptidase 4 Inhibitor [EPC]": 1,
+      "Sulfonylurea [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 15,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "fightaging.org": 2,
+      "nytimes.com": 1,
+      "aging-us.com": 1,
+      "lifespan.io": 1,
+      "medicalnewstoday.com": 1,
+      "gethealthspan.com": 1,
+      "nmn.com": 1,
+      "parsemus.org": 1,
+      "today.ucsd.edu": 1,
+      "vivo.weill.cornell.edu": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "longevity": 25,
+      "Biohackers": 17,
+      "supplements": 8
+    },
+    "total_score": 7554,
+    "mean_score": 151.1,
+    "total_comments": 3880,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 68,
+    "mean_citations": 1.4,
+    "max_citations": 14,
+    "open_access": 38,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2526,
+    "mean_citations": 50.5,
+    "max_citations": 900,
+    "total_influential_citations": 61,
+    "open_access": 28
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-16",
+    "current_interest": 75,
+    "data_points_count": 261
+  }
+}

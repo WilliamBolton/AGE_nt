@@ -1,10 +1,10 @@
-# CLAUDE.md — Longevity Evidence Grading Agent
+# CLAUDE.md — AGE-nt Evidence Grading Agent
 
 **IMPORTANT: Read ARCHITECTURE.md before implementing anything.** It contains the full schema definitions, storage strategy, ingest pipeline design, and the rationale for every architectural decision. This file is the quick-start overview; ARCHITECTURE.md is the detailed reference.
 
 ## Project Overview
 
-This is **LongevityLens** — an agentic system that scrapes, standardises, and reasons over scientific evidence for aging interventions. The core insight: the **data layer is the product**. Reasoning modules (evidence grading, trajectory scoring, gap analysis, hype ratio) are swappable consumers of a unified, temporally-indexed document store.
+This is **AGE-nt** — an agentic system that scrapes, standardises, and reasons over scientific evidence for aging interventions. The core insight: the **data layer is the product**. Reasoning modules (evidence grading, trajectory scoring, gap analysis, hype ratio) are swappable consumers of a unified, temporally-indexed document store.
 
 ## Architecture
 
@@ -121,7 +121,7 @@ bio-hack/
     ├── trends/                  # Google Trends data
     ├── query_cache/             # Cached LLM query expansions
     ├── drugage/                 # DrugAge CSV data
-    ├── longevity_lens.db        # SQLite database (mirrors JSON)
+    ├── age_nt.db                # SQLite database (mirrors JSON)
     ├── seed_all.log             # Batch seeding log
     └── seed_summary.json        # Last batch seed results
 ```
@@ -199,7 +199,7 @@ TAVILY_API_KEY=              # Tavily web search + social
 EDISON_API_KEY=              # Edison/PaperQA3 (optional, for deep analysis)
 
 # Storage
-DATABASE_URL=sqlite:///data/longevity_lens.db
+DATABASE_URL=sqlite:///data/age_nt.db
 
 # Logging
 LOG_LEVEL=INFO

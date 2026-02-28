@@ -1,0 +1,213 @@
+{
+  "intervention": "epigenetic reprogramming",
+  "aliases": [
+    "Yamanaka factors",
+    "OSKM",
+    "partial reprogramming",
+    "iPSC reprogramming",
+    "Oct4 Sox2 Klf4 Myc"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 270,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "social": 45,
+    "news": 15,
+    "regulatory": 10
+  },
+  "date_range": {
+    "earliest": "1999-11-01",
+    "latest": "2026-03-01"
+  },
+  "by_year": {
+    "1999": 2,
+    "2003": 1,
+    "2005": 1,
+    "2006": 2,
+    "2008": 2,
+    "2009": 3,
+    "2010": 2,
+    "2011": 4,
+    "2012": 6,
+    "2013": 8,
+    "2014": 7,
+    "2015": 5,
+    "2016": 7,
+    "2017": 6,
+    "2018": 5,
+    "2019": 7,
+    "2020": 8,
+    "2021": 10,
+    "2022": 19,
+    "2023": 20,
+    "2024": 34,
+    "2025": 71,
+    "2026": 40
+  },
+  "academic": {
+    "unique_authors": 978,
+    "unique_journals": 66,
+    "top_journals": {
+      "Stem cell research": 10,
+      "bioRxiv": 5,
+      "Cell": 3,
+      "Stem cells (Dayton, Ohio)": 3,
+      "Cell stem cell": 3,
+      "Aging Cell": 3,
+      "Aging (Albany NY)": 3,
+      "Innovation in Aging": 3,
+      "Ageing research reviews": 2,
+      "Advances in experimental medicine and biology": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 27,
+      "Review": 9,
+      "Research Support, N.I.H., Extramural": 7,
+      "Comment": 2,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 2,
+      "Video-Audio Media": 1,
+      "Research Support, N.I.H., Intramural": 1
+    },
+    "top_mesh_terms": {
+      "Induced Pluripotent Stem Cells": 49,
+      "Cellular Reprogramming": 47,
+      "Humans": 44,
+      "Kruppel-Like Factor 4": 43,
+      "Cell Differentiation": 29,
+      "Animals": 22,
+      "Octamer Transcription Factor-3": 18,
+      "Fibroblasts": 17,
+      "Mice": 16,
+      "SOXB1 Transcription Factors": 16,
+      "Transcription Factors": 14,
+      "Proto-Oncogene Proteins c-myc": 13,
+      "Male": 13,
+      "Kruppel-Like Transcription Factors": 12,
+      "Cell Line": 8
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE1": 16,
+      "Unknown": 16,
+      "PHASE2": 11,
+      "NA": 5,
+      "PHASE3": 1,
+      "PHASE4": 1
+    },
+    "by_status": {
+      "COMPLETED": 40,
+      "UNKNOWN": 5,
+      "RECRUITING": 3,
+      "WITHDRAWN": 1,
+      "TERMINATED": 1
+    },
+    "total_enrollment": 7774,
+    "median_enrollment": 45,
+    "with_results": 7,
+    "top_sponsors": {
+      "National Cancer Institute (NCI)": 5,
+      "University of California, San Francisco": 3,
+      "University Hospital, Bordeaux": 2,
+      "Radboud University Medical Center": 2,
+      "Theravance Biopharma": 2,
+      "Instituto de Investigacion Sanitaria La Fe": 1,
+      "Targacept Inc.": 1,
+      "Mayo Clinic": 1,
+      "University of Georgia": 1,
+      "Glostrup University Hospital, Copenhagen": 1
+    },
+    "top_conditions": {
+      "Lymphoma": 3,
+      "Colorectal Cancer": 3,
+      "Burkitt Lymphoma": 2,
+      "Lymphoma, Large B-Cell, Diffuse": 2,
+      "Atherosclerosis": 2,
+      "Healthy": 2,
+      "LOW AND INTERMEDIATE PAEDIATRIC NEUROBLASTOMA AND NEONATAL SUPRARENAL MASSES": 1,
+      "Diffuse Large B-cell Lymphoma, c-MYC Positive": 1,
+      "Plasmablastic Lymphoma": 1,
+      "Alzheimer's Disease": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 10,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 15,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "aging-us.com": 2,
+      "lifespan.io": 1,
+      "hubmeded.com": 1,
+      "spandidos-publications.com": 1,
+      "bmbreports.org": 1,
+      "news-medical.net": 1,
+      "journals.sagepub.com": 1,
+      "glaucomatoday.com": 1,
+      "linkedin.com": 1,
+      "en.wikipedia.org": 1
+    }
+  },
+  "social": {
+    "count": 45,
+    "by_platform": {
+      "reddit": 45
+    },
+    "top_subreddits": {
+      "longevity": 32,
+      "Biohackers": 10,
+      "supplements": 3
+    },
+    "total_score": 9829,
+    "mean_score": 218.4,
+    "total_comments": 1970,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 214,
+    "mean_citations": 4.3,
+    "max_citations": 81,
+    "open_access": 40,
+    "preprints": 4,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1025,
+    "mean_citations": 20.5,
+    "max_citations": 214,
+    "total_influential_citations": 45,
+    "open_access": 27
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-01-25",
+    "current_interest": 32,
+    "data_points_count": 261
+  }
+}

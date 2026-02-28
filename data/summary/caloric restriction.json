@@ -1,0 +1,243 @@
+{
+  "intervention": "caloric restriction",
+  "aliases": [
+    "calorie restriction",
+    "dietary restriction",
+    "CR",
+    "intermittent fasting",
+    "time-restricted eating"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 333,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "news": 23,
+    "regulatory": 10
+  },
+  "date_range": {
+    "earliest": "1996-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1996": 1,
+    "1998": 1,
+    "2001": 1,
+    "2002": 2,
+    "2003": 1,
+    "2004": 1,
+    "2005": 4,
+    "2006": 2,
+    "2007": 2,
+    "2008": 4,
+    "2009": 2,
+    "2010": 6,
+    "2011": 2,
+    "2012": 3,
+    "2013": 3,
+    "2014": 6,
+    "2015": 8,
+    "2016": 8,
+    "2017": 9,
+    "2018": 12,
+    "2019": 8,
+    "2020": 17,
+    "2021": 23,
+    "2022": 16,
+    "2023": 30,
+    "2024": 44,
+    "2025": 62,
+    "2026": 55
+  },
+  "academic": {
+    "unique_authors": 878,
+    "unique_journals": 63,
+    "top_journals": {
+      "GeroScience": 7,
+      "Aging Cell": 5,
+      "Aging cell": 3,
+      "Nature": 3,
+      "Cell metabolism": 3,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 3,
+      "Science (New York, N.Y.)": 3,
+      "Nutrients": 3,
+      "Ageing research reviews": 3,
+      "bioRxiv": 3
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 30,
+      "Research Support, Non-U.S. Gov't": 24,
+      "Research Support, N.I.H., Extramural": 9,
+      "Meta-Analysis": 7,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 4,
+      "Research Support, N.I.H., Intramural": 2,
+      "Research Support, U.S. Gov't, P.H.S.": 2,
+      "Randomized Controlled Trial": 1
+    },
+    "top_mesh_terms": {
+      "Caloric Restriction": 50,
+      "Longevity": 50,
+      "Animals": 41,
+      "Humans": 36,
+      "Aging": 32,
+      "Mice": 14,
+      "Female": 9,
+      "Male": 9,
+      "Signal Transduction": 9,
+      "Fasting": 8,
+      "Diet": 6,
+      "Saccharomyces cerevisiae": 5,
+      "Caenorhabditis elegans": 5,
+      "Energy Intake": 5,
+      "Sirolimus": 4
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE1": 15,
+      "PHASE2": 14,
+      "NA": 13,
+      "Unknown": 4,
+      "PHASE3": 3,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 47,
+      "UNKNOWN": 2,
+      "TERMINATED": 1
+    },
+    "total_enrollment": 5920,
+    "median_enrollment": 51.5,
+    "with_results": 17,
+    "top_sponsors": {
+      "National Cancer Institute (NCI)": 4,
+      "AstraZeneca": 2,
+      "M.D. Anderson Cancer Center": 2,
+      "Tel-Aviv Sourasky Medical Center": 1,
+      "Brigham and Women's Hospital": 1,
+      "Dr. Lutfi Kirdar Kartal Training and Research Hospital": 1,
+      "University of Groningen": 1,
+      "OHSU Knight Cancer Institute": 1,
+      "Hospital Israelita Albert Einstein": 1,
+      "Sun Yat-sen University": 1
+    },
+    "top_conditions": {
+      "Obesity": 3,
+      "Breast Cancer": 3,
+      "Acute Myeloid Leukemia": 3,
+      "Time Restricted Feeding": 2,
+      "Leukemia": 2,
+      "Lung Cancer": 2,
+      "Neoplasms, Breast": 2,
+      "Multiple Myeloma": 2,
+      "Myeloma Multiple": 1,
+      "Myeloma, Plasma-Cell": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 26412281.0,
+    "mean_funding_usd": 528245.62,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 41,
+      "NIDDK": 3,
+      "NEI": 3,
+      "NHLBI": 2,
+      "NIAID": 1
+    },
+    "top_organisations": {
+      "UNIVERSITY OF WISCONSIN-MADISON": 5,
+      "TUFTS UNIVERSITY BOSTON": 3,
+      "NEW YORK UNIVERSITY SCHOOL OF MEDICINE": 2,
+      "LSU PENNINGTON BIOMEDICAL RESEARCH CTR": 2,
+      "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 2,
+      "WEILL MEDICAL COLL OF CORNELL UNIV": 2,
+      "YALE UNIVERSITY": 2,
+      "UNIVERSITY OF ARIZONA": 2,
+      "OKLAHOMA MEDICAL RESEARCH FOUNDATION": 2,
+      "UNIVERSITY OF CALIFORNIA LOS ANGELES": 2
+    },
+    "by_fiscal_year": {
+      "2025": 32,
+      "2026": 18
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 10,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 23,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "consensus.app": 2,
+      "nia.nih.gov": 2,
+      "stars.library.ucf.edu": 1,
+      "gethealthspan.com": 1,
+      "publichealth.columbia.edu": 1,
+      "youtube.com": 1,
+      "examine.com": 1,
+      "aging-us.com": 1,
+      "web.ecreee.org": 1,
+      "gero.usc.edu": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 38,
+      "supplements": 12
+    },
+    "total_score": 2867,
+    "mean_score": 57.3,
+    "total_comments": 1796,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 76,
+    "mean_citations": 1.5,
+    "max_citations": 22,
+    "open_access": 44,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 6073,
+    "mean_citations": 121.5,
+    "max_citations": 3262,
+    "total_influential_citations": 177,
+    "open_access": 33
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 37,
+    "data_points_count": 261
+  }
+}

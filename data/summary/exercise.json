@@ -1,0 +1,236 @@
+{
+  "intervention": "exercise",
+  "aliases": [
+    "physical activity",
+    "aerobic exercise",
+    "resistance training",
+    "HIIT"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 325,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "news": 23,
+    "regulatory": 2
+  },
+  "date_range": {
+    "earliest": "1988-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1988": 1,
+    "2005": 1,
+    "2009": 3,
+    "2011": 2,
+    "2012": 3,
+    "2013": 4,
+    "2014": 10,
+    "2015": 5,
+    "2016": 10,
+    "2017": 7,
+    "2018": 6,
+    "2019": 9,
+    "2020": 18,
+    "2021": 12,
+    "2022": 24,
+    "2023": 28,
+    "2024": 45,
+    "2025": 83,
+    "2026": 54
+  },
+  "academic": {
+    "unique_authors": 951,
+    "unique_journals": 74,
+    "top_journals": {
+      "Experimental gerontology": 5,
+      "Medicine and science in sports and exercise": 4,
+      "Clinical interventions in aging": 3,
+      "Sports medicine (Auckland, N.Z.)": 3,
+      "Aging Cell": 3,
+      "Frontiers in Aging": 3,
+      "Journal of sports sciences": 2,
+      "Archives of gerontology and geriatrics": 2,
+      "Journal of aging and physical activity": 2,
+      "PloS one": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Randomized Controlled Trial": 19,
+      "Systematic Review": 16,
+      "Meta-Analysis": 14,
+      "Review": 10,
+      "Research Support, Non-U.S. Gov't": 9,
+      "Research Support, N.I.H., Extramural": 2,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1,
+      "Comparative Study": 1
+    },
+    "top_mesh_terms": {
+      "Humans": 47,
+      "Aging": 46,
+      "Resistance Training": 42,
+      "Aged": 41,
+      "Female": 27,
+      "Male": 25,
+      "Muscle Strength": 22,
+      "Middle Aged": 18,
+      "Muscle, Skeletal": 17,
+      "Exercise": 17,
+      "High-Intensity Interval Training": 10,
+      "Body Composition": 10,
+      "Adult": 7,
+      "Aged, 80 and over": 6,
+      "Dietary Supplements": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 32,
+      "Unknown": 9,
+      "PHASE3": 6,
+      "PHASE2": 3
+    },
+    "by_status": {
+      "COMPLETED": 41,
+      "UNKNOWN": 4,
+      "RECRUITING": 3,
+      "TERMINATED": 1,
+      "NOT_YET_RECRUITING": 1
+    },
+    "total_enrollment": 11281,
+    "median_enrollment": 95.0,
+    "with_results": 11,
+    "top_sponsors": {
+      "Denver Health and Hospital Authority": 2,
+      "Genzyme, a Sanofi Company": 1,
+      "Geriatric Education and Research Institute": 1,
+      "University of Wisconsin, Madison": 1,
+      "Telix Pharmaceuticals (Innovations) Pty Limited": 1,
+      "Ankara Training and Research Hospital": 1,
+      "University of Michigan": 1,
+      "Glostrup University Hospital, Copenhagen": 1,
+      "Janssen Research & Development, LLC": 1,
+      "University of California, San Francisco": 1
+    },
+    "top_conditions": {
+      "Frailty": 2,
+      "Obesity": 2,
+      "Sphingomyelin Lipidosis": 1,
+      "Cognition": 1,
+      "Stroke": 1,
+      "Clear Cell Renal Cell Carcinoma": 1,
+      "Overactive Bladder Syndrome": 1,
+      "Coronary Artery Disease": 1,
+      "Multiple System Atrophy - Parkinsonian Subtype (MSA-P)": 1,
+      "Multiple System Atrophy - Cerebellar Subtype (MSA-C)": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 25890745.0,
+    "mean_funding_usd": 631481.59,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 30,
+      "NIDDK": 2,
+      "NIAMS": 2,
+      "NIAAA": 2,
+      "NIAID": 1,
+      "NCI": 1,
+      "NHLBI": 1,
+      "NINDS": 1,
+      "NIMHD": 1
+    },
+    "top_organisations": {
+      "MASSACHUSETTS GENERAL HOSPITAL": 3,
+      "VETERANS HEALTH ADMINISTRATION": 3,
+      "UTAH STATE HIGHER EDUCATION SYSTEM--UNIVERSITY OF UTAH": 2,
+      "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 2,
+      "UNIVERSITY OF FLORIDA": 2,
+      "VIRGINIA POLYTECHNIC INST AND ST UNIV": 2,
+      "UNIVERSITY OF KENTUCKY": 2,
+      "MAYO CLINIC ROCHESTER": 1,
+      "TUFTS UNIVERSITY BOSTON": 1,
+      "UNIVERSITY OF RHODE ISLAND": 1
+    },
+    "by_fiscal_year": {
+      "2026": 50
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 2,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 23,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "youtube.com": 2,
+      "health.harvard.edu": 2,
+      "cdc.gov": 2,
+      "openpublichealthjournal.com": 1,
+      "ezra.com": 1,
+      "peninsulapt.net": 1,
+      "creators.yahoo.com": 1,
+      "healthyagingpt.com": 1,
+      "pcna.net": 1,
+      "aarp.org": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 35,
+      "supplements": 15
+    },
+    "total_score": 22085,
+    "mean_score": 441.7,
+    "total_comments": 9582,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 138,
+    "mean_citations": 2.8,
+    "max_citations": 106,
+    "open_access": 50,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1536,
+    "mean_citations": 30.7,
+    "max_citations": 190,
+    "total_influential_citations": 39,
+    "open_access": 29
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-08",
+    "current_interest": 83,
+    "data_points_count": 261
+  }
+}

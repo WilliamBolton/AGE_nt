@@ -1,0 +1,272 @@
+{
+  "intervention": "aspirin",
+  "aliases": [
+    "acetylsalicylic acid",
+    "ASA",
+    "low-dose aspirin"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 337,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "drugage": 37,
+    "news": 23,
+    "regulatory": 15,
+    "social": 12
+  },
+  "date_range": {
+    "earliest": "1976-03-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1976": 1,
+    "1997": 1,
+    "2002": 2,
+    "2003": 2,
+    "2004": 2,
+    "2005": 1,
+    "2006": 2,
+    "2007": 1,
+    "2008": 1,
+    "2009": 1,
+    "2010": 6,
+    "2011": 13,
+    "2012": 2,
+    "2013": 5,
+    "2014": 7,
+    "2015": 4,
+    "2016": 4,
+    "2017": 3,
+    "2018": 7,
+    "2019": 8,
+    "2020": 52,
+    "2021": 14,
+    "2022": 21,
+    "2023": 21,
+    "2024": 32,
+    "2025": 68,
+    "2026": 56
+  },
+  "academic": {
+    "unique_authors": 1096,
+    "unique_journals": 67,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Aging Cell": 5,
+      "Drugs & aging": 4,
+      "Frontiers in Aging": 4,
+      "Aging and Disease": 4,
+      "JAMA network open": 3,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 3,
+      "BMJ open": 2,
+      "The New England journal of medicine": 2,
+      "Neurology": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Randomized Controlled Trial": 30,
+      "Research Support, Non-U.S. Gov't": 24,
+      "Research Support, N.I.H., Extramural": 15,
+      "Multicenter Study": 12,
+      "Review": 6,
+      "Meta-Analysis": 4,
+      "Systematic Review": 4,
+      "Comparative Study": 3,
+      "Clinical Trial": 2,
+      "Observational Study": 1,
+      "Clinical Trial, Phase II": 1,
+      "Research Support, N.I.H., Intramural": 1,
+      "Controlled Clinical Trial": 1
+    },
+    "top_mesh_terms": {
+      "Aspirin": 50,
+      "Humans": 49,
+      "Aged": 41,
+      "Female": 32,
+      "Male": 31,
+      "Aged, 80 and over": 22,
+      "Double-Blind Method": 18,
+      "Australia": 15,
+      "Platelet Aggregation Inhibitors": 14,
+      "United States": 14,
+      "Middle Aged": 11,
+      "Cardiovascular Diseases": 10,
+      "Hemorrhage": 9,
+      "Anti-Inflammatory Agents, Non-Steroidal": 8,
+      "Independent Living": 8
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 17,
+      "Unknown": 12,
+      "PHASE3": 7,
+      "PHASE4": 6,
+      "PHASE2": 5,
+      "PHASE1": 3
+    },
+    "by_status": {
+      "COMPLETED": 42,
+      "UNKNOWN": 4,
+      "NOT_YET_RECRUITING": 3,
+      "RECRUITING": 1
+    },
+    "total_enrollment": 19829,
+    "median_enrollment": 85.5,
+    "with_results": 7,
+    "top_sponsors": {
+      "Dr. Lutfi Kirdar Kartal Training and Research Hospital": 2,
+      "Ba\u015fak\u015fehir \u00c7am & Sakura City Hospital": 2,
+      "Centro Hospitalar do Porto": 1,
+      "Milton S. Hershey Medical Center": 1,
+      "Sinem B\u00fc\u015fra K\u0131ra\u00e7 Can": 1,
+      "Tehran University of Medical Sciences": 1,
+      "University Tunis El Manar": 1,
+      "Columbia University": 1,
+      "Fujian Medical University": 1,
+      "Medtronic - MITG": 1
+    },
+    "top_conditions": {
+      "Ulcerative Colitis": 3,
+      "Coronary Artery Disease": 3,
+      "Diabetes Mellitus, Type 2": 2,
+      "Acute Coronary Syndrome": 2,
+      "Residual Neuromuscular Blockade": 1,
+      "Residual Paralysis, Post-Anesthesia": 1,
+      "Observational Study": 1,
+      "Complication of Anesthesia": 1,
+      "Neuromuscular Blockade": 1,
+      "Kidney Failure": 1
+    }
+  },
+  "drugage": {
+    "count": 37,
+    "by_species": {
+      "Drosophila melanogaster": 14,
+      "Mus musculus": 10,
+      "Caenorhabditis elegans": 7,
+      "Acheta domesticus": 6
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Male": 15,
+      "Female": 13,
+      "Unknown": 9
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 22488890.0,
+    "mean_funding_usd": 511111.14,
+    "by_mechanism": {},
+    "by_institute": {
+      "NCI": 17,
+      "NIAID": 10,
+      "NIA": 8,
+      "NHLBI": 4,
+      "NICHD": 3,
+      "NIAAA": 2
+    },
+    "top_organisations": {
+      "MASSACHUSETTS GENERAL HOSPITAL": 10,
+      "BRIGHAM AND WOMEN'S HOSPITAL": 10,
+      "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 5,
+      "UNIV OF NORTH CAROLINA CHAPEL HILL": 3,
+      "MAYO CLINIC  JACKSONVILLE": 3,
+      "CHARLIE NORWOOD VA MEDICAL CENTER": 2,
+      "OKLAHOMA CITY VA MEDICAL CENTER": 2,
+      "VETERANS HEALTH ADMINISTRATION": 2,
+      "THOMAS JEFFERSON UNIVERSITY": 2,
+      "UNIVERSITY OF CHICAGO": 2
+    },
+    "by_fiscal_year": {
+      "2024": 20,
+      "2025": 26,
+      "2026": 4
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "INDICATIONS AND USAGE Carefully consider the potential benefits and risks of Salsalate tablets and other treatment options before deciding to use Salsalate tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS ). Salsalate is indicated for relief of the signs and symptoms of rheumatoid arthritis, osteoarthritis and related rheumatic disorder.": 3,
+      "INDICATIONS AND USAGE Carefully consider the potential benefits and risks of Salsalate tablets, USP and other treatment options before deciding to use Salsalate tablets, USP. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS ). Salsalate, USP is indicated for relief of the signs and symptoms of rheumatoid arthritis, osteoarthritis and related rheumatic disorder.": 2
+    },
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 23,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "youtube.com": 2,
+      "drugdeliverybusiness.com": 1,
+      "ajmc.com": 1,
+      "prevention.cancer.gov": 1,
+      "nia.nih.gov": 1,
+      "eurekalert.org": 1,
+      "newsroom.wakehealth.edu": 1,
+      "schaeffer.usc.edu": 1,
+      "aacrjournals.org": 1,
+      "nih.gov": 1
+    }
+  },
+  "social": {
+    "count": 12,
+    "by_platform": {
+      "reddit": 12
+    },
+    "top_subreddits": {
+      "Biohackers": 10,
+      "supplements": 2
+    },
+    "total_score": 269,
+    "mean_score": 22.4,
+    "total_comments": 248,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 56,
+    "mean_citations": 1.1,
+    "max_citations": 17,
+    "open_access": 39,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2199,
+    "mean_citations": 44.0,
+    "max_citations": 350,
+    "total_influential_citations": 64,
+    "open_access": 34
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-16",
+    "current_interest": 70,
+    "data_points_count": 261
+  }
+}

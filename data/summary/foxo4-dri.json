@@ -1,0 +1,167 @@
+{
+  "intervention": "foxo4-dri",
+  "aliases": [
+    "FOXO4 peptide",
+    "proxofim"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 148,
+  "by_source_type": {
+    "pubmed": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 27,
+    "news": 17,
+    "social": 4
+  },
+  "date_range": {
+    "earliest": "1970-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1970": 1,
+    "1997": 1,
+    "2002": 2,
+    "2004": 3,
+    "2005": 2,
+    "2006": 1,
+    "2007": 3,
+    "2008": 1,
+    "2009": 3,
+    "2010": 2,
+    "2011": 5,
+    "2012": 1,
+    "2013": 4,
+    "2014": 6,
+    "2015": 5,
+    "2016": 2,
+    "2017": 8,
+    "2018": 4,
+    "2019": 2,
+    "2020": 3,
+    "2021": 3,
+    "2022": 3,
+    "2023": 8,
+    "2024": 8,
+    "2025": 42,
+    "2026": 25
+  },
+  "academic": {
+    "unique_authors": 763,
+    "unique_journals": 62,
+    "top_journals": {
+      "PloS one": 3,
+      "Oxidative medicine and cellular longevity": 2,
+      "American journal of physiology. Renal physiology": 2,
+      "Cancer research": 2,
+      "Molecular and cellular biology": 2,
+      "Antioxidants & redox signaling": 2,
+      "Placenta": 2,
+      "Aging Cell": 2,
+      "Cell": 1,
+      "Journal of medicinal chemistry": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 25,
+      "Research Support, N.I.H., Extramural": 8,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 3,
+      "Review": 2,
+      "Comment": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1,
+      "English Abstract": 1,
+      "Comparative Study": 1,
+      "Multicenter Study": 1
+    },
+    "top_mesh_terms": {
+      "Forkhead Transcription Factors": 45,
+      "Humans": 35,
+      "Cell Cycle Proteins": 32,
+      "Animals": 30,
+      "Apoptosis": 25,
+      "Transcription Factors": 18,
+      "Oxidative Stress": 18,
+      "Signal Transduction": 18,
+      "Mice": 17,
+      "Male": 16,
+      "Female": 13,
+      "Cellular Senescence": 11,
+      "Cell Line": 9,
+      "Cell Line, Tumor": 9,
+      "Rats": 9
+    }
+  },
+  "clinical_trials": {
+    "count": 0
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 17,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "corepeptides.com": 1,
+      "icthealth.org": 1,
+      "particlepeptides.com": 1,
+      "guardian.ng": 1,
+      "fightaging.org": 1,
+      "biotechpeptides.com": 1,
+      "mynexgenhealth.com": 1,
+      "aging-us.com": 1,
+      "facebook.com": 1,
+      "doctoronline.co.uk": 1
+    }
+  },
+  "social": {
+    "count": 4,
+    "by_platform": {
+      "reddit": 4
+    },
+    "top_subreddits": {
+      "longevity": 4
+    },
+    "total_score": 141,
+    "mean_score": 35.2,
+    "total_comments": 53,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 400,
+    "mean_citations": 8.0,
+    "max_citations": 117,
+    "open_access": 47,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 27,
+    "total_citations": 2719,
+    "mean_citations": 100.7,
+    "max_citations": 698,
+    "total_influential_citations": 91,
+    "open_access": 11
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-09-28",
+    "current_interest": 19,
+    "data_points_count": 261
+  }
+}

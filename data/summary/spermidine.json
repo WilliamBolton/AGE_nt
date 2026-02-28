@@ -1,0 +1,259 @@
+{
+  "intervention": "spermidine",
+  "aliases": [],
+  "generated_at": "2026-02-28",
+  "total_documents": 289,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "news": 26,
+    "drugage": 13
+  },
+  "date_range": {
+    "earliest": "1975-12-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1975": 1,
+    "1994": 4,
+    "1998": 1,
+    "2000": 4,
+    "2002": 1,
+    "2005": 2,
+    "2008": 1,
+    "2009": 3,
+    "2010": 4,
+    "2011": 8,
+    "2012": 3,
+    "2013": 5,
+    "2014": 6,
+    "2015": 11,
+    "2016": 6,
+    "2017": 8,
+    "2018": 8,
+    "2019": 13,
+    "2020": 40,
+    "2021": 24,
+    "2022": 8,
+    "2023": 23,
+    "2024": 24,
+    "2025": 44,
+    "2026": 37
+  },
+  "academic": {
+    "unique_authors": 991,
+    "unique_journals": 65,
+    "top_journals": {
+      "Aging": 8,
+      "Autophagy": 5,
+      "Aging cell": 4,
+      "Aging (Albany NY)": 4,
+      "Nature cell biology": 3,
+      "Aging Cell": 3,
+      "Nature aging": 2,
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)": 2,
+      "International journal of molecular sciences": 2,
+      "Nature medicine": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 28,
+      "Review": 7,
+      "Research Support, N.I.H., Extramural": 4,
+      "Comment": 2,
+      "Systematic Review": 1,
+      "Randomized Controlled Trial": 1,
+      "Comparative Study": 1,
+      "Observational Study": 1
+    },
+    "top_mesh_terms": {
+      "Spermidine": 42,
+      "Animals": 40,
+      "Autophagy": 31,
+      "Humans": 25,
+      "Mice": 24,
+      "Aging": 24,
+      "Longevity": 21,
+      "Cellular Senescence": 18,
+      "Male": 15,
+      "Female": 12,
+      "Spermine": 11,
+      "Mitochondria": 10,
+      "Caenorhabditis elegans": 9,
+      "Polyamines": 9,
+      "Dietary Supplements": 8
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 25,
+      "Unknown": 13,
+      "PHASE2": 6,
+      "PHASE4": 3,
+      "PHASE3": 2,
+      "PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 26,
+      "RECRUITING": 12,
+      "UNKNOWN": 5,
+      "NOT_YET_RECRUITING": 4,
+      "ACTIVE_NOT_RECRUITING": 3
+    },
+    "total_enrollment": 7387,
+    "median_enrollment": 65.0,
+    "with_results": 8,
+    "top_sponsors": {
+      "Hospices Civils de Lyon": 5,
+      "Chang Gung Memorial Hospital": 2,
+      "Massachusetts General Hospital": 2,
+      "University of Aarhus": 2,
+      "UCB Pharma": 2,
+      "Yonsei University": 2,
+      "Brigham and Women's Hospital": 1,
+      "IRCCS San Raffaele": 1,
+      "University of Rochester": 1,
+      "Tjhin Wiguna": 1
+    },
+    "top_conditions": {
+      "Healthy": 4,
+      "Parkinson Disease": 2,
+      "Mild Cognitive Impairment": 2,
+      "ADHD": 2,
+      "Subjective Cognitive Decline": 2,
+      "Aging": 2,
+      "Cognitive Impairment": 2,
+      "Depression": 2,
+      "Healthy Volunteers": 2,
+      "Intrauterine Growth Restriction": 1
+    }
+  },
+  "drugage": {
+    "count": 13,
+    "by_species": {
+      "Mus musculus": 5,
+      "Caenorhabditis elegans": 4,
+      "Saccharomyces cerevisiae": 1,
+      "Drosophila melanogaster": 1,
+      "Adineta vaga": 1,
+      "Philodina acuticornis": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 8,
+      "Female": 4,
+      "Male": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 15125842.0,
+    "mean_funding_usd": 351763.77,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 22,
+      "NIGMS": 5,
+      "NEI": 5,
+      "NIDDK": 4,
+      "NINDS": 3,
+      "NHGRI": 1,
+      "OD": 1,
+      "NCI": 1,
+      "NIDCR": 1
+    },
+    "top_organisations": {
+      "ALBERT EINSTEIN COLLEGE OF MEDICINE": 6,
+      "SCRIPPS FLORIDA": 5,
+      "VANDERBILT UNIVERSITY MEDICAL CENTER": 4,
+      "STANFORD UNIVERSITY": 4,
+      "DARTMOUTH COLLEGE": 4,
+      "IOWA CITY VA MEDICAL CENTER": 4,
+      "UT SOUTHWESTERN MEDICAL CENTER": 4,
+      "UNIVERSITY OF ALABAMA AT BIRMINGHAM": 3,
+      "UNIVERSIDAD CENTRAL DEL CARIBE": 3,
+      "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 2
+    },
+    "by_fiscal_year": {
+      "2014": 1,
+      "2015": 5,
+      "2016": 2,
+      "2017": 2,
+      "2018": 2,
+      "2019": 3,
+      "2020": 7,
+      "2021": 9,
+      "2022": 6,
+      "2023": 5,
+      "2024": 5,
+      "2025": 2,
+      "2026": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 26,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "jinfiniti.com": 3,
+      "biocrates.com": 1,
+      "nordicoil.co.uk": 1,
+      "oxfordhealthspan.com": 1,
+      "endocrine-abstracts.org": 1,
+      "purovitalis.com": 1,
+      "youthandearth.com": 1,
+      "timeline.com": 1,
+      "lifespan.io": 1,
+      "nad.com": 1
+    }
+  },
+  "social": {
+    "count": 0
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 903,
+    "mean_citations": 18.1,
+    "max_citations": 185,
+    "open_access": 48,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 5108,
+    "mean_citations": 102.2,
+    "max_citations": 2049,
+    "total_influential_citations": 124,
+    "open_access": 32
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 30,
+    "data_points_count": 261
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "intervention": "stem cell therapy",
+  "aliases": [
+    "mesenchymal stem cells",
+    "MSC",
+    "stem cell transplant",
+    "iPSC therapy"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 291,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "news": 29,
+    "social": 12
+  },
+  "date_range": {
+    "earliest": "2002-04-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2002": 1,
+    "2003": 1,
+    "2005": 1,
+    "2007": 1,
+    "2008": 3,
+    "2009": 4,
+    "2010": 4,
+    "2011": 3,
+    "2012": 5,
+    "2013": 2,
+    "2014": 7,
+    "2015": 4,
+    "2016": 8,
+    "2017": 4,
+    "2018": 8,
+    "2019": 10,
+    "2020": 12,
+    "2021": 11,
+    "2022": 24,
+    "2023": 31,
+    "2024": 31,
+    "2025": 68,
+    "2026": 48
+  },
+  "academic": {
+    "unique_authors": 990,
+    "unique_journals": 62,
+    "top_journals": {
+      "Stem Cell Research & Therapy": 6,
+      "Current stem cell research & therapy": 5,
+      "Nature": 5,
+      "Ageing research reviews": 4,
+      "Nature aging": 3,
+      "Stem cell research & therapy": 3,
+      "Nature communications": 3,
+      "Oxidative Medicine and Cellular Longevity": 3,
+      "Nature cell biology": 2,
+      "Stem cell reviews and reports": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 30,
+      "Research Support, Non-U.S. Gov't": 16,
+      "Research Support, N.I.H., Extramural": 7,
+      "Systematic Review": 2,
+      "Research Support, U.S. Gov't, P.H.S.": 2,
+      "Video-Audio Media": 1,
+      "Research Support, N.I.H., Intramural": 1
+    },
+    "top_mesh_terms": {
+      "Animals": 39,
+      "Longevity": 39,
+      "Humans": 35,
+      "Aging": 31,
+      "Cellular Senescence": 20,
+      "Mice": 14,
+      "Mesenchymal Stem Cells": 13,
+      "Stem Cells": 13,
+      "Cell Differentiation": 9,
+      "Hematopoietic Stem Cells": 9,
+      "Rejuvenation": 9,
+      "Female": 7,
+      "Male": 7,
+      "Exosomes": 6,
+      "Mesenchymal Stem Cell Transplantation": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 25,
+      "PHASE1": 11,
+      "PHASE2": 6,
+      "Unknown": 5,
+      "PHASE3": 3
+    },
+    "by_status": {
+      "COMPLETED": 31,
+      "RECRUITING": 6,
+      "NOT_YET_RECRUITING": 4,
+      "ACTIVE_NOT_RECRUITING": 3,
+      "TERMINATED": 2,
+      "UNKNOWN": 2,
+      "ENROLLING_BY_INVITATION": 1,
+      "WITHDRAWN": 1
+    },
+    "total_enrollment": 8300,
+    "median_enrollment": 56,
+    "with_results": 8,
+    "top_sponsors": {
+      "Hoffmann-La Roche": 2,
+      "Massachusetts General Hospital": 1,
+      "Young Suk Park": 1,
+      "University of Nottingham": 1,
+      "Wageningen University": 1,
+      "Bern University of Applied Sciences": 1,
+      "University of British Columbia": 1,
+      "University of Groningen": 1,
+      "Mahidol University": 1,
+      "McMaster University": 1
+    },
+    "top_conditions": {
+      "Acute Lymphoblastic Leukemia": 2,
+      "Healthy": 2,
+      "Breast Cancer": 2,
+      "Melanoma": 2,
+      "Solid Tumors": 1,
+      "Cancer, Lung": 1,
+      "Respiratory Disease": 1,
+      "Heart Diseases": 1,
+      "Distorted; Balance": 1,
+      "Drug Addiction": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 21296717.0,
+    "mean_funding_usd": 495272.49,
+    "by_mechanism": {},
+    "by_institute": {
+      "NHLBI": 13,
+      "NIA": 10,
+      "NEI": 5,
+      "OD": 4,
+      "NIDCR": 3,
+      "NIAMS": 3,
+      "NIGMS": 3,
+      "NINDS": 1,
+      "NIAID": 1
+    },
+    "top_organisations": {
+      "VETERANS HEALTH ADMINISTRATION": 5,
+      "THOMAS JEFFERSON UNIVERSITY": 3,
+      "UNIVERSITY OF WISCONSIN-MADISON": 3,
+      "GEORGIA INSTITUTE OF TECHNOLOGY": 3,
+      "NATIONAL JEWISH HEALTH": 3,
+      "REHABILITATION INSTITUTE OF CHICAGO D/B/A SHIRLEY RYAN ABILITYLAB": 2,
+      "MAYO CLINIC ROCHESTER": 2,
+      "UNIVERSITY OF SOUTHERN CALIFORNIA": 2,
+      "ST. JUDE CHILDREN'S RESEARCH HOSPITAL": 2,
+      "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 2
+    },
+    "by_fiscal_year": {
+      "2024": 13,
+      "2025": 32,
+      "2026": 5
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 29,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "dvcstem.com": 3,
+      "cellebrationwellness.com": 2,
+      "nad.com": 2,
+      "youtube.com": 2,
+      "stemcellcareindia.com": 1,
+      "cellgrandclinic.com": 1,
+      "ednawellness.com": 1,
+      "recellebrate.com": 1,
+      "cellmedicine.com": 1,
+      "openaccessjournals.com": 1
+    }
+  },
+  "social": {
+    "count": 12,
+    "by_platform": {
+      "reddit": 12
+    },
+    "top_subreddits": {
+      "Biohackers": 12
+    },
+    "total_score": 70,
+    "mean_score": 5.8,
+    "total_comments": 148,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 42,
+    "mean_citations": 0.8,
+    "max_citations": 8,
+    "open_access": 40,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1138,
+    "mean_citations": 22.8,
+    "max_citations": 144,
+    "total_influential_citations": 22,
+    "open_access": 30
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 57,
+    "data_points_count": 261
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "intervention": "young plasma",
+  "aliases": [
+    "parabiosis",
+    "plasma exchange",
+    "young blood",
+    "heterochronic parabiosis"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 235,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "news": 32,
+    "social": 3
+  },
+  "date_range": {
+    "earliest": "2001-09-13",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2001": 1,
+    "2004": 2,
+    "2005": 2,
+    "2006": 3,
+    "2007": 1,
+    "2008": 2,
+    "2009": 5,
+    "2010": 1,
+    "2011": 4,
+    "2012": 3,
+    "2013": 4,
+    "2014": 4,
+    "2015": 2,
+    "2016": 8,
+    "2018": 7,
+    "2019": 7,
+    "2020": 4,
+    "2021": 10,
+    "2022": 14,
+    "2023": 25,
+    "2024": 35,
+    "2025": 46,
+    "2026": 45
+  },
+  "academic": {
+    "unique_authors": 1229,
+    "unique_journals": 60,
+    "top_journals": {
+      "GeroScience": 9,
+      "Nature aging": 6,
+      "Oxidative Medicine and Cellular Longevity": 6,
+      "Aging cell": 5,
+      "Nature": 5,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 4,
+      "Experimental gerontology": 3,
+      "Nature Aging": 3,
+      "Aging (Albany NY)": 3,
+      "International journal of molecular sciences": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 25,
+      "Research Support, N.I.H., Extramural": 20,
+      "Review": 11,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 8,
+      "Randomized Controlled Trial": 2,
+      "Clinical Trial": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1
+    },
+    "top_mesh_terms": {
+      "Aging": 47,
+      "Animals": 43,
+      "Mice": 33,
+      "Parabiosis": 30,
+      "Humans": 19,
+      "Male": 18,
+      "Rejuvenation": 18,
+      "Mice, Inbred C57BL": 14,
+      "Cellular Senescence": 13,
+      "Female": 10,
+      "Plasma": 6,
+      "Transcriptome": 6,
+      "Biomarkers": 5,
+      "Longevity": 5,
+      "Brain": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 22,
+      "Unknown": 11,
+      "PHASE1": 8,
+      "PHASE4": 4,
+      "PHASE2": 3,
+      "EARLY_PHASE1": 2
+    },
+    "by_status": {
+      "COMPLETED": 37,
+      "RECRUITING": 5,
+      "NOT_YET_RECRUITING": 3,
+      "WITHDRAWN": 1,
+      "TERMINATED": 1,
+      "UNKNOWN": 1,
+      "SUSPENDED": 1,
+      "ACTIVE_NOT_RECRUITING": 1
+    },
+    "total_enrollment": 17918,
+    "median_enrollment": 70,
+    "with_results": 6,
+    "top_sponsors": {
+      "Ostfold University College": 1,
+      "Imperial College London": 1,
+      "University of Southern Mississippi": 1,
+      "Pfizer": 1,
+      "University of Zurich": 1,
+      "Link Medicine Corporation": 1,
+      "Emory University": 1,
+      "National Institute of Allergy and Infectious Diseases (NIAID)": 1,
+      "University of Hohenheim": 1,
+      "National Institute on Alcohol Abuse and Alcoholism (NIAAA)": 1
+    },
+    "top_conditions": {
+      "Obesity": 3,
+      "Aging": 3,
+      "Cardiovascular Diseases": 2,
+      "Bipolar Disorder": 2,
+      "Pain": 2,
+      "Anxiety": 2,
+      "Healthy Volunteers": 2,
+      "Mental Health Issue": 1,
+      "Physical Health": 1,
+      "Respiratory Syncytial Virus Infections": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 32,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "nad.com": 2,
+      "thrivemedicineclinic.com": 1,
+      "austinregen.com": 1,
+      "westchesterwellnessmedicine.com": 1,
+      "nationalgeographic.com": 1,
+      "youngplasmastudy.com": 1,
+      "diamandis.com": 1,
+      "parentsguidecordblood.org": 1,
+      "universityofcalifornia.edu": 1,
+      "stanfordmag.org": 1
+    }
+  },
+  "social": {
+    "count": 3,
+    "by_platform": {
+      "reddit": 3
+    },
+    "top_subreddits": {
+      "longevity": 2,
+      "Biohackers": 1
+    },
+    "total_score": 76,
+    "mean_score": 25.3,
+    "total_comments": 64,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 930,
+    "mean_citations": 18.6,
+    "max_citations": 259,
+    "open_access": 35,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1115,
+    "mean_citations": 22.3,
+    "max_citations": 94,
+    "total_influential_citations": 25,
+    "open_access": 33
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-01",
+    "current_interest": 36,
+    "data_points_count": 261
+  }
+}

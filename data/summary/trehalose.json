@@ -1,0 +1,257 @@
+{
+  "intervention": "trehalose",
+  "aliases": [],
+  "generated_at": "2026-02-28",
+  "total_documents": 233,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "nih_grant": 50,
+    "regulatory": 15,
+    "news": 15,
+    "drugage": 3
+  },
+  "date_range": {
+    "earliest": "1985-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1985": 1,
+    "1997": 1,
+    "2005": 1,
+    "2006": 3,
+    "2007": 1,
+    "2008": 3,
+    "2009": 1,
+    "2010": 4,
+    "2012": 7,
+    "2013": 2,
+    "2014": 4,
+    "2015": 3,
+    "2016": 14,
+    "2017": 4,
+    "2018": 13,
+    "2019": 12,
+    "2020": 11,
+    "2021": 15,
+    "2022": 14,
+    "2023": 16,
+    "2024": 21,
+    "2025": 42,
+    "2026": 40
+  },
+  "academic": {
+    "unique_authors": 636,
+    "unique_journals": 40,
+    "top_journals": {
+      "International journal of molecular sciences": 5,
+      "Cells": 3,
+      "Aging cell": 3,
+      "Journal of cellular physiology": 2,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 2,
+      "Aging": 1,
+      "Pest management science": 1,
+      "BMJ open": 1,
+      "Nature communications": 1,
+      "Proceedings of the National Academy of Sciences of the United States of America": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 19,
+      "Research Support, N.I.H., Extramural": 11,
+      "Review": 5,
+      "Randomized Controlled Trial": 1,
+      "Systematic Review": 1,
+      "Clinical Trial Protocol": 1,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1,
+      "Comparative Study": 1
+    },
+    "top_mesh_terms": {
+      "Trehalose": 48,
+      "Animals": 32,
+      "Humans": 18,
+      "Longevity": 17,
+      "Male": 15,
+      "Aging": 13,
+      "Autophagy": 13,
+      "Oxidative Stress": 11,
+      "Female": 10,
+      "Mice": 10,
+      "Saccharomyces cerevisiae": 8,
+      "Mice, Inbred C57BL": 6,
+      "Mutation": 6,
+      "Signal Transduction": 6,
+      "Aged": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 17,
+      "PHASE3": 9,
+      "PHASE1": 9,
+      "PHASE4": 7,
+      "PHASE2": 4,
+      "Unknown": 3,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 38,
+      "RECRUITING": 6,
+      "NOT_YET_RECRUITING": 3,
+      "UNKNOWN": 2,
+      "ENROLLING_BY_INVITATION": 1
+    },
+    "total_enrollment": 11220,
+    "median_enrollment": 60.0,
+    "with_results": 10,
+    "top_sponsors": {
+      "Gaziosmanpasa Research and Education Hospital": 4,
+      "Laboratoires Thea": 4,
+      "International Vaccine Institute": 2,
+      "Novartis Pharmaceuticals": 2,
+      "Huons Co., Ltd.": 2,
+      "University of Illinois at Chicago": 1,
+      "Shanghai Institute Of Biological Products": 1,
+      "University of Colorado, Boulder": 1,
+      "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)": 1,
+      "Sinovac (Dalian) Vaccine Technology Co., Ltd.": 1
+    },
+    "top_conditions": {
+      "Dry Eye": 4,
+      "Dry Eye Syndrome": 3,
+      "Varicella": 2,
+      "Dry Eye Syndromes": 2,
+      "Intermittent Fasting": 1,
+      "Pre Diabetes": 1,
+      "Cognitive Decline": 1,
+      "Fasting": 1,
+      "Vascular Aging": 1,
+      "Systemic Lupus Erythematosus": 1
+    }
+  },
+  "drugage": {
+    "count": 3,
+    "by_species": {
+      "Caenorhabditis elegans": 3
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 3
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 32320053.0,
+    "mean_funding_usd": 702609.85,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIDDK": 9,
+      "NIA": 8,
+      "NIAID": 6,
+      "NCI": 6,
+      "NHLBI": 4,
+      "NIGMS": 3,
+      "NIDCR": 3,
+      "NINDS": 2,
+      "NCCIH": 2,
+      "NIBIB": 1,
+      "OD": 1,
+      "NCATS": 1
+    },
+    "top_organisations": {
+      "NATIONAL INSTITUTE OF DIABETES AND DIGESTIVE AND KIDNEY DISEASES": 9,
+      "WAKE FOREST UNIVERSITY HEALTH SCIENCES": 6,
+      "ST. LOUIS VA MEDICAL CENTER": 4,
+      "UNIV OF MASSACHUSETTS MED SCH WORCESTER": 4,
+      "UNIVERSITY OF MINNESOTA": 3,
+      "UNIVERSITY OF MARYLAND BALTIMORE": 2,
+      "OKLAHOMA MEDICAL RESEARCH FOUNDATION": 2,
+      "YALE UNIVERSITY": 2,
+      "STANFORD UNIVERSITY": 2,
+      "UNIVERSITY OF ARIZONA": 2
+    },
+    "by_fiscal_year": {
+      "2015": 2,
+      "2016": 6,
+      "2017": 4,
+      "2018": 5,
+      "2019": 8,
+      "2020": 7,
+      "2021": 6,
+      "2022": 2,
+      "2023": 3,
+      "2024": 3,
+      "2025": 3,
+      "2026": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "1 INDICATIONS AND USAGE Sodium ferric gluconate complex in sucrose injection is indicated for the treatment of iron deficiency anemia in adult patients and in pediatric patients age 6 years and older with chronic kidney disease receiving hemodialysis who are receiving supplemental epoetin therapy. Sodium ferric gluconate complex in sucrose injection is an iron replacement product for treatment of iron deficiency anemia in adult patients and in pediatric patients age 6 years and older with chroni": 2,
+      "1 INDICATIONS AND USAGE Iron sucrose injection is indicated for the treatment of iron deficiency anemia (IDA) in patients with chronic kidney disease (CKD). Iron sucrose injection is an iron replacement product indicated for the treatment of iron deficiency anemia (IDA) in patients with chronic kidney disease (CKD). ( 1 )": 1,
+      "1 INDICATIONS AND USAGE Venofer is indicated for the treatment of iron deficiency anemia (IDA) in patients with chronic kidney disease (CKD). Venofer is an iron replacement product indicated for the treatment of iron deficiency anemia (IDA) in patients with chronic kidney disease (CKD). ( 1 )": 1,
+      "Nervous agitation in children after overindulgence*": 1
+    },
+    "drug_classes": {
+      "Parenteral Iron Replacement [EPC]": 4
+    }
+  },
+  "news": {
+    "count": 15,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "novoslabs.com": 2,
+      "pnas.org": 2,
+      "ahajournals.org": 2,
+      "dovepress.com": 1,
+      "grantome.com": 1,
+      "asmedigitalcollection.asme.org": 1,
+      "alzdiscovery.org": 1,
+      "aging-us.com": 1,
+      "ui.adsabs.harvard.edu": 1,
+      "jkmu.kmu.ac.ir": 1
+    }
+  },
+  "social": {
+    "count": 0
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 77,
+    "mean_citations": 1.5,
+    "max_citations": 13,
+    "open_access": 48,
+    "preprints": 2,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-01",
+    "current_interest": 55,
+    "data_points_count": 261
+  }
+}

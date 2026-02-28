@@ -1,0 +1,242 @@
+{
+  "intervention": "dasatinib quercetin",
+  "aliases": [
+    "D+Q",
+    "dasatinib plus quercetin",
+    "senolytic cocktail"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 265,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "drugage": 37,
+    "news": 16,
+    "regulatory": 10,
+    "social": 2
+  },
+  "date_range": {
+    "earliest": "2001-01-06",
+    "latest": "2026-03-01"
+  },
+  "by_year": {
+    "2001": 1,
+    "2005": 2,
+    "2006": 3,
+    "2007": 1,
+    "2008": 1,
+    "2009": 3,
+    "2010": 1,
+    "2011": 3,
+    "2013": 4,
+    "2014": 2,
+    "2015": 1,
+    "2016": 2,
+    "2017": 5,
+    "2018": 7,
+    "2019": 7,
+    "2020": 44,
+    "2021": 12,
+    "2022": 6,
+    "2023": 23,
+    "2024": 27,
+    "2025": 63,
+    "2026": 47
+  },
+  "academic": {
+    "unique_authors": 1179,
+    "unique_journals": 61,
+    "top_journals": {
+      "Aging cell": 12,
+      "GeroScience": 7,
+      "Biogerontology": 6,
+      "Aging (Albany NY)": 5,
+      "Nature communications": 4,
+      "International journal of molecular sciences": 3,
+      "Aging Cell": 3,
+      "Nature medicine": 2,
+      "EBioMedicine": 2,
+      "Aging": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 18,
+      "Research Support, N.I.H., Extramural": 15,
+      "Randomized Controlled Trial": 3,
+      "Clinical Trial, Phase II": 2,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 2,
+      "Review": 2,
+      "Clinical Trial, Phase I": 1,
+      "Clinical Trial": 1
+    },
+    "top_mesh_terms": {
+      "Quercetin": 50,
+      "Dasatinib": 50,
+      "Cellular Senescence": 42,
+      "Animals": 41,
+      "Mice": 31,
+      "Senotherapeutics": 30,
+      "Humans": 25,
+      "Male": 22,
+      "Aging": 18,
+      "Female": 16,
+      "Mice, Inbred C57BL": 15,
+      "Disease Models, Animal": 8,
+      "Inflammation": 8,
+      "Flavonols": 7,
+      "Middle Aged": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 16,
+      "PHASE2": 9,
+      "PHASE4": 9,
+      "PHASE1": 6,
+      "PHASE3": 4,
+      "Unknown": 4,
+      "EARLY_PHASE1": 2
+    },
+    "by_status": {
+      "COMPLETED": 38,
+      "RECRUITING": 8,
+      "UNKNOWN": 2,
+      "ACTIVE_NOT_RECRUITING": 2
+    },
+    "total_enrollment": 32359,
+    "median_enrollment": 64.5,
+    "with_results": 21,
+    "top_sponsors": {
+      "Massachusetts General Hospital": 4,
+      "Pfizer": 3,
+      "Thomas Jefferson University": 2,
+      "Assistance Publique - H\u00f4pitaux de Paris": 1,
+      "Universidade do Porto": 1,
+      "State Islamic University of Sunan Kalijaga Yogyakarta": 1,
+      "Texas Christian University": 1,
+      "Loma Linda University": 1,
+      "Eli Lilly and Company": 1,
+      "University of Waterloo": 1
+    },
+    "top_conditions": {
+      "Depression": 4,
+      "Obesity": 3,
+      "Pulmonary Embolism": 2,
+      "Aging": 2,
+      "Diabetes": 2,
+      "Dementia": 2,
+      "Osteoporosis": 2,
+      "Migraine": 2,
+      "Type 2 Diabetes Mellitus": 2,
+      "Dental Implants, Single-Tooth": 1
+    }
+  },
+  "drugage": {
+    "count": 37,
+    "by_species": {
+      "Caenorhabditis elegans": 21,
+      "Drosophila melanogaster": 8,
+      "Aedes albopictus": 3,
+      "Mus musculus": 2,
+      "Aedes aegypti": 2,
+      "Podospora anserina": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 28,
+      "Female": 6,
+      "Male": 3
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 10,
+    "approved_indications": {
+      "INDICATIONS: For the temporary relief of symptoms related to allergies to eggs in foods and supplements, including skin inflammation, hives, runny nose, sneezing, stomach cramps, nausea, vomiting, coughing.** **These statements are based upon homeopathic principles. They have not been reviewed by the Food and Drug Administration.": 1,
+      "INDICATIONS For the temporary relief of hay fever, runny nose and congestion, itching eyes, occasional headache, or fatigue due to sensitivity to phenolic compounds found in foods or other products.*": 1,
+      "USES: \u2022 For the temporary relief of symptoms related to: \u2022 headache \u2022 fatigue \u2022 moodiness \u2022 bladder discomfort These statements are based upon homeopathic principles. They have not been reviewed by the Food and Drug Administration.": 1,
+      "USES: \u2022 For the temporary relief of symptoms including: \u2022 tingling in hands \u2022 tingling in feet \u2022 mood changes \u2022 frequent colds \u2022 poor digestion \u2022 fatigue \u2022 occasional constipation These statements are based upon homeopathic principles. They have not been reviewed by the Food and Drug Administration.": 1,
+      "INDICATIONS: May temporarily relieve symptoms associated with sensitivities to phenolic compounds such as rash, fatigue, and lack of concentration.** **Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.": 1
+    },
+    "drug_classes": {
+      "Vitamin C [EPC]": 2,
+      "Non-Standardized Plant Allergenic Extract [EPC]": 1,
+      "Non-Standardized Food Allergenic Extract [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 16,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "aging-us.com": 2,
+      "fightaging.org": 2,
+      "scilit.com": 1,
+      "sciopen.com": 1,
+      "worldofmolecules.com": 1,
+      "urotoday.com": 1,
+      "latimes.com": 1,
+      "ovid.com": 1,
+      "forbes.com": 1,
+      "nad.com": 1
+    }
+  },
+  "social": {
+    "count": 2,
+    "by_platform": {
+      "reddit": 2
+    },
+    "top_subreddits": {
+      "longevity": 2
+    },
+    "total_score": 61,
+    "mean_score": 30.5,
+    "total_comments": 14,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 46,
+    "mean_citations": 0.9,
+    "max_citations": 10,
+    "open_access": 39,
+    "preprints": 3,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1830,
+    "mean_citations": 36.6,
+    "max_citations": 317,
+    "total_influential_citations": 33,
+    "open_access": 30
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-09-28",
+    "current_interest": 12,
+    "data_points_count": 261
+  }
+}

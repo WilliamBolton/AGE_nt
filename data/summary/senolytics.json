@@ -1,0 +1,263 @@
+{
+  "intervention": "senolytics",
+  "aliases": [
+    "senolytic",
+    "senescent cell clearance",
+    "dasatinib",
+    "quercetin",
+    "fisetin"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 305,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "drugage": 50,
+    "nih_grant": 50,
+    "news": 25,
+    "social": 20,
+    "regulatory": 10
+  },
+  "date_range": {
+    "earliest": "2002-05-13",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2002": 2,
+    "2003": 1,
+    "2006": 1,
+    "2007": 4,
+    "2009": 2,
+    "2011": 2,
+    "2012": 2,
+    "2013": 1,
+    "2014": 2,
+    "2015": 1,
+    "2016": 7,
+    "2017": 4,
+    "2018": 3,
+    "2019": 13,
+    "2020": 53,
+    "2021": 13,
+    "2022": 15,
+    "2023": 25,
+    "2024": 29,
+    "2025": 69,
+    "2026": 56
+  },
+  "academic": {
+    "unique_authors": 778,
+    "unique_journals": 28,
+    "top_journals": {
+      "Nature communications": 5,
+      "Nature aging": 5,
+      "Aging cell": 5,
+      "Nature medicine": 4,
+      "Nature reviews. Drug discovery": 3,
+      "Ageing research reviews": 2,
+      "Cell metabolism": 2,
+      "Cells": 2,
+      "Aging and disease": 2,
+      "International journal of molecular sciences": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 19,
+      "Review": 18,
+      "Research Support, N.I.H., Extramural": 11,
+      "Clinical Trial, Phase II": 3,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 3,
+      "Systematic Review": 2,
+      "Randomized Controlled Trial": 2,
+      "Meta-Analysis": 1,
+      "Clinical Trial": 1,
+      "Clinical Trial, Phase I": 1,
+      "Multicenter Study": 1
+    },
+    "top_mesh_terms": {
+      "Senotherapeutics": 47,
+      "Humans": 42,
+      "Cellular Senescence": 41,
+      "Animals": 39,
+      "Mice": 25,
+      "Aging": 24,
+      "Male": 13,
+      "Female": 11,
+      "Mice, Inbred C57BL": 9,
+      "Dasatinib": 8,
+      "Aged": 7,
+      "Senescence-Associated Secretory Phenotype": 7,
+      "Quercetin": 6,
+      "Longevity": 6,
+      "Disease Models, Animal": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE1": 19,
+      "PHASE2": 12,
+      "NA": 7,
+      "Unknown": 5,
+      "PHASE4": 3,
+      "EARLY_PHASE1": 2,
+      "PHASE3": 2
+    },
+    "by_status": {
+      "COMPLETED": 28,
+      "RECRUITING": 10,
+      "ACTIVE_NOT_RECRUITING": 8,
+      "UNKNOWN": 2,
+      "NOT_YET_RECRUITING": 2
+    },
+    "total_enrollment": 6610,
+    "median_enrollment": 57.5,
+    "with_results": 9,
+    "top_sponsors": {
+      "Washington University School of Medicine": 3,
+      "Bristol-Myers Squibb": 3,
+      "National Institute of Allergy and Infectious Diseases (NIAID)": 2,
+      "Jonsson Comprehensive Cancer Center": 2,
+      "Novartis Pharmaceuticals": 2,
+      "Mayo Clinic": 2,
+      "Hospitales Universitarios Virgen del Roc\u00edo": 1,
+      "Hoffmann-La Roche": 1,
+      "Brigham and Women's Hospital": 1,
+      "Chinese University of Hong Kong": 1
+    },
+    "top_conditions": {
+      "HIV Infections": 2,
+      "Aging": 2,
+      "Covid19": 2,
+      "Diffuse Large B-cell Lymphoma": 1,
+      "Stroke": 1,
+      "Problem of Aging": 1,
+      "Acute Cholecystitis": 1,
+      "Vitamin D Deficiency": 1,
+      "Infection, Human Immunodeficiency Virus": 1,
+      "Healthy Volunteers": 1
+    }
+  },
+  "drugage": {
+    "count": 50,
+    "by_species": {
+      "Caenorhabditis elegans": 23,
+      "Drosophila melanogaster": 17,
+      "Mus musculus": 9,
+      "Saccharomyces cerevisiae": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 28,
+      "Female": 12,
+      "Male": 10
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 30216559.0,
+    "mean_funding_usd": 604331.18,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 31,
+      "NCI": 4,
+      "NIDDK": 3,
+      "NHLBI": 3,
+      "NIAID": 3,
+      "OD": 2,
+      "NIEHS": 1,
+      "NIAMS": 1,
+      "NICHD": 1,
+      "NEI": 1
+    },
+    "top_organisations": {
+      "MAYO CLINIC ROCHESTER": 11,
+      "SANFORD BURNHAM PREBYS MEDICAL DISCOVERY INSTITUTE": 3,
+      "UNIVERSITY OF PENNSYLVANIA": 3,
+      "JOHNS HOPKINS UNIVERSITY": 2,
+      "UNIVERSITY OF ILLINOIS AT CHICAGO": 2,
+      "UTAH STATE HIGHER EDUCATION SYSTEM--UNIVERSITY OF UTAH": 2,
+      "UNIVERSITY OF PITTSBURGH AT PITTSBURGH": 2,
+      "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI": 2,
+      "UNIVERSITY OF MINNESOTA": 2,
+      "UNIVERSITY OF CONNECTICUT SCH OF MED/DNT": 2
+    },
+    "by_fiscal_year": {
+      "2025": 28,
+      "2026": 22
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 10,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 25,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "nad.com": 2,
+      "longlonglife.org": 1,
+      "globalrph.com": 1,
+      "vailhealth.org": 1,
+      "drstavy.com": 1,
+      "communities.springernature.com": 1,
+      "tandfonline.com": 1,
+      "lifespan.io": 1,
+      "nmn.com": 1,
+      "hs.as.uky.edu": 1
+    }
+  },
+  "social": {
+    "count": 20,
+    "by_platform": {
+      "reddit": 20
+    },
+    "top_subreddits": {
+      "longevity": 13,
+      "Biohackers": 6,
+      "supplements": 1
+    },
+    "total_score": 534,
+    "mean_score": 26.7,
+    "total_comments": 220,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 82,
+    "mean_citations": 1.6,
+    "max_citations": 25,
+    "open_access": 45,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-09-14",
+    "current_interest": 23,
+    "data_points_count": 261
+  }
+}

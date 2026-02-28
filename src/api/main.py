@@ -1,4 +1,4 @@
-"""FastAPI application — LongevityLens API.
+"""FastAPI application — AGE-nt API.
 
 Run with:
     uvicorn src.api.main:app --reload --port 8000
@@ -26,7 +26,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="LongevityLens",
+    title="AGE-nt",
     description=(
         "Agentic system that scrapes, standardises, and reasons over "
         "scientific evidence for aging interventions."
@@ -52,4 +52,4 @@ app.include_router(ingest.router)
 
 @app.get("/health", tags=["system"])
 async def health_check() -> dict:
-    return {"status": "ok", "service": "longevity-lens"}
+    return {"status": "ok", "service": "age-nt"}

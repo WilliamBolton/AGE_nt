@@ -1,0 +1,199 @@
+{
+  "intervention": "ss-31",
+  "aliases": [
+    "elamipretide",
+    "Bendavia",
+    "MTP-131"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 223,
+  "by_source_type": {
+    "pubmed": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "social": 32,
+    "clinicaltrials": 31,
+    "news": 10
+  },
+  "date_range": {
+    "earliest": "1996-07-05",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1996": 1,
+    "2001": 1,
+    "2004": 1,
+    "2005": 2,
+    "2007": 2,
+    "2008": 1,
+    "2009": 1,
+    "2010": 2,
+    "2012": 10,
+    "2013": 3,
+    "2014": 3,
+    "2015": 6,
+    "2016": 10,
+    "2017": 6,
+    "2018": 1,
+    "2019": 11,
+    "2020": 8,
+    "2021": 15,
+    "2022": 4,
+    "2023": 10,
+    "2024": 19,
+    "2025": 69,
+    "2026": 37
+  },
+  "academic": {
+    "unique_authors": 999,
+    "unique_journals": 62,
+    "top_journals": {
+      "GeroScience": 10,
+      "Sub-cellular biochemistry": 4,
+      "International journal of molecular sciences": 4,
+      "Aging (Albany NY)": 4,
+      "The FASEB Journal": 4,
+      "Nature": 3,
+      "Current aging science": 3,
+      "Free radical biology & medicine": 3,
+      "Physiology": 3,
+      "Aging Cell": 3
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 30,
+      "Research Support, Non-U.S. Gov't": 20,
+      "Research Support, N.I.H., Extramural": 8,
+      "Systematic Review": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1
+    },
+    "top_mesh_terms": {
+      "Mitochondria": 46,
+      "Longevity": 42,
+      "Oxidative Stress": 41,
+      "Animals": 39,
+      "Aging": 31,
+      "Humans": 26,
+      "Reactive Oxygen Species": 16,
+      "Mice": 12,
+      "Mitochondrial Diseases": 11,
+      "Caenorhabditis elegans": 9,
+      "Caenorhabditis elegans Proteins": 8,
+      "DNA, Mitochondrial": 8,
+      "Signal Transduction": 8,
+      "Energy Metabolism": 8,
+      "Male": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 31,
+    "by_phase": {
+      "PHASE1": 14,
+      "PHASE2": 12,
+      "PHASE3": 3,
+      "NA": 1,
+      "Unknown": 1
+    },
+    "by_status": {
+      "COMPLETED": 24,
+      "TERMINATED": 3,
+      "RECRUITING": 1,
+      "ACTIVE_NOT_RECRUITING": 1,
+      "AVAILABLE": 1,
+      "WITHDRAWN": 1
+    },
+    "total_enrollment": 2035,
+    "median_enrollment": 30,
+    "with_results": 14,
+    "top_sponsors": {
+      "Stealth BioTherapeutics Inc.": 27,
+      "Hospices Civils de Lyon": 1,
+      "David Marcinek": 1,
+      "University Hospital, Montpellier": 1,
+      "Children's Hospital of Philadelphia": 1
+    },
+    "top_conditions": {
+      "Healthy Volunteers": 3,
+      "Heart Failure": 3,
+      "Age-related Macular Degeneration": 2,
+      "Healthy": 2,
+      "Primary Mitochondrial Disease": 2,
+      "Mitochondrial Diseases": 2,
+      "Barth Syndrome": 2,
+      "Age-Related Macular Degeneration": 1,
+      "Congestive Heart Failure": 1,
+      "Renal Artery Stenosis": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 10,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "peptidesociety.org": 2,
+      "alzdiscovery.org": 1,
+      "kidney-international.org": 1,
+      "revolutionhealth.org": 1,
+      "en.wikipedia.org": 1,
+      "lifespan.io": 1,
+      "elifesciences.org": 1,
+      "bioinfinitylab.com": 1,
+      "neurology.org": 1
+    }
+  },
+  "social": {
+    "count": 32,
+    "by_platform": {
+      "reddit": 32
+    },
+    "top_subreddits": {
+      "Biohackers": 32
+    },
+    "total_score": 379,
+    "mean_score": 11.8,
+    "total_comments": 490,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 132,
+    "mean_citations": 2.6,
+    "max_citations": 25,
+    "open_access": 45,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1355,
+    "mean_citations": 27.1,
+    "max_citations": 172,
+    "total_influential_citations": 32,
+    "open_access": 32
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-23",
+    "current_interest": 47,
+    "data_points_count": 261
+  }
+}

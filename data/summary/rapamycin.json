@@ -2,25 +2,24 @@
   "intervention": "rapamycin",
   "aliases": [
     "sirolimus",
-    "rapamune",
-    "mTOR inhibitor"
+    "rapamune"
   ],
-  "generated_at": "2026-02-27",
-  "total_documents": 312,
+  "generated_at": "2026-02-28",
+  "total_documents": 318,
   "by_source_type": {
     "pubmed": 50,
     "clinicaltrials": 50,
+    "europe_pmc": 50,
     "nih_grant": 50,
     "social": 50,
-    "europe_pmc": 42,
     "drugage": 38,
     "regulatory": 15,
-    "news": 15,
+    "news": 13,
     "patent": 2
   },
   "date_range": {
     "earliest": "1984-09-01",
-    "latest": "2026-02-27"
+    "latest": "2026-02-28"
   },
   "by_year": {
     "1984": 1,
@@ -34,34 +33,34 @@
     "2011": 5,
     "2012": 1,
     "2013": 4,
-    "2014": 6,
-    "2015": 5,
+    "2014": 7,
+    "2015": 4,
     "2016": 1,
-    "2017": 9,
+    "2017": 10,
     "2018": 4,
-    "2019": 7,
+    "2019": 8,
     "2020": 45,
-    "2021": 13,
-    "2022": 21,
-    "2023": 26,
-    "2024": 40,
-    "2025": 59,
-    "2026": 42
+    "2021": 12,
+    "2022": 22,
+    "2023": 25,
+    "2024": 45,
+    "2025": 60,
+    "2026": 41
   },
   "academic": {
-    "unique_authors": 741,
-    "unique_journals": 28,
+    "unique_authors": 721,
+    "unique_journals": 25,
     "top_journals": {
-      "GeroScience": 6,
-      "Aging": 5,
-      "Aging cell": 4,
+      "GeroScience": 8,
+      "Aging cell": 6,
+      "Aging": 6,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 4,
       "Nature aging": 4,
-      "International journal of molecular sciences": 3,
-      "The journals of gerontology. Series A, Biological sciences and medical sciences": 3,
-      "The lancet. Healthy longevity": 2,
       "Molecular cell": 2,
-      "Nature communications": 2,
-      "JAMA": 1
+      "International journal of molecular sciences": 2,
+      "The lancet. Healthy longevity": 1,
+      "Developmental cell": 1,
+      "Cell reports. Medicine": 1
     }
   },
   "pubmed": {
@@ -71,33 +70,31 @@
     "publication_types": {
       "Journal Article": 50,
       "Research Support, Non-U.S. Gov't": 14,
-      "Review": 12,
-      "Research Support, N.I.H., Extramural": 7,
+      "Review": 13,
+      "Research Support, N.I.H., Extramural": 6,
+      "Meta-Analysis": 4,
       "Research Support, U.S. Gov't, Non-P.H.S.": 4,
-      "Meta-Analysis": 3,
       "Randomized Controlled Trial": 3,
       "Systematic Review": 2,
-      "Clinical Trial, Phase II": 1,
-      "Clinical Trial, Phase III": 1,
-      "Clinical Trial Protocol": 1,
-      "Historical Article": 1
+      "Equivalence Trial": 1,
+      "Clinical Trial Protocol": 1
     },
     "top_mesh_terms": {
-      "Sirolimus": 48,
-      "Humans": 35,
-      "Animals": 33,
-      "Aging": 30,
-      "Longevity": 24,
+      "Sirolimus": 50,
+      "Animals": 34,
+      "Humans": 32,
+      "Aging": 31,
+      "Longevity": 28,
       "Mice": 20,
-      "Male": 15,
-      "Cellular Senescence": 15,
-      "Female": 14,
-      "TOR Serine-Threonine Kinases": 14,
-      "Signal Transduction": 10,
-      "Metformin": 7,
-      "Caenorhabditis elegans": 7,
-      "MTOR Inhibitors": 6,
-      "Caloric Restriction": 5
+      "Male": 16,
+      "Female": 13,
+      "TOR Serine-Threonine Kinases": 12,
+      "Metformin": 8,
+      "Cellular Senescence": 8,
+      "Mice, Inbred C57BL": 7,
+      "Signal Transduction": 7,
+      "Caloric Restriction": 6,
+      "Middle Aged": 6
     }
   },
   "clinical_trials": {
@@ -222,21 +219,21 @@
     }
   },
   "news": {
-    "count": 15,
+    "count": 13,
     "mean_sentiment": null,
     "claims_strength": {},
     "cites_primary_source": 0,
     "top_outlets": {
       "aging-us.com": 2,
       "gethealthspan.com": 2,
-      "youtube.com": 2,
-      "eurekalert.org": 1,
       "drdavidfein.com": 1,
+      "newsweek.com": 1,
+      "newscientist.com": 1,
       "lifespan.io": 1,
-      "archivesofmedicalscience.com": 1,
       "nad.com": 1,
+      "cnbc.com": 1,
       "news.uthscsa.edu": 1,
-      "touroscholar.touro.edu": 1
+      "konopkalab.medicine.wisc.edu": 1
     }
   },
   "social": {
@@ -249,17 +246,17 @@
       "Biohackers": 13,
       "supplements": 3
     },
-    "total_score": 11248,
-    "mean_score": 225.0,
+    "total_score": 11285,
+    "mean_score": 225.7,
     "total_comments": 3588,
     "mean_sentiment": null
   },
   "europe_pmc": {
-    "count": 42,
-    "total_citations": 666,
-    "mean_citations": 15.9,
+    "count": 50,
+    "total_citations": 802,
+    "mean_citations": 16.0,
     "max_citations": 565,
-    "open_access": 35,
+    "open_access": 42,
     "preprints": 1,
     "cochrane_reviews": 0
   },
@@ -269,7 +266,7 @@
   "trends": {
     "peak_interest": 100,
     "peak_date": "2025-08-10",
-    "current_interest": 57,
-    "data_points_count": 262
+    "current_interest": 56,
+    "data_points_count": 261
   }
 }
