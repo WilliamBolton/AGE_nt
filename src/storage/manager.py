@@ -35,14 +35,18 @@ class StorageManager:
         intervention: str,
         docs: list[Document],
         aliases: list[str] | None = None,
+        category: str | None = None,
+        subcategory: str | None = None,
     ) -> int:
         """Append new documents to both stores. Returns count of new docs added."""
         if not docs:
             return 0
         # JSON store handles dedup internally via append_documents
-        added = self.json.append_documents(intervention, docs, aliases)
+        added = self.json.append_documents(
+            intervention, docs, aliases, category=category, subcategory=subcategory,
+        )
         # SQLite: insert all (INSERT OR REPLACE handles dedup by id)
-        await self.sqlite.insert_documents(docs)
+        await self.sqlite.insert_documents(docs, category=category, subcategory=subcategory)
         # Create/update classifications skeleton for new docs
         all_docs = self.json.load_documents(intervention)
         self.json.save_classifications_skeleton(intervention, [d.id for d in all_docs])

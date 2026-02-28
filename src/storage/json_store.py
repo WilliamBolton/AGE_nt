@@ -44,12 +44,16 @@ class JsonStore:
         intervention: str,
         docs: list[Document],
         aliases: list[str] | None = None,
+        category: str | None = None,
+        subcategory: str | None = None,
     ) -> None:
         """Write full document list for an intervention (overwrites)."""
         path = self._path(intervention)
         envelope = {
             "intervention": intervention,
             "aliases": aliases or [],
+            "category": category,
+            "subcategory": subcategory,
             "last_updated": date.today().isoformat(),
             "document_count": len(docs),
             "documents": json.loads(DocumentListAdapter.dump_json(docs)),
@@ -62,6 +66,8 @@ class JsonStore:
         intervention: str,
         new_docs: list[Document],
         aliases: list[str] | None = None,
+        category: str | None = None,
+        subcategory: str | None = None,
     ) -> int:
         """Append new documents, deduplicating by source_url. Returns count of new docs added."""
         existing = self.load_documents(intervention)
@@ -71,7 +77,7 @@ class JsonStore:
             logger.info(f"No new documents to add for '{intervention}'")
             return 0
         all_docs = existing + added
-        self.save_documents(intervention, all_docs, aliases)
+        self.save_documents(intervention, all_docs, aliases, category=category, subcategory=subcategory)
         return len(added)
 
     def document_exists(self, intervention: str, source_url: str) -> bool:

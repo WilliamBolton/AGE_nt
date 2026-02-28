@@ -53,12 +53,19 @@ ALL_SOURCES: dict[str, type[BaseIngestAgent]] = {
 EXTRA_SOURCES = {"trends"}
 
 
-def load_interventions() -> dict[str, list[str]]:
-    """Load interventions.json, return {name: [aliases]}."""
+def load_interventions() -> dict[str, dict]:
+    """Load interventions.json, return {name: {aliases, category, subcategory}}."""
     path = Path(__file__).resolve().parent.parent / "data" / "interventions.json"
     with open(path) as f:
         data = json.load(f)
-    return {item["name"]: item.get("aliases", []) for item in data["interventions"]}
+    return {
+        item["name"]: {
+            "aliases": item.get("aliases", []),
+            "category": item.get("category"),
+            "subcategory": item.get("subcategory"),
+        }
+        for item in data["interventions"]
+    }
 
 
 async def seed(
@@ -66,6 +73,8 @@ async def seed(
     aliases: list[str],
     max_results: int,
     sources: list[str] | None = None,
+    category: str | None = None,
+    subcategory: str | None = None,
 ) -> None:
     """Run ingest agents for a single intervention."""
     from src.ingest.query_expander import expand_query
@@ -102,7 +111,10 @@ async def seed(
                 max_results=max_results,
             )
             if docs:
-                added = await storage.save_documents(intervention, docs, aliases)
+                added = await storage.save_documents(
+                    intervention, docs, aliases,
+                    category=category, subcategory=subcategory,
+                )
                 logger.info(f"  {agent.source_name}: {added} new documents stored")
                 total += added
             else:
@@ -156,14 +168,19 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    # Look up aliases
+    # Look up intervention metadata
     interventions = load_interventions()
     name = args.intervention.lower()
     if name in interventions:
-        aliases = interventions[name]
+        entry = interventions[name]
+        aliases = entry["aliases"]
+        category = entry["category"]
+        subcategory = entry["subcategory"]
     else:
         logger.warning(f"'{name}' not in interventions.json, proceeding with no aliases")
         aliases = []
+        category = None
+        subcategory = None
 
     # Parse sources
     sources = args.sources.split(",") if args.sources else None
@@ -179,7 +196,7 @@ def main() -> None:
     logger.remove()
     logger.add(sys.stderr, level=settings.log_level)
 
-    asyncio.run(seed(name, aliases, args.max_results, sources))
+    asyncio.run(seed(name, aliases, args.max_results, sources, category=category, subcategory=subcategory))
 
 
 if __name__ == "__main__":

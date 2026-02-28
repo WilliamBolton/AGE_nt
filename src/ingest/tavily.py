@@ -16,6 +16,25 @@ from src.ingest.query_expander import QueryExpansion
 from src.schema.document import Document, NewsDocument
 
 
+# Module-level flag: set to True when Tavily returns 429 or credit-exhausted
+# errors. Once set, all subsequent calls skip the API immediately.
+_TAVILY_EXHAUSTED = False
+
+
+def tavily_is_exhausted() -> bool:
+    """Check whether Tavily credits have been exhausted this session."""
+    return _TAVILY_EXHAUSTED
+
+
+def _check_tavily_exhaustion(error: Exception) -> bool:
+    """Return True if this error indicates Tavily credits/rate limits are hit."""
+    msg = str(error).lower()
+    return any(term in msg for term in (
+        "429", "rate limit", "insufficient credits", "credit", "quota",
+        "too many requests", "exceeded", "limit reached",
+    ))
+
+
 class TavilyAgent(BaseIngestAgent):
     @property
     def source_name(self) -> str:
@@ -28,6 +47,12 @@ class TavilyAgent(BaseIngestAgent):
         query_expansion: QueryExpansion | None = None,
         max_results: int = 20,
     ) -> list[Document]:
+        global _TAVILY_EXHAUSTED
+
+        if _TAVILY_EXHAUSTED:
+            logger.info("Tavily credits exhausted — skipping")
+            return []
+
         if not settings.tavily_api_key:
             logger.warning("TAVILY_API_KEY not set, skipping web search")
             return []
@@ -46,7 +71,14 @@ class TavilyAgent(BaseIngestAgent):
                 include_answer=False,
             )
         except Exception as e:
-            logger.error(f"Tavily search failed: {e}")
+            if _check_tavily_exhaustion(e):
+                _TAVILY_EXHAUSTED = True
+                logger.warning(
+                    f"Tavily credits/rate limit exhausted: {e}. "
+                    "Skipping Tavily for all remaining interventions."
+                )
+            else:
+                logger.error(f"Tavily search failed: {e}")
             return []
 
         results = response.get("results", [])
