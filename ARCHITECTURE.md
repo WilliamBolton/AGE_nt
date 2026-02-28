@@ -38,9 +38,16 @@ import uuid
 class SourceType(str, Enum):
     PUBMED = "pubmed"
     CLINICAL_TRIALS = "clinicaltrials"
+    EUROPE_PMC = "europe_pmc"
+    SEMANTIC_SCHOLAR = "semantic_scholar"
+    DRUGAGE = "drugage"
+    NIH_GRANT = "nih_grant"
+    PATENT = "patent"
+    REGULATORY = "regulatory"
     PREPRINT = "preprint"
     NEWS = "news"
     SOCIAL = "social"
+    GOOGLE_TRENDS = "google_trends"
 
 class EvidenceLevel(int, Enum):
     """Evidence hierarchy for aging interventions.
@@ -183,6 +190,17 @@ class SocialDocument(BaseDocument):
     sentiment: float | None = None
 ```
 
+### Additional Source-Specific Models (Implemented)
+
+Beyond PubMed, ClinicalTrials, Preprint, News, and Social (shown above), the following subclasses are also implemented:
+
+- **EuropePMCDocument**: `europe_pmc_id`, `doi`, `authors`, `journal`, `citation_count`, `is_open_access`, `has_fulltext`, `mesh_terms`, etc.
+- **SemanticScholarDocument**: `s2_paper_id`, `doi`, `authors`, `journal`, `citation_count`, `influential_citation_count`, `fields_of_study`, etc.
+- **DrugAgeDocument**: `species`, `strain`, `dosage`, `lifespan_change_percent`, `significance`, `gender`, etc.
+- **NIHGrantDocument**: `project_number`, `fiscal_year`, `total_cost`, `pi_names`, `organization`, `nih_institute`, etc.
+- **PatentDocument**: `patent_id`, `patent_number`, `filing_date`, `grant_date`, `applicant`, `inventors`, `patent_status`, etc.
+- **RegulatoryDocument**: `drug_name`, `active_ingredients`, `manufacturer`, `approval_status`, `labeling_url`, etc.
+
 ### Discriminated Union for Serialization
 
 ```python
@@ -190,10 +208,17 @@ from typing import Annotated, Union
 from pydantic import Field, TypeAdapter
 
 # Pydantic discriminated union — picks the right subclass based on source_type
+# All 11 subclasses included
 Document = Annotated[
     Union[
         PubMedDocument,
         ClinicalTrialDocument,
+        EuropePMCDocument,
+        SemanticScholarDocument,
+        DrugAgeDocument,
+        NIHGrantDocument,
+        PatentDocument,
+        RegulatoryDocument,
         PreprintDocument,
         NewsDocument,
         SocialDocument,
@@ -460,29 +485,54 @@ Ingest agents are **fast and dumb**. They hit APIs, parse responses into typed m
 ```
 User requests: "Ingest rapamycin"
     │
+    ├── Query Expander (LLM, once)
+    │   └── "rapamycin" → ["rapamycin", "sirolimus", "rapamune", "mTOR inhibitor", ...]
+    │
     ├── PubMed Agent
-    │   ├── esearch: "rapamycin AND (aging OR ageing OR lifespan OR longevity)"
-    │   ├── efetch: get full records for PMIDs
-    │   ├── Parse XML → PubMedDocument objects (typed fields filled, classification fields null)
+    │   ├── esearch → efetch → Parse XML → PubMedDocument objects
     │   └── Return list[PubMedDocument]
     │
     ├── ClinicalTrials Agent
-    │   ├── GET /v2/studies?query.intr=rapamycin&query.cond=aging
-    │   ├── Parse JSON → ClinicalTrialDocument objects
+    │   ├── GET /v2/studies → Parse JSON → ClinicalTrialDocument objects
     │   └── Return list[ClinicalTrialDocument]
     │
-    ├── (Stretch) Preprint Agent
-    │   ├── GET api.biorxiv.org/details/biorxiv/{date_range}
-    │   └── Return list[PreprintDocument]
+    ├── Europe PMC Agent
+    │   ├── REST search API → journals, preprints, Cochrane reviews
+    │   └── Return list[EuropePMCDocument]
     │
-    └── (Stretch) News/Social Agents
-        └── Return list[NewsDocument | SocialDocument]
+    ├── Semantic Scholar Agent
+    │   ├── Graph API → citation data, influential citations
+    │   └── Return list[SemanticScholarDocument]
+    │
+    ├── DrugAge Agent
+    │   ├── Local CSV → animal lifespan data
+    │   └── Return list[DrugAgeDocument]
+    │
+    ├── NIH Reporter Agent
+    │   ├── v2 API → funded grants, NIA boost scoring
+    │   └── Return list[NIHGrantDocument]
+    │
+    ├── Patent Agent
+    │   ├── Lens.org API (fallback: Google Patents scrape)
+    │   └── Return list[PatentDocument]
+    │
+    ├── FDA Agent
+    │   ├── DailyMed API → regulatory approvals
+    │   └── Return list[RegulatoryDocument]
+    │
+    ├── Tavily Agent
+    │   ├── Tavily web search → broad web results
+    │   └── Return list[NewsDocument]
+    │
+    └── Social Agent
+        ├── Reddit/HN via Tavily → social sentiment
+        └── Return list[SocialDocument]
 
-    ↓ All documents collected
+    ↓ All documents collected (agents run concurrently in seed_all.py)
 
 StorageManager.save_documents("rapamycin", all_docs)
-    ├── Write data/documents/rapamycin.json
-    └── INSERT INTO documents ... (SQLite)
+    ├── Append to data/documents/rapamycin.json (dedup by source_url)
+    └── INSERT OR REPLACE INTO documents ... (SQLite, dedup by id)
 ```
 
 ### PubMed Agent — Implementation Notes
@@ -793,49 +843,30 @@ POST /query
 
 ---
 
-## 8. Build Order
+## 8. Current Status
 
-### Phase 1: Schema + Storage (Hours 1-3)
-1. `src/schema/document.py` — All Pydantic models from this doc
-2. `src/storage/json_store.py` — Read/write JSON files
-3. `src/storage/sqlite_store.py` — SQLite init + read/write
-4. `src/storage/manager.py` — Unified interface
+### Built
+- **Schema**: Base + 11 source-specific subclasses, discriminated union, 12 source types
+- **Storage**: JSON + SQLite dual store, StorageManager, dedup (URL-based + ID-based)
+- **Ingest**: 10 agents + Google Trends + LLM query expander. All async, no LLM at scrape time.
+- **API**: FastAPI with interventions, ingest, reasoning routes
+- **MCP Server**: 8 tools (3 functional: list_interventions, get_intervention_stats, search_documents; 5 stubs)
+- **Scripts**: seed_intervention.py, seed_all.py (batch with checkpoint/resume, concurrent agents, retry/backoff)
+- **Tools**: Edison/PaperQA3 implemented; evidence_grader, trajectory, gap_spotter, hype_ratio, report_generator are stubs
+- **Data**: 55 interventions with aliases and categories
 
-### Phase 2: Ingest (Hours 3-6)
-5. `src/ingest/base.py` — Abstract base agent
-6. `src/ingest/pubmed.py` — PubMed E-utilities
-7. `src/ingest/clinical_trials.py` — ClinicalTrials.gov v2
-8. `scripts/seed_intervention.py` — CLI to ingest one intervention
-9. Test: seed "rapamycin" and verify JSON + SQLite
-
-### Phase 3: Classification + Core Reasoning (Hours 6-12)
-10. `src/classify/llm_classifier.py` — Gemini classification
-11. `src/reasoning/evidence_grader.py` — Evidence distribution + confidence score
-12. `src/reasoning/trajectory.py` — Temporal momentum scoring
-13. `src/reasoning/gap_spotter.py` — Missing evidence analysis
-14. `src/reasoning/report_generator.py` — Combine all modules
-
-### Phase 4: API + Frontend (Hours 12-18)
-15. `src/api/main.py` + all routes
-16. `src/frontend/app.py` — Streamlit demo
-17. Test with all 7 example interventions
-18. Polish visualisations (timeline charts, evidence pyramids)
-
-### Phase 5: Stretch (Hours 18-23)
-19. News/social ingest + hype ratio
-20. MedGemma integration
-21. Comparison mode
-22. Docker deployment
+### Next to build
+See FUTURE_WORK.md — reasoning tools (T1-T4), wire them into MCP stubs
 
 ---
 
 ## 9. Key Reminders
 
-- **Ingest is dumb, reasoning is smart.** Never call an LLM during ingest.
+- **Ingest is dumb, reasoning is smart.** Never call an LLM during ingest (query expansion is the one exception — run once per intervention, not per document).
 - **JSON is readable, SQLite is queryable.** Write to both, query from whichever makes sense.
-- **No orchestration framework.** Plain async functions calling the Gemini API.
+- **No orchestration framework.** Plain async functions calling the LLM API. See Section 6 for rationale.
 - **Temporal fields are typed, not dict keys.** This is why we use Base + source-specific models.
 - **The StorageManager is the only interface to data.** Nothing else touches files or the database directly.
 - **Classification fields are nullable.** They start as None and get filled by reasoning agents.
-- **Cache LLM results.** Once a document is classified, store the result. Don't re-classify.
+- **Cache LLM results.** Once a document is classified, store the result in `data/classifications/`. Don't re-classify.
 - **raw_response is the insurance policy.** Always store the full API response so you can re-parse later.

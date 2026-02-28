@@ -126,6 +126,10 @@ CREATE TABLE IF NOT EXISTS documents (
     sample_size INTEGER,
     endpoints JSON,
 
+    -- Category grouping (from interventions.json registry)
+    category TEXT,
+    subcategory TEXT,
+
     -- Raw API response
     raw_response JSON
 )
@@ -143,10 +147,14 @@ CREATE_INDEXES = [
     "CREATE INDEX IF NOT EXISTS idx_intervention_date ON documents(intervention, date_published)",
     "CREATE INDEX IF NOT EXISTS idx_doi ON documents(doi)",
     "CREATE INDEX IF NOT EXISTS idx_project_number ON documents(project_number)",
+    "CREATE INDEX IF NOT EXISTS idx_category ON documents(category)",
+    "CREATE INDEX IF NOT EXISTS idx_subcategory ON documents(subcategory)",
+    "CREATE INDEX IF NOT EXISTS idx_category_source ON documents(category, source_type)",
+    "CREATE INDEX IF NOT EXISTS idx_category_intervention ON documents(category, intervention)",
 ]
 
 
-def _doc_to_row(doc: Document) -> dict:
+def _doc_to_row(doc: Document, category: str | None = None, subcategory: str | None = None) -> dict:
     """Convert a typed Document to a flat dict for SQL insertion."""
     # Start with base fields
     row: dict = {
@@ -292,6 +300,8 @@ def _doc_to_row(doc: Document) -> dict:
         source_meta["pharmacokinetics_summary"] = doc.pharmacokinetics_summary  # type: ignore[attr-defined]
 
     row["source_metadata"] = json.dumps(source_meta)
+    row["category"] = category
+    row["subcategory"] = subcategory
     return row
 
 
@@ -314,31 +324,46 @@ class SQLiteStore:
         await self._db.execute(CREATE_DOCUMENTS_TABLE)
         for idx_sql in CREATE_INDEXES:
             await self._db.execute(idx_sql)
+        await self._migrate_add_category_columns()
         await self._db.commit()
         logger.info(f"SQLite initialized at {self.db_path}")
+
+    async def _migrate_add_category_columns(self) -> None:
+        """Add category/subcategory columns if upgrading an existing database."""
+        assert self._db is not None
+        cursor = await self._db.execute("PRAGMA table_info(documents)")
+        existing_cols = {row[1] for row in await cursor.fetchall()}
+        for col in ("category", "subcategory"):
+            if col not in existing_cols:
+                await self._db.execute(f"ALTER TABLE documents ADD COLUMN {col} TEXT")
+                logger.info(f"Migrated: added '{col}' column to documents table")
 
     async def close(self) -> None:
         if self._db:
             await self._db.close()
             self._db = None
 
-    async def insert_document(self, doc: Document) -> None:
+    async def insert_document(
+        self, doc: Document, category: str | None = None, subcategory: str | None = None,
+    ) -> None:
         """Insert or replace a single document."""
         assert self._db is not None
-        row = _doc_to_row(doc)
+        row = _doc_to_row(doc, category=category, subcategory=subcategory)
         cols = ", ".join(row.keys())
         placeholders = ", ".join(f":{k}" for k in row.keys())
         sql = f"INSERT OR REPLACE INTO documents ({cols}) VALUES ({placeholders})"
         await self._db.execute(sql, row)
         await self._db.commit()
 
-    async def insert_documents(self, docs: list[Document]) -> None:
+    async def insert_documents(
+        self, docs: list[Document], category: str | None = None, subcategory: str | None = None,
+    ) -> None:
         """Batch insert documents."""
         assert self._db is not None
         if not docs:
             return
         for doc in docs:
-            row = _doc_to_row(doc)
+            row = _doc_to_row(doc, category=category, subcategory=subcategory)
             cols = ", ".join(row.keys())
             placeholders = ", ".join(f":{k}" for k in row.keys())
             sql = f"INSERT OR REPLACE INTO documents ({cols}) VALUES ({placeholders})"

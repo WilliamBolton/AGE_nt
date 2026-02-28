@@ -1,39 +1,56 @@
 {
   "interventions": [
-    {
-      "name": "rapamycin",
-      "aliases": ["sirolimus", "rapamune", "mTOR inhibitor"],
-      "category": "mTOR inhibition"
-    },
-    {
-      "name": "metformin",
-      "aliases": ["glucophage", "dimethylbiguanide"],
-      "category": "metabolic intervention"
-    },
-    {
-      "name": "NAD+ precursors",
-      "aliases": ["NMN", "nicotinamide mononucleotide", "NR", "nicotinamide riboside", "niacin"],
-      "category": "NAD+ metabolism"
-    },
-    {
-      "name": "senolytics",
-      "aliases": ["dasatinib", "quercetin", "dasatinib+quercetin", "D+Q", "fisetin"],
-      "category": "senescent cell clearance"
-    },
-    {
-      "name": "young plasma",
-      "aliases": ["parabiosis", "plasma exchange", "young blood", "heterochronic parabiosis"],
-      "category": "systemic factors"
-    },
-    {
-      "name": "hyperbaric oxygen therapy",
-      "aliases": ["HBOT", "hyperbaric oxygen", "HBO"],
-      "category": "oxygen therapy"
-    },
-    {
-      "name": "epigenetic reprogramming",
-      "aliases": ["Yamanaka factors", "OSKM", "partial reprogramming", "iPSC reprogramming", "Oct4 Sox2 Klf4 Myc"],
-      "category": "epigenetic intervention"
-    }
+    {"name": "rapamycin", "aliases": ["sirolimus", "rapamune"], "category": "mTOR_inhibition", "subcategory": "rapalogs"},
+    {"name": "everolimus", "aliases": ["afinitor", "RAD001"], "category": "mTOR_inhibition", "subcategory": "rapalogs"},
+    {"name": "metformin", "aliases": ["glucophage", "dimethylbiguanide"], "category": "metabolic_intervention", "subcategory": "AMPK_activation"},
+    {"name": "acarbose", "aliases": ["precose", "glucobay"], "category": "metabolic_intervention", "subcategory": "glucose_metabolism"},
+    {"name": "canagliflozin", "aliases": ["invokana", "SGLT2 inhibitor"], "category": "metabolic_intervention", "subcategory": "SGLT2_inhibition"},
+    {"name": "17-alpha-estradiol", "aliases": ["17aE2"], "category": "metabolic_intervention", "subcategory": "hormonal"},
+    {"name": "NMN", "aliases": ["nicotinamide mononucleotide", "beta-NMN"], "category": "NAD_metabolism", "subcategory": "NAD_precursors"},
+    {"name": "NR", "aliases": ["nicotinamide riboside", "niagen", "TRU niagen"], "category": "NAD_metabolism", "subcategory": "NAD_precursors"},
+    {"name": "niacin", "aliases": ["nicotinic acid", "vitamin B3"], "category": "NAD_metabolism", "subcategory": "NAD_precursors"},
+    {"name": "NAD+ precursors", "aliases": ["NMN", "NR", "nicotinamide mononucleotide", "nicotinamide riboside", "niacin"], "category": "NAD_metabolism", "subcategory": "class_overview"},
+    {"name": "CD38 inhibitors", "aliases": ["apigenin", "quercetin CD38", "78c"], "category": "NAD_metabolism", "subcategory": "NAD_preservation"},
+    {"name": "dasatinib quercetin", "aliases": ["D+Q", "dasatinib plus quercetin", "senolytic cocktail"], "category": "senolytics", "subcategory": "senolytic_combination"},
+    {"name": "senolytics", "aliases": ["senolytic", "senescent cell clearance", "dasatinib", "quercetin", "fisetin"], "category": "senolytics", "subcategory": "class_overview"},
+    {"name": "fisetin", "aliases": [], "category": "senolytics", "subcategory": "flavonoid_senolytic"},
+    {"name": "navitoclax", "aliases": ["ABT-263"], "category": "senolytics", "subcategory": "BCL2_inhibitor"},
+    {"name": "UBX0101", "aliases": ["Unity Biotechnology senolytic"], "category": "senolytics", "subcategory": "MDM2_inhibitor"},
+    {"name": "FOXO4-DRI", "aliases": ["FOXO4 peptide", "proxofim"], "category": "senolytics", "subcategory": "peptide_senolytic"},
+    {"name": "quercetin", "aliases": [], "category": "senolytics", "subcategory": "flavonoid_senolytic"},
+    {"name": "resveratrol", "aliases": ["trans-resveratrol"], "category": "sirtuin_activation", "subcategory": "polyphenols"},
+    {"name": "SRT1720", "aliases": [], "category": "sirtuin_activation", "subcategory": "synthetic_sirtuin_activator"},
+    {"name": "spermidine", "aliases": [], "category": "autophagy_induction", "subcategory": "polyamines"},
+    {"name": "urolithin A", "aliases": ["mitopure"], "category": "autophagy_induction", "subcategory": "mitophagy"},
+    {"name": "trehalose", "aliases": [], "category": "autophagy_induction", "subcategory": "mTOR_independent_autophagy"},
+    {"name": "young plasma", "aliases": ["parabiosis", "plasma exchange", "young blood", "heterochronic parabiosis"], "category": "systemic_factors", "subcategory": "blood_factors"},
+    {"name": "GDF11", "aliases": ["growth differentiation factor 11"], "category": "systemic_factors", "subcategory": "blood_factors"},
+    {"name": "klotho", "aliases": ["alpha-klotho"], "category": "systemic_factors", "subcategory": "longevity_proteins"},
+    {"name": "GLP-1 agonists", "aliases": ["semaglutide", "liraglutide", "ozempic", "wegovy", "tirzepatide"], "category": "metabolic_intervention", "subcategory": "incretin_mimetics"},
+    {"name": "hyperbaric oxygen therapy", "aliases": ["HBOT", "hyperbaric oxygen", "HBO"], "category": "physical_intervention", "subcategory": "oxygen_therapy"},
+    {"name": "epigenetic reprogramming", "aliases": ["Yamanaka factors", "OSKM", "partial reprogramming", "iPSC reprogramming", "Oct4 Sox2 Klf4 Myc"], "category": "epigenetic_intervention", "subcategory": "reprogramming"},
+    {"name": "epigenetic clocks", "aliases": ["Horvath clock", "GrimAge", "PhenoAge", "DunedinPACE", "methylation clock"], "category": "epigenetic_intervention", "subcategory": "biomarkers"},
+    {"name": "alpha-ketoglutarate", "aliases": ["AKG", "calcium alpha-ketoglutarate", "CaAKG"], "category": "metabolic_intervention", "subcategory": "TCA_cycle"},
+    {"name": "taurine", "aliases": [], "category": "metabolic_intervention", "subcategory": "amino_acids"},
+    {"name": "glycine", "aliases": [], "category": "metabolic_intervention", "subcategory": "amino_acids"},
+    {"name": "lithium", "aliases": ["lithium chloride", "lithium orotate"], "category": "neuroprotection", "subcategory": "GSK3_inhibition"},
+    {"name": "deprenyl", "aliases": ["selegiline", "eldepryl"], "category": "neuroprotection", "subcategory": "MAO_inhibition"},
+    {"name": "pioglitazone", "aliases": ["actos"], "category": "metabolic_intervention", "subcategory": "PPAR_gamma_agonist"},
+    {"name": "caloric restriction", "aliases": ["calorie restriction", "dietary restriction", "CR", "intermittent fasting", "time-restricted eating"], "category": "dietary_intervention", "subcategory": "caloric_restriction"},
+    {"name": "ketogenic diet", "aliases": ["keto", "ketosis", "beta-hydroxybutyrate", "BHB"], "category": "dietary_intervention", "subcategory": "metabolic_diets"},
+    {"name": "exercise", "aliases": ["physical activity", "aerobic exercise", "resistance training", "HIIT"], "category": "physical_intervention", "subcategory": "exercise"},
+    {"name": "cold exposure", "aliases": ["cryotherapy", "cold immersion", "cold plunge", "cold shock proteins"], "category": "physical_intervention", "subcategory": "hormesis"},
+    {"name": "sauna", "aliases": ["heat therapy", "heat shock proteins", "infrared sauna", "Finnish sauna"], "category": "physical_intervention", "subcategory": "hormesis"},
+    {"name": "telomerase activation", "aliases": ["TA-65", "telomerase gene therapy", "TERT", "cycloastragenol"], "category": "telomere_intervention", "subcategory": "telomerase_activators"},
+    {"name": "stem cell therapy", "aliases": ["mesenchymal stem cells", "MSC", "stem cell transplant", "iPSC therapy"], "category": "cell_therapy", "subcategory": "stem_cells"},
+    {"name": "thymus regeneration", "aliases": ["TRIIM trial", "growth hormone thymus", "thymic rejuvenation"], "category": "immune_rejuvenation", "subcategory": "thymus"},
+    {"name": "curcumin", "aliases": ["turmeric extract", "diferuloylmethane"], "category": "anti_inflammatory", "subcategory": "polyphenols"},
+    {"name": "sulforaphane", "aliases": ["broccoli extract", "NRF2 activator"], "category": "anti_inflammatory", "subcategory": "NRF2_pathway"},
+    {"name": "omega-3 fatty acids", "aliases": ["fish oil", "EPA", "DHA", "icosapent ethyl"], "category": "anti_inflammatory", "subcategory": "fatty_acids"},
+    {"name": "aspirin", "aliases": ["acetylsalicylic acid", "ASA", "low-dose aspirin"], "category": "anti_inflammatory", "subcategory": "COX_inhibition"},
+    {"name": "berberine", "aliases": [], "category": "metabolic_intervention", "subcategory": "AMPK_activation"},
+    {"name": "CoQ10", "aliases": ["coenzyme Q10", "ubiquinone", "ubiquinol", "MitoQ"], "category": "mitochondrial", "subcategory": "electron_transport"},
+    {"name": "SS-31", "aliases": ["elamipretide", "Bendavia", "MTP-131"], "category": "mitochondrial", "subcategory": "mitochondria_targeted_peptide"},
+    {"name": "methylene blue", "aliases": ["methylthioninium chloride"], "category": "mitochondrial", "subcategory": "electron_carrier"}
   ]
 }

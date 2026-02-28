@@ -1,62 +1,98 @@
 # FUTURE_WORK.md — Stretch Goals & Post-Hackathon Roadmap
 
-## Stretch Goals (If Time Permits During Hackathon)
+## Next: MCP Reasoning Tools
 
-### S1. Hype-to-Evidence Ratio Module
-- Ingest news articles and social media mentions (Reddit r/longevity, Google Trends)
-- Compute sentiment + volume over time
-- Cross-reference against evidence grade to produce a "Bull/Bear Index"
+These tools consume existing data via `StorageManager` and expose reasoning through the MCP server. The stub definitions already exist in `src/mcp_server/server.py` and empty tool files in `src/tools/`.
+
+### T1. Hype-to-Evidence Ratio Tool
+- Cross-reference social/news/Tavily data against evidence grade
+- Produce a "Bull/Bear Index" — hype volume vs evidence strength
 - Visual: hype curve overlaid on evidence accumulation timeline
 - **Why it matters:** Immediately identifies overmarketed interventions with weak evidence
 
-### S2. MedGemma Deep Analysis
-- Deploy MedGemma on Lyceum GPU
-- Use for: endpoint relevance scoring (is "grip strength" a meaningful aging endpoint?), mechanism plausibility assessment, cross-study contradiction detection
-- Falls back to Gemini API if MedGemma unavailable
-- **Why it matters:** Shows off the medical reasoning capability that Gemini alone can't match
-
-### S3. Intervention Comparison Mode
-- `GET /compare?interventions=rapamycin,metformin,NMN`
+### T2. Intervention Comparison Tool
+- `compare_interventions(interventions=["rapamycin", "metformin", "NMN"])`
 - Side-by-side evidence profiles, trajectory overlays, gap comparison
 - Radar chart visualisation across evidence levels
-- **Why it matters:** This is the killer feature for VC due diligence — comparing pipeline candidates
+- **Why it matters:** Killer feature for VC due diligence — comparing pipeline candidates
 
-### S4. Contradiction & Fragility Detection
+### T3. Contradiction & Fragility Detection Tool
 - Within each evidence level, assess whether studies agree or conflict
 - Use LLM to compare key findings pairwise
 - Output a "consensus fragility score" — high when studies disagree
 - Flag if all positive results come from <3 independent labs
 - **Why it matters:** 10 conflicting studies ≠ 10 confirming studies, but naive counting misses this
 
-### S5. Patent & Funding Signal
-- Scrape Google Patents API for aging-related patents by intervention
-- Cross-reference with NIH Reporter for funded grants
-- Commercial interest + funding momentum as additional trajectory signals
-- **Why it matters:** Patent filings and grant awards are leading indicators of translational potential
+### T4. Evidence Grader & Gap Spotter Tools
+- Already stubbed in MCP server and `src/tools/`
+- Evidence Grader: count studies per evidence level, weight by sample size, compute composite confidence score
+- Gap Spotter: check for missing evidence types, flag no human data / no RCTs / single-lab results
 
-### S6. MCP Server — ChatGPT & Claude Connector
-- Build a single MCP (Model Context Protocol) server that exposes all LongevityLens tools
-- One server, all tools — ChatGPT and Claude both connect to the same endpoint
-- Architecture:
+### T5. Temporal Analysis & Trajectory Tools
+- **Trial Lifecycle**: Query ClinicalTrials docs for pipeline velocity — days from registered → started → completed → results posted. Flag stalled trials, compute avg pipeline speed.
+- **Trajectory Scorer**: Group all docs by year and source type. Compute publication rate, acceleration, whether evidence is climbing the hierarchy. Output momentum score + phase label (emerging/accelerating/mature/stagnant/declining).
+- **Cross-source timeline**: Combine temporal signals from all sources — `date_published` (papers), `filing_date`/`grant_date` (patents), `grant_start`/`fiscal_year` (NIH), `approval_date` (FDA), `date_peer_published` (preprints)
+- **Prerequisite**: Add `get_trial_lifecycle(intervention)` query method to StorageManager/SQLiteStore — trivial SQL over existing columns (`date_registered`, `date_started`, `date_completed`, `date_results_posted` all stored and indexed)
+- **Data is ready**: Every BaseDocument has `date_published`; ClinicalTrials has 4 lifecycle dates; Patents, NIH grants, FDA, preprints all have source-specific temporal fields already populated by ingest agents
+
+### T6. Demo / Frontend
+- Streamlit or lightweight web app showing how a pharma/VC user would interact with the system
+- Key screens: intervention dashboard (evidence profile, trajectory chart, gap analysis), comparison view, search
+- Judges assessing **market fit, innovation, commercial viability** — demo needs to tell a story about who uses this and why
+- Show the MCP flow: Claude Desktop calling tools, getting real data, generating analysis vs generic LLM knowledge
+- Consider a "pharma due diligence" walkthrough: pick an intervention, show evidence grade, timeline, gaps, hype ratio — the full pipeline
+
+### T7. Summarisation Tool
+- LLM-based summarisation of ingested documents for an intervention — NOT classification of individual docs, but generating a structured overview
+- Reads raw docs from StorageManager, sends batches to LLM (title + abstract + key metadata), produces structured summary per intervention
+- Output saved to `data/summaries/{intervention}.json` as a new data artifact (not modifying source docs)
+- Could populate classification fields (evidence_level, organism, study_type, effect_direction) as a side effect, cached in `data/classifications/`
+- Prompt template designed in ARCHITECTURE.md Section 4 — sends title + abstract + MeSH/publication_types to get structured JSON back
+- Run on-demand when a report is requested, or batch after a big scrape
+- **Why it matters:** Bridge between raw data and reasoning tools — Evidence Grader and Gap Spotter need classified docs to function properly
+
+## Completed
+
+### ✅ MCP Server (S6)
+- `src/mcp_server/server.py` — FastMCP server with 8 tools, SSE transport on port 8001
+- **Claude Desktop setup:** Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+  ```json
+  {
+    "mcpServers": {
+      "longevity-lens": {
+        "url": "http://localhost:8001/sse"
+      }
+    }
+  }
   ```
-  Single MCP Server (longevity-lens) at /sse
-  ├── Tool: list_interventions
-  ├── Tool: get_intervention_stats
-  ├── Tool: get_evidence_grade
-  ├── Tool: get_evidence_trajectory
-  ├── Tool: get_evidence_gaps
-  ├── Tool: get_hype_ratio
-  ├── Tool: get_full_report
-  └── Tool: search_documents
-      └── All tools share the same StorageManager (JSON + SQLite)
-  ```
-- Implementation: Use `mcp[server]` Python package with SSE transport, mount on existing FastAPI app or standalone Starlette app
-- Tools are thin wrappers around the same reasoning functions the REST API calls — no duplication of logic
-- Deployment for demo: `ngrok http 8001` gives a public URL, or deploy to Lyceum VM
-- **ChatGPT connection**: Settings → Apps & Connectors → Developer Mode → Create connector with MCP Server URL
-- **Claude connection**: Native MCP support — just add the server URL in settings
-- **Why it matters:** "Let me show you this working live inside ChatGPT right now" is a showstopper demo moment. It proves the system isn't just a standalone app — it's an infrastructure layer any LLM can plug into. Similar to how Gosset.ai exposes drug pipeline data via MCP, LongevityLens exposes evidence grading as a service.
-- **Build in last 2-3 hours only if reasoning modules and Streamlit demo are solid.** The MCP layer is ~2 hours of work (the tools already exist as functions, you're just wrapping them in the MCP protocol).
+- **Run:** `.venv/bin/python -m src.mcp_server.server` then restart Claude Desktop
+
+### ✅ Patent & Funding Signals (S5)
+- `src/ingest/patents.py` — Lens.org API with Google Patents scrape fallback
+- `src/ingest/nih_reporter.py` — NIH Reporter API v2 with NIA boost scoring
+- Both fully integrated into the ingest pipeline
+
+### ✅ Batch Seeding with Checkpoint/Resume (seed_all.py)
+- `scripts/seed_all.py` — overnight batch runner for all 55 interventions
+- `--start-from` for resume after crash, `--category` filter, `--dry-run`, `--skip-tavily`
+- Per-source error tracking, ETA, summary JSON saved to `data/seed_summary.json`
+- File logging to `data/seed_all.log`
+
+## Stretch Goals
+
+### On-Demand Ingest via MCP
+- Add an `ingest_intervention` MCP tool that triggers the full scraping pipeline for new interventions
+- If a user asks about an intervention not in the database, the LLM can scrape it on the fly
+- Wraps the existing `seed_intervention.py` logic as an async MCP tool
+- Also useful: `add_intervention` tool to register new canonical names + aliases before ingesting
+- **Why it matters:** Makes the system self-expanding — the LLM autonomously grows the evidence base based on user questions
+
+## Deprioritised
+
+### MedGemma Deep Analysis
+- Edison (PaperQA3) already covers deep medical reasoning via `src/tools/edison.py`
+- Job types `literature_high`, `analysis`, `molecules` handle endpoint relevance, mechanism plausibility, contradiction detection
+- Revisit only if Edison proves insufficient for a specific reasoning task
 
 ---
 
@@ -182,18 +218,23 @@ Not needed now — agents currently operate on one intervention at a time.
 
 ---
 
-## Technical Debt to Address
+## Technical Debt
 
-- [ ] Move from synchronous to fully async ingest pipeline
-- [ ] Add proper retry logic with exponential backoff for all external APIs
+### Essential (before/during big scrapes)
+- [x] Add retry logic with exponential backoff for external APIs (`seed_all.py`: `_ingest_with_retry`, 3 attempts, 5/10/20s backoff)
+- [x] Rate limit monitoring — transient errors logged with attempt counts in `data/seed_all.log`
+- [ ] Review agent timeouts — 30s default may be too short for Europe PMC with 100+ results; too long to waste on a dead endpoint
+
+### Nice to have
+- [x] Move to concurrent ingest (`seed_all.py`: `asyncio.gather` across all agents per intervention, sequential storage writes)
 - [x] Implement document deduplication (same study appearing in PubMed + Europe PMC — dedup by DOI/PMID)
-- [ ] Add embedding model versioning (re-embed when model changes)
+- [x] Batch seeding with checkpoint/resume (`scripts/seed_all.py`)
 - [ ] Proper database migrations (Alembic for SQLite→Postgres transition)
 - [ ] Comprehensive test suite with fixtures for each source API
-- [ ] Rate limit monitoring and alerting (Semantic Scholar rate limiting is a known issue)
 - [ ] LLM response caching with TTL to reduce API costs
 - [ ] Consolidate document schemas — 11 subclasses may be more than needed long-term
 - [ ] Add data freshness tracking — flag when an intervention's data is stale and needs re-ingestion
+- [ ] Add embedding model versioning (re-embed when model changes)
 
 ## Research Questions
 
