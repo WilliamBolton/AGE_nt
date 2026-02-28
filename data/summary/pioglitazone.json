@@ -1,0 +1,242 @@
+{
+  "intervention": "pioglitazone",
+  "aliases": [
+    "actos"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 279,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "regulatory": 15,
+    "news": 14
+  },
+  "date_range": {
+    "earliest": "1988-08-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1988": 5,
+    "1997": 1,
+    "1999": 1,
+    "2000": 1,
+    "2001": 2,
+    "2002": 2,
+    "2004": 3,
+    "2005": 5,
+    "2006": 5,
+    "2007": 8,
+    "2008": 6,
+    "2009": 6,
+    "2010": 5,
+    "2011": 9,
+    "2012": 6,
+    "2013": 10,
+    "2014": 5,
+    "2015": 4,
+    "2016": 11,
+    "2017": 4,
+    "2018": 13,
+    "2019": 24,
+    "2020": 5,
+    "2021": 14,
+    "2022": 12,
+    "2023": 12,
+    "2024": 27,
+    "2025": 40,
+    "2026": 33
+  },
+  "academic": {
+    "unique_authors": 1134,
+    "unique_journals": 62,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Frontiers in Aging": 6,
+      "Aging Cell": 6,
+      "Nature Aging": 5,
+      "Aging and Disease": 4,
+      "Neurobiology of aging": 3,
+      "Endocrinology": 3,
+      "Aging cell": 2,
+      "Experimental gerontology": 2,
+      "Biogerontology": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 24,
+      "Research Support, N.I.H., Extramural": 14,
+      "Comparative Study": 4,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 2,
+      "Research Support, U.S. Gov't, P.H.S.": 2,
+      "Randomized Controlled Trial": 1,
+      "Review": 1
+    },
+    "top_mesh_terms": {
+      "Animals": 46,
+      "Aging": 39,
+      "Thiazolidinediones": 37,
+      "Male": 28,
+      "Pioglitazone": 26,
+      "Rosiglitazone": 25,
+      "Mice": 22,
+      "PPAR gamma": 21,
+      "Hypoglycemic Agents": 20,
+      "Rats": 18,
+      "Humans": 16,
+      "Mice, Inbred C57BL": 16,
+      "Female": 14,
+      "Disease Models, Animal": 10,
+      "Cellular Senescence": 9
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE3": 12,
+      "PHASE4": 10,
+      "Unknown": 8,
+      "NA": 8,
+      "PHASE2": 8,
+      "PHASE1": 4
+    },
+    "by_status": {
+      "COMPLETED": 46,
+      "UNKNOWN": 2,
+      "RECRUITING": 1,
+      "TERMINATED": 1
+    },
+    "total_enrollment": 43499,
+    "median_enrollment": 137,
+    "with_results": 14,
+    "top_sponsors": {
+      "GlaxoSmithKline": 6,
+      "Novo Nordisk A/S": 3,
+      "Merck Sharp & Dohme LLC": 2,
+      "Post Graduate Institute of Medical Education and Research, Chandigarh": 1,
+      "Kurume University": 1,
+      "Yonsei University": 1,
+      "Fondazione GISE Onlus": 1,
+      "Eli Lilly and Company": 1,
+      "Fondazione Italiana Linfomi - ETS": 1,
+      "Xiang Guang-da": 1
+    },
+    "top_conditions": {
+      "Diabetes Mellitus, Type 2": 12,
+      "Type 2 Diabetes Mellitus": 5,
+      "Diabetes": 5,
+      "Insulin Resistance": 4,
+      "Impaired Glucose Tolerance": 2,
+      "Atherosclerosis": 2,
+      "Hypertension": 2,
+      "Metabolic Syndrome": 2,
+      "Healthy": 2,
+      "Type 2 Diabetes": 2
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 18719582.0,
+    "mean_funding_usd": 425445.05,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 12,
+      "NIAAA": 12,
+      "NIDDK": 11,
+      "NIAMS": 7,
+      "NIBIB": 1,
+      "OD": 1
+    },
+    "top_organisations": {
+      "YALE UNIVERSITY": 11,
+      "JESSE BROWN VA MEDICAL CENTER": 6,
+      "UNIVERSITY OF CALIFORNIA LOS ANGELES": 5,
+      "MAYO CLINIC ROCHESTER": 5,
+      "UT SOUTHWESTERN MEDICAL CENTER": 5,
+      "UNIVERSITY OF ALABAMA AT BIRMINGHAM": 4,
+      "OHIO STATE UNIVERSITY": 3,
+      "FLORIDA INTERNATIONAL UNIVERSITY": 2,
+      "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI": 2,
+      "OLEOLIVE, INC.": 2
+    },
+    "by_fiscal_year": {
+      "2015": 1,
+      "2016": 3,
+      "2017": 1,
+      "2018": 3,
+      "2019": 6,
+      "2020": 6,
+      "2021": 6,
+      "2022": 8,
+      "2023": 6,
+      "2024": 4,
+      "2025": 5,
+      "2026": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "1 INDICATIONS AND USAGE Monotherapy and Combination Therapy Pioglitazone tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus in multiple clinical settings [see Clinical Studies (14) ] . Important Limitations of Use Pioglitazone tablets exert its antihyperglycemic effect only in the presence of endogenous insulin. Pioglitazone tablets should not be used to treat type 1 diabetes or diabetic ketoacidosis, as it would not be ef": 4,
+      "1 INDICATIONS AND USAGE Pioglitazone and metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Limitations of Use Pioglitazone and metformin hydrochloride tablets are not recommended to treat type 1 diabetes mellitus or diabetic ketoacidosis. Pioglitazone and metformin hydrochloride tablets are a combination of pioglitazone, a thiazolidinedione agonist of peroxisome proliferator receptor gamma, and me": 1
+    },
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 14,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "escholarship.org": 2,
+      "aging-us.com": 2,
+      "nyulangone.org": 1,
+      "fightaging.org": 1,
+      "uknowledge.uky.edu": 1,
+      "gowinglife.com": 1,
+      "karger.com": 1,
+      "alzdiscovery.org": 1,
+      "d-nb.info": 1,
+      "diabetesincontrol.com": 1
+    }
+  },
+  "social": {
+    "count": 0
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 184,
+    "mean_citations": 3.7,
+    "max_citations": 66,
+    "open_access": 40,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2387,
+    "mean_citations": 47.7,
+    "max_citations": 350,
+    "total_influential_citations": 63,
+    "open_access": 37
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-16",
+    "current_interest": 50,
+    "data_points_count": 261
+  }
+}

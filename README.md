@@ -1,4 +1,4 @@
-# LongevityLens
+# AGE-nt
 
 An agentic system that scrapes, standardises, and reasons over scientific evidence for aging interventions. The core insight: the **data layer is the product**. Reasoning modules (evidence grading, trajectory scoring, gap analysis, hype ratio) are swappable consumers of a unified, temporally-indexed document store.
 
@@ -44,7 +44,7 @@ python scripts/seed_intervention.py metformin --max-results 100
 
 ## Data sources
 
-LongevityLens ingests from **11 sources** across 10 agents:
+AGE-nt ingests from **11 sources** across 10 agents:
 
 | Agent | Source | What it captures | Auth needed |
 |-------|--------|-----------------|-------------|
@@ -73,7 +73,7 @@ NCBI_API_KEY=...                       # Increases PubMed rate limit (3 -> 10 re
 TAVILY_API_KEY=...                     # Required for web search agent only
 
 # Storage
-DATABASE_URL=sqlite:///data/longevity_lens.db
+DATABASE_URL=sqlite:///data/age_nt.db
 
 # Logging
 LOG_LEVEL=INFO

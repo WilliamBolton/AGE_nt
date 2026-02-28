@@ -1,0 +1,272 @@
+{
+  "intervention": "methylene blue",
+  "aliases": [
+    "methylthioninium chloride"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 309,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "social": 50,
+    "news": 28,
+    "nih_grant": 23,
+    "drugage": 6,
+    "regulatory": 2
+  },
+  "date_range": {
+    "earliest": "2003-07-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2003": 2,
+    "2004": 1,
+    "2005": 1,
+    "2006": 3,
+    "2007": 2,
+    "2008": 1,
+    "2009": 2,
+    "2010": 5,
+    "2011": 2,
+    "2012": 4,
+    "2013": 2,
+    "2014": 8,
+    "2015": 7,
+    "2016": 8,
+    "2017": 14,
+    "2018": 4,
+    "2019": 6,
+    "2020": 13,
+    "2021": 12,
+    "2022": 8,
+    "2023": 18,
+    "2024": 45,
+    "2025": 97,
+    "2026": 44
+  },
+  "academic": {
+    "unique_authors": 1229,
+    "unique_journals": 76,
+    "top_journals": {
+      "Nature communications": 6,
+      "Cells": 4,
+      "International journal of molecular sciences": 4,
+      "Investigative ophthalmology & visual science": 3,
+      "Scientific Reports": 3,
+      "Nature aging": 2,
+      "Cell stem cell": 2,
+      "Aging": 2,
+      "GeroScience": 2,
+      "Aging cell": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 48,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 23,
+      "Research Support, N.I.H., Extramural": 11,
+      "Review": 11,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 3,
+      "Comparative Study": 2,
+      "Meta-Analysis": 1,
+      "Systematic Review": 1,
+      "Research Support, N.I.H., Intramural": 1,
+      "Clinical Trial": 1,
+      "Multicenter Study": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1
+    },
+    "top_mesh_terms": {
+      "Humans": 38,
+      "Aging": 25,
+      "Animals": 23,
+      "Cellular Senescence": 19,
+      "Female": 17,
+      "Longevity": 14,
+      "Male": 13,
+      "Mice": 12,
+      "Aged": 10,
+      "Methylene Blue": 6,
+      "Cell Line, Tumor": 6,
+      "Aged, 80 and over": 5,
+      "Phenotype": 5,
+      "Autophagy": 5,
+      "Signal Transduction": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 17,
+      "PHASE2": 12,
+      "PHASE3": 11,
+      "Unknown": 6,
+      "PHASE4": 3,
+      "PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 45,
+      "RECRUITING": 4,
+      "UNKNOWN": 1
+    },
+    "total_enrollment": 30561,
+    "median_enrollment": 100,
+    "with_results": 13,
+    "top_sponsors": {
+      "University of Manitoba": 7,
+      "Ottawa Hospital Research Institute": 3,
+      "Hoffmann-La Roche": 2,
+      "Bausch Health Americas, Inc.": 2,
+      "Incyte Corporation": 2,
+      "University of Dundee": 1,
+      "University of Cambridge": 1,
+      "Amgen": 1,
+      "St. Boniface Hospital": 1,
+      "University Hospital Southampton NHS Foundation Trust": 1
+    },
+    "top_conditions": {
+      "Acne Vulgaris": 2,
+      "Coronary Artery Disease": 2,
+      "Osteoarthritis, Knee": 1,
+      "Concussion, Brain": 1,
+      "Motor Vehicle Accident": 1,
+      "Atopic Dermatitis": 1,
+      "Patients Waiting for Coronary Artery Bypass Graft Surgery": 1,
+      "Patients Waiting for Aortic Valve Repair or Replacement": 1,
+      "Patients Waiting for Mitral Valve Repair or Replacement": 1,
+      "Patients Waiting for Combined Procedures. (CAGB and Valve)": 1
+    }
+  },
+  "drugage": {
+    "count": 6,
+    "by_species": {
+      "Drosophila melanogaster": 4,
+      "Mus musculus": 2
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Male": 5,
+      "Female": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 23,
+    "total_funding_usd": 12340628.0,
+    "mean_funding_usd": 536549.04,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 10,
+      "NHLBI": 4,
+      "NICHD": 3,
+      "NIDDK": 3,
+      "NINDS": 3
+    },
+    "top_organisations": {
+      "UNIVERSITY OF TEXAS HLTH SCIENCE CENTER": 5,
+      "DUKE UNIVERSITY": 4,
+      "BAEBIES, INC.": 3,
+      "NORTHWESTERN UNIVERSITY": 2,
+      "UNIVERSITY OF WISCONSIN MILWAUKEE": 2,
+      "TWIN STAR TDS, LLC": 2,
+      "UNIVERSITY OF SOUTH FLORIDA": 2,
+      "GEISINGER COMMONWEALTH SCHOOL OF MEDICINE": 1,
+      "TWIN STAR MEDICAL": 1,
+      "OHIO STATE UNIVERSITY": 1
+    },
+    "by_fiscal_year": {
+      "2011": 1,
+      "2012": 1,
+      "2013": 2,
+      "2014": 1,
+      "2015": 1,
+      "2016": 1,
+      "2017": 3,
+      "2018": 1,
+      "2019": 1,
+      "2020": 3,
+      "2021": 2,
+      "2022": 3,
+      "2023": 2,
+      "2024": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 2,
+    "approved_indications": {
+      "TissueBlue 0.025% - Indications & Usage Section TissueBlue 0.025% is indicated to selectively stain the internal limiting membrane (ILM). TissueBlue 0.025% is a disclosing agent indicated to selectively stain the internal limiting membrane (ILM).": 1
+    },
+    "drug_classes": {
+      "Disclosing Agent [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 28,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "agelessrx.com": 3,
+      "lowcountrymale.com": 1,
+      "relivehealth.com": 1,
+      "aquavitality.com": 1,
+      "longevityeffect.com": 1,
+      "merakiintegrative.com": 1,
+      "seniorsguide.com": 1,
+      "yuniquemedical.com": 1,
+      "verywellhealth.com": 1,
+      "alzdiscovery.org": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 38,
+      "supplements": 12
+    },
+    "total_score": 2543,
+    "mean_score": 50.9,
+    "total_comments": 5067,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 29,
+    "mean_citations": 0.6,
+    "max_citations": 9,
+    "open_access": 37,
+    "preprints": 2,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 408,
+    "mean_citations": 8.2,
+    "max_citations": 106,
+    "total_influential_citations": 14,
+    "open_access": 17
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-02-02",
+    "current_interest": 38,
+    "data_points_count": 261
+  }
+}

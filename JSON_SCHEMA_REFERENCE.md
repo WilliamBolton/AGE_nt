@@ -1,6 +1,6 @@
-# JSON Schema Reference — LongevityLens Data Layer
+# JSON Schema Reference — AGE-nt Data Layer
 
-> **Purpose:** This document is a machine-readable reference for LLM agents and automated systems that need to search, extract, and reason over LongevityLens JSON data. Every field, type, enum value, and nesting structure is documented below.
+> **Purpose:** This document is a machine-readable reference for LLM agents and automated systems that need to search, extract, and reason over AGE-nt JSON data. Every field, type, enum value, and nesting structure is documented below.
 
 ---
 
@@ -8,7 +8,7 @@
 
 ```
 data/
-├── longevity_lens.db                   # SQLite (mirrors JSON, supports structured queries)
+├── age_nt.db                   # SQLite (mirrors JSON, supports structured queries)
 ├── documents/
 │   └── {intervention}.json             # All ingested documents for one intervention
 ├── trends/

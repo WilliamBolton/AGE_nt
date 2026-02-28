@@ -1,0 +1,173 @@
+{
+  "intervention": "navitoclax",
+  "aliases": [
+    "ABT-263"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 168,
+  "by_source_type": {
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "clinicaltrials": 48,
+    "news": 15,
+    "social": 5
+  },
+  "date_range": {
+    "earliest": "2004-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2004": 1,
+    "2006": 1,
+    "2007": 3,
+    "2008": 2,
+    "2009": 11,
+    "2010": 2,
+    "2011": 2,
+    "2012": 2,
+    "2013": 2,
+    "2014": 2,
+    "2015": 2,
+    "2016": 2,
+    "2017": 5,
+    "2018": 4,
+    "2019": 7,
+    "2020": 7,
+    "2021": 3,
+    "2022": 12,
+    "2023": 10,
+    "2024": 20,
+    "2025": 45,
+    "2026": 23
+  },
+  "academic": {
+    "unique_authors": 789,
+    "unique_journals": 24,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Aging Cell": 7,
+      "Frontiers in Aging": 5,
+      "Nature Aging": 4,
+      "Aging and Disease": 4,
+      "NPJ Aging and Mechanisms of Disease": 2,
+      "Aging Clinical and Experimental Research": 2,
+      "Psychology and aging": 2,
+      "NPJ Aging": 2,
+      "Proceedings of the National Academy of Sciences": 1
+    }
+  },
+  "pubmed": {
+    "count": 0
+  },
+  "clinical_trials": {
+    "count": 48,
+    "by_phase": {
+      "PHASE1": 32,
+      "PHASE2": 10,
+      "Unknown": 4,
+      "PHASE3": 2
+    },
+    "by_status": {
+      "COMPLETED": 25,
+      "ACTIVE_NOT_RECRUITING": 12,
+      "WITHDRAWN": 5,
+      "TERMINATED": 3,
+      "NO_LONGER_AVAILABLE": 2,
+      "NOT_YET_RECRUITING": 1
+    },
+    "total_enrollment": 2394,
+    "median_enrollment": 36.0,
+    "with_results": 7,
+    "top_sponsors": {
+      "AbbVie": 14,
+      "AbbVie (prior sponsor, Abbott)": 6,
+      "National Cancer Institute (NCI)": 6,
+      "Abbott": 5,
+      "Genentech, Inc.": 2,
+      "Centre Francois Baclesse": 2,
+      "Israeli Medical Association": 1,
+      "Weill Medical College of Cornell University": 1,
+      "Fondazione IRCCS Policlinico San Matteo di Pavia": 1,
+      "St. Jude Children's Research Hospital": 1
+    },
+    "top_conditions": {
+      "Solid Tumors": 7,
+      "Chronic Lymphocytic Leukemia": 6,
+      "Myelofibrosis (MF)": 5,
+      "Metastatic Malignant Solid Neoplasm": 3,
+      "Lymphoblastic Lymphoma": 2,
+      "Chronic Lymphoid Leukemia": 2,
+      "Non-Hodgkin's Lymphoma": 2,
+      "Recurrent Malignant Solid Neoplasm": 2,
+      "Unresectable Solid Neoplasm": 2,
+      "Ovarian Cancer": 2
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 15,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "en.wikipedia.org": 1,
+      "keio.elsevierpure.com": 1,
+      "nad.com": 1,
+      "aging-us.com": 1,
+      "lifespan.io": 1,
+      "journalrmc.com": 1,
+      "fightaging.org": 1,
+      "aacrjournals.org": 1,
+      "ar.iiarjournals.org": 1,
+      "levf.org": 1
+    }
+  },
+  "social": {
+    "count": 5,
+    "by_platform": {
+      "reddit": 5
+    },
+    "top_subreddits": {
+      "longevity": 4,
+      "Biohackers": 1
+    },
+    "total_score": 212,
+    "mean_score": 42.4,
+    "total_comments": 12,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 595,
+    "mean_citations": 11.9,
+    "max_citations": 406,
+    "open_access": 40,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2308,
+    "mean_citations": 46.2,
+    "max_citations": 350,
+    "total_influential_citations": 59,
+    "open_access": 37
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-09-28",
+    "current_interest": 11,
+    "data_points_count": 261
+  }
+}

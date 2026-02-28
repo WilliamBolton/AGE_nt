@@ -1,0 +1,263 @@
+{
+  "intervention": "fisetin",
+  "aliases": [],
+  "generated_at": "2026-02-28",
+  "total_documents": 367,
+  "by_source_type": {
+    "pubmed": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "drugage": 47,
+    "clinicaltrials": 34,
+    "news": 26,
+    "regulatory": 10
+  },
+  "date_range": {
+    "earliest": "2003-09-11",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2003": 1,
+    "2004": 1,
+    "2007": 1,
+    "2010": 2,
+    "2012": 1,
+    "2014": 1,
+    "2015": 1,
+    "2016": 5,
+    "2017": 4,
+    "2018": 6,
+    "2019": 9,
+    "2020": 60,
+    "2021": 29,
+    "2022": 32,
+    "2023": 44,
+    "2024": 48,
+    "2025": 67,
+    "2026": 55
+  },
+  "academic": {
+    "unique_authors": 1335,
+    "unique_journals": 52,
+    "top_journals": {
+      "Nature Aging": 10,
+      "Aging Cell": 9,
+      "International journal of molecular sciences": 7,
+      "Frontiers in Aging": 7,
+      "Aging cell": 6,
+      "Critical reviews in food science and nutrition": 3,
+      "GeroScience": 3,
+      "Aging (Albany NY)": 3,
+      "Aging and Disease": 3,
+      "Cell metabolism": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 49,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 17,
+      "Review": 16,
+      "Research Support, N.I.H., Extramural": 7,
+      "Randomized Controlled Trial": 1,
+      "Systematic Review": 1,
+      "Comparative Study": 1,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1
+    },
+    "top_mesh_terms": {
+      "Animals": 35,
+      "Humans": 34,
+      "Cellular Senescence": 31,
+      "Aging": 25,
+      "Flavonoids": 25,
+      "Flavonols": 20,
+      "Quercetin": 20,
+      "Mice": 19,
+      "Senotherapeutics": 19,
+      "Longevity": 16,
+      "Male": 14,
+      "Dasatinib": 12,
+      "Female": 10,
+      "Mice, Inbred C57BL": 9,
+      "Polyphenols": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 34,
+    "by_phase": {
+      "PHASE2": 17,
+      "NA": 8,
+      "PHASE1": 7,
+      "EARLY_PHASE1": 1,
+      "PHASE4": 1
+    },
+    "by_status": {
+      "RECRUITING": 8,
+      "COMPLETED": 6,
+      "ACTIVE_NOT_RECRUITING": 5,
+      "WITHDRAWN": 4,
+      "ENROLLING_BY_INVITATION": 3,
+      "NOT_YET_RECRUITING": 3,
+      "TERMINATED": 2,
+      "SUSPENDED": 2,
+      "UNKNOWN": 1
+    },
+    "total_enrollment": 2002,
+    "median_enrollment": 60.0,
+    "with_results": 6,
+    "top_sponsors": {
+      "Mayo Clinic": 6,
+      "Steadman Philippon Research Institute": 3,
+      "Ove Andersen": 2,
+      "Jonsson Comprehensive Cancer Center": 2,
+      "Austin V Stone": 2,
+      "Sundeep Khosla, M.D.": 1,
+      "James L. Kirkland, MD, PhD": 1,
+      "Cedars-Sinai Medical Center": 1,
+      "Northwestern University": 1,
+      "St. Jude Children's Research Hospital": 1
+    },
+    "top_conditions": {
+      "Healthy": 4,
+      "Aging": 4,
+      "Osteoarthritis, Knee": 3,
+      "Covid19": 3,
+      "Anatomic Stage II Breast Cancer AJCC v8": 2,
+      "Anatomic Stage III Breast Cancer AJCC v8": 2,
+      "Frail Elderly Syndrome": 2,
+      "Coronavirus Infection": 1,
+      "Mild Cognitive Impairment": 1,
+      "Peripheral Arterial Disease": 1
+    }
+  },
+  "drugage": {
+    "count": 47,
+    "by_species": {
+      "Caenorhabditis elegans": 24,
+      "Drosophila melanogaster": 9,
+      "Mus musculus": 7,
+      "Aedes albopictus": 3,
+      "Aedes aegypti": 2,
+      "Saccharomyces cerevisiae": 1,
+      "Podospora anserina": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 33,
+      "Female": 8,
+      "Male": 5,
+      "Pooled": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 21042579.0,
+    "mean_funding_usd": 447714.45,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 22,
+      "NCI": 10,
+      "NHLBI": 6,
+      "NIDDK": 3,
+      "NIAMS": 2,
+      "NIDCR": 2,
+      "NIAID": 1,
+      "OD": 1
+    },
+    "top_organisations": {
+      "MAYO CLINIC ROCHESTER": 13,
+      "UNIVERSITY OF CALIFORNIA LOS ANGELES": 7,
+      "UNIVERSITY OF PITTSBURGH AT PITTSBURGH": 4,
+      "NATIONAL INSTITUTE ON AGING": 3,
+      "MINNEAPOLIS VA  MEDICAL CENTER": 3,
+      "UNIVERSITY OF TEXAS HLTH SCIENCE CENTER": 3,
+      "UNIVERSITY OF ARIZONA": 2,
+      "UNIVERSITY OF MINNESOTA": 2,
+      "LUNDQUIST INSTITUTE FOR BIOMEDICAL INNOVATION AT HARBOR-UCLA MEDICAL CENTER": 2,
+      "BAYLOR UNIVERSITY": 2
+    },
+    "by_fiscal_year": {
+      "2023": 15,
+      "2024": 18,
+      "2025": 14,
+      "2026": 3
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 10,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 26,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "jinfiniti.com": 2,
+      "novoslabs.com": 2,
+      "pleine-forme.net": 2,
+      "mayoclinic.elsevierpure.com": 2,
+      "aging-us.com": 2,
+      "fightaging.org": 2,
+      "qualialife.com": 1,
+      "meto.co": 1,
+      "insidetracker.com": 1,
+      "lifeextension.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 19,
+      "supplements": 16,
+      "longevity": 15
+    },
+    "total_score": 3315,
+    "mean_score": 66.3,
+    "total_comments": 2641,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 46,
+    "mean_citations": 0.9,
+    "max_citations": 8,
+    "open_access": 41,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 3405,
+    "mean_citations": 68.1,
+    "max_citations": 413,
+    "total_influential_citations": 106,
+    "open_access": 42
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-17",
+    "current_interest": 32,
+    "data_points_count": 261
+  }
+}

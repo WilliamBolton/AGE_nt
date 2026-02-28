@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "longevity-lens"
+name = "age-nt"
 version = "0.1.0"
 description = "Agentic system that scrapes, standardises, and reasons over scientific evidence for aging interventions"
 readme = "README.md"

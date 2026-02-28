@@ -1,0 +1,147 @@
+{
+  "intervention": "srt1720",
+  "aliases": [],
+  "generated_at": "2026-02-28",
+  "total_documents": 163,
+  "by_source_type": {
+    "pubmed": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "news": 13
+  },
+  "date_range": {
+    "earliest": "2003-02-28",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2003": 2,
+    "2004": 1,
+    "2005": 3,
+    "2007": 1,
+    "2008": 1,
+    "2009": 2,
+    "2010": 2,
+    "2012": 2,
+    "2013": 3,
+    "2014": 4,
+    "2015": 4,
+    "2016": 3,
+    "2017": 3,
+    "2018": 6,
+    "2019": 8,
+    "2020": 4,
+    "2021": 5,
+    "2022": 12,
+    "2023": 19,
+    "2024": 26,
+    "2025": 35,
+    "2026": 17
+  },
+  "academic": {
+    "unique_authors": 1027,
+    "unique_journals": 56,
+    "top_journals": {
+      "Aging (Albany NY)": 7,
+      "Aging Cell": 6,
+      "International journal of molecular sciences": 5,
+      "Frontiers in Aging": 5,
+      "Nature": 4,
+      "Aging cell": 4,
+      "Cell": 4,
+      "Nature Aging": 4,
+      "Aging and Disease": 4,
+      "Science (New York, N.Y.)": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 33,
+      "Research Support, Non-U.S. Gov't": 23,
+      "Research Support, N.I.H., Extramural": 11,
+      "Research Support, U.S. Gov't, P.H.S.": 4,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 2,
+      "Comparative Study": 1,
+      "Research Support, N.I.H., Intramural": 1
+    },
+    "top_mesh_terms": {
+      "Longevity": 47,
+      "Animals": 39,
+      "Sirtuins": 35,
+      "Humans": 34,
+      "Aging": 26,
+      "Sirtuin 1": 23,
+      "Caloric Restriction": 15,
+      "Mice": 14,
+      "Signal Transduction": 11,
+      "Male": 9,
+      "Gene Expression Regulation": 9,
+      "Female": 6,
+      "Mitochondria": 6,
+      "Caenorhabditis elegans": 5,
+      "Acetylation": 5
+    }
+  },
+  "clinical_trials": {
+    "count": 0
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 13,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "sciencedaily.com": 1,
+      "thieme-connect.com": 1,
+      "scientificamerican.com": 1,
+      "doaj.org": 1,
+      "journals.physiology.org": 1,
+      "jci.org": 1,
+      "journals.sagepub.com": 1,
+      "explorationpub.com": 1,
+      "intechopen.com": 1,
+      "nytimes.com": 1
+    }
+  },
+  "social": {
+    "count": 0
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 2374,
+    "mean_citations": 47.5,
+    "max_citations": 627,
+    "open_access": 42,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2464,
+    "mean_citations": 49.3,
+    "max_citations": 350,
+    "total_influential_citations": 65,
+    "open_access": 36
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-08",
+    "current_interest": 12,
+    "data_points_count": 261
+  }
+}

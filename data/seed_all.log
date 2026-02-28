@@ -4831,3 +4831,484 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-02-28 02:16:36.515 | INFO     | __main__:print_summary_table:343 - ===============================================================================================================================================
 2026-02-28 02:16:36.515 | INFO     | __main__:run:484 - 
 Summary saved to /Users/will/Code/Encode-Code/bio-hack/data/seed_summary.json
+2026-02-28 07:56:43.971 | INFO     | __main__:run:367 - Resuming from 'FOXO4-DRI' (36 remaining)
+2026-02-28 07:56:43.984 | INFO     | src.storage.sqlite_store:initialize:329 - SQLite initialized at /Users/will/Code/Encode-Code/bio-hack/data/longevity_lens.db
+2026-02-28 07:56:43.984 | INFO     | src.storage.manager:initialize:28 - Storage manager initialized
+2026-02-28 07:56:43.984 | INFO     | __main__:run:411 - Batch seed starting: 36 interventions, sources=, delay=5s, max_results=50
+2026-02-28 07:56:43.984 | INFO     | __main__:run:422 - 
+[1/36] Seeding 'FOXO4-DRI'...
+2026-02-28 07:56:43.986 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'FOXO4-DRI'
+2026-02-28 07:56:44.635 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'FOXO4-DRI' (today 5-y)
+2026-02-28 07:56:46.112 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/foxo4-dri.json
+2026-02-28 07:56:46.112 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'FOXO4-DRI': 261 data points, peak=100 (2025-09-28), current=19
+2026-02-28 07:56:46.113 | INFO     | __main__:run:435 - [1/36] FOXO4-DRI ... trends:261 (0 docs, 2s) | 2s elapsed, ~1min remaining
+2026-02-28 07:56:46.113 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:56:51.114 | INFO     | __main__:run:422 - 
+[2/36] Seeding 'quercetin'...
+2026-02-28 07:56:51.115 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'quercetin'
+2026-02-28 07:56:51.116 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'quercetin' (today 5-y)
+2026-02-28 07:56:53.402 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/quercetin.json
+2026-02-28 07:56:53.402 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'quercetin': 261 data points, peak=100 (2022-01-02), current=30
+2026-02-28 07:56:53.403 | INFO     | __main__:run:435 - [2/36] quercetin ... trends:261 (0 docs, 2s) | 9s elapsed, ~3min remaining
+2026-02-28 07:56:53.403 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:56:58.404 | INFO     | __main__:run:422 - 
+[3/36] Seeding 'resveratrol'...
+2026-02-28 07:56:58.405 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'resveratrol'
+2026-02-28 07:56:58.405 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'resveratrol' (today 5-y)
+2026-02-28 07:57:00.782 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/resveratrol.json
+2026-02-28 07:57:00.782 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'resveratrol': 261 data points, peak=100 (2024-12-29), current=30
+2026-02-28 07:57:00.782 | INFO     | __main__:run:435 - [3/36] resveratrol ... trends:261 (0 docs, 2s) | 17s elapsed, ~3min remaining
+2026-02-28 07:57:00.783 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:57:05.783 | INFO     | __main__:run:422 - 
+[4/36] Seeding 'SRT1720'...
+2026-02-28 07:57:05.786 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'SRT1720'
+2026-02-28 07:57:05.786 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'SRT1720' (today 5-y)
+2026-02-28 07:57:07.042 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/srt1720.json
+2026-02-28 07:57:07.042 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'SRT1720': 261 data points, peak=100 (2026-02-08), current=12
+2026-02-28 07:57:07.042 | INFO     | __main__:run:435 - [4/36] SRT1720 ... trends:261 (0 docs, 1s) | 23s elapsed, ~3min remaining
+2026-02-28 07:57:07.042 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:57:12.044 | INFO     | __main__:run:422 - 
+[5/36] Seeding 'spermidine'...
+2026-02-28 07:57:12.047 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'spermidine'
+2026-02-28 07:57:12.047 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'spermidine' (today 5-y)
+2026-02-28 07:57:14.183 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/spermidine.json
+2026-02-28 07:57:14.184 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'spermidine': 261 data points, peak=100 (2025-08-10), current=30
+2026-02-28 07:57:14.184 | INFO     | __main__:run:435 - [5/36] spermidine ... trends:261 (0 docs, 2s) | 30s elapsed, ~3min remaining
+2026-02-28 07:57:14.184 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:57:19.184 | INFO     | __main__:run:422 - 
+[6/36] Seeding 'urolithin A'...
+2026-02-28 07:57:19.186 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'urolithin A'
+2026-02-28 07:57:19.186 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'urolithin A' (today 5-y)
+2026-02-28 07:57:21.461 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/urolithin a.json
+2026-02-28 07:57:21.461 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'urolithin A': 261 data points, peak=100 (2025-11-02), current=33
+2026-02-28 07:57:21.461 | INFO     | __main__:run:435 - [6/36] urolithin A ... trends:261 (0 docs, 2s) | 37s elapsed, ~3min remaining
+2026-02-28 07:57:21.461 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:57:26.462 | INFO     | __main__:run:422 - 
+[7/36] Seeding 'trehalose'...
+2026-02-28 07:57:26.464 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'trehalose'
+2026-02-28 07:57:26.464 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'trehalose' (today 5-y)
+2026-02-28 07:57:28.715 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/trehalose.json
+2026-02-28 07:57:28.715 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'trehalose': 261 data points, peak=100 (2026-02-01), current=55
+2026-02-28 07:57:28.715 | INFO     | __main__:run:435 - [7/36] trehalose ... trends:261 (0 docs, 2s) | 45s elapsed, ~3min remaining
+2026-02-28 07:57:28.715 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:57:33.717 | INFO     | __main__:run:422 - 
+[8/36] Seeding 'young plasma'...
+2026-02-28 07:57:33.719 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'young plasma'
+2026-02-28 07:57:33.720 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'young plasma' (today 5-y)
+2026-02-28 07:57:35.920 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/young plasma.json
+2026-02-28 07:57:35.920 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'young plasma': 261 data points, peak=100 (2026-02-01), current=36
+2026-02-28 07:57:35.921 | INFO     | __main__:run:435 - [8/36] young plasma ... trends:261 (0 docs, 2s) | 52s elapsed, ~3min remaining
+2026-02-28 07:57:35.921 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:57:40.922 | INFO     | __main__:run:422 - 
+[9/36] Seeding 'GDF11'...
+2026-02-28 07:57:40.924 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'GDF11'
+2026-02-28 07:57:40.924 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'GDF11' (today 5-y)
+2026-02-28 07:57:42.425 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/gdf11.json
+2026-02-28 07:57:42.425 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'GDF11': 261 data points, peak=100 (2026-01-11), current=21
+2026-02-28 07:57:42.426 | INFO     | __main__:run:435 - [9/36] GDF11 ... trends:261 (0 docs, 2s) | 58s elapsed, ~3min remaining
+2026-02-28 07:57:42.426 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:57:47.427 | INFO     | __main__:run:422 - 
+[10/36] Seeding 'klotho'...
+2026-02-28 07:57:47.428 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'klotho'
+2026-02-28 07:57:47.428 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'klotho' (today 5-y)
+2026-02-28 07:57:49.362 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/klotho.json
+2026-02-28 07:57:49.362 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'klotho': 261 data points, peak=100 (2025-06-08), current=25
+2026-02-28 07:57:49.362 | INFO     | __main__:run:435 - [10/36] klotho ... trends:261 (0 docs, 2s) | 1min elapsed, ~3min remaining
+2026-02-28 07:57:49.363 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:57:54.363 | INFO     | __main__:run:422 - 
+[11/36] Seeding 'GLP-1 agonists'...
+2026-02-28 07:57:54.364 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'GLP-1 agonists'
+2026-02-28 07:57:54.364 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'GLP-1 agonists' (today 5-y)
+2026-02-28 07:57:57.633 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/glp-1 agonists.json
+2026-02-28 07:57:57.634 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'GLP-1 agonists': 261 data points, peak=100 (2025-11-30), current=17
+2026-02-28 07:57:57.634 | INFO     | __main__:run:435 - [11/36] GLP-1 agonists ... trends:261 (0 docs, 3s) | 1min elapsed, ~3min remaining
+2026-02-28 07:57:57.634 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:02.636 | INFO     | __main__:run:422 - 
+[12/36] Seeding 'hyperbaric oxygen therapy'...
+2026-02-28 07:58:02.637 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'hyperbaric oxygen therapy'
+2026-02-28 07:58:02.638 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'hyperbaric oxygen therapy' (today 5-y)
+2026-02-28 07:58:04.512 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/hyperbaric oxygen therapy.json
+2026-02-28 07:58:04.512 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'hyperbaric oxygen therapy': 261 data points, peak=100 (2025-08-10), current=47
+2026-02-28 07:58:04.513 | INFO     | __main__:run:435 - [12/36] hyperbaric oxygen therapy ... trends:261 (0 docs, 2s) | 1min elapsed, ~3min remaining
+2026-02-28 07:58:04.513 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:09.514 | INFO     | __main__:run:422 - 
+[13/36] Seeding 'epigenetic reprogramming'...
+2026-02-28 07:58:09.516 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'epigenetic reprogramming'
+2026-02-28 07:58:09.516 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'epigenetic reprogramming' (today 5-y)
+2026-02-28 07:58:11.259 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/epigenetic reprogramming.json
+2026-02-28 07:58:11.259 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'epigenetic reprogramming': 261 data points, peak=100 (2026-01-25), current=32
+2026-02-28 07:58:11.260 | INFO     | __main__:run:435 - [13/36] epigenetic reprogramming ... trends:261 (0 docs, 2s) | 1min elapsed, ~3min remaining
+2026-02-28 07:58:11.260 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:16.261 | INFO     | __main__:run:422 - 
+[14/36] Seeding 'epigenetic clocks'...
+2026-02-28 07:58:16.263 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'epigenetic clocks'
+2026-02-28 07:58:16.263 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'epigenetic clocks' (today 5-y)
+2026-02-28 07:58:17.684 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/epigenetic clocks.json
+2026-02-28 07:58:17.684 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'epigenetic clocks': 261 data points, peak=100 (2025-08-10), current=16
+2026-02-28 07:58:17.684 | INFO     | __main__:run:435 - [14/36] epigenetic clocks ... trends:261 (0 docs, 1s) | 2min elapsed, ~2min remaining
+2026-02-28 07:58:17.684 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:22.686 | INFO     | __main__:run:422 - 
+[15/36] Seeding 'alpha-ketoglutarate'...
+2026-02-28 07:58:22.689 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'alpha-ketoglutarate'
+2026-02-28 07:58:22.689 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'alpha-ketoglutarate' (today 5-y)
+2026-02-28 07:58:24.440 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/alpha-ketoglutarate.json
+2026-02-28 07:58:24.440 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'alpha-ketoglutarate': 261 data points, peak=100 (2025-08-17), current=22
+2026-02-28 07:58:24.440 | INFO     | __main__:run:435 - [15/36] alpha-ketoglutarate ... trends:261 (0 docs, 2s) | 2min elapsed, ~2min remaining
+2026-02-28 07:58:24.440 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:29.441 | INFO     | __main__:run:422 - 
+[16/36] Seeding 'taurine'...
+2026-02-28 07:58:29.445 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'taurine'
+2026-02-28 07:58:29.445 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'taurine' (today 5-y)
+2026-02-28 07:58:31.778 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/taurine.json
+2026-02-28 07:58:31.778 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'taurine': 261 data points, peak=100 (2023-06-04), current=38
+2026-02-28 07:58:31.778 | INFO     | __main__:run:435 - [16/36] taurine ... trends:261 (0 docs, 2s) | 2min elapsed, ~2min remaining
+2026-02-28 07:58:31.779 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:36.779 | INFO     | __main__:run:422 - 
+[17/36] Seeding 'glycine'...
+2026-02-28 07:58:36.780 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'glycine'
+2026-02-28 07:58:36.781 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'glycine' (today 5-y)
+2026-02-28 07:58:39.532 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/glycine.json
+2026-02-28 07:58:39.532 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'glycine': 261 data points, peak=100 (2026-02-01), current=75
+2026-02-28 07:58:39.532 | INFO     | __main__:run:435 - [17/36] glycine ... trends:261 (0 docs, 3s) | 2min elapsed, ~2min remaining
+2026-02-28 07:58:39.532 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:44.533 | INFO     | __main__:run:422 - 
+[18/36] Seeding 'lithium'...
+2026-02-28 07:58:44.536 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'lithium'
+2026-02-28 07:58:44.537 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'lithium' (today 5-y)
+2026-02-28 07:58:47.721 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/lithium.json
+2026-02-28 07:58:47.721 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'lithium': 261 data points, peak=100 (2025-08-10), current=66
+2026-02-28 07:58:47.721 | INFO     | __main__:run:435 - [18/36] lithium ... trends:261 (0 docs, 3s) | 2min elapsed, ~2min remaining
+2026-02-28 07:58:47.721 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:52.723 | INFO     | __main__:run:422 - 
+[19/36] Seeding 'deprenyl'...
+2026-02-28 07:58:52.724 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'deprenyl'
+2026-02-28 07:58:52.724 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'deprenyl' (today 5-y)
+2026-02-28 07:58:54.618 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/deprenyl.json
+2026-02-28 07:58:54.618 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'deprenyl': 261 data points, peak=100 (2025-11-16), current=31
+2026-02-28 07:58:54.618 | INFO     | __main__:run:435 - [19/36] deprenyl ... trends:261 (0 docs, 2s) | 2min elapsed, ~2min remaining
+2026-02-28 07:58:54.619 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:58:59.620 | INFO     | __main__:run:422 - 
+[20/36] Seeding 'pioglitazone'...
+2026-02-28 07:58:59.623 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'pioglitazone'
+2026-02-28 07:58:59.623 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'pioglitazone' (today 5-y)
+2026-02-28 07:59:02.024 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/pioglitazone.json
+2026-02-28 07:59:02.025 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'pioglitazone': 261 data points, peak=100 (2025-11-16), current=50
+2026-02-28 07:59:02.025 | INFO     | __main__:run:435 - [20/36] pioglitazone ... trends:261 (0 docs, 2s) | 2min elapsed, ~2min remaining
+2026-02-28 07:59:02.025 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:07.025 | INFO     | __main__:run:422 - 
+[21/36] Seeding 'caloric restriction'...
+2026-02-28 07:59:07.026 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'caloric restriction'
+2026-02-28 07:59:07.027 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'caloric restriction' (today 5-y)
+2026-02-28 07:59:08.582 | DEBUG    | src.ingest.google_trends:fetch_trends:84 - Related queries failed: The request failed: Google returned a response with code 429
+2026-02-28 07:59:08.587 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/caloric restriction.json
+2026-02-28 07:59:08.587 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'caloric restriction': 261 data points, peak=100 (2025-08-10), current=37
+2026-02-28 07:59:08.587 | INFO     | __main__:run:435 - [21/36] caloric restriction ... trends:261 (0 docs, 2s) | 2min elapsed, ~2min remaining
+2026-02-28 07:59:08.587 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:13.588 | INFO     | __main__:run:422 - 
+[22/36] Seeding 'ketogenic diet'...
+2026-02-28 07:59:13.590 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'ketogenic diet'
+2026-02-28 07:59:13.591 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'ketogenic diet' (today 5-y)
+2026-02-28 07:59:14.325 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'ketogenic diet': The request failed: Google returned a response with code 429
+2026-02-28 07:59:14.329 | INFO     | __main__:run:435 - [22/36] ketogenic diet ... trends:0 (0 docs, 1s) | 3min elapsed, ~2min remaining
+2026-02-28 07:59:14.330 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:19.330 | INFO     | __main__:run:422 - 
+[23/36] Seeding 'exercise'...
+2026-02-28 07:59:19.332 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'exercise'
+2026-02-28 07:59:19.332 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'exercise' (today 5-y)
+2026-02-28 07:59:20.133 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'exercise': The request failed: Google returned a response with code 429
+2026-02-28 07:59:20.138 | INFO     | __main__:run:435 - [23/36] exercise ... trends:0 (0 docs, 1s) | 3min elapsed, ~1min remaining
+2026-02-28 07:59:20.138 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:25.139 | INFO     | __main__:run:422 - 
+[24/36] Seeding 'cold exposure'...
+2026-02-28 07:59:25.140 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'cold exposure'
+2026-02-28 07:59:25.140 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'cold exposure' (today 5-y)
+2026-02-28 07:59:25.865 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'cold exposure': The request failed: Google returned a response with code 429
+2026-02-28 07:59:25.868 | INFO     | __main__:run:435 - [24/36] cold exposure ... trends:0 (0 docs, 1s) | 3min elapsed, ~1min remaining
+2026-02-28 07:59:25.868 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:30.869 | INFO     | __main__:run:422 - 
+[25/36] Seeding 'sauna'...
+2026-02-28 07:59:30.872 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'sauna'
+2026-02-28 07:59:30.873 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'sauna' (today 5-y)
+2026-02-28 07:59:31.502 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'sauna': The request failed: Google returned a response with code 429
+2026-02-28 07:59:31.505 | INFO     | __main__:run:435 - [25/36] sauna ... trends:0 (0 docs, 1s) | 3min elapsed, ~1min remaining
+2026-02-28 07:59:31.505 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:36.507 | INFO     | __main__:run:422 - 
+[26/36] Seeding 'telomerase activation'...
+2026-02-28 07:59:36.508 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'telomerase activation'
+2026-02-28 07:59:36.508 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'telomerase activation' (today 5-y)
+2026-02-28 07:59:37.236 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'telomerase activation': The request failed: Google returned a response with code 429
+2026-02-28 07:59:37.239 | INFO     | __main__:run:435 - [26/36] telomerase activation ... trends:0 (0 docs, 1s) | 3min elapsed, ~1min remaining
+2026-02-28 07:59:37.239 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:42.239 | INFO     | __main__:run:422 - 
+[27/36] Seeding 'stem cell therapy'...
+2026-02-28 07:59:42.241 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'stem cell therapy'
+2026-02-28 07:59:42.241 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'stem cell therapy' (today 5-y)
+2026-02-28 07:59:43.009 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'stem cell therapy': The request failed: Google returned a response with code 429
+2026-02-28 07:59:43.012 | INFO     | __main__:run:435 - [27/36] stem cell therapy ... trends:0 (0 docs, 1s) | 3min elapsed, ~60s remaining
+2026-02-28 07:59:43.013 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:48.014 | INFO     | __main__:run:422 - 
+[28/36] Seeding 'thymus regeneration'...
+2026-02-28 07:59:48.015 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'thymus regeneration'
+2026-02-28 07:59:48.015 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'thymus regeneration' (today 5-y)
+2026-02-28 07:59:48.739 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'thymus regeneration': The request failed: Google returned a response with code 429
+2026-02-28 07:59:48.741 | INFO     | __main__:run:435 - [28/36] thymus regeneration ... trends:0 (0 docs, 1s) | 3min elapsed, ~53s remaining
+2026-02-28 07:59:48.741 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:53.742 | INFO     | __main__:run:422 - 
+[29/36] Seeding 'curcumin'...
+2026-02-28 07:59:53.745 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'curcumin'
+2026-02-28 07:59:53.745 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'curcumin' (today 5-y)
+2026-02-28 07:59:54.642 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'curcumin': The request failed: Google returned a response with code 429
+2026-02-28 07:59:54.647 | INFO     | __main__:run:435 - [29/36] curcumin ... trends:0 (0 docs, 1s) | 3min elapsed, ~46s remaining
+2026-02-28 07:59:54.647 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 07:59:59.649 | INFO     | __main__:run:422 - 
+[30/36] Seeding 'sulforaphane'...
+2026-02-28 07:59:59.650 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'sulforaphane'
+2026-02-28 07:59:59.651 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'sulforaphane' (today 5-y)
+2026-02-28 08:00:00.479 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'sulforaphane': The request failed: Google returned a response with code 429
+2026-02-28 08:00:00.482 | INFO     | __main__:run:435 - [30/36] sulforaphane ... trends:0 (0 docs, 1s) | 3min elapsed, ~39s remaining
+2026-02-28 08:00:00.483 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:00:05.484 | INFO     | __main__:run:422 - 
+[31/36] Seeding 'omega-3 fatty acids'...
+2026-02-28 08:00:05.486 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'omega-3 fatty acids'
+2026-02-28 08:00:05.486 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'omega-3 fatty acids' (today 5-y)
+2026-02-28 08:00:06.206 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'omega-3 fatty acids': The request failed: Google returned a response with code 429
+2026-02-28 08:00:06.209 | INFO     | __main__:run:435 - [31/36] omega-3 fatty acids ... trends:0 (0 docs, 1s) | 3min elapsed, ~33s remaining
+2026-02-28 08:00:06.210 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:00:11.211 | INFO     | __main__:run:422 - 
+[32/36] Seeding 'aspirin'...
+2026-02-28 08:00:11.214 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'aspirin'
+2026-02-28 08:00:11.214 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'aspirin' (today 5-y)
+2026-02-28 08:00:11.945 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'aspirin': The request failed: Google returned a response with code 429
+2026-02-28 08:00:11.952 | INFO     | __main__:run:435 - [32/36] aspirin ... trends:0 (0 docs, 1s) | 3min elapsed, ~26s remaining
+2026-02-28 08:00:11.953 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:00:16.955 | INFO     | __main__:run:422 - 
+[33/36] Seeding 'berberine'...
+2026-02-28 08:00:16.957 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'berberine'
+2026-02-28 08:00:16.958 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'berberine' (today 5-y)
+2026-02-28 08:00:17.805 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'berberine': The request failed: Google returned a response with code 429
+2026-02-28 08:00:17.810 | INFO     | __main__:run:435 - [33/36] berberine ... trends:0 (0 docs, 1s) | 4min elapsed, ~19s remaining
+2026-02-28 08:00:17.811 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:00:22.812 | INFO     | __main__:run:422 - 
+[34/36] Seeding 'CoQ10'...
+2026-02-28 08:00:22.812 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'CoQ10'
+2026-02-28 08:00:22.812 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'CoQ10' (today 5-y)
+2026-02-28 08:00:23.617 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'CoQ10': The request failed: Google returned a response with code 429
+2026-02-28 08:00:23.621 | INFO     | __main__:run:435 - [34/36] CoQ10 ... trends:0 (0 docs, 1s) | 4min elapsed, ~13s remaining
+2026-02-28 08:00:23.621 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:00:28.623 | INFO     | __main__:run:422 - 
+[35/36] Seeding 'SS-31'...
+2026-02-28 08:00:28.624 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'SS-31'
+2026-02-28 08:00:28.624 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'SS-31' (today 5-y)
+2026-02-28 08:00:29.304 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'SS-31': The request failed: Google returned a response with code 429
+2026-02-28 08:00:29.308 | INFO     | __main__:run:435 - [35/36] SS-31 ... trends:0 (0 docs, 1s) | 4min elapsed, ~6s remaining
+2026-02-28 08:00:29.308 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:00:34.309 | INFO     | __main__:run:422 - 
+[36/36] Seeding 'methylene blue'...
+2026-02-28 08:00:34.310 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'methylene blue'
+2026-02-28 08:00:34.311 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'methylene blue' (today 5-y)
+2026-02-28 08:00:34.972 | WARNING  | src.ingest.google_trends:fetch_trends:107 - Google Trends failed for 'methylene blue': The request failed: Google returned a response with code 429
+2026-02-28 08:00:34.974 | INFO     | __main__:run:435 - [36/36] methylene blue ... trends:0 (0 docs, 1s) | 4min elapsed, ~0s remaining
+2026-02-28 08:00:34.974 | INFO     | __main__:run:452 - 
+============================================================
+2026-02-28 08:00:34.974 | INFO     | __main__:run:453 - BATCH SEED COMPLETE
+2026-02-28 08:00:34.974 | INFO     | __main__:run:454 - ============================================================
+2026-02-28 08:00:34.974 | INFO     | __main__:run:455 - Duration: 4min
+2026-02-28 08:00:34.974 | INFO     | __main__:run:456 - Interventions: 36 (36 clean, 0 with errors)
+2026-02-28 08:00:34.974 | INFO     | __main__:run:457 - Total documents added: 0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:321 - =====================================================
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:322 - Intervention                    Total   trends Errors
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:323 - -----------------------------------------------------
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - FOXO4-DRI                           0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - quercetin                           0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - resveratrol                         0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - SRT1720                             0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - spermidine                          0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - urolithin A                         0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - trehalose                           0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - young plasma                        0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - GDF11                               0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - klotho                              0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - GLP-1 agonists                      0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - hyperbaric oxygen therapy           0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - epigenetic reprogramming            0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - epigenetic clocks                   0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - alpha-ketoglutarate                 0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - taurine                             0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - glycine                             0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - lithium                             0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - deprenyl                            0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - pioglitazone                        0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - caloric restriction                 0      261      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - ketogenic diet                      0        0      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - exercise                            0        0      0
+2026-02-28 08:00:34.974 | INFO     | __main__:print_summary_table:337 - cold exposure                       0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - sauna                               0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - telomerase activation               0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - stem cell therapy                   0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - thymus regeneration                 0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - curcumin                            0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - sulforaphane                        0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - omega-3 fatty acids                 0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - aspirin                             0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - berberine                           0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - CoQ10                               0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - SS-31                               0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:337 - methylene blue                      0        0      0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:341 - -----------------------------------------------------
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:342 - TOTAL                               0               0
+2026-02-28 08:00:34.975 | INFO     | __main__:print_summary_table:343 - =====================================================
+2026-02-28 08:00:34.975 | INFO     | __main__:run:484 - 
+Summary saved to /Users/will/Code/Encode-Code/bio-hack/data/seed_summary.json
+2026-02-28 08:47:02.357 | INFO     | __main__:run:367 - Resuming from 'ketogenic diet' (15 remaining)
+2026-02-28 08:47:02.363 | INFO     | src.storage.sqlite_store:initialize:329 - SQLite initialized at /Users/will/Code/Encode-Code/bio-hack/data/longevity_lens.db
+2026-02-28 08:47:02.363 | INFO     | src.storage.manager:initialize:28 - Storage manager initialized
+2026-02-28 08:47:02.363 | INFO     | __main__:run:411 - Batch seed starting: 15 interventions, sources=, delay=5s, max_results=50
+2026-02-28 08:47:02.363 | INFO     | __main__:run:422 - 
+[1/15] Seeding 'ketogenic diet'...
+2026-02-28 08:47:02.363 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'ketogenic diet'
+2026-02-28 08:47:02.859 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'ketogenic diet' (today 5-y)
+2026-02-28 08:47:06.078 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/ketogenic diet.json
+2026-02-28 08:47:06.079 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'ketogenic diet': 261 data points, peak=100 (2025-11-23), current=45
+2026-02-28 08:47:06.079 | INFO     | __main__:run:435 - [1/15] ketogenic diet ... trends:261 (0 docs, 4s) | 4s elapsed, ~52s remaining
+2026-02-28 08:47:06.079 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:47:11.080 | INFO     | __main__:run:422 - 
+[2/15] Seeding 'exercise'...
+2026-02-28 08:47:11.081 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'exercise'
+2026-02-28 08:47:11.081 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'exercise' (today 5-y)
+2026-02-28 08:47:13.893 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/exercise.json
+2026-02-28 08:47:13.893 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'exercise': 261 data points, peak=100 (2026-02-08), current=83
+2026-02-28 08:47:13.893 | INFO     | __main__:run:435 - [2/15] exercise ... trends:261 (0 docs, 3s) | 12s elapsed, ~1min remaining
+2026-02-28 08:47:13.893 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:47:18.894 | INFO     | __main__:run:422 - 
+[3/15] Seeding 'cold exposure'...
+2026-02-28 08:47:18.895 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'cold exposure'
+2026-02-28 08:47:18.895 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'cold exposure' (today 5-y)
+2026-02-28 08:47:22.984 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/cold exposure.json
+2026-02-28 08:47:22.984 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'cold exposure': 261 data points, peak=100 (2026-02-01), current=49
+2026-02-28 08:47:22.984 | INFO     | __main__:run:435 - [3/15] cold exposure ... trends:261 (0 docs, 4s) | 21s elapsed, ~1min remaining
+2026-02-28 08:47:22.984 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:47:27.986 | INFO     | __main__:run:422 - 
+[4/15] Seeding 'sauna'...
+2026-02-28 08:47:27.987 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'sauna'
+2026-02-28 08:47:27.987 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'sauna' (today 5-y)
+2026-02-28 08:47:30.565 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/sauna.json
+2026-02-28 08:47:30.565 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'sauna': 261 data points, peak=100 (2025-12-28), current=66
+2026-02-28 08:47:30.565 | INFO     | __main__:run:435 - [4/15] sauna ... trends:261 (0 docs, 3s) | 28s elapsed, ~1min remaining
+2026-02-28 08:47:30.566 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:47:35.567 | INFO     | __main__:run:422 - 
+[5/15] Seeding 'telomerase activation'...
+2026-02-28 08:47:35.568 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'telomerase activation'
+2026-02-28 08:47:35.568 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'telomerase activation' (today 5-y)
+2026-02-28 08:47:37.494 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/telomerase activation.json
+2026-02-28 08:47:37.494 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'telomerase activation': 261 data points, peak=100 (2025-08-10), current=27
+2026-02-28 08:47:37.494 | INFO     | __main__:run:435 - [5/15] telomerase activation ... trends:261 (0 docs, 2s) | 35s elapsed, ~1min remaining
+2026-02-28 08:47:37.494 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:47:42.495 | INFO     | __main__:run:422 - 
+[6/15] Seeding 'stem cell therapy'...
+2026-02-28 08:47:42.496 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'stem cell therapy'
+2026-02-28 08:47:42.496 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'stem cell therapy' (today 5-y)
+2026-02-28 08:47:45.160 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/stem cell therapy.json
+2026-02-28 08:47:45.160 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'stem cell therapy': 261 data points, peak=100 (2025-08-10), current=57
+2026-02-28 08:47:45.161 | INFO     | __main__:run:435 - [6/15] stem cell therapy ... trends:261 (0 docs, 3s) | 43s elapsed, ~1min remaining
+2026-02-28 08:47:45.161 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:47:50.162 | INFO     | __main__:run:422 - 
+[7/15] Seeding 'thymus regeneration'...
+2026-02-28 08:47:50.164 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'thymus regeneration'
+2026-02-28 08:47:50.165 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'thymus regeneration' (today 5-y)
+2026-02-28 08:47:52.341 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/thymus regeneration.json
+2026-02-28 08:47:52.341 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'thymus regeneration': 261 data points, peak=100 (2024-06-30), current=9
+2026-02-28 08:47:52.341 | INFO     | __main__:run:435 - [7/15] thymus regeneration ... trends:261 (0 docs, 2s) | 50s elapsed, ~57s remaining
+2026-02-28 08:47:52.341 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:47:57.342 | INFO     | __main__:run:422 - 
+[8/15] Seeding 'curcumin'...
+2026-02-28 08:47:57.343 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'curcumin'
+2026-02-28 08:47:57.343 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'curcumin' (today 5-y)
+2026-02-28 08:47:59.756 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/curcumin.json
+2026-02-28 08:47:59.756 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'curcumin': 261 data points, peak=100 (2025-08-10), current=47
+2026-02-28 08:47:59.756 | INFO     | __main__:run:435 - [8/15] curcumin ... trends:261 (0 docs, 2s) | 57s elapsed, ~50s remaining
+2026-02-28 08:47:59.756 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:48:04.757 | INFO     | __main__:run:422 - 
+[9/15] Seeding 'sulforaphane'...
+2026-02-28 08:48:04.758 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'sulforaphane'
+2026-02-28 08:48:04.758 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'sulforaphane' (today 5-y)
+2026-02-28 08:48:07.568 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/sulforaphane.json
+2026-02-28 08:48:07.568 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'sulforaphane': 261 data points, peak=100 (2025-08-17), current=29
+2026-02-28 08:48:07.568 | INFO     | __main__:run:435 - [9/15] sulforaphane ... trends:261 (0 docs, 3s) | 1min elapsed, ~43s remaining
+2026-02-28 08:48:07.568 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:48:12.569 | INFO     | __main__:run:422 - 
+[10/15] Seeding 'omega-3 fatty acids'...
+2026-02-28 08:48:12.570 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'omega-3 fatty acids'
+2026-02-28 08:48:12.570 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'omega-3 fatty acids' (today 5-y)
+2026-02-28 08:48:15.506 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/omega-3 fatty acids.json
+2026-02-28 08:48:15.506 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'omega-3 fatty acids': 261 data points, peak=100 (2025-11-23), current=37
+2026-02-28 08:48:15.507 | INFO     | __main__:run:435 - [10/15] omega-3 fatty acids ... trends:261 (0 docs, 3s) | 1min elapsed, ~37s remaining
+2026-02-28 08:48:15.507 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:48:20.507 | INFO     | __main__:run:422 - 
+[11/15] Seeding 'aspirin'...
+2026-02-28 08:48:20.509 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'aspirin'
+2026-02-28 08:48:20.509 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'aspirin' (today 5-y)
+2026-02-28 08:48:23.463 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/aspirin.json
+2026-02-28 08:48:23.464 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'aspirin': 261 data points, peak=100 (2025-11-16), current=70
+2026-02-28 08:48:23.464 | INFO     | __main__:run:435 - [11/15] aspirin ... trends:261 (0 docs, 3s) | 1min elapsed, ~29s remaining
+2026-02-28 08:48:23.464 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:48:28.465 | INFO     | __main__:run:422 - 
+[12/15] Seeding 'berberine'...
+2026-02-28 08:48:28.466 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'berberine'
+2026-02-28 08:48:28.466 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'berberine' (today 5-y)
+2026-02-28 08:48:30.690 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/berberine.json
+2026-02-28 08:48:30.690 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'berberine': 261 data points, peak=100 (2026-02-01), current=77
+2026-02-28 08:48:30.691 | INFO     | __main__:run:435 - [12/15] berberine ... trends:261 (0 docs, 2s) | 1min elapsed, ~22s remaining
+2026-02-28 08:48:30.691 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:48:35.692 | INFO     | __main__:run:422 - 
+[13/15] Seeding 'CoQ10'...
+2026-02-28 08:48:35.693 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'CoQ10'
+2026-02-28 08:48:35.693 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'CoQ10' (today 5-y)
+2026-02-28 08:48:37.949 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/coq10.json
+2026-02-28 08:48:37.949 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'CoQ10': 261 data points, peak=100 (2025-11-30), current=69
+2026-02-28 08:48:37.949 | INFO     | __main__:run:435 - [13/15] CoQ10 ... trends:261 (0 docs, 2s) | 2min elapsed, ~15s remaining
+2026-02-28 08:48:37.949 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:48:42.950 | INFO     | __main__:run:422 - 
+[14/15] Seeding 'SS-31'...
+2026-02-28 08:48:42.951 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'SS-31'
+2026-02-28 08:48:42.951 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'SS-31' (today 5-y)
+2026-02-28 08:48:44.524 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/ss-31.json
+2026-02-28 08:48:44.524 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'SS-31': 261 data points, peak=100 (2025-11-23), current=47
+2026-02-28 08:48:44.524 | INFO     | __main__:run:435 - [14/15] SS-31 ... trends:261 (0 docs, 2s) | 2min elapsed, ~7s remaining
+2026-02-28 08:48:44.524 | INFO     | __main__:run:443 -   Waiting 5s before next intervention...
+2026-02-28 08:48:49.525 | INFO     | __main__:run:422 - 
+[15/15] Seeding 'methylene blue'...
+2026-02-28 08:48:49.526 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'methylene blue'
+2026-02-28 08:48:49.526 | INFO     | src.ingest.google_trends:fetch_trends:43 - Fetching Google Trends for 'methylene blue' (today 5-y)
+2026-02-28 08:48:51.706 | DEBUG    | src.ingest.google_trends:_save_trends:116 - Saved trends data to /Users/will/Code/Encode-Code/bio-hack/data/trends/methylene blue.json
+2026-02-28 08:48:51.706 | INFO     | src.ingest.google_trends:fetch_trends:99 - Google Trends for 'methylene blue': 261 data points, peak=100 (2025-02-02), current=38
+2026-02-28 08:48:51.706 | INFO     | __main__:run:435 - [15/15] methylene blue ... trends:261 (0 docs, 2s) | 2min elapsed, ~0s remaining
+2026-02-28 08:48:51.706 | INFO     | __main__:run:452 - 
+============================================================
+2026-02-28 08:48:51.706 | INFO     | __main__:run:453 - BATCH SEED COMPLETE
+2026-02-28 08:48:51.707 | INFO     | __main__:run:454 - ============================================================
+2026-02-28 08:48:51.707 | INFO     | __main__:run:455 - Duration: 2min
+2026-02-28 08:48:51.707 | INFO     | __main__:run:456 - Interventions: 15 (15 clean, 0 with errors)
+2026-02-28 08:48:51.707 | INFO     | __main__:run:457 - Total documents added: 0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:321 - =====================================================
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:322 - Intervention                    Total   trends Errors
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:323 - -----------------------------------------------------
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - ketogenic diet                      0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - exercise                            0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - cold exposure                       0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - sauna                               0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - telomerase activation               0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - stem cell therapy                   0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - thymus regeneration                 0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - curcumin                            0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - sulforaphane                        0      261      0
+2026-02-28 08:48:51.707 | INFO     | __main__:print_summary_table:337 - omega-3 fatty acids                 0      261      0
+2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:337 - aspirin                             0      261      0
+2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:337 - berberine                           0      261      0
+2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:337 - CoQ10                               0      261      0
+2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:337 - SS-31                               0      261      0
+2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:337 - methylene blue                      0      261      0
+2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:341 - -----------------------------------------------------
+2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:342 - TOTAL                               0               0
+2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:343 - =====================================================
+2026-02-28 08:48:51.708 | INFO     | __main__:run:484 - 
+Summary saved to /Users/will/Code/Encode-Code/bio-hack/data/seed_summary.json

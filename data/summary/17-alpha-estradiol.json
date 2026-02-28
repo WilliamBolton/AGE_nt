@@ -1,0 +1,208 @@
+{
+  "intervention": "17-alpha-estradiol",
+  "aliases": [
+    "17aE2"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 121,
+  "by_source_type": {
+    "europe_pmc": 50,
+    "clinicaltrials": 26,
+    "regulatory": 15,
+    "pubmed": 14,
+    "news": 13,
+    "social": 3
+  },
+  "date_range": {
+    "earliest": "1978-01-01",
+    "latest": "2026-03-01"
+  },
+  "by_year": {
+    "1978": 1,
+    "1980": 2,
+    "1983": 2,
+    "1985": 2,
+    "1986": 1,
+    "1990": 1,
+    "1992": 1,
+    "1999": 1,
+    "2001": 1,
+    "2005": 1,
+    "2006": 1,
+    "2008": 2,
+    "2009": 2,
+    "2010": 3,
+    "2011": 2,
+    "2013": 1,
+    "2014": 1,
+    "2015": 1,
+    "2016": 2,
+    "2018": 2,
+    "2019": 2,
+    "2020": 1,
+    "2021": 1,
+    "2022": 2,
+    "2023": 2,
+    "2024": 8,
+    "2025": 34,
+    "2026": 41
+  },
+  "academic": {
+    "unique_authors": 292,
+    "unique_journals": 8,
+    "top_journals": {
+      "Neuroendocrinology": 6,
+      "Endocrinology": 2,
+      "Neurobiology of aging": 1,
+      "Colloids and surfaces. B, Biointerfaces": 1,
+      "Life sciences": 1,
+      "Mechanisms of ageing and development": 1,
+      "Hearing research": 1,
+      "Stress (Amsterdam, Netherlands)": 1
+    }
+  },
+  "pubmed": {
+    "count": 14,
+    "peer_reviewed": 14,
+    "with_doi": 14,
+    "publication_types": {
+      "Journal Article": 14,
+      "Research Support, U.S. Gov't, P.H.S.": 6,
+      "Comparative Study": 5,
+      "Research Support, Non-U.S. Gov't": 3,
+      "Clinical Trial": 1
+    },
+    "top_mesh_terms": {
+      "Aging": 14,
+      "Ether": 14,
+      "Animals": 13,
+      "Stress, Physiological": 11,
+      "Rats": 10,
+      "Male": 9,
+      "Female": 7,
+      "Corticosterone": 6,
+      "Animals, Newborn": 4,
+      "Rats, Inbred F344": 3,
+      "Prolactin": 3,
+      "Adrenal Glands": 3,
+      "Adrenocorticotropic Hormone": 3,
+      "Growth Hormone": 3,
+      "Humans": 2
+    }
+  },
+  "clinical_trials": {
+    "count": 26,
+    "by_phase": {
+      "PHASE3": 8,
+      "PHASE4": 5,
+      "NA": 4,
+      "PHASE2": 4,
+      "Unknown": 4,
+      "PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 16,
+      "TERMINATED": 4,
+      "RECRUITING": 3,
+      "UNKNOWN": 2,
+      "ACTIVE_NOT_RECRUITING": 1
+    },
+    "total_enrollment": 4826,
+    "median_enrollment": 82.0,
+    "with_results": 9,
+    "top_sponsors": {
+      "Mayo Clinic": 3,
+      "Organon and Co": 2,
+      "Merck KGaA, Darmstadt, Germany": 2,
+      "Ferring Pharmaceuticals": 2,
+      "Monica Levy Andersen": 1,
+      "National Institute of Mental Health (NIMH)": 1,
+      "Fundaci\u00f3 Eurecat": 1,
+      "Ohio Northern University": 1,
+      "IBSA Institut Biochimique SA": 1,
+      "University Hospital, Basel, Switzerland": 1
+    },
+    "top_conditions": {
+      "Infertility": 5,
+      "Postmenopausal": 2,
+      "Hypogonadism": 2,
+      "Obesity": 2,
+      "Polycystic Ovary Syndrome": 2,
+      "Recurrent Breast Carcinoma": 2,
+      "Stage IIIB Breast Cancer": 2,
+      "Stage IIIC Breast Cancer": 2,
+      "Stage IV Breast Cancer": 2,
+      "Anorexia Nervosa": 2
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "Discomfort and aches associated with PMS*": 3,
+      "Temporary relieves premenstrual symptoms such as: bloating, water retention, minor aches, lower back pain, discomfort, emotional changes, irritability": 1,
+      "Indications & Usage: Turn tube upside down, twist cap to break seal & release pellets. Using clear cap, place 3 pellets to dissolve under your tongue 3 times a day or as needed. Take apart from food or drinks. To preserve purity avoid touching pellets with fingers.": 1
+    },
+    "drug_classes": {
+      "Copper-containing Intrauterine Device [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 13,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "elifesciences.org": 2,
+      "journals.physiology.org": 2,
+      "alzdiscovery.org": 2,
+      "scholars.uthscsa.edu": 1,
+      "agmr.hapres.com": 1,
+      "droracle.ai": 1,
+      "app.dimensions.ai": 1,
+      "deepblue.lib.umich.edu": 1,
+      "ourarchive.otago.ac.nz": 1,
+      "aboutnad.com": 1
+    }
+  },
+  "social": {
+    "count": 3,
+    "by_platform": {
+      "reddit": 3
+    },
+    "top_subreddits": {
+      "supplements": 2,
+      "Biohackers": 1
+    },
+    "total_score": 18,
+    "mean_score": 6.0,
+    "total_comments": 19,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 82,
+    "mean_citations": 1.6,
+    "max_citations": 24,
+    "open_access": 42,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 5,
+    "data_points_count": 261
+  }
+}

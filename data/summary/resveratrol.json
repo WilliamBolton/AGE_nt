@@ -1,0 +1,263 @@
+{
+  "intervention": "resveratrol",
+  "aliases": [
+    "trans-resveratrol"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 373,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "drugage": 50,
+    "nih_grant": 50,
+    "social": 50,
+    "news": 16,
+    "regulatory": 7
+  },
+  "date_range": {
+    "earliest": "2003-09-11",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2003": 1,
+    "2004": 3,
+    "2006": 1,
+    "2008": 1,
+    "2009": 3,
+    "2010": 6,
+    "2011": 11,
+    "2012": 11,
+    "2013": 3,
+    "2014": 4,
+    "2015": 11,
+    "2016": 5,
+    "2017": 11,
+    "2018": 7,
+    "2019": 20,
+    "2020": 65,
+    "2021": 18,
+    "2022": 30,
+    "2023": 24,
+    "2024": 40,
+    "2025": 62,
+    "2026": 36
+  },
+  "academic": {
+    "unique_authors": 820,
+    "unique_journals": 66,
+    "top_journals": {
+      "Oxidative Medicine and Cellular Longevity": 8,
+      "International journal of molecular sciences": 7,
+      "Nutrients": 7,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 3,
+      "Aging": 3,
+      "Annals of the New York Academy of Sciences": 3,
+      "Critical reviews in food science and nutrition": 2,
+      "Experimental gerontology": 2,
+      "Molecules (Basel, Switzerland)": 2,
+      "International Journal of Molecular Sciences": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 48,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 32,
+      "Research Support, Non-U.S. Gov't": 18,
+      "Systematic Review": 1,
+      "Meta-Analysis": 1,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1,
+      "Research Support, U.S. Gov't, P.H.S.": 1,
+      "Research Support, N.I.H., Extramural": 1,
+      "Research Support, N.I.H., Intramural": 1,
+      "English Abstract": 1
+    },
+    "top_mesh_terms": {
+      "Resveratrol": 50,
+      "Humans": 43,
+      "Aging": 37,
+      "Animals": 34,
+      "Stilbenes": 20,
+      "Antioxidants": 17,
+      "Sirtuin 1": 13,
+      "Longevity": 12,
+      "Cellular Senescence": 11,
+      "Oxidative Stress": 11,
+      "Mice": 9,
+      "Polyphenols": 7,
+      "Cardiovascular Diseases": 7,
+      "Sirtuins": 7,
+      "Caloric Restriction": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 28,
+      "PHASE2": 11,
+      "PHASE1": 7,
+      "Unknown": 3,
+      "PHASE3": 1
+    },
+    "by_status": {
+      "COMPLETED": 41,
+      "UNKNOWN": 4,
+      "RECRUITING": 3,
+      "TERMINATED": 1,
+      "NOT_YET_RECRUITING": 1
+    },
+    "total_enrollment": 2921,
+    "median_enrollment": 45.0,
+    "with_results": 8,
+    "top_sponsors": {
+      "Bial - Portela C S.A.": 3,
+      "Washington University School of Medicine": 2,
+      "Northumbria University": 2,
+      "University of Aarhus": 2,
+      "University Hospital Tuebingen": 1,
+      "InCor Heart Institute": 1,
+      "Bernard Fioretti": 1,
+      "University of Florida": 1,
+      "University of Warwick": 1,
+      "Alzheimer's Disease Cooperative Study (ADCS)": 1
+    },
+    "top_conditions": {
+      "Aging": 4,
+      "Obesity": 3,
+      "Parkinson Disease": 3,
+      "Healthy Volunteers": 2,
+      "Type 2 Diabetes": 2,
+      "Age-related Macular Degeneration": 2,
+      "Elevated Liver Fat Content and Insulin Resistance": 1,
+      "Vascular System Injuries": 1,
+      "Lipid Metabolism Disorders": 1,
+      "Endothelial Disfunction": 1
+    }
+  },
+  "drugage": {
+    "count": 50,
+    "by_species": {
+      "Drosophila melanogaster": 33,
+      "Saccharomyces cerevisiae": 9,
+      "Caenorhabditis elegans": 5,
+      "Mus musculus": 2,
+      "Nothobranchius furzeri": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Female": 23,
+      "Unknown": 15,
+      "Male": 12
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 19887598.0,
+    "mean_funding_usd": 423140.38,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 31,
+      "NICHD": 5,
+      "NCI": 4,
+      "NHLBI": 3,
+      "NINDS": 2,
+      "NIGMS": 1,
+      "NIDCD": 1
+    },
+    "top_organisations": {
+      "NATIONAL INSTITUTE ON AGING": 7,
+      "UNIVERSITY OF MINNESOTA": 6,
+      "UNIVERSITY OF NEW MEXICO HEALTH SCIS CTR": 5,
+      "UNIVERSITY OF FLORIDA": 5,
+      "UNIVERSITY OF CALIFORNIA-IRVINE": 4,
+      "UNIVERSITY OF MIAMI SCHOOL OF MEDICINE": 3,
+      "ALBERT EINSTEIN COLLEGE OF MEDICINE": 3,
+      "UNIVERSITY OF OKLAHOMA HLTH SCIENCES CTR": 3,
+      "OMAHA VA  MEDICAL CENTER": 3,
+      "MAYO CLINIC  JACKSONVILLE": 3
+    },
+    "by_fiscal_year": {
+      "2022": 9,
+      "2023": 18,
+      "2024": 14,
+      "2025": 6,
+      "2026": 3
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 7,
+    "approved_indications": {},
+    "drug_classes": {}
+  },
+  "news": {
+    "count": 16,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "aging-us.com": 3,
+      "royalsocietypublishing.org": 1,
+      "nia.nih.gov": 1,
+      "gethealthspan.com": 1,
+      "sciencedaily.com": 1,
+      "decodeage.com": 1,
+      "lifeextension.com": 1,
+      "renuebyscience.com": 1,
+      "hms.harvard.edu": 1,
+      "health.harvard.edu": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "Biohackers": 20,
+      "supplements": 19,
+      "longevity": 11
+    },
+    "total_score": 6098,
+    "mean_score": 122.0,
+    "total_comments": 3298,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 121,
+    "mean_citations": 2.4,
+    "max_citations": 21,
+    "open_access": 47,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 4517,
+    "mean_citations": 90.3,
+    "max_citations": 2049,
+    "total_influential_citations": 106,
+    "open_access": 38
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2024-12-29",
+    "current_interest": 30,
+    "data_points_count": 261
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "intervention": "glycine",
+  "aliases": [],
+  "generated_at": "2026-02-28",
+  "total_documents": 320,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "news": 20,
+    "drugage": 19,
+    "social": 16,
+    "regulatory": 15
+  },
+  "date_range": {
+    "earliest": "1993-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1993": 1,
+    "1994": 1,
+    "1995": 1,
+    "1996": 1,
+    "1997": 1,
+    "1998": 1,
+    "1999": 1,
+    "2001": 2,
+    "2002": 2,
+    "2003": 7,
+    "2004": 5,
+    "2005": 3,
+    "2006": 3,
+    "2008": 1,
+    "2009": 3,
+    "2010": 3,
+    "2011": 2,
+    "2012": 6,
+    "2013": 5,
+    "2014": 1,
+    "2015": 4,
+    "2016": 5,
+    "2017": 11,
+    "2018": 7,
+    "2019": 8,
+    "2020": 34,
+    "2021": 10,
+    "2022": 24,
+    "2023": 24,
+    "2024": 26,
+    "2025": 60,
+    "2026": 57
+  },
+  "academic": {
+    "unique_authors": 978,
+    "unique_journals": 65,
+    "top_journals": {
+      "Aging (Albany NY)": 8,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 7,
+      "Aging Cell": 4,
+      "Aging cell": 3,
+      "NPJ Aging": 3,
+      "Nature Aging": 3,
+      "Frontiers in Aging": 3,
+      "Aging and Disease": 3,
+      "Ageing research reviews": 2,
+      "Neuroscience": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 47,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 23,
+      "Research Support, N.I.H., Extramural": 9,
+      "Randomized Controlled Trial": 4,
+      "Review": 4,
+      "Comparative Study": 3,
+      "Research Support, U.S. Gov't, P.H.S.": 3,
+      "Clinical Trial": 2,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1,
+      "Research Support, N.I.H., Intramural": 1
+    },
+    "top_mesh_terms": {
+      "Animals": 42,
+      "Glycine": 42,
+      "Aging": 37,
+      "Male": 25,
+      "Mice": 22,
+      "Humans": 21,
+      "Female": 19,
+      "Oxidative Stress": 12,
+      "Rats": 12,
+      "Dietary Supplements": 11,
+      "Mice, Inbred C57BL": 11,
+      "Longevity": 10,
+      "Aged": 9,
+      "Glutathione": 8,
+      "Glyphosate": 8
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 25,
+      "PHASE2": 8,
+      "PHASE1": 6,
+      "Unknown": 6,
+      "PHASE4": 2,
+      "PHASE3": 2,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 34,
+      "UNKNOWN": 5,
+      "TERMINATED": 4,
+      "RECRUITING": 4,
+      "ACTIVE_NOT_RECRUITING": 2,
+      "NOT_YET_RECRUITING": 1
+    },
+    "total_enrollment": 11722,
+    "median_enrollment": 30,
+    "with_results": 11,
+    "top_sponsors": {
+      "Texas A&M University": 3,
+      "University of Illinois at Urbana-Champaign": 2,
+      "University of Turin, Italy": 2,
+      "Andrei Iagaru": 1,
+      "Tufts University": 1,
+      "University Hospital, Clermont-Ferrand": 1,
+      "Sanjiv Sam Gambhir": 1,
+      "Sohag University": 1,
+      "Eberhard Schulz": 1,
+      "Assistance Publique - H\u00f4pitaux de Paris": 1
+    },
+    "top_conditions": {
+      "Schizophrenia": 4,
+      "Malignant Neoplasm": 2,
+      "Protein Metabolism": 2,
+      "Cystic Fibrosis": 2,
+      "Psychotic Disorders": 2,
+      "Stage II Prostate Adenocarcinoma": 1,
+      "Stage III Prostate Adenocarcinoma": 1,
+      "Stage IV Prostate Adenocarcinoma": 1,
+      "Metabolic Syndrome": 1,
+      "Chronic Pain": 1
+    }
+  },
+  "drugage": {
+    "count": 19,
+    "by_species": {
+      "Caenorhabditis elegans": 17,
+      "Mus musculus": 2
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 17,
+      "Female": 1,
+      "Male": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 29522320.0,
+    "mean_funding_usd": 602496.33,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 25,
+      "NINDS": 9,
+      "NIGMS": 4,
+      "NIAMS": 4,
+      "NEI": 2,
+      "NIDCR": 2,
+      "NCI": 2,
+      "NICHD": 1
+    },
+    "top_organisations": {
+      "UNIVERSITY OF MIAMI SCHOOL OF MEDICINE": 5,
+      "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 3,
+      "JACKSON LABORATORY": 3,
+      "UNIVERSITY OF TEXAS HLTH SCIENCE CENTER": 3,
+      "UNIVERSITY OF TEXAS HLTH SCI CTR HOUSTON": 3,
+      "NATIONAL INSTITUTE ON AGING": 3,
+      "BAYLOR COLLEGE OF MEDICINE": 2,
+      "UNIVERSITY OF ALABAMA AT BIRMINGHAM": 2,
+      "RUTGERS BIOMEDICAL AND HEALTH SCIENCES": 2,
+      "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI": 2
+    },
+    "by_fiscal_year": {
+      "2023": 7,
+      "2024": 20,
+      "2025": 20,
+      "2026": 3
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "INDICATIONS AND USAGE Aminosyn-PF 7%, Sulfite-Free, (an amino acid injection \u2014 pediatric formula) is indicated for the nutritional support of infants (including those of low birth weight) and young children requiring TPN via either central or peripheral infusion routes. Parenteral nutrition with Aminosyn-PF 7% is indicated to prevent nitrogen and weight loss or treat negative nitrogen balance in infants and young children where (1) the alimentary tract by the oral gastrostomy, or jejunostomy rou": 1,
+      "USES: May help revitalize hair, dry skin and nail growth and may temporarily relieve: dry, aging skin brittle nails slow hair and nail growth skin blemishes and rashes** **Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.": 1,
+      "USES: May help revitalize hair, dry skin and nail growth and may temporarily relieve dry, aging skin, brittle nails, slow hair & nail growth, skin blemishes & rashes** **Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.": 1,
+      "INDICATIONS AND USAGE Aminosyn-PF 10%, Sulfite-Free, (an amino acid injection \u2014 pediatric formula) is indicated for the nutritional support of infants (including those of low birth weight) and young children requiring TPN via either central or peripheral infusion routes. Parenteral nutrition with Aminosyn-PF 10% is indicated to prevent nitrogen and weight loss or treat negative nitrogen balance in infants and young children where (1) the alimentary tract by the oral gastrostomy, or jejunostomy r": 1,
+      "INDICATIONS AND USAGE Aminosyn II, Sulfite-Free, (an amino acid injection) infused with dextrose by peripheral vein infusion is indicated as a source of nitrogen in the nutritional support of patients with adequate stores of body fat, in whom, for short periods of time, oral nutrition cannot be tolerated, is undesirable, or inadequate. SUPPLEMENTAL ELECTROLYTES, IN ACCORDANCE WITH THE PRESCRIPTION OF THE ATTENDING PHYSICIAN, MUST BE ADDED TO AMINOSYN II SOLUTIONS WITHOUT ELECTROLYTES. Aminosyn I": 1
+    },
+    "drug_classes": {
+      "Amino Acid [EPC]": 5
+    }
+  },
+  "news": {
+    "count": 20,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "tallyhealth.com": 3,
+      "fightaging.org": 2,
+      "novoslabs.com": 1,
+      "cachevalleywellness.com": 1,
+      "nestacertified.com": 1,
+      "research.vu.nl": 1,
+      "apcz.umk.pl": 1,
+      "youtube.com": 1,
+      "scholars.uthscsa.edu": 1,
+      "consensus.app": 1
+    }
+  },
+  "social": {
+    "count": 16,
+    "by_platform": {
+      "reddit": 16
+    },
+    "top_subreddits": {
+      "longevity": 7,
+      "Biohackers": 6,
+      "supplements": 3
+    },
+    "total_score": 1976,
+    "mean_score": 123.5,
+    "total_comments": 1021,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 12,
+    "mean_citations": 0.2,
+    "max_citations": 4,
+    "open_access": 38,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 1978,
+    "mean_citations": 39.6,
+    "max_citations": 350,
+    "total_influential_citations": 58,
+    "open_access": 38
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-02-01",
+    "current_interest": 75,
+    "data_points_count": 261
+  }
+}

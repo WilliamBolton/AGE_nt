@@ -1,0 +1,262 @@
+{
+  "intervention": "acarbose",
+  "aliases": [
+    "precose",
+    "glucobay"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 316,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "social": 35,
+    "news": 16,
+    "drugage": 10,
+    "regulatory": 5
+  },
+  "date_range": {
+    "earliest": "1997-05-01",
+    "latest": "2026-03-01"
+  },
+  "by_year": {
+    "1997": 1,
+    "1999": 1,
+    "2003": 10,
+    "2004": 8,
+    "2005": 1,
+    "2007": 3,
+    "2008": 2,
+    "2009": 3,
+    "2010": 6,
+    "2011": 1,
+    "2012": 2,
+    "2013": 1,
+    "2014": 7,
+    "2015": 11,
+    "2016": 9,
+    "2017": 9,
+    "2018": 9,
+    "2019": 13,
+    "2020": 31,
+    "2021": 12,
+    "2022": 19,
+    "2023": 34,
+    "2024": 34,
+    "2025": 56,
+    "2026": 33
+  },
+  "academic": {
+    "unique_authors": 969,
+    "unique_journals": 53,
+    "top_journals": {
+      "GeroScience": 9,
+      "Aging cell": 9,
+      "Aging Cell": 7,
+      "Aging (Albany NY)": 5,
+      "Frontiers in Aging": 5,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 4,
+      "Aging and Disease": 4,
+      "Nature Aging": 3,
+      "Cell metabolism": 2,
+      "Aging": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, N.I.H., Extramural": 20,
+      "Research Support, Non-U.S. Gov't": 17,
+      "Review": 9,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 6,
+      "Comparative Study": 2,
+      "Systematic Review": 1,
+      "Comment": 1,
+      "Research Support, N.I.H., Intramural": 1
+    },
+    "top_mesh_terms": {
+      "Animals": 36,
+      "Aging": 30,
+      "Male": 27,
+      "Humans": 26,
+      "Longevity": 25,
+      "Mice": 23,
+      "Female": 21,
+      "Acarbose": 17,
+      "Glycoside Hydrolase Inhibitors": 11,
+      "Aged": 10,
+      "Mice, Inbred C57BL": 9,
+      "Sirolimus": 8,
+      "Disease Models, Animal": 7,
+      "Caloric Restriction": 7,
+      "Liver": 6
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE1": 14,
+      "NA": 14,
+      "Unknown": 8,
+      "PHASE3": 8,
+      "PHASE4": 4,
+      "PHASE2": 2
+    },
+    "by_status": {
+      "COMPLETED": 43,
+      "UNKNOWN": 2,
+      "TERMINATED": 2,
+      "NOT_YET_RECRUITING": 2,
+      "RECRUITING": 1
+    },
+    "total_enrollment": 404370,
+    "median_enrollment": 64.0,
+    "with_results": 10,
+    "top_sponsors": {
+      "AstraZeneca": 4,
+      "GlaxoSmithKline": 3,
+      "Janssen Research & Development, LLC": 2,
+      "Eli Lilly and Company": 2,
+      "Bayer": 2,
+      "Region Skane": 1,
+      "The University of Hong Kong": 1,
+      "Wayne State University": 1,
+      "Aalborg University Hospital": 1,
+      "Gulhane Training and Research Hospital": 1
+    },
+    "top_conditions": {
+      "Healthy": 5,
+      "Diabetes Mellitus, Type 2": 3,
+      "Knee Osteoarthritis": 2,
+      "Atherosclerosis": 2,
+      "Hypertension": 2,
+      "Overweight": 2,
+      "Knee Arthropathy": 2,
+      "Type 2 Diabetes": 2,
+      "Obesity": 2,
+      "Prostatic Hyperplasia": 2
+    }
+  },
+  "drugage": {
+    "count": 10,
+    "by_species": {
+      "Mus musculus": 10
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Female": 5,
+      "Male": 5
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 38969357.0,
+    "mean_funding_usd": 779387.14,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 48,
+      "NEI": 1,
+      "NCCIH": 1
+    },
+    "top_organisations": {
+      "UNIVERSITY OF TEXAS HLTH SCIENCE CENTER": 11,
+      "ALBERT EINSTEIN COLLEGE OF MEDICINE": 7,
+      "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 6,
+      "JACKSON LABORATORY": 5,
+      "UNIVERSITY OF OKLAHOMA HLTH SCIENCES CTR": 5,
+      "OHIO UNIVERSITY ATHENS": 3,
+      "UNIVERSITY OF WASHINGTON": 3,
+      "SCRIPPS RESEARCH INSTITUTE, THE": 3,
+      "CALIFORNIA PACIFIC MED CTR RES INSTITUTE": 3,
+      "TEXAS BIOMEDICAL RESEARCH INSTITUTE": 2
+    },
+    "by_fiscal_year": {
+      "2021": 10,
+      "2022": 14,
+      "2023": 10,
+      "2024": 10,
+      "2025": 6
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 5,
+    "approved_indications": {
+      "INDICATIONS AND USAGE Miglitol tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.": 2
+    },
+    "drug_classes": {
+      "alpha-Glucosidase Inhibitor [EPC]": 2
+    }
+  },
+  "news": {
+    "count": 16,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "gethealthspan.com": 5,
+      "ctv.veeva.com": 1,
+      "fightaging.org": 1,
+      "scholars.uthscsa.edu": 1,
+      "ahajournals.org": 1,
+      "alzdiscovery.org": 1,
+      "tandfonline.com": 1,
+      "jax.org": 1,
+      "deepblue.lib.umich.edu": 1,
+      "insight.jci.org": 1
+    }
+  },
+  "social": {
+    "count": 35,
+    "by_platform": {
+      "reddit": 35
+    },
+    "top_subreddits": {
+      "Biohackers": 19,
+      "longevity": 9,
+      "supplements": 7
+    },
+    "total_score": 4407,
+    "mean_score": 125.9,
+    "total_comments": 1597,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 333,
+    "mean_citations": 6.7,
+    "max_citations": 135,
+    "open_access": 41,
+    "preprints": 2,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2404,
+    "mean_citations": 48.1,
+    "max_citations": 350,
+    "total_influential_citations": 64,
+    "open_access": 37
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-02",
+    "current_interest": 58,
+    "data_points_count": 261
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "intervention": "telomerase activation",
+  "aliases": [
+    "TA-65",
+    "telomerase gene therapy",
+    "TERT",
+    "cycloastragenol"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 167,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "news": 15,
+    "social": 2
+  },
+  "date_range": {
+    "earliest": "1995-01-01",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1995": 1,
+    "2001": 1,
+    "2002": 1,
+    "2003": 1,
+    "2004": 4,
+    "2005": 4,
+    "2006": 1,
+    "2007": 3,
+    "2008": 6,
+    "2009": 2,
+    "2010": 4,
+    "2011": 5,
+    "2012": 2,
+    "2013": 1,
+    "2014": 6,
+    "2015": 5,
+    "2016": 9,
+    "2017": 2,
+    "2018": 5,
+    "2019": 7,
+    "2020": 4,
+    "2021": 4,
+    "2022": 5,
+    "2023": 1,
+    "2024": 18,
+    "2025": 39,
+    "2026": 26
+  },
+  "academic": {
+    "unique_authors": 579,
+    "unique_journals": 48,
+    "top_journals": {
+      "Cancer science": 2,
+      "Current molecular medicine": 2,
+      "Molecular and cellular biochemistry": 1,
+      "Diagnostic pathology": 1,
+      "Current aging science": 1,
+      "Cell biochemistry and biophysics": 1,
+      "Molecular biology reports": 1,
+      "Mathematical biosciences": 1,
+      "Aging cell": 1,
+      "Journal of cellular physiology": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 48,
+    "publication_types": {
+      "Journal Article": 50,
+      "Review": 24,
+      "Research Support, Non-U.S. Gov't": 19,
+      "Research Support, N.I.H., Extramural": 7,
+      "Systematic Review": 3,
+      "Evaluation Study": 2,
+      "Meta-Analysis": 2,
+      "Research Support, U.S. Gov't, P.H.S.": 2,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1,
+      "Retracted Publication": 1,
+      "Observational Study": 1
+    },
+    "top_mesh_terms": {
+      "Telomerase": 50,
+      "Humans": 45,
+      "Genetic Therapy": 35,
+      "Animals": 28,
+      "Neoplasms": 19,
+      "Telomere": 18,
+      "Mice": 14,
+      "Promoter Regions, Genetic": 13,
+      "Cellular Senescence": 12,
+      "Mutation": 9,
+      "Adult": 8,
+      "Female": 8,
+      "Aging": 8,
+      "Cell Line, Tumor": 8,
+      "Male": 7
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE1": 19,
+      "NA": 13,
+      "PHASE2": 9,
+      "Unknown": 7,
+      "PHASE4": 2
+    },
+    "by_status": {
+      "COMPLETED": 39,
+      "NOT_YET_RECRUITING": 4,
+      "UNKNOWN": 4,
+      "RECRUITING": 3
+    },
+    "total_enrollment": 10594,
+    "median_enrollment": 51.5,
+    "with_results": 6,
+    "top_sponsors": {
+      "AstraZeneca": 4,
+      "Centre Hospitalier Universitaire de Besancon": 4,
+      "Dong-A ST Co., Ltd.": 3,
+      "GlaxoSmithKline": 3,
+      "Libella Gene Therapeutics": 2,
+      "Darnitsa Pharmaceutical Company": 2,
+      "Conatus Pharmaceuticals Inc.": 2,
+      "West China Hospital": 1,
+      "Masaryk Memorial Cancer Institute": 1,
+      "Carnegie Mellon University": 1
+    },
+    "top_conditions": {
+      "Healthy": 4,
+      "Asthma": 3,
+      "Telomere Shortening": 2,
+      "Aging": 2,
+      "Cancer": 2,
+      "Bioequivalence": 2,
+      "Healthy Subjects": 2,
+      "Type 2 Diabetes Mellitus": 2,
+      "Renal Insufficiency": 2,
+      "Gliomas": 1
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 15,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "journals.sagepub.com": 2,
+      "spandidos-publications.com": 1,
+      "alzdiscovery.org": 1,
+      "ovid.com": 1,
+      "youtube.com": 1,
+      "facebook.com": 1,
+      "darwin-nutrition.fr": 1,
+      "lidsen.com": 1,
+      "crd.york.ac.uk": 1,
+      "ouci.dntb.gov.ua": 1
+    }
+  },
+  "social": {
+    "count": 2,
+    "by_platform": {
+      "reddit": 2
+    },
+    "top_subreddits": {
+      "Biohackers": 1,
+      "supplements": 1
+    },
+    "total_score": 0,
+    "mean_score": 0.0,
+    "total_comments": 41,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 188,
+    "mean_citations": 3.8,
+    "max_citations": 56,
+    "open_access": 39,
+    "preprints": 3,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 27,
+    "data_points_count": 261
+  }
+}

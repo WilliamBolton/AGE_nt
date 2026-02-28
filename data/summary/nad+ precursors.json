@@ -1,0 +1,237 @@
+{
+  "intervention": "nad+ precursors",
+  "aliases": [
+    "NMN",
+    "NR",
+    "nicotinamide mononucleotide",
+    "nicotinamide riboside",
+    "niacin"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 241,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "social": 50,
+    "news": 16,
+    "regulatory": 15,
+    "drugage": 10
+  },
+  "date_range": {
+    "earliest": "1999-09-20",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1999": 2,
+    "2005": 3,
+    "2006": 3,
+    "2007": 2,
+    "2008": 5,
+    "2009": 3,
+    "2010": 4,
+    "2011": 3,
+    "2012": 2,
+    "2013": 1,
+    "2014": 3,
+    "2015": 3,
+    "2016": 4,
+    "2017": 5,
+    "2018": 2,
+    "2019": 11,
+    "2020": 22,
+    "2021": 8,
+    "2022": 8,
+    "2023": 27,
+    "2024": 28,
+    "2025": 47,
+    "2026": 45
+  },
+  "academic": {
+    "unique_authors": 890,
+    "unique_journals": 34,
+    "top_journals": {
+      "Cell reports": 4,
+      "Cell metabolism": 4,
+      "Aging cell": 3,
+      "International journal of molecular sciences": 3,
+      "Science (New York, N.Y.)": 3,
+      "The journals of gerontology. Series A, Biological sciences and medical sciences": 2,
+      "Nature communications": 2,
+      "Trends in cell biology": 2,
+      "Nature metabolism": 2,
+      "Current pharmaceutical biotechnology": 1
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Research Support, Non-U.S. Gov't": 17,
+      "Review": 14,
+      "Research Support, N.I.H., Extramural": 13,
+      "Systematic Review": 3,
+      "Meta-Analysis": 2,
+      "Randomized Controlled Trial": 2,
+      "Clinical Trial": 1,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 1
+    },
+    "top_mesh_terms": {
+      "NAD": 39,
+      "Aging": 38,
+      "Humans": 34,
+      "Animals": 34,
+      "Mice": 21,
+      "Niacinamide": 17,
+      "Male": 15,
+      "Nicotinamide Mononucleotide": 14,
+      "Cellular Senescence": 14,
+      "Mitochondria": 14,
+      "Aged": 9,
+      "Pyridinium Compounds": 9,
+      "Female": 9,
+      "Dietary Supplements": 8,
+      "Mice, Inbred C57BL": 8
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 12,
+      "PHASE2": 10,
+      "PHASE1": 8,
+      "Unknown": 7,
+      "PHASE3": 7,
+      "PHASE4": 5,
+      "EARLY_PHASE1": 1
+    },
+    "by_status": {
+      "COMPLETED": 42,
+      "UNKNOWN": 4,
+      "TERMINATED": 4
+    },
+    "total_enrollment": 14450,
+    "median_enrollment": 60,
+    "with_results": 14,
+    "top_sponsors": {
+      "University of Zurich": 2,
+      "Seneque SA": 1,
+      "GlaxoSmithKline": 1,
+      "University of Washington": 1,
+      "National Cancer Centre, Singapore": 1,
+      "Shanghai Cell Therapy Group Co.,Ltd": 1,
+      "Mayo Clinic": 1,
+      "Maastricht University": 1,
+      "Ajou University School of Medicine": 1,
+      "University of Oxford": 1
+    },
+    "top_conditions": {
+      "Atherosclerosis": 2,
+      "Kidney Cancer": 2,
+      "Obesity": 2,
+      "Wrinkle": 1,
+      "Fatigue": 1,
+      "Puffiness Around the Eyes": 1,
+      "Carcinoma, Renal Cell": 1,
+      "Coronary Artery Disease": 1,
+      "Carotid Artery Diseases": 1,
+      "Non-Small Cell Lung Cancer": 1
+    }
+  },
+  "drugage": {
+    "count": 10,
+    "by_species": {
+      "Mus musculus": 5,
+      "Saccharomyces cerevisiae": 3,
+      "Caenorhabditis elegans": 1,
+      "Drosophila melanogaster": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 5,
+      "Male": 3,
+      "Female": 2
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 15,
+    "approved_indications": {
+      "INDICATIONS AND USAGE Supplementation of the diet with ten essential vitamins. Supplementation of the diet with fluoride for caries prophylaxis. M ultivitamin with Fluoride 0.5 mg Chewable Tablets provide 0.5 mg fluoride in tablet form for children 4-6 years of age in areas where the drinking water fluoride level is less than 0.3 ppm, and for children 6 years of age and above where the drinking water contains 0.3 through 0.6 ppm of fluoride. Multivitamin with Fluoride 0.5 mg Chewable Tablets sup": 1,
+      "INDICATIONS AND USAGE Supplementation of the diet with ten essential vitamins. Supplementation of the diet with fluoride for caries prophylaxis. Multivitamin with Fluoride 0.25 mg Chewable Tablets provide 0.25 mg fluoride in tablet form for children 4-6years of age in areas where the drinking water contains 0.3 through 0.6 ppm of fluoride. Multivitamin with Fluoride 0.25 mg Chewable Tablets supply significant amounts of Vitamins A, C, D, E, thiamine, riboflavin, niacin, vitamin B6, vitamin B12, ": 1,
+      "INDICATIONS Slimming effect, water retention.": 1,
+      "INDICATIONS: Assists in correction of circulatory disorders.\u2020 \u2020Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.": 1
+    },
+    "drug_classes": {
+      "Vitamin C [EPC]": 3,
+      "Nicotinic Acid [EPC]": 1,
+      "alpha-Adrenergic Agonist [EPC]": 1
+    }
+  },
+  "news": {
+    "count": 16,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "gethealthspan.com": 2,
+      "nad.com": 1,
+      "insidetracker.com": 1,
+      "sciexplor.com": 1,
+      "verywellhealth.com": 1,
+      "atria.org": 1,
+      "boltpharmacy.co.uk": 1,
+      "forbes.com": 1,
+      "examine.com": 1,
+      "probiologists.com": 1
+    }
+  },
+  "social": {
+    "count": 50,
+    "by_platform": {
+      "reddit": 50
+    },
+    "top_subreddits": {
+      "longevity": 24,
+      "Biohackers": 16,
+      "supplements": 10
+    },
+    "total_score": 8860,
+    "mean_score": 177.2,
+    "total_comments": 2993,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 315,
+    "mean_citations": 6.3,
+    "max_citations": 80,
+    "open_access": 43,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 0
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-08-10",
+    "current_interest": 72,
+    "data_points_count": 261
+  }
+}

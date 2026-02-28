@@ -1,0 +1,221 @@
+{
+  "intervention": "glp-1 agonists",
+  "aliases": [
+    "semaglutide",
+    "liraglutide",
+    "ozempic",
+    "wegovy",
+    "tirzepatide"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 259,
+  "by_source_type": {
+    "pubmed": 50,
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "social": 43,
+    "news": 11,
+    "regulatory": 5
+  },
+  "date_range": {
+    "earliest": "2006-04-25",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "2006": 1,
+    "2009": 1,
+    "2012": 7,
+    "2013": 1,
+    "2014": 6,
+    "2015": 1,
+    "2016": 6,
+    "2017": 1,
+    "2018": 3,
+    "2019": 6,
+    "2020": 3,
+    "2021": 6,
+    "2022": 6,
+    "2023": 8,
+    "2024": 45,
+    "2025": 114,
+    "2026": 44
+  },
+  "academic": {
+    "unique_authors": 981,
+    "unique_journals": 77,
+    "top_journals": {
+      "Diabetes, obesity & metabolism": 5,
+      "JAMA network open": 5,
+      "Innovation in Aging": 3,
+      "The New England journal of medicine": 2,
+      "Lancet (London, England)": 2,
+      "Obesity surgery": 2,
+      "The lancet. Diabetes & endocrinology": 2,
+      "The Journal of clinical endocrinology and metabolism": 2,
+      "JAMA internal medicine": 2,
+      "JAMA": 2
+    }
+  },
+  "pubmed": {
+    "count": 50,
+    "peer_reviewed": 50,
+    "with_doi": 50,
+    "publication_types": {
+      "Journal Article": 50,
+      "Comparative Study": 15,
+      "Randomized Controlled Trial": 15,
+      "Multicenter Study": 12,
+      "Research Support, Non-U.S. Gov't": 11,
+      "Systematic Review": 10,
+      "Clinical Trial, Phase III": 7,
+      "Review": 6,
+      "Meta-Analysis": 5,
+      "Observational Study": 3,
+      "Equivalence Trial": 2,
+      "Clinical Trial, Phase II": 2,
+      "Network Meta-Analysis": 2,
+      "Clinical Trial, Phase I": 1,
+      "Comment": 1
+    },
+    "top_mesh_terms": {
+      "Humans": 50,
+      "Semaglutide": 50,
+      "Glucagon-Like Peptides": 44,
+      "Male": 35,
+      "Female": 34,
+      "Hypoglycemic Agents": 32,
+      "Middle Aged": 32,
+      "Diabetes Mellitus, Type 2": 31,
+      "Glucagon-Like Peptide-1 Receptor Agonists": 28,
+      "Adult": 27,
+      "Obesity": 26,
+      "Tirzepatide": 26,
+      "Glucagon-Like Peptide 1": 26,
+      "Aged": 25,
+      "Weight Loss": 23
+    }
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "PHASE1": 12,
+      "PHASE3": 12,
+      "Unknown": 8,
+      "PHASE4": 7,
+      "NA": 6,
+      "PHASE2": 5
+    },
+    "by_status": {
+      "COMPLETED": 42,
+      "NOT_YET_RECRUITING": 2,
+      "RECRUITING": 2,
+      "ACTIVE_NOT_RECRUITING": 1,
+      "UNKNOWN": 1,
+      "TERMINATED": 1,
+      "ENROLLING_BY_INVITATION": 1
+    },
+    "total_enrollment": 78651,
+    "median_enrollment": 110.0,
+    "with_results": 14,
+    "top_sponsors": {
+      "Novo Nordisk A/S": 21,
+      "Eli Lilly and Company": 4,
+      "G\u00f6teborg University": 1,
+      "University of Roma La Sapienza": 1,
+      "University of the Faroe Islands": 1,
+      "Wake Forest University Health Sciences": 1,
+      "University of Sao Paulo General Hospital": 1,
+      "Biophytis": 1,
+      "Second Affiliated Hospital, School of Medicine, Zhejiang University": 1,
+      "University of Oulu": 1
+    },
+    "top_conditions": {
+      "Diabetes Mellitus, Type 2": 15,
+      "Diabetes": 12,
+      "Obesity": 9,
+      "Type 2 Diabetes": 4,
+      "Healthy": 4,
+      "Type 2 Diabetes Mellitus": 4,
+      "Metabolism and Nutrition Disorder": 2,
+      "Obesity & Overweight": 2,
+      "Overweight or Obesity": 2,
+      "Weight Loss": 2
+    }
+  },
+  "drugage": {
+    "count": 0
+  },
+  "grants": {
+    "count": 0
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 5,
+    "approved_indications": {
+      "1 INDICATIONS AND USAGE BYETTA is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Limitations of Use \u2022 BYETTA contains exenatide. Coadministration with other exenatide-containing products is not recommended. BYETTA (exenatide) is a glucagon-like peptide-1 (GLP-1) receptor agonist indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 , 14 ) Limitations of Use \u2022 Coadmin": 1,
+      "1 INDICATIONS AND USAGE Exenatide injection is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Exenatide injection is a glucagon-like peptide-1 (GLP-1) receptor agonist indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 , 14 ) Limitations of Use Co-administration with other exenatide-containing products is not recommended. ( 1 ) Limitations of Use Exenatide injecti": 1
+    },
+    "drug_classes": {
+      "GLP-1 Receptor Agonist [EPC]": 2
+    }
+  },
+  "news": {
+    "count": 11,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "fortune.com": 1,
+      "facebook.com": 1,
+      "longevity.direct": 1,
+      "bbc.com": 1,
+      "medcentral.com": 1,
+      "uchicagomedicine.org": 1,
+      "firstwordhealthtech.com": 1,
+      "journals.lww.com": 1,
+      "aamc.org": 1,
+      "sciencedaily.com": 1
+    }
+  },
+  "social": {
+    "count": 43,
+    "by_platform": {
+      "reddit": 43
+    },
+    "top_subreddits": {
+      "Biohackers": 31,
+      "supplements": 9,
+      "longevity": 3
+    },
+    "total_score": 1770,
+    "mean_score": 41.2,
+    "total_comments": 1346,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 96,
+    "mean_citations": 1.9,
+    "max_citations": 22,
+    "open_access": 44,
+    "preprints": 0,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 443,
+    "mean_citations": 8.9,
+    "max_citations": 79,
+    "total_influential_citations": 21,
+    "open_access": 9
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2025-11-30",
+    "current_interest": 17,
+    "data_points_count": 261
+  }
+}

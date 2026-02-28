@@ -1,4 +1,4 @@
-"""LongevityLens MCP Server — exposes intervention data as MCP tools.
+"""AGE-nt MCP Server — exposes intervention data as MCP tools.
 
 Run standalone:
     python -m src.mcp_server.server
@@ -37,7 +37,7 @@ async def server_lifespan(server: FastMCP):
 
 
 mcp = FastMCP(
-    "longevity-lens",
+    "age-nt",
     host="0.0.0.0",
     port=8001,
     lifespan=server_lifespan,

@@ -1,0 +1,222 @@
+{
+  "intervention": "gdf11",
+  "aliases": [
+    "growth differentiation factor 11"
+  ],
+  "generated_at": "2026-02-28",
+  "total_documents": 216,
+  "by_source_type": {
+    "clinicaltrials": 50,
+    "europe_pmc": 50,
+    "semantic_scholar": 50,
+    "nih_grant": 50,
+    "news": 14,
+    "drugage": 1,
+    "social": 1
+  },
+  "date_range": {
+    "earliest": "1997-12-08",
+    "latest": "2026-02-28"
+  },
+  "by_year": {
+    "1997": 1,
+    "2000": 1,
+    "2003": 1,
+    "2006": 3,
+    "2007": 4,
+    "2010": 1,
+    "2011": 3,
+    "2012": 1,
+    "2013": 1,
+    "2014": 2,
+    "2015": 7,
+    "2016": 10,
+    "2017": 10,
+    "2018": 15,
+    "2019": 18,
+    "2020": 17,
+    "2021": 7,
+    "2022": 11,
+    "2023": 26,
+    "2024": 12,
+    "2025": 44,
+    "2026": 21
+  },
+  "academic": {
+    "unique_authors": 677,
+    "unique_journals": 26,
+    "top_journals": {
+      "Aging (Albany NY)": 6,
+      "Nature Aging": 5,
+      "Frontiers in Aging": 5,
+      "Aging Cell": 5,
+      "Aging and Disease": 3,
+      "NPJ Aging and Mechanisms of Disease": 2,
+      "Aging Clinical and Experimental Research": 2,
+      "Psychology and aging": 2,
+      "NPJ Aging": 2,
+      "Oxidative Medicine and Cellular Longevity": 2
+    }
+  },
+  "pubmed": {
+    "count": 0
+  },
+  "clinical_trials": {
+    "count": 50,
+    "by_phase": {
+      "NA": 17,
+      "PHASE2": 14,
+      "PHASE1": 11,
+      "Unknown": 7,
+      "PHASE4": 1
+    },
+    "by_status": {
+      "COMPLETED": 37,
+      "RECRUITING": 6,
+      "UNKNOWN": 3,
+      "ACTIVE_NOT_RECRUITING": 2,
+      "NOT_YET_RECRUITING": 1,
+      "TERMINATED": 1
+    },
+    "total_enrollment": 7774,
+    "median_enrollment": 60,
+    "with_results": 14,
+    "top_sponsors": {
+      "National Cancer Institute (NCI)": 9,
+      "Rigshospitalet, Denmark": 2,
+      "Herlev and Gentofte Hospital": 2,
+      "Hospital de la Ribera": 2,
+      "GlaxoSmithKline": 2,
+      "Norwegian School of Sport Sciences": 1,
+      "Chang Gung Memorial Hospital": 1,
+      "Barcelonabeta Brain Research Center, Pasqual Maragall Foundation": 1,
+      "University of Copenhagen": 1,
+      "Fondazione Policlinico Universitario Agostino Gemelli IRCCS": 1
+    },
+    "top_conditions": {
+      "Multiple Myeloma": 5,
+      "Aging": 4,
+      "Sarcopenia": 3,
+      "Exercise": 2,
+      "Colorectal Cancer": 2,
+      "Healthy": 2,
+      "Elderly": 2,
+      "Myelodysplastic Syndromes": 2,
+      "Hodgkin's Lymphoma": 2,
+      "Acute Leukemia": 2
+    }
+  },
+  "drugage": {
+    "count": 1,
+    "by_species": {
+      "Nothobranchius guentheri": 1
+    },
+    "significant_results": 0,
+    "by_gender": {
+      "Unknown": 1
+    },
+    "lifespan_change": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "null_count": 0,
+      "mean_change": null,
+      "max_extension": null,
+      "max_reduction": null
+    }
+  },
+  "grants": {
+    "count": 50,
+    "total_funding_usd": 22347299.0,
+    "mean_funding_usd": 446945.98,
+    "by_mechanism": {},
+    "by_institute": {
+      "NIA": 37,
+      "NIAMS": 5,
+      "NHLBI": 4,
+      "NIDCD": 2,
+      "NINDS": 1,
+      "NCI": 1
+    },
+    "top_organisations": {
+      "HARVARD UNIVERSITY": 11,
+      "MASSACHUSETTS GENERAL HOSPITAL": 8,
+      "UNIVERSITY OF CINCINNATI": 5,
+      "MAYO CLINIC ROCHESTER": 5,
+      "HARVARD MEDICAL SCHOOL": 4,
+      "JOHNS HOPKINS UNIVERSITY": 3,
+      "ST. JUDE CHILDREN'S RESEARCH HOSPITAL": 3,
+      "TUFTS UNIVERSITY BOSTON": 2,
+      "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 1,
+      "CALIFORNIA PACIFIC MED CTR RES INSTITUTE": 1
+    },
+    "by_fiscal_year": {
+      "2019": 4,
+      "2020": 17,
+      "2021": 8,
+      "2022": 7,
+      "2023": 7,
+      "2024": 4,
+      "2025": 2,
+      "2026": 1
+    }
+  },
+  "patents": {
+    "count": 0
+  },
+  "regulatory": {
+    "count": 0
+  },
+  "news": {
+    "count": 14,
+    "mean_sentiment": null,
+    "claims_strength": {},
+    "cites_primary_source": 0,
+    "top_outlets": {
+      "fightaging.org": 3,
+      "aging-us.com": 2,
+      "tandfonline.com": 2,
+      "ahajournals.org": 2,
+      "bioradiations.com": 1,
+      "pasteur.fr": 1,
+      "oncotarget.com": 1,
+      "hsci.harvard.edu": 1,
+      "youtube.com": 1
+    }
+  },
+  "social": {
+    "count": 1,
+    "by_platform": {
+      "reddit": 1
+    },
+    "top_subreddits": {
+      "longevity": 1
+    },
+    "total_score": 7,
+    "mean_score": 7.0,
+    "total_comments": 3,
+    "mean_sentiment": null
+  },
+  "europe_pmc": {
+    "count": 50,
+    "total_citations": 88,
+    "mean_citations": 1.8,
+    "max_citations": 20,
+    "open_access": 36,
+    "preprints": 1,
+    "cochrane_reviews": 0
+  },
+  "semantic_scholar": {
+    "count": 50,
+    "total_citations": 2228,
+    "mean_citations": 44.6,
+    "max_citations": 350,
+    "total_influential_citations": 62,
+    "open_access": 37
+  },
+  "trends": {
+    "peak_interest": 100,
+    "peak_date": "2026-01-11",
+    "current_interest": 21,
+    "data_points_count": 261
+  }
+}

@@ -1,4 +1,4 @@
-"""LLM-powered Q&A script that queries the LongevityLens API.
+"""LLM-powered Q&A script that queries the AGE-nt API.
 
 Uses OpenAI tool-calling to let the LLM decide which API endpoints to
 call, then synthesizes a natural language answer from the data.
@@ -141,7 +141,7 @@ TOOLS = [
     },
 ]
 
-SYSTEM_PROMPT = """You are a research assistant for LongevityLens, a system that aggregates scientific evidence on aging interventions.
+SYSTEM_PROMPT = """You are a research assistant for AGE-nt, a system that aggregates scientific evidence on aging interventions.
 
 You have access to a database of documents from multiple sources: PubMed, ClinicalTrials.gov, Europe PMC, Semantic Scholar, DrugAge (animal lifespan studies), NIH grants, patents, FDA regulatory records, news articles, and Reddit discussions.
 
@@ -253,7 +253,7 @@ async def ask(question: str) -> str:
 
 
 async def main() -> None:
-    parser = argparse.ArgumentParser(description="Ask questions about LongevityLens data")
+    parser = argparse.ArgumentParser(description="Ask questions about AGE-nt data")
     parser.add_argument("question", help="Natural language question")
     parser.add_argument("--api-base", default="http://localhost:8000", help="API base URL")
     args = parser.parse_args()
