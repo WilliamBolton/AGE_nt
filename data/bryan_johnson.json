@@ -1,0 +1,1624 @@
+{
+  "_meta": {
+    "description": "Bryan Johnson quotes and positions on aging interventions.",
+    "generation_method": "Generated via gpt-5.2 with web search (OpenAI Responses API).",
+    "last_updated": "2026-02-28",
+    "note": "Quotes sourced via web search. Check 'verified' field — true means close to verbatim from a found source, false means paraphrased. URLs link to original sources where found."
+  },
+  "interventions": {
+    "rapamycin": {
+      "stance": "former_user",
+      "quotes": [
+        {
+          "text": "On September 28th, I decided to stop rapamycin, ending almost 5 years of experimentation with this molecule for its longevity potential.",
+          "source": "Blueprint Protocol blog post ('I stopped taking rapamycin')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-stopped-taking-rapamycin",
+          "verified": true
+        },
+        {
+          "text": "I have tested various rapamycin protocols including weekly (5, 6, and 10 mg dose schedules), biweekly (13 mg), and alternating weekly (6/13 mg) to optimize rejuvenation and limit side effects.",
+          "source": "Blueprint Protocol blog post ('I stopped taking rapamycin')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-stopped-taking-rapamycin",
+          "verified": true
+        },
+        {
+          "text": "Despite the immense potential from pre-clinical trials, my team and I came to the conclusion that the benefits of lifelong dosing of Rapamycin do not justify the hefty side-effects (intermittent skin/soft tissue infections, lipid abnormalities, glucose elevations, and increased resting heart rate).",
+          "source": "Blueprint Protocol blog post ('I stopped taking rapamycin')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-stopped-taking-rapamycin",
+          "verified": true
+        },
+        {
+          "text": "With no other underlying causes identified, we suspected Rapamycin, and since dosage adjustments had no effect, we decided to discontinue it entirely.",
+          "source": "Blueprint Protocol blog post ('I stopped taking rapamycin')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-stopped-taking-rapamycin",
+          "verified": true
+        },
+        {
+          "text": "Every two weeks, I take 13 mg of gastro protected Rapamune (Rx required). Rapamycin is used to prevent organ transplant rejection and has possible anti-aging effects.",
+          "source": "Archived X/Twitter post via posts.bryanjohnson.com",
+          "url": "https://posts.bryanjohnson.com/tweets/12-rapamycin-every-two-weeks-i-take-13-mg-of-g/",
+          "verified": true
+        },
+        {
+          "text": "In September I stopped Rapamycin, based on concerns around its metabolic side-effects observed in my lab results (including increased cholesterol, blood sugar and RHR) …",
+          "source": "Archived X/Twitter index excerpt via posts.bryanjohnson.com (page listing)",
+          "url": "https://posts.bryanjohnson.com/page/352/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "discontinued",
+      "dosage_mentioned": "Tested weekly 5 mg, 6 mg, 10 mg; biweekly 13 mg; alternating weekly 6/13 mg; and stated use of 13 mg every two weeks (gastro-protected Rapamune).",
+      "summary": "He previously experimented with rapamycin for nearly five years (including 13 mg biweekly and other schedules) but stopped on Sept 28, 2024, concluding the side effects and metabolic changes outweighed the benefits for lifelong use and it is not in his current Blueprint protocol."
+    },
+    "metformin": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "I paused Metformin.\nA longevity staple in my protocol for 5+ years.\nBut its effects on my body were shocking.\n\nIt built up my energy capacity,\nbut limited my ability to use 90% of it.\n\nHere’s what we found.",
+          "source": "posts.bryanjohnson.com mirror of X/Twitter post (thread opener)",
+          "url": "https://posts.bryanjohnson.com/tweets/i-paused-metformin-a-longevity-staple-in-my-proto/",
+          "verified": true
+        },
+        {
+          "text": "Yeah, the major pillars we've got diet, the pills, we've got the prescriptions, which is rapamycin, metformin, and carbos…",
+          "source": "Ben Greenfield Life podcast transcript (Bryan Johnson interview)",
+          "url": "https://bengreenfieldlife.com/transcripts/transcript-bryan-johnson-podcast/",
+          "verified": true
+        },
+        {
+          "text": "Every single supplement has to justify its existence. It has to fight for its life. And everything needs to be measured. … But then, others like metformin, rapamycin, and carbos, everything has a purpose…",
+          "source": "Ben Greenfield Life podcast transcript (Bryan Johnson interview)",
+          "url": "https://bengreenfieldlife.com/transcripts/transcript-bryan-johnson-podcast/",
+          "verified": true
+        },
+        {
+          "text": "Metformin 500 mg (Rx) (6 week cycles on and off)",
+          "source": "Blueprint 'Bryan Johnson’s Protocol' page (Rx stack listing)",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "500 mg (Rx), 6 week cycles on and off",
+      "summary": "Johnson treats metformin as a measured longevity intervention—after pausing it due to adverse performance effects, he lists it again in his current Blueprint Rx stack as a 500 mg cyclic protocol."
+    },
+    "NMN": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "NR vs NMN? I used each for 90 days & both were effective in getting my intracellular NAD levels to age 16 equivalent, 31 yr age reversal as semi-indirect bioage marker. Recent levels 54.6μM via Jinfiniti test. Used @truniagen NR & @JinfinitiPM NMN.",
+          "source": "X post (mirror), Apr 26, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/nr-vs-nmn-i-used-each-for-90-days-both-w/",
+          "verified": true
+        },
+        {
+          "text": "NR (450 mg) or NMN (500 mg)",
+          "source": "Blueprint protocol page, updated Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "NMN 500 mg (or NR 450 mg)",
+      "summary": "He has self-experimented with NMN vs NR and reports both effectively raised his measured intracellular NAD, and his current Blueprint protocol lists NR (450 mg) or NMN (500 mg) as an active either/or option."
+    },
+    "NR": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "NR (450 mg) or NMN (500 mg)",
+          "source": "Blueprint protocol page ('Bryan Johnson’s Protocol'), Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "I trialed both. I did 90 days on NR, I did 90 days on NMN and I measured my intracellular blood levels throughout and I showed that both were basically effective… So I was able to peg my intracellular nad at the 18-year-old mark on both supplements.",
+          "source": "pod.wave.co transcript/clip page for The Diary Of A CEO (Steven Bartlett)",
+          "url": "https://pod.wave.co/podcast/the-diary-of-a-ceo-with-steven-bartlett/most-replayed-moment-this-longevity-protocol-actually-works-biohacker-bryan-johnson?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "They basically work to get my intracellular NAD to level age 16 equivalent.",
+          "source": "NAD.com article quoting Bryan Johnson",
+          "url": "https://www.nad.com/news/bryan-johnson-nad-boosters-become-16-again?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "NR 450 mg (or NMN 500 mg)",
+      "summary": "Bryan Johnson currently includes NR as an active option in his Blueprint protocol and frames his support as self-experimentation, citing 90-day NR vs NMN trials that he says effectively raised his intracellular NAD to a much younger-equivalent level."
+    },
+    "resveratrol": {
+      "stance": "skeptical",
+      "quotes": [
+        {
+          "text": "Resveratrol doesn't meet the evidence criteria to be included in the stack. We’re open to adjusting if that changes in the future.",
+          "source": "posts.bryanjohnson.com mirror of X post/reply, Apr 1, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/tim12197355-resveratrol-doesnt-meet-the-evidence/",
+          "verified": true
+        },
+        {
+          "text": "Resveratrol doesn't meet the evidence criteria to be included in the stack",
+          "source": "posts.bryanjohnson.com mirror of X post/reply, Sep 27, 2024",
+          "url": "https://posts.bryanjohnson.com/tweets/5cottfive-resveratrol-doesnt-meet-the-evidence-c/",
+          "verified": true
+        },
+        {
+          "text": "resveratrol is not currently part of our protocol",
+          "source": "posts.bryanjohnson.com mirror of X post/reply, Aug 30, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/timos_pub-resveratrol-is-not-currently-part-of-ou/",
+          "verified": true
+        },
+        {
+          "text": "Premium Extra Virgin Olive Oil is more powerful than resveratrol, NR, cold plunge, sauna and your favorite podcast. I consume 1 Tbsp (15 mL) w/ each daily meal.",
+          "source": "posts.bryanjohnson.com mirror of X post, Nov 8, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/premium-extra-virgin-olive-oil-is-more-powerful-th/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "He is skeptical of resveratrol for his purposes and does not include it in his current Blueprint/Don’t Die stack because it does not meet his evidence criteria, though he is open to revisiting if evidence changes."
+    },
+    "exercise": {
+      "stance": "strong_advocate",
+      "quotes": [
+        {
+          "text": "Exercise 6 hours a week.",
+          "source": "Blueprint protocol page ('Bryan Johnson's Protocol')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "3 sessions of strength training",
+          "source": "Blueprint protocol page ('Bryan Johnson's Protocol')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "3 sessions of cardio",
+          "source": "Blueprint protocol page ('Bryan Johnson's Protocol')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Aim for 150 minutes of moderate activity (Zone 2) during which you can maintain a conversation.",
+          "source": "Blueprint protocol page ('Bryan Johnson's Protocol')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "And 75 minutes of vigorous exercise where you're unable to converse (like HIIT).",
+          "source": "Blueprint protocol page ('Bryan Johnson's Protocol')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Daily exercise is one of the most powerful things you can do for health and longevity. Exercise is a power-law of health.",
+          "source": "Blueprint exercise article ('Exercise and Fitness Protocol for Longevity')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/exercise-and-fitness-protocol-for-longevity",
+          "verified": true
+        },
+        {
+          "text": "My health protocol consists of: … + 1 hour of daily exercise",
+          "source": "posts.bryanjohnson.com archived X/Twitter post",
+          "url": "https://posts.bryanjohnson.com/tweets/2-my-health-protocol-consists-of-10-calorie/",
+          "verified": true
+        },
+        {
+          "text": "6:00 am - 60-90 min workout: I focus on balance, flexibility, strength training and cardio.",
+          "source": "Blueprint protocol page daily routine section ('Bryan Johnson's Protocol')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        }
+      ],
+      "protocol_status": "cornerstone",
+      "dosage_mentioned": "6 hours/week total; 3 strength sessions/week; 3 cardio sessions/week; 150 min/week moderate (Zone 2); 75 min/week vigorous (HIIT); 60–90 min morning workout block; ~1 hour daily exercise",
+      "summary": "Bryan Johnson is a strong advocate of exercise for longevity and includes it as a core, currently active part of his Blueprint protocol with specific weekly and daily targets."
+    },
+    "caloric restriction": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Calories: 2,250 (10% caloric restriction)",
+          "source": "Blueprint protocol page",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "My philosophy on nutrition is that every calorie must fight for its life.",
+          "source": "Blueprint protocol page",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "My health protocol consists of: + 10% calorie restriction (2250 daily) …",
+          "source": "posts.bryanjohnson.com tweet mirror",
+          "url": "https://posts.bryanjohnson.com/tweets/2-my-health-protocol-consists-of-10-calorie/",
+          "verified": true
+        },
+        {
+          "text": "From: . caloric restriction 2000 cal (now 2250)",
+          "source": "posts.bryanjohnson.com tweet mirror",
+          "url": "https://posts.bryanjohnson.com/tweets/from-blueprint-diet-sups-vit-d-caakg-genis/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Increased daily caloric intake to 2250 calories, up from 2000… 2250 calories is 10% Caloric Restriction …",
+          "source": "posts.bryanjohnson.com tweet mirror",
+          "url": "https://posts.bryanjohnson.com/tweets/increased-daily-caloric-intake-to-2250-calories-u/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "I was on a 20%… restriction… I’m now 2,250. So I’m 10 percent caloric restriction. … we saw no change in my markers …",
+          "source": "Network State podcast transcript",
+          "url": "https://ns.com/podcast/bryanjohnson?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "the hypothesis was that caloric restriction is positive, but how much CR is optimal? We started with 20%. We had 1,950 calories… So, we went from 20% to 10%, and we lost nothing on the biomarkers.",
+          "source": "Lifespan.io interview-style article",
+          "url": "https://lifespan.io/news/i-dined-with-bryan-johnson-and-didnt-die/",
+          "verified": true
+        },
+        {
+          "text": "what I eat every day is I eat a diet of 2,250 calories. And the premise is that every calorie must fight for its life.",
+          "source": "Podscripts transcript (Megyn Kelly Show episode page)",
+          "url": "https://podscripts.co/podcasts/the-megyn-kelly-show/shocking-revolving-door-at-fda-and-pfizer-and-how-to-live-forever-with-dr-aseem-malhotra-and-bryan-johnson-ep-1014?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "10% caloric restriction; 2,250 calories/day (previously ~2,000/day; earlier ~1,950/day at ~20% restriction)",
+      "summary": "He actively practices and publicly advocates a moderate caloric restriction approach (currently ~10% at ~2,250 kcal/day), having tested deeper restriction and reduced it when biomarkers did not improve."
+    },
+    "spermidine": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "@Guygies @tomchapin you can get the spermidine via pills",
+          "source": "X post (archived on posts.bryanjohnson.com), Aug 29, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/guygies-tomchapin-you-can-get-the-spermidine-via/",
+          "verified": true
+        },
+        {
+          "text": "@algoflows @CryptoChaoss you can get the 13.5mg of spermidine via pills",
+          "source": "X post (archived on posts.bryanjohnson.com), Jul 30, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/algoflows-cryptochaoss-you-can-get-the-13-5mg-of/",
+          "verified": true
+        },
+        {
+          "text": "…spermidine, which he tells me stabilizes the DNA…",
+          "source": "VICE interview writeup quoting Johnson, Jan 30, 2023",
+          "url": "https://www.vice.com/en/article/z34ay8/bryan-johnson-blueprint-aging-biotech",
+          "verified": true
+        },
+        {
+          "text": "The “optimal amounts”… is 13.5 milligrams per day.",
+          "source": "VICE interview writeup quoting Johnson, Jan 30, 2023",
+          "url": "https://www.vice.com/en/article/z34ay8/bryan-johnson-blueprint-aging-biotech",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "13.5 mg per day",
+      "summary": "He actively uses and recommends spermidine (including citing 13.5 mg/day and pill form) and it remains included in the current Blueprint Essential Capsules product."
+    },
+    "dasatinib quercetin": {
+      "stance": "former_user",
+      "quotes": [
+        {
+          "text": "Today I started a next level age reversal intervention: taking Dasatinib, a Leukemia drug, and Quercetin, a plant flavonol. Together, they’re a senolytic.",
+          "source": "posts.bryanjohnson.com (archived X/Twitter post), May 2022",
+          "url": "https://posts.bryanjohnson.com/tweets/1-today-i-started-a-next-level-age-reversal-inter/",
+          "verified": true
+        },
+        {
+          "text": "Protocol is Dasatinib 50mg + Quercetin 500mg daily for 3 consecutive days. 1x/mth for 6 months.",
+          "source": "posts.bryanjohnson.com (archived X/Twitter post), May 2022",
+          "url": "https://posts.bryanjohnson.com/tweets/3-protocol-is-dasatinib-50mg-quercetin-500mg-da/",
+          "verified": true
+        },
+        {
+          "text": "I start this on Sunday: Dasatinib 50mg + Quercetin 500mg daily for 3 consecutive days. 1x/mth for 6 months.",
+          "source": "posts.bryanjohnson.com (archived X/Twitter post), May 2022",
+          "url": "https://posts.bryanjohnson.com/tweets/i-start-this-on-sunday-dasatinib-50mg-quercet/",
+          "verified": true
+        },
+        {
+          "text": "did a distatinib and quercetin cycle… it’s 50 milligrams of distatinib… and then 500 milligrams of quercetin. And you do it three days in a row for three months… [and] it dramatically increased my speed of aging.",
+          "source": "Rich Roll Podcast transcript on podscripts.co, episode page (listed Jan 29, 2024)",
+          "url": "https://podscripts.co/podcasts/the-rich-roll-podcast/the-2m-longevity-protocol-bryan-johnsons-biohacking-blueprint",
+          "verified": true
+        },
+        {
+          "text": "we used dasatinib… and then quercetin… it’s a protocol where you do it three days for three months… and… my speed of aging spiked.",
+          "source": "Network State Podcast transcript page, posted Jan 28, 2024",
+          "url": "https://thenetworkstate.com/episode/bryanjohnson",
+          "verified": false
+        },
+        {
+          "text": "I have done two cycles of Dasatinib and Quercetin. We have some interesting data to share about this soon.",
+          "source": "posts.bryanjohnson.com (archived X/Twitter reply), Jan 30, 2024",
+          "url": "https://posts.bryanjohnson.com/tweets/thedagda__-i-have-done-two-cycles-of-dasatinib-an/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "discontinued",
+      "dosage_mentioned": "Dasatinib 50 mg + Quercetin 500 mg daily for 3 consecutive days; described as 1x/month for 6 months (May 2022) and also as 3 days in a row for 3 months (Jan 2024 interviews).",
+      "summary": "He experimented with dasatinib+quercetin senolytic cycles (50 mg/500 mg) but later reported his measured “speed of aging” worsened and it is not shown as part of his current publicly posted Blueprint protocol."
+    },
+    "senolytics": {
+      "stance": "cautious",
+      "quotes": [
+        {
+          "text": "Senolytics eliminate senescent cells that accumulate with age and are mostly bad actors in the body.",
+          "source": "X post (via Bryan Johnson tweet archive)",
+          "url": "https://posts.bryanjohnson.com/tweets/2-senolytics-eliminate-senescent-cells-that-accum/",
+          "verified": true
+        },
+        {
+          "text": "These interventions demonstrated a significant increase or acceleration of Biological Aging … 1. Pharmacological Interventions: Rapamycin …, senolytics.",
+          "source": "X post/thread segment (via Bryan Johnson tweet archive)",
+          "url": "https://posts.bryanjohnson.com/tweets/2-these-interventions-demonstrated-a-significant/",
+          "verified": true
+        },
+        {
+          "text": "Fisetin … 100 mg (per serving; serving size is 2 capsules).",
+          "source": "Blueprint product page (Supplement Facts for Essential Capsules / Easy Stack context)",
+          "url": "https://blueprint.bryanjohnson.com/products/longevity-mix-essential-capsules",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Fisetin 100 mg per serving (2 capsules)",
+      "summary": "He endorses the senolytic concept and includes a senolytic-associated supplement (fisetin) in his current Blueprint stack, but expresses caution by citing data where pharmacological senolytics were associated with accelerated biological aging."
+    },
+    "fisetin": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "I take like some of the more interesting ones around aging, fisetin, luteolin, calcium alpha-ketoglutarate.",
+          "source": "Dr. Mark Hyman podcast transcript (podscripts.co), 'The Science of Living Longer: Diet, Supplements, & Sleep | Bryan Johnson'",
+          "url": "https://podscripts.co/podcasts/the-dr-hyman-show/the-science-of-living-longer-diet-supplements-sleep-bryan-johnson?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "24 supermolecules including … fisetin …",
+          "source": "Blueprint Essential Capsules product page",
+          "url": "https://blueprint.bryanjohnson.com/products/essentials-capsules?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Fisetin (Smoketree Extract) … An antioxidant from plants. Supports cellular health.",
+          "source": "Blueprint Essential Capsules product page (ingredient description)",
+          "url": "https://blueprint.bryanjohnson.com/products/essentials-capsules?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "I’d tell people about the importance of extra virgin olive oil… spermidine… fisetin… luteolin…",
+          "source": "Blueprint landing page (landing-page-social-1)",
+          "url": "https://blueprint.bryanjohnson.com/pages/landing-page-social-1?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Take 2 capsules in the morning with food.",
+      "summary": "He publicly says he takes fisetin and Blueprint currently includes it in its Essential Capsules/Easy Stack, indicating active use and advocacy via inclusion in his protocol."
+    },
+    "curcumin": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "@jacobjig Agreed on Turmeric/curcumin. I'm unfamiliar with the bouncing exercises.",
+          "source": "posts.bryanjohnson.com (Bryan Johnson X-post archive), reply to @jacobjig",
+          "url": "https://posts.bryanjohnson.com/tweets/jacobjig-agreed-on-turmeric-curcumin-im-unfamil/",
+          "verified": true
+        },
+        {
+          "text": "What I do for routine blood glucose optimization: Metformin SR, Acarbose, Ginger. Cinnamon, Turmeric, Garlic, Zinc, D3, DHEA, + low GI/GL diet + CRON.",
+          "source": "posts.bryanjohnson.com (Bryan Johnson X-post archive), blood glucose optimization thread",
+          "url": "https://posts.bryanjohnson.com/tweets/9-blood-glucose-contd-what-i-do-for-routine-b/",
+          "verified": true
+        },
+        {
+          "text": "Bryan’s recommendation: Take with a shot of Blueprint EVOO",
+          "source": "Blueprint product page (NAC + Ginger + Curcumin)",
+          "url": "https://blueprint.bryanjohnson.com/products/nac-ginger-capsules",
+          "verified": true
+        },
+        {
+          "text": "Curcumin extract std. 85% Curcuminoids (as) Curcuma longa 250 mg",
+          "source": "Blueprint product page Supplement Facts (NAC + Ginger + Curcumin), per serving (3 capsules)",
+          "url": "https://blueprint.bryanjohnson.com/products/nac-ginger-capsules",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Curcumin extract (std. 85% curcuminoids) 250 mg per serving (3 capsules); directions: take 3 capsules daily with food",
+      "summary": "He is supportive of turmeric/curcumin and includes it in his current Blueprint stack via a curcumin-containing supplement (250 mg curcumin extract per daily serving)."
+    },
+    "omega-3 fatty acids": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Not all Omega-3 is created equal\nConsider getting your Omega 3 from algal or fish oils, plant oil sources are also good, but not as potent.\nEPA and DHA are the bioactive Omega-3 fats essential for both brain and heart health.",
+          "source": "X post (mirrored on posts.bryanjohnson.com)",
+          "url": "https://posts.bryanjohnson.com/tweets/not-all-omega-3-is-created-equalconsider-getting/",
+          "verified": true
+        },
+        {
+          "text": "Omega-3 (EPA/DHA/DPA 800 mg)",
+          "source": "Blueprint protocol page ('Bryan Johnson’s Protocol', 01.23.2026)",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Reduce inflammation: omega-3s [Blueprint Omega-3 supplement coming soon] …",
+          "source": "Blueprint blog post ('My sperm health protocol', 06.10.2025)",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/my-sperm-health-protocol?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Blueprint Omega-3 contains 400mg EPA and 400mg DHA (800mg total).",
+          "source": "Blueprint Omega-3 product page (FAQ)",
+          "url": "https://blueprint.bryanjohnson.com/products/omega-3?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Consume 2 vegan capsules morning or evening with food.",
+          "source": "Blueprint Omega-3 product page (How to Use)",
+          "url": "https://blueprint.bryanjohnson.com/products/omega-3?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Omega-3 (EPA/DHA/DPA 800 mg); product: 400 mg EPA + 400 mg DHA (800 mg total) as 2 vegan capsules with food; (pregnancy guidance add-on: DHA/EPA 1000–2000 mg daily)",
+      "summary": "Bryan Johnson is pro–omega-3 (especially EPA/DHA), recommends algal or fish oil sources, and currently includes an 800 mg omega-3 dose in his active Blueprint protocol."
+    },
+    "CoQ10": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "The active form of CoQ10 that supports mitochondrial energy production.",
+          "source": "Blueprint Essential Capsules product page",
+          "url": "https://blueprint.bryanjohnson.com/products/essentials-capsules",
+          "verified": true
+        },
+        {
+          "text": "Ubiquinol (as Reduced CoQ10) 50 mg",
+          "source": "Blueprint Essential Capsules Supplement Facts panel",
+          "url": "https://blueprint.bryanjohnson.com/products/essentials-capsules",
+          "verified": true
+        },
+        {
+          "text": "36 supermolecules including … ubiquinol (CoQ10) …",
+          "source": "Blueprint Longevity Mix + Essential Capsules (Easy Stack) product page",
+          "url": "https://blueprint.bryanjohnson.com/products/longevity-mix-essential-capsules?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Ubiquinol (as Reduced CoQ10) 50 mg per serving (2 capsules)",
+      "summary": "CoQ10 (as ubiquinol) is actively included in Bryan Johnson’s current Blueprint stack and is positioned as supporting mitochondrial energy production, with 50 mg listed per serving in Essential Capsules."
+    },
+    "lithium": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Lithium (as Orotate) 1 mg",
+          "source": "Blueprint Essential Capsules product page, Supplement Facts panel",
+          "url": "https://blueprint.bryanjohnson.com/products/essentials-capsules",
+          "verified": true
+        },
+        {
+          "text": "Lithium Orotate — Why we chose it: A trace mineral that supports mood stability and cognitive balance.",
+          "source": "Blueprint Essential Capsules product page, ingredient explainer",
+          "url": "https://blueprint.bryanjohnson.com/products/essentials-capsules",
+          "verified": true
+        },
+        {
+          "text": "The Easy Stack includes lithium orotate among its “36 supermolecules.”",
+          "source": "Blueprint homepage, Easy Stack section",
+          "url": "https://blueprint.bryanjohnson.com/",
+          "verified": false
+        },
+        {
+          "text": "Supports cognition with lithium orotate & full vitamin B-complex",
+          "source": "Blueprint Easy Stack product page",
+          "url": "https://blueprint.bryanjohnson.com/products/easy-stack",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Lithium (as Orotate) 1 mg per serving (serving size: 2 capsules)",
+      "summary": "Bryan Johnson/Blueprint currently includes low-dose lithium (as lithium orotate, 1 mg per serving) in the active Blueprint supplement stack and positions it as supporting mood stability, cognitive balance, and cognition."
+    },
+    "epigenetic reprogramming": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "In 2006, Shinya Yamanaka identified four transcription factors; Oct4, Sox2, Klf4, and c-Myc (OSKM), capable of resetting differentiated adult cells into a pluripotent, embryonic-like state.",
+          "source": "X post archive (@bryan_johnson), Aug 31 2025 thread (posts.bryanjohnson.com tweets page 45)",
+          "url": "https://posts.bryanjohnson.com/tweets/page/45/",
+          "verified": true
+        },
+        {
+          "text": "But what if we can all go beyond this lucky number? What gives hope: •Cellular Reprogramming •Rapamycin + other metabolic modulators •Reversing senescence",
+          "source": "X post archive (@bryan_johnson), Aug 26 2024",
+          "url": "https://posts.bryanjohnson.com/tweets/recently-the-longest-living-person-died-at-the-age/",
+          "verified": true
+        },
+        {
+          "text": "This is big. OpenAI and Retro used a custom model to make cellular reprogramming into stem cells ~50× better, faster, and safer.",
+          "source": "X post archive (@bryan_johnson), Aug 31 2025 thread (posts.bryanjohnson.com tweets page 16)",
+          "url": "https://posts.bryanjohnson.com/tweets/page/16/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "He describes “clocks” that “look at DNA methylation patterns … patterns about your age,” and says he tested multiple clocks and “reversed my epigenetic age by 5.1 years.”",
+          "source": "Podcast transcript paraphrase (First Principles #15 transcript page)",
+          "url": "https://firstprinciples.fm/episodes/15-the-first-principles-approach-to-not-dying-bryan-johnson/transcript?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "He publicly promotes cellular/epigenetic reprogramming (including OSKM/Yamanaka factors) as a promising longevity pathway, but there is no sourced evidence here that he currently uses any in-human reprogramming intervention in his Blueprint protocol."
+    },
+    "epigenetic clocks": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Epigenetic clocks are one option to track progress towards longevity escape velocity… A test of your DNA Methylation can reveal how fast or slow you are aging. My most recent result was .57, meaning I age one year over 21 months instead of 12.",
+          "source": "posts.bryanjohnson.com (archive of @bryan_johnson on X)",
+          "url": "https://posts.bryanjohnson.com/tweets/0-epigenetic-clocks-are-one-option-to-track-progr/",
+          "verified": true
+        },
+        {
+          "text": "I continuously trace my epigenetic biological age using the PACE (DunedinPACE) clock, … this clock is superior in both reliability and sensitivity, especially in detecting shifts in biological age in healthy cohorts…",
+          "source": "posts.bryanjohnson.com (archive of @bryan_johnson on X)",
+          "url": "https://posts.bryanjohnson.com/tweets/3-v-i-continuously-trace-my-epigenetic-biologica/",
+          "verified": true
+        },
+        {
+          "text": "Their clock uses 9 cpg sites and saliva rather than blood. Mine = 6 validated epigenetic clocks ie horvath, levine etc, that use thousands of cpg sites.",
+          "source": "posts.bryanjohnson.com (archive of @bryan_johnson on X)",
+          "url": "https://posts.bryanjohnson.com/tweets/baskasti-their-clock-uses-9-cpg-sites-and-saliva/",
+          "verified": true
+        },
+        {
+          "text": "Three epigenetic clocks were used… i. PHENOAge… ii. GrimAge… iii. DunedinPACE…",
+          "source": "posts.bryanjohnson.com (archive of @bryan_johnson on X)",
+          "url": "https://posts.bryanjohnson.com/tweets/2-three-epigenetic-clocks-were-used-to-assess-the/?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": null,
+      "summary": "He actively uses epigenetic clocks—especially DunedinPACE—as a preferred, ongoing way to measure speed of aging and track progress, while emphasizing higher-signal, validated multi-clock approaches over weaker clocks."
+    },
+    "GLP-1 agonists": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "A lot of buzz around ozempic (Semaglutide). Diet, exercise, smoking cessation and alcohol moderation can extend health/lifespan 10,000 days, whereas Semaglutide may have negligible or even negative effect on health/lifespan.",
+          "source": "Bryan Johnson X post archive, Dec 11, 2022",
+          "url": "https://posts.bryanjohnson.com/tweets/a-lot-of-buzz-around-ozempic-semaglutide-diet/",
+          "verified": true
+        },
+        {
+          "text": "To evaluate the potential benefits I will start a 12 week trial of the GLP-1/GIP RA Tirzepatide (Commercial name: Munjaro for diabetes, Zepbound for weight loss).",
+          "source": "Bryan Johnson X post archive, Dec 19, 2024",
+          "url": "https://posts.bryanjohnson.com/tweets/4-my-microdosing-protocolto-evaluate-the-potent/",
+          "verified": true
+        },
+        {
+          "text": "I’ll start with a weekly dose of 0.5 mg, …",
+          "source": "Bryan Johnson X post archive, Dec 19, 2024",
+          "url": "https://posts.bryanjohnson.com/tweets/4-my-microdosing-protocolto-evaluate-the-potent/",
+          "verified": true
+        },
+        {
+          "text": "Data is not there yet to call Ozempic as anti-aging therapy,",
+          "source": "Benzinga article quoting Johnson's X reply, Aug 6, 2025",
+          "url": "https://www.benzinga.com/node/46888128/?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": "tirzepatide 0.5 mg weekly (starting dose) for a 12-week trial",
+      "summary": "He is skeptical of Ozempic/semaglutide as an anti-aging/lifespan intervention but has shown willingness to self-experiment via a time-limited tirzepatide (GLP-1/GIP) trial, while GLP-1 drugs are not listed in his current public protocol Rx stack."
+    },
+    "young plasma": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "Discontinuing therapy: completed 6, 1L young plasma exchanges. 1x/mo (1 w/ my son). Evaluated biomarkers from biofluids, devices and imaging, no benefits detected.",
+          "source": "Archived X post, Jul 5, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/discontinuing-therapy-completed-6-1l-young-plasm/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Young plasma exchange may be beneficial for biologically older populations or certain conditions. Does not in my case stack benefit on top of my existing interventions. Alternative methods of plasma exchange or young plasma fractions hold promise.",
+          "source": "Archived X post, Jul 5, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/discontinuing-therapy-completed-6-1l-young-plasm/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "I am no longer injecting my son's blood. I've upgraded to something else: total plasma exchange.",
+          "source": "Archived X post, Jan 28, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/i-am-no-longer-injecting-my-sons-blood-ive-up/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Steps: 1. Take out all blood from body 2. Separate plasma from blood 3. Replace plasma with 5% albumin & IVIG",
+          "source": "Archived X post, Jan 28, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/i-am-no-longer-injecting-my-sons-blood-ive-up/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "TPE removes all of my body’s plasma and replaces it with Albumin. The therapy objectives are to remove toxins from my body. The evidence is emergent.",
+          "source": "NDTV article quoting his X wording (secondary report)",
+          "url": "https://www.ndtv.com/feature/tech-millionaire-bryan-johnson-claims-his-super-plasma-reversed-his-fathers-age-by-25-years-6794555?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "uses_alternative",
+      "dosage_mentioned": "Young plasma: 6 exchanges of 1L, 1x/month (one with his son). TPE replacement: 5% albumin & IVIG (no volume/frequency stated).",
+      "summary": "He discontinued young-donor plasma exchanges in July 2023 after detecting no biomarker benefits, and later shifted to total plasma exchange (albumin/IVIG replacement) as an alternative plasma-based intervention."
+    },
+    "hyperbaric oxygen therapy": {
+      "stance": "strong_advocate",
+      "quotes": [
+        {
+          "text": "Hyperbaric oxygen therapy ranks as one of the highest value health therapies I've done.",
+          "source": "Blueprint protocol page, Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Conditions: 100% oxygen at 2 atmospheric pressures.",
+          "source": "Blueprint protocol page, Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Schedule: 60 sessions, 5 sessions per week, duration: 90 min (20 min followed by 5 min air break, repeat).",
+          "source": "Blueprint protocol page, Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Extended my telomere length by 2.6% (10.3 \u001a\u000f 11.4 kb).",
+          "source": "Blueprint protocol page, Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "I've started a new longevity protocol: hyperbaric oxygen therapy (HBOT).",
+          "source": "Posts mirror of X/Twitter post, Nov 25, 2024",
+          "url": "https://posts.bryanjohnson.com/tweets/ive-started-a-new-longevity-protocol-hyperbaric/",
+          "verified": true
+        },
+        {
+          "text": "We completed a fairly extensive literature search and concluded there is supporting evidence for its usage for acute therapies but there was insufficient evidence to use it for our objective of biological aging.",
+          "source": "Posts mirror of X/Twitter post, May 4, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/page/851/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "The evidence for telomere elongation and senescent cells didn\u001a\u000ft cross our thresholds to implement into our protocol.",
+          "source": "Posts mirror of X/Twitter post, May 4, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/page/851/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "HBOT ranks as one of the highest value health therapies I\u001a\u000fve done.",
+          "source": "Posts thread page (mirror of X/Twitter), Mar 18, 2025",
+          "url": "https://posts.bryanjohnson.com/page/173/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "My HBOT protocol in a glance + \u001a\u000f + 2 ATA + 90 minute sessions + 20 min breathing 100% oxygen. 5 min break. Repeat. + 60 sessions within 90 days.",
+          "source": "Posts page listing (mirror of X/Twitter), Mar 18, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/page/199/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Limitations While doing HBOT I also underwent three total plasma exchanges (TPE).",
+          "source": "Posts page listing (mirror of X/Twitter), Mar 18, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/page/199/?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "100% oxygen at 2 ATA; 90 min sessions with 20 min O2 then 5 min air break (repeat); 60 sessions total; 5 sessions/week (noted as within ~90 days in 2025 post)",
+      "summary": "Bryan Johnson currently includes HBOT in Blueprint and describes it as one of the highest-value therapies he has done, after initially saying (in 2023) evidence was insufficient for his biological-aging objective."
+    },
+    "cold exposure": {
+      "stance": "cautious",
+      "quotes": [
+        {
+          "text": "I frequently get asked if I cold-plunge. Aside from the one time I tried it with my friend Steve Aoki, cold plunging is not a part of my normal routine.",
+          "source": "Blueprint blog post ('Do I cold plunge? The answer is no. Here’s why'), Nov 29, 2024",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/do-i-cold-plunge-the-answer-is-no-here-s-why",
+          "verified": true
+        },
+        {
+          "text": "Following Blueprint has me metabolically cold plunging 24/7.",
+          "source": "Blueprint blog post ('Do I cold plunge? The answer is no. Here’s why'), Nov 29, 2024",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/do-i-cold-plunge-the-answer-is-no-here-s-why",
+          "verified": true
+        },
+        {
+          "text": "A regular cold plunge at 55°F for 60 min only decreases temp by 0.83°F",
+          "source": "Blueprint blog post ('Do I cold plunge? The answer is no. Here’s why'), Nov 29, 2024",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/do-i-cold-plunge-the-answer-is-no-here-s-why",
+          "verified": true
+        },
+        {
+          "text": "I keep getting cooler … Waking body temp: 2020: 98.7°F 2024: 93.4°F (34.1°C) … I’m cold plunging 24/7.",
+          "source": "posts.bryanjohnson.com archived X post",
+          "url": "https://posts.bryanjohnson.com/tweets/i-keep-getting-coolerwaking-body-temp2020-98/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "@PunkOnChain … I haven't added any cold therapy to the protocol yet.",
+          "source": "posts.bryanjohnson.com archived X reply, Jun 19, 2025 (per provided research)",
+          "url": "https://posts.bryanjohnson.com/tweets/punkonchain-i-have-been-doing-my-20-min-sauna-ses/",
+          "verified": true
+        },
+        {
+          "text": "@aeyakovenko I've not done a cold protocol but am open to it",
+          "source": "posts.bryanjohnson.com archived X reply",
+          "url": "https://posts.bryanjohnson.com/tweets/aeyakovenko-ive-not-done-a-cold-protocol-but-am/",
+          "verified": true
+        },
+        {
+          "text": "Last week I learned why people do cold exposure. I was jet lagged & sleep deprived. Did cryotherapy for 3 min at -112°C. Immediately had a clean coffee high; wiping out my sluggishness. Doing it before when well rested, I couldn't feel any difference.",
+          "source": "posts.bryanjohnson.com archived X post (appears on page 507)",
+          "url": "https://posts.bryanjohnson.com/tweets/page/507/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": "Cold plunge example: 55°F for 60 min; Cryotherapy: 3 min at -112°C",
+      "summary": "He does not currently include cold plunging/cold therapy in his Blueprint routine, has only tried it in limited one-off contexts, and remains open to it while emphasizing his regimen already produces a 'metabolically cold' state."
+    },
+    "sauna": {
+      "stance": "strong_advocate",
+      "quotes": [
+        {
+          "text": "My sauna protocol: Type: Dry sauna … Temperature: 200°F (93°C) … Frequency: daily, 7 days a week … Duration: 20 minute sessions … Protection: Ice pack applied to the groin area … Rehydration: 36 oz mineral supplemented water …",
+          "source": "Blueprint blog, 'Bryan Johnson’s Protocol', Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Safe Activation of Heat Shock Proteins… a modest 1°C increase in core temperature is sufficient to activate these proteins without the risk of hyperthermia.",
+          "source": "Blueprint blog, 'Bryan Johnson’s Protocol', Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "There’s evidence that sauna is a potential detox and longevity intervention… We’re going to put it to the test.",
+          "source": "Blueprint blog, 'Is Sauna Worth the Hype?', May 23, 2025",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/is-sauna-worth-the-hype",
+          "verified": true
+        },
+        {
+          "text": "Repairing and maintaining proteins (heat shock proteins)",
+          "source": "Blueprint blog, 'Is Sauna Worth the Hype?', May 23, 2025",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/is-sauna-worth-the-hype",
+          "verified": true
+        },
+        {
+          "text": "My sauna protocol: … 200 °F (93° C) … daily, 7 days a week … 20-minute sessions … Ice pack applied to the groin … Rehydration: 36 oz mineral-supplemented water …",
+          "source": "Blueprint blog, 'Is Sauna Worth the Hype?', May 23, 2025",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/is-sauna-worth-the-hype",
+          "verified": true
+        },
+        {
+          "text": "My sauna protocol: + Type: Dry sauna … + Temperature: 200 °F (93° C) + Frequency: daily, 7 days a week + Duration: 20-minute sessions + Protection: Ice pack applied to the groin area … + Rehydration: 36 oz …",
+          "source": "Bryan Johnson Posts archive (embeds X post text), May 7, 2025",
+          "url": "https://posts.bryanjohnson.com/page/116/",
+          "verified": true
+        },
+        {
+          "text": "At last, we tested sauna for longevity. I’m dropping my sauna protocol and explaining why they are definitely worth the hype.",
+          "source": "Apple Podcasts episode description, 'How Sauna Detoxified My Body', Jun 26, 2025",
+          "url": "https://podcasts.apple.com/us/podcast/how-sauna-detoxified-my-body/id1822600552?i=1000714659080",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Dry sauna at 200°F (93°C) for 20 minutes daily (7 days/week); ice pack applied to groin; rehydration with 36 oz mineral-supplemented water.",
+      "summary": "Johnson strongly advocates sauna as a longevity intervention and includes a daily 200°F/20-minute dry sauna protocol in his current Blueprint routine, citing heat shock protein activation and experiment-driven results."
+    },
+    "ketogenic diet": {
+      "stance": "cautious",
+      "quotes": [
+        {
+          "text": "“A study published yesterday in Cell Reports showed Ketogenic Diet (high in fat and low in carbs and proteins) can reverse autoimmunity in a mouse model for multiple sclerosis MS.”",
+          "source": "posts.bryanjohnson.com (archived X/Twitter post)",
+          "url": "https://posts.bryanjohnson.com/tweets/a-study-published-yesterday-in-cell-reports-showed/",
+          "verified": true
+        },
+        {
+          "text": "“Note: A lot of people want to label others into nutrition camps that war with each other i.e. plant based, carnivore, keto, paleo, etc.. I don’t identify with any of them. I follow the scientific evidence and data in determining what I eat.”",
+          "source": "Blueprint Protocol page",
+          "url": "https://protocol.bryanjohnson.com/",
+          "verified": true
+        },
+        {
+          "text": "“People on Blueprint are carnivores, omnivores, keto, paleo and plant based. Everyone is welcome.”",
+          "source": "posts.bryanjohnson.com (archived X/Twitter post, page 193)",
+          "url": "https://posts.bryanjohnson.com/tweets/page/193/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "“Among lean, metabolically healthy individuals on a ketogenic diet who exhibit elevated LDL-C and ApoB but have optimal triglyceride and HDL levels (i.e., the LMHR phenotype), …”",
+          "source": "posts.bryanjohnson.com (archived X/Twitter post referencing LMHR; text truncated on archive page)",
+          "url": "https://posts.bryanjohnson.com/tweets/nicknorwitz-great-paper-as-i-understand-it-the/",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "He discusses ketogenic diet research and keto-related lipid phenotypes but explicitly avoids identifying with “keto” as a nutrition camp, and his current Blueprint macros are not ketogenic."
+    },
+    "stem cell therapy": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "In a cutting-edge therapy I had 300 million stem cells injected into my shoulders, hips, and joints. The aim: joints to match my total bone mineral density, which is in the top 99.8% for 30-year-olds.",
+          "source": "X post mirrored on posts.bryanjohnson.com",
+          "url": "https://posts.bryanjohnson.com/tweets/in-a-cutting-edge-therapy-i-had-300-million-stem-c/",
+          "verified": true
+        },
+        {
+          "text": "I had 300 million young Swedish bone marrow mesenchymal stem cells injected into my shoulders, hips, and joints.",
+          "source": "Blueprint blog post",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-injected-my-joints-with-300-million-stem-cells",
+          "verified": true
+        },
+        {
+          "text": "I had 300 million bone marrow-derived mesenchymal stem cells (MSCs) injected into six joints over two days: knees, shoulders, and hips.",
+          "source": "Blueprint blog post",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-injected-my-joints-with-300-million-stem-cells",
+          "verified": true
+        },
+        {
+          "text": "Yeah, I did 100 million Mesenchymal stem cells of young Swedish bone marrow… People have used these Mesenchymal stem cells for Long COVID… for heart conditions… for reducing inflammation. I’ve used it for joint therapies, regenerating joints… we did it as a general rejuvenation therapy.",
+          "source": "Third Wave podcast transcript (Episode 231 page)",
+          "url": "https://thethirdwave.co/podcast/episode-231-bryan-johnson/?utm_source=openai",
+          "verified": false
+        },
+        {
+          "text": "That’s probably because my health biomarkers are already in the top 1%… So it’s pretty difficult for my subjective feeling of wellness to improve.",
+          "source": "Business Insider interview quoting him",
+          "url": "https://www.businessinsider.com/stem-cell-injections-knee-joints-longevity-wellness-industry-bryan-johnson-2024-7",
+          "verified": true
+        }
+      ],
+      "protocol_status": "experimental",
+      "dosage_mentioned": "300 million bone marrow-derived MSCs injected into six joints over two days (knees, shoulders, hips); also mentions 100 million MSCs (young Swedish bone marrow) in interview",
+      "summary": "Bryan Johnson has personally tried mesenchymal stem cell joint injections as a measured, clinical-trial-style experimental rejuvenation intervention, but does not present it as a standard ongoing Blueprint protocol component."
+    },
+    "thymus regeneration": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "“We saw the same thing when I did, human growth hormone to regenerate my thymus. So I did, HGH for a hundred days, and we, according to MRI, we did in fact, rejuvenate my thymus by seven years… That also dramatically increased my speed of aging. And then it came back down after I had discontinued the HGH.”",
+          "source": "Network State Podcast transcript page (ns.com), Bryan Johnson episode",
+          "url": "https://ns.com/podcast/bryanjohnson?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "“I’d say the worst outcome was using human growth hormone. We were repeating a study that was done for thymus rejuvenation… We did 100 days of human growth hormone… So according to three MRI’s we regenerated my thymus by 7 years… Plus, I had intracranial pressure increase, I had my blood glucose were messed up.”",
+          "source": "LinkedIn reposted transcript of a clip (secondary hosting)",
+          "url": "https://www.linkedin.com/videos/andrespreschel_knowyourphysio-activity-7378518447573381120-ndDg?utm_source=openai",
+          "verified": false
+        },
+        {
+          "text": "“New Blueprint therapy… Three peptides for thymus rejuvenation… Intramuscular injection, 10 mg daily for 5 days every 6 months.”",
+          "source": "Archived X-post mirror on posts.bryanjohnson.com",
+          "url": "https://posts.bryanjohnson.com/tweets/new-blueprint-therapythree-peptides-for-thymus-r/",
+          "verified": true
+        },
+        {
+          "text": "“...we just completed the thymus for the first time… getting a high quality image of the thymus to age it to work on rejuvenation was very hard…”",
+          "source": "Kayla Barnes-Lentz podcast transcript page",
+          "url": "https://www.kaylabarnes.com/podcasts/biological-age-reversal-with-bryan-johnson?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "experimental",
+      "dosage_mentioned": "Peptides: intramuscular injection, 10 mg daily for 5 days every 6 months; HGH: used for 100 days (dose not clearly stated in primary source); Metformin: 500 mg, 6-week cycles on/off (not stated as thymus-specific)",
+      "summary": "He experimented with thymus regeneration (notably a 100-day HGH trial he discontinued due to adverse effects and faster aging), while remaining engaged in thymus rejuvenation efforts via imaging and an experimental peptide-based protocol rather than an ongoing TRIIM-style regimen."
+    },
+    "taurine": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Taurine — Why we chose it: An amino acid that supports heart health, brain health, and metabolism.",
+          "source": "Blueprint protocol page (Longevity Mix – Supermolecules)",
+          "url": "https://blueprint.bryanjohnson.com/pages/longevity-mix-supermolecules",
+          "verified": true
+        },
+        {
+          "text": "Bryan Johnson takes this daily",
+          "source": "Blueprint protocol page (Longevity Mix – Supermolecules)",
+          "url": "https://blueprint.bryanjohnson.com/pages/longevity-mix-supermolecules",
+          "verified": true
+        },
+        {
+          "text": "13 supermolecules including creatine, glutathione, CaAKG, taurine & glycine",
+          "source": "Blueprint product page (Longevity Mix / Longevity Blend multinutrient drink mix)",
+          "url": "https://blueprint.bryanjohnson.com/collections/bestsellers/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Taurine 1500 mg per serving (per third-party label transcription for Longevity Mix Blood Orange)",
+      "summary": "Bryan Johnson currently includes taurine in Blueprint’s Longevity Mix and presents it as a daily-use ingredient chosen for heart, brain, and metabolic support."
+    },
+    "alpha-ketoglutarate": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Started CaAKG, 4 grams daily (2g morning/2g at noon)",
+          "source": "posts.bryanjohnson.com mirror of X post, Blueprint March updates (posted Apr 4, 2023)",
+          "url": "https://posts.bryanjohnson.com/tweets/blueprint-march-updates-shared-a-video-summar/",
+          "verified": true
+        },
+        {
+          "text": "From: … sups: vit D, CaAKG, Genistein, K1, K2 MK4, K2 MK7 … all details, for free:",
+          "source": "posts.bryanjohnson.com mirror of X post (posted Aug 2, 2023)",
+          "url": "https://posts.bryanjohnson.com/tweets/from-blueprint-diet-sups-vit-d-caakg-genis/",
+          "verified": true
+        },
+        {
+          "text": "What we’re doing for total bone mineral density health: … supplements: vit D, CaAKG, Genistein, K1, K2 MK4, K2 MK7",
+          "source": "posts.bryanjohnson.com mirror of X post (posted Feb 28, 2024)",
+          "url": "https://posts.bryanjohnson.com/tweets/my-total-bone-mineral-density-is-in-the-99-87th-ce/",
+          "verified": true
+        },
+        {
+          "text": "Calcium Alpha-Keto Glutarate 2000 mg",
+          "source": "Blueprint product page, Longevity Mix – Blood Orange (Supplement Facts)",
+          "url": "https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor",
+          "verified": true
+        },
+        {
+          "text": "Bryan Johnson takes this daily",
+          "source": "Blueprint Longevity Mix landing page",
+          "url": "https://blueprint.bryanjohnson.com/pages/longevity-mix-bryan-johnson?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "… CA-AKG …",
+          "source": "Blueprint blog page, Bryan Johnson's Protocol (pregnancy avoidance list)",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "When I wake up, the first thing I do is drink longevity mix, which contains vitamin C, magnesium, calcium Alpha-ketoglutarate, glycine and ashwagandha.",
+          "source": "NYPost article quoting Bryan Johnson (Jun 14, 2024)",
+          "url": "https://nypost.com/2024/06/14/lifestyle/anti-aging-guru-bryan-johnson-claims-he-celebrates-his-birthday-every-19-months-at-personal-best-pace-spends-16-per-day-on-diet/?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "4 g/day CaAKG (2 g morning + 2 g noon) historically; 2,000 mg Calcium Alpha-Keto Glutarate per serving (Longevity Mix label)",
+      "summary": "He actively uses and promotes Ca-AKG/CaAKG as part of his Blueprint supplement stack, including in the current Longevity Mix he states he takes daily."
+    },
+    "berberine": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "What I do for routine blood glucose optimization: Metformin SR, Acarbose, Ginger. Cinnamon, Turmeric, Garlic, Zinc, D3, DHEA, + low GI/GL diet + CRON.",
+          "source": "Preserved X post on posts.bryanjohnson.com, Jun 5, 2023 (blood glucose optimization stack)",
+          "url": "https://posts.bryanjohnson.com/tweets/9-blood-glucose-contd-what-i-do-for-routine-b/",
+          "verified": true
+        },
+        {
+          "text": "Metformin 500 mg (Rx) (am experimenting 6-week cycles on/off)",
+          "source": "DON’T DIE protocol page (Rx stack section)",
+          "url": "https://protocol.bryanjohnson.com/",
+          "verified": true
+        },
+        {
+          "text": "...the prescriptions, which is rapamycin, metformin, and carbos.",
+          "source": "Ben Greenfield podcast transcript page (Bryan Johnson episode transcript)",
+          "url": "https://bengreenfieldlife.com/transcripts/transcript-bryan-johnson-podcast/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No direct public quote or protocol inclusion for berberine was found in the provided sources, so his stance on berberine specifically is not documented (neutral), while he does publicly describe using prescription glucose-optimization agents like metformin and acarbose."
+    },
+    "aspirin": {
+      "stance": "cautious",
+      "quotes": [
+        {
+          "text": "Aspirin is valid for preventing inflammation, although typical doses are higher than the typical baby aspirin dose of 80-100, even such low dose can have some anti-inflammatory and anti-inflammaging effect. You have to beware of side-effects including potential gastric ulcer, …",
+          "source": "posts.bryanjohnson.com archived X post (reply thread)",
+          "url": "https://posts.bryanjohnson.com/tweets/theophysij-celestialbe1ng-aspirin-is-valid-for-p/",
+          "verified": true
+        },
+        {
+          "text": "My team and I recently took a deeper look at low dose aspirin for heart health. The data doesn't support it.",
+          "source": "posts.bryanjohnson.com archived X post, Jan 20, 2026",
+          "url": "https://posts.bryanjohnson.com/tweets/my-team-and-i-recently-took-a-deeper-look-at-low-d/",
+          "verified": true
+        },
+        {
+          "text": "If you haven't had a heart attack or stroke, aspirin likely does more harm than good.",
+          "source": "posts.bryanjohnson.com archived X post, Jan 20, 2026",
+          "url": "https://posts.bryanjohnson.com/tweets/my-team-and-i-recently-took-a-deeper-look-at-low-d/",
+          "verified": true
+        },
+        {
+          "text": "A new study found that a low dose of aspirin in a mouse model of metastatic cancer can activate the immune T cells to attack metastatic cancer cells and reduce the formation of metastatic tumors, the effect is mediated by platelet inhibition.",
+          "source": "posts.bryanjohnson.com archived X post, Mar 14, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/a-new-study-found-that-a-low-dose-of-aspirin-in-a/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": "baby aspirin dose of 80-100 mg; notes typical anti-inflammatory doses are higher",
+      "summary": "He discusses aspirin as potentially beneficial for inflammation/anti-inflammaging and shares mechanistic cancer research, but cautions about side effects and (as of Jan 2026) is skeptical of low-dose aspirin for primary-prevention heart health, and it is not listed in his current published Blueprint protocol."
+    },
+    "sulforaphane": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Broccoli (head plus stalk), 250 grams (can also use broccoli sprouts)",
+          "source": "Blueprint protocol page (Bryan Johnson's Protocol), Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Broccoli Seed Extract (Glucoraphanin 20 mg) 200 mg",
+          "source": "Blueprint Essential Capsules product page (Supplement Facts panel)",
+          "url": "https://blueprint.bryanjohnson.com/collections/all-products/products/essentials-capsules",
+          "verified": true
+        },
+        {
+          "text": "Take 2 capsules in the morning with food.",
+          "source": "Blueprint Essential Capsules product page (How to Use)",
+          "url": "https://blueprint.bryanjohnson.com/collections/all-products/products/essentials-capsules",
+          "verified": true
+        },
+        {
+          "text": "What I'm eating. Why I'm eating it: Nrf2 pathway activation, …",
+          "source": "TwStalker archived/retweet context (not a first-party Bryan Johnson X post page)",
+          "url": "https://mobile.twstalker.com/KittenJuicer?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Essential Capsules: Broccoli Seed Extract 200 mg providing Glucoraphanin 20 mg per serving; directions: take 2 capsules in the morning with food; diet: broccoli 250 g (can also use broccoli sprouts).",
+      "summary": "He appears supportive in practice: Blueprint currently includes broccoli/broccoli sprouts in his diet and a quantified broccoli seed extract providing glucoraphanin (a sulforaphane precursor) in his active supplement stack, though he is not directly quoted saying “sulforaphane” by name in the provided primary sources."
+    },
+    "urolithin A": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "I did not find any mention of “urolithin” / “urolithin A” / “Mitopure” on Bryan’s official protocol page.",
+          "source": "User-provided research summary referencing Bryan Johnson protocol site (DON’T DIE / Bryan’s Protocol)",
+          "url": "https://protocol.bryanjohnson.com/?utm_source=openai",
+          "verified": false
+        },
+        {
+          "text": "Based on the current public “DON’T DIE / Bryan’s Protocol” page, urolithin A / Mitopure is not listed in the pills/supplements shown there.",
+          "source": "User-provided research summary referencing Bryan Johnson protocol site (DON’T DIE / Bryan’s Protocol)",
+          "url": "https://protocol.bryanjohnson.com/?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No primary, citable public statements from Bryan Johnson about urolithin A/Mitopure were found in the provided sources, and it is not currently listed on his public protocol page, so his stance is best treated as neutral and the intervention as not included."
+    },
+    "acarbose": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Longevity Therapeutics … 1. Acarbose 200 mg daily - helps blunt post-meal blood sugar spikes, improve insulin sensitivity, and has been shown in long-term studies to reduce cardiovascular events and extend lifespan in animal models, making it a valuable tool for metabolic health and longevity.",
+          "source": "posts.bryanjohnson.com X-post mirror ('Longevity Therapeutics… Acarbose 200 mg daily')",
+          "url": "https://posts.bryanjohnson.com/tweets/longevity-therapeutics1-acarbose-200-mg-daily/",
+          "verified": true
+        },
+        {
+          "text": "What I do for routine blood glucose optimization: Metformin SR, Acarbose, Ginger. Cinnamon, Turmeric, Garlic, Zinc, D3, DHEA, + low GI/GL diet + CRON.",
+          "source": "posts.bryanjohnson.com X-post mirror ('What I do for routine blood glucose optimization…')",
+          "url": "https://posts.bryanjohnson.com/tweets/9-blood-glucose-contd-what-i-do-for-routine-b/",
+          "verified": true
+        },
+        {
+          "text": "Acarbose 200 mg (Rx)",
+          "source": "Blueprint protocol page ('Bryan Johnson’s Protocol' / 'My Rx stack')",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Acarbose 200 mg daily – helps blunt post-meal blood sugar spikes, improve insulin sensitivity, and … extend lifespan in animal models…",
+          "source": "Blueprint protocol page ('Bryan Johnson’s Protocol' / Rx-Prescriptions rationale)",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": false
+        },
+        {
+          "text": "Acarbose 200 mg (Rx)",
+          "source": "DON’T DIE protocol page ('My Rx stack')",
+          "url": "https://protocol.bryanjohnson.com/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Acarbose 200 mg daily (Rx)",
+      "summary": "Bryan Johnson publicly lists acarbose as an active prescription in his current protocol and frames it as a tool to blunt post-meal glucose spikes, improve insulin sensitivity, and potentially support longevity based on animal-model evidence."
+    },
+    "glycine": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Glycine 1200 mg",
+          "source": "Blueprint Longevity Mix product page (Supplement/Nutrition Facts)",
+          "url": "https://blueprint.bryanjohnson.com/pages/longevity-mix-bryan-johnson",
+          "verified": true
+        },
+        {
+          "text": "Glycine — Why we chose it: An amino acid that promotes relaxation, sleep, and metabolic function.",
+          "source": "Blueprint Longevity Mix product page (ingredient rationale/marketing copy)",
+          "url": "https://blueprint.bryanjohnson.com/pages/longevity-mix-bryan-johnson",
+          "verified": true
+        },
+        {
+          "text": "Bryan Johnson takes this daily",
+          "source": "Blueprint Longevity Mix product page (usage claim for the product containing glycine)",
+          "url": "https://blueprint.bryanjohnson.com/pages/longevity-mix-bryan-johnson",
+          "verified": true
+        },
+        {
+          "text": "Crank up your vitality and annihilate stress with a blend of … Glycine, L-Theanine…",
+          "source": "Bryan Johnson Blueprint Facebook post promoting Longevity Mix",
+          "url": "https://www.facebook.com/bryanjohnsonblueprint/posts/longevity-mix-isnt-just-another-supplement-its-a-revolution-in-a-drink-over-20-p/568963582778735/?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Glycine 1200 mg (in Longevity Mix, per serving/scoop as listed on the label)",
+      "summary": "He actively includes glycine in his current Blueprint stack via the daily Longevity Mix, which explicitly lists glycine (1200 mg) and describes it as chosen for relaxation, sleep, and metabolic function."
+    },
+    "methylene blue": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "My urine is now blue.\nStarted Methylene Blue today.",
+          "source": "posts.bryanjohnson.com post (tweet mirror), Aug 5, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/my-urine-is-now-blue-started-methylene-blue-tod/",
+          "verified": true
+        },
+        {
+          "text": "I’m experimenting with methylene blue.\nClinical trials in humans show promise for brain health.\nAnimal studies show minimal to no efficacy in lifespan extension.\nThe potential: mitochondrial function and energy.",
+          "source": "posts.bryanjohnson.com post (tweet mirror), Aug 11, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/im-experimenting-with-methylene-blue-clinical/",
+          "verified": true
+        },
+        {
+          "text": "My methylene blue protocol\n+ 25 mg/day of methylene blue orally\n+ 5 days a week\n+ Keeping a 2-day weekly clearance break to prevent accumulation, especially in the brain",
+          "source": "posts.bryanjohnson.com post (tweet mirror), Aug 11, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/1-my-methylene-blue-protocol-25-mg-day-of-meth/",
+          "verified": true
+        },
+        {
+          "text": "Methylene blue safety checklist\n+ G6PD first: Get a G6PD blood test, skip methylene blue if deficient.\n+ Med review: Do not take methylene blue with any antidepressants (SSRIs, SNRIs, MAOIs), or other serotonergic supplements/herbs or to linezolid (an antibiotic).\n+ Hydrate",
+          "source": "posts.bryanjohnson.com post (tweet mirror), Aug 11, 2025",
+          "url": "https://posts.bryanjohnson.com/tweets/8-methylene-blue-safety-checklist-g6pd-first/",
+          "verified": true
+        },
+        {
+          "text": "I’ve stopped taking methylene blue. Here’s why…",
+          "source": "Facebook post (not directly verifiable in provided research run), Aug 18, 2025 (claimed)",
+          "url": "https://www.facebook.com/bryanjohnsonblueprint/posts/ive-stopped-taking-methylene-blueheres-why/739687502373008/?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "experimental",
+      "dosage_mentioned": "25 mg/day orally, 5 days/week, with a 2-day weekly clearance break",
+      "summary": "He publicly framed methylene blue as a cautious self-experiment (with explicit safety warnings and a defined dosing schedule) and it is not documented as part of the current Blueprint protocol pages referenced in the research."
+    },
+    "klotho": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Reduced my Alpha Klotho biological age by 21 yrs in 5 months, from age 42 to age 21.\nKlotho therapy provided 12th highest performing increase in wild type mouse lifespan, providing 31% and 19% increase in male & female median lifespan.",
+          "source": "Bryan Johnson X post (archived on posts.bryanjohnson.com), Jun 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/reduced-my-alpha-klotho-biological-age-by-21-yrs-i/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Possible contributors to my Alpha Klotho increase: 1) BodStim*: bodysuit electrical stimulation. Used Feb 1 - Mar 14. 2) HGH (.6mg 5x wk) started February 11th 3) Increased 159+ bpm vigorous exercise to 90 min + weekly starting May 1st *",
+          "source": "Bryan Johnson X post (archived on posts.bryanjohnson.com), date not specified in provided research",
+          "url": "https://posts.bryanjohnson.com/tweets/page/855/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": "HGH 0.6 mg 5x/week (mentioned as a possible contributor to increased Alpha Klotho; no Klotho dose stated)",
+      "summary": "He has publicly promoted “Klotho therapy” and linked it to large improvements in his Alpha Klotho metric, but Klotho is not listed as a current component of his publicly posted Blueprint/Don’t Die protocol and no Klotho dosing details are provided."
+    },
+    "telomerase activation": {
+      "stance": "interested",
+      "quotes": [
+        {
+          "text": "Note, prior to this measurement, I've not done any specific telomere therapy. This is all from my basic Blueprint protocol. HBOT is the first possible telomere therapy, which I just completed, and we'll see the results in roughly six weeks.",
+          "source": "Archived X post on posts.bryanjohnson.com (Jan 15, 2025 per research notes)",
+          "url": "https://posts.bryanjohnson.com/tweets/note-prior_to_this_measurement-ive-not-done-any/",
+          "verified": true
+        },
+        {
+          "text": "According to my telomerase activity I am 12 years old … I just took my first Q-TRAP test, which measures the relative telomerase activity in blood cells, my relative telomerase activity is 7.7%. 2% or less and your telomere's are in decline.",
+          "source": "Archived X post on posts.bryanjohnson.com",
+          "url": "https://posts.bryanjohnson.com/tweets/according-to-my-telomerase-activity-i-am-12-years/",
+          "verified": true
+        },
+        {
+          "text": "Lobsters produce an especially active form of an enzyme called telomerase that preserves their telomeres and keeps their DNA from degrading as they age. We need to port the software to humans",
+          "source": "News article quoting his X post (archived on archive.ph, Dec 2025)",
+          "url": "https://archive.ph/2025.12.21-185923/https%3A/www.ynetnews.com/culture/lifestyle/article/rjpwgus7zx?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "experimental",
+      "dosage_mentioned": "HBOT: 100% oxygen at 2 atmospheric pressures; 60 sessions; 5 sessions/week; 90 min/session",
+      "summary": "He is measurement- and research-oriented on telomerase/telomeres, explicitly not using a dedicated telomere therapy until experimenting with HBOT, and he does not document use of telomerase activator supplements (e.g., TA-65) or telomerase gene therapy in the cited sources."
+    },
+    "quercetin": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "Today I started a next level age reversal intervention: taking Dasatinib, a Leukemia drug, and Quercetin, a plant flavonol. Together, they’re a senolytic.",
+          "source": "X post (mirrored), May 15, 2022",
+          "url": "https://posts.bryanjohnson.com/tweets/1-today-i-started-a-next-level-age-reversal-inter/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Protocol is Dasatinib 50mg + Quercetin 500mg daily for 3 consecutive days. 1x/mth for 6 months.",
+          "source": "X post (mirrored), May 15, 2022",
+          "url": "https://posts.bryanjohnson.com/tweets/3-protocol-is-dasatinib-50mg-quercetin-500mg-da/",
+          "verified": true
+        },
+        {
+          "text": "I have done two cycles of Dasatinib and Quercetin. We have some interesting data to share about this soon.",
+          "source": "X reply (mirrored), Jan 30, 2024",
+          "url": "https://posts.bryanjohnson.com/tweets/thedagda__-i-have-done-two-cycles-of-dasatinib-an/?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "He describes doing “dasatinib … and then quercetin” as a senescent-cell-clearing protocol, and says “my speed of aging spiked” when he did it.",
+          "source": "The Network State podcast transcript page (paraphrase of transcript content)",
+          "url": "https://thenetworkstate.com/episode/bryanjohnson?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "discontinued",
+      "dosage_mentioned": "Quercetin 500 mg daily + Dasatinib 50 mg daily for 3 consecutive days; 1x/month for 6 months",
+      "summary": "He publicly experimented with quercetin as part of intermittent Dasatinib+Quercetin senolytic cycles (with a specified dose), later noted at least one negative biomarker response, and quercetin is not included in his current published Blueprint protocol."
+    },
+    "NAD+ precursors": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "“NR vs NMN? I used each for 90 days & both were effective in getting my intracellular NAD levels to age 16 equivalent, 31 yr age reversal as semi-indirect bioage marker. Recent levels 54.6μM via Jinfiniti test. Used @truniagen NR & @JinfinitiPM NMN.”",
+          "source": "Bryan Johnson post (mirrored on posts.bryanjohnson.com), Apr 26, 2023",
+          "url": "https://posts.bryanjohnson.com/tweets/nr-vs-nmn-i-used-each-for-90-days-both-w/",
+          "verified": true
+        },
+        {
+          "text": "“Do you do NR or NMN? … And so I trialed both. I did 90 days on NR. I did 90 days on NMN and I measured my intracellular blood levels throughout. And I showed that both were basically effective in doing the objective.”",
+          "source": "The Diary Of A CEO (podscripts transcript page; episode date shown as Sep 5, 2025)",
+          "url": "https://podscripts.co/podcasts/the-diary-of-a-ceo-with-steven-bartlett/most-replayed-moment-this-longevity-protocol-actually-works-biohacker-bryan-johnson",
+          "verified": true
+        },
+        {
+          "text": "“So I was able to peg my intracellular NAD at the 18-year-old mark on both supplements.”",
+          "source": "The Diary Of A CEO (podscripts transcript page; episode date shown as Sep 5, 2025)",
+          "url": "https://podscripts.co/podcasts/the-diary-of-a-ceo-with-steven-bartlett/most-replayed-moment-this-longevity-protocol-actually-works-biohacker-bryan-johnson",
+          "verified": true
+        },
+        {
+          "text": "“They basically work to get my intracellular NAD to level age 16 equivalent.”",
+          "source": "NAD.com article quoting/attributing statement to Bryan Johnson (Jul 17, 2023; updated Aug 14, 2023)",
+          "url": "https://www.nad.com/news/bryan-johnson-nad-boosters-become-16-again",
+          "verified": true
+        }
+      ],
+      "protocol_status": "monitoring",
+      "dosage_mentioned": null,
+      "summary": "He has publicly self-experimented with NR and NMN (90 days each) and reports both raised his intracellular NAD to a much younger-equivalent level, but the provided sources do not confirm current inclusion in his oral Blueprint stack as of Feb 28, 2026."
+    },
+    "CD38 inhibitors": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "We wanted to do is also eliminate a molecule called CD38 … we wanted to eliminate the culprit of lower NAD levels, which is a molecule called CD38, an enzyme called CD38. So, our cleanser eliminates that enzyme…",
+          "source": "Ben Greenfield Life transcript (Young Goose podcast interview; speaker is Amitay Eshel, not Bryan Johnson)",
+          "url": "https://bengreenfieldlife.com/transcripts/transcript-younggoosepodcast/",
+          "verified": true
+        },
+        {
+          "text": "Bryan’s current public protocol list does not include apigenin, 78c, or any CD38 inhibitor.",
+          "source": "Paraphrase based on Bryan Johnson 'DON’T DIE' protocol page contents",
+          "url": "https://protocol.bryanjohnson.com/",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No primary-source statements from Bryan Johnson endorsing or criticizing CD38 inhibitors (e.g., apigenin or 78c) were found, and they do not appear in his current publicly listed protocol."
+    },
+    "navitoclax": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "Today I started a next level age reversal intervention: taking Dasatinib, a Leukemia drug, and Quercetin, a plant flavonol. Together, they’re a senolytic.",
+          "source": "posts.bryanjohnson.com tweet archive (originally an X/Twitter post)",
+          "url": "https://posts.bryanjohnson.com/tweets/1-today-i-started-a-next-level-age-reversal-inter/?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No public primary-source statement from Bryan Johnson mentions navitoclax/ABT-263, and navitoclax is not listed in his currently published Blueprint protocol, so his stance is best categorized as neutral/undetermined."
+    },
+    "UBX0101": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "Blueprint blog summarizes a study and lists “senolytics” among interventions that “demonstrated a significant increase or acceleration of Biological Aging.”",
+          "source": "Blueprint blog post ('Things that make you age faster, and slower'), Dec 19, 2024 (as cited in provided research)",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/things-that-make-you-age-faster-and-slower?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No public, attributable statement from Bryan Johnson mentioning UBX0101 was found in the provided sources, and UBX0101 does not appear to be included in his publicly listed Blueprint protocol."
+    },
+    "FOXO4-DRI": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "I stopped taking rapamycin",
+          "source": "Blueprint blog post title, Jan 25, 2025",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-stopped-taking-rapamycin?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No public, primary-source statements by Bryan Johnson about FOXO4-DRI were found in the provided research, and there is no public evidence it is included in his current Blueprint protocol."
+    },
+    "SRT1720": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "No attributable primary-source statement by Bryan Johnson explicitly mentioning “SRT1720” (or “SRT 1720”) was found across searched channels (X/Twitter, Blueprint site, YouTube/podcasts, interviews/news).",
+          "source": "User-provided research summary (negative finding across X/Blueprint/YouTube/interviews)",
+          "url": null,
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No public, primary-source evidence was found that Bryan Johnson has mentioned or included SRT1720 in Blueprint, so his stance and any dosage are not documentable from the provided sources."
+    },
+    "trehalose": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "Reduce sugar: Try sweeteners like Trehalose, Monk Fruit, Xylitol, and Allulose.",
+          "source": "Blueprint protocol page, Jan 23, 2026",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        }
+      ],
+      "protocol_status": "monitoring",
+      "dosage_mentioned": null,
+      "summary": "In currently sourced official Blueprint material, Bryan Johnson only mentions trehalose as an optional sugar-reduction sweetener (not as a specific longevity/autophagy intervention) and provides no personal-use or dosage details."
+    },
+    "GDF11": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "No primary-source, documented statements from Bryan Johnson were found that mention “GDF11” by name on the Blueprint/protocol sites checked.",
+          "source": "User-provided research summary referencing Blueprint/protocol site search",
+          "url": "https://protocol.bryanjohnson.com/",
+          "verified": false
+        },
+        {
+          "text": "No “GDF11” hits were found in the Network State Podcast transcript page featuring Bryan Johnson.",
+          "source": "User-provided research summary referencing Network State Podcast transcript search",
+          "url": "https://ns.com/podcast/bryanjohnson",
+          "verified": false
+        },
+        {
+          "text": "Secondary articles about young plasma/parabiosis mention GDF11 in broader scientific context, but they are not Bryan Johnson quoting or endorsing GDF11.",
+          "source": "User-provided research summary referencing secondary coverage",
+          "url": "https://www.nexus.fr/actualite/science/sang-jeunes/?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No primary-source public statements by Bryan Johnson mentioning GDF11 by name were found in the cited Blueprint/protocol pages or the referenced podcast transcript, and GDF11 is not publicly documented as part of his current Blueprint protocol."
+    },
+    "deprenyl": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "Selegiline / deprenyl is not listed on Bryan Johnson’s publicly posted Blueprint Protocol Rx / Prescriptions list, and a text search of the page finds no occurrences of “selegiline” or “deprenyl.”",
+          "source": "Blueprint protocol page (Rx / Prescriptions list), accessed Feb 28, 2026",
+          "url": "https://protocol.bryanjohnson.com/?utm_source=openai",
+          "verified": false
+        },
+        {
+          "text": "I did not find any direct, primary-source statement from Bryan Johnson (as of Feb 28, 2026) where he explicitly mentions deprenyl / selegiline / “MAO‑B inhibitor” by name in a quote I can reliably attribute to him.",
+          "source": "User-provided research summary (not a Bryan Johnson primary source)",
+          "url": null,
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No primary-source, attributable public statement from Bryan Johnson about deprenyl/selegiline was found in the provided sources, and it is not included in his currently published Blueprint protocol."
+    },
+    "pioglitazone": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "“My Rx stack … Armour Thyroid … Levothyroxine … Minoxidil … Metformin … Tadalafil … Jardiance … Acarbose … Repatha …”",
+          "source": "Blueprint / DON’T DIE protocol page ('My Rx stack' list excerpt), accessed Feb 28, 2026",
+          "url": "https://protocol.bryanjohnson.com/",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No primary-source statement from Bryan Johnson mentioning pioglitazone was found, and pioglitazone is not included in his currently published Rx stack on protocol.bryanjohnson.com."
+    },
+    "canagliflozin": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "My Rx stack … Jardiance 10 mg (Rx)",
+          "source": "Blueprint protocol page",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "Jardiance 10 mg daily - good evidence of SGLT 2 inhibitors as a longevity intervention and calorie restriction mimetic in animal experimentation.",
+          "source": "Blueprint protocol page",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": true
+        },
+        {
+          "text": "In the special case of SGLT2-inhibitors, … SGLT2 inhibitors outperforming Ozempic slightly by 14% in Alzheimer’s disease.",
+          "source": "Bryan Johnson post mirror (posts.bryanjohnson.com)",
+          "url": "https://posts.bryanjohnson.com/tweets/ozempic-had-better-alzheimers-disease-protective/?utm_source=openai",
+          "verified": true
+        }
+      ],
+      "protocol_status": "uses_alternative",
+      "dosage_mentioned": null,
+      "summary": "No first-party public evidence was found that Bryan Johnson uses or endorses canagliflozin specifically; he documents using the alternative SGLT2 inhibitor empagliflozin (Jardiance) 10 mg daily and speaks positively about SGLT2 inhibitors as a longevity intervention class."
+    },
+    "everolimus": {
+      "stance": "neutral",
+      "quotes": [
+        {
+          "text": "On September 28th, I decided to stop rapamycin, ending almost 5 years of experimentation with this molecule for its longevity potential.",
+          "source": "Blueprint blog post 'I stopped taking rapamycin'",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-stopped-taking-rapamycin",
+          "verified": true
+        },
+        {
+          "text": "I have tested various rapamycin protocols including weekly (5, 6, and 10 mg dose schedules), biweekly (13 mg), and alternating weekly (6/13 mg)…",
+          "source": "Blueprint blog post 'I stopped taking rapamycin'",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-stopped-taking-rapamycin",
+          "verified": true
+        },
+        {
+          "text": "…my team and I came to the conclusion that the benefits of lifelong dosing of Rapamycin do not justify the hefty side-effects (intermittent skin/soft tissue infections, lipid abnormalities, glucose elevations, and increased resting heart rate).",
+          "source": "Blueprint blog post 'I stopped taking rapamycin'",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/i-stopped-taking-rapamycin",
+          "verified": true
+        },
+        {
+          "text": "His current published 'My Rx stack' does not list rapamycin or everolimus.",
+          "source": "Blueprint protocol page (Rx stack list)",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+          "verified": false
+        }
+      ],
+      "protocol_status": "not_included",
+      "dosage_mentioned": null,
+      "summary": "No primary-source quote was found where Bryan Johnson mentions everolimus specifically, and his current published Blueprint Rx stack does not include everolimus (while he has publicly discontinued rapamycin/sirolimus, a related mTOR inhibitor)."
+    },
+    "niacin": {
+      "stance": "advocate",
+      "quotes": [
+        {
+          "text": "Niacinamide (15 mg in Blueprint Essential Capsules)",
+          "source": "posts.bryanjohnson.com archived X post, Sep 26, 2024",
+          "url": "https://posts.bryanjohnson.com/tweets/next-here-are-some-supplements-to-support-skin-he/",
+          "verified": true
+        },
+        {
+          "text": "Niacinamide (morning and night) found in serums or moisturizers.",
+          "source": "Blueprint blog: 'My New Skincare Protocol [2025]'",
+          "url": "https://blueprint.bryanjohnson.com/blogs/news/my-new-skincare-protocol-2025?utm_source=openai",
+          "verified": true
+        },
+        {
+          "text": "Niacin (as Niacinamide) 15 mg (94% DV)",
+          "source": "Blueprint product page: Essential Capsules (Supplement Facts panel)",
+          "url": "https://blueprint.bryanjohnson.com/collections/all-products/products/essentials-capsules",
+          "verified": true
+        },
+        {
+          "text": "...can start with the basics such as niacinamide (morning and night), vitamin C (morning), hyaluronic acid (as desired), and tretinoin (at night, an Rx).",
+          "source": "Moneycontrol news article reproducing/quoting his Sep 26, 2024 thread",
+          "url": "https://www.moneycontrol.com/news/trends/age-reversing-millionaire-bryan-johnson-shares-skincare-routine-tips-to-maintain-healthy-skin-viral-thread-12831315.html?utm_source=openai",
+          "verified": false
+        }
+      ],
+      "protocol_status": "active",
+      "dosage_mentioned": "Niacin (as niacinamide) 15 mg orally (Blueprint Essential Capsules); topical niacinamide morning and night (no % strength specified)",
+      "summary": "He actively includes niacinamide in his Blueprint regimen (15 mg orally in Essential Capsules) and recommends topical niacinamide morning and night as part of his skincare protocol."
+    },
+    "17-alpha-estradiol": {
+      "stance": "experimenter",
+      "quotes": [
+        {
+          "text": "8/22 I started 17aE2, non feminizing estradiol (Rx), based upon male longevity evidence. 4mg wk, transdermal. No change serum estrogen/testosterone + no known side effects. Monitoring organs & systemic aging markers for effect. May trial higher dose & different dosing protocol.",
+          "source": "posts.bryanjohnson.com mirror of X post (start date, dose, monitoring)",
+          "url": "https://posts.bryanjohnson.com/tweets/8-22-i-started-17ae2-non-feminizing-estradiol-rx/",
+          "verified": true
+        },
+        {
+          "text": "@PaulSkallas My protocol includes 17-α estradiol (17aE2)",
+          "source": "posts.bryanjohnson.com mirror of X reply (protocol inclusion)",
+          "url": "https://posts.bryanjohnson.com/tweets/paulskallas-my-protocol-includes-17-%CE%B1-estradiol/",
+          "verified": true
+        },
+        {
+          "text": "about my 8 mg wk of 17α-E2 hormone",
+          "source": "posts.bryanjohnson.com mirror of X post (dose reference)",
+          "url": "https://posts.bryanjohnson.com/tweets/about-my-8-mg-wk-of-17%CE%B1-e2-hormone-why-i-take-it/",
+          "verified": true
+        },
+        {
+          "text": "why I take it: in NIA NIH triple site gold standard mouse lifespan studies, it caused 16% median and 17% maximum lifespan gain in wild type male mice (not tested in females)",
+          "source": "posts.bryanjohnson.com mirror of X post (rationale: ITP mouse lifespan results)",
+          "url": "https://posts.bryanjohnson.com/tweets/about-my-8-mg-wk-of-17%CE%B1-e2-hormone-why-i-take-it/",
+          "verified": true
+        },
+        {
+          "text": "I'm taking alpha-estradiol-17, the E2, which is the non-feminizing estrogen.",
+          "source": "Ben Greenfield podcast transcript page",
+          "url": "https://bengreenfieldlife.com/transcripts/transcript-bryan-johnson-podcast/",
+          "verified": true
+        }
+      ],
+      "protocol_status": "monitoring",
+      "dosage_mentioned": "4 mg/week transdermal (started Aug 2022); later referenced 8 mg/week",
+      "summary": "He has publicly stated he uses 17α-estradiol as an evidence-motivated longevity experiment (citing male-mouse lifespan data) while monitoring biomarkers, but current inclusion in the latest publicly searchable Blueprint protocol pages is not confirmed from the provided sources."
+    }
+  }
+}

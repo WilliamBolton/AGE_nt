@@ -1,0 +1,128 @@
+{
+  "company": "Retro Biosciences (Retro Bio) [https://www.crunchbase.com/organization/retro-biosciences]",
+  "ticker": null,
+  "founded": 2021,
+  "hq": "San Francisco, California, United States [https://www.crunchbase.com/organization/retro-biosciences]",
+  "stage": "preclinical",
+  "total_funding_usd": 180000000,
+  "pipeline": [
+    {
+      "compound": "Cellular reprogramming program (partial reprogramming) [https://www.retrobiosciences.com/]",
+      "intervention_link": null,
+      "target": "Cell identity/epigenetic state via reprogramming factors (e.g., OSK/OSKM; specific construct not disclosed) [https://www.retrobiosciences.com/]",
+      "mechanism": "Attempted epigenetic/phenotypic rejuvenation via partial cellular reprogramming (program area disclosed; specific modality not disclosed) [https://www.retrobiosciences.com/]; partial reprogramming has been reported to ameliorate multiple age-associated hallmarks in mice in academic studies [https://pubmed.ncbi.nlm.nih.gov/27281221/]",
+      "indication": null,
+      "phase": "preclinical (program disclosed; clinical assets not publicly specified) [https://www.retrobiosciences.com/]",
+      "hallmarks": [
+        "epigenetic_alterations",
+        "stem_cell_exhaustion",
+        "loss_of_proteostasis",
+        "cellular_senescence",
+        "mitochondrial_dysfunction"
+      ],
+      "categories": [
+        "epigenetic_intervention"
+      ],
+      "source": "https://www.retrobiosciences.com/ ; https://pubmed.ncbi.nlm.nih.gov/27281221/"
+    },
+    {
+      "compound": "Autophagy program (autophagy enhancement; specific compound(s) not disclosed) [https://www.retrobiosciences.com/]",
+      "intervention_link": null,
+      "target": "Autophagy/lysosomal pathways (specific molecular target(s) not disclosed) [https://www.retrobiosciences.com/]",
+      "mechanism": "Therapeutic induction or enhancement of autophagy (program area disclosed; specific mechanism not disclosed) [https://www.retrobiosciences.com/]; autophagy is widely implicated in aging and proteostasis maintenance [https://pubmed.ncbi.nlm.nih.gov/31827284/]",
+      "indication": null,
+      "phase": "preclinical (program disclosed; clinical assets not publicly specified) [https://www.retrobiosciences.com/]",
+      "hallmarks": [
+        "disabled_macroautophagy",
+        "loss_of_proteostasis",
+        "mitochondrial_dysfunction"
+      ],
+      "categories": [
+        "autophagy_induction"
+      ],
+      "source": "https://www.retrobiosciences.com/ ; https://pubmed.ncbi.nlm.nih.gov/31827284/"
+    },
+    {
+      "compound": "Plasma-inspired therapeutics program (systemic factors; specific factor(s) not disclosed) [https://www.retrobiosciences.com/]",
+      "intervention_link": null,
+      "target": "Circulating/systemic factors influencing tissue function (specific target(s) not disclosed) [https://www.retrobiosciences.com/]",
+      "mechanism": "Therapeutics inspired by plasma/systemic milieu (program area disclosed; specific mechanism not disclosed) [https://www.retrobiosciences.com/]; heterochronic parabiosis and circulating factors have been associated with modulation of aging phenotypes in academic research [https://pubmed.ncbi.nlm.nih.gov/25669337/]",
+      "indication": null,
+      "phase": "preclinical (program disclosed; clinical assets not publicly specified) [https://www.retrobiosciences.com/]",
+      "hallmarks": [
+        "altered_intercellular_communication",
+        "chronic_inflammation",
+        "stem_cell_exhaustion"
+      ],
+      "categories": [
+        "systemic_factors",
+        "anti_inflammatory",
+        "immune_rejuvenation"
+      ],
+      "source": "https://www.retrobiosciences.com/ ; https://pubmed.ncbi.nlm.nih.gov/25669337/"
+    }
+  ],
+  "hallmarks_targeted": [
+    "altered_intercellular_communication",
+    "cellular_senescence",
+    "chronic_inflammation",
+    "disabled_macroautophagy",
+    "epigenetic_alterations",
+    "loss_of_proteostasis",
+    "mitochondrial_dysfunction",
+    "stem_cell_exhaustion"
+  ],
+  "category_links": [
+    "anti_inflammatory",
+    "autophagy_induction",
+    "epigenetic_intervention",
+    "immune_rejuvenation",
+    "systemic_factors"
+  ],
+  "key_people": [
+    {
+      "name": "Joe Betts-LaCroix [https://www.crunchbase.com/organization/retro-biosciences]",
+      "role": "CEO / Co-founder (as listed by Crunchbase) [https://www.crunchbase.com/organization/retro-biosciences]",
+      "background": "Listed as CEO and co-founder of Retro Biosciences on Crunchbase; additional biography details source needed. [https://www.crunchbase.com/organization/retro-biosciences]"
+    }
+  ],
+  "investors_notable": [
+    "Sam Altman (listed by Crunchbase as an investor/associated person) [https://www.crunchbase.com/organization/retro-biosciences]"
+  ],
+  "risks": [
+    "Reprogramming safety risk: in vivo reprogramming has been associated with teratoma/tumor formation and dysplasia in academic studies depending on factor expression and context, creating a major translational and regulatory risk for partial-reprogramming approaches. [https://pubmed.ncbi.nlm.nih.gov/24025773/]",
+    "Delivery and immunogenicity risk if gene therapy vectors are used for reprogramming: immune responses to AAV and other vectors can limit efficacy and re-dosing and can create safety liabilities. [https://pubmed.ncbi.nlm.nih.gov/28639791/]",
+    "Autophagy modulation risk: while autophagy is implicated in aging biology, autophagy can be context-dependent and may support survival of pre-malignant or stressed cells in certain settings, complicating dosing, patient selection, and safety. [https://pubmed.ncbi.nlm.nih.gov/31827284/]",
+    "Systemic/plasma-factor complexity risk: identification of causal circulating factors and reproducibility across models and humans remains challenging; translation from parabiosis/young-blood literature to druggable targets is non-trivial. [https://pubmed.ncbi.nlm.nih.gov/25669337/]",
+    "Pipeline opacity risk: the company publicly discloses broad program areas but not specific lead candidates or clinical timelines, increasing diligence uncertainty for partners/acquirers. [https://www.retrobiosciences.com/]",
+    "Clinical-stage uncertainty: a ClinicalTrials.gov keyword search for the company name may not show registered interventional trials, consistent with a preclinical stage, but registries can be incomplete or delayed. [https://clinicaltrials.gov/search?term=Retro%20Biosciences]"
+  ],
+  "competitive_advantages": [
+    "Multi-pronged strategy across three distinct longevity program areas (cellular reprogramming, autophagy, plasma-inspired therapeutics) may diversify scientific risk versus single-mechanism plays. [https://www.retrobiosciences.com/]",
+    "Large reported capitalization for an early-stage longevity company (total funding reported by Crunchbase) may support longer R&D cycles and platform build-out. [https://www.crunchbase.com/organization/retro-biosciences]"
+  ],
+  "acquisition_estimate": {
+    "low_usd": 360000000,
+    "high_usd": 1260000000,
+    "methodology": "Range uses a risk-adjusted multiple of reported total funding (Crunchbase reports $180M total funding) to approximate potential acquisition value at preclinical stage: ~2.0x (low) to ~7.0x (high) of invested capital, reflecting (i) platform/science optionality but (ii) high preclinical translation and safety risk, especially for reprogramming and systemic-factor approaches. Comparable deal references are used qualitatively to anchor what large buyers have paid for cell/gene therapy platforms, though Retro is earlier-stage and longevity-focused, so discounts are applied. [https://www.crunchbase.com/organization/retro-biosciences]",
+    "comparable_deals": [
+      "Bayer–BlueRock Therapeutics acquisition (cell therapy platform; deal terms reported publicly) — reference: https://en.wikipedia.org/wiki/BlueRock_Therapeutics (source needed for definitive deal terms/press release citation).",
+      "Roche–Spark Therapeutics acquisition (gene therapy company; reported ~$4.3B) — reference: https://en.wikipedia.org/wiki/Spark_Therapeutics (source needed for definitive deal terms/press release citation).",
+      "Bayer–Asklepios BioPharmaceutical (AskBio) acquisition (gene therapy; deal terms reported publicly) — reference: https://en.wikipedia.org/wiki/Asklepios_BioPharmaceutical (source needed for definitive deal terms/press release citation)."
+    ]
+  },
+  "sources": [
+    "https://www.retrobiosciences.com/",
+    "https://www.crunchbase.com/organization/retro-biosciences",
+    "https://clinicaltrials.gov/search?term=Retro%20Biosciences",
+    "https://pubmed.ncbi.nlm.nih.gov/27281221/",
+    "https://pubmed.ncbi.nlm.nih.gov/24025773/",
+    "https://pubmed.ncbi.nlm.nih.gov/28639791/",
+    "https://pubmed.ncbi.nlm.nih.gov/31827284/",
+    "https://pubmed.ncbi.nlm.nih.gov/25669337/",
+    "https://en.wikipedia.org/wiki/BlueRock_Therapeutics",
+    "https://en.wikipedia.org/wiki/Spark_Therapeutics",
+    "https://en.wikipedia.org/wiki/Asklepios_BioPharmaceutical"
+  ],
+  "needs_review": true
+}

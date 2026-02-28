@@ -1,0 +1,39 @@
+{
+  "company": "Hevolution Foundation",
+  "ticker": null,
+  "founded": 2021,
+  "hq": "Riyadh, Saudi Arabia",
+  "stage": "preclinical",
+  "total_funding_usd": null,
+  "pipeline": [],
+  "hallmarks_targeted": [],
+  "category_links": [],
+  "key_people": [
+    {
+      "name": "Mehmood Khan, MD",
+      "role": "Chief Executive Officer (CEO)",
+      "background": "Listed as CEO of Hevolution Foundation; prior executive/leadership roles in healthcare and industry (Hevolution leadership page: https://hevolution.com/leadership/)."
+    }
+  ],
+  "investors_notable": [
+    "Saudi Arabia-backed philanthropic funding initiative with public statements of large-scale support for aging/healthspan research (Nature news reference: 'Saudi Arabia launches $1-billion-a-year foundation to fund ageing research', Nature, 2022 — source needed for exact URL)."
+  ],
+  "risks": [
+    "As a grantmaking/strategic funding organization rather than a drug developer, impact depends on grantee execution, partner alignment, and follow-on translational funding availability (analyst view; source needed).",
+    "Strategic and reputational/geopolitical risk could affect global partnerships, talent recruitment, and co-funding dynamics (analyst view; source needed).",
+    "Difficulty of measuring attributable ROI/healthspan outcomes from a diversified funding portfolio; risk of funding projects that do not translate clinically (analyst view; source needed).",
+    "Field-wide geroscience risks: uncertain biomarkers, long timelines to prove healthspan benefit, and regulatory ambiguity for aging indications (analyst view; source needed)."
+  ],
+  "competitive_advantages": [
+    "Ability to deploy non-dilutive capital (grants/prizes/partnership funding) to catalyze early and translational aging biology programs (organizational model per Hevolution mission; https://hevolution.com/about/).",
+    "Potential convening power and portfolio approach across academia, biotech, and health systems to accelerate field building (organizational positioning per Hevolution 'about' materials; https://hevolution.com/about/)."
+  ],
+  "acquisition_estimate": null,
+  "sources": [
+    "Crunchbase organization profile for Hevolution Foundation (founded year/location): https://www.crunchbase.com/organization/hevolution-foundation",
+    "Hevolution Foundation — About: https://hevolution.com/about/",
+    "Hevolution Foundation — Leadership: https://hevolution.com/leadership/",
+    "Nature (2022) news reference: 'Saudi Arabia launches $1-billion-a-year foundation to fund ageing research' (used for public funding-scale context; source needed for exact URL)."
+  ],
+  "needs_review": true
+}

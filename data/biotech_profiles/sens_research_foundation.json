@@ -1,0 +1,181 @@
+{
+  "company": "SENS Research Foundation",
+  "ticker": null,
+  "founded": 2009,
+  "hq": "Mountain View, California, United States",
+  "stage": "preclinical",
+  "total_funding_usd": null,
+  "pipeline": [
+    {
+      "compound": "ApoptoSENS (senescent cell clearance research program)",
+      "intervention_link": "senolytics",
+      "target": "Senescent cells",
+      "mechanism": "Research program aimed at selectively removing senescent cells to reduce their deleterious contributions to aging phenotypes (exact modalities vary by project and collaborator).",
+      "indication": null,
+      "phase": "preclinical",
+      "hallmarks": [
+        "cellular_senescence",
+        "chronic_inflammation",
+        "altered_intercellular_communication"
+      ],
+      "categories": [
+        "senolytics",
+        "immune_rejuvenation"
+      ],
+      "source": "https://www.sens.org/our-research/apoptosens/"
+    },
+    {
+      "compound": "GlycoSENS (glucosepane/AGE crosslink remediation research program)",
+      "intervention_link": null,
+      "target": "Glucosepane and other advanced glycation end-product (AGE) crosslinks in extracellular matrix proteins",
+      "mechanism": "Research program focused on developing ways to remove or break glucosepane/AGE crosslinks to restore tissue elasticity and function.",
+      "indication": null,
+      "phase": "preclinical",
+      "hallmarks": [
+        "loss_of_proteostasis",
+        "altered_intercellular_communication"
+      ],
+      "categories": [
+        "metabolic_intervention"
+      ],
+      "source": "https://www.sens.org/our-research/glycosens/"
+    },
+    {
+      "compound": "MitoSENS (mitochondrial dysfunction remediation via nuclear backup/allotopic expression research program)",
+      "intervention_link": null,
+      "target": "Mitochondrial DNA (mtDNA) mutation-driven defects in mitochondrial-encoded proteins",
+      "mechanism": "Research program pursuing strategies such as expressing mitochondrial genes from the nucleus (allotopic expression) to bypass mtDNA mutations and restore mitochondrial function.",
+      "indication": null,
+      "phase": "preclinical",
+      "hallmarks": [
+        "mitochondrial_dysfunction",
+        "genomic_instability"
+      ],
+      "categories": [
+        "mitochondrial",
+        "cell_therapy"
+      ],
+      "source": "https://www.sens.org/our-research/mitosens/"
+    },
+    {
+      "compound": "LysoSENS (lysosomal aggregate clearance research program)",
+      "intervention_link": null,
+      "target": "Intracellular aggregates in lysosomes (e.g., oxidized cholesterol species/lipofuscin-like material, as described by the program)",
+      "mechanism": "Research program investigating introduction/engineering of novel degradative activities (e.g., microbial enzymes) to enhance lysosomal clearance of otherwise undegradable aggregates.",
+      "indication": null,
+      "phase": "preclinical",
+      "hallmarks": [
+        "loss_of_proteostasis",
+        "disabled_macroautophagy",
+        "chronic_inflammation"
+      ],
+      "categories": [
+        "autophagy_induction",
+        "anti_inflammatory"
+      ],
+      "source": "https://www.sens.org/our-research/lysosens/"
+    },
+    {
+      "compound": "AmyloSENS (extracellular aggregate/amyloid clearance research program)",
+      "intervention_link": null,
+      "target": "Extracellular aggregates/amyloids (program-level target; specific amyloids vary by project)",
+      "mechanism": "Research program focused on clearance of extracellular aggregates, including via immune-mediated approaches (e.g., immunotherapy concepts as described by the program).",
+      "indication": null,
+      "phase": "preclinical",
+      "hallmarks": [
+        "loss_of_proteostasis",
+        "altered_intercellular_communication"
+      ],
+      "categories": [
+        "immune_rejuvenation",
+        "neuroprotection"
+      ],
+      "source": "https://www.sens.org/our-research/amylosens/"
+    },
+    {
+      "compound": "RepleniSENS (cell replacement/tissue engineering research program)",
+      "intervention_link": null,
+      "target": "Age-related cell loss/atrophy in tissues",
+      "mechanism": "Research program pursuing regenerative medicine approaches to replace cells lost to aging and restore tissue function.",
+      "indication": null,
+      "phase": "preclinical",
+      "hallmarks": [
+        "stem_cell_exhaustion"
+      ],
+      "categories": [
+        "cell_therapy"
+      ],
+      "source": "https://www.sens.org/our-research/replenisens/"
+    }
+  ],
+  "hallmarks_targeted": [
+    "genomic_instability",
+    "loss_of_proteostasis",
+    "disabled_macroautophagy",
+    "mitochondrial_dysfunction",
+    "cellular_senescence",
+    "stem_cell_exhaustion",
+    "altered_intercellular_communication",
+    "chronic_inflammation"
+  ],
+  "category_links": [
+    "anti_inflammatory",
+    "autophagy_induction",
+    "cell_therapy",
+    "immune_rejuvenation",
+    "metabolic_intervention",
+    "mitochondrial",
+    "neuroprotection",
+    "senolytics"
+  ],
+  "key_people": [
+    {
+      "name": "Aubrey de Grey",
+      "role": "Co-founder (role history; current role source needed)",
+      "background": "Associated with founding SENS Research Foundation and the SENS damage-repair approach to aging (source: https://en.wikipedia.org/wiki/SENS_Research_Foundation)."
+    },
+    {
+      "name": "David Gobel",
+      "role": "Co-founder (role history; current role source needed)",
+      "background": "Listed as a co-founder of SENS Research Foundation (source: https://en.wikipedia.org/wiki/SENS_Research_Foundation)."
+    }
+  ],
+  "investors_notable": [],
+  "risks": [
+    "SRF is structured as a nonprofit research foundation; translation to products typically depends on external partners/spinouts rather than an internal clinical development engine (source: https://www.sens.org/about/ ; https://www.sens.org/our-research/).",
+    "Programs described by SRF are research-stage and generally preclinical, implying high technical and translational risk and long timelines to human proof-of-concept (source: https://www.sens.org/our-research/).",
+    "Several focus areas (e.g., glucosepane crosslink remediation and mitochondrial gene backup/allotopic expression) are technically challenging with uncertain in vivo efficacy/safety until demonstrated in robust animal and ultimately human studies (source: https://www.sens.org/our-research/glycosens/ ; https://www.sens.org/our-research/mitosens/).",
+    "As a donation-supported organization, funding continuity may be sensitive to philanthropy cycles and donor concentration (source needed; potential partial support from SRF donate page: https://www.sens.org/donate/).",
+    "Nonstandard 'acquisition' pathways for a nonprofit can complicate IP consolidation, governance, and incentives versus venture-backed biotechs (source needed)."
+  ],
+  "competitive_advantages": [
+    "Clear, modular taxonomy of damage-repair research programs (e.g., ApoptoSENS, GlycoSENS, MitoSENS, LysoSENS, AmyloSENS, RepleniSENS) that can be pursued in parallel and partnered/spun out individually (source: https://www.sens.org/our-research/).",
+    "Mission-driven platform for funding and coordinating high-risk aging-damage repair projects that may be difficult to finance through traditional venture pathways at very early stages (source: https://www.sens.org/about/ ; source needed for comparative financing claim).",
+    "Brand recognition within the longevity field for the 'SENS' damage-repair framework, aiding collaboration, fundraising, and talent attraction (source: https://www.sens.org/about/ ; source needed for brand-recognition impact)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 5000000,
+    "high_usd": 30000000,
+    "methodology": "Analyst estimate (not a reported transaction): because SRF is a nonprofit, an 'acquisition' would most plausibly be structured as an asset purchase and/or exclusive licensing of specific IP plus assumption/continuation of sponsored research relationships. Range is benchmarked qualitatively against (i) upfront values seen in early-stage platform acquisitions and (ii) the early/preclinical maturity of SRF programs (primarily research-stage per SRF program pages). Source needed for a defensible SRF-specific IP valuation; program maturity source: https://www.sens.org/our-research/.",
+    "comparable_deals": [
+      "Sanofi to acquire Tidal Therapeutics (reported $160M upfront, potential milestones; used only as an early-stage platform deal reference): https://www.prnewswire.com/news-releases/sanofi-to-acquire-tidal-therapeutics-to-strengthen-its-innovative-immunology-portfolio-301270071.html",
+      "Astellas to acquire Iota Biosciences (reported $127.5M upfront plus milestones; used only as an early-stage platform deal reference): https://www.prnewswire.com/news-releases/astellas-to-acquire-iota-biosciences-inc-301716628.html"
+    ]
+  },
+  "sources": [
+    "Crunchbase organization profile (used for founded year and HQ): https://www.crunchbase.com/organization/sens-research-foundation",
+    "SRF About page (mission/nonprofit context): https://www.sens.org/about/",
+    "SRF research programs overview: https://www.sens.org/our-research/",
+    "SRF ApoptoSENS program page: https://www.sens.org/our-research/apoptosens/",
+    "SRF GlycoSENS program page: https://www.sens.org/our-research/glycosens/",
+    "SRF MitoSENS program page: https://www.sens.org/our-research/mitosens/",
+    "SRF LysoSENS program page: https://www.sens.org/our-research/lysosens/",
+    "SRF AmyloSENS program page: https://www.sens.org/our-research/amylosens/",
+    "SRF RepleniSENS program page: https://www.sens.org/our-research/replenisens/",
+    "Wikipedia summary (founders/overview; use with caution): https://en.wikipedia.org/wiki/SENS_Research_Foundation",
+    "SRF donate page (evidence of donation-based support): https://www.sens.org/donate/",
+    "Comparable deal reference (Sanofi–Tidal): https://www.prnewswire.com/news-releases/sanofi-to-acquire-tidal-therapeutics-to-strengthen-its-innovative-immunology-portfolio-301270071.html",
+    "Comparable deal reference (Astellas–Iota): https://www.prnewswire.com/news-releases/astellas-to-acquire-iota-biosciences-inc-301716628.html"
+  ],
+  "needs_review": true
+}

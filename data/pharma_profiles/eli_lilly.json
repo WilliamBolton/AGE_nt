@@ -1,0 +1,93 @@
+{
+  "company": "Eli Lilly and Company",
+  "ticker": "LLY",
+  "hq": "Indianapolis, Indiana, United States",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Diabetes and obesity (Eli Lilly and Company, Form 10-K for FY2023, Item 1. Business)",
+    "Oncology (Eli Lilly and Company, Form 10-K for FY2023, Item 1. Business)",
+    "Immunology/inflammation (Eli Lilly and Company, Form 10-K for FY2023, Item 1. Business)",
+    "Neuroscience (Eli Lilly and Company, Form 10-K for FY2023, Item 1. Business)"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Lilly’s marketed portfolio includes incretin-based cardiometabolic therapies for type 2 diabetes and obesity/weight management (e.g., tirzepatide as Mounjaro/Zepbound; dulaglutide as Trulicity), which address conditions associated with increased risk of morbidity and mortality (Sources: FDA Drugs@FDA: Mounjaro (tirzepatide); FDA press announcement “FDA approves new medication for chronic weight management” (Zepbound): https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management ; Trulicity Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125469 ; CDC obesity health effects: https://www.cdc.gov/obesity/basics/health-effects.html ; CDC diabetes overview: https://www.cdc.gov/diabetes/basics/diabetes.html). Lilly also markets immunomodulators such as the JAK inhibitor baricitinib (Olumiant), aligning mechanistically with the chronic inflammation/inflammaging theme in aging biology (Sources: Olumiant Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207924 ; Franceschi C, Campisi J. “Chronic inflammation (inflammaging) and its potential contribution to age-associated diseases.” Nat Rev Immunol. 2014. doi:10.1038/nri3701). However, dedicated, explicitly labeled “anti-aging/longevity” clinical programs or endpoints are not clearly disclosed in public materials (source needed).",
+  "existing_longevity_assets": [
+    {
+      "compound": "tirzepatide (Mounjaro/Zepbound)",
+      "intervention_link": null,
+      "status": "FDA-approved",
+      "indication": "Type 2 diabetes (Mounjaro); chronic weight management in adults with obesity or overweight with at least one weight-related condition (Zepbound)",
+      "relevance": "Longevity relevance via cardiometabolic risk modification through treatment of obesity and type 2 diabetes, which are associated with adverse health outcomes (Sources: FDA Drugs@FDA: Mounjaro (tirzepatide); FDA press announcement (Zepbound): https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management ; CDC obesity health effects: https://www.cdc.gov/obesity/basics/health-effects.html ; CDC diabetes overview: https://www.cdc.gov/diabetes/basics/diabetes.html).",
+      "source": "FDA Drugs@FDA: Mounjaro (tirzepatide); FDA press announcement (Zepbound): https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management"
+    },
+    {
+      "compound": "dulaglutide (Trulicity)",
+      "intervention_link": null,
+      "status": "FDA-approved",
+      "indication": "Type 2 diabetes mellitus",
+      "relevance": "Longevity relevance through treatment of type 2 diabetes, a condition associated with major chronic disease complications (Source: Trulicity Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125469 ; CDC diabetes overview: https://www.cdc.gov/diabetes/basics/diabetes.html).",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125469"
+    },
+    {
+      "compound": "baricitinib (Olumiant)",
+      "intervention_link": null,
+      "status": "FDA-approved",
+      "indication": "Inflammatory/autoimmune indications including rheumatoid arthritis and atopic dermatitis (per FDA label and subsequent approvals)",
+      "relevance": "Longevity relevance as a systemic anti-inflammatory/immunomodulatory agent; chronic inflammation (“inflammaging”) is widely discussed as a contributor to age-associated pathology (Sources: Olumiant Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207924 ; Franceschi C, Campisi J. Nat Rev Immunol. 2014. doi:10.1038/nri3701).",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207924"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "deregulated_nutrient_sensing",
+    "altered_intercellular_communication",
+    "chronic_inflammation"
+  ],
+  "aging_signal_strength": 6,
+  "recent_acquisitions": [
+    {
+      "target": "Dice Therapeutics",
+      "year": 2023,
+      "value_usd": 2400000000,
+      "relevance": "Immunology-focused acquisition (clinical-stage), potentially relevant to aging via modulation of immune/inflammatory pathways (Source: Eli Lilly press release, June 20, 2023, “Lilly to acquire Dice Therapeutics for $2.4 billion”).",
+      "source": "Eli Lilly press release, June 20, 2023, “Lilly to acquire Dice Therapeutics for $2.4 billion” (reference; source needed for URL)."
+    },
+    {
+      "target": "Versanis Bio",
+      "year": 2023,
+      "value_usd": 1930000000,
+      "relevance": "Cardiometabolic/obesity-adjacent acquisition (bimagrumab), with potential relevance to late-life function and metabolic health (Source: Eli Lilly press release, July 18, 2023, “Lilly to acquire Versanis Bio for up to $1.93 billion”).",
+      "source": "Eli Lilly press release, July 18, 2023, “Lilly to acquire Versanis Bio for up to $1.93 billion” (reference; source needed for URL)."
+    },
+    {
+      "target": "POINT Biopharma",
+      "year": 2023,
+      "value_usd": 1400000000,
+      "relevance": "Radioligand oncology acquisition (clinical-stage); aging relevance mainly indirect via cancer burden in older populations (Source: Eli Lilly press release, Oct 3, 2023, “Lilly to acquire POINT Biopharma for approximately $1.4 billion”).",
+      "source": "Eli Lilly press release, Oct 3, 2023, “Lilly to acquire POINT Biopharma for approximately $1.4 billion” (reference; source needed for URL)."
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Clinical-stage (based on 2023 acquisitions of Dice Therapeutics, Versanis Bio, and POINT Biopharma described by Lilly as clinical-stage in acquisition announcements) (Sources: Eli Lilly press releases dated June 20, 2023; July 18, 2023; Oct 3, 2023 — specific URLs source needed).",
+    "avg_deal_size_usd": 1910000000,
+    "focus_areas": [
+      "Immunology/inflammation (Dice Therapeutics acquisition; Source: Eli Lilly press release, June 20, 2023)",
+      "Cardiometabolic/obesity (Versanis Bio acquisition; Source: Eli Lilly press release, July 18, 2023)",
+      "Oncology/radioligands (POINT Biopharma acquisition; Source: Eli Lilly press release, Oct 3, 2023)"
+    ],
+    "recent_trend": "Multiple billion-dollar acquisitions in 2023 spanning immunology and cardiometabolic/obesity, plus oncology (Sources: Eli Lilly press releases dated June 20, 2023; July 18, 2023; Oct 3, 2023). The avg_deal_size_usd value is computed from the disclosed headline deal values ($2.4B, up to $1.93B, and ~$1.4B) in those announcements."
+  },
+  "sources": [
+    "Eli Lilly and Company, Form 10-K for fiscal year ended 2023 (filed 2024), Item 1. Business and cover page (HQ, business areas, ticker) (reference; source needed for specific accession URL).",
+    "FDA press announcement: “FDA approves new medication for chronic weight management” (Zepbound): https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management",
+    "Trulicity (dulaglutide) Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125469",
+    "Olumiant (baricitinib) Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207924",
+    "FDA Drugs@FDA: Mounjaro (tirzepatide) (reference; source needed for direct URL).",
+    "CDC: Health Effects of Overweight and Obesity: https://www.cdc.gov/obesity/basics/health-effects.html",
+    "CDC: Diabetes (Basics): https://www.cdc.gov/diabetes/basics/diabetes.html",
+    "Franceschi C, Campisi J. “Chronic inflammation (inflammaging) and its potential contribution to age-associated diseases.” Nat Rev Immunol. 2014. doi:10.1038/nri3701",
+    "Eli Lilly press release, June 20, 2023, “Lilly to acquire Dice Therapeutics for $2.4 billion” (reference; source needed for URL).",
+    "Eli Lilly press release, July 18, 2023, “Lilly to acquire Versanis Bio for up to $1.93 billion” (reference; source needed for URL).",
+    "Eli Lilly press release, Oct 3, 2023, “Lilly to acquire POINT Biopharma for approximately $1.4 billion” (reference; source needed for URL)."
+  ],
+  "needs_review": true
+}

@@ -1,0 +1,109 @@
+{
+  "company": "Sanofi",
+  "ticker": "Euronext Paris: SAN; NASDAQ ADR: SNY (https://en.wikipedia.org/wiki/Sanofi)",
+  "hq": "Paris, France (https://en.wikipedia.org/wiki/Sanofi)",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Prescription medicines (https://en.wikipedia.org/wiki/Sanofi)",
+    "Vaccines (https://en.wikipedia.org/wiki/Sanofi)",
+    "Consumer healthcare (https://en.wikipedia.org/wiki/Sanofi)",
+    "Immunology and inflammation (source needed)",
+    "Neurology (source needed)",
+    "Rare diseases (source needed)",
+    "Oncology (source needed)",
+    "Diabetes/endocrinology (source needed)"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Sanofi markets therapies in disease areas that are strongly age-associated, including inflammatory/immune-mediated diseases and metabolic disease (e.g., Dupixent/dupilumab for atopic dermatitis and asthma: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761055; Kevzara/sarilumab for rheumatoid arthritis: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761037; Lantus/insulin glargine for diabetes mellitus: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021081). It also has late-stage neurology development targeting immune pathways implicated in neuroinflammation (tolebrutinib Phase 3 in multiple sclerosis: https://clinicaltrials.gov/study/NCT04410978). However, Sanofi is not publicly positioned as a company directly developing therapeutics to target aging biology as an indication (source needed).",
+  "existing_longevity_assets": [
+    {
+      "compound": "dupilumab (Dupixent)",
+      "intervention_link": null,
+      "status": "FDA-approved",
+      "indication": "Atopic dermatitis; asthma (additional labeled indications exist) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761055)",
+      "relevance": "Targets type 2 inflammation pathways (IL-4/IL-13 signaling per label), making it potentially relevant to aging biology via chronic inflammation/altered immune signaling (analysis).",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761055"
+    },
+    {
+      "compound": "sarilumab (Kevzara)",
+      "intervention_link": null,
+      "status": "FDA-approved",
+      "indication": "Rheumatoid arthritis (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761037)",
+      "relevance": "IL-6 receptor blockade (per label) is relevant to inflammatory signaling networks that overlap with age-related chronic inflammation (analysis).",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761037"
+    },
+    {
+      "compound": "insulin glargine (Lantus)",
+      "intervention_link": null,
+      "status": "FDA-approved",
+      "indication": "Diabetes mellitus (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021081)",
+      "relevance": "Addresses metabolic dysregulation (a major driver of age-related morbidity); overlaps conceptually with nutrient-sensing/metabolic aging pathways but is not a direct geroscience intervention (analysis).",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021081"
+    },
+    {
+      "compound": "tolebrutinib",
+      "intervention_link": null,
+      "status": "Phase 3 (clinical development)",
+      "indication": "Relapsing multiple sclerosis (Phase 3 study record) (https://clinicaltrials.gov/study/NCT04410978)",
+      "relevance": "BTK inhibition in MS is relevant to immune-mediated neuroinflammation; neuroinflammatory modulation overlaps with aging hallmarks related to intercellular communication and chronic inflammation (analysis).",
+      "source": "https://clinicaltrials.gov/study/NCT04410978"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "chronic_inflammation",
+    "altered_intercellular_communication",
+    "deregulated_nutrient_sensing"
+  ],
+  "aging_signal_strength": 3,
+  "recent_acquisitions": [
+    {
+      "target": "Provention Bio",
+      "year": 2023,
+      "value_usd": 2900000000,
+      "relevance": "Autoimmune/type 1 diabetes-focused acquisition; relevant to immunomodulation of age-associated immune dysfunction and chronic inflammation (analysis).",
+      "source": "Sanofi press release: \"Sanofi to acquire Provention Bio\" (2023) (source needed)"
+    },
+    {
+      "target": "Translate Bio",
+      "year": 2021,
+      "value_usd": 3200000000,
+      "relevance": "mRNA platform acquisition; platform could enable rapid development of vaccines/therapeutics applicable to age-associated infectious disease risk and potentially other indications (analysis).",
+      "source": "Sanofi press release: \"Sanofi to acquire Translate Bio\" (2021) (source needed)"
+    },
+    {
+      "target": "Principia Biopharma",
+      "year": 2020,
+      "value_usd": 3700000000,
+      "relevance": "Immunology pipeline acquisition (BTK inhibitor programs); relevant to modulation of immune/inflammatory signaling that intersects with aging hallmarks (analysis).",
+      "source": "Sanofi press release: \"Sanofi to acquire Principia Biopharma\" (2020) (source needed)"
+    },
+    {
+      "target": "Synthorx",
+      "year": 2019,
+      "value_usd": 2500000000,
+      "relevance": "Immuno-oncology cytokine biology acquisition; relevance to immune modulation (analysis).",
+      "source": "Sanofi press release: \"Sanofi to acquire Synthorx\" (2019) (source needed)"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Late clinical-stage to commercial-stage boltons, plus occasional platform acquisitions (analysis; examples include Provention Bio, Translate Bio, Principia Biopharma, Synthorx—sources needed as cited in recent_acquisitions).",
+    "avg_deal_size_usd": 3075000000,
+    "focus_areas": [
+      "Immunology/autoimmune (inferred from Provention Bio and Principia Biopharma acquisitions; sources needed as cited in recent_acquisitions)",
+      "Platform technologies (mRNA) (inferred from Translate Bio acquisition; sources needed as cited in recent_acquisitions)"
+    ],
+    "recent_trend": "Recent M&A shows emphasis on immunology/autoimmune assets and enabling platforms (Translate Bio, Principia Biopharma, Provention Bio, Synthorx—sources needed as cited in recent_acquisitions)."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sanofi",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761055",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761037",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021081",
+    "https://clinicaltrials.gov/study/NCT04410978",
+    "Sanofi press release: \"Sanofi to acquire Provention Bio\" (2023) (source needed)",
+    "Sanofi press release: \"Sanofi to acquire Translate Bio\" (2021) (source needed)",
+    "Sanofi press release: \"Sanofi to acquire Principia Biopharma\" (2020) (source needed)",
+    "Sanofi press release: \"Sanofi to acquire Synthorx\" (2019) (source needed)"
+  ],
+  "needs_review": true
+}

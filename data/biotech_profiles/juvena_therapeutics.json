@@ -1,0 +1,89 @@
+{
+  "company": "Juvena Therapeutics",
+  "ticker": null,
+  "founded": 2017,
+  "hq": "Cambridge, Massachusetts, USA (https://www.crunchbase.com/organization/juvena-therapeutics)",
+  "stage": "preclinical",
+  "total_funding_usd": 41000000,
+  "pipeline": [
+    {
+      "compound": "Lead muscle-regenerative protein therapeutic (program name undisclosed publicly) (source needed)",
+      "intervention_link": null,
+      "target": "Undisclosed; described as a naturally occurring circulating factor/protein identified from human biology (https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)",
+      "mechanism": "Systemic protein therapeutic intended to drive skeletal muscle regeneration and improve muscle function (company-described approach) (https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)",
+      "indication": "Muscle wasting and myotonic dystrophy (https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)",
+      "phase": "preclinical",
+      "hallmarks": [
+        "altered_intercellular_communication",
+        "stem_cell_exhaustion"
+      ],
+      "categories": [
+        "systemic_factors"
+      ],
+      "source": "https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy"
+    },
+    {
+      "compound": "JuvNET (discovery platform for regenerative systemic factors) (source needed)",
+      "intervention_link": null,
+      "target": "Multiple/undisclosed secreted factors (platform-based discovery) (https://www.juvenatherapeutics.com/)",
+      "mechanism": "Computational/omics-driven identification of secreted proteins that modulate tissue regeneration (https://www.juvenatherapeutics.com/)",
+      "indication": null,
+      "phase": "discovery",
+      "hallmarks": [
+        "altered_intercellular_communication",
+        "stem_cell_exhaustion"
+      ],
+      "categories": [
+        "systemic_factors"
+      ],
+      "source": "https://www.juvenatherapeutics.com/"
+    }
+  ],
+  "hallmarks_targeted": [
+    "altered_intercellular_communication",
+    "stem_cell_exhaustion"
+  ],
+  "category_links": [
+    "systemic_factors"
+  ],
+  "key_people": [
+    {
+      "name": "source needed",
+      "role": "source needed",
+      "background": "source needed"
+    }
+  ],
+  "investors_notable": [
+    "source needed (see Crunchbase and Series A press release for investor syndicate) (https://www.crunchbase.com/organization/juvena-therapeutics; https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)"
+  ],
+  "risks": [
+    "Scientific/translation risk: regenerative effects seen in discovery or animal models may not translate to clinically meaningful functional benefit in humans (analysis; source needed for program-specific data).",
+    "Target/biology risk: targets are undisclosed publicly, making external validation difficult and increasing the risk of mechanism/biomarker mismatch (analysis; source needed).",
+    "Safety risk typical of systemic protein therapeutics, including immunogenicity and off-target pathway activation, particularly in chronic dosing settings (analysis; source needed for molecule-specific profile).",
+    "Manufacturing and CMC risk: scalability, stability, and cost-of-goods for protein biologics can constrain dose and commercial viability (analysis; source needed).",
+    "Financing risk: advancing a biologics platform and multiple programs through IND-enabling studies is capital-intensive and may require additional fundraising under uncertain market conditions (analysis; source needed)."
+  ],
+  "competitive_advantages": [
+    "Platform approach centered on systemic/circulating factors for regeneration (company positioning) (https://www.juvenatherapeutics.com/).",
+    "Focus on muscle-wasting and myotonic dystrophy as initial therapeutic areas (company communication) (https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 150000000,
+    "high_usd": 500000000,
+    "methodology": "Method: preclinical platform/lead-asset valuation heuristic. Start with comparable biopharma acquisitions that include significant preclinical-to-early clinical pipeline option value, then apply a large stage discount (given Juvena is described as preclinical and has undisclosed assets publicly) and adjust for (i) platform optionality across indications vs (ii) added uncertainty from limited public clinical visibility. Range intended to represent plausible upfront-equivalent value for a preclinical platform plus a lead program with IND-enabling progress (analysis; source needed for Juvena-specific partnering signals).",
+    "comparable_deals": [
+      "Roche acquisition of Carmot Therapeutics (up to ~$3.1B) (Roche press release, 2023-12-04): https://www.roche.com/media/releases/med-cor-2023-12-04",
+      "Merck acquisition of Pandion Therapeutics (~$1.85B) (Merck press release, 2021-02-25): https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+      "Astellas acquisition of Audentes Therapeutics (~$3.0B) (Astellas press release, 2019-12-03): https://www.astellas.com/en/news/14201"
+    ]
+  },
+  "sources": [
+    "https://www.crunchbase.com/organization/juvena-therapeutics",
+    "https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy",
+    "https://www.juvenatherapeutics.com/",
+    "https://www.roche.com/media/releases/med-cor-2023-12-04",
+    "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+    "https://www.astellas.com/en/news/14201"
+  ],
+  "needs_review": true
+}

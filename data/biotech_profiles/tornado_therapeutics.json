@@ -1,0 +1,27 @@
+{
+  "company": "Tornado Therapeutics",
+  "ticker": null,
+  "founded": null,
+  "hq": null,
+  "stage": "preclinical",
+  "total_funding_usd": null,
+  "pipeline": [],
+  "hallmarks_targeted": [],
+  "category_links": [],
+  "key_people": [],
+  "investors_notable": [],
+  "risks": [
+    "Public information appears limited (e.g., limited easily citable disclosures on pipeline, financing, leadership); additional primary-source validation needed. source needed",
+    "Early-stage biotech R&D risk: preclinical findings may not translate to humans; timelines and capital requirements can expand. source needed",
+    "If the company is developing a novel therapeutic modality/platform, manufacturing/CMC, delivery, and safety (immunogenicity/off-targets) are common causes of program failure. source needed"
+  ],
+  "competitive_advantages": [
+    "No specific, citable competitive advantages identified from provided sources; needs confirmation from company materials. source needed"
+  ],
+  "acquisition_estimate": null,
+  "sources": [
+    "https://www.crunchbase.com/organization/tornado-therapeutics",
+    "source needed (company website/press releases/SEC filings/clinical trial registry entries for founding year, HQ, funding, pipeline, and stage validation)"
+  ],
+  "needs_review": true
+}

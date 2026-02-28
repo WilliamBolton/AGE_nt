@@ -11,11 +11,20 @@ data/
 ├── age_nt.db                   # SQLite (mirrors JSON, supports structured queries)
 ├── documents/
 │   └── {intervention}.json             # All ingested documents for one intervention
+├── classifications/
+│   └── {intervention}.json             # LLM classification results (evidence_level, organism, etc.)
+├── summary/
+│   └── {intervention}.json             # Deterministic summary stats per intervention
 ├── trends/
 │   └── {intervention}.json             # Google Trends time-series data
 ├── query_cache/
 │   └── {intervention}.json             # Cached LLM-expanded search queries
-├── interventions.json                  # Config file — list of interventions to track (not data)
+├── pharma_profiles/
+│   └── {company}.json                  # Pharma company profiles (15 companies)
+├── biotech_profiles/
+│   └── {company}.json                  # Biotech startup profiles (10 companies)
+├── bryan_johnson.json                  # Bryan Johnson intervention stances/quotes
+├── interventions.json                  # Config file — list of 55 interventions to track (not data)
 ├── anage/                              # External AnAge database files
 └── drugage/                            # External DrugAge database files
 ```
@@ -319,7 +328,7 @@ The 12 hallmarks of aging:
 | `"chronic_inflammation"` | Chronic inflammation |
 | `"dysbiosis"` | Dysbiosis |
 
-> **Note:** These enum fields are not yet present in the document JSON files. They will be populated by LLM classification when reasoning modules are built. For now, documents only contain the raw ingested fields.
+> **Note:** These classification fields are **excluded from document JSON files** via Pydantic `exclude=True`. They are stored separately in `data/classifications/{intervention}.json` and populated by LLM reasoning agents after ingest. Document JSON files only contain the raw ingested fields.
 
 ---
 

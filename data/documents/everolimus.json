@@ -5694,29 +5694,6 @@
       ]
     },
     {
-      "id": "95f2379c-68b2-4f87-997c-3f5c58f60309",
-      "source_type": "drugage",
-      "intervention": "everolimus",
-      "intervention_aliases": [
-        "afinitor",
-        "RAD001"
-      ],
-      "title": "DrugAge: Everolimus in Drosophila melanogaster (Oregon R) \u2014 unknown lifespan change",
-      "abstract": "Everolimus administered to Drosophila melanogaster (Oregon R) , Unknown .  Reference: PMID 22363408.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22363408/?drugage=Everolimus&species=Drosophila melanogaster&strain=Oregon R&dosage=3 mM",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Drosophila melanogaster",
-      "strain": "Oregon R",
-      "dosage": "3 mM",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "22363408",
-      "gender": "Unknown"
-    },
-    {
       "id": "fb647634-8861-4575-9933-e55587a4e3ba",
       "source_type": "nih_grant",
       "intervention": "everolimus",
@@ -7417,6 +7394,29 @@
       "score": 3,
       "comment_count": 2,
       "sentiment": null
+    },
+    {
+      "id": "7e93d767-d912-4b3c-8be9-10f0197020d6",
+      "source_type": "drugage",
+      "intervention": "everolimus",
+      "intervention_aliases": [
+        "afinitor",
+        "RAD001"
+      ],
+      "title": "DrugAge: Everolimus in Drosophila melanogaster (Oregon R) \u2014 +16.6% lifespan change",
+      "abstract": "Everolimus administered to Drosophila melanogaster (Oregon R) , Unknown .  Lifespan change: +16.6%.  Reference: PMID 22363408.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22363408/?drugage=Everolimus&species=Drosophila melanogaster&strain=Oregon R&dosage=3 mM",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Drosophila melanogaster",
+      "strain": "Oregon R",
+      "dosage": "3 mM",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": 16.6,
+      "significance": null,
+      "reference_pmid": "22363408",
+      "gender": "Unknown"
     }
   ]
 }

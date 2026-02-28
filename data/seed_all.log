@@ -5312,3 +5312,489 @@ Summary saved to /Users/will/Code/Encode-Code/bio-hack/data/seed_summary.json
 2026-02-28 08:48:51.708 | INFO     | __main__:print_summary_table:343 - =====================================================
 2026-02-28 08:48:51.708 | INFO     | __main__:run:484 - 
 Summary saved to /Users/will/Code/Encode-Code/bio-hack/data/seed_summary.json
+2026-02-28 11:44:30.112 | INFO     | src.storage.sqlite_store:initialize:329 - SQLite initialized at /Users/will/Code/Encode-Code/bio-hack/data/age_nt.db
+2026-02-28 11:44:30.112 | INFO     | src.storage.manager:initialize:28 - Storage manager initialized
+2026-02-28 11:44:30.112 | INFO     | __main__:run:411 - Batch seed starting: 52 interventions, sources=drugage, delay=20s, max_results=50
+2026-02-28 11:44:30.112 | INFO     | __main__:run:422 - 
+[1/52] Seeding 'rapamycin'...
+2026-02-28 11:44:30.112 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'rapamycin'
+2026-02-28 11:44:30.112 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'rapamycine', 'temsirolimus', 'sirolimus', 'nsc 681152', 'zotarolimus', 'ay-22989', 'everolimus', 'rapamycin', 'rapamune'}
+2026-02-28 11:44:30.183 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 38 new documents for 'rapamycin'
+2026-02-28 11:44:30.189 | INFO     | src.storage.json_store:save_documents:62 - Saved 318 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/rapamycin.json
+2026-02-28 11:44:30.221 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 356 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/rapamycin.json
+2026-02-28 11:44:30.222 | INFO     | src.storage.manager:save_documents:53 - Stored 38 new documents for 'rapamycin'
+2026-02-28 11:44:30.222 | INFO     | __main__:run:435 - [1/52] rapamycin ... drugage:38 (38 docs, 0s) | 0s elapsed, ~6s remaining
+2026-02-28 11:44:30.222 | INFO     | __main__:run:443 -   Waiting 20s before next intervention...
+2026-02-28 11:44:50.223 | INFO     | __main__:run:422 - 
+[2/52] Seeding 'everolimus'...
+2026-02-28 11:44:50.224 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'everolimus'
+2026-02-28 11:44:50.224 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'rad001', 'everolimus (inn)', 'temsirolimus', 'sirolimus', 'afinitor', 'everolimus (usan)', 'everolimus', 'rad-001'}
+2026-02-28 11:44:50.239 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 1 new documents for 'everolimus'
+2026-02-28 11:44:50.245 | INFO     | src.storage.json_store:save_documents:62 - Saved 217 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/everolimus.json
+2026-02-28 11:44:50.252 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 218 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/everolimus.json
+2026-02-28 11:44:50.252 | INFO     | src.storage.manager:save_documents:53 - Stored 1 new documents for 'everolimus'
+2026-02-28 11:44:50.253 | INFO     | __main__:run:435 - [2/52] everolimus ... drugage:1 (1 docs, 0s) | 20s elapsed, ~8min remaining
+2026-02-28 11:44:50.253 | INFO     | __main__:run:443 -   Waiting 20s before next intervention...
+2026-02-28 11:45:10.254 | INFO     | __main__:run:422 - 
+[3/52] Seeding 'metformin'...
+2026-02-28 11:45:10.256 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'metformin'
+2026-02-28 11:45:10.256 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'buformin', 'dimethylbiguanide', 'phenformin', 'glucophage', 'metformin', 'n,n-dimethylimidodicarbonimidic diamide'}
+2026-02-28 11:45:10.355 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 50 new documents for 'metformin'
+2026-02-28 11:45:10.362 | INFO     | src.storage.json_store:save_documents:62 - Saved 385 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/metformin.json
+2026-02-28 11:45:10.389 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 435 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/metformin.json
+2026-02-28 11:45:10.389 | INFO     | src.storage.manager:save_documents:53 - Stored 50 new documents for 'metformin'
+2026-02-28 11:45:10.389 | INFO     | __main__:run:435 - [3/52] metformin ... drugage:50 (50 docs, 0s) | 40s elapsed, ~11min remaining
+2026-02-28 11:45:10.389 | INFO     | __main__:run:443 -   Waiting 20s before next intervention...
+2026-02-28 11:45:30.391 | INFO     | __main__:run:422 - 
+[4/52] Seeding 'acarbose'...
+2026-02-28 11:45:30.396 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'acarbose'
+2026-02-28 11:45:30.397 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'precose', 'alpha-glucosidase inhibitor', 'voglibose', 'glucobay', 'acb', 'miglitol', 'acarbose'}
+2026-02-28 11:45:30.422 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 10 new documents for 'acarbose'
+2026-02-28 11:45:30.429 | INFO     | src.storage.json_store:save_documents:62 - Saved 316 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/acarbose.json
+2026-02-28 11:45:30.440 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 326 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/acarbose.json
+2026-02-28 11:45:30.440 | INFO     | src.storage.manager:save_documents:53 - Stored 10 new documents for 'acarbose'
+2026-02-28 11:45:30.440 | INFO     | __main__:run:435 - [4/52] acarbose ... drugage:10 (10 docs, 0s) | 1min elapsed, ~12min remaining
+2026-02-28 11:45:30.440 | INFO     | __main__:run:443 -   Waiting 20s before next intervention...
+2026-02-28 11:45:50.442 | INFO     | __main__:run:422 - 
+[5/52] Seeding 'canagliflozin'...
+2026-02-28 11:45:50.446 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'canagliflozin'
+2026-02-28 11:45:50.446 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'dapagliflozin', 'ertugliflozin', 'invokana', 'canagliflozin', 'sglt2 inhibitor', 'empagliflozin', 'canagliflozin hydrate'}
+2026-02-28 11:45:50.465 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 6 new documents for 'canagliflozin'
+2026-02-28 11:45:50.472 | INFO     | src.storage.json_store:save_documents:62 - Saved 266 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/canagliflozin.json
+2026-02-28 11:45:50.482 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 272 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/canagliflozin.json
+2026-02-28 11:45:50.482 | INFO     | src.storage.manager:save_documents:53 - Stored 6 new documents for 'canagliflozin'
+2026-02-28 11:45:50.483 | INFO     | __main__:run:435 - [5/52] canagliflozin ... drugage:6 (6 docs, 0s) | 1min elapsed, ~13min remaining
+2026-02-28 11:45:50.483 | INFO     | __main__:run:443 -   Waiting 20s before next intervention...
+2026-02-28 11:46:10.484 | INFO     | __main__:run:422 - 
+[6/52] Seeding '17-alpha-estradiol'...
+2026-02-28 11:46:10.487 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for '17-alpha-estradiol'
+2026-02-28 11:46:10.488 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'17-alpha-estradiol-3-methyl ether', 'estradiol', 'estriol', '17ae2', 'estrone', '17-alpha-estradiol'}
+2026-02-28 11:46:10.495 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for '17-alpha-estradiol'
+2026-02-28 11:46:10.496 | INFO     | __main__:run:435 - [6/52] 17-alpha-estradiol ... drugage:0 (0 docs, 0s) | 2min elapsed, ~13min remaining
+2026-02-28 11:46:10.496 | INFO     | __main__:run:443 -   Waiting 20s before next intervention...
+2026-02-28 11:46:30.497 | INFO     | __main__:run:422 - 
+[7/52] Seeding 'NMN'...
+2026-02-28 11:46:30.499 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'NMN'
+2026-02-28 11:46:30.499 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'nicotinamide riboside', "nicotinamide-5'-mononucleotide", 'nmn', 'nicotinic acid', 'nicotinamide', 'beta-nmn', 'nicotinamide mononucleotide'}
+2026-02-28 11:46:30.527 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 10 new documents for 'NMN'
+2026-02-28 11:46:30.534 | INFO     | src.storage.json_store:save_documents:62 - Saved 326 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/nmn.json
+2026-02-28 11:46:30.549 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 336 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/nmn.json
+2026-02-28 11:46:30.549 | INFO     | src.storage.manager:save_documents:53 - Stored 10 new documents for 'NMN'
+2026-02-28 11:46:30.549 | INFO     | __main__:run:435 - [7/52] NMN ... drugage:10 (10 docs, 0s) | 2min elapsed, ~13min remaining
+2026-02-28 11:46:30.549 | INFO     | __main__:run:443 -   Waiting 20s before next intervention...
+2026-02-28 11:46:54.720 | INFO     | __main__:run:367 - Resuming from 'NMN' (46 remaining)
+2026-02-28 11:46:54.722 | INFO     | src.storage.sqlite_store:initialize:329 - SQLite initialized at /Users/will/Code/Encode-Code/bio-hack/data/age_nt.db
+2026-02-28 11:46:54.722 | INFO     | src.storage.manager:initialize:28 - Storage manager initialized
+2026-02-28 11:46:54.722 | INFO     | __main__:run:411 - Batch seed starting: 46 interventions, sources=drugage, delay=0s, max_results=50
+2026-02-28 11:46:54.722 | INFO     | __main__:run:422 - 
+[1/46] Seeding 'NMN'...
+2026-02-28 11:46:54.722 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'NMN'
+2026-02-28 11:46:54.722 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'nicotinamide mononucleotide', 'nicotinic acid', 'beta-nmn', 'nicotinamide', "nicotinamide-5'-mononucleotide", 'nicotinamide riboside', 'nmn'}
+2026-02-28 11:46:54.744 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'NMN'
+2026-02-28 11:46:54.744 | INFO     | __main__:run:435 - [1/46] NMN ... drugage:0 (0 docs, 0s) | 0s elapsed, ~1s remaining
+2026-02-28 11:46:54.744 | INFO     | __main__:run:422 - 
+[2/46] Seeding 'NR'...
+2026-02-28 11:46:54.744 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'NR'
+2026-02-28 11:46:54.744 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'niagen', 'nicotinamide mononucleotide', 'nicotinic acid', 'nicotinamide riboside chloride', 'nicotinamide', 'nicotinamide riboside', 'tru niagen', 'nr'}
+2026-02-28 11:46:54.769 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 10 new documents for 'NR'
+2026-02-28 11:46:54.774 | INFO     | src.storage.json_store:save_documents:62 - Saved 284 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/nr.json
+2026-02-28 11:46:54.789 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 294 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/nr.json
+2026-02-28 11:46:54.789 | INFO     | src.storage.manager:save_documents:53 - Stored 10 new documents for 'NR'
+2026-02-28 11:46:54.789 | INFO     | __main__:run:435 - [2/46] NR ... drugage:10 (10 docs, 0s) | 0s elapsed, ~1s remaining
+2026-02-28 11:46:54.790 | INFO     | __main__:run:422 - 
+[3/46] Seeding 'niacin'...
+2026-02-28 11:46:54.790 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'niacin'
+2026-02-28 11:46:54.790 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'nicotinic acid', 'niacine', 'niacin', 'nicotinamide', 'nicotinamide riboside', 'nicotinic acid adenine dinucleotide', '3-pyridinecarboxylic acid', 'vitamin b3'}
+2026-02-28 11:46:54.809 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 9 new documents for 'niacin'
+2026-02-28 11:46:54.816 | INFO     | src.storage.json_store:save_documents:62 - Saved 313 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/niacin.json
+2026-02-28 11:46:54.823 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 322 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/niacin.json
+2026-02-28 11:46:54.823 | INFO     | src.storage.manager:save_documents:53 - Stored 9 new documents for 'niacin'
+2026-02-28 11:46:54.823 | INFO     | __main__:run:435 - [3/46] niacin ... drugage:9 (9 docs, 0s) | 0s elapsed, ~1s remaining
+2026-02-28 11:46:54.823 | INFO     | __main__:run:422 - 
+[4/46] Seeding 'NAD+ precursors'...
+2026-02-28 11:46:54.825 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'NAD+ precursors'
+2026-02-28 11:46:54.825 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'nad+ precursors', 'nicotinamide mononucleotide', 'nicotinic acid', 'nadp+', 'niacin', 'nicotinamide', 'nicotinamide riboside', 'nadh', 'nmn', 'nadph', 'nr', 'vitamin b3'}
+2026-02-28 11:46:54.842 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 10 new documents for 'NAD+ precursors'
+2026-02-28 11:46:54.846 | INFO     | src.storage.json_store:save_documents:62 - Saved 241 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/nad+ precursors.json
+2026-02-28 11:46:54.853 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 251 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/nad+ precursors.json
+2026-02-28 11:46:54.853 | INFO     | src.storage.manager:save_documents:53 - Stored 10 new documents for 'NAD+ precursors'
+2026-02-28 11:46:54.853 | INFO     | __main__:run:435 - [4/46] NAD+ precursors ... drugage:10 (10 docs, 0s) | 0s elapsed, ~1s remaining
+2026-02-28 11:46:54.853 | INFO     | __main__:run:422 - 
+[5/46] Seeding 'CD38 inhibitors'...
+2026-02-28 11:46:54.853 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'CD38 inhibitors'
+2026-02-28 11:46:54.854 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'nad+ precursors', '78c', 'nicotinamide mononucleotide', 'nicotinamide riboside', 'nadh', 'quercetin cd38', 'cd38 inhibitors', 'apigenin'}
+2026-02-28 11:46:54.863 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 5 new documents for 'CD38 inhibitors'
+2026-02-28 11:46:54.868 | INFO     | src.storage.json_store:save_documents:62 - Saved 195 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/cd38 inhibitors.json
+2026-02-28 11:46:54.875 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 200 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/cd38 inhibitors.json
+2026-02-28 11:46:54.875 | INFO     | src.storage.manager:save_documents:53 - Stored 5 new documents for 'CD38 inhibitors'
+2026-02-28 11:46:54.875 | INFO     | __main__:run:435 - [5/46] CD38 inhibitors ... drugage:5 (5 docs, 0s) | 0s elapsed, ~1s remaining
+2026-02-28 11:46:54.875 | INFO     | __main__:run:422 - 
+[6/46] Seeding 'dasatinib quercetin'...
+2026-02-28 11:46:54.875 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'dasatinib quercetin'
+2026-02-28 11:46:54.875 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'dasatinib quercetin', 'dasatinib plus quercetin', 'dasatinib', 'd+q', 'senolytic cocktail', 'quercetin'}
+2026-02-28 11:46:54.933 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 37 new documents for 'dasatinib quercetin'
+2026-02-28 11:46:54.938 | INFO     | src.storage.json_store:save_documents:62 - Saved 265 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/dasatinib quercetin.json
+2026-02-28 11:46:54.957 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 302 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/dasatinib quercetin.json
+2026-02-28 11:46:54.957 | INFO     | src.storage.manager:save_documents:53 - Stored 37 new documents for 'dasatinib quercetin'
+2026-02-28 11:46:54.957 | INFO     | __main__:run:435 - [6/46] dasatinib quercetin ... drugage:37 (37 docs, 0s) | 0s elapsed, ~2s remaining
+2026-02-28 11:46:54.957 | INFO     | __main__:run:422 - 
+[7/46] Seeding 'senolytics'...
+2026-02-28 11:46:54.957 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'senolytics'
+2026-02-28 11:46:54.957 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'senolytics', 'curcumin', 'senolytic', 'senescent cell clearance', 'fisetin', 'dasatinib', 'rapamycin', 'apigenin', 'quercetin'}
+2026-02-28 11:46:55.028 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 50 new documents for 'senolytics'
+2026-02-28 11:46:55.035 | INFO     | src.storage.json_store:save_documents:62 - Saved 305 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/senolytics.json
+2026-02-28 11:46:55.054 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 355 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/senolytics.json
+2026-02-28 11:46:55.054 | INFO     | src.storage.manager:save_documents:53 - Stored 50 new documents for 'senolytics'
+2026-02-28 11:46:55.054 | INFO     | __main__:run:435 - [7/46] senolytics ... drugage:50 (50 docs, 0s) | 0s elapsed, ~2s remaining
+2026-02-28 11:46:55.054 | INFO     | __main__:run:422 - 
+[8/46] Seeding 'fisetin'...
+2026-02-28 11:46:55.054 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'fisetin'
+2026-02-28 11:46:55.054 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'myricetin', 'fisetin', 'flavonoid fisetin', "3,3',4',7-tetrahydroxyflavone", 'kaempferol', 'quercetin'}
+2026-02-28 11:46:55.143 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 47 new documents for 'fisetin'
+2026-02-28 11:46:55.150 | INFO     | src.storage.json_store:save_documents:62 - Saved 367 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/fisetin.json
+2026-02-28 11:46:55.164 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 414 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/fisetin.json
+2026-02-28 11:46:55.164 | INFO     | src.storage.manager:save_documents:53 - Stored 47 new documents for 'fisetin'
+2026-02-28 11:46:55.164 | INFO     | __main__:run:435 - [8/46] fisetin ... drugage:47 (47 docs, 0s) | 0s elapsed, ~2s remaining
+2026-02-28 11:46:55.164 | INFO     | __main__:run:422 - 
+[9/46] Seeding 'navitoclax'...
+2026-02-28 11:46:55.164 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'navitoclax'
+2026-02-28 11:46:55.164 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'abt-199 (venetoclax)', 'navitoclax', 'abbvie 263', 'navitoclax (abt-263)', 'obatoclax', 'abt-263', 'abt-737'}
+2026-02-28 11:46:55.169 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'navitoclax'
+2026-02-28 11:46:55.169 | INFO     | __main__:run:435 - [9/46] navitoclax ... drugage:0 (0 docs, 0s) | 0s elapsed, ~2s remaining
+2026-02-28 11:46:55.169 | INFO     | __main__:run:422 - 
+[10/46] Seeding 'UBX0101'...
+2026-02-28 11:46:55.169 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'UBX0101'
+2026-02-28 11:46:55.169 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'ubx0101', 'ubx 0101', 'ubx1325', 'unity biotechnology senolytic', 'ubx1967', 'ubx-0101'}
+2026-02-28 11:46:55.173 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'UBX0101'
+2026-02-28 11:46:55.173 | INFO     | __main__:run:435 - [10/46] UBX0101 ... drugage:0 (0 docs, 0s) | 0s elapsed, ~2s remaining
+2026-02-28 11:46:55.173 | INFO     | __main__:run:422 - 
+[11/46] Seeding 'FOXO4-DRI'...
+2026-02-28 11:46:55.174 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'FOXO4-DRI'
+2026-02-28 11:46:55.174 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'foxo4-dri', 'foxo1', 'proxofim', 'foxo3', 'foxo4 peptide', 'foxo4'}
+2026-02-28 11:46:55.178 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'FOXO4-DRI'
+2026-02-28 11:46:55.178 | INFO     | __main__:run:435 - [11/46] FOXO4-DRI ... drugage:0 (0 docs, 0s) | 0s elapsed, ~1s remaining
+2026-02-28 11:46:55.178 | INFO     | __main__:run:422 - 
+[12/46] Seeding 'quercetin'...
+2026-02-28 11:46:55.178 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'quercetin'
+2026-02-28 11:46:55.179 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'rutin', 'quercetin dihydrate', 'flavonoid quercetin', 'myricetin', "3,3',4',5,7-pentahydroxyflavone", 'kaempferol', 'quercetin'}
+2026-02-28 11:46:55.282 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 49 new documents for 'quercetin'
+2026-02-28 11:46:55.290 | INFO     | src.storage.json_store:save_documents:62 - Saved 385 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/quercetin.json
+2026-02-28 11:46:55.305 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 434 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/quercetin.json
+2026-02-28 11:46:55.305 | INFO     | src.storage.manager:save_documents:53 - Stored 49 new documents for 'quercetin'
+2026-02-28 11:46:55.305 | INFO     | __main__:run:435 - [12/46] quercetin ... drugage:49 (49 docs, 0s) | 1s elapsed, ~2s remaining
+2026-02-28 11:46:55.305 | INFO     | __main__:run:422 - 
+[13/46] Seeding 'resveratrol'...
+2026-02-28 11:46:55.305 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'resveratrol'
+2026-02-28 11:46:55.306 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'srt1720', 'epicatechin', 'srt501', 'revesterol', 'curcumin', 'resveratrol', 'resveratrol-3-o-glucoside', 'trans-resveratrol', "3,5,4'-trihydroxy-trans-stilbene", 'pterostilbene', 'quercetin'}
+2026-02-28 11:46:55.388 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 50 new documents for 'resveratrol'
+2026-02-28 11:46:55.395 | INFO     | src.storage.json_store:save_documents:62 - Saved 373 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/resveratrol.json
+2026-02-28 11:46:55.410 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 423 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/resveratrol.json
+2026-02-28 11:46:55.410 | INFO     | src.storage.manager:save_documents:53 - Stored 50 new documents for 'resveratrol'
+2026-02-28 11:46:55.411 | INFO     | __main__:run:435 - [13/46] resveratrol ... drugage:50 (50 docs, 0s) | 1s elapsed, ~2s remaining
+2026-02-28 11:46:55.411 | INFO     | __main__:run:422 - 
+[14/46] Seeding 'SRT1720'...
+2026-02-28 11:46:55.411 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'SRT1720'
+2026-02-28 11:46:55.411 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'srt1720', 'srt-1720', 'srt 1720', 'srt1720a', 'srt2183', 'srt1460'}
+2026-02-28 11:46:55.415 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'SRT1720'
+2026-02-28 11:46:55.415 | INFO     | __main__:run:435 - [14/46] SRT1720 ... drugage:0 (0 docs, 0s) | 1s elapsed, ~2s remaining
+2026-02-28 11:46:55.416 | INFO     | __main__:run:422 - 
+[15/46] Seeding 'spermidine'...
+2026-02-28 11:46:55.416 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'spermidine'
+2026-02-28 11:46:55.416 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'spm', '1,4-butanediamine, n-(3-aminopropyl)-', 'n-(3-aminopropyl)putrescine', 'putrescine', 'n-(3-aminopropyl)butane-1,4-diamine', 'spermine', 'spermidine'}
+2026-02-28 11:46:55.445 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 13 new documents for 'spermidine'
+2026-02-28 11:46:55.451 | INFO     | src.storage.json_store:save_documents:62 - Saved 289 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/spermidine.json
+2026-02-28 11:46:55.462 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 302 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/spermidine.json
+2026-02-28 11:46:55.462 | INFO     | src.storage.manager:save_documents:53 - Stored 13 new documents for 'spermidine'
+2026-02-28 11:46:55.462 | INFO     | __main__:run:435 - [15/46] spermidine ... drugage:13 (13 docs, 0s) | 1s elapsed, ~2s remaining
+2026-02-28 11:46:55.462 | INFO     | __main__:run:422 - 
+[16/46] Seeding 'urolithin A'...
+2026-02-28 11:46:55.465 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'urolithin A'
+2026-02-28 11:46:55.465 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'urolithin d', 'urolithin a methyl ether', 'urolithin c', 'urolithin a glucuronide', 'mitopure', 'urolithin a', 'urolithin b'}
+2026-02-28 11:46:55.481 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 12 new documents for 'urolithin A'
+2026-02-28 11:46:55.485 | INFO     | src.storage.json_store:save_documents:62 - Saved 186 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/urolithin a.json
+2026-02-28 11:46:55.491 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 198 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/urolithin a.json
+2026-02-28 11:46:55.491 | INFO     | src.storage.manager:save_documents:53 - Stored 12 new documents for 'urolithin A'
+2026-02-28 11:46:55.491 | INFO     | __main__:run:435 - [16/46] urolithin A ... drugage:12 (12 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.491 | INFO     | __main__:run:422 - 
+[17/46] Seeding 'trehalose'...
+2026-02-28 11:46:55.491 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'trehalose'
+2026-02-28 11:46:55.491 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'alpha,alpha-trehalose', 'maltose', 'trehalose', 'trehalose dihydrate', 'sucrose', 'treh', 'treh-1'}
+2026-02-28 11:46:55.499 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 3 new documents for 'trehalose'
+2026-02-28 11:46:55.504 | INFO     | src.storage.json_store:save_documents:62 - Saved 233 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/trehalose.json
+2026-02-28 11:46:55.511 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 236 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/trehalose.json
+2026-02-28 11:46:55.511 | INFO     | src.storage.manager:save_documents:53 - Stored 3 new documents for 'trehalose'
+2026-02-28 11:46:55.511 | INFO     | __main__:run:435 - [17/46] trehalose ... drugage:3 (3 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.511 | INFO     | __main__:run:422 - 
+[18/46] Seeding 'young plasma'...
+2026-02-28 11:46:55.512 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'young plasma'
+2026-02-28 11:46:55.512 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'parabiosis', 'young plasma', 'plasma exchange', 'heterochronic parabiosis', 'young blood', 'old plasma', 'aged plasma'}
+2026-02-28 11:46:55.517 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'young plasma'
+2026-02-28 11:46:55.517 | INFO     | __main__:run:435 - [18/46] young plasma ... drugage:0 (0 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.517 | INFO     | __main__:run:422 - 
+[19/46] Seeding 'GDF11'...
+2026-02-28 11:46:55.517 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'GDF11'
+2026-02-28 11:46:55.517 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'gdf11 protein', 'gdf 11', 'gdf-11', 'gdf11', 'gdf15', 'gdf8', 'myostatin', 'growth differentiation factor 11', 'gdf11 peptide'}
+2026-02-28 11:46:55.523 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 1 new documents for 'GDF11'
+2026-02-28 11:46:55.528 | INFO     | src.storage.json_store:save_documents:62 - Saved 216 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/gdf11.json
+2026-02-28 11:46:55.532 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 217 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/gdf11.json
+2026-02-28 11:46:55.532 | INFO     | src.storage.manager:save_documents:53 - Stored 1 new documents for 'GDF11'
+2026-02-28 11:46:55.532 | INFO     | __main__:run:435 - [19/46] GDF11 ... drugage:1 (1 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.532 | INFO     | __main__:run:422 - 
+[20/46] Seeding 'klotho'...
+2026-02-28 11:46:55.532 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'klotho'
+2026-02-28 11:46:55.532 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'gamma-klotho', 'alpha-klotho', 'klotho', 'klotho gene', 'kl', 'beta-klotho', 'klotho hormone', 'klotho protein'}
+2026-02-28 11:46:55.537 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'klotho'
+2026-02-28 11:46:55.537 | INFO     | __main__:run:435 - [20/46] klotho ... drugage:0 (0 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.537 | INFO     | __main__:run:422 - 
+[21/46] Seeding 'GLP-1 agonists'...
+2026-02-28 11:46:55.537 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'GLP-1 agonists'
+2026-02-28 11:46:55.537 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'tirzepatide', 'glp-1 agonists', 'dulaglutide', 'exenatide', 'wegovy', 'glucagon-like peptide-1 receptor agonists', 'glp-1 receptor agonists', 'ozempic', 'semaglutide', 'albiglutide', 'liraglutide'}
+2026-02-28 11:46:55.542 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'GLP-1 agonists'
+2026-02-28 11:46:55.542 | INFO     | __main__:run:435 - [21/46] GLP-1 agonists ... drugage:0 (0 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.542 | INFO     | __main__:run:422 - 
+[22/46] Seeding 'hyperbaric oxygen therapy'...
+2026-02-28 11:46:55.542 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'hyperbaric oxygen therapy'
+2026-02-28 11:46:55.542 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'oxygen therapy', 'normobaric oxygen therapy', 'hbo', 'hyperbaric oxygen therapy', 'hbot', 'hyperbaric oxygen'}
+2026-02-28 11:46:55.546 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'hyperbaric oxygen therapy'
+2026-02-28 11:46:55.546 | INFO     | __main__:run:435 - [22/46] hyperbaric oxygen therapy ... drugage:0 (0 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.546 | INFO     | __main__:run:422 - 
+[23/46] Seeding 'epigenetic reprogramming'...
+2026-02-28 11:46:55.546 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'epigenetic reprogramming'
+2026-02-28 11:46:55.547 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'yamanaka factors', 'somatic cell nuclear transfer (scnt)', 'oct4', 'oct4 sox2 klf4 myc', 'myc', 'induced pluripotent stem cells (ipscs)', 'transcription factor-mediated reprogramming', 'epigenetic reprogramming', 'oskm', 'sox2', 'klf4', 'partial reprogramming', 'ipsc reprogramming'}
+2026-02-28 11:46:55.551 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'epigenetic reprogramming'
+2026-02-28 11:46:55.551 | INFO     | __main__:run:435 - [23/46] epigenetic reprogramming ... drugage:0 (0 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.551 | INFO     | __main__:run:422 - 
+[24/46] Seeding 'epigenetic clocks'...
+2026-02-28 11:46:55.551 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'epigenetic clocks'
+2026-02-28 11:46:55.551 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'horvath clock', 'phenoage', 'dunedinpace', 'dna methylation', 'biological age predictors', 'methylation clock', 'epigenetic clocks', 'grimage', 'epigenetic biomarkers'}
+2026-02-28 11:46:55.556 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'epigenetic clocks'
+2026-02-28 11:46:55.556 | INFO     | __main__:run:435 - [24/46] epigenetic clocks ... drugage:0 (0 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.556 | INFO     | __main__:run:422 - 
+[25/46] Seeding 'alpha-ketoglutarate'...
+2026-02-28 11:46:55.556 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'alpha-ketoglutarate'
+2026-02-28 11:46:55.556 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'succinic acid', 'caakg', 'beta-ketoglutarate', 'calcium alpha-ketoglutarate', 'akg', 'alpha-ketoglutarate'}
+2026-02-28 11:46:55.592 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 18 new documents for 'alpha-ketoglutarate'
+2026-02-28 11:46:55.599 | INFO     | src.storage.json_store:save_documents:62 - Saved 337 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/alpha-ketoglutarate.json
+2026-02-28 11:46:55.615 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 355 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/alpha-ketoglutarate.json
+2026-02-28 11:46:55.615 | INFO     | src.storage.manager:save_documents:53 - Stored 18 new documents for 'alpha-ketoglutarate'
+2026-02-28 11:46:55.615 | INFO     | __main__:run:435 - [25/46] alpha-ketoglutarate ... drugage:18 (18 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.615 | INFO     | __main__:run:422 - 
+[26/46] Seeding 'taurine'...
+2026-02-28 11:46:55.615 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'taurine'
+2026-02-28 11:46:55.615 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'taurine sulfate', 'taurin', 'taurine', 'glycine', 'cysteine', '2-aminoethanesulfonic acid', 'glutamate'}
+2026-02-28 11:46:55.666 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 23 new documents for 'taurine'
+2026-02-28 11:46:55.673 | INFO     | src.storage.json_store:save_documents:62 - Saved 357 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/taurine.json
+2026-02-28 11:46:55.688 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 380 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/taurine.json
+2026-02-28 11:46:55.688 | INFO     | src.storage.manager:save_documents:53 - Stored 23 new documents for 'taurine'
+2026-02-28 11:46:55.688 | INFO     | __main__:run:435 - [26/46] taurine ... drugage:23 (23 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.689 | INFO     | __main__:run:422 - 
+[27/46] Seeding 'glycine'...
+2026-02-28 11:46:55.689 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'glycine'
+2026-02-28 11:46:55.689 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'aminoacetic acid', 'serine', 'alanine', '2-aminoacetic acid', 'glycine (gly)', 'gly', 'glycine', 'threonine'}
+2026-02-28 11:46:55.725 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 19 new documents for 'glycine'
+2026-02-28 11:46:55.731 | INFO     | src.storage.json_store:save_documents:62 - Saved 320 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/glycine.json
+2026-02-28 11:46:55.739 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 339 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/glycine.json
+2026-02-28 11:46:55.739 | INFO     | src.storage.manager:save_documents:53 - Stored 19 new documents for 'glycine'
+2026-02-28 11:46:55.739 | INFO     | __main__:run:435 - [27/46] glycine ... drugage:19 (19 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.739 | INFO     | __main__:run:422 - 
+[28/46] Seeding 'lithium'...
+2026-02-28 11:46:55.740 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'lithium'
+2026-02-28 11:46:55.740 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'lithobid', 'lithium chloride', 'eskalith', 'lithium', 'sodium valproate', 'lamotrigine', 'lithium carbonate', 'lithium orotate', 'carbamazepine', 'li'}
+2026-02-28 11:46:55.765 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 11 new documents for 'lithium'
+2026-02-28 11:46:55.772 | INFO     | src.storage.json_store:save_documents:62 - Saved 350 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/lithium.json
+2026-02-28 11:46:55.780 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 361 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/lithium.json
+2026-02-28 11:46:55.780 | INFO     | src.storage.manager:save_documents:53 - Stored 11 new documents for 'lithium'
+2026-02-28 11:46:55.780 | INFO     | __main__:run:435 - [28/46] lithium ... drugage:11 (11 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.780 | INFO     | __main__:run:422 - 
+[29/46] Seeding 'deprenyl'...
+2026-02-28 11:46:55.780 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'deprenyl'
+2026-02-28 11:46:55.780 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'(-)-deprenyl', 'deprenyl', 'methamphetamine', 'eldepryl', 'l-deprenyl', 'deprenyl hydrochloride', 'rasagiline', 'selegiline'}
+2026-02-28 11:46:55.799 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 12 new documents for 'deprenyl'
+2026-02-28 11:46:55.803 | INFO     | src.storage.json_store:save_documents:62 - Saved 244 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/deprenyl.json
+2026-02-28 11:46:55.810 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 256 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/deprenyl.json
+2026-02-28 11:46:55.810 | INFO     | src.storage.manager:save_documents:53 - Stored 12 new documents for 'deprenyl'
+2026-02-28 11:46:55.811 | INFO     | __main__:run:435 - [29/46] deprenyl ... drugage:12 (12 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.811 | INFO     | __main__:run:422 - 
+[30/46] Seeding 'pioglitazone'...
+2026-02-28 11:46:55.811 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'pioglitazone'
+2026-02-28 11:46:55.811 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'gw 1929', 'actos', 'brl 49653', 'pioglitazone hydrochloride', 'troglitazone', 'rosiglitazone', 'pio', 'pioglitazone'}
+2026-02-28 11:46:55.815 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'pioglitazone'
+2026-02-28 11:46:55.815 | INFO     | __main__:run:435 - [30/46] pioglitazone ... drugage:0 (0 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.815 | INFO     | __main__:run:422 - 
+[31/46] Seeding 'caloric restriction'...
+2026-02-28 11:46:55.815 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'caloric restriction'
+2026-02-28 11:46:55.815 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'energy restriction', 'caloric restriction', 'time-restricted eating', 'cr', 'dietary restriction', 'nutritional restriction', 'calorie restriction', 'intermittent fasting'}
+2026-02-28 11:46:55.820 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'caloric restriction'
+2026-02-28 11:46:55.820 | INFO     | __main__:run:435 - [31/46] caloric restriction ... drugage:0 (0 docs, 0s) | 1s elapsed, ~1s remaining
+2026-02-28 11:46:55.820 | INFO     | __main__:run:422 - 
+[32/46] Seeding 'ketogenic diet'...
+2026-02-28 11:46:55.820 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'ketogenic diet'
+2026-02-28 11:46:55.820 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'keto', 'low-carbohydrate diet', 'high-fat diet', 'bhb', 'ketosis', 'beta-hydroxybutyrate', 'ketogenic diet'}
+2026-02-28 11:46:55.825 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'ketogenic diet'
+2026-02-28 11:46:55.825 | INFO     | __main__:run:435 - [32/46] ketogenic diet ... drugage:0 (0 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.825 | INFO     | __main__:run:422 - 
+[33/46] Seeding 'exercise'...
+2026-02-28 11:46:55.825 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'exercise'
+2026-02-28 11:46:55.825 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'strength training', 'fitness', 'exercise', 'sports activities', 'stretching', 'workout', 'cardiovascular exercise', 'aerobic exercise', 'resistance training', 'dance', 'yoga', 'physical activity', 'training', 'hiit', 'pilates'}
+2026-02-28 11:46:55.829 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'exercise'
+2026-02-28 11:46:55.829 | INFO     | __main__:run:435 - [33/46] exercise ... drugage:0 (0 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.829 | INFO     | __main__:run:422 - 
+[34/46] Seeding 'cold exposure'...
+2026-02-28 11:46:55.830 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'cold exposure'
+2026-02-28 11:46:55.830 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'ice baths', 'cold exposure', 'cryotherapy', 'cold water therapy', 'cold shock proteins', 'therapeutic hypothermia', 'cold plunge', 'cold immersion'}
+2026-02-28 11:46:55.834 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'cold exposure'
+2026-02-28 11:46:55.834 | INFO     | __main__:run:435 - [34/46] cold exposure ... drugage:0 (0 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.834 | INFO     | __main__:run:422 - 
+[35/46] Seeding 'sauna'...
+2026-02-28 11:46:55.834 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'sauna'
+2026-02-28 11:46:55.834 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'finnish sauna', 'steam room', 'traditional sauna', 'sauna', 'infrared sauna', 'steam bath', 'heat therapy', 'dry sauna', 'whirlpool bath', 'hot tub', 'heat shock proteins'}
+2026-02-28 11:46:55.839 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'sauna'
+2026-02-28 11:46:55.839 | INFO     | __main__:run:435 - [35/46] sauna ... drugage:0 (0 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.839 | INFO     | __main__:run:422 - 
+[36/46] Seeding 'telomerase activation'...
+2026-02-28 11:46:55.839 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'telomerase activation'
+2026-02-28 11:46:55.839 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'ta-65', 'telomerase gene therapy', 'tert', 'telomerase activators', 'cycloastragenol', 'telomerase activation', 'telomerase reverse transcriptase'}
+2026-02-28 11:46:55.843 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'telomerase activation'
+2026-02-28 11:46:55.843 | INFO     | __main__:run:435 - [36/46] telomerase activation ... drugage:0 (0 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.843 | INFO     | __main__:run:422 - 
+[37/46] Seeding 'stem cell therapy'...
+2026-02-28 11:46:55.844 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'stem cell therapy'
+2026-02-28 11:46:55.844 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'neural stem cells', 'hematopoietic stem cells', 'mesenchymal stem cells', 'msc', 'induced pluripotent stem cell therapy', 'stem cell therapy', 'stem cell transplant', 'adult stem cell therapy', 'adipose-derived stem cells', 'umbilical cord stem cells', 'ipsc therapy', 'hematopoietic stem cell therapy'}
+2026-02-28 11:46:55.848 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'stem cell therapy'
+2026-02-28 11:46:55.848 | INFO     | __main__:run:435 - [37/46] stem cell therapy ... drugage:0 (0 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.848 | INFO     | __main__:run:422 - 
+[38/46] Seeding 'thymus regeneration'...
+2026-02-28 11:46:55.848 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'thymus regeneration'
+2026-02-28 11:46:55.848 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'thymus regeneration', 'triim trial', 'growth hormone', 'insulin-like growth factor 1 (igf-1)', 'thymosin', 'thymic regeneration', 'thymus rejuvenation therapy', 'thymopoietin', 'thymic rejuvenation', 'growth hormone thymus'}
+2026-02-28 11:46:55.852 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'thymus regeneration'
+2026-02-28 11:46:55.853 | INFO     | __main__:run:435 - [38/46] thymus regeneration ... drugage:0 (0 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.853 | INFO     | __main__:run:422 - 
+[39/46] Seeding 'curcumin'...
+2026-02-28 11:46:55.853 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'curcumin'
+2026-02-28 11:46:55.853 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'demethoxycurcumin', 'curcumin', 'turmeric extract', 'bisdemethoxycurcumin', 'curcuma extract', 'curcuma longa extract', 'diferuloylmethane'}
+2026-02-28 11:46:55.931 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 43 new documents for 'curcumin'
+2026-02-28 11:46:55.938 | INFO     | src.storage.json_store:save_documents:62 - Saved 357 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/curcumin.json
+2026-02-28 11:46:55.949 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 400 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/curcumin.json
+2026-02-28 11:46:55.949 | INFO     | src.storage.manager:save_documents:53 - Stored 43 new documents for 'curcumin'
+2026-02-28 11:46:55.949 | INFO     | __main__:run:435 - [39/46] curcumin ... drugage:43 (43 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.949 | INFO     | __main__:run:422 - 
+[40/46] Seeding 'sulforaphane'...
+2026-02-28 11:46:55.949 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'sulforaphane'
+2026-02-28 11:46:55.949 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'broccoli extract', 'sulforaphane glucosinolate', 'indole-3-carbinol', 'nrf2 activator', 'glucosinolates', 'isothiocyanates', 'sulforaphane', '1-isothiocyanato-4-(methylsulfinyl)butane'}
+2026-02-28 11:46:55.959 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 4 new documents for 'sulforaphane'
+2026-02-28 11:46:55.965 | INFO     | src.storage.json_store:save_documents:62 - Saved 237 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/sulforaphane.json
+2026-02-28 11:46:55.973 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 241 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/sulforaphane.json
+2026-02-28 11:46:55.973 | INFO     | src.storage.manager:save_documents:53 - Stored 4 new documents for 'sulforaphane'
+2026-02-28 11:46:55.974 | INFO     | __main__:run:435 - [40/46] sulforaphane ... drugage:4 (4 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:55.974 | INFO     | __main__:run:422 - 
+[41/46] Seeding 'omega-3 fatty acids'...
+2026-02-28 11:46:55.974 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'omega-3 fatty acids'
+2026-02-28 11:46:55.974 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'omega-6 fatty acids', 'eicosapentaenoic acid', 'icosapent ethyl', 'docosahexaenoic acid', 'epa', 'dha', 'fish oil', 'alpha-linolenic acid', 'omega-3 fatty acids'}
+2026-02-28 11:46:55.992 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 8 new documents for 'omega-3 fatty acids'
+2026-02-28 11:46:55.998 | INFO     | src.storage.json_store:save_documents:62 - Saved 296 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/omega-3 fatty acids.json
+2026-02-28 11:46:56.006 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 304 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/omega-3 fatty acids.json
+2026-02-28 11:46:56.006 | INFO     | src.storage.manager:save_documents:53 - Stored 8 new documents for 'omega-3 fatty acids'
+2026-02-28 11:46:56.006 | INFO     | __main__:run:435 - [41/46] omega-3 fatty acids ... drugage:8 (8 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:56.006 | INFO     | __main__:run:422 - 
+[42/46] Seeding 'aspirin'...
+2026-02-28 11:46:56.006 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'aspirin'
+2026-02-28 11:46:56.007 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'salsalate', 'aspirin', 'diflunisal', 'acetylsalicylic acid', 'asa', 'low-dose aspirin', 'salicylic acid'}
+2026-02-28 11:46:56.079 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 37 new documents for 'aspirin'
+2026-02-28 11:46:56.086 | INFO     | src.storage.json_store:save_documents:62 - Saved 337 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/aspirin.json
+2026-02-28 11:46:56.098 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 374 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/aspirin.json
+2026-02-28 11:46:56.099 | INFO     | src.storage.manager:save_documents:53 - Stored 37 new documents for 'aspirin'
+2026-02-28 11:46:56.099 | INFO     | __main__:run:435 - [42/46] aspirin ... drugage:37 (37 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:56.099 | INFO     | __main__:run:422 - 
+[43/46] Seeding 'berberine'...
+2026-02-28 11:46:56.099 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'berberine'
+2026-02-28 11:46:56.099 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'jatrorrhizine', 'coptis chinensis extract', 'berberina', 'coptisine', 'berberine', 'berberine hydrochloride', 'palmatine'}
+2026-02-28 11:46:56.114 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 9 new documents for 'berberine'
+2026-02-28 11:46:56.118 | INFO     | src.storage.json_store:save_documents:62 - Saved 200 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/berberine.json
+2026-02-28 11:46:56.126 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 209 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/berberine.json
+2026-02-28 11:46:56.126 | INFO     | src.storage.manager:save_documents:53 - Stored 9 new documents for 'berberine'
+2026-02-28 11:46:56.126 | INFO     | __main__:run:435 - [43/46] berberine ... drugage:9 (9 docs, 0s) | 1s elapsed, ~0s remaining
+2026-02-28 11:46:56.127 | INFO     | __main__:run:422 - 
+[44/46] Seeding 'CoQ10'...
+2026-02-28 11:46:56.127 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'CoQ10'
+2026-02-28 11:46:56.127 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'idebenone', 'coenzyme q10', 'vitamin e', 'ubiquinone', 'ubiquinol', 'coq10', 'mitoq', 'vitamin c'}
+2026-02-28 11:46:56.205 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 40 new documents for 'CoQ10'
+2026-02-28 11:46:56.217 | INFO     | src.storage.json_store:save_documents:62 - Saved 373 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/coq10.json
+2026-02-28 11:46:56.230 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 413 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/coq10.json
+2026-02-28 11:46:56.230 | INFO     | src.storage.manager:save_documents:53 - Stored 40 new documents for 'CoQ10'
+2026-02-28 11:46:56.230 | INFO     | __main__:run:435 - [44/46] CoQ10 ... drugage:40 (40 docs, 0s) | 2s elapsed, ~0s remaining
+2026-02-28 11:46:56.230 | INFO     | __main__:run:422 - 
+[45/46] Seeding 'SS-31'...
+2026-02-28 11:46:56.230 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'SS-31'
+2026-02-28 11:46:56.230 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'mtp-132', 'bendavia', 'elamipretide', 'ss-31', 'mtp-131', 'mtp-134'}
+2026-02-28 11:46:56.235 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 0 new documents for 'SS-31'
+2026-02-28 11:46:56.235 | INFO     | __main__:run:435 - [45/46] SS-31 ... drugage:0 (0 docs, 0s) | 2s elapsed, ~0s remaining
+2026-02-28 11:46:56.235 | INFO     | __main__:run:422 - 
+[46/46] Seeding 'methylene blue'...
+2026-02-28 11:46:56.235 | INFO     | src.ingest.query_expander:expand_query:96 - Using cached query expansion for 'methylene blue'
+2026-02-28 11:46:56.235 | INFO     | src.ingest.drugage:ingest:47 - DrugAge: searching CSV for {'methylene blue chloride', 'mb', 'methylene blue dye', 'methylthionine', 'toluidine blue', 'methylthioninium chloride', 'thionine', 'methylene blue', 'brilliant blue'}
+2026-02-28 11:46:56.251 | INFO     | src.ingest.drugage:ingest:76 - DrugAge: 6 new documents for 'methylene blue'
+2026-02-28 11:46:56.257 | INFO     | src.storage.json_store:save_documents:62 - Saved 309 documents to /Users/will/Code/Encode-Code/bio-hack/data/documents/methylene blue.json
+2026-02-28 11:46:56.264 | INFO     | src.storage.json_store:save_classifications_skeleton:129 - Classifications skeleton: 315 entries in /Users/will/Code/Encode-Code/bio-hack/data/classifications/methylene blue.json
+2026-02-28 11:46:56.264 | INFO     | src.storage.manager:save_documents:53 - Stored 6 new documents for 'methylene blue'
+2026-02-28 11:46:56.264 | INFO     | __main__:run:435 - [46/46] methylene blue ... drugage:6 (6 docs, 0s) | 2s elapsed, ~0s remaining
+2026-02-28 11:46:56.264 | INFO     | __main__:run:452 - 
+============================================================
+2026-02-28 11:46:56.264 | INFO     | __main__:run:453 - BATCH SEED COMPLETE
+2026-02-28 11:46:56.264 | INFO     | __main__:run:454 - ============================================================
+2026-02-28 11:46:56.264 | INFO     | __main__:run:455 - Duration: 2s
+2026-02-28 11:46:56.264 | INFO     | __main__:run:456 - Interventions: 46 (46 clean, 0 with errors)
+2026-02-28 11:46:56.264 | INFO     | __main__:run:457 - Total documents added: 526
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:321 - =====================================================
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:322 - Intervention                    Total  drugage Errors
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:323 - -----------------------------------------------------
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - NMN                                 0        0      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - NR                                 10       10      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - niacin                              9        9      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - NAD+ precursors                    10       10      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - CD38 inhibitors                     5        5      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - dasatinib quercetin                37       37      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - senolytics                         50       50      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - fisetin                            47       47      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - navitoclax                          0        0      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - UBX0101                             0        0      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - FOXO4-DRI                           0        0      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - quercetin                          49       49      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - resveratrol                        50       50      0
+2026-02-28 11:46:56.264 | INFO     | __main__:print_summary_table:337 - SRT1720                             0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - spermidine                         13       13      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - urolithin A                        12       12      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - trehalose                           3        3      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - young plasma                        0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - GDF11                               1        1      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - klotho                              0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - GLP-1 agonists                      0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - hyperbaric oxygen therapy           0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - epigenetic reprogramming            0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - epigenetic clocks                   0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - alpha-ketoglutarate                18       18      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - taurine                            23       23      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - glycine                            19       19      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - lithium                            11       11      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - deprenyl                           12       12      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - pioglitazone                        0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - caloric restriction                 0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - ketogenic diet                      0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - exercise                            0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - cold exposure                       0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - sauna                               0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - telomerase activation               0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - stem cell therapy                   0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - thymus regeneration                 0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - curcumin                           43       43      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - sulforaphane                        4        4      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - omega-3 fatty acids                 8        8      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - aspirin                            37       37      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - berberine                           9        9      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - CoQ10                              40       40      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - SS-31                               0        0      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:337 - methylene blue                      6        6      0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:341 - -----------------------------------------------------
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:342 - TOTAL                             526               0
+2026-02-28 11:46:56.265 | INFO     | __main__:print_summary_table:343 - =====================================================
+2026-02-28 11:46:56.265 | INFO     | __main__:run:484 - 
+Summary saved to /Users/will/Code/Encode-Code/bio-hack/data/seed_summary.json

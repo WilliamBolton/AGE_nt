@@ -7749,138 +7749,6 @@
       "is_open_access": false
     },
     {
-      "id": "6d00b414-5029-431a-a3df-bb8e09157cdc",
-      "source_type": "drugage",
-      "intervention": "methylene blue",
-      "intervention_aliases": [
-        "methylthioninium chloride"
-      ],
-      "title": "DrugAge: Methylene blue in Drosophila melanogaster (Oregon-R) \u2014 unknown lifespan change",
-      "abstract": "Methylene blue administered to Drosophila melanogaster (Oregon-R) , Male .  Reference: PMID 8350657.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8350657/?drugage=Methylene blue&species=Drosophila melanogaster&strain=Oregon-R&dosage=0.001 mM",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Drosophila melanogaster",
-      "strain": "Oregon-R",
-      "dosage": "0.001 mM",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "8350657",
-      "gender": "Male"
-    },
-    {
-      "id": "673aca9b-5eb5-4824-947d-fdd3bae25473",
-      "source_type": "drugage",
-      "intervention": "methylene blue",
-      "intervention_aliases": [
-        "methylthioninium chloride"
-      ],
-      "title": "DrugAge: Methylene blue in Drosophila melanogaster (Oregon-R) \u2014 unknown lifespan change",
-      "abstract": "Methylene blue administered to Drosophila melanogaster (Oregon-R) , Male .  Reference: PMID 8350657.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8350657/?drugage=Methylene blue&species=Drosophila melanogaster&strain=Oregon-R&dosage=0.01 mM",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Drosophila melanogaster",
-      "strain": "Oregon-R",
-      "dosage": "0.01 mM",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "8350657",
-      "gender": "Male"
-    },
-    {
-      "id": "91945a3f-64fa-4b5b-a1a0-8c0642a81cd8",
-      "source_type": "drugage",
-      "intervention": "methylene blue",
-      "intervention_aliases": [
-        "methylthioninium chloride"
-      ],
-      "title": "DrugAge: Methylene blue in Drosophila melanogaster (Oregon-R) \u2014 unknown lifespan change",
-      "abstract": "Methylene blue administered to Drosophila melanogaster (Oregon-R) , Male .  Reference: PMID 8350657.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8350657/?drugage=Methylene blue&species=Drosophila melanogaster&strain=Oregon-R&dosage=0.1 mM",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Drosophila melanogaster",
-      "strain": "Oregon-R",
-      "dosage": "0.1 mM",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "8350657",
-      "gender": "Male"
-    },
-    {
-      "id": "3cce2c9b-c926-4211-8950-4076fd7dcf7d",
-      "source_type": "drugage",
-      "intervention": "methylene blue",
-      "intervention_aliases": [
-        "methylthioninium chloride"
-      ],
-      "title": "DrugAge: Methylene blue in Drosophila melanogaster (Oregon-R) \u2014 unknown lifespan change",
-      "abstract": "Methylene blue administered to Drosophila melanogaster (Oregon-R) , Male .  Reference: PMID 8350657.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8350657/?drugage=Methylene blue&species=Drosophila melanogaster&strain=Oregon-R&dosage=1 mM",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Drosophila melanogaster",
-      "strain": "Oregon-R",
-      "dosage": "1 mM",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "8350657",
-      "gender": "Male"
-    },
-    {
-      "id": "c6b29c44-5244-4cf0-b7ae-13e1dee92621",
-      "source_type": "drugage",
-      "intervention": "methylene blue",
-      "intervention_aliases": [
-        "methylthioninium chloride"
-      ],
-      "title": "DrugAge: Methylene blue in Mus musculus (UM-HET3) \u2014 unknown lifespan change",
-      "abstract": "Methylene blue administered to Mus musculus (UM-HET3) , Female .  Reference: PMID 24245565.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24245565/?drugage=Methylene blue&species=Mus musculus&strain=UM-HET3&dosage=27 ppm food",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Mus musculus",
-      "strain": "UM-HET3",
-      "dosage": "27 ppm food",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "24245565",
-      "gender": "Female"
-    },
-    {
-      "id": "820a2c67-6289-4db1-aca1-44f0d67d7a97",
-      "source_type": "drugage",
-      "intervention": "methylene blue",
-      "intervention_aliases": [
-        "methylthioninium chloride"
-      ],
-      "title": "DrugAge: Methylene blue in Mus musculus (UM-HET3) \u2014 unknown lifespan change",
-      "abstract": "Methylene blue administered to Mus musculus (UM-HET3) , Male .  Reference: PMID 24245565.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24245565/?drugage=Methylene blue&species=Mus musculus&strain=UM-HET3&dosage=27 ppm food",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Mus musculus",
-      "strain": "UM-HET3",
-      "dosage": "27 ppm food",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "24245565",
-      "gender": "Male"
-    },
-    {
       "id": "a4cc5c90-9aee-4b11-930e-fc1a0678cdee",
       "source_type": "nih_grant",
       "intervention": "methylene blue",
@@ -9885,6 +9753,138 @@
       "score": 21,
       "comment_count": 16,
       "sentiment": null
+    },
+    {
+      "id": "5d7c16f6-f8b9-438c-a3ed-e2bf9c698f03",
+      "source_type": "drugage",
+      "intervention": "methylene blue",
+      "intervention_aliases": [
+        "methylthioninium chloride"
+      ],
+      "title": "DrugAge: Methylene blue in Drosophila melanogaster (Oregon-R) \u2014 +0.0% lifespan change",
+      "abstract": "Methylene blue administered to Drosophila melanogaster (Oregon-R) , Male .  Lifespan change: +0.0%.  Reference: PMID 8350657.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8350657/?drugage=Methylene blue&species=Drosophila melanogaster&strain=Oregon-R&dosage=0.001 mM",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Drosophila melanogaster",
+      "strain": "Oregon-R",
+      "dosage": "0.001 mM",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": 0.0,
+      "significance": null,
+      "reference_pmid": "8350657",
+      "gender": "Male"
+    },
+    {
+      "id": "018246a6-563d-4f10-b1de-c8d5f39d9ed5",
+      "source_type": "drugage",
+      "intervention": "methylene blue",
+      "intervention_aliases": [
+        "methylthioninium chloride"
+      ],
+      "title": "DrugAge: Methylene blue in Drosophila melanogaster (Oregon-R) \u2014 +8.0% lifespan change",
+      "abstract": "Methylene blue administered to Drosophila melanogaster (Oregon-R) , Male .  Lifespan change: +8.0%.  Reference: PMID 8350657.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8350657/?drugage=Methylene blue&species=Drosophila melanogaster&strain=Oregon-R&dosage=0.01 mM",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Drosophila melanogaster",
+      "strain": "Oregon-R",
+      "dosage": "0.01 mM",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": 8.0,
+      "significance": null,
+      "reference_pmid": "8350657",
+      "gender": "Male"
+    },
+    {
+      "id": "1800d953-44aa-4219-add7-f7990b33c7eb",
+      "source_type": "drugage",
+      "intervention": "methylene blue",
+      "intervention_aliases": [
+        "methylthioninium chloride"
+      ],
+      "title": "DrugAge: Methylene blue in Drosophila melanogaster (Oregon-R) \u2014 -2.0% lifespan change",
+      "abstract": "Methylene blue administered to Drosophila melanogaster (Oregon-R) , Male .  Lifespan change: -2.0%.  Reference: PMID 8350657.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8350657/?drugage=Methylene blue&species=Drosophila melanogaster&strain=Oregon-R&dosage=0.1 mM",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Drosophila melanogaster",
+      "strain": "Oregon-R",
+      "dosage": "0.1 mM",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": -2.0,
+      "significance": null,
+      "reference_pmid": "8350657",
+      "gender": "Male"
+    },
+    {
+      "id": "2a0af1c6-379b-4eee-9e50-bddeeb19155c",
+      "source_type": "drugage",
+      "intervention": "methylene blue",
+      "intervention_aliases": [
+        "methylthioninium chloride"
+      ],
+      "title": "DrugAge: Methylene blue in Drosophila melanogaster (Oregon-R) \u2014 -49.0% lifespan change",
+      "abstract": "Methylene blue administered to Drosophila melanogaster (Oregon-R) , Male .  Lifespan change: -49.0%.  Reference: PMID 8350657.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8350657/?drugage=Methylene blue&species=Drosophila melanogaster&strain=Oregon-R&dosage=1 mM",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Drosophila melanogaster",
+      "strain": "Oregon-R",
+      "dosage": "1 mM",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": -49.0,
+      "significance": null,
+      "reference_pmid": "8350657",
+      "gender": "Male"
+    },
+    {
+      "id": "cc13f9fd-cbd9-426c-82dd-0f1fc770c37b",
+      "source_type": "drugage",
+      "intervention": "methylene blue",
+      "intervention_aliases": [
+        "methylthioninium chloride"
+      ],
+      "title": "DrugAge: Methylene blue in Mus musculus (UM-HET3) \u2014 +1.0% lifespan change",
+      "abstract": "Methylene blue administered to Mus musculus (UM-HET3) , Female .  Lifespan change: +1.0%.  Reference: PMID 24245565.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24245565/?drugage=Methylene blue&species=Mus musculus&strain=UM-HET3&dosage=27 ppm food",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Mus musculus",
+      "strain": "UM-HET3",
+      "dosage": "27 ppm food",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": 1.0,
+      "significance": null,
+      "reference_pmid": "24245565",
+      "gender": "Female"
+    },
+    {
+      "id": "8b3fa468-a96b-4d41-9df1-03cb6442cefd",
+      "source_type": "drugage",
+      "intervention": "methylene blue",
+      "intervention_aliases": [
+        "methylthioninium chloride"
+      ],
+      "title": "DrugAge: Methylene blue in Mus musculus (UM-HET3) \u2014 -2.0% lifespan change",
+      "abstract": "Methylene blue administered to Mus musculus (UM-HET3) , Male .  Lifespan change: -2.0%.  Reference: PMID 24245565.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24245565/?drugage=Methylene blue&species=Mus musculus&strain=UM-HET3&dosage=27 ppm food",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Mus musculus",
+      "strain": "UM-HET3",
+      "dosage": "27 ppm food",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": -2.0,
+      "significance": null,
+      "reference_pmid": "24245565",
+      "gender": "Male"
     }
   ]
 }

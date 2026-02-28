@@ -1,0 +1,47 @@
+{
+  "company": "Senolytic Therapeutics",
+  "ticker": null,
+  "founded": null,
+  "hq": null,
+  "stage": "preclinical",
+  "total_funding_usd": null,
+  "pipeline": [],
+  "hallmarks_targeted": [
+    "cellular_senescence",
+    "chronic_inflammation",
+    "altered_intercellular_communication"
+  ],
+  "category_links": [
+    "senolytics"
+  ],
+  "key_people": [],
+  "investors_notable": [],
+  "risks": [
+    "Company-specific execution risk: limited/no readily verifiable public disclosure located in provided context for leadership, financing, pipeline, or clinical status (source needed).",
+    "Senolytic translation risk: clearance of senescent cells can have context-dependent effects; senescence also has beneficial roles in wound healing/tumor suppression, complicating therapeutic window and patient selection (Kirkland & Tchkonia, Nature Medicine, 2020, 'Senolytic drugs: from discovery to translation', DOI:10.1038/s41591-020-01185-4).",
+    "Safety risk (class): some senolytic mechanisms (e.g., BCL-2 family inhibition) have demonstrated dose-limiting toxicities such as thrombocytopenia in humans (Roberts et al., Nature Medicine, 2012, navitoclax/ABT-263 study, DOI:10.1038/nm.2598).",
+    "Biomarker risk: measuring senescent cell burden and on-treatment target engagement remains challenging; lack of validated biomarkers can slow trials and regulatory alignment (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4).",
+    "Indication risk: age-related diseases are heterogeneous; benefits seen in preclinical models may not translate due to differences in senescent cell types, tissue distribution, and immune clearance between animals and humans (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4)."
+  ],
+  "competitive_advantages": [
+    "If the company is developing true senolytics (source needed), the modality is hypothesized to address upstream drivers of multiple age-related pathologies by selectively eliminating senescent cells and reducing SASP-mediated inflammation/altered signaling (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4).",
+    "Potential for intermittent (\"hit-and-run\") dosing paradigms, which may improve adherence and reduce chronic exposure toxicity versus continuous therapies, depending on mechanism/PK-PD (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 50000000,
+    "high_usd": 300000000,
+    "methodology": "Heuristic range for an early/preclinical small-molecule biotech with unverified public pipeline/financing (source needed). Range is anchored as a small fraction of upfront values paid for higher-visibility discovery platforms/early clinical assets in adjacent areas; without confirmed clinical stage, IP position, or human data for Senolytic Therapeutics, a steep discount is applied (source needed).",
+    "comparable_deals": [
+      "Bayer acquisition of Vividion Therapeutics (announced 2021-08-05): $1.5B upfront, up to $0.5B milestones (Bayer press release, 2021-08-05, 'Bayer to acquire Vividion Therapeutics').",
+      "Merck acquisition of Peloton Therapeutics (announced 2019-11-19): ~$1.05B upfront, up to ~$1.15B milestones (Merck press release, 2019-11-19, 'Merck to Acquire Peloton Therapeutics').",
+      "Roche acquisition of Carmot Therapeutics (announced 2023-12-04): $2.7B upfront, up to $0.4B milestones (Roche press release, 2023-12-04, 'Roche to acquire Carmot Therapeutics')."
+    ]
+  },
+  "sources": [
+    "https://www.crunchbase.com/organization/senolytic-therapeutics (company metadata/funding—source needed to verify specific fields)",
+    "Kirkland JL, Tchkonia T. 'Senolytic drugs: from discovery to translation.' Nature Medicine (2020). DOI:10.1038/s41591-020-01185-4",
+    "Roberts AW et al. 'Targeting BCL2 with Venetoclax in Relapsed Chronic Lymphocytic Leukemia' / navitoclax thrombocytopenia context: Nature Medicine (2012) navitoclax (ABT-263) thrombocytopenia. DOI:10.1038/nm.2598 (mechanism-class safety reference)",
+    "source needed (Senolytic Therapeutics official website, pipeline details, founding year, HQ, investors, clinical stage)"
+  ],
+  "needs_review": true
+}

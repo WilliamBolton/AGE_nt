@@ -1,0 +1,104 @@
+{
+  "company": "Pfizer Inc.",
+  "ticker": "PFE (NYSE; https://investors.pfizer.com/stock-information/default.aspx)",
+  "hq": "New York, NY, USA (Pfizer global headquarters contact address; https://www.pfizer.com/contact)",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Oncology (https://www.pfizer.com/science/therapeutic-areas)",
+    "Vaccines (https://www.pfizer.com/science/therapeutic-areas)",
+    "Inflammation & Immunology (https://www.pfizer.com/science/therapeutic-areas)",
+    "Internal Medicine (https://www.pfizer.com/science/therapeutic-areas)",
+    "Rare Disease (https://www.pfizer.com/science/therapeutic-areas)"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Pfizer has approved products that modulate biological pathways commonly discussed in geroscience. Example: sirolimus (Rapamune) is an FDA-approved immunosuppressant that inhibits mTOR signaling (Drugs@FDA Rapamune NDA 021083: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021083), and mTOR/deregulated nutrient sensing plus autophagy are central elements in the Hallmarks of Aging framework (López-Otín et al., Cell 2013, doi:10.1016/j.cell.2013.05.039). Rapamycin/sirolimus-class mTOR inhibition has shown lifespan extension in mice (Harrison et al., Nature 2009, doi:10.1038/nature08221). Pfizer also markets immunomodulatory/anti-inflammatory therapies such as tofacitinib (Xeljanz), a JAK inhibitor indicated for chronic inflammatory diseases (Drugs@FDA Xeljanz NDA 203214: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203214), which is mechanistically adjacent to the hallmark of chronic inflammation/altered intercellular communication (López-Otín et al., Cell 2013, doi:10.1016/j.cell.2013.05.039). However, Pfizer’s publicly described R&D focus is organized around disease areas rather than aging as an indication (source needed).",
+  "existing_longevity_assets": [
+    {
+      "compound": "sirolimus (Rapamune)",
+      "intervention_link": "rapamycin",
+      "status": "Approved (FDA)",
+      "indication": "Prophylaxis of organ rejection in renal transplantation (per FDA product labeling/Drugs@FDA entry) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021083)",
+      "relevance": "mTOR pathway modulation is directly tied to the hallmark 'deregulated nutrient sensing' and is a canonical longevity target; rapamycin-class compounds extend lifespan in mice (López-Otín et al., Cell 2013, doi:10.1016/j.cell.2013.05.039; Harrison et al., Nature 2009, doi:10.1038/nature08221).",
+      "source": "Drugs@FDA Rapamune NDA 021083: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021083; Harrison et al., Nature 2009, doi:10.1038/nature08221; López-Otín et al., Cell 2013, doi:10.1016/j.cell.2013.05.039"
+    },
+    {
+      "compound": "temsirolimus (Torisel)",
+      "intervention_link": null,
+      "status": "Approved (FDA)",
+      "indication": "Renal cell carcinoma (per FDA product labeling/Drugs@FDA entry) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022088)",
+      "relevance": "Temsirolimus is an mTOR inhibitor (rapamycin analog) used in oncology, intersecting mechanistically with nutrient-sensing biology highlighted in the Hallmarks of Aging framework (López-Otín et al., Cell 2013, doi:10.1016/j.cell.2013.05.039).",
+      "source": "Drugs@FDA Torisel NDA 022088: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022088; López-Otín et al., Cell 2013, doi:10.1016/j.cell.2013.05.039"
+    },
+    {
+      "compound": "tofacitinib (Xeljanz)",
+      "intervention_link": null,
+      "status": "Approved (FDA)",
+      "indication": "Chronic inflammatory diseases including rheumatoid arthritis/psoriatic arthritis/ulcerative colitis (per FDA product labeling/Drugs@FDA entry) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203214)",
+      "relevance": "Targets inflammatory cytokine signaling (JAK inhibition), adjacent to the hallmark of chronic inflammation/altered intercellular communication in aging biology (López-Otín et al., Cell 2013, doi:10.1016/j.cell.2013.05.039).",
+      "source": "Drugs@FDA Xeljanz NDA 203214: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203214; López-Otín et al., Cell 2013, doi:10.1016/j.cell.2013.05.039"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "deregulated_nutrient_sensing",
+    "disabled_macroautophagy",
+    "altered_intercellular_communication",
+    "chronic_inflammation"
+  ],
+  "aging_signal_strength": 3,
+  "recent_acquisitions": [
+    {
+      "target": "Seagen",
+      "year": 2023,
+      "value_usd": 43000000000,
+      "relevance": "Strengthens oncology (including ADC platform); oncology tools can be relevant to aging via cancer risk with age, but not positioned as geroscience (Pfizer press release; source needed for any explicit longevity strategy).",
+      "source": "Pfizer press release (deal announced at ~$43B): https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-seagen"
+    },
+    {
+      "target": "Biohaven Pharmaceutical Holding Company Ltd. (calcitonin gene-related peptide franchise acquisition)",
+      "year": 2022,
+      "value_usd": 11600000000,
+      "relevance": "Expands neurology/migraine portfolio; neuroprotection/brain health is adjacent to healthy aging, but not framed as longevity-focused (Pfizer press release; source needed for explicit aging positioning).",
+      "source": "Pfizer press release (total enterprise value ~$11.6B): https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceutical"
+    },
+    {
+      "target": "Global Blood Therapeutics",
+      "year": 2022,
+      "value_usd": 5400000000,
+      "relevance": "Expands rare hematology (sickle cell disease) portfolio; relevant to morbidity reduction but not a direct geroscience platform (Pfizer press release).",
+      "source": "Pfizer press release (acquisition valued at ~$5.4B): https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-global-blood-therapeutics"
+    },
+    {
+      "target": "Trillium Therapeutics",
+      "year": 2021,
+      "value_usd": 2260000000,
+      "relevance": "Adds immuno-oncology assets; immunology is adjacent to immune aging, but deal rationale is oncology (Pfizer press release).",
+      "source": "Pfizer press release (acquisition valued at ~$2.26B): https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-trillium-therapeutics-inc"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Primarily commercial/late-stage and platform bolt-ons (inferred from acquisitions of Seagen (https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-seagen), Biohaven (https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceutical), and Global Blood Therapeutics (https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-global-blood-therapeutics)); source needed for a definitive company-stated preferred-stage policy.",
+    "avg_deal_size_usd": null,
+    "focus_areas": [
+      "Oncology platforms/ADCs (Seagen acquisition; https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-seagen)",
+      "Neurology/migraine (Biohaven acquisition; https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceutical)",
+      "Rare hematology (Global Blood Therapeutics acquisition; https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-global-blood-therapeutics)",
+      "Immuno-oncology (Trillium acquisition; https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-trillium-therapeutics-inc)"
+    ],
+    "recent_trend": "2021–2023 deal activity shows a concentration in oncology platforms (notably Seagen ADC capabilities) plus specialty/rare and neuro assets (Seagen/Biohaven/GBT press releases: https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-seagen; https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceutical; https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-global-blood-therapeutics)."
+  },
+  "sources": [
+    "https://investors.pfizer.com/stock-information/default.aspx",
+    "https://www.pfizer.com/contact",
+    "https://www.pfizer.com/science/therapeutic-areas",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021083",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022088",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203214",
+    "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-seagen",
+    "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-biohaven-pharmaceutical",
+    "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-global-blood-therapeutics",
+    "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-trillium-therapeutics-inc",
+    "López-Otín et al., Cell 2013, 'The Hallmarks of Aging', doi:10.1016/j.cell.2013.05.039",
+    "Harrison et al., Nature 2009, 'Rapamycin fed late in life extends lifespan in genetically heterogeneous mice', doi:10.1038/nature08221"
+  ],
+  "needs_review": true
+}

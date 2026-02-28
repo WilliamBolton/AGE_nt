@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     # LLM
     llm_provider: LLMProvider = LLMProvider.OPENAI
     openai_api_key: str = ""
-    openai_model: str = "gpt-4o-mini"
+    openai_model: str = "gpt-5.2"
     openai_embedding_model: str = "text-embedding-3-small"
     gemini_api_key: str = ""
     gemini_model: str = "gemini-2.0-flash"

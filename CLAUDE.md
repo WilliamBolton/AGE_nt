@@ -20,11 +20,11 @@ Unified Document Schema (Base + 11 source-specific Pydantic subclasses)
     ↓
 Storage (JSON files primary + SQLite structured queries)
     ↓
-MCP Server (8 tools, SSE transport) / FastAPI (query, filter, aggregate)
+MCP Server (11 tools, SSE transport) / FastAPI (6 route modules)
     ↓
-Reasoning Tools (Evidence Grader, Trajectory Scorer, Gap Spotter, Hype Ratio — stubs)
+Reasoning Tools (Trajectory ✅, Edison ✅, Evidence Grader/Gap Spotter/Hype Ratio stubs)
     ↓
-Frontends (Streamlit demo, future: React apps)
+Frontends (React/TypeScript app)
 ```
 
 ## Tech Stack
@@ -34,8 +34,8 @@ Frontends (Streamlit demo, future: React apps)
 - **Database:** JSON files (primary, human-readable) + SQLite (structured queries)
 - **LLM:** OpenAI GPT-4o-mini (default) or Google Gemini (configurable via `LLM_PROVIDER`). Edison (PaperQA3) for deep medical reasoning.
 - **Ingest:** httpx for API calls
-- **MCP:** FastMCP server with 8 tools, SSE transport on port 8001
-- **Frontend:** Streamlit (hackathon demo)
+- **MCP:** FastMCP server with 11 tools, SSE transport on port 8001
+- **Frontend:** React/TypeScript (Vite) in `frontend/`
 
 ## Project Structure
 
@@ -82,30 +82,42 @@ bio-hack/
 │   │   └── routes/
 │   │       ├── interventions.py # /interventions endpoints
 │   │       ├── ingest.py        # /ingest trigger
-│   │       └── reasoning.py     # /reasoning endpoints
+│   │       ├── reasoning.py     # /reasoning endpoints
+│   │       ├── tools.py         # Dynamic tool discovery and execution
+│   │       ├── chat.py          # Agentic LLM conversation with tool integration
+│   │       └── pharma.py        # Pharma/biotech company profiles + due diligence
 │   │
-│   ├── tools/                   # Reasoning tools (mostly stubs, wired to MCP)
+│   ├── tools/                   # Reasoning tools (wired to MCP)
 │   │   ├── base.py              # Abstract base (stub)
 │   │   ├── edison.py            # ✅ Edison/PaperQA3 wrapper (implemented)
+│   │   ├── trajectory.py        # ✅ Temporal momentum scoring (implemented, 558 lines)
+│   │   ├── sql_query.py         # ✅ SQL query safety layer (implemented)
 │   │   ├── evidence_grader.py   # Evidence distribution scoring (stub)
-│   │   ├── trajectory.py        # Temporal momentum scoring (stub)
 │   │   ├── gap_spotter.py       # Missing evidence analysis (stub)
 │   │   ├── hype_ratio.py        # Evidence vs media hype (stub)
 │   │   └── report_generator.py  # Orchestrates all tools (stub)
 │   │
 │   ├── mcp_server/
-│   │   └── server.py            # FastMCP server, 8 tools, SSE on port 8001
+│   │   └── server.py            # FastMCP server, 11 tools, SSE on port 8001
 │   │
 │   ├── stats/
 │   │   └── summary.py           # Deterministic summary generation
 │   │
 │   └── frontend/
-│       └── app.py               # Streamlit demo app
+│       └── app.py               # Streamlit (placeholder)
+│
+├── frontend/                    # React/TypeScript app (Vite)
+│   ├── src/                     # React components
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.ts
 │
 ├── scripts/
 │   ├── seed_intervention.py     # CLI: ingest all sources for one intervention
 │   ├── seed_all.py              # CLI: batch ingest with checkpoint/resume
 │   ├── generate_summary.py      # CLI: generate summary stats
+│   ├── compile_profiles.py      # CLI: generate pharma/biotech company profiles
+│   ├── generate_bj_quotes.py    # CLI: generate Bryan Johnson stances dataset
 │   └── llm_api_test.py          # Test LLM API connectivity
 │
 ├── tests/
@@ -121,6 +133,10 @@ bio-hack/
     ├── trends/                  # Google Trends data
     ├── query_cache/             # Cached LLM query expansions
     ├── drugage/                 # DrugAge CSV data
+    ├── anage/                   # AnAge database
+    ├── pharma_profiles/         # {company}.json — pharma company profiles
+    ├── biotech_profiles/        # {company}.json — biotech startup profiles
+    ├── bryan_johnson.json       # Bryan Johnson intervention stances
     ├── age_nt.db                # SQLite database (mirrors JSON)
     ├── seed_all.log             # Batch seeding log
     └── seed_summary.json        # Last batch seed results
@@ -138,6 +154,7 @@ Defined in `src/schema/document.py`. Uses **Base + source-specific subclasses** 
 ## API Endpoints
 
 ```
+# Interventions
 GET  /interventions                              → List all indexed interventions
 GET  /interventions/{name}/documents             → All docs, filterable by:
                                                      ?source_type=pubmed
@@ -145,11 +162,24 @@ GET  /interventions/{name}/documents             → All docs, filterable by:
                                                      ?date_from=2020-01-01
                                                      ?organism=human
 GET  /interventions/{name}/timeline              → Temporal aggregation (studies per level per year)
+GET  /interventions/{name}/stats                 → Comprehensive summary stats
+GET  /interventions/{name}/trends                → Google Trends data
 GET  /interventions/{name}/gaps                  → Gap analysis results
 GET  /interventions/{name}/hype                  → News/social sentiment over time
 POST /interventions/{name}/report                → Trigger full reasoning pipeline → structured JSON report
 POST /query                                      → Semantic search across all docs
 POST /ingest                                     → Trigger ingest for a new intervention
+
+# Pharma/Biotech
+GET  /pharma/profiles                            → List all pharma company profiles
+GET  /pharma/{company}                           → Get pharma company profile
+GET  /biotech/profiles                           → List all biotech startup profiles
+GET  /biotech/{company}                          → Get biotech company profile
+GET  /pharma/dd/{company}                        → Due diligence analysis
+
+# Tools & Chat
+POST /tools                                      → Dynamic tool discovery and execution
+POST /chat                                       → Agentic LLM conversation with tool integration
 ```
 
 ## Key Implementation Notes
@@ -179,11 +209,14 @@ All 10 agents in `src/ingest/` follow the same pattern:
 
 ### Reasoning Tools
 
-Located in `src/tools/`. Only Edison is implemented — the rest are stubs to be built (see FUTURE_WORK.md "Next: MCP Reasoning Tools").
+Located in `src/tools/`. Tools can involve LLM calls and can also call other tools — the orchestration is nested and hierarchical but adaptive, not a static graph.
 
-**Edison** (`src/tools/edison.py`): PaperQA3 wrapper for deep medical reasoning. Job types: literature, literature_high, precedent, analysis, molecules.
+**Implemented:**
+- **Edison** (`src/tools/edison.py`): PaperQA3 wrapper for deep medical reasoning. Job types: literature, literature_high, precedent, analysis, molecules.
+- **Trajectory Scorer** (`src/tools/trajectory.py`, 558 lines): Computes velocity metrics (recent vs historical publication rates, acceleration), diversification (Shannon entropy over source types), trial pipeline metrics (phase/status breakdowns, pipeline velocity), and time-series data (yearly/cumulative counts, trends overlay).
+- **SQL Query** (`src/tools/sql_query.py`): Safety layer for read-only SQL queries — validates queries, blocks writes, rewrites `SELECT *` to exclude heavy columns.
 
-**Stubs to implement**: Evidence Grader, Trajectory Scorer, Gap Spotter, Hype Ratio, Report Generator. Each should query StorageManager and return structured results. MCP server already has matching stub tool definitions.
+**Stubs to implement**: Evidence Grader, Gap Spotter, Hype Ratio, Report Generator. Each should query StorageManager and return structured results. MCP server already has matching tool definitions with dynamic fallback to `src/tools/`.
 
 ## Environment Variables
 
@@ -208,19 +241,19 @@ LOG_LEVEL=INFO
 ## Current Status
 
 ### Built
-- **Schema**: Base + 11 source-specific Pydantic subclasses with discriminated union
+- **Schema**: Base + 11 source-specific Pydantic subclasses with discriminated union. Classification fields use `exclude=True` (stored separately in `data/classifications/`).
 - **Ingest**: 10 agents (PubMed, ClinicalTrials, Europe PMC, Semantic Scholar, DrugAge, NIH Reporter, Patents, FDA, Tavily, Social) + Google Trends + LLM query expander
 - **Storage**: JSON + SQLite dual store with StorageManager, deduplication
-- **API**: FastAPI with interventions, ingest, and reasoning routes
-- **MCP Server**: 8 tools (3 functional, 5 stubs), SSE transport
-- **Scripts**: `seed_intervention.py` (single), `seed_all.py` (batch with checkpoint/resume, concurrent agents, retry/backoff)
-- **Tools**: Edison/PaperQA3 wrapper implemented
-- **Data**: 55 interventions configured with aliases and categories
+- **API**: FastAPI with 6 route modules (interventions, ingest, reasoning, tools, chat, pharma)
+- **MCP Server**: 11 tools (7 functional, 4 stubs with dynamic tool fallback), SSE transport
+- **Scripts**: `seed_intervention.py`, `seed_all.py` (batch), `generate_summary.py`, `compile_profiles.py`, `generate_bj_quotes.py`
+- **Tools**: Edison/PaperQA3, Trajectory Scorer (fully implemented), SQL Query safety layer
+- **Data**: 55 interventions, 15 pharma profiles, 10 biotech profiles, Bryan Johnson stances
+- **Frontend**: React/TypeScript app in `frontend/`
 
 ### Next to build
-- Reasoning tools: Evidence Grader, Trajectory Scorer, Gap Spotter, Hype Ratio, Report Generator (see FUTURE_WORK.md)
-- Wire reasoning tools into MCP server stubs
-- Frontend polish
+- Reasoning tools: Evidence Grader, Gap Spotter, Hype Ratio, Report Generator (see FUTURE_WORK.md)
+- Wire remaining reasoning tools into MCP server stubs
 
 ## Coding Standards
 
@@ -257,8 +290,8 @@ uv run python -m src.mcp_server.server
 # Start API server
 uvicorn src.api.main:app --reload --port 8000
 
-# Start Streamlit frontend
-streamlit run src/frontend/app.py
+# Start React frontend
+cd frontend && npm run dev
 
 # Run tests
 pytest tests/

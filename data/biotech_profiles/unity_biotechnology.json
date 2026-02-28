@@ -1,0 +1,114 @@
+{
+  "company": "Unity Biotechnology",
+  "ticker": "UBX (Nasdaq listing: https://www.nasdaq.com/market-activity/stocks/ubx)",
+  "founded": null,
+  "hq": "South San Francisco, California, USA (company contact/location: https://unitybiotechnology.com/contact/)",
+  "stage": "clinical",
+  "total_funding_usd": null,
+  "pipeline": [
+    {
+      "compound": "UBX1325",
+      "intervention_link": "senolytics",
+      "target": "BCL-xL (BCL2L1) (as described by company program materials) (source: https://unitybiotechnology.com/pipeline/)",
+      "mechanism": "Senolytic approach; BCL-2 family inhibition (including BCL-xL) has been shown to preferentially eliminate senescent cells in published preclinical studies, supporting the senolytic rationale (source: https://pubmed.ncbi.nlm.nih.gov/27421801/; company program context: https://unitybiotechnology.com/pipeline/)",
+      "indication": "Diabetic macular edema (DME) (source: https://unitybiotechnology.com/pipeline/)",
+      "phase": "Phase 2 (source: https://unitybiotechnology.com/pipeline/)",
+      "hallmarks": [
+        "cellular_senescence",
+        "altered_intercellular_communication",
+        "chronic_inflammation"
+      ],
+      "categories": [
+        "senolytics",
+        "anti_inflammatory"
+      ],
+      "source": "https://unitybiotechnology.com/pipeline/"
+    },
+    {
+      "compound": "UBX1325",
+      "intervention_link": "senolytics",
+      "target": "BCL-xL (BCL2L1) (as described by company program materials) (source: https://unitybiotechnology.com/pipeline/)",
+      "mechanism": "Senolytic approach; BCL-2 family inhibition (including BCL-xL) has been shown to preferentially eliminate senescent cells in published preclinical studies, supporting the senolytic rationale (source: https://pubmed.ncbi.nlm.nih.gov/27421801/; company program context: https://unitybiotechnology.com/pipeline/)",
+      "indication": "Neovascular age-related macular degeneration (wet AMD) (source: https://unitybiotechnology.com/pipeline/)",
+      "phase": "source needed",
+      "hallmarks": [
+        "cellular_senescence",
+        "altered_intercellular_communication",
+        "chronic_inflammation"
+      ],
+      "categories": [
+        "senolytics",
+        "anti_inflammatory"
+      ],
+      "source": "https://unitybiotechnology.com/pipeline/"
+    },
+    {
+      "compound": "UBX0101",
+      "intervention_link": "UBX0101",
+      "target": "source needed (UNITY/academic publications describe UBX0101 as a senolytic used for local senescent cell clearance in osteoarthritis models; specific direct molecular target for UBX0101 should be verified) (preclinical/usage context: https://pubmed.ncbi.nlm.nih.gov/28436958/)",
+      "mechanism": "Senolytic (local clearance of senescent cells in joint tissue shown to attenuate post-traumatic osteoarthritis in a published study using UBX0101) (source: https://pubmed.ncbi.nlm.nih.gov/28436958/)",
+      "indication": "Knee osteoarthritis (clinical trial listings for UBX0101 exist on ClinicalTrials.gov; exact current development status should be verified) (source: https://clinicaltrials.gov/search?term=UBX0101)",
+      "phase": "source needed (ClinicalTrials.gov lists studies for UBX0101; phase/status should be extracted per specific NCT record) (source: https://clinicaltrials.gov/search?term=UBX0101)",
+      "hallmarks": [
+        "cellular_senescence",
+        "altered_intercellular_communication",
+        "chronic_inflammation"
+      ],
+      "categories": [
+        "senolytics",
+        "anti_inflammatory"
+      ],
+      "source": "Jeon OH et al., Nature Medicine (2017) (UBX0101 senolytic in OA model): https://pubmed.ncbi.nlm.nih.gov/28436958/; ClinicalTrials.gov UBX0101 search: https://clinicaltrials.gov/search?term=UBX0101"
+    }
+  ],
+  "hallmarks_targeted": [
+    "cellular_senescence",
+    "altered_intercellular_communication",
+    "chronic_inflammation"
+  ],
+  "category_links": [
+    "senolytics",
+    "anti_inflammatory"
+  ],
+  "key_people": [
+    {
+      "name": "Anirvan Ghosh, PhD",
+      "role": "Chief Executive Officer (source: https://unitybiotechnology.com/)",
+      "background": "source needed (recommended verification from UNITY leadership page and/or SEC filings; SEC EDGAR company filings portal: https://www.sec.gov/cgi-bin/browse-edgar?CIK=1651717&action=getcompany)"
+    }
+  ],
+  "investors_notable": [],
+  "risks": [
+    "Clinical efficacy risk: senolytic benefits in human chronic diseases may not translate from preclinical models (context for UBX0101 preclinical OA effects: https://pubmed.ncbi.nlm.nih.gov/28436958/).",
+    "Target biology/safety risk: BCL-xL inhibition as a class (e.g., navitoclax/ABT-263) has been associated with thrombocytopenia in systemic oncology use, indicating potential on-target safety liabilities if systemic exposure occurs (sources: senolytic BCL-2 family activity: https://pubmed.ncbi.nlm.nih.gov/27421801/; clinical navitoclax safety: https://pubmed.ncbi.nlm.nih.gov/22343636/).",
+    "Regulatory/development risk: For many senolytic approaches, there is limited regulatory precedent for validated pharmacodynamic biomarkers of senescent cell clearance in humans across indications (source needed).",
+    "Financing/dilution risk typical of pre-revenue clinical-stage biotech; UNITY’s capital position and runway should be verified from the most recent Form 10-K/10-Q (SEC EDGAR company filings: https://www.sec.gov/cgi-bin/browse-edgar?CIK=1651717&action=getcompany) (source needed for any specific runway claim)."
+  ],
+  "competitive_advantages": [
+    "Mechanistic differentiation: focuses on targeting cellular senescence (a root-process intervention) rather than only downstream inflammatory signaling, consistent with UNITY’s corporate positioning and pipeline focus (source: https://unitybiotechnology.com/pipeline/).",
+    "Therapeutic hypothesis of durable disease modification from senescent cell clearance is supported by peer-reviewed preclinical evidence in degenerative disease models (example OA model with UBX0101: https://pubmed.ncbi.nlm.nih.gov/28436958/).",
+    "Ophthalmology focus provides well-established functional/anatomic endpoints (e.g., vision and retinal imaging) for clinical development (general clinical development practice; source needed for a specific endpoint strategy for UNITY trials)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 100000000,
+    "high_usd": 350000000,
+    "methodology": "Heuristic M&A range for a single-asset/small-platform clinical-stage ophthalmology biotech: anchor to precedent ophthalmology acquisitions with later-stage or commercial assets (e.g., Alcon–Aerie; Astellas–Iveric; Novartis–Xiidra) and apply a steep stage/risk discount consistent with lower probabilities of success for Phase 2-stage programs. For phase-of-development risk reference, use BIO’s clinical development success rate report (2011–2020) as an industry benchmark (source: https://www.bio.org/sites/default/files/2021-02/Clinical-Development-Success-Rate-2011-2020.pdf). Final range reflects (i) earlier stage versus the comparables, (ii) platform optionality but uncertain validation, and (iii) typical control premiums (source needed for a specific premium statistic).",
+    "comparable_deals": [
+      "Alcon to acquire Aerie Pharmaceuticals for ~$770M (press release reference; source needed URL; example media page: https://www.alcon.com/media-release/ (deal-specific page source needed)).",
+      "Astellas to acquire Iveric Bio for ~$5.9B equity value (press release reference; source needed URL).",
+      "Novartis to acquire Xiidra from Takeda for $3.4B upfront plus milestones (press release reference; source needed URL)."
+    ]
+  },
+  "sources": [
+    "UNITY pipeline page (program/indication context): https://unitybiotechnology.com/pipeline/",
+    "UNITY contact/location page (HQ context): https://unitybiotechnology.com/contact/",
+    "Nasdaq listing for UBX (ticker verification): https://www.nasdaq.com/market-activity/stocks/ubx",
+    "SEC EDGAR company filings portal (corporate filings, leadership confirmation, financing/risk disclosures): https://www.sec.gov/cgi-bin/browse-edgar?CIK=1651717&action=getcompany",
+    "Jeon OH et al., Nature Medicine (2017) (UBX0101 senolytic in OA model): https://pubmed.ncbi.nlm.nih.gov/28436958/",
+    "Chang J et al., Nature Medicine (2016) (ABT-263/navitoclax senolytic activity; BCL-2 family inhibition clears senescent cells): https://pubmed.ncbi.nlm.nih.gov/27421801/",
+    "Rudin CM et al., Clinical Cancer Research (2012) (navitoclax clinical safety including thrombocytopenia): https://pubmed.ncbi.nlm.nih.gov/22343636/",
+    "ClinicalTrials.gov search for UBX0101 (trial presence to be validated per NCT record): https://clinicaltrials.gov/search?term=UBX0101",
+    "BIO, Informa Pharma Intelligence, QLS: Clinical Development Success Rates 2011–2020 (phase transition/PoS benchmark used in acquisition heuristic): https://www.bio.org/sites/default/files/2021-02/Clinical-Development-Success-Rate-2011-2020.pdf"
+  ],
+  "needs_review": true
+}

@@ -1,32 +1,373 @@
 {
-  "started_at": "2026-02-28T07:47:02.363280+00:00",
-  "completed_at": "2026-02-28T07:48:51.706807+00:00",
-  "duration_seconds": 109.3,
-  "total_interventions": 15,
-  "successful": 15,
+  "started_at": "2026-02-28T10:46:54.722368+00:00",
+  "completed_at": "2026-02-28T10:46:56.264669+00:00",
+  "duration_seconds": 1.5,
+  "total_interventions": 46,
+  "successful": 46,
   "failed": 0,
-  "total_documents": 0,
+  "total_documents": 526,
   "sources_used": [
-    "trends"
+    "drugage"
   ],
   "config": {
     "max_results": 50,
-    "delay": 5,
+    "delay": 0,
     "skip_tavily": false,
     "skip_edison": false,
     "category_filter": null,
-    "start_from": "ketogenic diet"
+    "start_from": "NMN"
   },
   "interventions": [
+    {
+      "name": "NMN",
+      "category": "NAD_metabolism",
+      "subcategory": "NAD_precursors",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "NR",
+      "category": "NAD_metabolism",
+      "subcategory": "NAD_precursors",
+      "documents": 10,
+      "sources": {
+        "drugage": 10
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "niacin",
+      "category": "NAD_metabolism",
+      "subcategory": "NAD_precursors",
+      "documents": 9,
+      "sources": {
+        "drugage": 9
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "NAD+ precursors",
+      "category": "NAD_metabolism",
+      "subcategory": "class_overview",
+      "documents": 10,
+      "sources": {
+        "drugage": 10
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "CD38 inhibitors",
+      "category": "NAD_metabolism",
+      "subcategory": "NAD_preservation",
+      "documents": 5,
+      "sources": {
+        "drugage": 5
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "dasatinib quercetin",
+      "category": "senolytics",
+      "subcategory": "senolytic_combination",
+      "documents": 37,
+      "sources": {
+        "drugage": 37
+      },
+      "duration_seconds": 0.1,
+      "errors": []
+    },
+    {
+      "name": "senolytics",
+      "category": "senolytics",
+      "subcategory": "class_overview",
+      "documents": 50,
+      "sources": {
+        "drugage": 50
+      },
+      "duration_seconds": 0.1,
+      "errors": []
+    },
+    {
+      "name": "fisetin",
+      "category": "senolytics",
+      "subcategory": "flavonoid_senolytic",
+      "documents": 47,
+      "sources": {
+        "drugage": 47
+      },
+      "duration_seconds": 0.1,
+      "errors": []
+    },
+    {
+      "name": "navitoclax",
+      "category": "senolytics",
+      "subcategory": "BCL2_inhibitor",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "UBX0101",
+      "category": "senolytics",
+      "subcategory": "MDM2_inhibitor",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "FOXO4-DRI",
+      "category": "senolytics",
+      "subcategory": "peptide_senolytic",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "quercetin",
+      "category": "senolytics",
+      "subcategory": "flavonoid_senolytic",
+      "documents": 49,
+      "sources": {
+        "drugage": 49
+      },
+      "duration_seconds": 0.1,
+      "errors": []
+    },
+    {
+      "name": "resveratrol",
+      "category": "sirtuin_activation",
+      "subcategory": "polyphenols",
+      "documents": 50,
+      "sources": {
+        "drugage": 50
+      },
+      "duration_seconds": 0.1,
+      "errors": []
+    },
+    {
+      "name": "SRT1720",
+      "category": "sirtuin_activation",
+      "subcategory": "synthetic_sirtuin_activator",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "spermidine",
+      "category": "autophagy_induction",
+      "subcategory": "polyamines",
+      "documents": 13,
+      "sources": {
+        "drugage": 13
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "urolithin A",
+      "category": "autophagy_induction",
+      "subcategory": "mitophagy",
+      "documents": 12,
+      "sources": {
+        "drugage": 12
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "trehalose",
+      "category": "autophagy_induction",
+      "subcategory": "mTOR_independent_autophagy",
+      "documents": 3,
+      "sources": {
+        "drugage": 3
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "young plasma",
+      "category": "systemic_factors",
+      "subcategory": "blood_factors",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "GDF11",
+      "category": "systemic_factors",
+      "subcategory": "blood_factors",
+      "documents": 1,
+      "sources": {
+        "drugage": 1
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "klotho",
+      "category": "systemic_factors",
+      "subcategory": "longevity_proteins",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "GLP-1 agonists",
+      "category": "metabolic_intervention",
+      "subcategory": "incretin_mimetics",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "hyperbaric oxygen therapy",
+      "category": "physical_intervention",
+      "subcategory": "oxygen_therapy",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "epigenetic reprogramming",
+      "category": "epigenetic_intervention",
+      "subcategory": "reprogramming",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "epigenetic clocks",
+      "category": "epigenetic_intervention",
+      "subcategory": "biomarkers",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "alpha-ketoglutarate",
+      "category": "metabolic_intervention",
+      "subcategory": "TCA_cycle",
+      "documents": 18,
+      "sources": {
+        "drugage": 18
+      },
+      "duration_seconds": 0.1,
+      "errors": []
+    },
+    {
+      "name": "taurine",
+      "category": "metabolic_intervention",
+      "subcategory": "amino_acids",
+      "documents": 23,
+      "sources": {
+        "drugage": 23
+      },
+      "duration_seconds": 0.1,
+      "errors": []
+    },
+    {
+      "name": "glycine",
+      "category": "metabolic_intervention",
+      "subcategory": "amino_acids",
+      "documents": 19,
+      "sources": {
+        "drugage": 19
+      },
+      "duration_seconds": 0.1,
+      "errors": []
+    },
+    {
+      "name": "lithium",
+      "category": "neuroprotection",
+      "subcategory": "GSK3_inhibition",
+      "documents": 11,
+      "sources": {
+        "drugage": 11
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "deprenyl",
+      "category": "neuroprotection",
+      "subcategory": "MAO_inhibition",
+      "documents": 12,
+      "sources": {
+        "drugage": 12
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "pioglitazone",
+      "category": "metabolic_intervention",
+      "subcategory": "PPAR_gamma_agonist",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
+    {
+      "name": "caloric restriction",
+      "category": "dietary_intervention",
+      "subcategory": "caloric_restriction",
+      "documents": 0,
+      "sources": {
+        "drugage": 0
+      },
+      "duration_seconds": 0.0,
+      "errors": []
+    },
     {
       "name": "ketogenic diet",
       "category": "dietary_intervention",
       "subcategory": "metabolic_diets",
       "documents": 0,
       "sources": {
-        "trends": 261
+        "drugage": 0
       },
-      "duration_seconds": 3.7,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
@@ -35,9 +376,9 @@
       "subcategory": "exercise",
       "documents": 0,
       "sources": {
-        "trends": 261
+        "drugage": 0
       },
-      "duration_seconds": 2.8,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
@@ -46,9 +387,9 @@
       "subcategory": "hormesis",
       "documents": 0,
       "sources": {
-        "trends": 261
+        "drugage": 0
       },
-      "duration_seconds": 4.1,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
@@ -57,9 +398,9 @@
       "subcategory": "hormesis",
       "documents": 0,
       "sources": {
-        "trends": 261
+        "drugage": 0
       },
-      "duration_seconds": 2.6,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
@@ -68,9 +409,9 @@
       "subcategory": "telomerase_activators",
       "documents": 0,
       "sources": {
-        "trends": 261
+        "drugage": 0
       },
-      "duration_seconds": 1.9,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
@@ -79,9 +420,9 @@
       "subcategory": "stem_cells",
       "documents": 0,
       "sources": {
-        "trends": 261
+        "drugage": 0
       },
-      "duration_seconds": 2.7,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
@@ -90,75 +431,75 @@
       "subcategory": "thymus",
       "documents": 0,
       "sources": {
-        "trends": 261
+        "drugage": 0
       },
-      "duration_seconds": 2.2,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
       "name": "curcumin",
       "category": "anti_inflammatory",
       "subcategory": "polyphenols",
-      "documents": 0,
+      "documents": 43,
       "sources": {
-        "trends": 261
+        "drugage": 43
       },
-      "duration_seconds": 2.4,
+      "duration_seconds": 0.1,
       "errors": []
     },
     {
       "name": "sulforaphane",
       "category": "anti_inflammatory",
       "subcategory": "NRF2_pathway",
-      "documents": 0,
+      "documents": 4,
       "sources": {
-        "trends": 261
+        "drugage": 4
       },
-      "duration_seconds": 2.8,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
       "name": "omega-3 fatty acids",
       "category": "anti_inflammatory",
       "subcategory": "fatty_acids",
-      "documents": 0,
+      "documents": 8,
       "sources": {
-        "trends": 261
+        "drugage": 8
       },
-      "duration_seconds": 2.9,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
       "name": "aspirin",
       "category": "anti_inflammatory",
       "subcategory": "COX_inhibition",
-      "documents": 0,
+      "documents": 37,
       "sources": {
-        "trends": 261
+        "drugage": 37
       },
-      "duration_seconds": 3.0,
+      "duration_seconds": 0.1,
       "errors": []
     },
     {
       "name": "berberine",
       "category": "metabolic_intervention",
       "subcategory": "AMPK_activation",
-      "documents": 0,
+      "documents": 9,
       "sources": {
-        "trends": 261
+        "drugage": 9
       },
-      "duration_seconds": 2.2,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
       "name": "CoQ10",
       "category": "mitochondrial",
       "subcategory": "electron_transport",
-      "documents": 0,
+      "documents": 40,
       "sources": {
-        "trends": 261
+        "drugage": 40
       },
-      "duration_seconds": 2.3,
+      "duration_seconds": 0.1,
       "errors": []
     },
     {
@@ -167,20 +508,20 @@
       "subcategory": "mitochondria_targeted_peptide",
       "documents": 0,
       "sources": {
-        "trends": 261
+        "drugage": 0
       },
-      "duration_seconds": 1.6,
+      "duration_seconds": 0.0,
       "errors": []
     },
     {
       "name": "methylene blue",
       "category": "mitochondrial",
       "subcategory": "electron_carrier",
-      "documents": 0,
+      "documents": 6,
       "sources": {
-        "trends": 261
+        "drugage": 6
       },
-      "duration_seconds": 2.2,
+      "duration_seconds": 0.0,
       "errors": []
     }
   ]

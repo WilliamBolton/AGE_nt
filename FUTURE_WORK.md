@@ -28,12 +28,10 @@ These tools consume existing data via `StorageManager` and expose reasoning thro
 - Evidence Grader: count studies per evidence level, weight by sample size, compute composite confidence score
 - Gap Spotter: check for missing evidence types, flag no human data / no RCTs / single-lab results
 
-### T5. Temporal Analysis & Trajectory Tools
-- **Trial Lifecycle**: Query ClinicalTrials docs for pipeline velocity — days from registered → started → completed → results posted. Flag stalled trials, compute avg pipeline speed.
-- **Trajectory Scorer**: Group all docs by year and source type. Compute publication rate, acceleration, whether evidence is climbing the hierarchy. Output momentum score + phase label (emerging/accelerating/mature/stagnant/declining).
-- **Cross-source timeline**: Combine temporal signals from all sources — `date_published` (papers), `filing_date`/`grant_date` (patents), `grant_start`/`fiscal_year` (NIH), `approval_date` (FDA), `date_peer_published` (preprints)
-- **Prerequisite**: Add `get_trial_lifecycle(intervention)` query method to StorageManager/SQLiteStore — trivial SQL over existing columns (`date_registered`, `date_started`, `date_completed`, `date_results_posted` all stored and indexed)
-- **Data is ready**: Every BaseDocument has `date_published`; ClinicalTrials has 4 lifecycle dates; Patents, NIH grants, FDA, preprints all have source-specific temporal fields already populated by ingest agents
+### ✅ T5. Temporal Analysis & Trajectory Tools (Implemented)
+- **Trajectory Scorer** (`src/tools/trajectory.py`, 558 lines): Fully implemented with VelocityMetrics (recent vs historical publication rates, acceleration), DiversificationMetrics (Shannon entropy over source types), TrialPipelineMetrics (phase/status breakdowns, pipeline velocity), and plot-ready time series (yearly/cumulative counts, trends overlay).
+- **Cross-source timeline**: Combines temporal signals from all sources — `date_published` (papers), `filing_date`/`grant_date` (patents), `grant_start`/`fiscal_year` (NIH), `approval_date` (FDA), `date_peer_published` (preprints)
+- **MCP tool**: `get_evidence_trajectory` is functional and calls the trajectory scorer directly
 
 ### T6. Demo / Frontend
 - Streamlit or lightweight web app showing how a pharma/VC user would interact with the system
@@ -54,7 +52,9 @@ These tools consume existing data via `StorageManager` and expose reasoning thro
 ## Completed
 
 ### ✅ MCP Server (S6)
-- `src/mcp_server/server.py` — FastMCP server with 8 tools, SSE transport on port 8001
+- `src/mcp_server/server.py` — FastMCP server with 11 tools, SSE transport on port 8001
+- 7 functional tools: list_interventions, get_intervention_stats, search_documents, get_evidence_trajectory, get_bryan_johnson_take, sql_query, run_python
+- 4 stubs with dynamic tool fallback: get_evidence_grade, get_evidence_gaps, get_hype_ratio, get_full_report
 - **Claude Desktop setup:** Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
   ```json
   {
@@ -79,6 +79,14 @@ These tools consume existing data via `StorageManager` and expose reasoning thro
 - File logging to `data/seed_all.log`
 
 ## Stretch Goals
+
+### S7. Pre-compute Analysis Pipeline
+- `scripts/precompute_analysis.py` — batch-run all reasoning tools across all 54 interventions, save outputs as static JSON to `data/analysis/{tool}/{intervention}.json`
+- Dynamic tool discovery: imports from `src/tools/` and auto-detects available tools via `discover_tools()`
+- Runs only the tools that exist — if a teammate adds a new tool tomorrow, the script picks it up automatically
+- Produces an `index.json` manifest with summary scores per intervention
+- Not needed now — the API caches tool outputs on first request. Useful later for warming caches or CDN deployment
+- Could run as a CI/CD step after tool code changes to keep cached data fresh
 
 ### On-Demand Ingest via MCP
 - Add an `ingest_intervention` MCP tool that triggers the full scraping pipeline for new interventions
@@ -211,10 +219,8 @@ The `fields` parameter is key — an agent asking for `["title", "pmid", "date_p
 
 See `JSON_SCHEMA_REFERENCE.md` for the full schema reference agents use to know which fields and filters are available.
 
-### Future: SQLite Query Layer
-If cross-intervention queries become necessary (e.g. "which intervention has the most Phase 3 trials?", "rank all interventions by evidence volume"), SQLite already mirrors the JSON with indexes on `intervention`, `source_type`, `date_published`, and `evidence_level`. A future `query_across_interventions(...)` tool could use SQL for aggregations that don't make sense at the single-file level. This avoids loading every intervention's JSON file to answer one question.
-
-Not needed now — agents currently operate on one intervention at a time.
+### Active: SQLite Query Layer via MCP
+The `sql_query` MCP tool provides read-only SQL access to the documents table. Cross-intervention queries (e.g. "which intervention has the most Phase 3 trials?", "rank all interventions by evidence volume") are now possible via SQL. The tool validates queries (blocks writes), rewrites `SELECT *` to exclude heavy columns, and enforces LIMIT clauses. Safety layer in `src/tools/sql_query.py`.
 
 ---
 
@@ -235,6 +241,17 @@ Not needed now — agents currently operate on one intervention at a time.
 - [ ] Consolidate document schemas — 11 subclasses may be more than needed long-term
 - [ ] Add data freshness tracking — flag when an intervention's data is stale and needs re-ingestion
 - [ ] Add embedding model versioning (re-embed when model changes)
+
+## Influencer & KOL Takes
+
+Currently `get_bryan_johnson_take` uses hardcoded quotes in `data/bryan_johnson.json` (representative paraphrases of his known public positions). Future work:
+
+- [ ] **Live X/Twitter integration**: Pull real-time tweets from longevity influencers (Bryan Johnson, David Sinclair, Peter Attia, Rhonda Patrick, Andrew Huberman) via X API, filter for mentions of tracked interventions
+- [ ] **Podcast transcript mining**: Index transcripts from longevity podcasts (Huberman Lab, The Drive, FoundMyFitness) and extract intervention-specific claims
+- [ ] **Sentiment tracking over time**: Track how influencer sentiment on specific interventions changes (e.g. Bryan Johnson dropping metformin)
+- [ ] **Influencer agreement matrix**: Compare which influencers agree/disagree on each intervention
+- [ ] **Add more influencer profiles**: Extend the pattern to other KOLs (each gets a `data/{name}.json` file)
+- [ ] **Citation checking**: Cross-reference influencer claims against our evidence database — flag when a claim isn't supported by the evidence level they imply
 
 ## Research Questions
 

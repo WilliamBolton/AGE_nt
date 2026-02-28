@@ -1,0 +1,95 @@
+{
+  "company": "AbbVie Inc.",
+  "ticker": "ABBV",
+  "hq": "North Chicago, Illinois, United States (source: AbbVie Inc. Form 10-K FY2023; SEC EDGAR company filings page https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1551152&owner=exclude&count=40&hidefilings=0)",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Immunology (source: AbbVie Inc. Form 10-K FY2023)",
+    "Oncology (source: AbbVie Inc. Form 10-K FY2023)",
+    "Neuroscience (source: AbbVie Inc. Form 10-K FY2023)",
+    "Aesthetics (source: AbbVie Inc. Form 10-K FY2023)",
+    "Eye care (source: AbbVie Inc. Form 10-K FY2023)"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "AbbVie has explicit strategic exposure to aging biology via its R&D collaboration with Calico that is specifically framed around therapies for age-related diseases (source: Calico/AbbVie collaboration press release reference: “AbbVie and Calico announce a new research and development collaboration,” 2014; source needed for URL). AbbVie also develops navitoclax (ABT-263), a BCL-2 family inhibitor that has published evidence as a senolytic in preclinical models (source: PubMed 26711051 https://pubmed.ncbi.nlm.nih.gov/26711051/) and is in AbbVie-sponsored clinical studies (e.g., myelofibrosis) (source: ClinicalTrials.gov NCT03222609 https://clinicaltrials.gov/study/NCT03222609). However, AbbVie’s marketed portfolio is primarily disease/indication-led (immunology, oncology, neuroscience) rather than organized around geroscience endpoints (source: AbbVie Inc. Form 10-K FY2023).",
+  "existing_longevity_assets": [
+    {
+      "compound": "Navitoclax (ABT-263)",
+      "intervention_link": "navitoclax",
+      "status": "Clinical development (e.g., Phase 2 in myelofibrosis, AbbVie-sponsored)",
+      "indication": "Myelofibrosis (in combination studies)",
+      "relevance": "Direct longevity-research relevance as a widely cited senolytic candidate (BCL-2 family inhibition) with clinical development activity; maps to cellular senescence targeting approaches.",
+      "source": "ClinicalTrials.gov NCT03222609 https://clinicaltrials.gov/study/NCT03222609 ; preclinical senolytic evidence: https://pubmed.ncbi.nlm.nih.gov/26711051/"
+    },
+    {
+      "compound": "Adalimumab (Humira)",
+      "intervention_link": null,
+      "status": "Approved (FDA)",
+      "indication": "Multiple immune-mediated inflammatory diseases (e.g., rheumatoid arthritis)",
+      "relevance": "Anti-TNF immunomodulation is relevant to inflammaging/chronic inflammation biology, though not developed as a longevity intervention per se.",
+      "source": "FDA Drugs@FDA (Humira, BLA 125057): https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125057"
+    },
+    {
+      "compound": "Upadacitinib (Rinvoq)",
+      "intervention_link": null,
+      "status": "Approved (FDA)",
+      "indication": "Immune-mediated inflammatory diseases (e.g., rheumatoid arthritis, atopic dermatitis; see label for full list)",
+      "relevance": "JAK inhibition/immune pathway modulation is relevant to chronic inflammation and age-associated immune dysregulation, but is indication-led rather than positioned as a geroscience program.",
+      "source": "FDA Drugs@FDA (Rinvoq, NDA 211675): https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211675"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "cellular_senescence",
+    "chronic_inflammation",
+    "altered_intercellular_communication",
+    "stem_cell_exhaustion"
+  ],
+  "aging_signal_strength": 6,
+  "recent_acquisitions": [
+    {
+      "target": "Allergan",
+      "year": 2019,
+      "value_usd": 63000000000,
+      "relevance": "Strategic diversification into aesthetics/eye care and broader therapeutics; indirectly relevant to aging through ophthalmology and age-associated conditions, but not an aging-biology acquisition.",
+      "source": "AbbVie press release reference: “AbbVie to acquire Allergan, a highly attractive growth platform,” June 25, 2019 (deal value described as ~$63B); source needed for URL"
+    },
+    {
+      "target": "ImmunoGen",
+      "year": 2023,
+      "value_usd": 10100000000,
+      "relevance": "Oncology (ADC platform) acquisition; relevance to longevity is indirect (cancer as an age-associated disease) rather than geroscience-directed.",
+      "source": "AbbVie press release reference: “AbbVie to acquire ImmunoGen,” Nov 30, 2023 (deal value $10.1B); source needed for URL"
+    },
+    {
+      "target": "Cerevel Therapeutics",
+      "year": 2023,
+      "value_usd": 8700000000,
+      "relevance": "Neuroscience acquisition; neurodegeneration is strongly age-associated, but the acquisition is not explicitly positioned as targeting mechanisms of aging.",
+      "source": "AbbVie press release reference: “AbbVie to acquire Cerevel Therapeutics,” Dec 6, 2023 (deal value $8.7B); source needed for URL"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Late-stage to commercial platforms (analyst inference based on Allergan, ImmunoGen, Cerevel deal profiles; sources as cited in recent_acquisitions).",
+    "avg_deal_size_usd": null,
+    "focus_areas": [
+      "Immunology",
+      "Oncology",
+      "Neuroscience",
+      "Aesthetics/eye care"
+    ],
+    "recent_trend": "Large strategic diversification deals plus bolt-on specialty acquisitions to deepen core therapeutic areas (analyst inference; sources as cited in recent_acquisitions and AbbVie Inc. Form 10-K FY2023)."
+  },
+  "sources": [
+    "SEC EDGAR company filings page (AbbVie; includes trading symbol): https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1551152&owner=exclude&count=40&hidefilings=0",
+    "AbbVie Inc. Form 10-K FY2023 (reference; source needed for direct URL)",
+    "FDA Drugs@FDA (Humira, BLA 125057): https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125057",
+    "FDA Drugs@FDA (Rinvoq, NDA 211675): https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211675",
+    "ClinicalTrials.gov (Navitoclax; NCT03222609): https://clinicaltrials.gov/study/NCT03222609",
+    "PubMed (navitoclax as senolytic; PMID: 26711051): https://pubmed.ncbi.nlm.nih.gov/26711051/",
+    "Calico/AbbVie collaboration press release reference: “AbbVie and Calico announce a new research and development collaboration,” 2014 (source needed for URL)",
+    "AbbVie press release reference: “AbbVie to acquire Allergan, a highly attractive growth platform,” June 25, 2019 (source needed for URL)",
+    "AbbVie press release reference: “AbbVie to acquire ImmunoGen,” Nov 30, 2023 (source needed for URL)",
+    "AbbVie press release reference: “AbbVie to acquire Cerevel Therapeutics,” Dec 6, 2023 (source needed for URL)"
+  ],
+  "needs_review": true
+}

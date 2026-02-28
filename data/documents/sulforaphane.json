@@ -5879,98 +5879,6 @@
       "is_open_access": true
     },
     {
-      "id": "8bfaef63-a22a-46a0-a2e4-01a707c48068",
-      "source_type": "drugage",
-      "intervention": "sulforaphane",
-      "intervention_aliases": [
-        "broccoli extract",
-        "NRF2 activator"
-      ],
-      "title": "DrugAge: Broccoli extract in Tribolium castaneum (San Bernardino) \u2014 unknown lifespan change",
-      "abstract": "Broccoli extract administered to Tribolium castaneum (San Bernardino) , Unknown .  Reference: PMID 23321956.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23321956/?drugage=Broccoli extract&species=Tribolium castaneum&strain=San Bernardino&dosage=1%",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Tribolium castaneum",
-      "strain": "San Bernardino",
-      "dosage": "1%",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "23321956",
-      "gender": "Unknown"
-    },
-    {
-      "id": "d611efa8-5317-4341-b7a0-c36709561567",
-      "source_type": "drugage",
-      "intervention": "sulforaphane",
-      "intervention_aliases": [
-        "broccoli extract",
-        "NRF2 activator"
-      ],
-      "title": "DrugAge: Sulforaphane in Caenorhabditis elegans (N2) \u2014 unknown lifespan change",
-      "abstract": "Sulforaphane administered to Caenorhabditis elegans (N2) , Unknown .  Reference: PMID 33471780.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33471780/?drugage=Sulforaphane&species=Caenorhabditis elegans&strain=N2&dosage=400 \u03bcM",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Caenorhabditis elegans",
-      "strain": "N2",
-      "dosage": "400 \u03bcM",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "33471780",
-      "gender": "Unknown"
-    },
-    {
-      "id": "0b6dcd52-baf9-4d43-b9af-6b74f88f55e9",
-      "source_type": "drugage",
-      "intervention": "sulforaphane",
-      "intervention_aliases": [
-        "broccoli extract",
-        "NRF2 activator"
-      ],
-      "title": "DrugAge: Sulforaphane in Caenorhabditis elegans (N2) \u2014 unknown lifespan change",
-      "abstract": "Sulforaphane administered to Caenorhabditis elegans (N2) , Unknown .  Reference: PMID 33471780.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33471780/?drugage=Sulforaphane&species=Caenorhabditis elegans&strain=N2&dosage=100 \u03bcM",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Caenorhabditis elegans",
-      "strain": "N2",
-      "dosage": "100 \u03bcM",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "33471780",
-      "gender": "Unknown"
-    },
-    {
-      "id": "fc291916-6495-4b3f-9f7b-4a6715e89ad1",
-      "source_type": "drugage",
-      "intervention": "sulforaphane",
-      "intervention_aliases": [
-        "broccoli extract",
-        "NRF2 activator"
-      ],
-      "title": "DrugAge: Sulforaphane in Caenorhabditis elegans (N2) \u2014 unknown lifespan change",
-      "abstract": "Sulforaphane administered to Caenorhabditis elegans (N2) , Unknown .  Reference: PMID 33471780.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33471780/?drugage=Sulforaphane&species=Caenorhabditis elegans&strain=N2&dosage=200 \u03bcM",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Caenorhabditis elegans",
-      "strain": "N2",
-      "dosage": "200 \u03bcM",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "33471780",
-      "gender": "Unknown"
-    },
-    {
       "id": "1bb93917-bd34-4f3f-b6e0-31e21cdc6ec9",
       "source_type": "nih_grant",
       "intervention": "sulforaphane",
@@ -7703,6 +7611,98 @@
       "score": 2,
       "comment_count": 1,
       "sentiment": null
+    },
+    {
+      "id": "91ad02db-89c7-438c-bbc4-7eeb7a904b76",
+      "source_type": "drugage",
+      "intervention": "sulforaphane",
+      "intervention_aliases": [
+        "broccoli extract",
+        "NRF2 activator"
+      ],
+      "title": "DrugAge: Broccoli extract in Tribolium castaneum (San Bernardino) \u2014 unknown lifespan change",
+      "abstract": "Broccoli extract administered to Tribolium castaneum (San Bernardino) , Unknown .  Reference: PMID 23321956.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23321956/?drugage=Broccoli extract&species=Tribolium castaneum&strain=San Bernardino&dosage=1%",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Tribolium castaneum",
+      "strain": "San Bernardino",
+      "dosage": "1%",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": null,
+      "significance": null,
+      "reference_pmid": "23321956",
+      "gender": "Unknown"
+    },
+    {
+      "id": "36d2a88c-c7a2-4992-86e0-04ffbfcc4063",
+      "source_type": "drugage",
+      "intervention": "sulforaphane",
+      "intervention_aliases": [
+        "broccoli extract",
+        "NRF2 activator"
+      ],
+      "title": "DrugAge: Sulforaphane in Caenorhabditis elegans (N2) \u2014 +15.5% lifespan change",
+      "abstract": "Sulforaphane administered to Caenorhabditis elegans (N2) , Unknown .  Lifespan change: +15.5%.  Reference: PMID 33471780.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33471780/?drugage=Sulforaphane&species=Caenorhabditis elegans&strain=N2&dosage=400 \u03bcM",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Caenorhabditis elegans",
+      "strain": "N2",
+      "dosage": "400 \u03bcM",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": 15.46,
+      "significance": null,
+      "reference_pmid": "33471780",
+      "gender": "Unknown"
+    },
+    {
+      "id": "7c46a80d-d63a-4915-9f2c-104aa6e2dbf1",
+      "source_type": "drugage",
+      "intervention": "sulforaphane",
+      "intervention_aliases": [
+        "broccoli extract",
+        "NRF2 activator"
+      ],
+      "title": "DrugAge: Sulforaphane in Caenorhabditis elegans (N2) \u2014 +18.2% lifespan change",
+      "abstract": "Sulforaphane administered to Caenorhabditis elegans (N2) , Unknown .  Lifespan change: +18.2%.  Reference: PMID 33471780.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33471780/?drugage=Sulforaphane&species=Caenorhabditis elegans&strain=N2&dosage=100 \u03bcM",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Caenorhabditis elegans",
+      "strain": "N2",
+      "dosage": "100 \u03bcM",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": 18.2,
+      "significance": null,
+      "reference_pmid": "33471780",
+      "gender": "Unknown"
+    },
+    {
+      "id": "e2f9256e-f7c6-4ea5-9e60-7091b3ff961c",
+      "source_type": "drugage",
+      "intervention": "sulforaphane",
+      "intervention_aliases": [
+        "broccoli extract",
+        "NRF2 activator"
+      ],
+      "title": "DrugAge: Sulforaphane in Caenorhabditis elegans (N2) \u2014 +13.3% lifespan change",
+      "abstract": "Sulforaphane administered to Caenorhabditis elegans (N2) , Unknown .  Lifespan change: +13.3%.  Reference: PMID 33471780.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33471780/?drugage=Sulforaphane&species=Caenorhabditis elegans&strain=N2&dosage=200 \u03bcM",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Caenorhabditis elegans",
+      "strain": "N2",
+      "dosage": "200 \u03bcM",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": 13.31,
+      "significance": null,
+      "reference_pmid": "33471780",
+      "gender": "Unknown"
     }
   ]
 }

@@ -14,7 +14,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from src.api.dependencies import init_storage, shutdown_storage
-from src.api.routes import ingest, interventions, reasoning
+from src.api.routes import chat, ingest, interventions, pharma, reasoning, tools
 
 
 @asynccontextmanager
@@ -48,6 +48,9 @@ app.add_middleware(
 app.include_router(interventions.router)
 app.include_router(reasoning.router)
 app.include_router(ingest.router)
+app.include_router(tools.router)
+app.include_router(pharma.router)
+app.include_router(chat.router)
 
 
 @app.get("/health", tags=["system"])

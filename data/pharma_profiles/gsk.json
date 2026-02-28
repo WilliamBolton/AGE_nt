@@ -1,0 +1,98 @@
+{
+  "company": "GSK plc (source: GSK plc Annual Report 2023 (reference; source needed for exact page))",
+  "ticker": "GSK (LSE/NYSE) (source: London Stock Exchange listing information for GSK (reference; source needed); NYSE listing information for GSK (reference; source needed))",
+  "hq": "London, United Kingdom (source: GSK plc Annual Report 2023 (reference; source needed for exact page))",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Vaccines (source: GSK plc Annual Report 2023 (reference; source needed for exact page))",
+    "Respiratory/Immunology (source: GSK plc Annual Report 2023 (reference; source needed for exact page))",
+    "Oncology (source: GSK plc Annual Report 2023 (reference; source needed for exact page))",
+    "HIV (via ViiV Healthcare) (source: GSK plc Annual Report 2023 (reference; source needed for exact page))"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "GSK has meaningful aging-adjacent exposure through (1) immunology/anti-inflammatory medicines that target pathways implicated in age-related chronic inflammation (source: GSK plc Annual Report 2023 (reference; source needed for exact page); FDA Prescribing Information: NUCALA (mepolizumab) (reference); FDA Prescribing Information: BENLYSTA (belimumab) (reference)), (2) a major vaccine franchise with products indicated for older adults, including SHINGRIX for prevention of herpes zoster in adults aged 50 years and older (source: FDA Prescribing Information: SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) (reference)), and (3) historical direct longevity-mechanism programs via the Sirtris sirtuin-activator platform acquired by GSK (source: GSK press release/reference: 'GlaxoSmithKline to acquire Sirtris Pharmaceuticals, Inc.' (2008) (reference); Milne JC et al., Nature 2007 (reference; includes SRT1720 as a SIRT1 activator)). However, GSK does not publicly position a major current R&D pillar explicitly as geroscience or aging-as-an-indication (source needed).",
+  "existing_longevity_assets": [
+    {
+      "compound": "SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted)",
+      "intervention_link": null,
+      "status": "Approved",
+      "indication": "Prevention of herpes zoster (shingles) in adults aged 50 years and older; and in adults aged 18 years and older who are or will be at increased risk of herpes zoster due to immunodeficiency or immunosuppression",
+      "relevance": "Aging-adjacent via immunoprotection in older adults (immunosenescence context), potentially impacting morbidity associated with age-related decline in immune function",
+      "source": "FDA Prescribing Information (label): SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) (reference; source needed for URL)"
+    },
+    {
+      "compound": "NUCALA (mepolizumab)",
+      "intervention_link": null,
+      "status": "Approved",
+      "indication": "Severe eosinophilic asthma and other eosinophil-driven diseases (see label for full indications)",
+      "relevance": "Anti-inflammatory biologic (IL-5 pathway) relevant to the 'chronic_inflammation' hallmark as an aging-modifying mechanism class (inflammation modulation), though not developed as a longevity therapy",
+      "source": "FDA Prescribing Information (label): NUCALA (mepolizumab) (reference; source needed for URL)"
+    },
+    {
+      "compound": "BENLYSTA (belimumab)",
+      "intervention_link": null,
+      "status": "Approved",
+      "indication": "Systemic lupus erythematosus (SLE) and lupus nephritis (see label for full indications)",
+      "relevance": "Immune/inflammation modulation (BAFF/BLyS inhibition) relevant to age-associated immune dysregulation and inflammatory signaling, though not developed as a longevity therapy",
+      "source": "FDA Prescribing Information (label): BENLYSTA (belimumab) (reference; source needed for URL)"
+    },
+    {
+      "compound": "SRT1720 (SIRT1 activator; Sirtris/GSK legacy program)",
+      "intervention_link": "SRT1720",
+      "status": "Preclinical/Research-stage (legacy)",
+      "indication": "Metabolic disease research (preclinical)",
+      "relevance": "Direct mechanistic linkage to sirtuin activation, a commonly cited longevity pathway; included due to GSK's acquisition of Sirtris and reported SIRT1-activating chemistry in the Sirtris program",
+      "source": "Milne JC et al. Nature (2007) (reference; source needed for URL); GSK press release/reference: 'GlaxoSmithKline to acquire Sirtris Pharmaceuticals, Inc.' (2008) (reference; source needed for URL)"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "chronic_inflammation",
+    "altered_intercellular_communication"
+  ],
+  "aging_signal_strength": 4,
+  "recent_acquisitions": [
+    {
+      "target": "BELLUS Health Inc.",
+      "year": 2023,
+      "value_usd": 2000000000,
+      "relevance": "Respiratory medicine expansion (camlipixant for refractory chronic cough), aging-adjacent because chronic cough burden increases with age (source needed for epidemiology linkage)",
+      "source": "GSK press release/reference: 'GSK to acquire BELLUS Health Inc.' (Feb 2023) (reference; source needed for URL)"
+    },
+    {
+      "target": "Affinivax, Inc.",
+      "year": 2022,
+      "value_usd": 3300000000,
+      "relevance": "Vaccine platform/portfolio expansion (MAPS technology) potentially relevant to older-adult vaccination and immune decline with aging",
+      "source": "GSK press release/reference: 'GSK to acquire Affinivax, Inc.' (Jun 2022) (reference; source needed for URL)"
+    },
+    {
+      "target": "Sierra Oncology, Inc.",
+      "year": 2022,
+      "value_usd": 1900000000,
+      "relevance": "Oncology/hematology expansion (momelotinib for myelofibrosis); aging-adjacent since many hematologic malignancies increase with age (source needed for epidemiology linkage)",
+      "source": "GSK press release/reference: 'GSK to acquire Sierra Oncology, Inc.' (Apr 2022) (reference; source needed for URL)"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Primarily clinical-stage specialty-medicine targets plus strategic platform additions (inferred from acquisitions of Bellus (late-stage clinical respiratory), Sierra (late-stage hematology/oncology), and Affinivax (vaccine platform)) (sources: GSK press release/reference: 'GSK to acquire BELLUS Health Inc.' (Feb 2023); GSK press release/reference: 'GSK to acquire Sierra Oncology, Inc.' (Apr 2022); GSK press release/reference: 'GSK to acquire Affinivax, Inc.' (Jun 2022))",
+    "avg_deal_size_usd": 2400000000,
+    "focus_areas": [
+      "Respiratory/Immunology (inferred from Bellus acquisition) (source: GSK press release/reference: 'GSK to acquire BELLUS Health Inc.' (Feb 2023))",
+      "Vaccines (inferred from Affinivax acquisition) (source: GSK press release/reference: 'GSK to acquire Affinivax, Inc.' (Jun 2022))",
+      "Oncology/Hematology (inferred from Sierra acquisition) (source: GSK press release/reference: 'GSK to acquire Sierra Oncology, Inc.' (Apr 2022))"
+    ],
+    "recent_trend": "Recent M&A has emphasized bolt-on deals aligned to stated core areas (respiratory/immune, vaccines, oncology) rather than explicit aging-as-an-indication programs (sources: GSK plc Annual Report 2023 (reference; source needed for exact page); GSK acquisition press releases referenced above)."
+  },
+  "sources": [
+    "GSK plc Annual Report 2023 (reference; source needed for exact URL/page cites)",
+    "FDA Prescribing Information (label): SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) (reference; source needed for URL)",
+    "FDA Prescribing Information (label): NUCALA (mepolizumab) (reference; source needed for URL)",
+    "FDA Prescribing Information (label): BENLYSTA (belimumab) (reference; source needed for URL)",
+    "GSK press release/reference: 'GSK to acquire BELLUS Health Inc.' (Feb 2023) (reference; source needed for URL)",
+    "GSK press release/reference: 'GSK to acquire Affinivax, Inc.' (Jun 2022) (reference; source needed for URL)",
+    "GSK press release/reference: 'GSK to acquire Sierra Oncology, Inc.' (Apr 2022) (reference; source needed for URL)",
+    "GSK press release/reference: 'GlaxoSmithKline to acquire Sirtris Pharmaceuticals, Inc.' (2008) (reference; source needed for URL)",
+    "Milne JC et al., Nature (2007) describing SRT1720 as a SIRT1 activator (reference; source needed for exact URL/DOI citation string)"
+  ],
+  "needs_review": true
+}

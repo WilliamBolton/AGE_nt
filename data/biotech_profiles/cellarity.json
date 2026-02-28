@@ -1,0 +1,43 @@
+{
+  "company": "Cellarity",
+  "ticker": null,
+  "founded": null,
+  "hq": null,
+  "stage": "clinical",
+  "total_funding_usd": null,
+  "pipeline": [],
+  "hallmarks_targeted": [
+    "chronic_inflammation"
+  ],
+  "category_links": [
+    "anti_inflammatory"
+  ],
+  "key_people": [],
+  "investors_notable": [],
+  "risks": [
+    "Clinical translation risk: modulating complex cell states in humans may not produce durable efficacy across heterogeneous patient populations (source needed).",
+    "Safety risk: interventions that reprogram immune/inflammatory cell behavior can carry on-target immunosuppression or immune overactivation liabilities (source needed).",
+    "Platform risk: cell-state discovery/AI-driven target selection may not consistently yield druggable mechanisms with strong causal disease links (source needed).",
+    "Competitive risk: crowded landscape in immunology and computational/single-cell-enabled drug discovery may reduce differentiation and partnering leverage (source needed)."
+  ],
+  "competitive_advantages": [
+    "Potential differentiation from a cell-centric discovery paradigm (as described by the company) that aims to identify and modulate disease-driving cell states rather than single targets (https://www.cellarity.com/).",
+    "If validated clinically, a cell-state framework could enable expansion across multiple immune-inflammatory indications using shared underlying cell biology (source needed)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 500000000,
+    "high_usd": 2000000000,
+    "methodology": "Heuristic range for a private clinical-stage immunology/platform biotech: (1) anchor to recent immunology M&A EVs and (2) apply a steep discount for earlier clinical maturity/asset specificity and platform execution risk. This is not a valuation and is highly sensitive to undisclosed pipeline stage, human proof-of-concept data, IP position, and partnering traction (source needed).",
+    "comparable_deals": [
+      "Merck acquisition of Prometheus Biosciences for approximately $10.8B (immunology-focused biotech) (https://www.merck.com/news/merck-to-acquire-prometheus-biosciences-inc/).",
+      "Sanofi acquisition of Provention Bio for approximately $2.9B (immunology/autoimmune) (https://www.sanofi.com/en/media-room/press-releases/2023/2023-02-13-07-00-00-2605230).",
+      "Roche acquisition of Carmot Therapeutics with total consideration up to $3.1B (metabolic disease; demonstrates pricing for clinical-stage platforms/assets) (https://www.roche.com/media/releases/med-cor-2023-12-04)."
+    ]
+  },
+  "sources": [
+    "Company overview / positioning (used to support 'clinical' stage classification and immune-inflammatory focus mapping): https://www.cellarity.com/ (source needed for specific wording if not explicitly stated on this page).",
+    "Crunchbase company record (use for founding year, HQ, funding totals, and investor list—values not populated here pending verification): https://www.crunchbase.com/organization/cellarity (source needed).",
+    "Hallmark/category mapping note: company focus on immune-inflammatory disease implies relevance to the 'chronic_inflammation' hallmark and 'anti_inflammatory' category (https://www.cellarity.com/)."
+  ],
+  "needs_review": true
+}

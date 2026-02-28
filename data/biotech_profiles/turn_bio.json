@@ -1,0 +1,101 @@
+{
+  "company": "Turn Bio (Turn Biotechnologies)",
+  "ticker": null,
+  "founded": null,
+  "hq": "Mountain View, California, USA (Crunchbase company profile: https://www.crunchbase.com/organization/turn-biotechnologies)",
+  "stage": "preclinical",
+  "total_funding_usd": null,
+  "pipeline": [
+    {
+      "compound": "ERA™ (Epigenetic Reprogramming of Aging) mRNA-based cellular rejuvenation platform (programs in multiple tissues including skin/dermatology per company descriptions)",
+      "intervention_link": null,
+      "target": "Epigenetic state/gene expression programs associated with cellular aging (proprietary ERA factors; exact factor composition not publicly specified)",
+      "mechanism": "Transient, non-integrating delivery of mRNA encoding proprietary reprogramming factors intended to reset epigenetic age and restore youthful cellular function while maintaining cell identity (company description)",
+      "indication": "Skin aging/dermatology-focused rejuvenation applications (company-described focus; specific lead indication/source needed for named asset)",
+      "phase": "preclinical",
+      "hallmarks": [
+        "epigenetic_alterations",
+        "cellular_senescence",
+        "stem_cell_exhaustion",
+        "altered_intercellular_communication"
+      ],
+      "categories": [
+        "epigenetic_intervention"
+      ],
+      "source": "Company website (technology/platform descriptions): https://turn.bio/ (specific pipeline page URL source needed); mechanism context consistent with partial reprogramming literature: Ocampo et al., Cell (2016) https://doi.org/10.1016/j.cell.2016.11.052"
+    },
+    {
+      "compound": "eTurna™ mRNA delivery platform (delivery technology supporting ERA programs; formulation details not fully disclosed publicly)",
+      "intervention_link": null,
+      "target": "Intracellular delivery of therapeutic mRNA to somatic cells (delivery/uptake pathways dependent on formulation; not fully disclosed)",
+      "mechanism": "Engineered mRNA delivery system intended to enable transient expression of rejuvenation factors without genomic integration (company description); general modality background for mRNA therapeutics: Sahin et al., Nat Rev Drug Discov (2014)",
+      "indication": null,
+      "phase": "preclinical",
+      "hallmarks": [
+        "epigenetic_alterations"
+      ],
+      "categories": [
+        "epigenetic_intervention"
+      ],
+      "source": "Company website (mentions of eTurna/ERA platform): https://turn.bio/ (specific page URL source needed); general mRNA therapeutics background: Sahin et al., Nat Rev Drug Discov (2014) https://doi.org/10.1038/nrd4278"
+    }
+  ],
+  "hallmarks_targeted": [
+    "epigenetic_alterations",
+    "cellular_senescence",
+    "stem_cell_exhaustion",
+    "altered_intercellular_communication"
+  ],
+  "category_links": [
+    "epigenetic_intervention"
+  ],
+  "key_people": [
+    {
+      "name": "Vittorio Sebastiano, PhD",
+      "role": "Co-founder (company); Stanford faculty researcher (academic role)",
+      "background": "Stem cell and reprogramming researcher; listed as affiliated with Stanford University (Stanford profile: https://profiles.stanford.edu/vittorio-sebastiano); co-founder role per company materials (https://turn.bio/; specific team page URL source needed)."
+    },
+    {
+      "name": "Anja Koelling",
+      "role": "CEO & Co-founder (per company materials)",
+      "background": "Executive leadership at Turn Bio per company materials (https://turn.bio/; specific team/leadership page URL source needed). Prior roles/biography details source needed."
+    }
+  ],
+  "investors_notable": [
+    "Investor list/details source needed (e.g., Crunchbase investors section: https://www.crunchbase.com/organization/turn-biotechnologies)"
+  ],
+  "risks": [
+    "Partial reprogramming/epigenetic reprogramming approaches can carry tumorigenicity/dedifferentiation risk if factor expression is not tightly controlled; in vivo reprogramming literature discusses safety constraints and the need for cyclic/controlled expression (Ocampo et al., Cell 2016 https://doi.org/10.1016/j.cell.2016.11.052; Lu et al., Nature 2020 https://doi.org/10.1038/s41586-020-2975-4).",
+    "In vivo delivery remains a core risk: efficient, cell-type-specific mRNA delivery and biodistribution are major technical challenges for mRNA therapeutics broadly (Sahin et al., Nat Rev Drug Discov 2014 https://doi.org/10.1038/nrd4278; Hou et al., Nat Rev Mater 2021 https://doi.org/10.1038/s41578-021-00358-0).",
+    "Innate immune activation/reactogenicity to exogenous mRNA and/or delivery vehicles can limit dosing and repeat administration; mitigation often requires modified nucleosides and formulation optimization (Sahin et al., Nat Rev Drug Discov 2014 https://doi.org/10.1038/nrd4278).",
+    "Durability and clinical translatability risk: cellular and animal rejuvenation signals may not translate to meaningful, durable human clinical outcomes across indications (general translational risk; source needed).",
+    "Regulatory risk: aging/rejuvenation endpoints and acceptable biomarkers for approval may be indication-specific and uncertain for any 'rejuvenation' positioning (source needed).",
+    "IP/competition risk: the partial reprogramming field is crowded with well-funded entrants and overlapping claims around factor sets, delivery, and safety-control circuits (competitive landscape source needed)."
+  ],
+  "competitive_advantages": [
+    "Transient, non-integrating mRNA expression modality potentially reduces risks associated with permanent genomic alteration compared with integrating gene therapy approaches (general modality comparison: Sahin et al., Nat Rev Drug Discov 2014 https://doi.org/10.1038/nrd4278; company positioning: https://turn.bio/ (specific page URL source needed)).",
+    "Platform approach: a common ERA/eTurna technology stack could be applied across multiple tissues/indications if delivery and safety are validated (company platform framing: https://turn.bio/ (specific pipeline/platform page URL source needed)).",
+    "Scientific credibility signal from leadership rooted in academic reprogramming biology (e.g., Stanford affiliation for co-founder Vittorio Sebastiano: https://profiles.stanford.edu/vittorio-sebastiano)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 150000000,
+    "high_usd": 600000000,
+    "methodology": "Analyst estimate (source needed) using a preclinical-platform M&A heuristic: (i) benchmark against large-platform modality acquisitions (mRNA and gene delivery) and discount heavily for Turn Bio's earlier stage and unproven clinical translation; (ii) apply typical biotech private platform exit bands that often cluster in the mid-hundreds of millions preclinical when strategic value is primarily platform/optionality rather than de-risked clinical assets (source needed). Benchmarks used: Sanofi-Translate Bio ($3.2B, mRNA platform/clinical assets) and Bayer-AskBio (up to $4B, gene therapy platform).",
+    "comparable_deals": [
+      "Sanofi to acquire Translate Bio for approximately $3.2B (Sanofi press release, 2021-08-02): https://www.sanofi.com/en/media-room/press-releases/2021/2021-08-02-07-00-00-2268793",
+      "Bayer to acquire AskBio for up to $4 billion (Bayer press release, 2020-10-26): https://www.bayer.com/en/us/news-stories/bayer-to-acquire-askbio"
+    ]
+  },
+  "sources": [
+    "https://turn.bio/",
+    "https://www.crunchbase.com/organization/turn-biotechnologies",
+    "Ocampo et al., Cell (2016) 'In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming' https://doi.org/10.1016/j.cell.2016.11.052",
+    "Lu et al., Nature (2020) 'Reprogramming to recover youthful epigenetic information and restore vision' https://doi.org/10.1038/s41586-020-2975-4",
+    "Sahin et al., Nat Rev Drug Discov (2014) 'mRNA-based therapeutics—developing a new class of drugs' https://doi.org/10.1038/nrd4278",
+    "Hou et al., Nat Rev Mater (2021) 'Lipid nanoparticles for mRNA delivery' https://doi.org/10.1038/s41578-021-00358-0",
+    "https://profiles.stanford.edu/vittorio-sebastiano",
+    "https://www.sanofi.com/en/media-room/press-releases/2021/2021-08-02-07-00-00-2268793",
+    "https://www.bayer.com/en/us/news-stories/bayer-to-acquire-askbio"
+  ],
+  "needs_review": true
+}

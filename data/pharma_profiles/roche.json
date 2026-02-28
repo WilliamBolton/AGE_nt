@@ -1,0 +1,100 @@
+{
+  "company": "Roche",
+  "ticker": "ROG.SW (source: https://companiesmarketcap.com/roche/market-cap/ )",
+  "hq": "Basel, Switzerland (source: https://www.roche.com/about)",
+  "market_cap_approx": "≈$250B (source: https://companiesmarketcap.com/roche/market-cap/ ; accessed 2026-02-28)",
+  "therapeutic_areas": [
+    "Oncology (example marketed asset: TECENTRIQ/atezolizumab; source: https://www.gene.com/download/pdf/tecentriq_prescribing.pdf)",
+    "Immunology/Rheumatology (example marketed asset: ACTEMRA/tocilizumab; source: https://www.gene.com/download/pdf/actemra_prescribing.pdf)",
+    "Ophthalmology/Retina (example marketed asset: VABYSMO/faricimab-svoa for nAMD; source: https://www.gene.com/download/pdf/vabysmo_prescribing.pdf)",
+    "Pulmonology/Fibrosis (example marketed asset: ESBRIET/pirfenidone; source: https://www.gene.com/download/pdf/esbriet_prescribing.pdf)",
+    "Diagnostics (Roche operates Pharmaceuticals and Diagnostics divisions; source: https://en.wikipedia.org/wiki/Roche )"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Roche has multiple marketed medicines in conditions strongly associated with aging, including neovascular age-related macular degeneration (VABYSMO indication; source: https://www.gene.com/download/pdf/vabysmo_prescribing.pdf; AMD is age-related; source: https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration), cancer (e.g., TECENTRIQ; source: https://www.gene.com/download/pdf/tecentriq_prescribing.pdf; cancer risk increases with age; source: https://www.cancer.gov/about-cancer/causes-prevention/risk/age), and idiopathic pulmonary fibrosis (ESBRIET indication; source: https://www.gene.com/download/pdf/esbriet_prescribing.pdf; IPF typically affects older adults; source: https://medlineplus.gov/idiopathicpulmonaryfibrosis.html). However, Roche’s publicly visible portfolio is primarily disease-focused rather than explicitly targeting aging biology as an indication (source needed).",
+  "existing_longevity_assets": [
+    {
+      "compound": "tocilizumab (ACTEMRA)",
+      "intervention_link": null,
+      "status": "FDA-approved (labelled indications include rheumatoid arthritis and other inflammatory conditions; see US Prescribing Information)",
+      "indication": "Rheumatoid arthritis and other approved inflammatory indications (see full label)",
+      "relevance": "Targets IL-6 receptor signaling (anti-inflammatory mechanism) with potential relevance to the chronic_inflammation hallmark (mechanistic/geroscience relevance is interpretive).",
+      "source": "https://www.gene.com/download/pdf/actemra_prescribing.pdf"
+    },
+    {
+      "compound": "faricimab-svoa (VABYSMO)",
+      "intervention_link": null,
+      "status": "FDA-approved (US Prescribing Information)",
+      "indication": "Neovascular (wet) age-related macular degeneration (nAMD) and diabetic macular edema (see label)",
+      "relevance": "Treats an age-linked degenerative eye disease (nAMD) by inhibiting VEGF-A and Ang-2 pathways; relevant to age-associated tissue degeneration and altered signaling (interpretive).",
+      "source": "https://www.gene.com/download/pdf/vabysmo_prescribing.pdf"
+    },
+    {
+      "compound": "pirfenidone (ESBRIET)",
+      "intervention_link": null,
+      "status": "FDA-approved (US Prescribing Information)",
+      "indication": "Idiopathic pulmonary fibrosis (IPF)",
+      "relevance": "Anti-fibrotic therapy in an age-skewed disease (IPF); potentially relevant to age-related tissue remodeling and inflammatory/fibrotic signaling (interpretive).",
+      "source": "https://www.gene.com/download/pdf/esbriet_prescribing.pdf"
+    },
+    {
+      "compound": "atezolizumab (TECENTRIQ)",
+      "intervention_link": null,
+      "status": "FDA-approved (US Prescribing Information)",
+      "indication": "Multiple cancer indications (see label)",
+      "relevance": "Immune checkpoint blockade (PD-L1) modulates immune-tumor signaling; oncology is strongly age-associated and intersects with immune dysfunction and altered intercellular communication (interpretive).",
+      "source": "https://www.gene.com/download/pdf/tecentriq_prescribing.pdf"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "chronic_inflammation",
+    "altered_intercellular_communication"
+  ],
+  "aging_signal_strength": 4,
+  "recent_acquisitions": [
+    {
+      "target": "Flatiron Health",
+      "year": 2018,
+      "value_usd": 1900000000,
+      "relevance": "Oncology real-world evidence/data platform relevant to studying outcomes in older cancer populations (interpretive).",
+      "source": "https://en.wikipedia.org/wiki/Flatiron_Health"
+    },
+    {
+      "target": "Spark Therapeutics",
+      "year": 2019,
+      "value_usd": 4300000000,
+      "relevance": "Gene therapy acquisition; platform relevance to potential future interventions in age-associated diseases is interpretive.",
+      "source": "https://en.wikipedia.org/wiki/Spark_Therapeutics"
+    },
+    {
+      "target": "Carmot Therapeutics",
+      "year": null,
+      "value_usd": null,
+      "relevance": "Metabolic/obesity-focused acquisition/transaction reported publicly; details (year/value) require confirmation from a primary source.",
+      "source": "source needed"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "source needed",
+    "avg_deal_size_usd": null,
+    "focus_areas": [
+      "source needed"
+    ],
+    "recent_trend": "source needed"
+  },
+  "sources": [
+    "https://www.roche.com/about",
+    "https://companiesmarketcap.com/roche/market-cap/",
+    "https://www.gene.com/download/pdf/actemra_prescribing.pdf",
+    "https://www.gene.com/download/pdf/vabysmo_prescribing.pdf",
+    "https://www.gene.com/download/pdf/esbriet_prescribing.pdf",
+    "https://www.gene.com/download/pdf/tecentriq_prescribing.pdf",
+    "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration",
+    "https://www.cancer.gov/about-cancer/causes-prevention/risk/age",
+    "https://medlineplus.gov/idiopathicpulmonaryfibrosis.html",
+    "https://en.wikipedia.org/wiki/Roche",
+    "https://en.wikipedia.org/wiki/Flatiron_Health",
+    "https://en.wikipedia.org/wiki/Spark_Therapeutics"
+  ],
+  "needs_review": true
+}

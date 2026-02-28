@@ -1,0 +1,101 @@
+{
+  "company": "Johnson & Johnson",
+  "ticker": "JNJ",
+  "hq": "New Brunswick, New Jersey, United States",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Immunology",
+    "Oncology",
+    "Neuroscience",
+    "Pulmonary Hypertension",
+    "Cardiovascular & Metabolism",
+    "Infectious Diseases & Vaccines"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Johnson & Johnson (NYSE: JNJ) is a diversified pharma company (Janssen/Innovative Medicine) with major marketed franchises in immunology/inflammation and cardiometabolic disease—two areas that directly intersect aging biology (e.g., chronic inflammation and deregulated nutrient sensing hallmarks). However, in the public high-level materials reviewed here, the company does not prominently position a dedicated 'aging/longevity' R&D program as a core strategy (source needed). Sources for corporate identification, headquarters, and therapeutic focus areas: https://www.nyse.com/quote/XNYS:JNJ ; https://www.jnj.com/contact-us ; https://www.janssen.com/therapeutic-areas",
+  "existing_longevity_assets": [
+    {
+      "compound": "canagliflozin (INVOKANA)",
+      "intervention_link": "canagliflozin",
+      "status": "FDA approved",
+      "indication": "Type 2 diabetes mellitus (and related risk reduction claims per label; see FDA-approved labeling)",
+      "relevance": "Metabolic intervention relevant to aging biology via modulation of glucose handling and nutrient-sensing-associated pathways; clinically used in cardiometabolic disease populations that overlap with aging-related morbidity.",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=204042"
+    },
+    {
+      "compound": "ustekinumab (STELARA)",
+      "intervention_link": null,
+      "status": "FDA approved",
+      "indication": "Plaque psoriasis, psoriatic arthritis, Crohn's disease, ulcerative colitis (see FDA-approved labeling)",
+      "relevance": "Anti-inflammatory biologic (IL-12/23) relevant to the chronic inflammation hallmark; may indirectly intersect longevity biology by modulating systemic inflammatory signaling in immune-mediated disease.",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125261"
+    },
+    {
+      "compound": "guselkumab (TREMFYA)",
+      "intervention_link": null,
+      "status": "FDA approved",
+      "indication": "Plaque psoriasis and psoriatic arthritis (see FDA-approved labeling)",
+      "relevance": "Anti-inflammatory biologic (IL-23) relevant to aging-associated chronic inflammation and altered intercellular communication (cytokine signaling), though not developed as a longevity therapy.",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761061"
+    },
+    {
+      "compound": "ciltacabtagene autoleucel (CARVYKTI)",
+      "intervention_link": null,
+      "status": "FDA approved",
+      "indication": "Multiple myeloma (see FDA-approved labeling)",
+      "relevance": "Autologous CAR-T cell therapy demonstrates advanced cell therapy capabilities that are potentially relevant to future immune-rejuvenation approaches, although the approved indication is oncology rather than aging.",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761212"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "chronic_inflammation",
+    "deregulated_nutrient_sensing",
+    "altered_intercellular_communication"
+  ],
+  "aging_signal_strength": 3,
+  "recent_acquisitions": [
+    {
+      "target": "Abiomed",
+      "year": 2022,
+      "value_usd": 16600000000,
+      "relevance": "Medtech/cardiovascular acquisition that expands capabilities in circulatory support; cardiovascular health is tightly linked to aging-related morbidity, but this is not a direct longevity/aging R&D acquisition.",
+      "source": "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-acquire-abiomed"
+    },
+    {
+      "target": "Ambrx Biopharma",
+      "year": 2024,
+      "value_usd": 2000000000,
+      "relevance": "Oncology-focused acquisition for antibody-drug conjugate (ADC) platform/asset(s); oncology platforms can intersect senescence biology, but the stated rationale is cancer-focused rather than aging-focused.",
+      "source": "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-acquire-ambrx-biopharma-inc"
+    },
+    {
+      "target": "Shockwave Medical",
+      "year": 2024,
+      "value_usd": 13100000000,
+      "relevance": "Cardiovascular device acquisition (intravascular lithotripsy) aligned to atherosclerotic disease treatment; relevant to aging-associated cardiovascular risk but not positioned as a longevity R&D effort.",
+      "source": "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-acquire-shockwave-medical"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Primarily commercial/late-stage assets and established platforms (in both medtech and biopharma), based on cited acquisitions in this profile (analysis based on sources listed).",
+    "avg_deal_size_usd": 10566666667,
+    "focus_areas": [
+      "Cardiovascular/medtech",
+      "Oncology platforms (e.g., ADCs)"
+    ],
+    "recent_trend": "Continued willingness to deploy large capital for cardiovascular medtech plus targeted biopharma platform expansion in oncology (analysis based on sources listed)."
+  },
+  "sources": [
+    "https://www.nyse.com/quote/XNYS:JNJ",
+    "https://www.jnj.com/contact-us",
+    "https://www.janssen.com/therapeutic-areas",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=204042",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125261",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761061",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761212",
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-acquire-abiomed",
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-acquire-ambrx-biopharma-inc",
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-to-acquire-shockwave-medical"
+  ],
+  "needs_review": true
+}

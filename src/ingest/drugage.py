@@ -93,7 +93,7 @@ class DrugAgeAgent(BaseIngestAgent):
         reference_pmid = row.get("pubmed_id", "").strip() or None
 
         # Parse lifespan change
-        lifespan_str = row.get("avg_lifespan_change", "").strip()
+        lifespan_str = row.get("avg_lifespan_change_percent", "").strip()
         lifespan_change: float | None = None
         if lifespan_str:
             try:

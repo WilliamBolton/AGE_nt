@@ -1,0 +1,112 @@
+{
+  "company": "Amgen",
+  "ticker": "AMGN (Nasdaq quote page: https://www.nasdaq.com/market-activity/stocks/amgn)",
+  "hq": "Thousand Oaks, California, United States (Amgen contact address: https://www.amgen.com/contact-us)",
+  "market_cap_approx": "source needed",
+  "therapeutic_areas": [
+    "Oncology (Amgen Therapeutic Areas: https://www.amgen.com/science/therapeutic-areas)",
+    "Cardiovascular disease (Amgen Therapeutic Areas: https://www.amgen.com/science/therapeutic-areas)",
+    "Inflammation (Amgen Therapeutic Areas: https://www.amgen.com/science/therapeutic-areas)",
+    "Bone health (Amgen Therapeutic Areas: https://www.amgen.com/science/therapeutic-areas)",
+    "Nephrology (Amgen Therapeutic Areas: https://www.amgen.com/science/therapeutic-areas)",
+    "Neuroscience (Amgen Therapeutic Areas: https://www.amgen.com/science/therapeutic-areas)",
+    "Hematology (Amgen Therapeutic Areas: https://www.amgen.com/science/therapeutic-areas)"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Amgen’s marketed portfolio includes therapies for major age-associated chronic conditions, including chronic inflammatory diseases (ENBREL/etanercept indications and TNF-blocking mechanism: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103795), osteoporosis/bone loss (PROLIA/denosumab: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125320; EVENITY/romosozumab: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761062), and atherosclerotic cardiovascular risk via LDL-C lowering (REPATHA/evolocumab: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125522). Amgen is also developing an obesity program (AMG 133 in subjects with obesity on ClinicalTrials.gov: https://clinicaltrials.gov/study/NCT04478708), which is relevant to aging-linked cardiometabolic risk. However, public materials reviewed do not establish an explicit, dedicated aging/longevity drug-development strategy (source needed).",
+  "existing_longevity_assets": [
+    {
+      "compound": "etanercept (ENBREL)",
+      "intervention_link": null,
+      "status": "FDA-approved/marketed",
+      "indication": "Multiple inflammatory indications including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, plaque psoriasis, and juvenile idiopathic arthritis (US label, Indications and Usage)",
+      "relevance": "Targets TNF-mediated inflammation (TNF blocker per US label), relevant to aging-associated chronic inflammation and inflammatory comorbidities.",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103795"
+    },
+    {
+      "compound": "denosumab (PROLIA)",
+      "intervention_link": null,
+      "status": "FDA-approved/marketed",
+      "indication": "Treatment of osteoporosis in postmenopausal women and men at high risk for fracture, among other bone-loss indications (US label, Indications and Usage)",
+      "relevance": "RANKL inhibitor per US label; addresses age-related bone loss/fragility (osteoporosis indications).",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125320"
+    },
+    {
+      "compound": "romosozumab-aqqg (EVENITY)",
+      "intervention_link": null,
+      "status": "FDA-approved/marketed",
+      "indication": "Treatment of osteoporosis in postmenopausal women at high risk for fracture (US label, Indications and Usage)",
+      "relevance": "Sclerostin inhibitor per US label; relevant to skeletal aging via increasing bone formation and decreasing bone resorption (mechanism described in label).",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761062"
+    },
+    {
+      "compound": "evolocumab (REPATHA)",
+      "intervention_link": null,
+      "status": "FDA-approved/marketed",
+      "indication": "LDL-C lowering in adults with established cardiovascular disease and certain hypercholesterolemia populations (US label, Indications and Usage)",
+      "relevance": "PCSK9-directed antibody per US label; relevant to cardiometabolic aging by reducing LDL-C and cardiovascular risk in indicated populations.",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125522"
+    },
+    {
+      "compound": "avacopan (TAVNEOS)",
+      "intervention_link": null,
+      "status": "FDA-approved/marketed",
+      "indication": "Adjunctive treatment of adult patients with severe active anti-neutrophil cytoplasmic autoantibody (ANCA)-associated vasculitis (US label, Indications and Usage)",
+      "relevance": "C5a receptor (C5aR) antagonist per US label; relevant to inflammatory/immune-mediated pathology that can contribute to age-related multimorbidity.",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215239"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "chronic_inflammation",
+    "altered_intercellular_communication",
+    "deregulated_nutrient_sensing"
+  ],
+  "aging_signal_strength": 3,
+  "recent_acquisitions": [
+    {
+      "target": "Horizon Therapeutics plc",
+      "year": 2022,
+      "value_usd": 27800000000,
+      "relevance": "Expanded Amgen’s portfolio in inflammation/autoimmune and rare diseases (deal announcement and rationale described by Amgen).",
+      "source": "https://www.amgen.com/newsroom/press-releases/2022/12/amgen-to-acquire-horizon-therapeutics-plc"
+    },
+    {
+      "target": "ChemoCentryx, Inc.",
+      "year": 2022,
+      "value_usd": 3700000000,
+      "relevance": "Added an inflammation/immunology asset (TAVNEOS) and pipeline (deal announcement by Amgen).",
+      "source": "https://www.amgen.com/newsroom/press-releases/2022/08/amgen-to-acquire-chemocentryx"
+    },
+    {
+      "target": "Five Prime Therapeutics, Inc.",
+      "year": 2021,
+      "value_usd": 1900000000,
+      "relevance": "Strengthened oncology R&D pipeline (deal announcement by Amgen).",
+      "source": "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Late-stage and commercial/derisked assets alongside selective clinical-stage bolt-ons (inferred from acquisitions of Horizon Therapeutics (commercial portfolio) and ChemoCentryx (TAVNEOS marketed) plus Five Prime (clinical-stage oncology); sources: https://www.amgen.com/newsroom/press-releases/2022/12/amgen-to-acquire-horizon-therapeutics-plc ; https://www.amgen.com/newsroom/press-releases/2022/08/amgen-to-acquire-chemocentryx ; https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics ; TAVNEOS label: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215239",
+    "avg_deal_size_usd": 11133333333,
+    "focus_areas": [
+      "Inflammation/immunology (Horizon and ChemoCentryx deal announcements: https://www.amgen.com/newsroom/press-releases/2022/12/amgen-to-acquire-horizon-therapeutics-plc ; https://www.amgen.com/newsroom/press-releases/2022/08/amgen-to-acquire-chemocentryx)",
+      "Oncology (Five Prime deal announcement: https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics)"
+    ],
+    "recent_trend": "Large-scale platform/portfolio expansion in immunology/rare disease (Horizon, $27.8B) complemented by smaller immunology and oncology deals (ChemoCentryx, $3.7B; Five Prime, $1.9B); values per Amgen press releases cited above, with avg_deal_size_usd computed as the arithmetic mean of these three disclosed transaction values."
+  },
+  "sources": [
+    "https://www.nasdaq.com/market-activity/stocks/amgn",
+    "https://www.amgen.com/contact-us",
+    "https://www.amgen.com/science/therapeutic-areas",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103795",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125320",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761062",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125522",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215239",
+    "https://clinicaltrials.gov/study/NCT04478708",
+    "https://www.amgen.com/newsroom/press-releases/2022/12/amgen-to-acquire-horizon-therapeutics-plc",
+    "https://www.amgen.com/newsroom/press-releases/2022/08/amgen-to-acquire-chemocentryx",
+    "https://www.amgen.com/newsroom/press-releases/2021/03/amgen-to-acquire-five-prime-therapeutics"
+  ],
+  "needs_review": true
+}

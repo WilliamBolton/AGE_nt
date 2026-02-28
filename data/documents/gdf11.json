@@ -5575,28 +5575,6 @@
       "is_open_access": true
     },
     {
-      "id": "ac40170c-3ea3-4524-8e71-1fa3103aa778",
-      "source_type": "drugage",
-      "intervention": "gdf11",
-      "intervention_aliases": [
-        "growth differentiation factor 11"
-      ],
-      "title": "DrugAge: GDF11 in Nothobranchius guentheri \u2014 unknown lifespan change",
-      "abstract": "GDF11 administered to Nothobranchius guentheri , Unknown .  Reference: PMID 30519861.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30519861/?drugage=GDF11&species=Nothobranchius guentheri&dosage=0.2 mg/kg",
-      "date_published": "2020-01-01",
-      "date_indexed": "2026-02-28",
-      "species": "Nothobranchius guentheri",
-      "strain": null,
-      "dosage": "0.2 mg/kg",
-      "dosage_unit": null,
-      "administration_route": null,
-      "lifespan_change_percent": null,
-      "significance": null,
-      "reference_pmid": "30519861",
-      "gender": "Unknown"
-    },
-    {
       "id": "3d941c37-742b-44bd-b33c-960784e2e16c",
       "source_type": "nih_grant",
       "intervention": "gdf11",
@@ -6993,6 +6971,28 @@
       "score": 7,
       "comment_count": 3,
       "sentiment": null
+    },
+    {
+      "id": "a7abbda0-e5df-40b3-8194-abaa382a4580",
+      "source_type": "drugage",
+      "intervention": "gdf11",
+      "intervention_aliases": [
+        "growth differentiation factor 11"
+      ],
+      "title": "DrugAge: GDF11 in Nothobranchius guentheri \u2014 +8.5% lifespan change",
+      "abstract": "GDF11 administered to Nothobranchius guentheri , Unknown .  Lifespan change: +8.5%.  Reference: PMID 30519861.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30519861/?drugage=GDF11&species=Nothobranchius guentheri&dosage=0.2 mg/kg",
+      "date_published": "2020-01-01",
+      "date_indexed": "2026-02-28",
+      "species": "Nothobranchius guentheri",
+      "strain": null,
+      "dosage": "0.2 mg/kg",
+      "dosage_unit": null,
+      "administration_route": null,
+      "lifespan_change_percent": 8.51,
+      "significance": null,
+      "reference_pmid": "30519861",
+      "gender": "Unknown"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "company": "Bristol-Myers Squibb",
+  "ticker": "BMY",
+  "hq": "New York, New York, USA",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Oncology",
+    "Hematology",
+    "Immunology/Inflammation",
+    "Cardiovascular",
+    "Neuroscience"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Bristol-Myers Squibb’s marketed portfolio includes immunology/inflammation therapies (e.g., abatacept/ORENCIA; deucravacitinib/SOTYKTU) that mechanistically align with aging-relevant inflammatory biology (FDA labels: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125118 ; https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216951). Additionally, BMS’s oncology drug dasatinib (SPRYCEL) has been used in human senolytic clinical studies in combination with quercetin (ClinicalTrials.gov NCT02848131: https://clinicaltrials.gov/study/NCT02848131) while dasatinib itself is an approved BMS product (FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021986). The company’s stated major therapeutic focus areas include oncology, hematology, immunology and cardiovascular and neuroscience (Bristol-Myers Squibb Form 10-K reference; source needed for exact wording/excerpt).",
+  "existing_longevity_assets": [
+    {
+      "compound": "dasatinib (SPRYCEL)",
+      "intervention_link": "dasatinib quercetin",
+      "status": "Approved",
+      "indication": "Philadelphia chromosome-positive (Ph+) chronic myeloid leukemia (CML) and Ph+ acute lymphoblastic leukemia (ALL) (per FDA labeling).",
+      "relevance": "Dasatinib has been clinically evaluated in combination with quercetin as a senolytic approach in humans (e.g., idiopathic pulmonary fibrosis pilot study).",
+      "source": "FDA Drugs@FDA SPRYCEL (dasatinib) overview/labels: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021986 ; ClinicalTrials.gov NCT02848131: https://clinicaltrials.gov/study/NCT02848131"
+    },
+    {
+      "compound": "abatacept (ORENCIA)",
+      "intervention_link": null,
+      "status": "Approved",
+      "indication": "Rheumatoid arthritis and other immune-mediated inflammatory conditions (per FDA labeling).",
+      "relevance": "Clinically validated immunomodulation/anti-inflammatory mechanism (selective T-cell costimulation modulator per label) is relevant to aging biology via chronic inflammation/immune signaling modulation.",
+      "source": "FDA (BLA) Drugs@FDA ORENCIA (abatacept) overview/labels: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125118"
+    },
+    {
+      "compound": "deucravacitinib (SOTYKTU)",
+      "intervention_link": null,
+      "status": "Approved",
+      "indication": "Moderate-to-severe plaque psoriasis (per FDA labeling).",
+      "relevance": "Systemic immune/inflammation pathway modulation via TYK2 inhibition (per label) is relevant to aging biology via chronic inflammation and altered intercellular communication.",
+      "source": "FDA Drugs@FDA SOTYKTU (deucravacitinib) overview/labels: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216951"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "cellular_senescence",
+    "altered_intercellular_communication",
+    "chronic_inflammation"
+  ],
+  "aging_signal_strength": 3,
+  "recent_acquisitions": [
+    {
+      "target": "Karuna Therapeutics",
+      "year": 2023,
+      "value_usd": 14000000000,
+      "relevance": "Adds a clinical-stage neuroscience/psychiatry portfolio (not explicitly longevity-focused, but potentially relevant to neuroaging via CNS therapeutic expansion).",
+      "source": "BMS press release (Dec 22, 2023) announcing acquisition and ~$14B equity value: https://news.bms.com/news/details/2023/Bristol-Myers-Squibb-to-Acquire-Karuna-Therapeutics/default.aspx"
+    },
+    {
+      "target": "Mirati Therapeutics",
+      "year": 2023,
+      "value_usd": 4800000000,
+      "relevance": "Strengthens oncology targeted-therapy footprint (cancer biology overlaps with senescence and inflammatory signaling, but deal rationale is oncology-focused).",
+      "source": "BMS press release (Oct 8, 2023) announcing acquisition and ~$4.8B equity value: https://news.bms.com/news/details/2023/Bristol-Myers-Squibb-to-Acquire-Mirati-Therapeutics/default.aspx"
+    },
+    {
+      "target": "Turning Point Therapeutics",
+      "year": 2022,
+      "value_usd": 4100000000,
+      "relevance": "Adds targeted oncology pipeline; oncology mechanisms can intersect with aging hallmarks (e.g., senescence) but deal thesis is cancer-focused.",
+      "source": "BMS press release (Jun 2, 2022) announcing acquisition and ~$4.1B equity value: https://news.bms.com/news/details/2022/Bristol-Myers-Squibb-to-Acquire-Turning-Point-Therapeutics/default.aspx"
+    },
+    {
+      "target": "Celgene",
+      "year": 2019,
+      "value_usd": 74000000000,
+      "relevance": "Large-scale acquisition expanding oncology/hematology and immunology franchise; expands platforms relevant to immune modulation (aging-adjacent) though transaction was not framed around longevity.",
+      "source": "BMS press release (Jan 3, 2019) announcing ~$74B transaction value: https://news.bms.com/news/details/2019/Bristol-Myers-Squibb-and-Celgene-to-Create-a-Premier-Innovative-Biopharma-Company/default.aspx"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Clinical-stage to commercial-stage biopharma acquisitions (e.g., Karuna described as clinical-stage; Turning Point described as clinical-stage; Mirati transaction framed around an oncology company with marketed and pipeline assets).",
+    "avg_deal_size_usd": null,
+    "focus_areas": [
+      "Oncology (targeted therapies)",
+      "Neuroscience/psychiatry",
+      "Hematology/oncology platforms"
+    ],
+    "recent_trend": "Recent deals show continued emphasis on oncology bolt-ons (Turning Point; Mirati) alongside a major diversification/expansion into neuroscience/psychiatry (Karuna)."
+  },
+  "sources": [
+    "https://www.nyse.com/quote/XNYS:BMY",
+    "FDA Drugs@FDA SPRYCEL (dasatinib): https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021986",
+    "ClinicalTrials.gov NCT02848131: https://clinicaltrials.gov/study/NCT02848131",
+    "FDA Drugs@FDA ORENCIA (abatacept): https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125118",
+    "FDA Drugs@FDA SOTYKTU (deucravacitinib): https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216951",
+    "BMS press release (Karuna acquisition, Dec 22 2023): https://news.bms.com/news/details/2023/Bristol-Myers-Squibb-to-Acquire-Karuna-Therapeutics/default.aspx",
+    "BMS press release (Mirati acquisition, Oct 8 2023): https://news.bms.com/news/details/2023/Bristol-Myers-Squibb-to-Acquire-Mirati-Therapeutics/default.aspx",
+    "BMS press release (Turning Point acquisition, Jun 2 2022): https://news.bms.com/news/details/2022/Bristol-Myers-Squibb-to-Acquire-Turning-Point-Therapeutics/default.aspx",
+    "BMS press release (Celgene transaction, Jan 3 2019): https://news.bms.com/news/details/2019/Bristol-Myers-Squibb-and-Celgene-to-Create-a-Premier-Innovative-Biopharma-Company/default.aspx",
+    "Bristol-Myers Squibb Company Form 10-K (Business/Company information, HQ, therapeutic areas): source needed"
+  ],
+  "needs_review": true
+}

@@ -1,0 +1,74 @@
+{
+  "company": "BioAge Labs",
+  "ticker": null,
+  "founded": 2015,
+  "hq": "Richmond, California, United States (Crunchbase: https://www.crunchbase.com/organization/bioage-labs)",
+  "stage": "clinical",
+  "total_funding_usd": null,
+  "pipeline": [
+    {
+      "compound": "BGE-175",
+      "intervention_link": null,
+      "target": "NLRP3 inflammasome (source needed)",
+      "mechanism": "Small-molecule inhibitor (source needed)",
+      "indication": "Obesity / metabolic disease (source needed)",
+      "phase": "Phase 1 (source needed)",
+      "hallmarks": [
+        "chronic_inflammation",
+        "altered_intercellular_communication",
+        "deregulated_nutrient_sensing"
+      ],
+      "categories": [
+        "anti_inflammatory",
+        "metabolic_intervention"
+      ],
+      "source": "source needed"
+    }
+  ],
+  "hallmarks_targeted": [
+    "chronic_inflammation",
+    "altered_intercellular_communication",
+    "deregulated_nutrient_sensing"
+  ],
+  "category_links": [
+    "anti_inflammatory",
+    "metabolic_intervention"
+  ],
+  "key_people": [
+    {
+      "name": "Kristen Fortney, PhD",
+      "role": "CEO & Co-founder (source needed)",
+      "background": "BioAge leadership/profile information (Crunchbase: https://www.crunchbase.com/organization/bioage-labs; source needed for specific prior roles/education)"
+    }
+  ],
+  "investors_notable": [
+    "Andreessen Horowitz (a16z) (Crunchbase: https://www.crunchbase.com/organization/bioage-labs)"
+  ],
+  "risks": [
+    "Target-to-human translation risk: human-omics/genetics-supported targets can still fail due to compensatory biology, inadequate tissue exposure, or off-target liabilities (general biotech risk; source needed for BioAge-specific validation data).",
+    "Clinical differentiation risk in obesity/metabolic indications: highly competitive standard of care and fast-moving incretin-based landscape increases bar for efficacy, safety, and tolerability (general market risk; source needed for BioAge-specific competitive positioning).",
+    "Biomarker strategy risk: aging biology mechanisms often rely on surrogate biomarkers whose relationship to clinical outcomes may be uncertain, potentially complicating dose selection and regulatory discussions (general development risk; source needed for BioAge-specific biomarker plan).",
+    "Financing risk: as a private company, future dilution and funding availability may affect program continuity and timelines (company financing details source needed beyond Crunchbase summary: https://www.crunchbase.com/organization/bioage-labs)."
+  ],
+  "competitive_advantages": [
+    "Founded in 2015 (Crunchbase: https://www.crunchbase.com/organization/bioage-labs).",
+    "Company positioning around human data-driven discovery for aging-related disease targets (BioAge website: https://www.bioagelabs.com/).",
+    "If BioAge’s lead program is supported by human evidence (e.g., cohort/genetic associations), that can improve target confidence versus purely animal-derived hypotheses (source needed for BioAge program-by-program evidence package)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 250000000,
+    "high_usd": 900000000,
+    "methodology": "Range derived by triangulating (i) large-pharma willingness to pay for clinical-stage cardiometabolic/obesity assets in recent acquisitions, then (ii) applying an earlier-stage/undisclosed-asset discount and probability-of-success adjustment due to limited publicly verifiable BioAge clinical data in this profile (pipeline details: source needed). Comparables include Roche’s acquisition of Carmot Therapeutics (obesity/metabolic portfolio) and Lilly’s acquisition of Versanis (obesity asset). This estimate further assumes a single-lead or small-portfolio scenario and does not credit platform value without public validation (BioAge details: source needed).",
+    "comparable_deals": [
+      "Roche to acquire Carmot Therapeutics for up to $3.1B (Roche press release, 2023-12-04: https://www.roche.com/media/releases/med-cor-2023-12-04)",
+      "Lilly to acquire Versanis for up to $1.925B (Lilly press release, 2023-07-18: https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-versanis-bio)"
+    ]
+  },
+  "sources": [
+    "https://www.crunchbase.com/organization/bioage-labs",
+    "https://www.bioagelabs.com/",
+    "https://www.roche.com/media/releases/med-cor-2023-12-04",
+    "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-versanis-bio"
+  ],
+  "needs_review": true
+}

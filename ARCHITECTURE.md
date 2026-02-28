@@ -94,19 +94,20 @@ class BaseDocument(BaseModel):
     date_indexed: date = Field(default_factory=date.today)
 
     # RAW API response — insurance policy, never lose data
-    raw_response: dict = Field(default={}, exclude=True)
+    raw_response: dict = Field(default_factory=dict, exclude=True)
 
     # === FIELDS POPULATED LATER BY REASONING AGENTS, NOT AT INGEST ===
-    # These are None at ingest time and filled by classification agents
-    evidence_level: EvidenceLevel | None = None
-    study_type: str | None = None        # "RCT", "cohort", "meta_analysis", etc.
-    organism: str | None = None          # "human", "mouse", "in_vitro", etc.
-    effect_direction: EffectDirection | None = None
-    key_findings: list[str] = []
-    summary: str | None = None           # LLM-generated summary
-    hallmarks_addressed: list[AgingHallmark] = []
-    sample_size: int | None = None
-    endpoints: list[str] = []
+    # Excluded from JSON serialization (exclude=True) — stored separately in data/classifications/
+    # Still accessible as Python attributes (used by SQLite _doc_to_row)
+    evidence_level: EvidenceLevel | None = Field(default=None, exclude=True)
+    study_type: str | None = Field(default=None, exclude=True)
+    organism: str | None = Field(default=None, exclude=True)
+    effect_direction: EffectDirection | None = Field(default=None, exclude=True)
+    key_findings: list[str] = Field(default_factory=list, exclude=True)
+    summary: str | None = Field(default=None, exclude=True)
+    hallmarks_addressed: list[AgingHallmark] = Field(default_factory=list, exclude=True)
+    sample_size: int | None = Field(default=None, exclude=True)
+    endpoints: list[str] = Field(default_factory=list, exclude=True)
 ```
 
 ### Source-Specific Models
@@ -250,21 +251,36 @@ Both are written to on every ingest. The StorageManager abstracts this.
 
 ```
 data/
+├── interventions.json           # 55 interventions with aliases + categories (config)
 ├── documents/
 │   ├── rapamycin.json           # All docs for rapamycin
 │   ├── metformin.json           # All docs for metformin
-│   ├── nmn.json                 # etc.
 │   └── ...
 ├── classifications/
 │   └── {intervention}.json      # LLM classification results (written by reasoning agents)
+├── summary/
+│   └── {intervention}.json      # Deterministic summary stats
+├── trends/
+│   └── {intervention}.json      # Google Trends time-series data
+├── query_cache/
+│   └── {intervention}.json      # Cached LLM query expansions
+├── drugage/
+│   └── drugage.csv              # DrugAge CSV data
+├── anage/
+│   └── anage_data.txt           # AnAge database
+├── pharma_profiles/
+│   └── {company}.json           # Pharma company profiles (15 companies)
+├── biotech_profiles/
+│   └── {company}.json           # Biotech startup profiles (10 companies)
+├── bryan_johnson.json           # Bryan Johnson intervention stances/quotes
 ├── age_nt.db                    # SQLite database (mirrors JSON)
-└── reports/
-    └── {intervention}_{timestamp}.json  # Generated reports
+├── seed_all.log                 # Batch seeding log
+└── seed_summary.json            # Last batch seed results
 ```
 
 ### JSON Storage
 
-One file per intervention. Contains the full typed documents.
+One file per intervention. Contains the full typed documents. Classification fields (`evidence_level`, `organism`, etc.) and `raw_response` are excluded from JSON serialization via Pydantic `exclude=True` — they are stored separately in `data/classifications/` and are only populated by reasoning agents after ingest.
 
 ```python
 # data/documents/rapamycin.json
@@ -289,18 +305,7 @@ One file per intervention. Contains the full typed documents.
       "mesh_terms": ["Sirolimus", "Aging", "Longevity", "Mice"],
       "publication_types": ["Journal Article", "Randomized Controlled Trial"],
       "peer_reviewed": true,
-      "doi": "10.1038/s43587-023-00001-x",
-      "raw_response": {},
-
-      "evidence_level": null,
-      "study_type": null,
-      "organism": null,
-      "effect_direction": null,
-      "key_findings": [],
-      "summary": null,
-      "hallmarks_addressed": [],
-      "sample_size": null,
-      "endpoints": []
+      "doi": "10.1038/s43587-023-00001-x"
     },
     {
       "id": "e5f6g7h8-...",
@@ -310,7 +315,7 @@ One file per intervention. Contains the full typed documents.
       "abstract": "A phase 2 trial investigating low-dose rapamycin...",
       "source_url": "https://clinicaltrials.gov/study/NCT04488601",
       "date_published": "2020-07-27",
-      "date_indexed": "2025-02-27",
+      "date_indexed": "2026-02-27",
       "phase": "Phase 2",
       "status": "Completed",
       "enrollment": 150,
@@ -321,18 +326,7 @@ One file per intervention. Contains the full typed documents.
       "primary_outcomes": ["Change in immune function biomarkers"],
       "sponsor": "UCLA",
       "conditions": ["Aging", "Immunosenescence"],
-      "results_summary": "Treatment group showed significant improvement in...",
-      "raw_response": {},
-
-      "evidence_level": null,
-      "study_type": null,
-      "organism": null,
-      "effect_direction": null,
-      "key_findings": [],
-      "summary": null,
-      "hallmarks_addressed": [],
-      "sample_size": null,
-      "endpoints": []
+      "results_summary": "Treatment group showed significant improvement in..."
     }
   ]
 }
@@ -732,72 +726,55 @@ trials = storage.get_trial_lifecycle("rapamycin")
 
 ---
 
-## 6. On LangGraph / Orchestration Frameworks
+## 6. Orchestration: Adaptive MCP Tools, Not a Static Graph
 
-**Short answer: No. Don't use LangGraph. It adds complexity without value for this project.**
+**We use adaptive tool orchestration via MCP, not a static DAG or orchestration framework (LangGraph, CrewAI, etc.).**
 
-### Why Not
+### How It Works
 
-LangGraph (and similar agent orchestration frameworks like CrewAI, AutoGen) are designed for:
-- Complex multi-agent conversations with branching logic
-- Agents that need to dynamically decide which other agents to call
-- Stateful workflows with checkpointing and human-in-the-loop
-
-Our system is a **pipeline, not a conversation**. The flow is deterministic:
+The MCP server exposes 11 tools. The calling LLM (Claude Desktop, ChatGPT, or our chat API) decides at runtime which tools to call and in what order based on the user's question. There is no predefined execution graph.
 
 ```
-Ingest (fetch data) → Store → Classify (on demand) → Reason → Report
+User asks: "Is rapamycin overhyped?"
+    │
+    LLM decides → get_hype_ratio("rapamycin")
+                → get_evidence_grade("rapamycin")      ← for context
+                → get_bryan_johnson_take("rapamycin")   ← optional colour
+                → synthesises answer from tool results
+
+User asks: "What evidence is missing for NMN?"
+    │
+    LLM decides → get_evidence_gaps("nmn")
+                → get_intervention_stats("nmn")         ← for overview
+                → synthesises answer from tool results
 ```
 
-There are no dynamic decisions. The evidence grader doesn't need to "talk to" the gap spotter. They both independently read from the same data store and write their outputs. The report generator just collects all their outputs.
+Tools can also nest — `get_full_report` internally calls evidence grader, trajectory, gap spotter, and hype ratio. Each of those may make LLM calls (for classification) or query other data. This gives hierarchical depth without the outer LLM needing to manage every substep.
 
-### What To Use Instead
+### Why Not a Static Pipeline
 
-Plain Python functions with the Gemini API client. That's it.
+The ingest layer IS a static pipeline (deterministic, no decisions). But reasoning is open-ended — the question space is unbounded. A static graph would either:
+- Run every tool every time (wasteful)
+- Require hand-coded branching for every question type (brittle)
 
-```python
-# This is all the "orchestration" you need:
+Adaptive orchestration lets the LLM figure out the workflow. This is the right trade-off for a reasoning-over-evidence system.
 
-async def generate_report(intervention: str) -> Report:
-    """Orchestrate all reasoning modules. No framework needed."""
-    
-    # 1. Ensure documents are ingested
-    docs = await storage.get_documents(intervention)
-    if not docs:
-        docs = await ingest_all_sources(intervention)
-    
-    # 2. Ensure documents are classified
-    unclassified = [d for d in docs if d.evidence_level is None]
-    if unclassified:
-        await classify_documents(unclassified)
-        docs = await storage.get_documents(intervention)  # reload
-    
-    # 3. Run reasoning modules (these are just functions)
-    evidence_grade = await evidence_grader.grade(docs)
-    trajectory = await trajectory_scorer.score(docs, storage)
-    gaps = await gap_spotter.analyse(docs)
-    
-    # 4. Combine into report
-    report = await report_generator.generate(
-        intervention=intervention,
-        documents=docs,
-        evidence_grade=evidence_grade,
-        trajectory=trajectory,
-        gaps=gaps,
-    )
-    
-    return report
-```
+### Trade-offs
+
+| Advantage | Disadvantage |
+|-----------|-------------|
+| Handles novel questions we never anticipated | No execution trace for replay/audit |
+| Tools compose naturally (LLM chains them) | Quality depends on LLM's tool-calling ability |
+| Adding a new tool = one function, no graph changes | Nested LLM calls compound latency unpredictably |
+| Graceful degradation (skip tools that error) | No memoisation at the composition level |
 
 ### When You WOULD Need an Orchestration Framework
 
-- If a reasoning module needed to dynamically trigger new ingests ("I found a reference to compound X, let me go fetch data on that too")
-- If you had 10+ agents with complex dependencies between them
-- If you needed human-in-the-loop approval steps
+- If tools had complex inter-dependencies (tool A's output format depends on tool B's result)
+- If you needed human-in-the-loop approval mid-chain
+- If you needed deterministic reproducibility (same question → same tool sequence every time)
 
-None of these apply for the hackathon. If you reach stretch goals and want agents that autonomously explore related compounds, THEN consider a lightweight state machine. But even then, a simple queue/dispatcher pattern would suffice.
-
-**Rule of thumb: If you can draw your workflow as a straight line (with maybe one branch), you don't need an orchestration framework.**
+For the hackathon, adaptive MCP is the right call. For production, consider adding observability (log which tools the LLM called and in what order) and composition-level caching.
 
 ---
 
@@ -846,17 +823,20 @@ POST /query
 ## 8. Current Status
 
 ### Built
-- **Schema**: Base + 11 source-specific subclasses, discriminated union, 12 source types
+- **Schema**: Base + 11 source-specific subclasses, discriminated union, 12 source types. Classification fields use `exclude=True` for clean JSON/classification separation.
 - **Storage**: JSON + SQLite dual store, StorageManager, dedup (URL-based + ID-based)
 - **Ingest**: 10 agents + Google Trends + LLM query expander. All async, no LLM at scrape time.
-- **API**: FastAPI with interventions, ingest, reasoning routes
-- **MCP Server**: 8 tools (3 functional: list_interventions, get_intervention_stats, search_documents; 5 stubs)
-- **Scripts**: seed_intervention.py, seed_all.py (batch with checkpoint/resume, concurrent agents, retry/backoff)
-- **Tools**: Edison/PaperQA3 implemented; evidence_grader, trajectory, gap_spotter, hype_ratio, report_generator are stubs
-- **Data**: 55 interventions with aliases and categories
+- **API**: FastAPI with 6 route modules: interventions, ingest, reasoning, tools (dynamic discovery), chat (agentic LLM conversation), pharma (company profiles + due diligence)
+- **MCP Server**: 11 tools on SSE port 8001:
+  - **Functional**: list_interventions, get_intervention_stats, search_documents, get_evidence_trajectory, get_bryan_johnson_take, sql_query, run_python
+  - **Stubs (with dynamic tool fallback)**: get_evidence_grade, get_evidence_gaps, get_hype_ratio, get_full_report
+- **Scripts**: seed_intervention.py, seed_all.py (batch with checkpoint/resume), generate_summary.py, compile_profiles.py (pharma/biotech), generate_bj_quotes.py
+- **Tools**: Edison/PaperQA3 implemented, Trajectory Scorer fully implemented (558 lines — velocity, diversification, trial pipeline metrics), SQL Query safety layer implemented. Evidence grader, gap spotter, hype ratio, report generator are stubs.
+- **Data**: 55 interventions with aliases and categories. 15 pharma company profiles, 10 biotech startup profiles, Bryan Johnson intervention stances.
+- **Frontend**: React/TypeScript app (Vite) in `frontend/` directory
 
-### Next to build
-See FUTURE_WORK.md — reasoning tools (T1-T4), wire them into MCP stubs
+### Stubs to implement
+- Evidence Grader, Gap Spotter, Hype Ratio, Report Generator (see FUTURE_WORK.md)
 
 ---
 
@@ -864,9 +844,9 @@ See FUTURE_WORK.md — reasoning tools (T1-T4), wire them into MCP stubs
 
 - **Ingest is dumb, reasoning is smart.** Never call an LLM during ingest (query expansion is the one exception — run once per intervention, not per document).
 - **JSON is readable, SQLite is queryable.** Write to both, query from whichever makes sense.
-- **No orchestration framework.** Plain async functions calling the LLM API. See Section 6 for rationale.
+- **Adaptive orchestration via MCP.** The LLM caller decides which tools to invoke and in what order. Tools can nest (call LLMs, call other tools). See Section 6.
 - **Temporal fields are typed, not dict keys.** This is why we use Base + source-specific models.
 - **The StorageManager is the only interface to data.** Nothing else touches files or the database directly.
-- **Classification fields are nullable.** They start as None and get filled by reasoning agents.
-- **Cache LLM results.** Once a document is classified, store the result in `data/classifications/`. Don't re-classify.
-- **raw_response is the insurance policy.** Always store the full API response so you can re-parse later.
+- **Classification fields are excluded from JSON.** They use `exclude=True` and are stored separately in `data/classifications/`. This keeps document JSON clean.
+- **Cache LLM results.** Once a document is classified, store the result in `data/classifications/`. Don't re-classify. MCP tools also cache deterministic outputs.
+- **raw_response is the insurance policy.** Always store the full API response (also excluded from JSON serialization) so you can re-parse later.

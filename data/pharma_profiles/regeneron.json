@@ -1,0 +1,110 @@
+{
+  "company": "Regeneron Pharmaceuticals, Inc.",
+  "ticker": "REGN (NASDAQ listing: https://www.nasdaq.com/market-activity/stocks/regn)",
+  "hq": "Tarrytown, New York, USA (Regeneron contact page: https://www.regeneron.com/contact)",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Immunology/inflammation (e.g., Dupixent, Kevzara: https://www.regeneron.com/products)",
+    "Ophthalmology/retinal disease (EYLEA: https://www.regeneron.com/products/eylea)",
+    "Oncology/immuno-oncology (LIBTAYO: https://www.regeneron.com/products/libtayo)",
+    "Cardiovascular/lipid disorders (EVKEEZA: https://www.regeneron.com/products/evkeeza)",
+    "Rare disease/inflammatory conditions (ARCALYST: https://www.regeneron.com/products/arcalyst)",
+    "Infectious disease (INMAZEB: https://www.regeneron.com/products/inmazeb)"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Regeneron’s marketed portfolio includes therapies directly used in age-associated conditions and biology-adjacent pathways: (1) EYLEA (aflibercept) is indicated for neovascular (wet) age-related macular degeneration (nAMD) (https://www.regeneron.com/products/eylea), and AMD is an age-related eye disease (National Eye Institute: https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration). (2) Multiple marketed biologics modulate inflammatory cytokine signaling (e.g., Dupixent for type 2 inflammation and Kevzara targeting the IL-6 receptor; product pages: https://www.regeneron.com/products/dupixent and https://www.regeneron.com/products/kevzara), which overlaps mechanistically with inflammation-related aging hallmarks (analyst mapping). (3) Regeneron also highlights large-scale human genetics for target discovery via the Regeneron Genetics Center (https://www.regeneron.com/science/genetics-center), which can be relevant for identifying targets associated with healthspan-related traits (analyst interpretation).",
+  "existing_longevity_assets": [
+    {
+      "compound": "EYLEA (aflibercept)",
+      "intervention_link": null,
+      "status": "Marketed / approved (per product page)",
+      "indication": "Neovascular (wet) age-related macular degeneration (nAMD) (and other retinal diseases listed on product page)",
+      "relevance": "Treats an explicitly age-related condition (AMD), relevant to maintaining visual function with aging; mechanistically acts on VEGF signaling (age-related tissue microenvironment/communication; analyst mapping).",
+      "source": "https://www.regeneron.com/products/eylea"
+    },
+    {
+      "compound": "Dupixent (dupilumab)",
+      "intervention_link": null,
+      "status": "Marketed / approved (per product page)",
+      "indication": "Type 2 inflammatory diseases including atopic dermatitis and asthma (see product page for full list of approved uses)",
+      "relevance": "Anti-inflammatory cytokine-pathway modulation (IL-4/IL-13 pathway per product description), mapping to chronic inflammation / altered intercellular communication hallmarks (analyst mapping).",
+      "source": "https://www.regeneron.com/products/dupixent"
+    },
+    {
+      "compound": "Kevzara (sarilumab)",
+      "intervention_link": null,
+      "status": "Marketed / approved (per product page)",
+      "indication": "Rheumatoid arthritis (per product page)",
+      "relevance": "Targets IL-6 receptor signaling (per product description), relevant to systemic inflammatory signaling that overlaps with inflammaging-related biology (analyst mapping).",
+      "source": "https://www.regeneron.com/products/kevzara"
+    },
+    {
+      "compound": "Arcalyst (rilonacept)",
+      "intervention_link": null,
+      "status": "Marketed / approved (per product page)",
+      "indication": "Recurrent pericarditis and certain rare autoinflammatory conditions (see product page for full list of approved uses)",
+      "relevance": "IL-1 pathway inhibition (per product description) is a direct anti-inflammatory mechanism that overlaps with chronic inflammation hallmark (analyst mapping).",
+      "source": "https://www.regeneron.com/products/arcalyst"
+    },
+    {
+      "compound": "Evkeeza (evinacumab-dgnb)",
+      "intervention_link": null,
+      "status": "Marketed / approved (per product page)",
+      "indication": "Homozygous familial hypercholesterolemia (HoFH) (per product page)",
+      "relevance": "Addresses severe lifelong dyslipidemia; lipid biology is relevant to cardiometabolic risk trajectories that commonly manifest with aging, though HoFH itself is a genetic condition (analyst framing of aging relevance).",
+      "source": "https://www.regeneron.com/products/evkeeza"
+    },
+    {
+      "compound": "Libtayo (cemiplimab-rwlc)",
+      "intervention_link": null,
+      "status": "Marketed / approved (per product page)",
+      "indication": "Multiple cancer indications including cutaneous squamous cell carcinoma and others (see product page for full list of approved uses)",
+      "relevance": "Immune checkpoint modulation (per product description) is relevant to immune function in older populations, though primarily pursued for oncology rather than aging biology (analyst framing).",
+      "source": "https://www.regeneron.com/products/libtayo"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "chronic_inflammation",
+    "altered_intercellular_communication"
+  ],
+  "aging_signal_strength": 4,
+  "recent_acquisitions": [
+    {
+      "target": "Checkmate Pharmaceuticals",
+      "year": null,
+      "value_usd": null,
+      "relevance": "Potential oncology pipeline expansion; any aging/longevity relevance would be indirect via cancer burden in older adults (source needed for deal specifics).",
+      "source": "source needed"
+    },
+    {
+      "target": "Decibel Therapeutics",
+      "year": null,
+      "value_usd": null,
+      "relevance": "Hearing loss interventions can be relevant to healthy aging; source needed for deal specifics and positioning.",
+      "source": "source needed"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "source needed",
+    "avg_deal_size_usd": null,
+    "focus_areas": [
+      "source needed"
+    ],
+    "recent_trend": "source needed"
+  },
+  "sources": [
+    "https://www.nasdaq.com/market-activity/stocks/regn",
+    "https://www.regeneron.com/contact",
+    "https://www.regeneron.com/products",
+    "https://www.regeneron.com/products/eylea",
+    "https://www.regeneron.com/products/dupixent",
+    "https://www.regeneron.com/products/kevzara",
+    "https://www.regeneron.com/products/arcalyst",
+    "https://www.regeneron.com/products/evkeeza",
+    "https://www.regeneron.com/products/libtayo",
+    "https://www.regeneron.com/products/inmazeb",
+    "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration",
+    "https://www.regeneron.com/science/genetics-center"
+  ],
+  "needs_review": true
+}

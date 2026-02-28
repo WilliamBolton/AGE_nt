@@ -1,0 +1,60 @@
+{
+  "company": "Cambrian Bio",
+  "ticker": null,
+  "founded": 2019,
+  "hq": "New York, NY, USA",
+  "stage": "clinical",
+  "total_funding_usd": null,
+  "pipeline": [
+    {
+      "compound": "Portfolio of therapeutic programs (multiple assets across subsidiaries; individual asset names/phases not captured in this profile)",
+      "intervention_link": null,
+      "target": "Various (portfolio approach)",
+      "mechanism": "Various (portfolio approach)",
+      "indication": null,
+      "phase": "multiple (preclinical–clinical) (source needed for asset-level breakdown)",
+      "hallmarks": [],
+      "categories": [],
+      "source": "https://www.cambrianbio.com/ (pipeline/portfolio referenced; source needed for asset-level details)"
+    }
+  ],
+  "hallmarks_targeted": [],
+  "category_links": [],
+  "key_people": [
+    {
+      "name": "James Peyer",
+      "role": "Co-founder & CEO",
+      "background": "CEO biography/source needed beyond company bio; company lists him as Co-founder & CEO. (https://www.cambrianbio.com/; source needed for full career history)"
+    }
+  ],
+  "investors_notable": [],
+  "risks": [
+    "High clinical attrition risk typical for drug development; historical probabilities of success from Phase 1 to approval are low across therapeutic areas. (https://doi.org/10.1093/biostatistics/kxx069)",
+    "Regulatory risk: 'aging' itself is generally not an approved disease indication; programs may need to pursue specific age-related diseases and endpoints. (https://doi.org/10.1016/j.cmet.2016.02.011)",
+    "Portfolio/company-structure risk: multi-asset 'hub-and-spoke' or portfolio models add operational and capital allocation complexity versus single-asset biotechs. (source needed)",
+    "Financing risk: advancing multiple programs in parallel can require substantial follow-on capital, and biotech funding cycles are volatile. (source needed)"
+  ],
+  "competitive_advantages": [
+    "Portfolio strategy aimed at developing multiple therapeutics targeting underlying biology of aging (as described by the company). (https://www.cambrianbio.com/)"
+  ],
+  "acquisition_estimate": {
+    "low_usd": 500000000,
+    "high_usd": 2500000000,
+    "methodology": "Analyst estimate (not a factual claim): triangulated using public comparable acquisitions of clinical-stage biopharma companies (deal sizes spanning roughly ~$1.85B to ~$4.1B+) and adjusted downward/upward based on (i) unclear number/maturity of Cambrian's clinical-stage assets in public sources, (ii) platform/portfolio optionality, and (iii) typical acquirer discounts for portfolio complexity and clinical/regulatory uncertainty. Comparable deal values cited from acquirer press releases.",
+    "comparable_deals": [
+      "Merck acquisition of Pandion Therapeutics for ~$1.85B (press release): https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+      "Bristol Myers Squibb acquisition of Turning Point Therapeutics for ~$4.1B (press release): https://news.bms.com/news/details/2022/Bristol-Myers-Squibb-to-Acquire-Turning-Point-Therapeutics/default.aspx",
+      "Roche acquisition of Carmot Therapeutics for up to ~$3.1B (press release): https://www.roche.com/media/releases/med-cor-2023-12-04"
+    ]
+  },
+  "sources": [
+    "https://www.cambrianbio.com/",
+    "https://www.crunchbase.com/organization/cambrian-biopharma (founded year, HQ; funding figures/source access may vary)",
+    "https://doi.org/10.1093/biostatistics/kxx069 (Wong CH, Siah KW, Lo AW. Estimation of clinical trial success rates and related parameters. Biostatistics. 2019.)",
+    "https://doi.org/10.1016/j.cmet.2016.02.011 (Barzilai N et al. Metformin as a Tool to Target Aging. Cell Metabolism. 2016.)",
+    "https://www.merck.com/news/merck-to-acquire-pandion-therapeutics/",
+    "https://news.bms.com/news/details/2022/Bristol-Myers-Squibb-to-Acquire-Turning-Point-Therapeutics/default.aspx",
+    "https://www.roche.com/media/releases/med-cor-2023-12-04"
+  ],
+  "needs_review": true
+}

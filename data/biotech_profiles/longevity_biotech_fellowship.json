@@ -1,0 +1,29 @@
+{
+  "company": "Longevity Biotech Fellowship",
+  "ticker": null,
+  "founded": null,
+  "hq": null,
+  "stage": "preclinical",
+  "total_funding_usd": null,
+  "pipeline": [],
+  "hallmarks_targeted": [],
+  "category_links": [],
+  "key_people": [],
+  "investors_notable": [],
+  "risks": [
+    "Publicly verifiable information on corporate structure (company vs. program/nonprofit), governance, and jurisdiction is insufficient to underwrite diligence (source needed).",
+    "No publicly disclosed therapeutic pipeline/asset list identified; without named programs, target product profiles, or preclinical packages, translational and value assessment is not possible (source needed).",
+    "No publicly disclosed funding history (rounds, investors, amounts) identified; capital adequacy and runway cannot be assessed (source needed).",
+    "If the entity is primarily a fellowship/accelerator rather than an asset-owning biotech, acquisition likelihood and strategic fit for pharma buyers may be low (source needed)."
+  ],
+  "competitive_advantages": [
+    "Potential talent-network and venture creation model could accelerate formation of longevity startups, but evidence of outputs (spun-out companies, IP created, clinical assets) not identified (source needed)."
+  ],
+  "acquisition_estimate": null,
+  "sources": [
+    "source needed: authoritative reference for entity existence and description (e.g., official website and/or incorporation records).",
+    "source needed: Crunchbase/PitchBook/press releases/SEC filings for founding year, HQ, and funding history.",
+    "source needed: official disclosures (website, publications, ClinicalTrials.gov/WHO ICTRP) for any pipeline assets or trials."
+  ],
+  "needs_review": true
+}

@@ -1,0 +1,110 @@
+{
+  "company": "Altos Labs",
+  "ticker": null,
+  "founded": 2021,
+  "hq": "Redwood City, California, United States (source: https://www.crunchbase.com/organization/altos-labs)",
+  "stage": "preclinical",
+  "total_funding_usd": 3000000000,
+  "pipeline": [
+    {
+      "compound": "Cellular Rejuvenation Programming (partial epigenetic reprogramming using induced-expression reprogramming factors; specific therapeutic construct(s)/delivery undisclosed publicly)",
+      "intervention_link": null,
+      "target": "Epigenetic state / chromatin and transcriptional programs associated with cellular age (source: https://www.altoslabs.com/ ; https://doi.org/10.1016/j.cell.2016.11.052)",
+      "mechanism": "Transient/partial reprogramming to restore youthful epigenetic and gene-expression patterns while aiming to retain cell identity (source: https://doi.org/10.1016/j.cell.2016.11.052 ; https://www.nature.com/articles/s41586-020-2975-4)",
+      "indication": "Not publicly disclosed; platform aimed at age-related disease and regenerative medicine (source: https://www.altoslabs.com/ ; https://www.nature.com/articles/d41586-022-00696-9)",
+      "phase": "preclinical",
+      "hallmarks": [
+        "epigenetic_alterations",
+        "genomic_instability",
+        "cellular_senescence",
+        "stem_cell_exhaustion",
+        "mitochondrial_dysfunction"
+      ],
+      "categories": [
+        "epigenetic_intervention"
+      ],
+      "source": "Company platform/mission: https://www.altoslabs.com/ ; Partial reprogramming ameliorating age-associated hallmarks in vivo: Ocampo et al., Cell (2016) https://doi.org/10.1016/j.cell.2016.11.052 ; OSK reprogramming restoring youthful epigenetic information in vivo: Lu et al., Nature (2020) https://www.nature.com/articles/s41586-020-2975-4 ; Reporting on Altos focus and early-stage status: Nature News (2022) https://www.nature.com/articles/d41586-022-00696-9"
+    }
+  ],
+  "hallmarks_targeted": [
+    "epigenetic_alterations",
+    "genomic_instability",
+    "cellular_senescence",
+    "stem_cell_exhaustion",
+    "mitochondrial_dysfunction"
+  ],
+  "category_links": [
+    "epigenetic_intervention"
+  ],
+  "key_people": [
+    {
+      "name": "Hal V. Barron",
+      "role": "Chief Executive Officer (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
+      "background": "Physician-scientist and biotech executive; previously Chief Scientific Officer and President, R&D at GlaxoSmithKline (source: https://www.nature.com/articles/d41586-022-00696-9)"
+    },
+    {
+      "name": "Rick Klausner",
+      "role": "Scientific leadership role at Altos (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
+      "background": "Former Director of the U.S. National Cancer Institute (source: https://www.cancer.gov/about-nci/overview/history/past-directors/richard-klausner)"
+    },
+    {
+      "name": "Shinya Yamanaka",
+      "role": "Scientific founder/advisor associated with Altos (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
+      "background": "Co-discoverer of induced pluripotent stem cells; Nobel Prize in Physiology or Medicine 2012 (source: https://www.nobelprize.org/prizes/medicine/2012/summary/)"
+    },
+    {
+      "name": "Juan Carlos Izpisua Belmonte",
+      "role": "Scientific founder/leader associated with Altos (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
+      "background": "Stem-cell and regenerative biology researcher; former Salk Institute professor (source: https://www.salk.edu/scientist/juan-carlos-izpisua-belmonte/)"
+    },
+    {
+      "name": "Manuel Serrano",
+      "role": "Scientific founder/leader associated with Altos (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
+      "background": "Researcher known for work in cellular senescence and cancer biology; affiliated with IRB Barcelona (source: https://www.irbbarcelona.org/en/profile/manuel-serrano)"
+    }
+  ],
+  "investors_notable": [
+    "Yuri Milner / related funding entities (reported major backer) (source: https://www.nature.com/articles/d41586-022-00696-9)",
+    "Jeff Bezos (reported investor/backer) (source: https://www.technologyreview.com/2022/02/03/1044719/jeff-bezos-anti-aging-altos-labs/)"
+  ],
+  "risks": [
+    "Oncogenicity/tumor risk from in vivo reprogramming if factor expression is not tightly controlled (e.g., dedifferentiation/teratoma-like pathology reported as a concern in partial reprogramming literature) (source: https://doi.org/10.1016/j.cell.2016.11.052)",
+    "Translation risk: strong preclinical rejuvenation signals may not predict human efficacy across complex age-related diseases (source needed)",
+    "Delivery risk: achieving safe, tissue-specific, regulatable delivery of reprogramming factors in vivo is technically difficult (source: https://www.nature.com/articles/s41586-020-2975-4)",
+    "Regulatory/clinical-development uncertainty because 'rejuvenation' endpoints and biomarkers may not be accepted as primary clinical endpoints without disease-specific outcomes (source needed)",
+    "IP and competitive intensity risk as multiple groups pursue partial reprogramming/epigenetic rejuvenation strategies (source needed)"
+  ],
+  "competitive_advantages": [
+    "Large capitalization at launch and ability to fund long time-horizon basic-to-translational programs (source: https://www.crunchbase.com/organization/altos-labs ; https://www.nature.com/articles/d41586-022-00696-9)",
+    "High-profile scientific leadership with direct ties to iPSC discovery and aging/reprogramming research (source: https://www.nature.com/articles/d41586-022-00696-9 ; https://www.nobelprize.org/prizes/medicine/2012/summary/)",
+    "Platform is grounded in peer-reviewed in vivo partial reprogramming evidence base (source: https://doi.org/10.1016/j.cell.2016.11.052 ; https://www.nature.com/articles/s41586-020-2975-4)"
+  ],
+  "acquisition_estimate": {
+    "low_usd": 2000000000,
+    "high_usd": 8000000000,
+    "methodology": "Range is a heuristic based on (i) Altos' disclosed/estimated total funding/committed capital (~US$3B per Crunchbase and contemporaneous reporting) and (ii) typical M&A valuation bands for platform biotech assets: ~0.7x–2.5x invested capital for preclinical-to-early clinical platform companies, with upside reflecting strategic value if delivery and safety de-risk. This is not a prediction of intent to sell. Funding references: https://www.crunchbase.com/organization/altos-labs ; Nature reporting: https://www.nature.com/articles/d41586-022-00696-9. Comparable deals used as order-of-magnitude anchors for strategic platform/gene-therapy-like capabilities (later-stage than Altos): Roche–Spark (US$4.3B) https://www.roche.com/media/releases/med-cor-2019-12-02 ; Bayer–Asklepios BioPharmaceutical (up to US$4B) https://www.bayer.com/en/news-stories/bayer-to-acquire-askbio ; Novartis–AveXis (US$8.7B) https://www.novartis.com/news/media-releases/novartis-acquire-avexis-87-billion-transforming-gene-therapy-patients-sma ; Gilead–Kite (US$11.9B) https://www.gilead.com/news-and-press/press-room/press-releases/2017/8/gilead-sciences-to-acquire-kite-pharma-for-119-billion",
+    "comparable_deals": [
+      "Roche acquisition of Spark Therapeutics for US$4.3B (Roche press release, 2019-12-02): https://www.roche.com/media/releases/med-cor-2019-12-02",
+      "Bayer acquisition of AskBio for up to US$4B (Bayer press release, 2020-10-26): https://www.bayer.com/en/news-stories/bayer-to-acquire-askbio",
+      "Novartis acquisition of AveXis for US$8.7B (Novartis press release, 2018-04-09): https://www.novartis.com/news/media-releases/novartis-acquire-avexis-87-billion-transforming-gene-therapy-patients-sma",
+      "Gilead acquisition of Kite Pharma for US$11.9B (Gilead press release, 2017-08-28): https://www.gilead.com/news-and-press/press-room/press-releases/2017/8/gilead-sciences-to-acquire-kite-pharma-for-119-billion"
+    ]
+  },
+  "sources": [
+    "Crunchbase company profile (founded year, HQ, funding): https://www.crunchbase.com/organization/altos-labs",
+    "Altos Labs website (mission/platform framing): https://www.altoslabs.com/",
+    "Nature News on Altos launch, leadership, and focus (2022): https://www.nature.com/articles/d41586-022-00696-9",
+    "MIT Technology Review reporting on Altos and investors (2022): https://www.technologyreview.com/2022/02/03/1044719/jeff-bezos-anti-aging-altos-labs/",
+    "Ocampo et al., 'In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming', Cell (2016): https://doi.org/10.1016/j.cell.2016.11.052",
+    "Lu et al., 'Reprogramming to recover youthful epigenetic information and restore vision', Nature (2020): https://www.nature.com/articles/s41586-020-2975-4",
+    "NCI Past Directors bio for Richard Klausner: https://www.cancer.gov/about-nci/overview/history/past-directors/richard-klausner",
+    "Nobel Prize summary for Shinya Yamanaka (2012): https://www.nobelprize.org/prizes/medicine/2012/summary/",
+    "Salk Institute profile for Juan Carlos Izpisua Belmonte: https://www.salk.edu/scientist/juan-carlos-izpisua-belmonte/",
+    "IRB Barcelona profile for Manuel Serrano: https://www.irbbarcelona.org/en/profile/manuel-serrano",
+    "Roche–Spark acquisition release: https://www.roche.com/media/releases/med-cor-2019-12-02",
+    "Bayer–AskBio acquisition release: https://www.bayer.com/en/news-stories/bayer-to-acquire-askbio",
+    "Novartis–AveXis acquisition release: https://www.novartis.com/news/media-releases/novartis-acquire-avexis-87-billion-transforming-gene-therapy-patients-sma",
+    "Gilead–Kite acquisition release: https://www.gilead.com/news-and-press/press-room/press-releases/2017/8/gilead-sciences-to-acquire-kite-pharma-for-119-billion"
+  ],
+  "needs_review": true
+}

@@ -36,6 +36,11 @@ dependencies = [
     "loguru>=0.7.0",
     # MCP server
     "mcp[cli]>=1.2.0",
+    # Data analysis (for code execution tool)
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "numpy>=1.26",
 ]
 
 [project.optional-dependencies]

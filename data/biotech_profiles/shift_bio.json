@@ -1,0 +1,72 @@
+{
+  "company": "Shift Bio",
+  "ticker": null,
+  "founded": null,
+  "hq": null,
+  "stage": "preclinical",
+  "total_funding_usd": null,
+  "pipeline": [
+    {
+      "compound": "Undisclosed cellular rejuvenation program (partial reprogramming / epigenetic reset approach)",
+      "intervention_link": null,
+      "target": "Epigenetic state / transcriptional regulatory networks controlling cellular identity and age-associated gene expression",
+      "mechanism": "Putative partial cellular reprogramming intended to reverse age-associated epigenetic changes while maintaining cell identity (details undisclosed)",
+      "indication": null,
+      "phase": "discovery/preclinical",
+      "hallmarks": [
+        "epigenetic_alterations",
+        "cellular_senescence",
+        "stem_cell_exhaustion",
+        "loss_of_proteostasis"
+      ],
+      "categories": [
+        "epigenetic_intervention"
+      ],
+      "source": "source needed"
+    }
+  ],
+  "hallmarks_targeted": [
+    "epigenetic_alterations",
+    "cellular_senescence",
+    "stem_cell_exhaustion",
+    "loss_of_proteostasis"
+  ],
+  "category_links": [
+    "epigenetic_intervention"
+  ],
+  "key_people": [],
+  "investors_notable": [],
+  "risks": [
+    "High uncertainty due to limited publicly citable information on founding date, HQ, leadership, financing, and pipeline specifics (source needed).",
+    "Scientific risk: partial reprogramming/epigenetic-reset strategies can cause loss of cell identity, unwanted dedifferentiation, or tumorigenic potential depending on factor choice, dose, and duration (source needed for Shift Bio’s specific approach).",
+    "Delivery risk: if the approach requires in vivo gene delivery (e.g., viral vectors/LNPs), achieving tissue-specific, titratable, and reversible expression may be challenging (source needed for Shift Bio modality).",
+    "Translatability risk: reversing molecular age markers may not translate to clinically meaningful functional outcomes in humans (source needed for Shift Bio validation data).",
+    "Regulatory risk: platform therapies aimed at broad rejuvenation may face unclear clinical endpoints and longer, costlier development paths than single-indication therapeutics (source needed).",
+    "IP/competitive risk: the partial reprogramming space is crowded, and freedom-to-operate may be constrained by existing patents around reprogramming factors, vectors, and methods (source needed).",
+    "Financing risk: preclinical longevity companies often require substantial capital to reach IND-enabling and first-in-human studies (source needed for Shift Bio runway/financing)."
+  ],
+  "competitive_advantages": [
+    "If Shift Bio has a proprietary factor-selection or screening platform for safer partial reprogramming, it could improve the therapeutic index versus canonical reprogramming-factor approaches (source needed).",
+    "If the company has strong assays linking epigenetic changes to functional readouts (e.g., stress resistance, proteostasis, mitochondrial function), it could strengthen translational credibility (source needed).",
+    "A modality that enables transient, controllable reprogramming (e.g., inducible systems) could be a meaningful safety differentiator (source needed)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 50000000,
+    "high_usd": 300000000,
+    "methodology": "Heuristic range for an undisclosed, preclinical platform biotech in the longevity/epigenetic modulation space: (i) base-case value anchored to typical preclinical platform acquisitions/option deals (often tens to low hundreds of millions upfront/equity equivalent), (ii) adjusted upward for platform breadth and IP defensibility, and downward for delivery/safety uncertainty and unclear regulatory endpoints. This estimate is not based on Shift Bio financials (source needed) and should be recalibrated using confirmed funding, lead program maturity (IND-enabling progress), and partner interest (source needed).",
+    "comparable_deals": [
+      "Comparable deal examples needed (source needed).",
+      "Comparable deal examples needed (source needed).",
+      "Comparable deal examples needed (source needed)."
+    ]
+  },
+  "sources": [
+    "source needed: Shift Bio official website (pipeline, platform description, modality, indications).",
+    "source needed: Crunchbase and/or PitchBook (founding year, HQ, total funding, investors).",
+    "source needed: press releases/SEC filings (financing rounds, partnerships, any disclosed programs).",
+    "source needed: publications/patents/clinical registries if any (mechanism validation, preclinical results, program details).",
+    "source needed: acquisition comparables (press releases/SEC filings for precedent deals).",
+    "source needed: confirmation of company development stage."
+  ],
+  "needs_review": true
+}

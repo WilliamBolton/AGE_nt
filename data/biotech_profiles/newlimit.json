@@ -1,0 +1,81 @@
+{
+  "company": "NewLimit",
+  "ticker": null,
+  "founded": 2022,
+  "hq": "South San Francisco, California, United States (source: https://www.crunchbase.com/organization/newlimit)",
+  "stage": "preclinical",
+  "total_funding_usd": 40000000,
+  "pipeline": [
+    {
+      "compound": "Partial epigenetic reprogramming therapy platform (specific factor combinations undisclosed) (source: https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
+      "intervention_link": null,
+      "target": "Age-associated epigenetic/gene-expression state in somatic cells (source: https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
+      "mechanism": "Develops interventions intended to \"reprogram\" or reset aged cells toward a more youthful state via epigenetic reprogramming (source: https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
+      "indication": null,
+      "phase": "preclinical (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/ ; source needed for any specific clinical-stage asset)",
+      "hallmarks": [
+        "epigenetic_alterations"
+      ],
+      "categories": [
+        "epigenetic_intervention"
+      ],
+      "source": "https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/"
+    }
+  ],
+  "hallmarks_targeted": [
+    "epigenetic_alterations"
+  ],
+  "category_links": [
+    "epigenetic_intervention"
+  ],
+  "key_people": [
+    {
+      "name": "Brian Armstrong",
+      "role": "Co-founder (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/ ; https://www.newlimit.com/ (source needed if NewLimit lists founders on a specific page))",
+      "background": "Founder/CEO of Coinbase (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)"
+    },
+    {
+      "name": "Blake Byers",
+      "role": "Co-founder (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
+      "background": "Former partner at GV (Google Ventures) per reporting (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)"
+    },
+    {
+      "name": "Jacob Kimmel",
+      "role": "Co-founder (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
+      "background": "Aging/biotech researcher and entrepreneur; prior affiliations reported but exact prior roles need verification (source needed)"
+    }
+  ],
+  "investors_notable": [
+    "Seed financing of $40M reported (lead/participants source needed beyond TechCrunch unless confirmed in Crunchbase/press release) (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
+    "Founders and investors listed on Crunchbase (see organization profile; specific investor list may require login) (source: https://www.crunchbase.com/organization/newlimit)"
+  ],
+  "risks": [
+    "Biology/translation risk: partial epigenetic reprogramming may fail to produce durable functional rejuvenation in vivo or may vary strongly by cell type (source needed).",
+    "Safety risk: reprogramming approaches may increase tumorigenicity, dedifferentiation, or off-target cell-state changes (source needed).",
+    "Delivery/manufacturing risk: achieving precise, tissue-specific, titratable delivery of reprogramming payloads at clinical scale is non-trivial (source needed).",
+    "Biomarker risk: selecting aging/rejuvenation biomarkers that predict clinical outcomes remains an open challenge (source needed).",
+    "Competitive risk: multiple well-capitalized groups pursue cellular reprogramming/age-reset approaches (source needed)."
+  ],
+  "competitive_advantages": [
+    "High-level focus on epigenetic reprogramming as a potential upstream lever on cellular aging (source: https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/).",
+    "Substantial seed capital to build an iterative discovery platform (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/ ; https://www.crunchbase.com/organization/newlimit).",
+    "Founder/operator profile may help with recruiting and capital access (source needed)."
+  ],
+  "acquisition_estimate": {
+    "low_usd": 300000000,
+    "high_usd": 1200000000,
+    "methodology": "Range is an analyst estimate for a preclinical platform company: anchored to (i) early-stage cell programming/regenerative medicine acquisitions around ~$1B total consideration, then (ii) adjusted downward for preclinical/no disclosed clinical assets and upward for platform optionality and strategic value to pharma. Comparables used: Bayer acquisition of BlueRock Therapeutics (deal value up to $1B) and Vertex acquisition of Semma Therapeutics (~$950M). (sources: BlueRock: https://www.bayer.com/en/us/news-stories/bayer-to-acquire-bluerock-therapeutics ; Semma: https://investors.vrtx.com/news-releases/news-release-details/vertex-acquire-semma-therapeutics-transformational).",
+    "comparable_deals": [
+      "Bayer to acquire BlueRock Therapeutics (up to $1B total consideration) (source: https://www.bayer.com/en/us/news-stories/bayer-to-acquire-bluerock-therapeutics).",
+      "Vertex to acquire Semma Therapeutics (~$950M) (source: https://investors.vrtx.com/news-releases/news-release-details/vertex-acquire-semma-therapeutics-transformational)."
+    ]
+  },
+  "sources": [
+    "https://www.newlimit.com/",
+    "https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/",
+    "https://www.crunchbase.com/organization/newlimit",
+    "https://www.bayer.com/en/us/news-stories/bayer-to-acquire-bluerock-therapeutics",
+    "https://investors.vrtx.com/news-releases/news-release-details/vertex-acquire-semma-therapeutics-transformational"
+  ],
+  "needs_review": true
+}

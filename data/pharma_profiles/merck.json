@@ -1,0 +1,114 @@
+{
+  "company": "Merck & Co., Inc.",
+  "ticker": "MRK",
+  "hq": "Rahway, New Jersey, USA (principal executive offices listed as Rahway, NJ in Merck & Co., Inc. Form 10-K for FY2023: https://www.sec.gov/Archives/edgar/data/310158/000031015824000012/mrk-20231231.htm)",
+  "market_cap_approx": null,
+  "therapeutic_areas": [
+    "Oncology (Merck Form 10-K FY2023 discusses oncology as a core area and Keytruda as a key product: https://www.sec.gov/Archives/edgar/data/310158/000031015824000012/mrk-20231231.htm)",
+    "Vaccines (Merck Form 10-K FY2023 discusses vaccines including Gardasil and pneumococcal vaccines: https://www.sec.gov/Archives/edgar/data/310158/000031015824000012/mrk-20231231.htm)",
+    "Diabetes / cardiometabolic (Merck Form 10-K FY2023 discusses the diabetes franchise including JANUVIA/JANUMET: https://www.sec.gov/Archives/edgar/data/310158/000031015824000012/mrk-20231231.htm)",
+    "Infectious diseases / antivirals (Merck Form 10-K FY2023 discusses anti-infectives/antivirals within its portfolio: https://www.sec.gov/Archives/edgar/data/310158/000031015824000012/mrk-20231231.htm)",
+    "Immunology / inflammation (Merck acquisition of Prometheus Biosciences highlighted focus on immune-mediated diseases such as ulcerative colitis and Crohn’s disease: https://www.merck.com/news/merck-to-acquire-prometheus-biosciences-inc/"
+  ],
+  "aging_relevance": "moderate",
+  "aging_relevance_reasoning": "Merck’s commercial and R&D emphasis is primarily disease-focused (not framed as geroscience/longevity in its core public business description), centered on oncology (e.g., KEYTRUDA), vaccines, and cardiometabolic disease (e.g., JANUVIA/JANUMET) (Merck Form 10-K FY2023: https://www.sec.gov/Archives/edgar/data/310158/000031015824000012/mrk-20231231.htm). These areas substantially overlap age-associated disease burden (cancer, immunosenescence-related infection risk addressed via adult vaccines, and metabolic dysfunction in type 2 diabetes addressed via DPP-4 inhibition), creating indirect longevity relevance rather than direct aging-mechanism targeting (KEYTRUDA Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514; JANUVIA Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021995; PNEUMOVAX 23 FDA label: source needed; VAXNEUVANCE FDA label: source needed). The Prometheus acquisition also increases exposure to chronic inflammation biology via immune-mediated GI disease programs (Merck press release: https://www.merck.com/news/merck-to-acquire-prometheus-biosciences-inc/).",
+  "existing_longevity_assets": [
+    {
+      "compound": "pembrolizumab (KEYTRUDA; anti–PD-1)",
+      "intervention_link": null,
+      "status": "Approved (multiple oncology indications)",
+      "indication": "Multiple cancers (see FDA-approved labeling/indications on Drugs@FDA)",
+      "relevance": "Analyst view: immune modulation/immune surveillance intersects with age-associated immune dysfunction and cancer risk; most relevant to immune_rejuvenation / altered intercellular communication rather than direct geroscience targeting.",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514"
+    },
+    {
+      "compound": "sitagliptin (JANUVIA; DPP-4 inhibitor)",
+      "intervention_link": null,
+      "status": "Approved",
+      "indication": "Type 2 diabetes mellitus",
+      "relevance": "Analyst view: metabolic intervention relevant to age-associated metabolic dysfunction; overlaps the nutrient-sensing/metabolic aging axis (no direct claim of lifespan/healthspan indication).",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021995"
+    },
+    {
+      "compound": "pneumococcal vaccine polyvalent (PNEUMOVAX 23)",
+      "intervention_link": null,
+      "status": "Approved",
+      "indication": "Prevention of pneumococcal disease (adult vaccination commonly used in older adults; exact labeled age/indication wording requires label citation)",
+      "relevance": "Analyst view: supports prevention of infectious morbidity in older populations (immune aging context), but is not a geroscience mechanism-targeting therapy.",
+      "source": "source needed"
+    },
+    {
+      "compound": "pneumococcal 15-valent conjugate vaccine (VAXNEUVANCE; PCV15)",
+      "intervention_link": null,
+      "status": "Approved",
+      "indication": "Prevention of pneumococcal disease (exact labeled age/indication wording requires label citation)",
+      "relevance": "Analyst view: addresses infection risk relevant to aging populations via vaccination; not a direct aging biology intervention.",
+      "source": "source needed"
+    }
+  ],
+  "pipeline_hallmarks_overlap": [
+    "genomic_instability",
+    "deregulated_nutrient_sensing",
+    "altered_intercellular_communication",
+    "chronic_inflammation"
+  ],
+  "aging_signal_strength": 3,
+  "recent_acquisitions": [
+    {
+      "target": "Prometheus Biosciences, Inc.",
+      "year": 2023,
+      "value_usd": 10800000000,
+      "relevance": "Adds immune-mediated disease pipeline exposure (inflammation biology relevant to chronic_inflammation hallmark).",
+      "source": "https://www.merck.com/news/merck-to-acquire-prometheus-biosciences-inc/"
+    },
+    {
+      "target": "Acceleron Pharma Inc.",
+      "year": 2021,
+      "value_usd": 11500000000,
+      "relevance": "Primarily cardiovascular/pulmonary vascular disease (not positioned as longevity-focused in announcement).",
+      "source": "https://www.merck.com/news/merck-to-acquire-acceleron-pharma-inc/"
+    },
+    {
+      "target": "Imago BioSciences, Inc.",
+      "year": 2022,
+      "value_usd": 1350000000,
+      "relevance": "Oncology/hematology pipeline (age-associated cancer burden relevance; not framed as geroscience).",
+      "source": "https://www.merck.com/news/merck-to-acquire-imago-biosciences/"
+    },
+    {
+      "target": "VelosBio Inc.",
+      "year": 2020,
+      "value_usd": 2750000000,
+      "relevance": "Oncology (antibody-drug conjugate/targeted therapy platform); indirect aging relevance via cancer.",
+      "source": "https://www.merck.com/news/merck-to-acquire-velosbio/"
+    },
+    {
+      "target": "Harpoon Therapeutics, Inc.",
+      "year": 2024,
+      "value_usd": 680000000,
+      "relevance": "Oncology (T cell engager platform); indirect immune/oncology relevance rather than longevity-targeted R&D.",
+      "source": "https://www.merck.com/news/merck-to-acquire-harpoon-therapeutics/"
+    }
+  ],
+  "acquisition_pattern": {
+    "preferred_stage": "Analyst synthesis: predominantly clinical-stage (often mid-to-late stage) assets in oncology and immunology/inflammation, based on the cited acquisitions in this profile.",
+    "avg_deal_size_usd": null,
+    "focus_areas": [
+      "oncology",
+      "immunology/inflammation",
+      "cardiovascular/pulmonary vascular"
+    ],
+    "recent_trend": "Analyst synthesis: continued preference for platform or pipeline-expanding deals in oncology plus selective moves into immune-mediated inflammatory disease (e.g., Prometheus)."
+  },
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/310158/000031015824000012/mrk-20231231.htm",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021995",
+    "https://www.merck.com/news/merck-to-acquire-prometheus-biosciences-inc/",
+    "https://www.merck.com/news/merck-to-acquire-acceleron-pharma-inc/",
+    "https://www.merck.com/news/merck-to-acquire-imago-biosciences/",
+    "https://www.merck.com/news/merck-to-acquire-velosbio/",
+    "https://www.merck.com/news/merck-to-acquire-harpoon-therapeutics/"
+  ],
+  "needs_review": true
+}
