@@ -1,0 +1,28 @@
+{
+  "intervention": "rapamycin",
+  "created_at": "2026-02-28T12:08:38.403248+00:00",
+  "updated_at": null,
+  "schema_path": "/Users/maryamghareghani/Documents/conferences/AGE_nt/JSON_SCHEMA_REFERENCE.md",
+  "summary_path": "/Users/maryamghareghani/Documents/conferences/AGE_nt/data/summary/rapamycin.json",
+  "task_hints": {
+    "source_type_allowlist": [],
+    "source_type_blocklist": [],
+    "min_fetch_docs": null,
+    "auto_fetch_per_search": null,
+    "min_per_source": null
+  },
+  "source_types_allowed": [
+    "pubmed",
+    "clinicaltrials",
+    "europe_pmc",
+    "nih_grant",
+    "drugage",
+    "regulatory",
+    "patent"
+  ],
+  "selected_rows": [],
+  "fetched_documents": [],
+  "candidate_doc_ids": [],
+  "history": [],
+  "final_output": null
+}
