@@ -374,7 +374,7 @@ def _gemini_generate(prompt: str, model: str | None = None, max_retries: int = 3
     """Sync Gemini call for Judge and Reporter. Retries on 429 (quota) with backoff."""
     import time
 
-    model_name = model or settings.gemini_model or "gemini-2.0-flash"
+    model_name = model or settings.gemini_model or "gemini-3-flash-preview"
     last_error: Exception | None = None
 
     for attempt in range(max_retries + 1):

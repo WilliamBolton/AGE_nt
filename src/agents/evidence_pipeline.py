@@ -269,7 +269,7 @@ async def reporter_node(state: EvidencePipelineState) -> EvidencePipelineState:
     try:
         client = _gemini_client()
         result = client.models.generate_content(
-            model=settings.gemini_model or "gemini-2.0-flash",
+            model=settings.gemini_model or "gemini-3-flash-preview",
             contents=[prompt],
         )
         text_parts = []
