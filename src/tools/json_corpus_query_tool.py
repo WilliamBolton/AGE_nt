@@ -788,14 +788,35 @@ Return ONLY JSON:
 
                 queue = context.get("candidate_doc_ids", [])
                 fetched_ids = {d.get("id") for d in fetched}
+                current_row_ids: list[str] = []
                 for r in rows:
                     rid = r.get("id")
                     if rid and rid not in fetched_ids and rid not in queue:
                         queue.append(rid)
+                    if isinstance(rid, str) and rid not in fetched_ids:
+                        current_row_ids.append(rid)
 
                 auto_ids: list[str] = []
-                for _ in range(min(auto_fetch_per_search, len(queue))):
-                    rid = queue.pop(0)
+                # Prioritize documents from the current search result so each source contributes.
+                # This avoids starving later sources when an early-source queue is large.
+                auto_target = min(auto_fetch_per_search, len(queue))
+                seen_current: set[str] = set()
+                preferred: list[str] = []
+                for rid in current_row_ids:
+                    if rid not in seen_current:
+                        preferred.append(rid)
+                        seen_current.add(rid)
+                for _ in range(auto_target):
+                    rid: Optional[str] = None
+                    while preferred and rid is None:
+                        cand = preferred.pop(0)
+                        if cand in queue:
+                            queue.remove(cand)
+                            rid = cand
+                    if rid is None:
+                        if not queue:
+                            break
+                        rid = queue.pop(0)
                     doc = get_document(self.corpus, intervention=self.intervention, doc_id=rid)
                     if not doc:
                         continue
@@ -839,4 +860,3 @@ Return ONLY JSON:
     # Backward compatibility
     def run(self, *, task_text: str, context_path: Optional[str] = None) -> dict[str, Any]:
         return self.collect(task_text=task_text, context_path=context_path)
-

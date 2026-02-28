@@ -1,0 +1,2981 @@
+{
+  "intervention": "hyperbaric oxygen therapy",
+  "created_at": "2026-02-28T11:39:04.030445+00:00",
+  "updated_at": "2026-02-28T11:44:33.300566+00:00",
+  "schema_path": "JSON_SCHEMA_REFERENCE.md",
+  "summary_path": "data/summary/hyperbaric oxygen therapy.json",
+  "task_hints": {
+    "source_type_allowlist": [
+      "social",
+      "news",
+      "pubmed",
+      "europe_pmc",
+      "clinicaltrials",
+      "regulatory"
+    ],
+    "source_type_blocklist": [],
+    "min_fetch_docs": 40,
+    "auto_fetch_per_search": 4,
+    "min_per_source": 4
+  },
+  "source_types_allowed": [
+    "pubmed",
+    "clinicaltrials",
+    "europe_pmc",
+    "social",
+    "news"
+  ],
+  "selected_rows": [
+    {
+      "step": 0,
+      "args": {
+        "source_type": "pubmed",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "9bbeead9-70a3-45ec-aa22-095babf9a554"
+        },
+        {
+          "id": "f4528375-e92e-4da9-90d9-1df406902a7e"
+        },
+        {
+          "id": "fea52eae-19f4-46cd-8e24-77f8ff216c2f"
+        },
+        {
+          "id": "e6a48705-d8a4-4026-afc9-b389ae0cc3db"
+        },
+        {
+          "id": "dc05965b-03d1-4f17-af91-67b05c6de05a"
+        },
+        {
+          "id": "dac20560-1689-4dda-9fe8-245e6708e4ea"
+        },
+        {
+          "id": "c4667423-3d23-4649-8265-16a1da1d9bbc"
+        },
+        {
+          "id": "4611c9c2-de95-4adc-b50e-c704e0b927c2"
+        },
+        {
+          "id": "393b2650-8d58-4f4b-8955-1c62cb0f3978"
+        },
+        {
+          "id": "c2ccc934-36f4-4f2c-ba86-2cf34b94fe41"
+        },
+        {
+          "id": "27eaf1ec-ca69-477d-b9fe-d4bfdf8de671"
+        },
+        {
+          "id": "281655b6-e2cf-4d08-9869-2ca93e760643"
+        },
+        {
+          "id": "aa482903-88d6-4618-8647-2f382e77a8cb"
+        },
+        {
+          "id": "72def60a-a648-4270-9d91-cf36292f7128"
+        },
+        {
+          "id": "897a73f9-d2a2-4328-8998-2f0f78a1cf07"
+        },
+        {
+          "id": "421b385a-9125-4f07-a053-ee2a4124cb39"
+        },
+        {
+          "id": "dd7220b7-3bc2-4b60-bf62-4b61fad134b5"
+        },
+        {
+          "id": "6058da84-0833-45f4-a9d5-ca8a4997c38c"
+        },
+        {
+          "id": "ece8a3e5-5014-42f6-bc31-e7f66267943a"
+        },
+        {
+          "id": "0f5bf6f8-7b6f-4e98-ae85-2c6bb916562f"
+        },
+        {
+          "id": "6f20c3e9-995c-4e85-a443-7477723324f6"
+        },
+        {
+          "id": "a26dadd3-e421-4562-8516-1d287b24ad10"
+        },
+        {
+          "id": "c745c10c-f3b1-4b6b-9ca6-268f9254c8df"
+        },
+        {
+          "id": "57915fe6-398d-4184-8183-4f63352d9494"
+        },
+        {
+          "id": "c1519283-8353-44a7-baf5-6bea0c5ce5fa"
+        }
+      ]
+    },
+    {
+      "step": 1,
+      "args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "925f76fa-f0cf-4f31-9886-648162c93543"
+        },
+        {
+          "id": "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2"
+        },
+        {
+          "id": "437c1fb7-d7c7-4ef3-be69-87d3dda21e18"
+        },
+        {
+          "id": "ae74f2d2-6d58-482a-a84f-52574dee79ba"
+        },
+        {
+          "id": "c5ac3f84-2d5f-4eae-84be-0b58b78fb44d"
+        },
+        {
+          "id": "906a4d58-1341-412c-b064-7d13f73ea4ca"
+        },
+        {
+          "id": "024ae515-8d11-4736-b142-7a9d174f512c"
+        },
+        {
+          "id": "233a551b-989a-4028-8461-68e5bee4b20b"
+        },
+        {
+          "id": "0b4bb961-fea7-4691-b593-dab562b46c8c"
+        },
+        {
+          "id": "3b94b4d7-b0dd-4268-9a3e-d0d91d40f9a5"
+        },
+        {
+          "id": "e68568b6-30dc-4735-87e2-1b276353b62a"
+        },
+        {
+          "id": "1da7087e-0a02-49d5-a888-75b5ae8510d6"
+        },
+        {
+          "id": "a1ff96e9-05f5-4888-a3db-318a6e3625be"
+        },
+        {
+          "id": "ee8527bd-9e33-4682-9445-d8be2f700c87"
+        },
+        {
+          "id": "7cbb8268-ec74-4a4a-a5d9-d1cb20c2ddc2"
+        },
+        {
+          "id": "eb202290-8333-4fca-ae3c-9cd69a936272"
+        },
+        {
+          "id": "0768b4aa-8134-4536-a674-1cb7e9885de4"
+        },
+        {
+          "id": "22c7951f-245f-47d6-aa46-c08babd6583c"
+        },
+        {
+          "id": "cd5e69b4-c34d-49a4-bacf-4516238e9a28"
+        },
+        {
+          "id": "031ffde1-ef85-46a3-bdde-a59721d4e137"
+        },
+        {
+          "id": "86b60921-33e1-452b-aa0c-5a305d99a5e0"
+        },
+        {
+          "id": "eff50b3f-9e4a-4dbe-acbf-2340ddbf019f"
+        },
+        {
+          "id": "d00c018a-6fb5-40d8-aa83-91f3fa6949e5"
+        },
+        {
+          "id": "72796794-e8f8-468b-a207-53e03436901c"
+        },
+        {
+          "id": "77c22979-ba51-4c35-9793-0347df13e8aa"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "dde98e5a-f38e-41e1-85c0-92b9a0003d7b"
+        },
+        {
+          "id": "ba4e2a56-0f89-4c83-81f9-8294bc643ace"
+        },
+        {
+          "id": "16e72629-3973-47dd-9d86-3cbd8e449313"
+        },
+        {
+          "id": "0769bd39-ebbc-4a68-8d61-e875c765ac5c"
+        },
+        {
+          "id": "94669631-5517-41ca-8531-8cc94427a3d8"
+        },
+        {
+          "id": "8db592cd-90c1-4fa0-b5a8-9ed270814552"
+        },
+        {
+          "id": "a7a310f1-be71-4dab-89a7-f3b81dca91e0"
+        },
+        {
+          "id": "c05f83d3-1a76-4d8d-86ee-9e632f1c1f52"
+        },
+        {
+          "id": "9850cd67-8f5d-4dd7-8bf1-918c74f7a582"
+        },
+        {
+          "id": "5b97a780-fa81-4a8f-93af-5bcc94330764"
+        },
+        {
+          "id": "04e776ed-a790-455d-bc71-f327ad1478a5"
+        },
+        {
+          "id": "4f3577d6-580f-4880-af8b-91779f01b879"
+        },
+        {
+          "id": "33e40767-1723-4570-ace3-b689ae0e35a5"
+        },
+        {
+          "id": "a4515615-e3f2-455d-b1a5-c5a39b36479c"
+        },
+        {
+          "id": "ffe9f579-3205-4eb2-8eb1-13928e42938f"
+        },
+        {
+          "id": "85c8bdb7-9d81-4b8f-8bea-a7c43a56545b"
+        },
+        {
+          "id": "7c26d5d9-4f5f-45ca-bd67-a2a78e663d4e"
+        },
+        {
+          "id": "cb048016-51e6-4719-82e9-18790e686d4f"
+        },
+        {
+          "id": "2a0b84fd-979a-4004-91da-ef704c58d5d6"
+        },
+        {
+          "id": "b23e03a4-582c-43c2-8e83-c1a9e6333d83"
+        },
+        {
+          "id": "51a57440-1a39-4bae-ad5b-0880b6fd1c43"
+        },
+        {
+          "id": "48d991ff-b4c8-4745-be2f-cc725412f9ac"
+        },
+        {
+          "id": "999492df-8001-4e8c-891a-43f6d39bdf53"
+        },
+        {
+          "id": "6ec018f3-720e-41f1-995f-30b3a7704938"
+        },
+        {
+          "id": "082b8bb6-85f0-4e1f-9088-57c3a28ded36"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "args": {
+        "source_type": "social",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "703da545-2005-4427-9a8e-b0a4034f5ec6"
+        },
+        {
+          "id": "e73252ca-1d71-4ce2-8935-bd2880ae71c4"
+        },
+        {
+          "id": "84fa76b7-ce0c-4d5f-8bb2-19ec39b32069"
+        },
+        {
+          "id": "8e695d5e-924f-4df9-9495-352cbbd06432"
+        },
+        {
+          "id": "06c008db-e65b-4640-a2b2-281f9c60166f"
+        },
+        {
+          "id": "3d06c3c2-b76d-4800-9a74-29b50fbcbd3a"
+        },
+        {
+          "id": "8dad40ad-e3c9-4c87-838c-f553ab9b827d"
+        },
+        {
+          "id": "132f881a-a8ea-414c-b58c-8a2bdee275e2"
+        },
+        {
+          "id": "cce9942d-99b2-48ae-95c0-9bd6dcd46939"
+        },
+        {
+          "id": "ed4bc216-a7a5-4804-9536-d025e4a41148"
+        },
+        {
+          "id": "0c82e939-f1b7-40de-857c-e621cca14378"
+        },
+        {
+          "id": "9eecebb6-4df1-436f-8a5b-0d263969fc20"
+        },
+        {
+          "id": "19a3ae8b-fbad-4d20-bb7d-ef4a2ba72d38"
+        },
+        {
+          "id": "4f912d41-3475-412f-b213-c80fae72ced9"
+        },
+        {
+          "id": "741e2ce3-46df-4fbe-9a7c-d5aa2afb82eb"
+        },
+        {
+          "id": "f1714b8f-db57-43e8-88d0-b76c699e55e8"
+        },
+        {
+          "id": "d5a063af-82c1-4710-a989-9e6dfb043863"
+        },
+        {
+          "id": "24562d19-7445-4366-a1af-e0dbb97cf534"
+        },
+        {
+          "id": "3151fdc3-c9a8-4b59-97b3-3e59559b72e8"
+        },
+        {
+          "id": "e5d24725-5ed5-4c04-b8e9-1d19eb22b492"
+        },
+        {
+          "id": "fc0bad05-7047-49b4-b1c4-3167fae29546"
+        },
+        {
+          "id": "1bbc39ac-2b7d-4b4b-99bc-fc93d51c5c76"
+        },
+        {
+          "id": "7a83a3d5-a892-4a19-b600-492e8ca5c6b8"
+        },
+        {
+          "id": "4b7db616-6dd4-47fb-acc8-7974d27bb526"
+        },
+        {
+          "id": "adb94ee9-cd6f-4037-8443-d79b9e497982"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "args": {
+        "source_type": "news",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "e95123a0-0717-456f-b9af-f30e9a5cf615"
+        },
+        {
+          "id": "7f201097-8c2b-4259-a649-6ad3c1ddfc2b"
+        },
+        {
+          "id": "d33315dd-84ed-4b5e-8491-52114bc1fcf7"
+        },
+        {
+          "id": "4a18b574-b221-4686-ba3e-65e15838ed86"
+        },
+        {
+          "id": "e1826ff7-0497-4029-85d7-fdd531603c95"
+        },
+        {
+          "id": "746d0dfd-8af7-4c7d-af39-5365f5391000"
+        },
+        {
+          "id": "7d3cbe09-dba0-4c53-ae64-fe81c07a244d"
+        },
+        {
+          "id": "8275e01b-cfc2-407a-a29b-a0611404fe78"
+        },
+        {
+          "id": "bc94a45d-da6c-4875-a75c-2e6db9ded28f"
+        },
+        {
+          "id": "53215e0d-74d8-49ae-b91a-226e41ec3b36"
+        },
+        {
+          "id": "112e6f77-cbcf-4bb5-ba25-9b8ad5ac7569"
+        },
+        {
+          "id": "caa5ef06-ece2-4119-a0f1-50c3b01af3f3"
+        },
+        {
+          "id": "5925e914-50b6-4616-a285-b510e02a6478"
+        },
+        {
+          "id": "a720edd1-197b-46f3-a0fb-5e5fabd103ba"
+        },
+        {
+          "id": "830cbca9-dc97-4371-8e10-1aa6528da847"
+        },
+        {
+          "id": "668baadb-3b8e-4bae-8c6b-649b3d855365"
+        },
+        {
+          "id": "d11d315e-9f3e-417a-af5e-779a4144b315"
+        },
+        {
+          "id": "8a6c9641-69d5-4866-bc72-6a2206f65aad"
+        },
+        {
+          "id": "d241c692-4610-4eed-885d-13b9f9661333"
+        },
+        {
+          "id": "fa2fde96-e0d6-4f48-8690-1c7ac92c07bd"
+        },
+        {
+          "id": "9b0d10ab-7404-4eab-b3a1-dc5f87325b4c"
+        },
+        {
+          "id": "dd3ed5a1-384c-46bd-8a3c-dfb4d52d2d7d"
+        },
+        {
+          "id": "e468504b-21b0-4926-9a03-a0f8576bf19e"
+        },
+        {
+          "id": "99ba839d-0917-4218-b19d-a371b870d791"
+        },
+        {
+          "id": "22c2864a-6ad0-461d-8eb8-27bb826d403a"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "args": {
+        "source_type": "pubmed",
+        "status": "published",
+        "fields": [
+          "id",
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "rows": []
+    },
+    {
+      "step": 6,
+      "args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "925f76fa-f0cf-4f31-9886-648162c93543"
+        },
+        {
+          "id": "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2"
+        },
+        {
+          "id": "437c1fb7-d7c7-4ef3-be69-87d3dda21e18"
+        },
+        {
+          "id": "ae74f2d2-6d58-482a-a84f-52574dee79ba"
+        },
+        {
+          "id": "c5ac3f84-2d5f-4eae-84be-0b58b78fb44d"
+        },
+        {
+          "id": "906a4d58-1341-412c-b064-7d13f73ea4ca"
+        },
+        {
+          "id": "024ae515-8d11-4736-b142-7a9d174f512c"
+        },
+        {
+          "id": "233a551b-989a-4028-8461-68e5bee4b20b"
+        },
+        {
+          "id": "0b4bb961-fea7-4691-b593-dab562b46c8c"
+        },
+        {
+          "id": "3b94b4d7-b0dd-4268-9a3e-d0d91d40f9a5"
+        },
+        {
+          "id": "e68568b6-30dc-4735-87e2-1b276353b62a"
+        },
+        {
+          "id": "1da7087e-0a02-49d5-a888-75b5ae8510d6"
+        },
+        {
+          "id": "a1ff96e9-05f5-4888-a3db-318a6e3625be"
+        },
+        {
+          "id": "ee8527bd-9e33-4682-9445-d8be2f700c87"
+        },
+        {
+          "id": "7cbb8268-ec74-4a4a-a5d9-d1cb20c2ddc2"
+        },
+        {
+          "id": "eb202290-8333-4fca-ae3c-9cd69a936272"
+        },
+        {
+          "id": "0768b4aa-8134-4536-a674-1cb7e9885de4"
+        },
+        {
+          "id": "22c7951f-245f-47d6-aa46-c08babd6583c"
+        },
+        {
+          "id": "cd5e69b4-c34d-49a4-bacf-4516238e9a28"
+        },
+        {
+          "id": "031ffde1-ef85-46a3-bdde-a59721d4e137"
+        },
+        {
+          "id": "86b60921-33e1-452b-aa0c-5a305d99a5e0"
+        },
+        {
+          "id": "eff50b3f-9e4a-4dbe-acbf-2340ddbf019f"
+        },
+        {
+          "id": "d00c018a-6fb5-40d8-aa83-91f3fa6949e5"
+        },
+        {
+          "id": "72796794-e8f8-468b-a207-53e03436901c"
+        },
+        {
+          "id": "77c22979-ba51-4c35-9793-0347df13e8aa"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "args": {
+        "source_type": "pubmed",
+        "status": "published",
+        "fields": [
+          "id",
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "rows": []
+    },
+    {
+      "step": 8,
+      "args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "dde98e5a-f38e-41e1-85c0-92b9a0003d7b"
+        },
+        {
+          "id": "ba4e2a56-0f89-4c83-81f9-8294bc643ace"
+        },
+        {
+          "id": "16e72629-3973-47dd-9d86-3cbd8e449313"
+        },
+        {
+          "id": "0769bd39-ebbc-4a68-8d61-e875c765ac5c"
+        },
+        {
+          "id": "94669631-5517-41ca-8531-8cc94427a3d8"
+        },
+        {
+          "id": "8db592cd-90c1-4fa0-b5a8-9ed270814552"
+        },
+        {
+          "id": "a7a310f1-be71-4dab-89a7-f3b81dca91e0"
+        },
+        {
+          "id": "c05f83d3-1a76-4d8d-86ee-9e632f1c1f52"
+        },
+        {
+          "id": "9850cd67-8f5d-4dd7-8bf1-918c74f7a582"
+        },
+        {
+          "id": "5b97a780-fa81-4a8f-93af-5bcc94330764"
+        },
+        {
+          "id": "04e776ed-a790-455d-bc71-f327ad1478a5"
+        },
+        {
+          "id": "4f3577d6-580f-4880-af8b-91779f01b879"
+        },
+        {
+          "id": "33e40767-1723-4570-ace3-b689ae0e35a5"
+        },
+        {
+          "id": "a4515615-e3f2-455d-b1a5-c5a39b36479c"
+        },
+        {
+          "id": "ffe9f579-3205-4eb2-8eb1-13928e42938f"
+        },
+        {
+          "id": "85c8bdb7-9d81-4b8f-8bea-a7c43a56545b"
+        },
+        {
+          "id": "7c26d5d9-4f5f-45ca-bd67-a2a78e663d4e"
+        },
+        {
+          "id": "cb048016-51e6-4719-82e9-18790e686d4f"
+        },
+        {
+          "id": "2a0b84fd-979a-4004-91da-ef704c58d5d6"
+        },
+        {
+          "id": "b23e03a4-582c-43c2-8e83-c1a9e6333d83"
+        },
+        {
+          "id": "51a57440-1a39-4bae-ad5b-0880b6fd1c43"
+        },
+        {
+          "id": "48d991ff-b4c8-4745-be2f-cc725412f9ac"
+        },
+        {
+          "id": "999492df-8001-4e8c-891a-43f6d39bdf53"
+        },
+        {
+          "id": "6ec018f3-720e-41f1-995f-30b3a7704938"
+        },
+        {
+          "id": "082b8bb6-85f0-4e1f-9088-57c3a28ded36"
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "args": {
+        "source_type": "pubmed",
+        "status": "published",
+        "fields": [
+          "id",
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "rows": []
+    },
+    {
+      "step": 10,
+      "args": {
+        "source_type": "social",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "703da545-2005-4427-9a8e-b0a4034f5ec6"
+        },
+        {
+          "id": "e73252ca-1d71-4ce2-8935-bd2880ae71c4"
+        },
+        {
+          "id": "84fa76b7-ce0c-4d5f-8bb2-19ec39b32069"
+        },
+        {
+          "id": "8e695d5e-924f-4df9-9495-352cbbd06432"
+        },
+        {
+          "id": "06c008db-e65b-4640-a2b2-281f9c60166f"
+        },
+        {
+          "id": "3d06c3c2-b76d-4800-9a74-29b50fbcbd3a"
+        },
+        {
+          "id": "8dad40ad-e3c9-4c87-838c-f553ab9b827d"
+        },
+        {
+          "id": "132f881a-a8ea-414c-b58c-8a2bdee275e2"
+        },
+        {
+          "id": "cce9942d-99b2-48ae-95c0-9bd6dcd46939"
+        },
+        {
+          "id": "ed4bc216-a7a5-4804-9536-d025e4a41148"
+        },
+        {
+          "id": "0c82e939-f1b7-40de-857c-e621cca14378"
+        },
+        {
+          "id": "9eecebb6-4df1-436f-8a5b-0d263969fc20"
+        },
+        {
+          "id": "19a3ae8b-fbad-4d20-bb7d-ef4a2ba72d38"
+        },
+        {
+          "id": "4f912d41-3475-412f-b213-c80fae72ced9"
+        },
+        {
+          "id": "741e2ce3-46df-4fbe-9a7c-d5aa2afb82eb"
+        },
+        {
+          "id": "f1714b8f-db57-43e8-88d0-b76c699e55e8"
+        },
+        {
+          "id": "d5a063af-82c1-4710-a989-9e6dfb043863"
+        },
+        {
+          "id": "24562d19-7445-4366-a1af-e0dbb97cf534"
+        },
+        {
+          "id": "3151fdc3-c9a8-4b59-97b3-3e59559b72e8"
+        },
+        {
+          "id": "e5d24725-5ed5-4c04-b8e9-1d19eb22b492"
+        },
+        {
+          "id": "fc0bad05-7047-49b4-b1c4-3167fae29546"
+        },
+        {
+          "id": "1bbc39ac-2b7d-4b4b-99bc-fc93d51c5c76"
+        },
+        {
+          "id": "7a83a3d5-a892-4a19-b600-492e8ca5c6b8"
+        },
+        {
+          "id": "4b7db616-6dd4-47fb-acc8-7974d27bb526"
+        },
+        {
+          "id": "adb94ee9-cd6f-4037-8443-d79b9e497982"
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "args": {
+        "source_type": "news",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "rows": [
+        {
+          "id": "e95123a0-0717-456f-b9af-f30e9a5cf615"
+        },
+        {
+          "id": "7f201097-8c2b-4259-a649-6ad3c1ddfc2b"
+        },
+        {
+          "id": "d33315dd-84ed-4b5e-8491-52114bc1fcf7"
+        },
+        {
+          "id": "4a18b574-b221-4686-ba3e-65e15838ed86"
+        },
+        {
+          "id": "e1826ff7-0497-4029-85d7-fdd531603c95"
+        },
+        {
+          "id": "746d0dfd-8af7-4c7d-af39-5365f5391000"
+        },
+        {
+          "id": "7d3cbe09-dba0-4c53-ae64-fe81c07a244d"
+        },
+        {
+          "id": "8275e01b-cfc2-407a-a29b-a0611404fe78"
+        },
+        {
+          "id": "bc94a45d-da6c-4875-a75c-2e6db9ded28f"
+        },
+        {
+          "id": "53215e0d-74d8-49ae-b91a-226e41ec3b36"
+        },
+        {
+          "id": "112e6f77-cbcf-4bb5-ba25-9b8ad5ac7569"
+        },
+        {
+          "id": "caa5ef06-ece2-4119-a0f1-50c3b01af3f3"
+        },
+        {
+          "id": "5925e914-50b6-4616-a285-b510e02a6478"
+        },
+        {
+          "id": "a720edd1-197b-46f3-a0fb-5e5fabd103ba"
+        },
+        {
+          "id": "830cbca9-dc97-4371-8e10-1aa6528da847"
+        },
+        {
+          "id": "668baadb-3b8e-4bae-8c6b-649b3d855365"
+        },
+        {
+          "id": "d11d315e-9f3e-417a-af5e-779a4144b315"
+        },
+        {
+          "id": "8a6c9641-69d5-4866-bc72-6a2206f65aad"
+        },
+        {
+          "id": "d241c692-4610-4eed-885d-13b9f9661333"
+        },
+        {
+          "id": "fa2fde96-e0d6-4f48-8690-1c7ac92c07bd"
+        },
+        {
+          "id": "9b0d10ab-7404-4eab-b3a1-dc5f87325b4c"
+        },
+        {
+          "id": "dd3ed5a1-384c-46bd-8a3c-dfb4d52d2d7d"
+        },
+        {
+          "id": "e468504b-21b0-4926-9a03-a0f8576bf19e"
+        },
+        {
+          "id": "99ba839d-0917-4218-b19d-a371b870d791"
+        },
+        {
+          "id": "22c2864a-6ad0-461d-8eb8-27bb826d403a"
+        }
+      ]
+    }
+  ],
+  "fetched_documents": [
+    {
+      "id": "9bbeead9-70a3-45ec-aa22-095babf9a554",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric oxygen therapy increases telomere length and decreases immunosenescence in isolated blood cells: a prospective trial.",
+      "abstract": "INTRODUCTION: Aging is characterized by the progressive loss of physiological capacity. At the cellular level, two key hallmarks of the aging process include telomere length (TL) shortening and cellular senescence. Repeated intermittent hyperoxic exposures, using certain hyperbaric oxygen therapy (HBOT) protocols, can induce regenerative effects which normally occur during hypoxia. The aim of the current study was to evaluate whether HBOT affects TL and senescent cell concentrations in a normal, non-pathological, aging adult population.\nMETHODS: Thirty-five healthy independently living adults, aged 64 and older, were enrolled to receive 60 daily HBOT exposures. Whole blood samples were collected at baseline, at the 30\nRESULTS: Telomeres length of T helper, T cytotoxic, natural killer and B cells increased significantly by over 20% following HBOT. The most significant change was noticed in B cells which increased at the 30",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33206062/",
+      "date_published": "2020-11-18",
+      "date_indexed": "2026-02-28",
+      "pmid": "33206062",
+      "doi": "10.18632/aging.202188",
+      "authors": [
+        "Hachmo Yafit",
+        "Hadanny Amir",
+        "Abu Hamed Ramzia",
+        "Daniel-Kotovsky Malka",
+        "Catalogna Merav",
+        "Fishlev Gregory",
+        "Lang Erez",
+        "Polak Nir",
+        "Doenyas Keren",
+        "Friedman Mony",
+        "Zemel Yonatan",
+        "Bechor Yair",
+        "Efrati Shai"
+      ],
+      "journal": "Aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Aging",
+        "Female",
+        "Healthy Volunteers",
+        "Humans",
+        "Hyperbaric Oxygenation",
+        "Hypoxia-Inducible Factor 1, alpha Subunit",
+        "Immunosenescence",
+        "Israel",
+        "Lymphocyte Subsets",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Telomere Homeostasis",
+        "Telomere Shortening",
+        "Time Factors",
+        "Treatment Outcome"
+      ],
+      "publication_types": [
+        "Clinical Trial",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "f4528375-e92e-4da9-90d9-1df406902a7e",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Taurine linked with healthy aging.",
+      "abstract": "Reversing age-associated taurine loss improves mouse longevity and monkey health.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37289872/",
+      "date_published": "2023-06-09",
+      "date_indexed": "2026-02-28",
+      "pmid": "37289872",
+      "doi": "10.1126/science.adi3025",
+      "authors": [
+        "McGaunn Joseph",
+        "Baur Joseph A"
+      ],
+      "journal": "Science (New York, N.Y.)",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Mice",
+        "Healthy Aging",
+        "Longevity",
+        "Taurine",
+        "Haplorhini"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "fea52eae-19f4-46cd-8e24-77f8ff216c2f",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Longevity steps on the cGAS.",
+      "abstract": "A DNA repair function in a cytosolic sensor demonstrates a potential role in naked mole-rat longevity.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41066590/",
+      "date_published": "2025-10-09",
+      "date_indexed": "2026-02-28",
+      "pmid": "41066590",
+      "doi": "10.1126/science.aeb6125",
+      "authors": [
+        "Martinez John C",
+        "Seluanov Andrei",
+        "Gorbunova Vera"
+      ],
+      "journal": "Science (New York, N.Y.)",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Longevity",
+        "Animals",
+        "DNA Repair",
+        "Nucleotidyltransferases",
+        "Mole Rats",
+        "Cytosol"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Comment"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "e6a48705-d8a4-4026-afc9-b389ae0cc3db",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Sleep and longevity tied to glia.",
+      "abstract": "Glia mediate two-way signaling between the brain and gut that supports sleep and healthy aging.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37906630/",
+      "date_published": "2023-10-31",
+      "date_indexed": "2026-02-28",
+      "pmid": "37906630",
+      "doi": "10.1126/scisignal.adl5530",
+      "authors": [
+        "Ferrarelli Leslie K"
+      ],
+      "journal": "Science signaling",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Longevity",
+        "Neuroglia",
+        "Sleep",
+        "Brain",
+        "Signal Transduction"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "925f76fa-f0cf-4f31-9886-648162c93543",
+      "source_type": "clinicaltrials",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Effects of Adding Force Control to a VR Game on Brain Activation",
+      "abstract": "One of the major contributor for the lower quality of living in the aged population, is the reduction in hand function. To mitigate this, several virtual-reality based hand rehabilitation/training systems have been developed.\n\nHowever, most of these systems are solely controlled by hand gestures, and do not incorporate the force between the fingertips. Which is not the case for grabbing things in real life. With that in mind, the researchers assumed that a virtual-reality based hand rehabilitation/training system that incorporates force control into its input can be more beneficial in terms of recovering one's hand function.\n\nTo test out this claim, subjects were recruited and tasked to play a game using both input systems (wfc and wofc), while their brain activity while using both input system was simultaneously recorded using functional near infrared spectroscopy and compared",
+      "source_url": "https://clinicaltrials.gov/study/NCT06412887",
+      "date_published": "2024-04-25",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT06412887",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 24,
+      "sponsor": "National Cheng-Kung University Hospital",
+      "conditions": [
+        "Healthy Aging"
+      ],
+      "primary_outcomes": [
+        "Oxygenated hemoglobin (HbO)",
+        "Game performance1 (Amount of grasp initiated)",
+        "Game performance2 (Memory task accuracy)"
+      ],
+      "results_summary": null,
+      "date_registered": "2024-04-25",
+      "date_started": "2023-07-10",
+      "date_completed": "2023-08-11",
+      "date_results_posted": null
+    },
+    {
+      "id": "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2",
+      "source_type": "clinicaltrials",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "A Double-blind Randomized Trial of Hyperbaric Oxygen Versus Sham for Persistent Symptoms After Brain Injury",
+      "abstract": "The purpose of this study is to examine whether 40 hyperbaric oxygen sessions has effect on long-term symptoms after brain injury. This study will enroll 90 individuals with persistent problems 6 months to 10 years after a brain injury. These individuals will be randomized to receive either oxygen or air in a pressurized hyperbaric chamber. Participants will receive 40 daily hyperbaric chamber sessions.\n\nParticipants will have a series of tests and questionnaires before they begin their chamber sessions, after they complete 40 sessions, and 6 months after they joined the study. These tests include computer-based and pencil-and-paper questionnaires and thinking tests, brain imaging, a neurological examination, and an eye exam. Participants will also be asked to provide blood for future research.\n\nAfter the 6-month tests are complete, all participants will receive 40 hyperbaric oxygen sessions, then undergo the same tests at 9 months and 12 months.",
+      "source_url": "https://clinicaltrials.gov/study/NCT01986205",
+      "date_published": "2013-10-31",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT01986205",
+      "phase": "PHASE2",
+      "status": "COMPLETED",
+      "enrollment": 49,
+      "sponsor": "Lindell Weaver",
+      "conditions": [
+        "Brain Injury, Chronic"
+      ],
+      "primary_outcomes": [
+        "Neurobehavioral Symptom Inventory"
+      ],
+      "results_summary": null,
+      "date_registered": "2013-10-31",
+      "date_started": "2017-09-06",
+      "date_completed": "2022-05-31",
+      "date_results_posted": null
+    },
+    {
+      "id": "437c1fb7-d7c7-4ef3-be69-87d3dda21e18",
+      "source_type": "clinicaltrials",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Walking and Thinking - Brain Activity During Complex Walking in Aging and Parkinson's Disease (Part of the ParkMOVE Trial)",
+      "abstract": "Every-day life means being part of a complex environment and performing complex tasks that usually involve a combination of motor and cognitive skills. However, the process of aging or the sequelae of neurological diseases such as Parkinson's disease (PD) compromises motor-cognitive interaction necessary for an independent lifestyle. While motor-cognitive performance has been identified as an important goal for sustained health across different clinical populations, little is known about underlying brain function leading to these difficulties and how to best target these motor-cognitive difficulties in the context of rehabilitation and exercise interventions.\n\nThe challenge of improving treatments of motor-cognitive difficulties (such as dual-tasking and navigation) is daunting, and an important step is arriving at a method that accurately portrays these impairments in an ecological valid state. The investigators aim therefore to explore brain function during complex walking in healthy and PD by investigating the effects of age and neurological disease on motor-cognitive performance and its neural correlates during three conditions of complex walking (dual-task walking, navigation and a combination of both) using non-invasive measures of brain activity (functional near infrared spectrometry, fNIRS) and advanced gait analysis in real time in young, older healthy adults and people with PD.",
+      "source_url": "https://clinicaltrials.gov/study/NCT05218213",
+      "date_published": "2021-12-21",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT05218213",
+      "phase": null,
+      "status": "COMPLETED",
+      "enrollment": 133,
+      "sponsor": "Karolinska Institutet",
+      "conditions": [
+        "Parkinson Disease",
+        "Gait Disorders, Neurologic",
+        "Aging"
+      ],
+      "primary_outcomes": [
+        "Functional near infrared spectrometry (fNIRS)",
+        "Gait performance during all conditions",
+        "Dual-task performance-reaction time"
+      ],
+      "results_summary": null,
+      "date_registered": "2021-12-21",
+      "date_started": "2022-01-21",
+      "date_completed": "2023-06-28",
+      "date_results_posted": null
+    },
+    {
+      "id": "ae74f2d2-6d58-482a-a84f-52574dee79ba",
+      "source_type": "clinicaltrials",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Integration of Force Control Training and Mirror Visual Feedback on Stroke Patients on Brain Activation and Hand Function",
+      "abstract": "Global elderly population continues to grow. Among the diseases caused by aging, stroke accounts for the highest incidence, and the number of stroke patient is increasing year-by-year. Stroke is a common central nervous system disorder, including infarcts and hemorrhagic strokes. It develops rapidly and causes a wide range of neurological deficits. Clinical manifestations vary depending on the location of the brain damage. Common features include hemiplegia and paresthesia, which may be accompanied by incoordination and speech impairments. This leads to decreased independence in daily life, negatively impacting the quality of life and causing stress for patients and their families.\n\nHand movements are crucial for 70% of daily activities, yet only approximately 15% of patients can regain normal hand movements. Therefore, hand movement restoration is a key focus of rehabilitation. Previous studies have found that finger pressure training using a hand force control system (Tipr) can improve hand and cognitive function in older adults. However, no studies have examined the effectiveness of this hand force control system in the hemiplegic hand of stroke patients. Mirror therapy, a hand training technique used in stroke rehabilitation, has been shown to improve the function of the hemiplegic limb in stroke patients. However, there are currently no studies examining the application of force control in mirror therapy. Therefore, this study aims to explore and develop a hand rehabilitation method that combines the different compression patterns provided by the hand training system (Tipr) with a mirror training device. By incorporating the mirror's visual feedback of the contralateral limb, the application of the hand training system will be expanded. Non-invasive near-infrared spectroscopy (fNIRs) will be used to assess user brain activation and changes in hand function. This study will investigate user feedback on this rehabilitation method and explore whether force control training can induce bilateral brain interactions and their impact on hand function. The goal is to commercialize this innovative treatment approach for clinical evaluation and training applications.",
+      "source_url": "https://clinicaltrials.gov/study/NCT07150325",
+      "date_published": "2025-08-24",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT07150325",
+      "phase": "NA",
+      "status": "COMPLETED",
+      "enrollment": 5,
+      "sponsor": "National Cheng-Kung University Hospital",
+      "conditions": [
+        "Stroke",
+        "Stroke Patients"
+      ],
+      "primary_outcomes": [
+        "Hand Strength",
+        "Purdue Pegboard Test (PPT)",
+        "Minnesota Manual Dexterity Test (MMDT)",
+        "Digit Independence (EN value)",
+        "Force control ability",
+        "Oxygenated hemoglobin (HbO)"
+      ],
+      "results_summary": null,
+      "date_registered": "2025-08-24",
+      "date_started": "2024-12-19",
+      "date_completed": "2025-06-19",
+      "date_results_posted": null
+    },
+    {
+      "id": "dde98e5a-f38e-41e1-85c0-92b9a0003d7b",
+      "source_type": "europe_pmc",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric oxygen therapy for osteoporosis: A systematic review of preclinical evidence and mechanisms.",
+      "abstract": "Hyperbaric oxygen therapy (HBOT) has been proposed as a direct anti-osteoporotic intervention rather than solely an adjunctive therapy. We systematically synthesized preclinical in vivo evidence and underlying mechanisms following PRISMA, with prospective registration (PROSPERO CRD42024525038), by searching PubMed, Embase, Cochrane Library, and Web of Science to November 2025. Of 3281 records, six studies (2016-2025) met inclusion across ovariectomy, hindlimb unloading, spinal cord transection, and D-galactose-induced aging models in Wistar and Sprague-Dawley rats. HBOT protocols most used 2.0-2.2 atm absolute with 85-100 % oxygen for 40-60 min per session. Across studies, HBOT improved bone mineral density and trabecular microarchitecture (e.g., BV/TV, Tb.Th, Tb.N), enhanced biomechanical strength, increased formation markers (e.g., procollagen type I N-terminal propeptide, bone-specific alkaline phosphatase, osteocalcin), and reduced resorption markers (e.g., C-terminal telopeptide of type I collagen, tartrate-resistant acid phosphatase-5b). Mechanistic signals converged on remodeling and vascular-metabolic pathways: modulation of the osteoprotegerin (OPG)/receptor activator of nuclear factor-κB ligand (RANKL) axis; restoration of Wnt/β-catenin signaling with reduced sclerostin; attenuation of oxidative and inflammatory stress (e.g., tumor necrosis factor-α); pro-angiogenic support (vascular endothelial growth factor, basic fibroblast growth factor); and neuropeptide-related effects (calcitonin gene-related peptide). Risk-of-bias profiles were mixed and heterogeneity precluded meta-analysis. Collectively, preclinical data indicate that HBOT mitigates osteoporotic bone loss primarily through coordinated, mechanisms of action that rebalance bone remodeling and improve the osteovascular milieu, while underscoring the need for standardized dosing parameters and rigorously designed human studies powered for clinically meaningful endpoints.",
+      "source_url": "https://doi.org/10.1016/j.bone.2025.117772",
+      "date_published": "2026-01-02",
+      "date_indexed": "2026-02-28",
+      "pmid": "41483655",
+      "pmcid": null,
+      "doi": "10.1016/j.bone.2025.117772",
+      "authors": [
+        "Wang H",
+        "Ma X",
+        "Sun Y",
+        "Guo Z",
+        "Wang J",
+        "Sun M."
+      ],
+      "journal": null,
+      "cited_by_count": 0,
+      "is_open_access": false,
+      "peer_reviewed": true,
+      "is_preprint": false,
+      "is_cochrane": false,
+      "preprint_server": null,
+      "publication_types": [
+        "Systematic Review",
+        "Review",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Rats",
+        "Osteoporosis",
+        "Hyperbaric Oxygenation",
+        "Bone Density",
+        "Female"
+      ]
+    },
+    {
+      "id": "ba4e2a56-0f89-4c83-81f9-8294bc643ace",
+      "source_type": "europe_pmc",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric Oxygen Therapy in Aesthetic Medicine and Anti-Aging: A Systematic Review.",
+      "abstract": "<h4>Introduction</h4>Continued interest in the optimization of recovery in aesthetics has led to the exploration of adjunctive therapies. Hyperbaric oxygen therapy (HBOT) serves as one such therapy that may have an impact in this field. HBOT is hypothesized to improve ischemia, reduce swelling, and minimize secondary hypoxic tissue damage. Its application in aesthetic procedures aims to improve healing, reduce downtime, and enhance the overall quality of outcomes.<h4>Methods</h4>A systematic review was performed, searching the PubMed database. The protocol was developed following the Preferred Reporting for Items for Systematic Reviews-Protocols (PRISMA) guidelines. Included studies evaluated the use of HBOT in aesthetic surgery, medicine, and longevity and anti-aging. Selected studies matched predetermined criteria according to the employed intervention and outcomes.<h4>Results</h4>The systematic review was performed in April 2024, with the primary search yielding 591 articles. Abstract review resulted in 53 articles of potential relevance. Comprehensive review of the articles and manual reference checks was performed, independently, by two authors. This yielded a total of 15 articles meeting inclusion criteria.<h4>Conclusions</h4>HBOT may serve a valuable adjunct in aesthetic surgery, medicine, and anti-aging. However, the evidence to support its use, and justify its cost, is limited. This review serves as an update, capturing the currently available literature on HBOTs use in aesthetics, and provides the first discussion of HBOTs role in anti-aging. It underscores the need for future large-scale, randomized trials with standardization of HBOT protocols being employed to allow for full assessment of HBOTs utility in this clinical space.<h4>Level of evidence v</h4>This journal requires that authors assign a level of evidence to each article. For a full description of these Evidence-Based Medicine ratings, please refer to the Table of Contents or the online Instructions to Authors www.springer.com/00266 .",
+      "source_url": "https://doi.org/10.1007/s00266-024-04553-6",
+      "date_published": "2024-12-28",
+      "date_indexed": "2026-02-28",
+      "pmid": "39733047",
+      "pmcid": null,
+      "doi": "10.1007/s00266-024-04553-6",
+      "authors": [
+        "Fisher SM",
+        "Sherif RD",
+        "Borab ZM",
+        "Ganesh Kumar N",
+        "Rohrich RJ."
+      ],
+      "journal": null,
+      "cited_by_count": 2,
+      "is_open_access": false,
+      "peer_reviewed": true,
+      "is_preprint": false,
+      "is_cochrane": false,
+      "preprint_server": null,
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Treatment Outcome",
+        "Rejuvenation",
+        "Cosmetic Techniques",
+        "Hyperbaric Oxygenation",
+        "Esthetics",
+        "Surgery, Plastic",
+        "Skin Aging"
+      ]
+    },
+    {
+      "id": "16e72629-3973-47dd-9d86-3cbd8e449313",
+      "source_type": "europe_pmc",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Reduce Flap Necrosis After Autologous Breast Reconstruction: A Systematic Review.",
+      "abstract": "<h4>Background</h4>Autologous breast reconstruction provides substantial benefits in terms of aesthetics and longevity. However, the risk of flap necrosis poses potential challenges to patients' appearance and psychological well-being, while also escalating health care costs. Consequently, examining the risk factors, assessment techniques, and therapeutic approaches for flap necrosis is critically important.<h4>Method</h4>The authors conducted a comprehensive search for relevant studies from January 2010 to August 2024 using PubMed, Web of Science, and the Cochrane Library. The search terms included \"autologous breast reconstruction\", \"flap necrosis\", \"risk factor\", \"assessment\", and \"treatment\". The authors initially screened titles and abstracts, followed by a detailed review by 3 investigators to determine the studies that met the inclusion criteria.<h4>Result</h4>A total of 68 studies were ultimately selected for analysis. Identified risk factors for flap necrosis include smoking, advanced age, obesity, diabetes, large breast volume, previous radiotherapy, and abdominal surgery. Various assessment methods (e.g., preoperative imaging, intraoperative blood flow monitoring, and postoperative evaluations) can enhance flap survival. The review also covered surgical treatment strategies and non-surgical interventions, including local wound care, hyperbaric oxygen therapy, and pharmacological treatments.<h4>Conclusion</h4>This review highlights the critical role of thorough planning and management in minimizing the risk of flap necrosis after autologous breast reconstruction. Effective preoperative assessments, perioperative monitoring, and specific postoperative interventions can significantly lower the incidence of flap necrosis.",
+      "source_url": "https://doi.org/10.1097/scs.0000000000011060",
+      "date_published": "2024-12-27",
+      "date_indexed": "2026-02-28",
+      "pmid": "39729252",
+      "pmcid": "PMC12376823",
+      "doi": "10.1097/scs.0000000000011060",
+      "authors": [
+        "Gao Y",
+        "Yin L",
+        "Xiang T",
+        "Ni T",
+        "Shi J."
+      ],
+      "journal": null,
+      "cited_by_count": 2,
+      "is_open_access": true,
+      "peer_reviewed": true,
+      "is_preprint": false,
+      "is_cochrane": false,
+      "preprint_server": null,
+      "publication_types": [
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Surgical Flaps",
+        "Humans",
+        "Necrosis",
+        "Postoperative Complications",
+        "Mammaplasty",
+        "Risk Factors",
+        "Female"
+      ]
+    },
+    {
+      "id": "0769bd39-ebbc-4a68-8d61-e875c765ac5c",
+      "source_type": "europe_pmc",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Effect of non-invasive brain stimulation on cognitive function and activities of daily living in patients with carbon monoxide poisoning: a systematic review and meta-analysis.",
+      "abstract": "<h4>Objective</h4>This study aimed to evaluate the effectiveness of non-invasive brain stimulation (NIBS) in improving cognitive function and activities of daily living (ADL) in patients with delayed encephalopathy after acute carbon monoxide poisoning (DEACMP). It also sought to explore the moderating effects of age, intervention duration, latency period, and stimulation site.<h4>Methods</h4>A systematic search of seven databases was conducted to identify randomized controlled trials (RCTs) published up to August 2024. Meta-analyses and publication bias assessments were performed using RevMan 5.4.1 and Stata 17.0. Methodological quality was evaluated with the PEDro scale, and the certainty of evidence was assessed using GRADEpro.<h4>Results</h4>A total of eight RCTs involving 607 participants were included. The pooled results indicated that NIBS significantly improved cognitive function (standardized mean difference (SMD = 1.03, <i>p</i> < 0.00001) and ADL (SMD = 1.77, <i>p</i> < 0.00001). The subgroup analyses showed greater cognitive improvements in patients aged below 50 years, with intervention durations of ≤20 days and stimulation applied at the yin-yang poles. In contrast, improvements in daily activities were more pronounced in patients aged over 50 years under similar intervention conditions.<h4>Discussion</h4>The included studies were of moderate-to-high quality (mean PEDro score = 6.3). The major limitations included inadequate blinding and incomplete allocation concealment. The heterogeneity observed was mainly attributable to patient age, stimulation site, and intervention duration. No significant publication bias was detected. Overall, NIBS demonstrated moderate-quality evidence in enhancing cognitive function and daily activity performance, with individual characteristics moderating its effects.<h4>Systematic review registration</h4>https://www.crd.york.ac.uk/prospero/, identifier CRD42024598815.",
+      "source_url": "https://doi.org/10.3389/fneur.2025.1585901",
+      "date_published": "2025-08-12",
+      "date_indexed": "2026-02-28",
+      "pmid": "40874125",
+      "pmcid": "PMC12379109",
+      "doi": "10.3389/fneur.2025.1585901",
+      "authors": [
+        "Ding H",
+        "Wei C",
+        "Chen J",
+        "Yu F",
+        "Wang X",
+        "Zhang Y."
+      ],
+      "journal": null,
+      "cited_by_count": 0,
+      "is_open_access": true,
+      "peer_reviewed": true,
+      "is_preprint": false,
+      "is_cochrane": false,
+      "preprint_server": null,
+      "publication_types": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ],
+      "mesh_terms": []
+    },
+    {
+      "id": "703da545-2005-4427-9a8e-b0a4034f5ec6",
+      "source_type": "social",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "AMA: Spent $20k+ and fixed my health this past year",
+      "abstract": "I've been asked many times to write out what interventions I do, what I take, and their cumulative effects...   \n  \nI reinvented my life this past year and the effects have been profound. I threw money at the problem, hired a concierge doctor, and reoriented my life around being healthy: fixing diet, exercise and sleep in the process, developing an excessive supplement stack, and buying many devices and trying many exotic interventions along the way. \n\nI've become knowledgeable about these topics and wanted to give back to the community here that has helped me along the way. I am nowhere near the fittest, pioneering, or most experienced person here - but think I could help provide a look at what a middle aged person with resources who dedicated a year+ to life- and health-span could achieve. \n\n\\--\n\n**TLDR:** \n\n12 months ago I had a BMI of 29, a 30 VO2 Max, couldn't do a pullup, and hadn't jogged in half a decade. \n\nToday I have a BMI of 23, a VO2 Max of 45, and can do sets of 50+ pushups, and I sprint weekly.\n\nI'm nowhere near done, but consider this past year a huge success.\n\n\\--\n\n**About me:** \n\nI'm 46, male and CEO of a 100 person company. I used to be healthy in my 20s and 30s, but with life and stress it all went to the dogs and I became unfit and overweight, stopped exercising, and was comfort eating and excessively drinking alcohol and smoking weed. I thought my best days were behind me. With some luck I'm approaching early retirement and in preparation wanted to treat my life as if it was a company I was CEO of, so embarked on this journey at the start of 2024. And the effects have been life changing.\n\nIn addition to the weight loss, and 50% increase in strength and VO2 Max, I improved my skin and look 10-15 years younger often being mistaken for being in my 30s, I reversed my hair loss and fixed my teeth, solved my low Thyroid and improved my other Hormones, and removed excess Heavy Metals and Plastics from my body. \n\nI watched hundreds of hours of videos b",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/1itkarl/ama_spent_20k_and_fixed_my_health_this_past_year/",
+      "date_published": "2025-02-20",
+      "date_indexed": "2026-02-28",
+      "platform": "reddit",
+      "subreddit": "Biohackers",
+      "score": 480,
+      "comment_count": 326,
+      "sentiment": null
+    },
+    {
+      "id": "e73252ca-1d71-4ce2-8935-bd2880ae71c4",
+      "source_type": "social",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Just saw this on X: \"A new study is out: things that make you age faster, and slower, according to 16 epigenetic age clocks\"",
+      "abstract": "1/ These interventions demonstrated a significant decrease or slow-down of Biological Aging:\n\n1. Pharmacological Interventions: Anti-TNF therapy (anti-inflammatory), Metformin (Anti-diabetes, AMPK activation),Ketamin (antidepressant psychedelic, dissociative).\n\n2.  Supplements: AC11 supplement (natural DNA repair booster), TruLacta (a human-milk based supplement).\n\n3. Lifestyle Adjustments &amp; Surgeries: Gastric Bypass (weight reduction), smoking cessation, kidney transplant, hyperbaric oxygen therapy HBOT (large average effect, but no statistical significance)\n\n4. Diets: Vegan Diet, Green Mediterranean Diet, Mediterranean Diet, low fat and low carb diets. \n\n\n\n2/ These interventions demonstrated a significant increase or acceleration of Biological Aging:\n\n1. Pharmacological Interventions: Rapamycin (mTORC1 inhibitor, immunosuppressant), senolytics.\n\n2. Supplements: Buckwheat Extract\n\n3. Gene Therapies: Follistatin (myostatin inhibition, muscle growth)\n\n4. Lifestyle Adjustments, procedures &amp; Surgeries: Kidney Dialysis\n\n\n\nSource:\n\n[https://x.com/bryan\\_johnson/status/1858915400005955945?s=43](https://x.com/bryan_johnson/status/1858915400005955945?s=43)\n\n  \nThoughts?",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/1gvwj7e/just_saw_this_on_x_a_new_study_is_out_things_that/",
+      "date_published": "2024-11-20",
+      "date_indexed": "2026-02-28",
+      "platform": "reddit",
+      "subreddit": "Biohackers",
+      "score": 325,
+      "comment_count": 225,
+      "sentiment": null
+    },
+    {
+      "id": "84fa76b7-ce0c-4d5f-8bb2-19ec39b32069",
+      "source_type": "social",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Daily creatine has almost entirely mitigated motor symptoms from viral brain damage",
+      "abstract": "Taking 5 grams per day of creatine monohydrate has almost entirely mitigated motor symptoms that I (46M) have experienced for six years following brain damage from a viral infection.\n\nBackstory:\n\nNearly six years ago, when I was 40 years old, I became pretty sick with what seemed like some kind of a virus or perhaps lime disease. I had some testing done. I did a cycle of doxycycline (for lime), but everything came back clear, and the doxycycline had no effect. After about four weeks of extreme fatigue, headaches, brain fog, sweats, chills, and pretty much being nonfunctional, I started to improve slowly. This improvement went on for two more weeks, and I was feeling maybe 70% normal when one morning, I woke up and found myself shaking like I was shivering. It got progressively worse throughout the day, and by bedtime, I could barely walk and was having uncontrollable spastic muscle movements throughout my body.\n\nBy this point, getting a definitive diagnosis of the illness that caused my neurological issues was impossible. Based on my disease progression and where I had been traveling before getting sick initially, we concluded that I most likely had contracted the Lacrosse, a rare mosquito-born virus endemic to a few isolated pockets in the United States. For the past six years, I have dealt with neurological motor dysfunction. At first, it was pretty severe; I could barely walk or do anything that required maintaining control of too many muscles at a time. I could sit and have complete control of my arms 99.9% of the time, but if I stood up or tried to walk, I would get spastic movements in my entire body, including my arms. \n\nMy condition slowly improved over the first year and eventually reached the point where I could walk without spasticity most of the time. I would have good days/weeks/months and bad days/weeks/months. Still, even when things were good, I was constrained on how much or how far I could walk or push myself before I started to exhibit more weakne",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/1ec1lol/daily_creatine_has_almost_entirely_mitigated/",
+      "date_published": "2024-07-25",
+      "date_indexed": "2026-02-28",
+      "platform": "reddit",
+      "subreddit": "Biohackers",
+      "score": 294,
+      "comment_count": 79,
+      "sentiment": null
+    },
+    {
+      "id": "8e695d5e-924f-4df9-9495-352cbbd06432",
+      "source_type": "social",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "My biohacking journey as a middle aged overweight guy",
+      "abstract": "12 months ago I was very unhealthy - 123kg (271lb), cholesterol &gt;8, elevated liver enzymes, hypertension. The typical lazy 40 year old white collar male. Desk job, no exercise, high stress, poor sleep, etc. my wife and I used to joke that I would die young from the \"trifecta\" - sedentary, high stress job, overweight. Except it wasn't really a joke. \n\nI made a new year's resolution to take control of my life and get healthy through biohacking. And I have gotten into it in a big way: \n- I quit alcohol entirely (easy as I was never a big drinker anyway)\n- I quit caffeine entirely (toughest thing for me as I used to drink 2L of coke no sugar a day) \n- I completely changed my diet - cut out takeaway, hired a private chef to make all my meals. Protein and salads/veges all the way. \n- I hired a personal trainer and go every weekday. I've only missed 2 sessions in nearly 8 months, and I made them both up. We mainly do stretching and resistance training. \n- I bought a treadmill and got a gym membership. I do 1 hour of cardio and extra resistance training every weekday, and sometimes on weekends as well (2 hours total between PT and Gym/Cardio)\n- I overhauled my sleep - I used to sleep 4ish hours a night (for 10+ years). Now I sleep 8 hours a night every night. \n- a daily post workout shake for various things - protein for muscle development, collagen for hair/skin/joints, dextrose for a carb hit/glycogen replenishment, creatine for muscle recovery, psyllium husk for fibre and cholesterol absorption, Trimethylglycine for heart brain and liver health\n- I started taking targeted supplements for overall health and to try and to try and help with my hip osteoarthritis - a multi, DHA/EPA, hyaluronic acid, CoQ10, type 2 collagen, zinc, MSM+chondroitin+glucosamine, phosphatadyl serine, ashwaghanda (PS +Ash to lower cortisol)\n- various peptides for different benefits. BPC-157 &amp; TB-500 for recovery. Tirzepatide for weight loss. CJC-1295 &amp; Ipamoerlin for muscle growth. MOTS-",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/1mrs342/my_biohacking_journey_as_a_middle_aged_overweight/",
+      "date_published": "2025-08-16",
+      "date_indexed": "2026-02-28",
+      "platform": "reddit",
+      "subreddit": "Biohackers",
+      "score": 212,
+      "comment_count": 105,
+      "sentiment": null
+    },
+    {
+      "id": "e95123a0-0717-456f-b9af-f30e9a5cf615",
+      "source_type": "news",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "The Benefits of Hyperbaric Oxygen Therapy in Combating Aging",
+      "abstract": "HBOT also has positive effects on physical performance and endurance. Aging is often accompanied by a decrease in physical capabilities, such as strength, flexibility, and stamina. The study “Physical Enhancement of Older Adults Using Hyperbaric Oxygen” found that HBOT could significantly improve physical fitness levels in older adults. Participants experienced increased muscle strength, better cardiovascular function, and enhanced overall energy levels. These improvements can lead to a more active lifestyle, reducing the risk of age-related diseases and promoting longevity. [...] Hyperbaric Oxygen Therapy offers a multifaceted approach to combating the effects of aging. By enhancing cellular repair, cognitive function, and physical performance, HBOT provides older adults with a viable option to improve their quality of life. The findings from the study “Physical Enhancement of Older Adults Using Hyperbaric Oxygen” highlight the potential of HBOT as a groundbreaking anti-aging therapy. As research continues to evolve, HBOT may become a cornerstone in the pursuit of healthy aging and longevity.\n\n### Hyperbaric Vermont\n\n1808 Bridgman Hill Road\n\nHardwick, VT 05843\n\n802 472-1339\n\n### Newsletter Sign-Up\n\n### Follow Us!\n\nFollow Us on Facebook\nFollow Us on Twitter\nFollow Us on LinkedIn\nFollow Us on YouTube\nFollow Us on Instagram [...] Back Home\n\n# The Benefits of Hyperbaric Oxygen Therapy in Combating Aging\n\nAging is an inevitable process that brings about various physiological changes, often leading to a decline in physical and cognitive functions. In the quest for effective anti-aging interventions, Hyperbaric Oxygen Therapy (HBOT) has emerged as a promising treatment. HBOT involves breathing  oxygen in a pressurized environment, which enhances the amount of oxygen dissolved in the body’s tissues. Recent studies, such as “Physical Enhancement of Older Adults Using Hyperbaric Oxygen,” have shed light on the potential benefits of HBOT in mitigating the effects of aging.",
+      "source_url": "https://hyperbaricvermont.org/the-benefits-of-hyperbaric-oxygen-therapy-in-combating-aging/",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "outlet": "hyperbaricvermont.org",
+      "author": null,
+      "sentiment": null,
+      "reach_estimate": null,
+      "claims_strength": null,
+      "cites_primary_source": false,
+      "primary_source_doi": null
+    },
+    {
+      "id": "7f201097-8c2b-4259-a649-6ad3c1ddfc2b",
+      "source_type": "news",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "The benefits of hyperbaric therapy for longevity - Clinica Hyperbarium",
+      "abstract": "Novak Djokovic - The world's top tennis player has said he uses hyperbaric oxygen therapy to support recovery from intense physical exertion and maintain peak performance.\n\nIn the future, hyperbaric therapy could represent a key point in extending longevity, providing a non-invasive and effective solution for those concerned with maintaining health and vitality as they age. With the continued evolution of research and discovery, hyperbaric therapy remains a fascinating source of exploration in the search for the secrets of healthy and active aging. [...] ##### What do longevity studies show us?\n\nAnalyzing biomarkers of aging from a recent study, two main indicators are identified used to assess the biological age of a person's cells and tissues. The aim of the study was to assess whether hyperbaric oxygen therapy affects telomere length and senescent cell concentrations in a normal, non-pathological, aging population.\n\nTelomeres are similar to the thickened ends of shoelaces. They protect the ends of chromosomes from damage. As we age, our telomeres naturally shorten, but an annual decrease in their length of 20-40 kilobases is associated with serious health conditions. [...] Senescent cells are cells that are still alive but have stopped multiplying. Over time, these cells can accumulate in the body, and their growth contributes to age-related conditions.\n\nThe study demonstrates that using certain hyperbaric oxygen therapy (HBOT) protocols, telomere length can increase by up to 20% and the concentration of senescent cells decreases significantly.\n\nAnother study, published in 2022 in the scientific journal \" Oxidative Medicine and Cellular Longevity\" brings new evidence on the benefits of hyperbaric therapy and its relevance in promoting longevity.",
+      "source_url": "https://hyperbarium.com/en/blog/benefits-of-hyperbaric-therapy-for-longevity",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "outlet": "hyperbarium.com",
+      "author": null,
+      "sentiment": null,
+      "reach_estimate": null,
+      "claims_strength": null,
+      "cites_primary_source": false,
+      "primary_source_doi": null
+    },
+    {
+      "id": "d33315dd-84ed-4b5e-8491-52114bc1fcf7",
+      "source_type": "news",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "HBOT for Wellness, Performance, and Anti-Aging",
+      "abstract": "Play\n\nPlay\n\nPlay\n\nPlay\n\nPlay\n\n## SUPPORTING RESEARCH\n\n## Scientific Evidence on HBOT’s Role in Longevity, Clarity, and Recovery\n\nStudies have shown HBOT can lengthen telomeres (a marker of cellular aging), improve mitochondrial function, and promote overall vitality. Whether you’re looking to slow the signs of aging, increase your longevity, or simply breathe new life into your body, HBOT offers a safe and effective solution to enhancing physical performance in older adults.\n\nThe Effect of Hyperbaric Oxygen Therapy on the Pathophysiology of Skin Aging: A Prospective Clinical Trial\n\nHyperbaric Oxygen Therapy Increases Telomere Length and Decreases Immunosenescence in Isolated Blood Cells: A Prospective Trial [...] Our team at MD Hyperbaric provides expert, personalized care tailored to your wellness goals. We believe aging can be vibrant, strong, and full of life—and we’re here to help you experience it. Discover how Hyperbaric Oxygen Therapy can help you stay younger, feel better, and live longer. Contact your local MD Hyperbaric today to learn more about our anti-aging and longevity-focused programs.\n\nGet Started\n\nLearn More About HBOT\n\n## HBOT patients can benefit from:\n\nAccelerated physical recovery and resilience\n\nSharper focus, memory, and mental clarity\n\nReduced inflammation for long-term health\n\nSustained energy and stamina\n\nSupport for longevity and healthy aging\n\n## WHO CAN BENEFIT?\n\n## HBOT Supports Wellness & Performance at Every Level [...] ## Power Your Performance With HBOT\n\nWellness isn’t just the absence of illness – it’s the foundation of longevity, clarity, strength, and vitality. Anti-aging and longevity focus on preserving health, energy, and vitality as we age. Rather than just treating age-related issues, the goal is to help the body heal, regenerate, and stay strong over time.\n\nWhether you’re pushing physical limits, sharpening focus, or investing in long-term health, Hyperbaric Oxygen Therapy (HBOT) is a safe, natural longevity and recovery therapy that enhances endurance and optimizes both physical and mental performance. By delivering concentrated oxygen deep into your body, HBOT helps you recover faster, think clearer, and sustain energy and focus over time.\n\n## HOW HBOT SUPERCHARGES WELLNESS",
+      "source_url": "https://mdhyperbaric.com/conditions/anti-aging-and-longevity",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "outlet": "mdhyperbaric.com",
+      "author": null,
+      "sentiment": null,
+      "reach_estimate": null,
+      "claims_strength": null,
+      "cites_primary_source": false,
+      "primary_source_doi": null
+    },
+    {
+      "id": "4a18b574-b221-4686-ba3e-65e15838ed86",
+      "source_type": "news",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "The Impact of HBOT on Longevity: Adding Years to Your Life",
+      "abstract": "Loading\nHyperbaric Oxygen Chicago\n\n# The Impact of HBOT on Longevity: Adding Years to Your Life\n\nAt HBOT Chicago, we understand the world’s growing fascination with the quest for longevity. From ancient herbal remedies to cutting-edge gene therapies, people are searching for ways to extend not just their years, but their quality of life. One method that’s gaining serious attention—grounded in basic biology and supported by a growing body of research—is hyperbaric oxygen therapy (HBOT). By harnessing something as essential as oxygen, HBOT is sparking new conversations about what it truly means to live longer—and live better.\n\n## Longevity: It’s More Than Just Adding Years [...] HBOT has been shown to modulate the immune system, reducing the production of pro-inflammatory cytokines while promoting anti-inflammatory pathways.\n\nBy cooling the fire of systemic inflammation, HBOT not only supports healing processes but may also slow the degenerative march of time across multiple body systems.\n\n## Protecting the Brain: Cognitive Longevity and HBOT\n\nCognitive decline is one of the most feared aspects of aging. Memory loss, reduced executive function, and diminished processing speed can deeply impact independence and quality of life.\n\nThe brain consumes about 20% of the body’s oxygen supply despite only accounting for about 2% of total body weight. This makes it especially sensitive to fluctuations in oxygen availability. [...] ## Reimagining What’s Possible in the Aging Process\n\nThe dream of extending not just the number of years we live but the number of healthy, vibrant years is closer than ever. While there is no magic bullet for immortality, approaches like hyperbaric oxygen therapy offer a scientifically grounded, accessible method to nudge biology in a more youthful direction.\n\nBy embracing strategies that support cellular resilience, optimize oxygenation, and calm inflammation, it’s possible to redefine aging not as an inevitable decline but as a new stage of dynamic potential.\n\nFor more information about HBOT, call (312) 767-3500 or find an Oxygen therapy clinic near you.\n\nResources:\n\n### Call HBOT Chicago Today",
+      "source_url": "https://hbotchicago.com/the-impact-of-hbot-on-longevity-adding-years-to-your-life/",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "outlet": "hbotchicago.com",
+      "author": null,
+      "sentiment": null,
+      "reach_estimate": null,
+      "claims_strength": null,
+      "cites_primary_source": false,
+      "primary_source_doi": null
+    },
+    {
+      "id": "dc05965b-03d1-4f17-af91-67b05c6de05a",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "An inheritance of long life.",
+      "abstract": "Parental lysosomes modify epigenetic signaling to influence offspring life span.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40997195/",
+      "date_published": "2025-09-25",
+      "date_indexed": "2026-02-28",
+      "pmid": "40997195",
+      "doi": "10.1126/science.aeb2633",
+      "authors": [
+        "Bohnert K Adam"
+      ],
+      "journal": "Science (New York, N.Y.)",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Epigenesis, Genetic",
+        "Longevity",
+        "Lysosomes",
+        "Caenorhabditis elegans"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Comment"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "dac20560-1689-4dda-9fe8-245e6708e4ea",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "A mammalian DNA methylation landscape.",
+      "abstract": "A study of 348 species offers clues into the diversity of mammalian life spans.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37561871/",
+      "date_published": "2023-08-11",
+      "date_indexed": "2026-02-28",
+      "pmid": "37561871",
+      "doi": "10.1126/science.adj4904",
+      "authors": [
+        "de Mendoza Alex"
+      ],
+      "journal": "Science (New York, N.Y.)",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "DNA Methylation",
+        "Mammals",
+        "Longevity"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "c4667423-3d23-4649-8265-16a1da1d9bbc",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Olfaction: an emerging regulator of longevity and metabolism.",
+      "abstract": "Ageing is a malleable process influenced by the environment. Recent research reveals that neurons interact with peripheral organs to regulate metabolism and longevity by responding to olfactory cues through specific pathways, such as the unfolded protein response (UPR) and microRNAs. Here, we examine the significance of these findings.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38008607/",
+      "date_published": "2024-03-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "38008607",
+      "doi": "10.1016/j.tcb.2023.11.001",
+      "authors": [
+        "Thompson Maximillian A",
+        "De-Souza Evandro A"
+      ],
+      "journal": "Trends in cell biology",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Longevity",
+        "Unfolded Protein Response",
+        "Aging",
+        "Neurons",
+        "Proteostasis"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "4611c9c2-de95-4adc-b50e-c704e0b927c2",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Long live the RNAs: The guardians of neuronal longevity?",
+      "abstract": "In a recent publication in Science, Zocher et al.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38848690/",
+      "date_published": "2024-06-06",
+      "date_indexed": "2026-02-28",
+      "pmid": "38848690",
+      "doi": "10.1016/j.molcel.2024.05.015",
+      "authors": [
+        "Lin Lin",
+        "Kubota Naoto",
+        "Kaneshiro Nanaka",
+        "Zheng Sika"
+      ],
+      "journal": "Molecular cell",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Animals",
+        "Neurons",
+        "Mice",
+        "Longevity",
+        "Brain",
+        "Humans",
+        "RNA, Nuclear"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "c5ac3f84-2d5f-4eae-84be-0b58b78fb44d",
+      "source_type": "clinicaltrials",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Development of Normative Datasets for Assessments Planned for Use in Patients With Mild Traumatic Brain Injury (NORMAL)",
+      "abstract": "The purpose of the research study is to collect information about brain function and structure among active duty military personnel or civilians who are healthy. Researchers want to develop a database from normal volunteers that will be used in comparison with a similar database from active duty military with post-concussive syndrome (PCS) from a mild traumatic brain injury. Findings from this study may be used to design larger studies that will evaluate whether hyperbaric oxygen treatments actually improve PCS.\n\nParticipants in this study will undergo numerous tests to assess physical, mental, and intellectual health and how they might change over time. Participants will wear heart and activity monitors, undergo brain imaging, provide blood and urine for laboratory testing, and have vision, hearing, balance, and muscle function tests. They will also complete a number of questionnaires and interviews. This battery of tests will be repeated twice more over the course of 6 months.",
+      "source_url": "https://clinicaltrials.gov/study/NCT01925963",
+      "date_published": "2013-08-16",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT01925963",
+      "phase": null,
+      "status": "COMPLETED",
+      "enrollment": 83,
+      "sponsor": "Lindell Weaver",
+      "conditions": [
+        "Focus: Healthy Adults Without Brain Injury"
+      ],
+      "primary_outcomes": [
+        "Change in neuropsychological test scores across time"
+      ],
+      "results_summary": null,
+      "date_registered": "2013-08-16",
+      "date_started": "2014-01-10",
+      "date_completed": "2016-01-06",
+      "date_results_posted": null
+    },
+    {
+      "id": "906a4d58-1341-412c-b064-7d13f73ea4ca",
+      "source_type": "clinicaltrials",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric Oxygen Can Improve Erectile Dysfunction and Induce Penile Angiogenesis",
+      "abstract": "Recent studies have shown that hyperbaric oxygen therapy (HBOT) can induce angiogenesis and improve impaired organ function. HBOT was also recently suggested as a possible therapy for ED due to surgical injuries. However, the effect of HBOT on non-surgical related ED has not been investigated to date.\n\nThe objective in this study was to assess the effect of HBOT on patients with ED by means of sexual function questionnaires and novel imaging techniques.",
+      "source_url": "https://clinicaltrials.gov/study/NCT02619383",
+      "date_published": "2015-11-29",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT02619383",
+      "phase": "PHASE1",
+      "status": "COMPLETED",
+      "enrollment": 37,
+      "sponsor": "Assaf-Harofeh Medical Center",
+      "conditions": [
+        "Erectile Dysfunction",
+        "Hyperbaric Oxygen Therapy"
+      ],
+      "primary_outcomes": [
+        "Sexual function",
+        "Sexual function"
+      ],
+      "results_summary": null,
+      "date_registered": "2015-11-29",
+      "date_started": "2013-06-01",
+      "date_completed": "2015-05-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "024ae515-8d11-4736-b142-7a9d174f512c",
+      "source_type": "clinicaltrials",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Optical Coherence Tomography for Monitoring Late Oral Radiation Toxicity After Radiotherapy of Head and Neck Cancer Patients",
+      "abstract": "Radiation therapy of the head and neck cancer patients causes late oral radiation complications such as xerostomia (dry mouth) or mucosal atrophy. Currently, methods such as hyperbaric oxygen are used to treat these complications; however, there are no quantifiable means of assessing the outcome of these methods. At present, subjective methods such as superficial examination of the oral cavity are used, yet complications are known to mostly start in the subsurface layers. In this feasibility study, we apply an imaging technique called optical coherence tomography (OCT) as a means of providing objective and quantifiable images of the subsurface micro-structural and micro-vascular changes of oral tissue. Depth-resolved, micrometer-resolution OCT images provide information on changes associated with late radiation complications.",
+      "source_url": "https://clinicaltrials.gov/study/NCT01692600",
+      "date_published": "2012-08-30",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT01692600",
+      "phase": null,
+      "status": "COMPLETED",
+      "enrollment": 20,
+      "sponsor": "University Health Network, Toronto",
+      "conditions": [
+        "Abnormalities, Radiation-Induced"
+      ],
+      "primary_outcomes": [
+        "Comparison between the oral layer structure of radiation toxicity patients and healthy volunteers as shown in the OCT structural images"
+      ],
+      "results_summary": null,
+      "date_registered": "2012-08-30",
+      "date_started": "2012-06-01",
+      "date_completed": "2014-06-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "233a551b-989a-4028-8461-68e5bee4b20b",
+      "source_type": "clinicaltrials",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Laser Speckle Imaging for Wound Perfusion Monitoring (WoundImager)",
+      "abstract": "The purpose of this study is to investigate the efficacy of an optical device designed and developed to quantitatively monitor blood flow velocity of wound sites. It is hypothesized that the blood flow velocity of the wound site will provide critical information on the efficacy of hyperbaric oxygen therapy.",
+      "source_url": "https://clinicaltrials.gov/study/NCT01675583",
+      "date_published": "2012-08-28",
+      "date_indexed": "2026-02-28",
+      "nct_id": "NCT01675583",
+      "phase": null,
+      "status": "COMPLETED",
+      "enrollment": 20,
+      "sponsor": "CW Optics, Inc.",
+      "conditions": [
+        "Wounds and Injuries"
+      ],
+      "primary_outcomes": [
+        "Blood flow velocity measurements"
+      ],
+      "results_summary": null,
+      "date_registered": "2012-08-28",
+      "date_started": "2012-08-01",
+      "date_completed": "2013-04-01",
+      "date_results_posted": null
+    },
+    {
+      "id": "393b2650-8d58-4f4b-8955-1c62cb0f3978",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Rethinking the heritability of aging.",
+      "abstract": "The genetic contribution to human longevity is greater than previously thought.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41610247/",
+      "date_published": "2026-01-29",
+      "date_indexed": "2026-02-28",
+      "pmid": "41610247",
+      "doi": "10.1126/science.aee3844",
+      "authors": [
+        "Bakula Daniela",
+        "Scheibye-Knudsen Morten"
+      ],
+      "journal": "Science (New York, N.Y.)",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Longevity",
+        "Aging"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "c2ccc934-36f4-4f2c-ba86-2cf34b94fe41",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Lifespan Development Seen through Niche Construction Theory.",
+      "abstract": "I will here pick up on a suggestion made by Greve (2023) in this journal, namely that a proper understanding of lifespan development means defending a non-reductionist psychology taking biological processes seriously, but without reducing psychology to physiology. I will here suggest and argue for the use of niche construction theory as a way of providing a psychological theoretical perspective on lifespan development broad enough to contain both naturalistic and normative elements in a non-reductionist manner.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37751114/",
+      "date_published": "2023-12-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "37751114",
+      "doi": "10.1007/s12124-023-09806-8",
+      "authors": [
+        "Christensen Bo Allesøe"
+      ],
+      "journal": "Integrative psychological & behavioral science",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Longevity",
+        "Biological Evolution"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Comment"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "27eaf1ec-ca69-477d-b9fe-d4bfdf8de671",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Survival after retirement.",
+      "abstract": "A study of survival rates after retirement was conducted for a large corporation in the petroleum industry. A regression analysis was performed to control for age, sex, job status, and type of work differences that may influence longevity. Examination of the residuals showed a bimodal distribution: one group died (on the average) six and a half years after retirement, while the second group survived (on the average) nineteen years. Implications for health care management are discussed.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/3830915/",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "pmid": "3830915",
+      "doi": "10.2190/bvqx-9a75-pp7t-2but",
+      "authors": [
+        "Holloway C",
+        "Youngblood S A"
+      ],
+      "journal": "International journal of aging & human development",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aged",
+        "Female",
+        "Humans",
+        "Longevity",
+        "Male",
+        "Middle Aged",
+        "Occupations",
+        "Regression Analysis",
+        "Retirement",
+        "Sex Factors"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "281655b6-e2cf-4d08-9869-2ca93e760643",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Oxidants, oxidative stress and the biology of ageing.",
+      "abstract": "Living in an oxygenated environment has required the evolution of effective cellular strategies to detect and detoxify metabolites of molecular oxygen known as reactive oxygen species. Here we review evidence that the appropriate and inappropriate production of oxidants, together with the ability of organisms to respond to oxidative stress, is intricately connected to ageing and life span.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11089981/",
+      "date_published": "2000-11-09",
+      "date_indexed": "2026-02-28",
+      "pmid": "11089981",
+      "doi": "10.1038/35041687",
+      "authors": [
+        "Finkel T",
+        "Holbrook N J"
+      ],
+      "journal": "Nature",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Animals",
+        "Cellular Senescence",
+        "Energy Intake",
+        "Humans",
+        "Longevity",
+        "Oxidants",
+        "Oxidative Stress",
+        "Reactive Oxygen Species",
+        "Signal Transduction"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "94669631-5517-41ca-8531-8cc94427a3d8",
+      "source_type": "europe_pmc",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Physical enhancement of older adults using hyperbaric oxygen: a randomized controlled trial.",
+      "abstract": "<h4>Introduction</h4>Aging is associated with a progressive decline in the capacity for physical activity. The objective of the current study was to evaluate the effect of an intermittent hyperbaric oxygen therapy (HBOT) protocol on maximal physical performance and cardiac perfusion in sedentary older adults.<h4>Methods</h4>A randomized controlled clinical trial randomized 63 adults (> 64yrs) either to HBOT (n = 30) or control arms (n = 33) for three months. Primary endpoint included the maximal oxygen consumption (VO<sub>2</sub>Max) and VO<sub>2</sub>Max/Kg, on an E100 cycle ergometer. Secondary endpoints included cardiac perfusion, evaluated by magnetic resonance imaging and pulmonary function. The HBOT protocol comprised of 60 sessions administered on a daily basis, for 12 consecutive weeks, breathing 100% oxygen at 2 absolute atmospheres (ATA) for 90 min with 5-minute air breaks every 20 min.<h4>Results</h4>Following HBOT, improvements were observed in VO<sub>2</sub>Max/kg, with a significant increase of 1.91 ± 3.29 ml/kg/min indicated by a net effect size of 0.455 (p = 0.0034). Additionally, oxygen consumption measured at the first ventilatory threshold (VO<sub>2</sub>VT<sub>1</sub>) showed a significant increase by 160.03 ± 155.35 ml/min (p < 0.001) with a net effect size of 0.617. Furthermore, both cardiac blood flow (MBF) and cardiac blood volume (MBV) exhibited significant increases when compared to the control group. The net effect size for MBF was large at 0.797 (p = 0.008), while the net effect size for MBV was even larger at 0.896 (p = 0.009).<h4>Conclusion</h4>The findings of the study indicate that HBOT has the potential to improve physical performance in aging adults. The enhancements observed encompass improvements in key factors including VO<sub>2</sub>Max, and VO<sub>2</sub>VT<sub>1</sub>. An important mechanism contributing to these improvements is the heightened cardiac perfusion induced by HBOT.<h4>Trial registration</h4>ClinicalTrials.gov Identifier NCT02790541 (registration date 06/06/2016).",
+      "source_url": "https://doi.org/10.1186/s12877-024-05146-3",
+      "date_published": "2024-07-03",
+      "date_indexed": "2026-02-28",
+      "pmid": "38961397",
+      "pmcid": "PMC11220959",
+      "doi": "10.1186/s12877-024-05146-3",
+      "authors": [
+        "Hadanny A",
+        "Sasson E",
+        "Copel L",
+        "Daniel-Kotovsky M",
+        "Yaakobi E",
+        "Lang E",
+        "Fishlev G",
+        "Polak N",
+        "Friedman M",
+        "Doenyas K",
+        "Finci S",
+        "Zemel Y",
+        "Bechor Y",
+        "Efrati S."
+      ],
+      "journal": null,
+      "cited_by_count": 4,
+      "is_open_access": true,
+      "peer_reviewed": true,
+      "is_preprint": false,
+      "is_cochrane": false,
+      "preprint_server": null,
+      "publication_types": [
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Exercise",
+        "Hyperbaric Oxygenation",
+        "Oxygen Consumption",
+        "Aged",
+        "Middle Aged",
+        "Female",
+        "Male"
+      ]
+    },
+    {
+      "id": "8db592cd-90c1-4fa0-b5a8-9ed270814552",
+      "source_type": "europe_pmc",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "The impact of alternate nostril breathing on the severity and frequency of migraine attacks: a randomized control trial.",
+      "abstract": "<h4>Background</h4>Migraine is a prevalent and debilitating neurological disorder that significantly affects quality of life. While pharmacological treatments exist, they can have limitations such as side effects, contraindications, and incomplete relief, prompting interest in non-pharmacological approaches for better symptom management.<h4>Objective</h4>This study aimed to assess the effectiveness of alternate nostril breathing (ANB) as a non-pharmacological intervention to reduce the frequency and severity of migraine attacks and associated disability in adult patients.<h4>Methods</h4>A single-center, open-label, two-arm, parallel-group randomized controlled trial was conducted at six Family Health Centers (FHCs) of Dokuz Eylul University, Izmir, Turkey. A total of 86 migraine patients aged 18-50 years, diagnosed with migraine based on ICD-10 criteria, were randomized into control (n = 43) and intervention (n = 43) groups. The intervention group practiced ANB three times daily for three months, while the control group continued their usual care. The primary outcomes were changes in migraine frequency and severity. Secondary outcomes included changes in migraine-related disability, both outcomes measured using the Migraine Disability Assessment Scale (MIDAS).<h4>Results</h4>The intervention group showed a significant reduction in migraine attack frequency (<i>P</i> = 0.002) and MIDAS scores (<i>P</i> = 0.003) compared to the control group. Both groups experienced a reduction in attack severity (<i>P</i> = 0.001), though no significant difference was observed between the groups (<i>P</i> = 0.074). Within-group comparisons showed significant improvements in attack frequency, severity, and MIDAS scores in the intervention group (<i>P</i> = 0.001 for all).<h4>Conclusion</h4>ANB significantly reduced migraine frequency and disability, making it a promising non-invasive and accessible treatment option for migraine management. Further research with longer follow-up periods is needed to explore its long-term effects and broader applicability.",
+      "source_url": "https://doi.org/10.1017/s1463423625000064",
+      "date_published": "2025-02-14",
+      "date_indexed": "2026-02-28",
+      "pmid": "39950247",
+      "pmcid": "PMC11836872",
+      "doi": "10.1017/s1463423625000064",
+      "authors": [
+        "Çöme O",
+        "Limnili G",
+        "Güldal AD."
+      ],
+      "journal": null,
+      "cited_by_count": 0,
+      "is_open_access": true,
+      "peer_reviewed": true,
+      "is_preprint": false,
+      "is_cochrane": false,
+      "preprint_server": null,
+      "publication_types": [
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Treatment Outcome",
+        "Breathing Exercises",
+        "Severity of Illness Index",
+        "Quality of Life",
+        "Adolescent",
+        "Adult",
+        "Middle Aged",
+        "Turkey",
+        "Female",
+        "Male",
+        "Migraine Disorders",
+        "Young Adult"
+      ]
+    },
+    {
+      "id": "a7a310f1-be71-4dab-89a7-f3b81dca91e0",
+      "source_type": "europe_pmc",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Comparative Evidence on Negative Pressure Therapy and Hyperbaric Oxygen Therapy for Diabetic Foot Ulcers: A Systematic Review of Independent Effectiveness and Clinical Applicability.",
+      "abstract": "<i>Background and Objectives</i>: To evaluate and synthesize evidence on the independent clinical effectiveness, safety, and applicability of Negative Pressure Wound Therapy (NPWT) and Hyperbaric Oxygen Therapy (HBOT) in diabetic foot ulcers (DFUs), and to determine whether current evidence allows for a direct comparison between both interventions: NPWT and HBOT are widely advanced therapies for DFUs. Although both show benefits, the relative superiority of one over the other remains unclear. Systematic review of the literature conducted in accordance with PRISMA guidelines. <i>Materials and Methods</i>: A comprehensive literature search was performed using two electronic databases. The review included randomized controlled trials, systematic reviews, meta-analyses, and non-randomized studies. Methodological quality and risk of bias were assessed using validated tools: RoB 2.0 for randomized trials, AMSTAR-2 for systematic reviews, and ROBINS-I for non-randomized studies. <i>Results</i>: A total of 22 studies were included. NPT was shown to be effective in accelerating wound healing, though results varied depending on the type of intervention and clinical context. HBOT demonstrated beneficial effects on angiogenesis and significantly reduced the rate of major amputations. Both therapies presented significant advantages in the management of diabetic foot ulcers. <i>Conclusions</i>: Negative pressure therapy and hyperbaric oxygen therapy are both effective treatments for diabetic foot ulcer healing. However, treatment selection should be individualized based on patient-specific clinical factors, ulcer severity, and available healthcare resources. Integrating these advanced therapies within a multidisciplinary care approach may optimize outcomes and reduce the risk of complications. Future research should include standardized, head-to-head RCTs.",
+      "source_url": "https://doi.org/10.3390/medicina62010109",
+      "date_published": "2026-01-04",
+      "date_indexed": "2026-02-28",
+      "pmid": "41597395",
+      "pmcid": "PMC12842796",
+      "doi": "10.3390/medicina62010109",
+      "authors": [
+        "Astasio-Picado Á",
+        "Jurado-Palomo J",
+        "Pozo-Aranda B",
+        "Cobos-Moreno P."
+      ],
+      "journal": null,
+      "cited_by_count": 0,
+      "is_open_access": true,
+      "peer_reviewed": true,
+      "is_preprint": false,
+      "is_cochrane": false,
+      "preprint_server": null,
+      "publication_types": [
+        "Systematic Review",
+        "review-article",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Diabetic Foot",
+        "Treatment Outcome",
+        "Hyperbaric Oxygenation",
+        "Wound Healing",
+        "Negative-Pressure Wound Therapy"
+      ]
+    },
+    {
+      "id": "c05f83d3-1a76-4d8d-86ee-9e632f1c1f52",
+      "source_type": "europe_pmc",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Modeling treatment of diabetic wounds with oxygen therapy and senolytic drug.",
+      "abstract": "Diabetic wounds are common in patients with type 2 diabetes; they are ischemic and inflammatory, and difficult to heal without intervention. Hyperbaric oxygen therapy (HBOT) is a standard treatment, but its effectiveness is limited to a subset of the aging population. Senescent fibroblasts, a hallmark of aging, impair wound healing, and senolytic drugs, like quercetin (Q), which target senescent cells, may improve healing. In this study, we developed a mathematical model that defines biological aging through two parameters, η and [Formula: see text], that decline with age. These parameters reflect the biological age of an individual, where η represents fibroblast proliferation and [Formula: see text] represents the production of the angiogenetic protein VEGF. Our model predicts that treatment with only HBOT achieves wound closure, within normal expectable time, for patients with a limited subset pairs of [Formula: see text], and this subset is increased to a larger subset by combining Q with HBOT. The two subsets of [Formula: see text] are determined explicitly by simulations of the model. To make these results applicable in clinical setting, one will have to relate the aging parameters η and [Formula: see text] to tangible marks of biological-aging factors.",
+      "source_url": "https://doi.org/10.1038/s41598-025-02852-9",
+      "date_published": "2025-05-23",
+      "date_indexed": "2026-02-28",
+      "pmid": "40410445",
+      "pmcid": "PMC12102321",
+      "doi": "10.1038/s41598-025-02852-9",
+      "authors": [
+        "Siewe N",
+        "Friedman A."
+      ],
+      "journal": null,
+      "cited_by_count": 0,
+      "is_open_access": true,
+      "peer_reviewed": true,
+      "is_preprint": false,
+      "is_cochrane": false,
+      "preprint_server": null,
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Fibroblasts",
+        "Humans",
+        "Diabetes Mellitus, Type 2",
+        "Quercetin",
+        "Vascular Endothelial Growth Factor A",
+        "Hyperbaric Oxygenation",
+        "Wound Healing",
+        "Models, Theoretical",
+        "Models, Biological",
+        "Senotherapeutics"
+      ]
+    },
+    {
+      "id": "aa482903-88d6-4618-8647-2f382e77a8cb",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Geroscience and Its Promise.",
+      "abstract": "Why we age and whether our lifespan can be extended have intrigued scientists for centuries. Meanwhile public health advances mean humanity is having to confront the realities of an aging and increasingly frail population. The nascent field of geroscience offers hope that healthspan not just lifespan can be extended. It has spawned a vibrant scientific community that includes researchers studying fundamental biology, translational approaches, economics, and research funding. The knowledge gained from work in this area has the potential to influence the lives of most people alive today.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38565266/",
+      "date_published": "2024-08-01",
+      "date_indexed": "2026-02-28",
+      "pmid": "38565266",
+      "doi": "10.1101/cshperspect.a041725",
+      "authors": [
+        "Olshansky S Jay",
+        "Kirkland James L"
+      ],
+      "journal": "Cold Spring Harbor perspectives in medicine",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Humans",
+        "Geriatrics",
+        "Aging",
+        "Longevity"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "72def60a-a648-4270-9d91-cf36292f7128",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric oxygen therapy improves age induced bone dyshomeostasis in non-obese and obese conditions.",
+      "abstract": "AIMS: To investigate the effects of hyperbaric oxygen therapy (HBOT) on metabolic disturbance, aging and bone remodeling in D-galactose-induced aging rats with and without obesity by determining the metabolic parameters, aging and oxidative stress markers, bone turnover markers, bone microarchitecture, and bone biomechanical strength.\nMATERIALS AND METHODS: Male Wistar rats were fed either a normal diet (ND; n = 18) or a HFD (n = 12) for 22 weeks. At week 13, vehicle (0.9% NaCl) was injected into ND-fed rats (NDV; n = 6), while 150 mg/kg/day of D-galactose was injected into 12 ND-fed rats (NDD) and 12 HFD-fed rats (HFDD) for 10 weeks. At week 21, rats were treated with either sham (NDVS, NDDS, or HFDDS; n = 6/ group) or HBOT (NDDH, or HFDDH; n = 6/group) for 14 days. Rats were then euthanized. Blood samples, femora, and tibiae were collected.\nKEY FINDINGS: Both NDD and HFDD groups developed aging as indicated by increased AGE level, increased inflammation and oxidative stress as shown by raised serum TNF-α and MDA levels, impaired bone remodeling as indicated by an increase in levels of CTX-1, TRACP-5b, and impaired bone structure/strength, when compared with those of the NDVS group. HFD aggravated these indicators of bone dyshomeostasis in D-galactose-treated rats. HBOT restored bone remodeling and bone structure/strength in the NDD group, however HBOT ameliorated bone dyshomeostasis in the HFDD group.\nSIGNIFICANCE: HBOT is a potential intervention to decrease the risk of osteoporosis and bone fracture in aging with or without obesity.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35182555/",
+      "date_published": "2022-04-15",
+      "date_indexed": "2026-02-28",
+      "pmid": "35182555",
+      "doi": "10.1016/j.lfs.2022.120406",
+      "authors": [
+        "Imerb Napatsorn",
+        "Thonusin Chanisa",
+        "Pratchayasakul Wasana",
+        "Arunsak Busarin",
+        "Nawara Wichwara",
+        "Aeimlapa Ratchaneevan",
+        "Charoenphandhu Narattaphol",
+        "Chattipakorn Nipon",
+        "Chattipakorn Siriporn C"
+      ],
+      "journal": "Life sciences",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Age Factors",
+        "Aging",
+        "Animals",
+        "Bone Remodeling",
+        "Bone and Bones",
+        "Diet, High-Fat",
+        "Galactose",
+        "Homeostasis",
+        "Hyperbaric Oxygenation",
+        "Inflammation",
+        "Insulin Resistance",
+        "Male",
+        "Obesity",
+        "Osteoporosis",
+        "Oxidative Stress",
+        "Rats",
+        "Rats, Wistar"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "897a73f9-d2a2-4328-8998-2f0f78a1cf07",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Focus on Aging.",
+      "abstract": "As a preview of the upcoming Cell Symposium on Aging and Metabolism in Sitges, Spain, July 10-12 (http://www.cell-symposia-aging-metabolism.com), several of our speakers and other leaders in the field share their stimulating viewpoints and theories on the complex topic of aging.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27304491/",
+      "date_published": "2016-06-14",
+      "date_indexed": "2026-02-28",
+      "pmid": "27304491",
+      "doi": "10.1016/j.cmet.2016.05.021",
+      "authors": [],
+      "journal": "Cell metabolism",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Animals",
+        "Caloric Restriction",
+        "Diet",
+        "Epigenesis, Genetic",
+        "Growth Hormone",
+        "Humans",
+        "Longevity"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "421b385a-9125-4f07-a053-ee2a4124cb39",
+      "source_type": "pubmed",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric oxygen therapy induces transcriptome changes in elderly: a prospective trial.",
+      "abstract": "INTRODUCTION: Aging is characterized by the progressive loss of physiological capacity. Changes in gene expression can alter activity in defined age-related molecular pathways leading to cellular aging and increased aging disease susceptibility. The aim of the current study was to evaluate whether hyperbaric oxygen therapy (HBOT) affects gene expression in normal, non-pathological, aging adults.\nMETHODS: Thirty-five healthy independently living adults, aged 64 and older, were enrolled to receive 60 daily HBOT exposures. Whole blood samples were collected at baseline, at the 30th and 60th HBOT session, and 1-2 weeks following the last session. Differential gene expression analysis was performed.\nRESULTS: Following 60 sessions of HBOT, 1342 genes and 570 genes were differently up- and downregulated (1912 total), respectively (",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34818212/",
+      "date_published": "2021-11-24",
+      "date_indexed": "2026-02-28",
+      "pmid": "34818212",
+      "doi": "10.18632/aging.203709",
+      "authors": [
+        "Hadanny Amir",
+        "Forer Relly",
+        "Volodarsky Dina",
+        "Daniel-Kotovsky Malka",
+        "Catalogna Merav",
+        "Zemel Yonatan",
+        "Bechor Yair",
+        "Efrati Shai"
+      ],
+      "journal": "Aging",
+      "impact_factor": null,
+      "mesh_terms": [
+        "Aging",
+        "Humans",
+        "Hyperbaric Oxygenation",
+        "Oxygen",
+        "RNA, Messenger",
+        "Transcriptome"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "peer_reviewed": true
+    },
+    {
+      "id": "06c008db-e65b-4640-a2b2-281f9c60166f",
+      "source_type": "social",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "I wrote up an enormous list of biohacking, health, and wellness books.",
+      "abstract": "Hey guys! I just finished writing up this **giant** (107 books) list of biohacking/health/wellness books and I thought I’d share it here.\n\nThe links in this post are affiliate-free, btw. So I'll plug my article here:\n\n[**107 of the Best Biohacking, Health, and Wellness Books of 2023**](https://optimizeyourbiology.com/best-biohacking-health-books)\n\nI tried to collect and find every interesting/fringe health book out there into one big list, probably a lot of interesting things in here you’ve never heard of.\n\nNot everyone will dig everything in this list, but hopefully, you’ll find something interesting and new to munch on.\n\nIf there’s anything you think is missing I’d love to hear it!\n\n# Balneotherapy\n\n* [**Bath Bombs &amp; Balneotherapy**](https://www.amazon.com/Bath-Bombs-Balneotherapy-Surprising-Beautiful/dp/1777239605)**:** The Surprising Health Benefits of Bath Bombs and Ancient Secrets of Hot Springs, Dead Sea Minerals and CO2 Baths for Beautiful Skin, Increased Energy, and Weight Loss\n\n# Biohacking\n\n* [**Boundless**](https://www.amazon.com/Boundless-Upgrade-Brain-Optimize-Aging/dp/1628603976)**:** Upgrade Your Brain, Optimize Your Body &amp; Defy Aging\n* [**The Awakened Ape**](https://www.amazon.com/Awakened-Ape-Biohackers-Evolutionary-Stress-Free-ebook/dp/B01MSJN3Q4)**:** A Biohacker's Guide To Evolutionary Fitness, Natural Ecstasy, and Stress-Free Living\n\n# Biophilia\n\n* [**Vitamin N**](https://www.amazon.com/Vitamin-Essential-Guide-Nature-Rich-Life/dp/1616205784)**:** The Essential Guide to a Nature-Rich Life\n* [**The Nature Fix**](https://www.amazon.com/Nature-Fix-Happier-Healthier-Creative/dp/0393242714)**:** Why Nature Makes us Happier, Healthier, and More Creative\n* [**Biophilia**](https://www.amazon.com/Biophilia-Nature-Home-Sally-Coulthard-ebook/dp/B07X6LPCQ7)**:** You + Nature + Home\n* [**The Biophilia Effect**](https://www.amazon.com/Biophilia-Effect-Scientific-Spiritual-Exploration/dp/168364042X)**:** A Scientific and Spiritual Exploration of the He",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/10jbip9/i_wrote_up_an_enormous_list_of_biohacking_health/",
+      "date_published": "2023-01-23",
+      "date_indexed": "2026-02-28",
+      "platform": "reddit",
+      "subreddit": "Biohackers",
+      "score": 195,
+      "comment_count": 23,
+      "sentiment": null
+    },
+    {
+      "id": "3d06c3c2-b76d-4800-9a74-29b50fbcbd3a",
+      "source_type": "social",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "The overhyped media on hyperbaric oxygen therapy for reversing aging - The Sheekey Science Show",
+      "abstract": "The overhyped media on hyperbaric oxygen therapy for reversing aging - The Sheekey Science Show",
+      "source_url": "https://www.reddit.com/r/longevity/comments/k23ico/the_overhyped_media_on_hyperbaric_oxygen_therapy/",
+      "date_published": "2020-11-27",
+      "date_indexed": "2026-02-28",
+      "platform": "reddit",
+      "subreddit": "longevity",
+      "score": 141,
+      "comment_count": 32,
+      "sentiment": null
+    },
+    {
+      "id": "8dad40ad-e3c9-4c87-838c-f553ab9b827d",
+      "source_type": "social",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric oxygen treatment- I just started HBOT treatments at home for memory and mood. Was recommended by my functional medicine doc after doing a qEEQ and finding evidence of a head injury. I should feel something, if I’m going to feel anything, after 20 sessions. I’ll keep you posted.",
+      "abstract": "Hyperbaric oxygen treatment- I just started HBOT treatments at home for memory and mood. Was recommended by my functional medicine doc after doing a qEEQ and finding evidence of a head injury. I should feel something, if I’m going to feel anything, after 20 sessions. I’ll keep you posted.",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/eqousb/hyperbaric_oxygen_treatment_i_just_started_hbot/",
+      "date_published": "2020-01-19",
+      "date_indexed": "2026-02-28",
+      "platform": "reddit",
+      "subreddit": "Biohackers",
+      "score": 116,
+      "comment_count": 48,
+      "sentiment": null
+    },
+    {
+      "id": "132f881a-a8ea-414c-b58c-8a2bdee275e2",
+      "source_type": "social",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Overhyping the Effects of Hyperbaric Oxygen Treatment on Aging",
+      "abstract": "Overhyping the Effects of Hyperbaric Oxygen Treatment on Aging",
+      "source_url": "https://www.reddit.com/r/longevity/comments/jyo9ef/overhyping_the_effects_of_hyperbaric_oxygen/",
+      "date_published": "2020-11-22",
+      "date_indexed": "2026-02-28",
+      "platform": "reddit",
+      "subreddit": "longevity",
+      "score": 133,
+      "comment_count": 24,
+      "sentiment": null
+    },
+    {
+      "id": "e1826ff7-0497-4029-85d7-fdd531603c95",
+      "source_type": "news",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric Oxygen Therapy Treats Age-Related Decline",
+      "abstract": "Bay Area Hyperbarics Logo\n\n# Hyperbaric Oxygen Therapy Treats Age-Related Decline\n\nHyperbaric Oxygen Therapy Treats Age-Related Decline\n\nThe Fountain of Youth: Exploring Hyperbaric Oxygen Therapy as an Anti-Aging Treatment\n\nTruthfully, though, anti-aging isn’t quite the right term. A more accurate term is reverse aging because hyperbaric oxygen therapy (HBOT) has been scientifically proven to reverse the biological markers of aging. No other pill, cream, or therapy to date can combat age-related cognitive decline!\n\nLeading researchers and physicians call hyperbaric treatment the fountain of youth. Patients actually grow younger biologically. Hyperbaric oxygen therapy is a key element of many longevity treatments. [...] Hyperbaric oxygen therapy (HBOT) is revolutionizing the anti-aging industry, offering a safe and noninvasive approach to rejuvenation. Research shows that HBOT is a promising treatment to reverse biological aging. It can increase telomere length, enhance cellular regeneration, reduce inflammation, and improve cognitive function.\n\nOptimizing bodily functions helps mitigate the effects of aging at the cellular level. This can benefit your bones, organs, muscles, brain, and skin and help decrease age-related diseases and illnesses. HBOT enables you and your family members to not only look younger but also feel more energetic and vibrant. [...] Researchers from Tel Aviv University and the Shamir Medical Center in Israel found some exciting data. Hyperbaric oxygen treatments in healthy adults can stop the aging of blood cells and even reverse the process. In essence, the study participants’ blood cells actually grew younger biologically as treatments progressed.\n\n## Hyperbarics 101— What It Is\n\nHyperbaric oxygen therapy involves breathing pure oxygen in a pressurized chamber. The air you breathe has 21% oxygen, whereas in a hyperbaric oxygen chamber, you breathe 100% oxygen.",
+      "source_url": "https://www.bayareahyperbarics.com/latest-research/anti-aging-treatment",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "outlet": "bayareahyperbarics.com",
+      "author": null,
+      "sentiment": null,
+      "reach_estimate": null,
+      "claims_strength": null,
+      "cites_primary_source": false,
+      "primary_source_doi": null
+    },
+    {
+      "id": "746d0dfd-8af7-4c7d-af39-5365f5391000",
+      "source_type": "news",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "Hyperbaric Oxygen Therapy Anti-Aging Benefits",
+      "abstract": "The study suggests that q and cellular metabolism, leading to healthier cell growth. HBOT may also reduce inflammatory reactions, aid the development of new blood vessels, and alleviate oxidative stress, which hastens the aging process.\n\nIn summary, the study indicates that routine hyperbaric oxygen therapy anti-aging chambers may facilitate the longevity and restoration of skin cells in healthy adults.\n\n## The Hyperbaric Chamber Benefits: Anti-Aging [...] ## Key Takeaways\n\nHow does hyperbaric oxygen therapy reverse aging? In short, HBOT addresses many of the hallmarks of aging, such as telomere shortening, senescent cell clearance, and blood vessel development. In addition, infusing oxygen into the bloodstream enables the body to restore skin texture and elasticity.\n\nOxygen also feeds muscles, bones, and joints, which can become weak over time. Some evidence suggests that HBOT helps facilitate stronger cognitive functions and boosts energy levels that often decline with age.\n\nHBOT fortifies the body’s immune response, allowing it to heal and resist harmful bacteria that could cause the body to age faster. [...] NexGen Hyperbaric\nNexGen Hyperbaric Staff\n\n# How Does Hyperbaric Oxygen Therapy Reverse Aging?\n\nHyperbaric oxygen therapy (HBOT) is a modern, medically proven technique many physicians use to promote healing after an injury or surgery. Some doctors also offer HBOT as an elective procedure for patients who want to restore and maintain a youthful look. So, how does hyperbaric oxygen therapy reverse aging?\n\nAs humans age, skin loses elasticity, muscles become less dense, and cognitive functions start to decline. In addition, aging causes the body to stop producing collagen, causing the skin to wrinkle and lose some of its youthful “glow.” This process can occur quickly, depending on a person’s genetics and health conditions.",
+      "source_url": "https://nexgenhyperbaric.com/how-does-hyperbaric-oxygen-therapy-reverse-aging/",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "outlet": "nexgenhyperbaric.com",
+      "author": null,
+      "sentiment": null,
+      "reach_estimate": null,
+      "claims_strength": null,
+      "cites_primary_source": false,
+      "primary_source_doi": null
+    },
+    {
+      "id": "7d3cbe09-dba0-4c53-ae64-fe81c07a244d",
+      "source_type": "news",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "60 sessions later, we have the results: Bryan Johnson's HBOT ...",
+      "abstract": "## Can hyperbaric oxygen therapy improve the aging process?\n\nBryan Johnson’s experiment offers valuable insights into how biomarkers can reflect improvements and challenges in our health while highlighting the complexities of longevity science. Through his detailed approach, Bryan Johnson explores HBOT as a potentially transformative therapy but also encourages us to rethink our understanding of aging, driven by data, discipline, and curiosity.\n\nAs HBOT starts becoming a cornerstone of longevity research, this experiment contributes to the wider conversation on human optimization, scientific exploration, and the future possibilities for extending healthspan.\n\n#### Background: Bryan Johnson’s HBOT longevity experiment [...] zeugma hyperbaric chamber bryan johnson\n\n#### HBOT protocol summary\n\nBryan’s structured study mirrors peer-reviewed HBOT protocols for longevity, most notably the one developed by Dr. Shai Efrati. This clinically validated protocol has shown measurable improvements in cognitive performance, telomere length, and key markers of biological aging.\n\nChamber: ZEUGMA by HpoTech\n\nPressure: 2.0 ATA\n\nDuration: 90-minute sessions\n\nOxygen cycle: 20 min oxygen, 5 min break, repeated\n\nTotal sessions: 60 over 90 days\n\n###### In this short interview from the Don’t Die Summit in Miami (March 22), Bryan Johnson sits down with Jordan Mulligan of the Mulligan Brothers to share key insights into his hyperbaric oxygen therapy (HBOT) protocol and the broader health strategy behind his longevity experiment. [...] At its core, this experiment is less about chasing immortality and more about exploring human potential. Bryan’s mantra, “Don’t Die”, may sound extreme, but behind it lies a universal desire: to live better, for longer, and with greater vitality. The journey to longevity optimization continues as we continue to breathe oxygen.\n\n#### Tags:\n\nAndrei Nico\n\n### Andrei Nico\n\nWith a fascination for hyperbaric oxygen therapy, Andrei combines expert insights, research-driven content, real-world applications and case studies to uncover HBOT's potential for performance, recovery, and longevity.\n\n### HPOTECH x Don’t Die Summit: Exploring the science of longevity with hyperbaric oxygen therapy\n\n### You May Also Like",
+      "source_url": "https://www.hpotech.com/2025/04/24/bryan-johnson-hbot-experiment-results-with-the-zeugma-hyperbaric-chamber/",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "outlet": "hpotech.com",
+      "author": null,
+      "sentiment": null,
+      "reach_estimate": null,
+      "claims_strength": null,
+      "cites_primary_source": false,
+      "primary_source_doi": null
+    },
+    {
+      "id": "8275e01b-cfc2-407a-a29b-a0611404fe78",
+      "source_type": "news",
+      "intervention": "hyperbaric oxygen therapy",
+      "intervention_aliases": [
+        "HBOT",
+        "hyperbaric oxygen",
+        "HBO"
+      ],
+      "title": "The Potential of HBOT for Longevity and Healthspan",
+      "abstract": "Hyperbaric Oxygen NJ\n\n# The Potential of HBOT for Longevity and Healthspan\n\nFor centuries, the pursuit of a longer, healthier life has fascinated humanity. While modern medicine and scientific breakthroughs have unveiled countless ways to enhance lifespan, hyperbaric oxygen therapy (HBOT) stands out as a compelling option for not just extending life but also enriching its quality. As highlighted on HBOT USA, HBOT involves breathing 100% oxygen in a pressurized environment, a practice associated with a range of physiological benefits. From cellular rejuvenation to improved cognitive function, this innovative approach offers exciting possibilities for promoting longevity and supporting a healthier aging process.\n\n### Oxygen’s Role in Aging and Cellular Health [...] ### Oxygen’s Role in Aging and Cellular Health\n\nOxygen is essential for human survival, fueling cellular processes and energy production. However, as we age, oxygen delivery to tissues becomes less efficient, contributing to the decline of cellular function and overall vitality. HBOT addresses this challenge by significantly increasing oxygen availability, thereby supporting optimal cellular health. This enhanced oxygen delivery stimulates the production of adenosine triphosphate (ATP), the body’s primary energy currency, which is vital for maintaining metabolic efficiency and repairing damaged tissues (source). [...] ### HBOT’s Impact on Inflammation and Immune Function\n\nChronic inflammation is a hallmark of aging and is linked to a range of age-related conditions such as arthritis, cardiovascular disease, and neurodegenerative disorders. By reducing inflammation, HBOT creates a healthier internal environment that supports longevity. Studies have shown that HBOT can modulate the production of inflammatory cytokines, promoting a more balanced immune response (source).\n\nAdditionally, HBOT enhances immune function by stimulating the activity of white blood cells. These cells play a critical role in identifying and neutralizing harmful pathogens, as well as repairing damaged tissues. A robust immune system is crucial for maintaining healthspan, the period of life spent in good health.",
+      "source_url": "https://hbotusa.com/the-potential-of-hbot-for-longevity-and-healthspan/",
+      "date_published": "2026-02-28",
+      "date_indexed": "2026-02-28",
+      "outlet": "hbotusa.com",
+      "author": null,
+      "sentiment": null,
+      "reach_estimate": null,
+      "claims_strength": null,
+      "cites_primary_source": false,
+      "primary_source_doi": null
+    }
+  ],
+  "candidate_doc_ids": [
+    "dd7220b7-3bc2-4b60-bf62-4b61fad134b5",
+    "6058da84-0833-45f4-a9d5-ca8a4997c38c",
+    "ece8a3e5-5014-42f6-bc31-e7f66267943a",
+    "0f5bf6f8-7b6f-4e98-ae85-2c6bb916562f",
+    "6f20c3e9-995c-4e85-a443-7477723324f6",
+    "a26dadd3-e421-4562-8516-1d287b24ad10",
+    "c745c10c-f3b1-4b6b-9ca6-268f9254c8df",
+    "57915fe6-398d-4184-8183-4f63352d9494",
+    "c1519283-8353-44a7-baf5-6bea0c5ce5fa",
+    "0b4bb961-fea7-4691-b593-dab562b46c8c",
+    "3b94b4d7-b0dd-4268-9a3e-d0d91d40f9a5",
+    "e68568b6-30dc-4735-87e2-1b276353b62a",
+    "1da7087e-0a02-49d5-a888-75b5ae8510d6",
+    "a1ff96e9-05f5-4888-a3db-318a6e3625be",
+    "ee8527bd-9e33-4682-9445-d8be2f700c87",
+    "7cbb8268-ec74-4a4a-a5d9-d1cb20c2ddc2",
+    "eb202290-8333-4fca-ae3c-9cd69a936272",
+    "0768b4aa-8134-4536-a674-1cb7e9885de4",
+    "22c7951f-245f-47d6-aa46-c08babd6583c",
+    "cd5e69b4-c34d-49a4-bacf-4516238e9a28",
+    "031ffde1-ef85-46a3-bdde-a59721d4e137",
+    "86b60921-33e1-452b-aa0c-5a305d99a5e0",
+    "eff50b3f-9e4a-4dbe-acbf-2340ddbf019f",
+    "d00c018a-6fb5-40d8-aa83-91f3fa6949e5",
+    "72796794-e8f8-468b-a207-53e03436901c",
+    "77c22979-ba51-4c35-9793-0347df13e8aa",
+    "9850cd67-8f5d-4dd7-8bf1-918c74f7a582",
+    "5b97a780-fa81-4a8f-93af-5bcc94330764",
+    "04e776ed-a790-455d-bc71-f327ad1478a5",
+    "4f3577d6-580f-4880-af8b-91779f01b879",
+    "33e40767-1723-4570-ace3-b689ae0e35a5",
+    "a4515615-e3f2-455d-b1a5-c5a39b36479c",
+    "ffe9f579-3205-4eb2-8eb1-13928e42938f",
+    "85c8bdb7-9d81-4b8f-8bea-a7c43a56545b",
+    "7c26d5d9-4f5f-45ca-bd67-a2a78e663d4e",
+    "cb048016-51e6-4719-82e9-18790e686d4f",
+    "2a0b84fd-979a-4004-91da-ef704c58d5d6",
+    "b23e03a4-582c-43c2-8e83-c1a9e6333d83",
+    "51a57440-1a39-4bae-ad5b-0880b6fd1c43",
+    "48d991ff-b4c8-4745-be2f-cc725412f9ac",
+    "999492df-8001-4e8c-891a-43f6d39bdf53",
+    "6ec018f3-720e-41f1-995f-30b3a7704938",
+    "082b8bb6-85f0-4e1f-9088-57c3a28ded36",
+    "cce9942d-99b2-48ae-95c0-9bd6dcd46939",
+    "ed4bc216-a7a5-4804-9536-d025e4a41148",
+    "0c82e939-f1b7-40de-857c-e621cca14378",
+    "9eecebb6-4df1-436f-8a5b-0d263969fc20",
+    "19a3ae8b-fbad-4d20-bb7d-ef4a2ba72d38",
+    "4f912d41-3475-412f-b213-c80fae72ced9",
+    "741e2ce3-46df-4fbe-9a7c-d5aa2afb82eb",
+    "f1714b8f-db57-43e8-88d0-b76c699e55e8",
+    "d5a063af-82c1-4710-a989-9e6dfb043863",
+    "24562d19-7445-4366-a1af-e0dbb97cf534",
+    "3151fdc3-c9a8-4b59-97b3-3e59559b72e8",
+    "e5d24725-5ed5-4c04-b8e9-1d19eb22b492",
+    "fc0bad05-7047-49b4-b1c4-3167fae29546",
+    "1bbc39ac-2b7d-4b4b-99bc-fc93d51c5c76",
+    "7a83a3d5-a892-4a19-b600-492e8ca5c6b8",
+    "4b7db616-6dd4-47fb-acc8-7974d27bb526",
+    "adb94ee9-cd6f-4037-8443-d79b9e497982",
+    "bc94a45d-da6c-4875-a75c-2e6db9ded28f",
+    "53215e0d-74d8-49ae-b91a-226e41ec3b36",
+    "112e6f77-cbcf-4bb5-ba25-9b8ad5ac7569",
+    "caa5ef06-ece2-4119-a0f1-50c3b01af3f3",
+    "5925e914-50b6-4616-a285-b510e02a6478",
+    "a720edd1-197b-46f3-a0fb-5e5fabd103ba",
+    "830cbca9-dc97-4371-8e10-1aa6528da847",
+    "668baadb-3b8e-4bae-8c6b-649b3d855365",
+    "d11d315e-9f3e-417a-af5e-779a4144b315",
+    "8a6c9641-69d5-4866-bc72-6a2206f65aad",
+    "d241c692-4610-4eed-885d-13b9f9661333",
+    "fa2fde96-e0d6-4f48-8690-1c7ac92c07bd",
+    "9b0d10ab-7404-4eab-b3a1-dc5f87325b4c",
+    "dd3ed5a1-384c-46bd-8a3c-dfb4d52d2d7d",
+    "e468504b-21b0-4926-9a03-a0f8576bf19e",
+    "99ba839d-0917-4218-b19d-a371b870d791",
+    "22c2864a-6ad0-461d-8eb8-27bb826d403a"
+  ],
+  "history": [
+    {
+      "step": 0,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "pubmed",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "9bbeead9-70a3-45ec-aa22-095babf9a554",
+        "f4528375-e92e-4da9-90d9-1df406902a7e",
+        "fea52eae-19f4-46cd-8e24-77f8ff216c2f",
+        "e6a48705-d8a4-4026-afc9-b389ae0cc3db"
+      ],
+      "fetched_documents_count": 4
+    },
+    {
+      "step": 1,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "925f76fa-f0cf-4f31-9886-648162c93543",
+        "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2",
+        "437c1fb7-d7c7-4ef3-be69-87d3dda21e18",
+        "ae74f2d2-6d58-482a-a84f-52574dee79ba"
+      ],
+      "fetched_documents_count": 8
+    },
+    {
+      "step": 2,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "dde98e5a-f38e-41e1-85c0-92b9a0003d7b",
+        "ba4e2a56-0f89-4c83-81f9-8294bc643ace",
+        "16e72629-3973-47dd-9d86-3cbd8e449313",
+        "0769bd39-ebbc-4a68-8d61-e875c765ac5c"
+      ],
+      "fetched_documents_count": 12
+    },
+    {
+      "step": 3,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "social",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "703da545-2005-4427-9a8e-b0a4034f5ec6",
+        "e73252ca-1d71-4ce2-8935-bd2880ae71c4",
+        "84fa76b7-ce0c-4d5f-8bb2-19ec39b32069",
+        "8e695d5e-924f-4df9-9495-352cbbd06432"
+      ],
+      "fetched_documents_count": 16
+    },
+    {
+      "step": 4,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "news",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "e95123a0-0717-456f-b9af-f30e9a5cf615",
+        "7f201097-8c2b-4259-a649-6ad3c1ddfc2b",
+        "d33315dd-84ed-4b5e-8491-52114bc1fcf7",
+        "4a18b574-b221-4686-ba3e-65e15838ed86"
+      ],
+      "fetched_documents_count": 20
+    },
+    {
+      "step": 5,
+      "action": "search_documents",
+      "args": {
+        "source_type": "pubmed",
+        "query": "hyperbaric oxygen therapy AND (longevity OR aging OR \"age factors\")",
+        "publication_type_contains": [
+          "Systematic Review",
+          "Review"
+        ],
+        "status": "published",
+        "phase_contains": [],
+        "fields": [
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "reason": "Searching PubMed for systematic reviews and reviews on hyperbaric oxygen therapy related to longevity and aging.",
+      "rows_count": 0,
+      "effective_args": {
+        "source_type": "pubmed",
+        "status": "published",
+        "fields": [
+          "id",
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "auto_fetched_doc_ids": [
+        "dc05965b-03d1-4f17-af91-67b05c6de05a",
+        "dac20560-1689-4dda-9fe8-245e6708e4ea",
+        "c4667423-3d23-4649-8265-16a1da1d9bbc",
+        "4611c9c2-de95-4adc-b50e-c704e0b927c2"
+      ],
+      "fetched_documents_count": 24
+    },
+    {
+      "step": 6,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "clinicaltrials",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "c5ac3f84-2d5f-4eae-84be-0b58b78fb44d",
+        "906a4d58-1341-412c-b064-7d13f73ea4ca",
+        "024ae515-8d11-4736-b142-7a9d174f512c",
+        "233a551b-989a-4028-8461-68e5bee4b20b"
+      ],
+      "fetched_documents_count": 28
+    },
+    {
+      "step": 7,
+      "action": "search_documents",
+      "args": {
+        "source_type": "pubmed",
+        "query": "hyperbaric oxygen therapy AND longevity",
+        "publication_type_contains": [
+          "Systematic Review",
+          "Review"
+        ],
+        "status": "published",
+        "phase_contains": [],
+        "fields": [
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "reason": "Searching PubMed for systematic reviews and reviews on hyperbaric oxygen therapy and longevity to gather evidence.",
+      "rows_count": 0,
+      "effective_args": {
+        "source_type": "pubmed",
+        "status": "published",
+        "fields": [
+          "id",
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "auto_fetched_doc_ids": [
+        "393b2650-8d58-4f4b-8955-1c62cb0f3978",
+        "c2ccc934-36f4-4f2c-ba86-2cf34b94fe41",
+        "27eaf1ec-ca69-477d-b9fe-d4bfdf8de671",
+        "281655b6-e2cf-4d08-9869-2ca93e760643"
+      ],
+      "fetched_documents_count": 32
+    },
+    {
+      "step": 8,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "europe_pmc",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "94669631-5517-41ca-8531-8cc94427a3d8",
+        "8db592cd-90c1-4fa0-b5a8-9ed270814552",
+        "a7a310f1-be71-4dab-89a7-f3b81dca91e0",
+        "c05f83d3-1a76-4d8d-86ee-9e632f1c1f52"
+      ],
+      "fetched_documents_count": 36
+    },
+    {
+      "step": 9,
+      "action": "search_documents",
+      "args": {
+        "source_type": "pubmed",
+        "query": "hyperbaric oxygen therapy AND longevity",
+        "publication_type_contains": [
+          "Systematic Review",
+          "Review"
+        ],
+        "status": "published",
+        "phase_contains": [],
+        "fields": [
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "reason": "Searching PubMed for systematic reviews and reviews on hyperbaric oxygen therapy and longevity to gather evidence.",
+      "rows_count": 0,
+      "effective_args": {
+        "source_type": "pubmed",
+        "status": "published",
+        "fields": [
+          "id",
+          "pmid",
+          "doi",
+          "authors",
+          "journal",
+          "mesh_terms",
+          "publication_types",
+          "peer_reviewed",
+          "impact_factor"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "auto_fetched_doc_ids": [
+        "aa482903-88d6-4618-8647-2f382e77a8cb",
+        "72def60a-a648-4270-9d91-cf36292f7128",
+        "897a73f9-d2a2-4328-8998-2f0f78a1cf07",
+        "421b385a-9125-4f07-a053-ee2a4124cb39"
+      ],
+      "fetched_documents_count": 40
+    },
+    {
+      "step": 10,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "social",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "06c008db-e65b-4640-a2b2-281f9c60166f",
+        "3d06c3c2-b76d-4800-9a74-29b50fbcbd3a",
+        "8dad40ad-e3c9-4c87-838c-f553ab9b827d",
+        "132f881a-a8ea-414c-b58c-8a2bdee275e2"
+      ],
+      "fetched_documents_count": 44
+    },
+    {
+      "step": 11,
+      "action": "search_documents",
+      "args": {},
+      "reason": "",
+      "rows_count": 25,
+      "effective_args": {
+        "source_type": "news",
+        "limit": 25,
+        "offset": 0,
+        "fields": [
+          "id"
+        ]
+      },
+      "auto_fetched_doc_ids": [
+        "e1826ff7-0497-4029-85d7-fdd531603c95",
+        "746d0dfd-8af7-4c7d-af39-5365f5391000",
+        "7d3cbe09-dba0-4c53-ae64-fe81c07a244d",
+        "8275e01b-cfc2-407a-a29b-a0611404fe78"
+      ],
+      "fetched_documents_count": 48
+    },
+    {
+      "step": "final",
+      "action": "final_output_written"
+    }
+  ],
+  "final_output": {
+    "counts_by_source_type": {
+      "pubmed": 16,
+      "clinicaltrials": 8,
+      "europe_pmc": 8,
+      "social": 8,
+      "news": 8
+    },
+    "hype_mass": 75.926,
+    "evidence_mass": 37.8,
+    "hype_to_evidence_ratio": 1.983,
+    "hype_share_0to1": 0.6676,
+    "hype_dominance_score_0to100": 66.8,
+    "hype_score_0to100": 69.6,
+    "hype_score_components": {
+      "ratio_component_0to100": 66.5,
+      "share_component_0to100": 66.8,
+      "volume_component_0to100": 96.1
+    },
+    "confidence_source": "precomputed:outputs/hot_new/hyperbaric oxygen therapy.json",
+    "confidence_score_0to100": 42.1,
+    "hype_confidence_gap": 27.5,
+    "overhype_risk_0to100": 79.1,
+    "underhype_signal_0to100": 0.0,
+    "alignment_label": "likely_overhyped",
+    "interpretation": "Hype substantially exceeds confidence and evidence quality is not keeping pace.",
+    "evidence_breakdown": {
+      "level_counts": {
+        "1": 5,
+        "2": 10,
+        "3": 16,
+        "4": 1,
+        "5": 0,
+        "6": 16
+      },
+      "human_level_1_3_count": 31,
+      "meta_like_count": 5,
+      "rct_like_count": 10,
+      "observational_like_count": 16
+    },
+    "top_hype_doc_ids": [
+      "703da545-2005-4427-9a8e-b0a4034f5ec6",
+      "e73252ca-1d71-4ce2-8935-bd2880ae71c4",
+      "84fa76b7-ce0c-4d5f-8bb2-19ec39b32069",
+      "8e695d5e-924f-4df9-9495-352cbbd06432",
+      "06c008db-e65b-4640-a2b2-281f9c60166f",
+      "8dad40ad-e3c9-4c87-838c-f553ab9b827d",
+      "3d06c3c2-b76d-4800-9a74-29b50fbcbd3a",
+      "132f881a-a8ea-414c-b58c-8a2bdee275e2"
+    ],
+    "top_evidence_doc_ids": [
+      "9bbeead9-70a3-45ec-aa22-095babf9a554",
+      "f4528375-e92e-4da9-90d9-1df406902a7e",
+      "fea52eae-19f4-46cd-8e24-77f8ff216c2f",
+      "e6a48705-d8a4-4026-afc9-b389ae0cc3db",
+      "dde98e5a-f38e-41e1-85c0-92b9a0003d7b",
+      "ba4e2a56-0f89-4c83-81f9-8294bc643ace",
+      "16e72629-3973-47dd-9d86-3cbd8e449313",
+      "0769bd39-ebbc-4a68-8d61-e875c765ac5c"
+    ],
+    "notes": [
+      "hype sources = source_type social/news with optional engagement weighting",
+      "evidence sources = pubmed/europe_pmc/clinicaltrials/regulatory; clinicaltrials completed-without-results are downweighted",
+      "hype_score_0to100 combines ratio, share, and volume components"
+    ]
+  },
+  "analysis_report": {
+    "generated": true,
+    "doc_count_in_pack": 20,
+    "preview": "# Hype-to-Evidence Ratio Report`.\n    *   Write the Executive Summary (3-6 bullets).\n    *   Write the Hype Score + Ratio and Interpretation section.\n    *   Write the Source Breakdown section.\n    *   Write the Top Hype Examples section.\n    *   Write the Top Evidence Examples section.\n    *   Write the Confidence Alignment and Overhype/Underhype Call section.\n    *   Write the Limitations section.\n    *   Write the Actionable Recommendations section.\n\n3.  **Populate Sections with Data:**\n    *   Use the counts and final output numbers provided in the `FINAL OUTPUT` section.\n    *   Cite documents using `(doc: <id>)`.\n    *   Ensure all numbers are copied directly from the final output.\n    *   Use the provided evidence pack to identify the top examples.\n\n**Data Extraction from Final Output:**\n\n*   **Counts:**\n    *   pubmed: 16\n    *   clinicaltrials: 8\n    *   europe_pmc: 8\n    *   social: 8\n    *   news: 8\n*   **Hype Mass:** 75.926\n*   **Evidence Mass:** 37.8\n*   **Hype-to-Evidence",
+    "path": "outputs/hot_new/hyperbaric oxygen therapy_hype_ratio.md"
+  }
+}

@@ -36,6 +36,7 @@ def _safe_json_parse(text: str) -> dict[str, Any] | None:
 def _strip_thought(text: str) -> str:
     s = (text or "").strip()
     s = re.sub(r"^<unused\d+>thought\s*", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"(?mi)<unused\d+>\s*", "", s)
     return s.strip()
 
 
@@ -47,8 +48,9 @@ def _clean_report_markdown(text: str) -> str:
             s = s[:-3].rstrip()
 
     anchors = [
-        r"(?mi)^#\s+Evidence Confidence Report\b",
-        r"(?mi)^##\s+Executive Summary\b",
+        r"(?mi)#\s+Evidence Confidence Report\b",
+        r"(?mi)^\s*##\s+Executive Summary\b",
+        r"(?mi)^\s*1\)\s*(?:\*\*)?\s*Executive Summary\b",
     ]
     starts: list[int] = []
     for pat in anchors:
@@ -640,6 +642,7 @@ TEXT:
             raw = llm_call_fn(
                 prompt
                 + "\n\nIMPORTANT: Output ONLY the final report markdown. Do not include plan/execution/thought. "
+                + "Do not include constraint checklists, sandbox notes, or strategy text. "
                 + "Start with '# Evidence Confidence Report'."
             )
             out = _clean_report_markdown(raw)
