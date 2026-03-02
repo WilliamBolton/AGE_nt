@@ -1,8 +1,8 @@
 {
   "company": "Roche",
-  "ticker": "ROG.SW (source: https://companiesmarketcap.com/roche/market-cap/ )",
-  "hq": "Basel, Switzerland (source: https://www.roche.com/about)",
-  "market_cap_approx": "≈$250B (source: https://companiesmarketcap.com/roche/market-cap/ ; accessed 2026-02-28)",
+  "ticker": "ROG.SW",
+  "hq": "Basel, Switzerland",
+  "market_cap_approx": "≈$250B",
   "therapeutic_areas": [
     "Oncology (example marketed asset: TECENTRIQ/atezolizumab; source: https://www.gene.com/download/pdf/tecentriq_prescribing.pdf)",
     "Immunology/Rheumatology (example marketed asset: ACTEMRA/tocilizumab; source: https://www.gene.com/download/pdf/actemra_prescribing.pdf)",
@@ -11,7 +11,7 @@
     "Diagnostics (Roche operates Pharmaceuticals and Diagnostics divisions; source: https://en.wikipedia.org/wiki/Roche )"
   ],
   "aging_relevance": "moderate",
-  "aging_relevance_reasoning": "Roche has multiple marketed medicines in conditions strongly associated with aging, including neovascular age-related macular degeneration (VABYSMO indication; source: https://www.gene.com/download/pdf/vabysmo_prescribing.pdf; AMD is age-related; source: https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration), cancer (e.g., TECENTRIQ; source: https://www.gene.com/download/pdf/tecentriq_prescribing.pdf; cancer risk increases with age; source: https://www.cancer.gov/about-cancer/causes-prevention/risk/age), and idiopathic pulmonary fibrosis (ESBRIET indication; source: https://www.gene.com/download/pdf/esbriet_prescribing.pdf; IPF typically affects older adults; source: https://medlineplus.gov/idiopathicpulmonaryfibrosis.html). However, Roche’s publicly visible portfolio is primarily disease-focused rather than explicitly targeting aging biology as an indication (source needed).",
+  "aging_relevance_reasoning": "Roche has multiple marketed medicines in conditions strongly associated with aging, including neovascular age-related macular degeneration (VABYSMO indication; source: https://www.gene.com/download/pdf/vabysmo_prescribing.pdf; AMD is age-related; source: https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration), cancer (e.g., TECENTRIQ; source: https://www.gene.com/download/pdf/tecentriq_prescribing.pdf; cancer risk increases with age; source: https://www.cancer.gov/about-cancer/causes-prevention/risk/age), and idiopathic pulmonary fibrosis (ESBRIET indication; source: https://www.gene.com/download/pdf/esbriet_prescribing.pdf; IPF typically affects older adults; source: https://medlineplus.gov/idiopathicpulmonaryfibrosis.html). However, Roche’s publicly visible portfolio is primarily disease-focused rather than explicitly targeting aging biology as an indication.",
   "existing_longevity_assets": [
     {
       "compound": "tocilizumab (ACTEMRA)",

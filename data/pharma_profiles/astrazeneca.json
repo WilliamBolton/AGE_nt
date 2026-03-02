@@ -1,55 +1,55 @@
 {
   "company": "AstraZeneca",
   "ticker": "AZN (Nasdaq listing page: https://www.nasdaq.com/market-activity/stocks/azn)",
-  "hq": "Cambridge, England, United Kingdom (https://en.wikipedia.org/wiki/AstraZeneca)",
+  "hq": "Cambridge, England, United Kingdom",
   "market_cap_approx": null,
   "therapeutic_areas": [
-    "Oncology (https://www.astrazeneca.com/our-therapy-areas.html) ",
-    "Cardiovascular, Renal & Metabolism (https://www.astrazeneca.com/our-therapy-areas.html)",
-    "Respiratory & Immunology (https://www.astrazeneca.com/our-therapy-areas.html)",
-    "Vaccines & Immune Therapies (https://www.astrazeneca.com/our-therapy-areas.html)",
-    "Rare Disease (https://www.astrazeneca.com/our-therapy-areas.html)"
+    "Oncology",
+    "Cardiovascular, Renal & Metabolism",
+    "Respiratory & Immunology",
+    "Vaccines & Immune Therapies",
+    "Rare Disease"
   ],
   "aging_relevance": "moderate",
-  "aging_relevance_reasoning": "AstraZeneca’s stated core therapy areas include Cardiovascular, Renal & Metabolism and Respiratory & Immunology (https://www.astrazeneca.com/our-therapy-areas.html), which align with longevity-relevant biology via (1) metabolic/nutrient-handling pathways and cardiometabolic disease modification (e.g., dapagliflozin/FARXIGA; FDA Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=202293) and (2) modulation of inflammatory/immune signaling (e.g., tezepelumab/TEZSPIRE, benralizumab/FASENRA; FDA Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761224 and https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761070). This profile’s hallmark mapping is therefore driven by marketed metabolic and anti-inflammatory/immunology assets rather than an explicitly disclosed, company-branded aging indication program (source needed for any dedicated aging/longevity R&D unit or aging indication strategy).",
+  "aging_relevance_reasoning": "AstraZeneca’s stated core therapy areas include Cardiovascular, Renal & Metabolism and Respiratory & Immunology, which align with longevity-relevant biology via (1) metabolic/nutrient-handling pathways and cardiometabolic disease modification (e.g., dapagliflozin/FARXIGA; FDA Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=202293) and (2) modulation of inflammatory/immune signaling (e.g., tezepelumab/TEZSPIRE, benralizumab/FASENRA; FDA Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761224 and https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761070). This profile’s hallmark mapping is therefore driven by marketed metabolic and anti-inflammatory/immunology assets rather than an explicitly disclosed, company-branded aging indication program.",
   "existing_longevity_assets": [
     {
       "compound": "FARXIGA (dapagliflozin)",
       "intervention_link": null,
-      "status": "Approved (FDA) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=202293)",
-      "indication": "Type 2 diabetes mellitus; heart failure; chronic kidney disease (see FDA labeling via Drugs@FDA application overview) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=202293)",
+      "status": "Approved (FDA)",
+      "indication": "Type 2 diabetes mellitus; heart failure; chronic kidney disease (see FDA labeling via Drugs@FDA application overview)",
       "relevance": "Metabolic/cardiometabolic disease modification asset; relevant to longevity discussions via metabolic_intervention and nutrient-handling physiology (analytic mapping; source needed for any direct aging indication development).",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=202293"
     },
     {
       "compound": "TEZSPIRE (tezepelumab-ekko)",
       "intervention_link": null,
-      "status": "Approved (FDA) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761224)",
-      "indication": "Add-on maintenance treatment of severe asthma (see FDA labeling via Drugs@FDA application overview) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761224)",
+      "status": "Approved (FDA)",
+      "indication": "Add-on maintenance treatment of severe asthma (see FDA labeling via Drugs@FDA application overview)",
       "relevance": "Anti-inflammatory / immune signaling modulation asset; relevant to inflammaging concepts and altered immune communication (analytic mapping; source needed for direct aging indication development).",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761224"
     },
     {
       "compound": "FASENRA (benralizumab)",
       "intervention_link": null,
-      "status": "Approved (FDA) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761070)",
-      "indication": "Add-on maintenance treatment of severe eosinophilic asthma (see FDA labeling via Drugs@FDA application overview) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761070)",
+      "status": "Approved (FDA)",
+      "indication": "Add-on maintenance treatment of severe eosinophilic asthma (see FDA labeling via Drugs@FDA application overview)",
       "relevance": "Anti-inflammatory biologic; relevant to chronic_inflammation/immune-mediated pathology frameworks (analytic mapping; source needed for direct aging indication development).",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761070"
     },
     {
       "compound": "SOLIRIS (eculizumab) (Alexion/AstraZeneca Rare Disease)",
       "intervention_link": null,
-      "status": "Approved (FDA) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125166)",
-      "indication": "Multiple complement-mediated rare disease indications (see FDA labeling via Drugs@FDA application overview) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125166)",
+      "status": "Approved (FDA)",
+      "indication": "Multiple complement-mediated rare disease indications (see FDA labeling via Drugs@FDA application overview)",
       "relevance": "Immune/inflammatory pathway modulation (complement) potentially relevant to systemic inflammation biology (analytic mapping; source needed for direct aging indication development).",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125166"
     },
     {
       "compound": "IMFINZI (durvalumab)",
       "intervention_link": null,
-      "status": "Approved (FDA) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761069)",
-      "indication": "Multiple cancer indications (see FDA labeling via Drugs@FDA application overview) (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761069)",
+      "status": "Approved (FDA)",
+      "indication": "Multiple cancer indications (see FDA labeling via Drugs@FDA application overview)",
       "relevance": "Immune modulation asset (oncology immunotherapy) with conceptual relevance to immune_rejuvenation/immune surveillance frameworks in aging (analytic mapping; source needed for direct aging indication development).",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761069"
     }
@@ -65,7 +65,7 @@
       "target": "Alexion Pharmaceuticals",
       "year": 2021,
       "value_usd": 39000000000,
-      "relevance": "Expanded AstraZeneca into complement/rare-disease immunology with potential longevity-adjacent relevance through immune/inflammatory biology (deal value per AstraZeneca press release) (https://www.astrazeneca.com/media-centre/press-releases/2021/astrazeneca-completes-acquisition-of-alexion.html)",
+      "relevance": "Expanded AstraZeneca into complement/rare-disease immunology with potential longevity-adjacent relevance through immune/inflammatory biology (deal value per AstraZeneca press release)",
       "source": "https://www.astrazeneca.com/media-centre/press-releases/2021/astrazeneca-completes-acquisition-of-alexion.html"
     }
   ],
@@ -73,9 +73,9 @@
     "preferred_stage": "Large strategic acquisitions of established commercial platforms alongside therapy-area expansion (inferred from Alexion acquisition described by AstraZeneca as completed acquisition; source: https://www.astrazeneca.com/media-centre/press-releases/2021/astrazeneca-completes-acquisition-of-alexion.html; broader pattern source needed).",
     "avg_deal_size_usd": null,
     "focus_areas": [
-      "Rare disease / immunology (Alexion) (https://www.astrazeneca.com/media-centre/press-releases/2021/astrazeneca-completes-acquisition-of-alexion.html)"
+      "Rare disease / immunology (Alexion)"
     ],
-    "recent_trend": "Publicly disclosed recent major transaction includes the Alexion acquisition to strengthen Rare Disease/immunology (https://www.astrazeneca.com/media-centre/press-releases/2021/astrazeneca-completes-acquisition-of-alexion.html); additional recent-deal trend characterization and averages require more deal sample and sources (source needed)."
+    "recent_trend": "Publicly disclosed recent major transaction includes the Alexion acquisition to strengthen Rare Disease/immunology; additional recent-deal trend characterization and averages require more deal sample and sources."
   },
   "sources": [
     "https://www.nasdaq.com/market-activity/stocks/azn",

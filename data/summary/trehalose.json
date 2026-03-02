@@ -146,12 +146,12 @@
       "Unknown": 3
     },
     "lifespan_change": {
-      "positive_count": 0,
-      "negative_count": 0,
+      "positive_count": 2,
+      "negative_count": 1,
       "null_count": 0,
-      "mean_change": null,
-      "max_extension": null,
-      "max_reduction": null
+      "mean_change": 12.0,
+      "max_extension": 32.0,
+      "max_reduction": -4.0
     }
   },
   "grants": {

@@ -1,0 +1,121 @@
+{
+  "confidence": 69.47,
+  "confidence_raw": 69.47,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 15.56,
+    "2": 29.86,
+    "3": 13.11,
+    "4": 10.72,
+    "5": 0.02,
+    "6": 0.21
+  },
+  "selected_counts_by_level": {
+    "1": 3,
+    "2": 53,
+    "3": 32,
+    "4": 178,
+    "5": 1,
+    "6": 90
+  },
+  "top_docs": [
+    {
+      "id": "8d4afbe5-0d86-4601-af26-1f2fe916d6f3",
+      "source_type": "semantic_scholar",
+      "title": "Taurine deficiency as a driver of aging",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "6ace13ae-ad54-435b-99f7-030fa23df058",
+      "source_type": "pubmed",
+      "title": "Taurine as a possible antiaging therapy: A controlled clinical trial on taurine antioxidant activity in women ages 55 to 70.",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "93bf7dbc-9a62-4d00-ac8f-d0b27651ec91",
+      "source_type": "news",
+      "title": "A molecule already produced in our bodies, taurine, may be the key ...",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d73c8f04-b288-4811-9f27-3816f5ba291f",
+      "source_type": "clinicaltrials",
+      "title": "Acamprosate for Central Nervous System Hyperexcitability and Neuroadaptation in Alcohol Withdrawal",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "81fcc229-8cf1-4858-a0a1-d594b21b8733",
+      "source_type": "clinicaltrials",
+      "title": "Neurophysiological Effects of Whole Coffee Cherry Extract in Older Adults: An fMRI Investigation",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d49b6bf6-3a4c-45f5-bfe8-b9853b3e7246",
+      "source_type": "clinicaltrials",
+      "title": "Long-term Intervention Effects of a Personalized, Home-based Exercise Program and Nutritional Advice, Along With the Inclusion of a Pre-workout Multi-ingredient Supplement on the Body Composition, Functional Capacity and Quality of Life of Middle-aged and Older Adults (40-70 Years)",
+      "level": 2,
+      "doc_weight": 0.4933,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "eb6e1387-364a-4afd-aa49-13c29c953219",
+      "source_type": "pubmed",
+      "title": "Effectiveness of salvage catheters in home parenteral nutrition: A single-center study and systematic literature review.",
+      "level": 1,
+      "doc_weight": 0.4506,
+      "relevance": 1,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8c8b1d22-bb37-45ad-a6f2-1d50a982e0c1",
+      "source_type": "news",
+      "title": "Could Taurine Supplements Slow Down Aging?",
+      "level": 2,
+      "doc_weight": 0.4452,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=357"
+  ]
+}

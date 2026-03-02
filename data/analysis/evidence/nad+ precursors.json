@@ -1,0 +1,121 @@
+{
+  "confidence": 72.04,
+  "confidence_raw": 72.04,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.73,
+    "2": 29.86,
+    "3": 4.69,
+    "4": 7.61,
+    "5": 0.01,
+    "6": 0.13
+  },
+  "selected_counts_by_level": {
+    "1": 12,
+    "2": 60,
+    "3": 11,
+    "4": 101,
+    "5": 1,
+    "6": 56
+  },
+  "top_docs": [
+    {
+      "id": "e32f972a-8dd5-4603-adad-bf8db49e85ac",
+      "source_type": "pubmed",
+      "title": "Exercise training upregulates intracellular nicotinamide phosphoribosyltransferase expression in humans: a systematic review with meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "cb56fcc0-4296-46ce-addf-9ed90905ce31",
+      "source_type": "europe_pmc",
+      "title": "NAD\u207a supplementation for anti-aging and wellness: a PRISMA-guided systematic review of preclinical and clinical evidence.",
+      "level": 1,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0b8b0f4a-6dd4-4a28-9aba-d92f6dc11a15",
+      "source_type": "clinicaltrials",
+      "title": "Vascular Graft Infections - Epidemiology, Best Treatment Options, Imaging Modalities and Impact of Negative Pressure Wound Therapy",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "25e79871-9c38-4c89-ade5-310601e0809a",
+      "source_type": "pubmed",
+      "title": "Superior even skin tone and anti-ageing benefit of a combination of 4-hexylresorcinol and niacinamide.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bf5ae06e-c983-4b52-8e70-3308338529a6",
+      "source_type": "pubmed",
+      "title": "Nicotinamide Adenine Dinucleotide in Aging Biology: Potential Applications and Many Unknowns.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ad875cf0-08f0-42d1-b19e-9fa7ea2fd59d",
+      "source_type": "europe_pmc",
+      "title": "A randomized placebo-controlled trial of nicotinamide riboside in older adults with mild cognitive impairment.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4922c480-fce4-4023-a729-6726334fddae",
+      "source_type": "europe_pmc",
+      "title": "Nicotinamide Adenine Dinucleotide in Aging Biology: Potential Applications and Many Unknowns.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f2e40dc1-5d25-414b-ac50-e1de2dd6544e",
+      "source_type": "pubmed",
+      "title": "NMN: The NAD precursor at the intersection between axon degeneration and anti-ageing therapies.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=241"
+  ]
+}

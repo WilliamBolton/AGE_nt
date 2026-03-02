@@ -11,63 +11,59 @@ import {
   ZAxis,
 } from "recharts";
 
-interface Intervention {
+interface LandscapeEntry {
   name: string;
   document_count: number;
-}
-
-interface ToolResult {
-  intervention: string;
-  composite_score?: number;
-  momentum_score?: number;
-  completeness_score?: number;
-  phase?: string;
+  confidence: number;
+  source_types: number;
 }
 
 interface ScatterPoint {
   name: string;
-  evidence: number;
   docs: number;
+  confidence: number;
+  sources: number;
   x: number;
   y: number;
 }
 
 export default function LandscapeExplorer() {
-  const [interventions, setInterventions] = useState<Intervention[]>([]);
+  const [entries, setEntries] = useState<LandscapeEntry[]>([]);
   const [scatterData, setScatterData] = useState<ScatterPoint[]>([]);
   const [loading, setLoading] = useState(true);
-  const [tools, setTools] = useState<string[]>([]);
-  const [minDocs, setMinDocs] = useState(10);
+  const [toolCount, setToolCount] = useState(0);
+  const [minDocs, setMinDocs] = useState(4);
 
   useEffect(() => {
-    Promise.all([api.listInterventions(), api.listTools()])
-      .then(([intData, toolData]) => {
-        setInterventions(intData.interventions || []);
-        setTools((toolData.tools || []).map((t: { name: string }) => t.name));
+    Promise.all([api.landscapeScores(), api.listTools()])
+      .then(([landscape, toolData]) => {
+        setEntries(landscape.interventions || []);
+        setToolCount(toolData.count || 0);
       })
       .catch(() => {})
       .finally(() => setLoading(false));
   }, []);
 
   useEffect(() => {
-    const filtered = interventions.filter((i) => i.document_count >= minDocs);
+    const filtered = entries.filter((i) => i.document_count >= minDocs);
     const data: ScatterPoint[] = filtered.map((i) => ({
       name: i.name,
-      evidence: i.document_count,
       docs: i.document_count,
+      confidence: i.confidence,
+      sources: i.source_types,
       x: i.document_count,
-      y: Math.random() * 80 + 10,
+      y: i.confidence,
     }));
     setScatterData(data);
-  }, [interventions, minDocs]);
+  }, [entries, minDocs]);
 
   return (
     <div className="p-6 space-y-6 max-w-7xl mx-auto">
       <div>
         <h2 className="text-2xl font-bold font-heading text-on-surface">Landscape Explorer</h2>
         <p className="text-sm text-on-surface-variant mt-1">
-          Explore the intervention evidence landscape. {interventions.length} interventions,{" "}
-          {tools.length} analysis tools available.
+          Evidence volume vs confidence across {entries.length} interventions.{" "}
+          {toolCount} analysis tools available.
         </p>
       </div>
 
@@ -87,7 +83,7 @@ export default function LandscapeExplorer() {
           <span className="text-sm font-medium w-8 text-on-surface">{minDocs}</span>
         </div>
         <div className="text-sm text-on-surface-variant">
-          Showing {scatterData.length} of {interventions.length} interventions
+          Showing {scatterData.length} of {entries.length} interventions
         </div>
       </div>
 
@@ -97,34 +93,43 @@ export default function LandscapeExplorer() {
         </div>
       ) : (
         <>
-          {/* Scatter plot */}
+          {/* Scatter plot: Documents (x) vs Confidence Score (y) */}
           <div className="bg-surface-container-lowest rounded-xl border border-outline-variant p-6">
-            <h3 className="font-semibold font-heading mb-4 text-on-surface">Evidence Volume</h3>
+            <h3 className="font-semibold font-heading mb-1 text-on-surface">
+              Evidence Volume vs Confidence
+            </h3>
+            <p className="text-xs text-on-surface-variant mb-4">
+              X = total documents ingested. Y = evidence confidence score (0-100, based on study quality + human data gating).
+              Bubble size = source diversity.
+            </p>
             {scatterData.length > 0 ? (
-              <ResponsiveContainer width="100%" height={400}>
-                <ScatterChart>
+              <ResponsiveContainer width="100%" height={420}>
+                <ScatterChart margin={{ bottom: 20, left: 10 }}>
                   <XAxis
                     type="number"
                     dataKey="x"
                     name="Documents"
-                    label={{ value: "Total Documents", position: "bottom" }}
+                    label={{ value: "Total Documents", position: "bottom", offset: 0 }}
                   />
                   <YAxis
                     type="number"
                     dataKey="y"
-                    name="Score"
-                    label={{ value: "Score", angle: -90, position: "left" }}
+                    name="Confidence"
+                    domain={[0, 100]}
+                    label={{ value: "Evidence Confidence (0-100)", angle: -90, position: "insideLeft", offset: 10 }}
                   />
-                  <ZAxis type="number" dataKey="docs" range={[40, 400]} />
+                  <ZAxis type="number" dataKey="sources" range={[40, 400]} name="Source Types" />
                   <Tooltip
                     content={({ payload }) => {
                       if (!payload?.length) return null;
                       const d = payload[0].payload as ScatterPoint;
                       return (
                         <div className="bg-surface-container-lowest shadow-lg border border-outline-variant rounded-lg px-3 py-2">
-                          <div className="font-medium text-sm text-on-surface">{d.name}</div>
-                          <div className="text-xs text-on-surface-variant">
-                            {d.docs} documents
+                          <div className="font-medium text-sm text-on-surface capitalize">{d.name}</div>
+                          <div className="text-xs text-on-surface-variant space-y-0.5 mt-1">
+                            <div>{d.docs} documents</div>
+                            <div>Confidence: <span className="font-medium text-primary">{d.confidence.toFixed(1)}</span>/100</div>
+                            <div>{d.sources} source types</div>
                           </div>
                         </div>
                       );
@@ -150,32 +155,28 @@ export default function LandscapeExplorer() {
                 <thead className="sticky top-0">
                   <tr className="bg-surface-container text-left text-xs font-medium text-on-surface-variant uppercase">
                     <th className="px-6 py-3">Intervention</th>
-                    <th className="px-6 py-3">Documents</th>
+                    <th className="px-6 py-3 text-right">Documents</th>
+                    <th className="px-6 py-3 text-right">Sources</th>
+                    <th className="px-6 py-3 text-right">Confidence</th>
                     <th className="px-6 py-3">Evidence</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-outline-variant">
-                  {interventions
-                    .sort((a, b) => b.document_count - a.document_count)
+                  {[...entries]
+                    .sort((a, b) => b.confidence - a.confidence)
                     .map((i) => (
                       <tr key={i.name} className="hover:bg-surface-container-low">
-                        <td className="px-6 py-3 text-sm font-medium text-on-surface">{i.name}</td>
-                        <td className="px-6 py-3 text-sm text-on-surface">{i.document_count}</td>
+                        <td className="px-6 py-3 text-sm font-medium text-on-surface capitalize">{i.name}</td>
+                        <td className="px-6 py-3 text-sm text-on-surface text-right">{i.document_count}</td>
+                        <td className="px-6 py-3 text-sm text-on-surface text-right">{i.source_types}</td>
+                        <td className="px-6 py-3 text-sm text-right font-medium text-primary">
+                          {i.confidence.toFixed(1)}
+                        </td>
                         <td className="px-6 py-3">
                           <div className="w-24 h-2 bg-surface-variant rounded-full overflow-hidden">
                             <div
                               className="h-full bg-primary rounded-full"
-                              style={{
-                                width: `${Math.min(
-                                  (i.document_count /
-                                    Math.max(
-                                      ...interventions.map((x) => x.document_count),
-                                      1
-                                    )) *
-                                    100,
-                                  100
-                                )}%`,
-                              }}
+                              style={{ width: `${Math.min(i.confidence, 100)}%` }}
                             />
                           </div>
                         </td>
@@ -188,7 +189,7 @@ export default function LandscapeExplorer() {
         </>
       )}
 
-      {!loading && interventions.length === 0 && (
+      {!loading && entries.length === 0 && (
         <div className="text-center py-20 text-on-surface-variant">
           <Map size={48} className="mx-auto mb-4 text-outline" />
           <p className="text-lg font-medium font-heading">No interventions found</p>

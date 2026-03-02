@@ -161,12 +161,12 @@
       "Male": 3
     },
     "lifespan_change": {
-      "positive_count": 0,
-      "negative_count": 0,
+      "positive_count": 16,
+      "negative_count": 2,
       "null_count": 0,
-      "mean_change": null,
-      "max_extension": null,
-      "max_reduction": null
+      "mean_change": 11.65,
+      "max_extension": 56.25,
+      "max_reduction": -7.89
     }
   },
   "grants": {

@@ -17,20 +17,20 @@
   "key_people": [],
   "investors_notable": [],
   "risks": [
-    "Company-specific execution risk: limited/no readily verifiable public disclosure located in provided context for leadership, financing, pipeline, or clinical status (source needed).",
+    "Company-specific execution risk: limited/no readily verifiable public disclosure located in provided context for leadership, financing, pipeline, or clinical status.",
     "Senolytic translation risk: clearance of senescent cells can have context-dependent effects; senescence also has beneficial roles in wound healing/tumor suppression, complicating therapeutic window and patient selection (Kirkland & Tchkonia, Nature Medicine, 2020, 'Senolytic drugs: from discovery to translation', DOI:10.1038/s41591-020-01185-4).",
     "Safety risk (class): some senolytic mechanisms (e.g., BCL-2 family inhibition) have demonstrated dose-limiting toxicities such as thrombocytopenia in humans (Roberts et al., Nature Medicine, 2012, navitoclax/ABT-263 study, DOI:10.1038/nm.2598).",
     "Biomarker risk: measuring senescent cell burden and on-treatment target engagement remains challenging; lack of validated biomarkers can slow trials and regulatory alignment (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4).",
     "Indication risk: age-related diseases are heterogeneous; benefits seen in preclinical models may not translate due to differences in senescent cell types, tissue distribution, and immune clearance between animals and humans (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4)."
   ],
   "competitive_advantages": [
-    "If the company is developing true senolytics (source needed), the modality is hypothesized to address upstream drivers of multiple age-related pathologies by selectively eliminating senescent cells and reducing SASP-mediated inflammation/altered signaling (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4).",
+    "If the company is developing true senolytics, the modality is hypothesized to address upstream drivers of multiple age-related pathologies by selectively eliminating senescent cells and reducing SASP-mediated inflammation/altered signaling (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4).",
     "Potential for intermittent (\"hit-and-run\") dosing paradigms, which may improve adherence and reduce chronic exposure toxicity versus continuous therapies, depending on mechanism/PK-PD (Kirkland & Tchkonia, Nature Medicine, 2020, DOI:10.1038/s41591-020-01185-4)."
   ],
   "acquisition_estimate": {
     "low_usd": 50000000,
     "high_usd": 300000000,
-    "methodology": "Heuristic range for an early/preclinical small-molecule biotech with unverified public pipeline/financing (source needed). Range is anchored as a small fraction of upfront values paid for higher-visibility discovery platforms/early clinical assets in adjacent areas; without confirmed clinical stage, IP position, or human data for Senolytic Therapeutics, a steep discount is applied (source needed).",
+    "methodology": "Heuristic range for an early/preclinical small-molecule biotech with unverified public pipeline/financing. Range is anchored as a small fraction of upfront values paid for higher-visibility discovery platforms/early clinical assets in adjacent areas; without confirmed clinical stage, IP position, or human data for Senolytic Therapeutics, a steep discount is applied.",
     "comparable_deals": [
       "Bayer acquisition of Vividion Therapeutics (announced 2021-08-05): $1.5B upfront, up to $0.5B milestones (Bayer press release, 2021-08-05, 'Bayer to acquire Vividion Therapeutics').",
       "Merck acquisition of Peloton Therapeutics (announced 2019-11-19): ~$1.05B upfront, up to ~$1.15B milestones (Merck press release, 2019-11-19, 'Merck to Acquire Peloton Therapeutics').",

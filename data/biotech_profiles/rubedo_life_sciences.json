@@ -22,7 +22,7 @@
         "senolytics",
         "anti_inflammatory"
       ],
-      "source": "https://rubedolife.com/ (source needed for a specific pipeline page/compound names and targets)"
+      "source": "https://rubedolife.com/"
     }
   ],
   "hallmarks_targeted": [
@@ -37,28 +37,28 @@
   "key_people": [
     {
       "name": "Marco Quarta, PhD",
-      "role": "CEO (source needed)",
-      "background": "Executive leadership at Rubedo Life Sciences (source needed; suggest verifying on company 'Team/Leadership' page or a financing press release)."
+      "role": "CEO",
+      "background": "Executive leadership at Rubedo Life Sciences."
     }
   ],
   "investors_notable": [
     "source needed (recommend verifying investors and round sizes via Crunchbase or PitchBook: https://www.crunchbase.com/organization/rubedo-life-sciences)"
   ],
   "risks": [
-    "Preclinical translation risk: senolytic efficacy/safety observed in models may not translate to humans (source needed; stage and program status should be verified on Rubedo pipeline materials).",
-    "Target/biomarker risk: without publicly disclosed molecular targets and validated pharmacodynamic biomarkers for senescent cell clearance, clinical proof-of-mechanism and dose selection may be difficult (source needed).",
-    "Safety risk inherent to senolysis: eliminating senescent cells may cause on-target toxicities depending on tissue context and selectivity (source needed).",
-    "Regulatory/clinical endpoint risk: establishing acceptable endpoints and trial designs for 'senescence' modulation is still emerging (source needed).",
-    "Competitive risk: multiple companies pursue senolytics and senescence-modulating therapies, potentially compressing differentiation and partnering value (source needed)."
+    "Preclinical translation risk: senolytic efficacy/safety observed in models may not translate to humans.",
+    "Target/biomarker risk: without publicly disclosed molecular targets and validated pharmacodynamic biomarkers for senescent cell clearance, clinical proof-of-mechanism and dose selection may be difficult.",
+    "Safety risk inherent to senolysis: eliminating senescent cells may cause on-target toxicities depending on tissue context and selectivity.",
+    "Regulatory/clinical endpoint risk: establishing acceptable endpoints and trial designs for 'senescence' modulation is still emerging.",
+    "Competitive risk: multiple companies pursue senolytics and senescence-modulating therapies, potentially compressing differentiation and partnering value."
   ],
   "competitive_advantages": [
-    "Focus on selective targeting of 'pathologic senescent cells' (PSC) rather than broadly targeting all senescent cells (source: https://rubedolife.com/ ; source needed for a more specific technical description).",
-    "Senescence-focused discovery platform approach (details and validation metrics not publicly specified here) (source: https://rubedolife.com/ ; source needed)."
+    "Focus on selective targeting of 'pathologic senescent cells' (PSC) rather than broadly targeting all senescent cells.",
+    "Senescence-focused discovery platform approach (details and validation metrics not publicly specified here)."
   ],
   "acquisition_estimate": {
     "low_usd": 200000000,
     "high_usd": 800000000,
-    "methodology": "Heuristic M&A range for a preclinical small-molecule/platform longevity biotech: benchmark against select preclinical/early platform acquisitions with multi-asset potential (e.g., Bayer–Vividion; Roche–Carmot) and apply a steep discount (approximately 60–90%) for (i) lack of disclosed clinical-stage assets/PoC, (ii) undisclosed targets and uncertain differentiation, and (iii) higher perceived modality risk for senolytics. Range reflects estimated upfront enterprise value equivalent (excluding contingent milestones). (source needed for Rubedo-specific financials and stage confirmation beyond public website materials).",
+    "methodology": "Heuristic M&A range for a preclinical small-molecule/platform longevity biotech: benchmark against select preclinical/early platform acquisitions with multi-asset potential (e.g., Bayer–Vividion; Roche–Carmot) and apply a steep discount (approximately 60–90%) for (i) lack of disclosed clinical-stage assets/PoC, (ii) undisclosed targets and uncertain differentiation, and (iii) higher perceived modality risk for senolytics. Range reflects estimated upfront enterprise value equivalent (excluding contingent milestones)..",
     "comparable_deals": [
       "Bayer to acquire Vividion Therapeutics (press release; reported $1.5B upfront plus potential milestones) https://www.bayer.com/en/us/news-stories/bayer-to-acquire-vividion-therapeutics",
       "Roche to acquire Carmot Therapeutics (press release; reported $2.7B upfront plus potential milestones) https://www.roche.com/media/releases/med-cor-2023-12-04"

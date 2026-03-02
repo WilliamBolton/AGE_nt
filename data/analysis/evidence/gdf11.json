@@ -1,0 +1,121 @@
+{
+  "confidence": 78.83,
+  "confidence_raw": 78.83,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 26.04,
+    "2": 29.22,
+    "3": 14.16,
+    "4": 9.26,
+    "5": 0.0,
+    "6": 0.15
+  },
+  "selected_counts_by_level": {
+    "1": 6,
+    "2": 41,
+    "3": 39,
+    "4": 107,
+    "5": 0,
+    "6": 23
+  },
+  "top_docs": [
+    {
+      "id": "2ff00724-7adb-4a36-97dd-5380fcd01381",
+      "source_type": "europe_pmc",
+      "title": "Targeting cellular senescence in progenitor cells as a strategy to enhance bone regeneration by cell therapies: a systematic review of pre-clinical investigations.",
+      "level": 1,
+      "doc_weight": 0.6237,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "12bf5692-bbb5-47d8-a915-02f2a4c9b7a8",
+      "source_type": "clinicaltrials",
+      "title": "The SINgapore GERiatric Intervention Study to Reduce Cognitive Decline and Physical Frailty (SINGER) Study, Biomarker and Health Service Research Analyses",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4302f91e-aa47-4cc1-a965-8edf2c72a17b",
+      "source_type": "europe_pmc",
+      "title": "Exercise-Induced Biomarker Modulation in Sarcopenia: From Inflamm-Aging to Muscle Regeneration.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8e74af34-c72e-4367-af70-6c9f489ef681",
+      "source_type": "europe_pmc",
+      "title": "Sarcopenia in Ageing and Chronic Illness: Trial Endpoints and Regulatory Issues.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "82c52b65-616f-4d62-9973-a269c28fd254",
+      "source_type": "europe_pmc",
+      "title": "Growth Differentiation Factor 15 as a Link Between Obesity, Subclinical Atherosclerosis, and Heart Failure: A Systematic Review.",
+      "level": 1,
+      "doc_weight": 0.561,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "be6cebed-75da-4e88-91b0-0ea2aca1c98c",
+      "source_type": "clinicaltrials",
+      "title": "A Randomized, Double-blinded and Placebo-controlled Pilot Clinical Trial to Evaluate the Potential Efficacy and Safety of Human Umbilical Cord Blood and Plasma by Clinical Markers of Frailty in Adult Who Defined Pre-Frailty",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "35c5df95-7357-46d2-b0b4-1aecd0f44a0e",
+      "source_type": "clinicaltrials",
+      "title": "FRAGINOC Study: The Impact of FRAilty Screening and Geriatric Assessment and Intervention in Older Patients With Epithelial Ovarian Cancer",
+      "level": 2,
+      "doc_weight": 0.51,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "6771dd05-6318-45b3-815a-4b79fe8a87b8",
+      "source_type": "nih_grant",
+      "title": "Comprehensive Evaluation of Aging-Related Clinical Outcomes and Geroproteins",
+      "level": 3,
+      "doc_weight": 0.429,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=216"
+  ]
+}

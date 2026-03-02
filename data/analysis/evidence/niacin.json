@@ -1,0 +1,121 @@
+{
+  "confidence": 78.37,
+  "confidence_raw": 78.37,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.97,
+    "2": 29.93,
+    "3": 8.22,
+    "4": 10.14,
+    "5": 0.0,
+    "6": 0.11
+  },
+  "selected_counts_by_level": {
+    "1": 12,
+    "2": 70,
+    "3": 14,
+    "4": 157,
+    "5": 0,
+    "6": 60
+  },
+  "top_docs": [
+    {
+      "id": "51c2e996-b7b4-4f43-a605-33f58c6beeec",
+      "source_type": "europe_pmc",
+      "title": "Exercise training upregulates intracellular nicotinamide phosphoribosyltransferase expression in humans: a systematic review with meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8cef77ff-4e10-486b-89ee-74000360b09c",
+      "source_type": "news",
+      "title": "Vitamin B3: The Longevity Vitamin? New Study Reveals Heart ...",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5f18df30-ee0f-46af-b3b0-0876afbbc09d",
+      "source_type": "news",
+      "title": "Vitamin B3: The Longevity Vitamin? New Study Reveals Heart ...",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "cc4ebeb0-8a34-4bc2-8464-6c84299aaf0e",
+      "source_type": "news",
+      "title": "Vitamin B3: The Longevity Vitamin? New Study Reveals Heart ...",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "21b620b4-1070-4d00-85f9-16b267de6cbd",
+      "source_type": "europe_pmc",
+      "title": "NAD\u207a supplementation for anti-aging and wellness: a PRISMA-guided systematic review of preclinical and clinical evidence.",
+      "level": 1,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b85fc8b8-7543-40c6-b342-0b7b3b8a4593",
+      "source_type": "clinicaltrials",
+      "title": "Nicotinamide Supplementation Improves Physical Performance in Older Adults at Risk of Falls: a Pilot Randomized Clinical Trial",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5b465cca-d2df-4095-8877-74099fe65134",
+      "source_type": "europe_pmc",
+      "title": "Nicotinamide Riboside Supplementation Benefits in Patients With Werner Syndrome: A Double-Blind Randomized Crossover Placebo-Controlled Trial.",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "aa08c696-1e04-4017-8c0d-f9848b7f4464",
+      "source_type": "pubmed",
+      "title": "Superior even skin tone and anti-ageing benefit of a combination of 4-hexylresorcinol and niacinamide.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=313"
+  ]
+}

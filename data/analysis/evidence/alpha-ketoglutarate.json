@@ -1,0 +1,121 @@
+{
+  "confidence": 73.76,
+  "confidence_raw": 73.76,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 22.55,
+    "2": 29.55,
+    "3": 10.46,
+    "4": 11.16,
+    "5": 0.0,
+    "6": 0.04
+  },
+  "selected_counts_by_level": {
+    "1": 2,
+    "2": 33,
+    "3": 18,
+    "4": 267,
+    "5": 0,
+    "6": 17
+  },
+  "top_docs": [
+    {
+      "id": "5cc127ee-3967-4ddd-8002-c4d1f77d425b",
+      "source_type": "semantic_scholar",
+      "title": "The Gut Microbiome, Aging, and Longevity: A Systematic Review",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8bae9ca1-1b06-4dc3-93d4-f8fd989716a1",
+      "source_type": "clinicaltrials",
+      "title": "Evaluating the Impact of Alpha Ketoglutarate (AKG), a Geroprotector, in Reducing Morbidity and Improving Patient-Centred Outcomes After Coronary Artery Bypass Grafting Surgery in Resilient and Poorly-Resilient Patients: A Double-Blind Placebo-Controlled Clinical Trial",
+      "level": 2,
+      "doc_weight": 0.7225,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5d30d9e9-c5f2-4b41-bff7-49728cb4191c",
+      "source_type": "europe_pmc",
+      "title": "Rejuvant\u00ae, a potential life-extending compound formulation with alpha-ketoglutarate and vitamins, conferred an average 8 year reduction in biological aging, after an average of 7 months of use, in the TruAge DNA methylation test.",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "9702ec55-cb0f-48d2-80b1-7433faf965b2",
+      "source_type": "semantic_scholar",
+      "title": "Rejuvant\u00ae, a potential life-extending compound formulation with alpha-ketoglutarate and vitamins, conferred an average 8 year reduction in biological aging, after an average of 7 months of use, in the TruAge DNA methylation test",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "82eb6a35-1361-40a3-b90f-62e3adc9dd1c",
+      "source_type": "semantic_scholar",
+      "title": "Integrative analysis across metagenomic taxonomic classifiers: A case study of the gut microbiome in aging and longevity in the Integrative Longevity Omics Study",
+      "level": 1,
+      "doc_weight": 0.561,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "7de2baa2-bd89-4b92-ba3d-84d7d63c8123",
+      "source_type": "europe_pmc",
+      "title": "Longevity cosmeceuticals as the next frontier in cosmetic innovation: a scientific framework for substantiating product claims.",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3bbfecfa-be18-4f72-8019-00a15257175b",
+      "source_type": "social",
+      "title": "This comment made me want to stop taking Calcium AKG",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ceba1b3d-1e90-431a-81a1-d23b0564e782",
+      "source_type": "clinicaltrials",
+      "title": "Long-term Intervention Effects of a Personalized, Home-based Exercise Program and Nutritional Advice, Along With the Inclusion of a Pre-workout Multi-ingredient Supplement on the Body Composition, Functional Capacity and Quality of Life of Middle-aged and Older Adults (40-70 Years)",
+      "level": 2,
+      "doc_weight": 0.4933,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=337"
+  ]
+}

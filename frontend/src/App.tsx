@@ -3,8 +3,6 @@ import Layout from "./components/Layout";
 import ConsumerChat from "./pages/ConsumerChat";
 import PharmaDashboard from "./pages/PharmaDashboard";
 import BiotechDeepDive from "./pages/BiotechDeepDive";
-import LandscapeExplorer from "./pages/LandscapeExplorer";
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -13,7 +11,6 @@ export default function App() {
           <Route path="/" element={<ConsumerChat />} />
           <Route path="/pharma" element={<PharmaDashboard />} />
           <Route path="/biotech" element={<BiotechDeepDive />} />
-          <Route path="/landscape" element={<LandscapeExplorer />} />
         </Route>
       </Routes>
     </BrowserRouter>

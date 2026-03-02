@@ -80,6 +80,13 @@ These tools consume existing data via `StorageManager` and expose reasoning thro
 
 ## Stretch Goals
 
+### S8. Landscape Explorer (Frontend)
+- Interactive scatter plot of all 25 biotechs: evidence score vs research momentum
+- Filters by category, stage, funding range, hallmark
+- Comparison mode: select 2-3 biotechs for side-by-side profile view
+- Component already built at `frontend/src/pages/LandscapeExplorer.tsx` — just needs wiring back into nav and routes
+- Depends on pre-computed analysis data or live tool calls for evidence/trajectory scores
+
 ### S7. Pre-compute Analysis Pipeline
 - `scripts/precompute_analysis.py` — batch-run all reasoning tools across all 54 interventions, save outputs as static JSON to `data/analysis/{tool}/{intervention}.json`
 - Dynamic tool discovery: imports from `src/tools/` and auto-detects available tools via `discover_tools()`

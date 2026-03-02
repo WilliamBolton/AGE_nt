@@ -12,7 +12,7 @@
       "target": "Autophagy/lysosomal pathway (specific molecular targets not publicly disclosed)",
       "mechanism": "Modulation of autophagy/lysosomal function intended to improve cellular clearance pathways; modality and molecular mechanism not fully disclosed",
       "indication": "Neurodegenerative diseases (specific indications not publicly disclosed)",
-      "phase": "preclinical (source needed)",
+      "phase": "preclinical",
       "hallmarks": [
         "disabled_macroautophagy",
         "loss_of_proteostasis"
@@ -21,7 +21,7 @@
         "autophagy_induction",
         "neuroprotection"
       ],
-      "source": "Life Biosciences website/portfolio references Selphagy Therapeutics (source needed: specific URL to Selphagy program description on lifebiosciences.com); Selphagy Therapeutics website (source needed: specific URL)"
+      "source": "Life Biosciences website/portfolio references Selphagy Therapeutics; Selphagy Therapeutics website"
     },
     {
       "compound": "Undisclosed therapeutic program(s) for reproductive longevity (Jumpstart Fertility; exact assets not publicly disclosed)",
@@ -29,12 +29,12 @@
       "target": "Ovarian aging / reproductive aging biology (specific targets not publicly disclosed)",
       "mechanism": "Therapeutic approach to address age-related infertility/reproductive aging; modality and mechanism not publicly disclosed",
       "indication": "Age-related infertility / reproductive aging (specific indication not publicly disclosed)",
-      "phase": "preclinical (source needed)",
+      "phase": "preclinical",
       "hallmarks": [
         "stem_cell_exhaustion"
       ],
       "categories": [],
-      "source": "Life Biosciences website/portfolio references Jumpstart Fertility (source needed: specific URL to Jumpstart program description on lifebiosciences.com); Jumpstart Fertility website (source needed: specific URL)"
+      "source": "Life Biosciences website/portfolio references Jumpstart Fertility; Jumpstart Fertility website"
     }
   ],
   "hallmarks_targeted": [
@@ -49,48 +49,48 @@
   "key_people": [
     {
       "name": "Tristan Edwards",
-      "role": "Co-founder & Chief Executive Officer (source needed)",
-      "background": "Life Biosciences leadership/team listing (source needed: specific URL on lifebiosciences.com); additional biographical details source needed"
+      "role": "Co-founder & Chief Executive Officer",
+      "background": "Life Biosciences leadership/team listing; additional biographical details source needed"
     },
     {
       "name": "David A. Sinclair",
-      "role": "Co-founder / scientific founder (source needed)",
-      "background": "Professor of Genetics at Harvard Medical School (source: https://hms.harvard.edu/faculty/david-sinclair ); association with Life Biosciences as a founder/co-founder (source needed: specific Life Biosciences page/press release URL)"
+      "role": "Co-founder / scientific founder",
+      "background": "Professor of Genetics at Harvard Medical School; association with Life Biosciences as a founder/co-founder"
     }
   ],
   "investors_notable": [
-    "Investors in Life Biosciences (see Crunchbase investor list) (source: https://www.crunchbase.com/organization/life-biosciences )",
+    "Investors in Life Biosciences (see Crunchbase investor list)",
     "Additional investor names and lead rounds source needed (e.g., financing press release URL or PitchBook)"
   ],
   "risks": [
-    "Pipeline disclosure risk: several programs appear described at a portfolio/subsidiary level without publicly named clinical candidates, which can complicate diligence and valuation (source needed).",
+    "Pipeline disclosure risk: several programs appear described at a portfolio/subsidiary level without publicly named clinical candidates, which can complicate diligence and valuation.",
     "Translation risk: longevity mechanisms (e.g., autophagy modulation) frequently show strong preclinical rationale but can fail in human efficacy or safety (general biotech risk; source needed for Life Biosciences-specific evidence).",
-    "Regulatory/indication strategy risk: therapies must typically pursue conventional disease indications rather than 'aging' as an endpoint; program-by-program regulatory plans not publicly detailed (source needed).",
-    "Portfolio/holding-company complexity: multiple subsidiaries/programs can increase burn, governance complexity, and prioritization risk (source needed).",
-    "Financing risk: if programs remain preclinical, additional capital may be required before value-inflecting clinical readouts (source needed)."
+    "Regulatory/indication strategy risk: therapies must typically pursue conventional disease indications rather than 'aging' as an endpoint; program-by-program regulatory plans not publicly detailed.",
+    "Portfolio/holding-company complexity: multiple subsidiaries/programs can increase burn, governance complexity, and prioritization risk.",
+    "Financing risk: if programs remain preclinical, additional capital may be required before value-inflecting clinical readouts."
   ],
   "competitive_advantages": [
-    "Portfolio approach: building multiple programs/companies targeting aging biology rather than a single asset (source needed: Life Biosciences corporate/portfolio description on https://www.lifebiosciences.com/ ).",
-    "Access to prominent aging-biology scientific leadership via founder involvement (e.g., David Sinclair) (source: https://hms.harvard.edu/faculty/david-sinclair ; Life Biosciences founder listing source needed).",
-    "Focus on mechanistic aging pathways (e.g., autophagy) that are broadly implicated across age-related diseases (source needed for company-specific positioning statement)."
+    "Portfolio approach: building multiple programs/companies targeting aging biology rather than a single asset.",
+    "Access to prominent aging-biology scientific leadership via founder involvement (e.g., David Sinclair).",
+    "Focus on mechanistic aging pathways (e.g., autophagy) that are broadly implicated across age-related diseases."
   ],
   "acquisition_estimate": {
     "low_usd": 150000000,
     "high_usd": 600000000,
-    "methodology": "Analyst estimate (source needed): range reflects early-stage (primarily preclinical) platform/portfolio biotech valuation patterns using (i) sum-of-the-parts logic across subsidiaries with largely undisclosed assets, (ii) comparable preclinical-to-early-clinical acquisition structures that often feature modest upfront payments with larger contingent milestones, and (iii) discounting for limited public compound/clinical visibility. This estimate should be revisited once exact subsidiaries, lead programs, and any IND/clinical statuses are confirmed via primary sources (company press releases, PitchBook, SEC filings if any).",
+    "methodology": "Analyst estimate: range reflects early-stage (primarily preclinical) platform/portfolio biotech valuation patterns using (i) sum-of-the-parts logic across subsidiaries with largely undisclosed assets, (ii) comparable preclinical-to-early-clinical acquisition structures that often feature modest upfront payments with larger contingent milestones, and (iii) discounting for limited public compound/clinical visibility. This estimate should be revisited once exact subsidiaries, lead programs, and any IND/clinical statuses are confirmed via primary sources (company press releases, PitchBook, SEC filings if any).",
     "comparable_deals": [
-      "Astellas acquisition of Mitobridge (mitochondrial biology; deal included upfront + milestones) (source needed: press release/SEC filing URL).",
-      "Bayer/BlueRock Therapeutics (cell therapy platform; staged acquisition/option structure) (source needed: press release/SEC filing URL).",
-      "Other early-stage platform acquisitions in neurodegeneration/autophagy space (source needed)."
+      "Astellas acquisition of Mitobridge (mitochondrial biology; deal included upfront + milestones).",
+      "Bayer/BlueRock Therapeutics (cell therapy platform; staged acquisition/option structure).",
+      "Other early-stage platform acquisitions in neurodegeneration/autophagy space."
     ]
   },
   "sources": [
-    "https://www.lifebiosciences.com/ (company website; portfolio and leadership pages need specific URLs) ",
+    "https://www.lifebiosciences.com/ (company website; portfolio and leadership pages need specific URLs)",
     "https://www.crunchbase.com/organization/life-biosciences (funding/investors/basic company info; use for founded year, HQ, and total funding if populated)",
     "https://hms.harvard.edu/faculty/david-sinclair (David A. Sinclair role/background)",
-    "Selphagy Therapeutics website (source needed: exact URL)",
-    "Jumpstart Fertility website (source needed: exact URL)",
-    "Life Biosciences financing press releases / PitchBook profile (source needed: for founded year, HQ, total funding, and named investors/leads)"
+    "Selphagy Therapeutics website",
+    "Jumpstart Fertility website",
+    "Life Biosciences financing press releases / PitchBook profile"
   ],
   "needs_review": true
 }

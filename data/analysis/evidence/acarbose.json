@@ -1,0 +1,121 @@
+{
+  "confidence": 82.84,
+  "confidence_raw": 82.84,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.04,
+    "2": 29.69,
+    "3": 13.03,
+    "4": 10.92,
+    "5": 0.0,
+    "6": 0.16
+  },
+  "selected_counts_by_level": {
+    "1": 5,
+    "2": 50,
+    "3": 37,
+    "4": 174,
+    "5": 0,
+    "6": 50
+  },
+  "top_docs": [
+    {
+      "id": "4dd6bd32-a19d-419c-8776-4d3f0106fd96",
+      "source_type": "news",
+      "title": "[PDF] Acarbose - Alzheimer's Drug Discovery Foundation",
+      "level": 1,
+      "doc_weight": 1.0395,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "fa89aeaa-81ac-4c04-be39-b9081df5a95e",
+      "source_type": "pubmed",
+      "title": "Quality of anticholinergic burden scales and their impact on clinical outcomes: a systematic review.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "1c26d526-99ca-4a01-bfa5-aae77d64d049",
+      "source_type": "europe_pmc",
+      "title": "Evaluation of glucose-lowering medications in older people: a comprehensive systematic review and network meta-analysis of randomized controlled trials.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "88515d99-cf1a-4ed6-a3be-ff545582182d",
+      "source_type": "europe_pmc",
+      "title": "Interdisciplinary pharmaceutical care model engaging patient participation alleviate the anticholinergic burden in community-dwelling older adults: subgroup analysis of a randomized controlled trial.",
+      "level": 2,
+      "doc_weight": 0.751,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5889120b-36d5-4673-b59d-3588b49f4161",
+      "source_type": "pubmed",
+      "title": "Diabetes medications as potential calorie restriction mimetics-a focus on the alpha-glucosidase inhibitor acarbose.",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "80a845e6-8070-4450-bef0-423711d33f5a",
+      "source_type": "europe_pmc",
+      "title": "Effects of osteoporosis treatment and multicomponent integrated care on intrinsic capacity and happiness among rural community-dwelling older adults: the Healthy Longevity and Ageing in Place (HOPE) randomised controlled trial.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8a30bf4e-114e-44ac-956c-3bd3bcbacb6d",
+      "source_type": "europe_pmc",
+      "title": "Dapagliflozin restores odour-induced functional integration of primary olfactory cortex circuit but not olfactory-related regional brain activation in patients with type 2 diabetes: A 16-week randomised comparative study.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "cdb4ebc3-708e-461b-bd35-8a74ea8d7d92",
+      "source_type": "europe_pmc",
+      "title": "Longevity cosmeceuticals as the next frontier in cosmetic innovation: a scientific framework for substantiating product claims.",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=316"
+  ]
+}

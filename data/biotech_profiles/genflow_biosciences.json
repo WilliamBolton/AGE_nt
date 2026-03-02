@@ -10,7 +10,7 @@
       "compound": "FOXO3 gene therapy candidate (AAV-based; program name not consistently disclosed in public materials)",
       "intervention_link": null,
       "target": "FOXO3 (Forkhead box O3) transcription factor",
-      "mechanism": "AAV-mediated gene therapy intended to increase/restore FOXO3 activity as a longevity-associated pathway modulator (source needed for construct specifics such as promoter/variant/dose and delivery route).",
+      "mechanism": "AAV-mediated gene therapy intended to increase/restore FOXO3 activity as a longevity-associated pathway modulator.",
       "indication": "Aging / age-related diseases (broad platform positioning; specific lead indication source needed).",
       "phase": "preclinical",
       "hallmarks": [
@@ -39,27 +39,27 @@
   "key_people": [
     {
       "name": "Eric Leire",
-      "role": "CEO (source needed)",
+      "role": "CEO",
       "background": "Executive role and biography details source needed (e.g., company leadership page/annual report)."
     }
   ],
   "investors_notable": [],
   "risks": [
-    "Program/construct opacity: limited public detail on the exact AAV construct, dose, route, and lead indication makes external validation and comparability difficult (source needed).",
-    "Gene therapy platform risk: AAV gene therapies commonly face challenges including anti-capsid immunity, durability of expression, and redosing limitations (https://pubmed.ncbi.nlm.nih.gov/28326310/).",
-    "Translational uncertainty for longevity biology: association of FOXO3 with human longevity does not guarantee that therapeutic FOXO3 modulation will deliver clinically meaningful outcomes in age-related disease settings (https://www.pnas.org/doi/10.1073/pnas.0801030105).",
-    "Biomarkers/clinical endpoints: demonstrating benefit in 'aging' broadly may require long timelines or surrogate endpoints; regulatory path may depend on selecting a conventional disease indication (source needed).",
-    "Safety risk: systemic manipulation of a pleiotropic transcription factor could have on-target adverse effects depending on tissue targeting and expression levels (source needed)."
+    "Program/construct opacity: limited public detail on the exact AAV construct, dose, route, and lead indication makes external validation and comparability difficult.",
+    "Gene therapy platform risk: AAV gene therapies commonly face challenges including anti-capsid immunity, durability of expression, and redosing limitations.",
+    "Translational uncertainty for longevity biology: association of FOXO3 with human longevity does not guarantee that therapeutic FOXO3 modulation will deliver clinically meaningful outcomes in age-related disease settings.",
+    "Biomarkers/clinical endpoints: demonstrating benefit in 'aging' broadly may require long timelines or surrogate endpoints; regulatory path may depend on selecting a conventional disease indication.",
+    "Safety risk: systemic manipulation of a pleiotropic transcription factor could have on-target adverse effects depending on tissue targeting and expression levels."
   ],
   "competitive_advantages": [
-    "Mechanistic positioning around FOXO3, a gene with replicated associations to exceptional human longevity, provides a clear biological narrative for an aging-focused platform (https://www.pnas.org/doi/10.1073/pnas.0801030105).",
+    "Mechanistic positioning around FOXO3, a gene with replicated associations to exceptional human longevity, provides a clear biological narrative for an aging-focused platform.",
     "FOXO3 is a central node downstream of insulin/IGF-1 signaling and stress-response pathways, potentially enabling multi-hallmark impact (review: https://pubmed.ncbi.nlm.nih.gov/23877583/).",
-    "FOXO3 can transcriptionally regulate autophagy programs, supporting an autophagy-linked longevity strategy (https://pubmed.ncbi.nlm.nih.gov/18054316/)."
+    "FOXO3 can transcriptionally regulate autophagy programs, supporting an autophagy-linked longevity strategy."
   ],
   "acquisition_estimate": {
     "low_usd": 30000000,
     "high_usd": 200000000,
-    "methodology": "Range based on (i) benchmarking against disclosed gene-therapy M&A enterprise values primarily in clinical-stage rare-disease contexts and (ii) applying a steep discount for Genflow's preclinical status and for higher uncertainty/longer timelines typical of broad aging indications. Comparables include: Prevail Therapeutics acquired by Eli Lilly (~$1.04B equity value) and Audentes Therapeutics acquired by Astellas (~$3B), and Bayer's acquisition of AskBio (up to ~$4B). The 30–200M range reflects ~1–5% of these larger, later-stage deal values as a rough preclinical/longevity discount; company-specific financials and pipeline maturity details are needed to refine (source needed for Genflow-specific valuation inputs).",
+    "methodology": "Range based on (i) benchmarking against disclosed gene-therapy M&A enterprise values primarily in clinical-stage rare-disease contexts and (ii) applying a steep discount for Genflow's preclinical status and for higher uncertainty/longer timelines typical of broad aging indications. Comparables include: Prevail Therapeutics acquired by Eli Lilly (~$1.04B equity value) and Audentes Therapeutics acquired by Astellas (~$3B), and Bayer's acquisition of AskBio (up to ~$4B). The 30–200M range reflects ~1–5% of these larger, later-stage deal values as a rough preclinical/longevity discount; company-specific financials and pipeline maturity details are needed to refine.",
     "comparable_deals": [
       "Eli Lilly to acquire Prevail Therapeutics (deal value disclosed by Lilly): https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-prevail-therapeutics-inc",
       "Astellas to acquire Audentes Therapeutics (deal value disclosed by Astellas): https://www.astellas.com/en/news/14226",

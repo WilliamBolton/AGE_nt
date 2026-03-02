@@ -1,5 +1,5 @@
 {
-  "company": "Dorian Therapeutics (source needed)",
+  "company": "Dorian Therapeutics",
   "ticker": null,
   "founded": null,
   "hq": null,
@@ -11,11 +11,11 @@
   "key_people": [],
   "investors_notable": [],
   "risks": [
-    "Scientific translation risk: any observed effects in preclinical models may not translate to meaningful, durable benefits in humans (source needed).",
-    "Target/biomarker risk: uncertainty in selecting validated aging biology targets and clinically actionable biomarkers/endpoints can slow development and increase failure probability (source needed).",
-    "Safety/tolerability risk: interventions that modulate fundamental aging pathways can have off-target or long-term safety liabilities that may only emerge in extended studies (source needed).",
-    "Regulatory risk: longevity-focused programs can face unclear regulatory paths if pursuing broad aging indications rather than disease-specific indications (source needed).",
-    "Financing risk: early-stage longevity biotech programs often require significant capital for long-duration studies and may face funding cyclicality (source needed)."
+    "Scientific translation risk: any observed effects in preclinical models may not translate to meaningful, durable benefits in humans.",
+    "Target/biomarker risk: uncertainty in selecting validated aging biology targets and clinically actionable biomarkers/endpoints can slow development and increase failure probability.",
+    "Safety/tolerability risk: interventions that modulate fundamental aging pathways can have off-target or long-term safety liabilities that may only emerge in extended studies.",
+    "Regulatory risk: longevity-focused programs can face unclear regulatory paths if pursuing broad aging indications rather than disease-specific indications.",
+    "Financing risk: early-stage longevity biotech programs often require significant capital for long-duration studies and may face funding cyclicality."
   ],
   "competitive_advantages": [
     "source needed"

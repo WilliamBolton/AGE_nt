@@ -1,0 +1,36 @@
+{
+  "intervention": "metformin",
+  "bryan_johnson": {
+    "stance": "experimenter",
+    "quotes": [
+      {
+        "text": "I paused Metformin.\nA longevity staple in my protocol for 5+ years.\nBut its effects on my body were shocking.\n\nIt built up my energy capacity,\nbut limited my ability to use 90% of it.\n\nHere\u2019s what we found.",
+        "source": "posts.bryanjohnson.com mirror of X/Twitter post (thread opener)",
+        "url": "https://posts.bryanjohnson.com/tweets/i-paused-metformin-a-longevity-staple-in-my-proto/",
+        "verified": true
+      },
+      {
+        "text": "Yeah, the major pillars we've got diet, the pills, we've got the prescriptions, which is rapamycin, metformin, and carbos\u2026",
+        "source": "Ben Greenfield Life podcast transcript (Bryan Johnson interview)",
+        "url": "https://bengreenfieldlife.com/transcripts/transcript-bryan-johnson-podcast/",
+        "verified": true
+      },
+      {
+        "text": "Every single supplement has to justify its existence. It has to fight for its life. And everything needs to be measured. \u2026 But then, others like metformin, rapamycin, and carbos, everything has a purpose\u2026",
+        "source": "Ben Greenfield Life podcast transcript (Bryan Johnson interview)",
+        "url": "https://bengreenfieldlife.com/transcripts/transcript-bryan-johnson-podcast/",
+        "verified": true
+      },
+      {
+        "text": "Metformin 500 mg (Rx) (6 week cycles on and off)",
+        "source": "Blueprint 'Bryan Johnson\u2019s Protocol' page (Rx stack listing)",
+        "url": "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol",
+        "verified": true
+      }
+    ],
+    "protocol_status": "active",
+    "dosage_mentioned": "500 mg (Rx), 6 week cycles on and off",
+    "summary": "Johnson treats metformin as a measured longevity intervention\u2014after pausing it due to adverse performance effects, he lists it again in his current Blueprint Rx stack as a 500 mg cyclic protocol."
+  },
+  "source": "Blueprint protocol \u2014 synthesised from public posts and podcasts"
+}

@@ -1,0 +1,121 @@
+{
+  "confidence": 52.85,
+  "confidence_raw": 52.85,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 7.34,
+    "2": 29.83,
+    "3": 6.86,
+    "4": 8.7,
+    "5": 0.0,
+    "6": 0.12
+  },
+  "selected_counts_by_level": {
+    "1": 1,
+    "2": 40,
+    "3": 14,
+    "4": 101,
+    "5": 0,
+    "6": 21
+  },
+  "top_docs": [
+    {
+      "id": "5817c70d-7248-40cd-8c28-f3250d5c459f",
+      "source_type": "pubmed",
+      "title": "Immunotherapy and senolytics in head and neck squamous cell carcinoma: phase 2 trial results.",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ff14a82d-bbee-48bf-82b2-0513eb2063f1",
+      "source_type": "pubmed",
+      "title": "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study.",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "6872be22-3d2c-4227-a095-484694905068",
+      "source_type": "news",
+      "title": "Unity Bio's Pain Drug Flunks Phase II Arthritis Trial - BioSpace",
+      "level": 2,
+      "doc_weight": 0.6384,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "1947f22a-5e11-4076-8ce9-e37e84710f8e",
+      "source_type": "europe_pmc",
+      "title": "Senolytic drugs: from discovery to translation.",
+      "level": 2,
+      "doc_weight": 0.6162,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8d2d9b01-269e-4027-b1e7-1acd6fa9d4a3",
+      "source_type": "pubmed",
+      "title": "Senolytic Therapy to Modulate the Progression of Alzheimer's Disease (SToMP-AD): A Pilot Clinical Trial.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a4732cba-a5ea-44f1-bf21-65256d334d21",
+      "source_type": "pubmed",
+      "title": "Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial.",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "487b1f78-6e60-41eb-a95e-bdfed2f749a5",
+      "source_type": "europe_pmc",
+      "title": "Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial.",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "af09bfe7-f376-4c60-9f39-51132b492ae9",
+      "source_type": "news",
+      "title": "Unity's Phase II osteoarthritis study of UBX0101 misses primary goal",
+      "level": 2,
+      "doc_weight": 0.4933,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=177"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "confidence": 68.93,
+  "confidence_raw": 68.93,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 28.25,
+    "2": 28.65,
+    "3": 3.39,
+    "4": 8.57,
+    "5": 0.02,
+    "6": 0.05
+  },
+  "selected_counts_by_level": {
+    "1": 7,
+    "2": 40,
+    "3": 5,
+    "4": 114,
+    "5": 1,
+    "6": 28
+  },
+  "top_docs": [
+    {
+      "id": "ba51636e-0483-4e26-8774-4413d83b1e20",
+      "source_type": "europe_pmc",
+      "title": "NAD\u207a supplementation for anti-aging and wellness: a PRISMA-guided systematic review of preclinical and clinical evidence.",
+      "level": 1,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0a12821e-8a58-4661-9fb7-cd4bc0891a4d",
+      "source_type": "pubmed",
+      "title": "Apigenin inhibits UVA-induced cytotoxicity in\u00a0vitro and prevents signs of skin aging in\u00a0vivo.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "85ed5db9-501e-4a0a-89f4-a83b549269ec",
+      "source_type": "clinicaltrials",
+      "title": "Cardiovascular, Anthropometric, and Skeletal Effects of Antiretroviral Therapy (ART) Initiation With Emtricitabine/Tenofovir Disoproxil Fumarate (FTC/TDF) Plus Atazanavir/Ritonavir (ATV/r), Darunavir/Ritonavir (DRV/r), or Raltegravir (RAL): Metabolic Substudy of A5257",
+      "level": 2,
+      "doc_weight": 0.51,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bf4a1e67-4a24-428b-a3df-a891fb05f14c",
+      "source_type": "europe_pmc",
+      "title": "NMN supplementation as a strategy to improve oocyte quality: a systematic review and transcriptomic analysis.",
+      "level": 1,
+      "doc_weight": 0.4993,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0e117872-0102-41ae-aa66-a5885220885b",
+      "source_type": "pubmed",
+      "title": "Targeting Senescence with Apigenin Improves Chemotherapeutic Efficacy and Ameliorates Age-Related Conditions in Mice.",
+      "level": 2,
+      "doc_weight": 0.4452,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5aaed0fc-ac91-4858-ae40-5cce6897ceca",
+      "source_type": "europe_pmc",
+      "title": "Nicotinamide N-methyltransferase inhibition improves limb function in experimental peripheral artery disease.",
+      "level": 2,
+      "doc_weight": 0.4359,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0874a6ae-3553-4351-863b-97b6972cc719",
+      "source_type": "europe_pmc",
+      "title": "Supplementation with NAD+ Precursors for Treating Alzheimer's Disease: A Metabolic Approach.",
+      "level": 1,
+      "doc_weight": 0.429,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e2217f30-ac8c-47f5-92c6-f79561d93758",
+      "source_type": "europe_pmc",
+      "title": "Effects of Nicotinamide Mononucleotide on Glucose and Lipid Metabolism in Adults: A Systematic Review and Meta-analysis of Randomised Controlled Trials.",
+      "level": 1,
+      "doc_weight": 0.429,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=195"
+  ]
+}

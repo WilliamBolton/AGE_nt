@@ -23,26 +23,26 @@
   "key_people": [
     {
       "name": "Ashley Zehnder",
-      "role": "CEO (source needed)",
+      "role": "CEO",
       "background": "source needed"
     }
   ],
   "investors_notable": [],
   "risks": [
-    "Program/target opacity: the company does not publicly detail specific therapeutic candidates/targets, making external validation and diligence harder (source: https://www.faunabio.com/; absence of public asset-level detail—source needed for a definitive statement).",
-    "Translation risk: protective phenotypes observed in hibernators/extreme-adaptation species may not translate to safe, efficacious modulation in humans (source needed).",
-    "Target/biology risk: cross-species correlations can produce targets that are non-causal or context-dependent in humans, increasing downstream failure risk (source needed).",
-    "Therapeutic modality and safety risk: without disclosed modality (small molecule/biologic/gene modulation), key developability, PK/PD, and safety risks cannot be assessed externally (source needed).",
-    "Financing risk: as a preclinical platform company, timelines to value-inflection (IND/Phase 1) can be long and capital intensive (source needed)."
+    "Program/target opacity: the company does not publicly detail specific therapeutic candidates/targets, making external validation and diligence harder.",
+    "Translation risk: protective phenotypes observed in hibernators/extreme-adaptation species may not translate to safe, efficacious modulation in humans.",
+    "Target/biology risk: cross-species correlations can produce targets that are non-causal or context-dependent in humans, increasing downstream failure risk.",
+    "Therapeutic modality and safety risk: without disclosed modality (small molecule/biologic/gene modulation), key developability, PK/PD, and safety risks cannot be assessed externally.",
+    "Financing risk: as a preclinical platform company, timelines to value-inflection (IND/Phase 1) can be long and capital intensive."
   ],
   "competitive_advantages": [
-    "Differentiated target-discovery angle: leveraging naturally evolved mammalian states (e.g., hibernation-related biology) may reveal novel, druggable protective pathways not obvious from human-only datasets (source: https://www.faunabio.com/).",
-    "Potential breadth: a platform that identifies conserved protective pathways could generate multiple programs across indications (source: https://www.faunabio.com/; specific programs undisclosed—source needed)."
+    "Differentiated target-discovery angle: leveraging naturally evolved mammalian states (e.g., hibernation-related biology) may reveal novel, druggable protective pathways not obvious from human-only datasets.",
+    "Potential breadth: a platform that identifies conserved protective pathways could generate multiple programs across indications."
   ],
   "acquisition_estimate": {
     "low_usd": 250000000,
     "high_usd": 800000000,
-    "methodology": "Heuristic range for a preclinical platform biotech with undisclosed assets: anchored to (a) precedent acquisitions of platform/biology-engine companies and (b) downward adjustment for earlier stage, limited disclosed pipeline, and higher diligence uncertainty. Range reflects an assumed minority-to-majority premium over invested capital and IP value, but is highly sensitive to evidence of target validation and first-in-human proximity (source needed for Fauna Bio-specific financials).",
+    "methodology": "Heuristic range for a preclinical platform biotech with undisclosed assets: anchored to (a) precedent acquisitions of platform/biology-engine companies and (b) downward adjustment for earlier stage, limited disclosed pipeline, and higher diligence uncertainty. Range reflects an assumed minority-to-majority premium over invested capital and IP value, but is highly sensitive to evidence of target validation and first-in-human proximity.",
     "comparable_deals": [
       "Bayer acquisition of Vividion Therapeutics (platform) for up to ~$2.0B (press release): https://www.bayer.com/en/us/news-stories/bayer-to-acquire-vividion-therapeutics",
       "Amgen acquisition of deCODE genetics for $415M (press release): https://www.amgen.com/newsroom/press-releases/2012/12/amgen-to-acquire-decode-genetics-a-world-leader-in-human-genetics",

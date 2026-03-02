@@ -165,11 +165,11 @@
       "Male": 1
     },
     "lifespan_change": {
-      "positive_count": 0,
+      "positive_count": 11,
       "negative_count": 0,
       "null_count": 0,
-      "mean_change": null,
-      "max_extension": null,
+      "mean_change": 14.73,
+      "max_extension": 36.0,
       "max_reduction": null
     }
   },

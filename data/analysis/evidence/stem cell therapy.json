@@ -1,0 +1,121 @@
+{
+  "confidence": 77.62,
+  "confidence_raw": 77.62,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.49,
+    "2": 29.94,
+    "3": 7.31,
+    "4": 10.78,
+    "5": 0.01,
+    "6": 0.09
+  },
+  "selected_counts_by_level": {
+    "1": 9,
+    "2": 55,
+    "3": 20,
+    "4": 175,
+    "5": 1,
+    "6": 31
+  },
+  "top_docs": [
+    {
+      "id": "88aedaa9-fe2c-42cf-9166-124c8f5e956d",
+      "source_type": "europe_pmc",
+      "title": "Application of neural stem cells in the treatment of intracerebral hemorrhage: a systematic review.",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3045a8f3-a65c-4d15-852c-28fa793327b1",
+      "source_type": "pubmed",
+      "title": "A systematic review of lifespan studies in rodents using stem cell transplantations.",
+      "level": 1,
+      "doc_weight": 0.7807,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3cac2a8f-5377-4ea3-aa08-7d2572d73bba",
+      "source_type": "europe_pmc",
+      "title": "A systematic review of lifespan studies in rodents using stem cell transplantations.",
+      "level": 1,
+      "doc_weight": 0.7807,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "fe71a7c2-0355-41d7-8df5-d735ecb01484",
+      "source_type": "clinicaltrials",
+      "title": "A Comparison of Reduced Dose Total Body Irradiation (TBI) and Cyclophosphamide With Fludarabine and Melphalan Reduced Intensity Conditioning in Adults With Acute Lymphoblastic Leukaemia (ALL) in Complete Remission. (ALL-RIC)",
+      "level": 2,
+      "doc_weight": 0.7097,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4caf817f-edef-4635-94b4-15e0dc325e89",
+      "source_type": "clinicaltrials",
+      "title": "PAX: A Randomized Single-blind Controlled Trial of the Effect of Circadian Light on Hospitalized Persons With Dementia and Older Adults With Cognitive Impairments",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "7365bd55-697f-43e2-ac3a-d9c20399a6aa",
+      "source_type": "semantic_scholar",
+      "title": "Safety and efficacy of umbilical cord tissue-derived mesenchymal stem cells in the treatment of patients with aging frailty: a phase I/II randomized, double-blind, placebo-controlled study",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "af423964-0ca7-4462-b5d8-d6b5ef66a740",
+      "source_type": "pubmed",
+      "title": "The Effects of Ageing on Differentiation and Characterisation of Human Mesenchymal Stem Cells.",
+      "level": 1,
+      "doc_weight": 0.6237,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "46ea2f7f-0fce-4437-b93d-e018be8e8401",
+      "source_type": "europe_pmc",
+      "title": "Targeting cellular senescence in progenitor cells as a strategy to enhance bone regeneration by cell therapies: a systematic review of pre-clinical investigations.",
+      "level": 1,
+      "doc_weight": 0.6237,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=291"
+  ]
+}

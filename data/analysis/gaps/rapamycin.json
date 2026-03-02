@@ -1,0 +1,292 @@
+{
+  "gap_analysis_version": "deterministic_gap_v1",
+  "evidence_map": {
+    "counts_by_level": {
+      "1": 11,
+      "2": 45,
+      "3": 16,
+      "4": 38,
+      "5": 0,
+      "6": 10
+    },
+    "human_docs_count": 39,
+    "rct_docs_count": 18,
+    "human_direct_endpoints_count": 16
+  },
+  "gaps": [
+    {
+      "key": "G1_human_evidence",
+      "title": "Any human evidence relevant to ageing/healthspan",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Without human evidence, claims remain preclinical.",
+      "evidence_ids": [
+        "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8",
+        "520a79e8-2d34-4f5a-81ea-e078281d8d5e",
+        "04ac41c0-94cc-4985-a72b-a7ec54f2bdf1",
+        "b8830a23-db03-45f9-a5c9-7fdd064853e5",
+        "87e1a7af-343b-40f7-aa0b-5dde68159d8e",
+        "e5a05b27-21cc-432a-85ca-764530ee03b7",
+        "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+        "4cfe47b6-d531-46bd-a6c9-aa7e6de6acbe"
+      ],
+      "how_to_close": "At least one well-described human study (interventional or observational) with ageing/healthspan-relevant outcomes."
+    },
+    {
+      "key": "G2_randomised_evidence",
+      "title": "Randomised controlled trial evidence",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Randomisation reduces bias and strengthens causal claims.",
+      "evidence_ids": [
+        "b8830a23-db03-45f9-a5c9-7fdd064853e5",
+        "e5a05b27-21cc-432a-85ca-764530ee03b7",
+        "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+        "4cfe47b6-d531-46bd-a6c9-aa7e6de6acbe",
+        "8891478f-af45-439e-986c-b336c870ad95",
+        "0ea6bc34-37c4-472d-939a-2f42e26a2d08",
+        "c81865f0-1077-40cf-b695-f717ac56fef1",
+        "71e2f6e1-cb82-4132-9477-0187b751e750"
+      ],
+      "how_to_close": "At least one adequately powered RCT in a relevant population with pre-specified ageing/healthspan endpoints."
+    },
+    {
+      "key": "G3_human_endpoints",
+      "title": "Clinically meaningful endpoints in humans",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Functional/clinical outcomes are harder to over-interpret than biomarkers.",
+      "evidence_ids": [
+        "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8",
+        "520a79e8-2d34-4f5a-81ea-e078281d8d5e",
+        "87e1a7af-343b-40f7-aa0b-5dde68159d8e",
+        "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+        "4cfe47b6-d531-46bd-a6c9-aa7e6de6acbe",
+        "9c3264e0-988e-4aef-a938-060c092c3b02",
+        "2a106b66-de38-4f36-b5fd-6fc0620dce69",
+        "8179eaf6-f1cc-49fd-a651-3c1e4d0cd666"
+      ],
+      "how_to_close": "Human studies measuring validated functional/clinical proxies (e.g., infections, frailty, gait speed) or hard endpoints."
+    },
+    {
+      "key": "G4_replication",
+      "title": "Replication across independent human studies",
+      "status": "Satisfied",
+      "severity": "Medium",
+      "why_it_matters": "Replication reduces the chance that findings are spurious or context-specific.",
+      "evidence_ids": [
+        "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8",
+        "520a79e8-2d34-4f5a-81ea-e078281d8d5e",
+        "04ac41c0-94cc-4985-a72b-a7ec54f2bdf1",
+        "b8830a23-db03-45f9-a5c9-7fdd064853e5",
+        "87e1a7af-343b-40f7-aa0b-5dde68159d8e",
+        "e5a05b27-21cc-432a-85ca-764530ee03b7"
+      ],
+      "how_to_close": "Multiple independent human studies (ideally multi-site) with consistent direction on key endpoints."
+    },
+    {
+      "key": "G5_older_adults",
+      "title": "Evidence in older adults / ageing-target populations",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Anti-ageing claims should be supported in older/adult ageing-relevant populations.",
+      "evidence_ids": [
+        "8891478f-af45-439e-986c-b336c870ad95",
+        "22605f8d-53a3-4906-b1e5-cdbe6bd95c71",
+        "b9b1fd5a-33c9-4026-b67a-959f94996e46",
+        "c1671b29-1353-4aa7-bc2b-1947c276d299",
+        "7fd87c6c-b6b9-45ec-8e5b-79d1a866833f",
+        "7dbf3704-ffe9-419a-9a3e-7e73d6ee0905",
+        "02d5926f-c903-4239-8104-8b5c3a723d54",
+        "7394ccf9-3811-4dd8-a007-218a86a457f0"
+      ],
+      "how_to_close": "Trials/cohorts explicitly enrolling older adults (e.g., \u226565) or measuring ageing phenotypes."
+    },
+    {
+      "key": "S1_human_safety",
+      "title": "Human safety / tolerability reporting",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Even if efficacy is promising, poor safety evidence limits real-world use.",
+      "evidence_ids": [
+        "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8",
+        "b8830a23-db03-45f9-a5c9-7fdd064853e5",
+        "a764840c-2d95-4883-bf72-a519b74ebe0f",
+        "c81865f0-1077-40cf-b695-f717ac56fef1",
+        "b9b1fd5a-33c9-4026-b67a-959f94996e46",
+        "0555a35c-9762-4bc9-b5a2-b7bf7bb6c8d0",
+        "5b41f4d2-147b-486a-a705-aa1656f979b4",
+        "0e86d6cb-1f9e-4eba-921b-1d9a5429c3db"
+      ],
+      "how_to_close": "Human studies or regulatory summaries reporting adverse events, tolerability and key risks."
+    },
+    {
+      "key": "S2_duration",
+      "title": "Adequate duration for chronic use",
+      "status": "Satisfied",
+      "severity": "Medium",
+      "why_it_matters": "Short trials may miss delayed harms/benefits and do not reflect long-term use.",
+      "evidence_ids": [
+        "b8830a23-db03-45f9-a5c9-7fdd064853e5",
+        "e5a05b27-21cc-432a-85ca-764530ee03b7",
+        "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+        "7fd87c6c-b6b9-45ec-8e5b-79d1a866833f",
+        "0a119bd2-9b40-440e-8644-73aaa4fa3e93"
+      ],
+      "how_to_close": "Longer-duration human studies (months to years) with follow-up."
+    },
+    {
+      "key": "D1_results_posted",
+      "title": "Registered trials with results posted / publications linked",
+      "status": "Missing",
+      "severity": "High",
+      "why_it_matters": "Unreported completed trials can bias the evidence base (publication/reporting bias).",
+      "evidence_ids": [],
+      "how_to_close": "Ensure completed trials post results and/or link peer-reviewed publications (NCT\u2192paper linkage)."
+    },
+    {
+      "key": "P1_animal_in_vivo",
+      "title": "Robust in vivo (animal) evidence",
+      "status": "Satisfied",
+      "severity": "Low",
+      "why_it_matters": "Strong in vivo evidence improves biological plausibility and prioritisation.",
+      "evidence_ids": [
+        "c2fefc02-082b-44d6-a138-a386dfd1e32d",
+        "61d8c574-05c9-4830-b9e3-8490f104c9b0",
+        "427337c7-0f25-454d-8b7b-741f33aa22bf",
+        "90e1e269-8ecd-470e-b5e2-c1577fa53001",
+        "5e9ba05e-4b54-4d4e-a639-2b0513e97b8b",
+        "7dc7af0d-c039-4cd6-94a6-e8188eecaa8e",
+        "9c3c73e7-8f71-4222-8d3c-a9b6717d4b8b",
+        "6aa7268d-7796-40b4-b3d6-848dc822c53f"
+      ],
+      "how_to_close": "Multiple independent animal studies showing healthspan/lifespan benefits with appropriate controls."
+    }
+  ],
+  "exemplars": [
+    {
+      "id": "d5ec8472-2fcd-47e3-83fd-839e6c6f91f8",
+      "source_type": "SourceType.PUBMED",
+      "title": "Targeting ageing with rapamycin and its derivatives in humans: a systematic review.",
+      "level": 1,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": true,
+      "results_available": true
+    },
+    {
+      "id": "520a79e8-2d34-4f5a-81ea-e078281d8d5e",
+      "source_type": "SourceType.PUBMED",
+      "title": "Rapamycin not dietary restriction improves resilience against pathogens: a meta-analysis.",
+      "level": 1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "87e1a7af-343b-40f7-aa0b-5dde68159d8e",
+      "source_type": "SourceType.PUBMED",
+      "title": "Meta-Analysis of 29 Experiments Evaluating the Effects of Rapamycin on Life Span in the Laboratory Mouse.",
+      "level": 1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+      "source_type": "SourceType.PUBMED",
+      "title": "MyMD-1 Improves Health Span and Prolongs Life Span in Old Mice: A Noninferiority Study to Rapamycin.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "long",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "4cfe47b6-d531-46bd-a6c9-aa7e6de6acbe",
+      "source_type": "SourceType.PUBMED",
+      "title": "Targeting the biology of aging with mTOR inhibitors.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "9c3264e0-988e-4aef-a938-060c092c3b02",
+      "source_type": "SourceType.PUBMED",
+      "title": "From causes of aging to death from COVID-19.",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "2a106b66-de38-4f36-b5fd-6fc0620dce69",
+      "source_type": "SourceType.PUBMED",
+      "title": "Rapamycin for longevity: opinion article.",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "8179eaf6-f1cc-49fd-a651-3c1e4d0cd666",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Multicenter Randomized Two-arms Study Evaluating the BK Viral Clearance in Kidney Transplant Recipients With BK Viremia After Reduction of Immunosuppression Alone vs. Reduction of Immunosuppression and Replacement of Mycophenolate Mofetil by Everolimus",
+      "level": 2,
+      "relevance": 1,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "82d3d3f4-88e3-4d49-873e-c08bde9ffddd",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Inpatient Evaluation of Neuropsychiatric Patients",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "f757eb27-7575-42f2-9f3e-aba9414d2937",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Prevention of Skin Cancer in High Risk Patients After Conversion to a Sirolimus-based Immunosuppressive Protocol",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    }
+  ],
+  "notes": [
+    "documents_scanned=120"
+  ],
+  "_source": "deterministic"
+}

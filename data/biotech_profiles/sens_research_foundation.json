@@ -132,26 +132,26 @@
     {
       "name": "Aubrey de Grey",
       "role": "Co-founder (role history; current role source needed)",
-      "background": "Associated with founding SENS Research Foundation and the SENS damage-repair approach to aging (source: https://en.wikipedia.org/wiki/SENS_Research_Foundation)."
+      "background": "Associated with founding SENS Research Foundation and the SENS damage-repair approach to aging."
     },
     {
       "name": "David Gobel",
       "role": "Co-founder (role history; current role source needed)",
-      "background": "Listed as a co-founder of SENS Research Foundation (source: https://en.wikipedia.org/wiki/SENS_Research_Foundation)."
+      "background": "Listed as a co-founder of SENS Research Foundation."
     }
   ],
   "investors_notable": [],
   "risks": [
-    "SRF is structured as a nonprofit research foundation; translation to products typically depends on external partners/spinouts rather than an internal clinical development engine (source: https://www.sens.org/about/ ; https://www.sens.org/our-research/).",
-    "Programs described by SRF are research-stage and generally preclinical, implying high technical and translational risk and long timelines to human proof-of-concept (source: https://www.sens.org/our-research/).",
-    "Several focus areas (e.g., glucosepane crosslink remediation and mitochondrial gene backup/allotopic expression) are technically challenging with uncertain in vivo efficacy/safety until demonstrated in robust animal and ultimately human studies (source: https://www.sens.org/our-research/glycosens/ ; https://www.sens.org/our-research/mitosens/).",
-    "As a donation-supported organization, funding continuity may be sensitive to philanthropy cycles and donor concentration (source needed; potential partial support from SRF donate page: https://www.sens.org/donate/).",
-    "Nonstandard 'acquisition' pathways for a nonprofit can complicate IP consolidation, governance, and incentives versus venture-backed biotechs (source needed)."
+    "SRF is structured as a nonprofit research foundation; translation to products typically depends on external partners/spinouts rather than an internal clinical development engine.",
+    "Programs described by SRF are research-stage and generally preclinical, implying high technical and translational risk and long timelines to human proof-of-concept.",
+    "Several focus areas (e.g., glucosepane crosslink remediation and mitochondrial gene backup/allotopic expression) are technically challenging with uncertain in vivo efficacy/safety until demonstrated in robust animal and ultimately human studies.",
+    "As a donation-supported organization, funding continuity may be sensitive to philanthropy cycles and donor concentration.",
+    "Nonstandard 'acquisition' pathways for a nonprofit can complicate IP consolidation, governance, and incentives versus venture-backed biotechs."
   ],
   "competitive_advantages": [
-    "Clear, modular taxonomy of damage-repair research programs (e.g., ApoptoSENS, GlycoSENS, MitoSENS, LysoSENS, AmyloSENS, RepleniSENS) that can be pursued in parallel and partnered/spun out individually (source: https://www.sens.org/our-research/).",
-    "Mission-driven platform for funding and coordinating high-risk aging-damage repair projects that may be difficult to finance through traditional venture pathways at very early stages (source: https://www.sens.org/about/ ; source needed for comparative financing claim).",
-    "Brand recognition within the longevity field for the 'SENS' damage-repair framework, aiding collaboration, fundraising, and talent attraction (source: https://www.sens.org/about/ ; source needed for brand-recognition impact)."
+    "Clear, modular taxonomy of damage-repair research programs (e.g., ApoptoSENS, GlycoSENS, MitoSENS, LysoSENS, AmyloSENS, RepleniSENS) that can be pursued in parallel and partnered/spun out individually.",
+    "Mission-driven platform for funding and coordinating high-risk aging-damage repair projects that may be difficult to finance through traditional venture pathways at very early stages.",
+    "Brand recognition within the longevity field for the 'SENS' damage-repair framework, aiding collaboration, fundraising, and talent attraction."
   ],
   "acquisition_estimate": {
     "low_usd": 5000000,

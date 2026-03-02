@@ -1,0 +1,121 @@
+{
+  "confidence": 73.29,
+  "confidence_raw": 73.29,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 26.68,
+    "2": 29.96,
+    "3": 5.94,
+    "4": 10.44,
+    "5": 0.0,
+    "6": 0.26
+  },
+  "selected_counts_by_level": {
+    "1": 4,
+    "2": 62,
+    "3": 13,
+    "4": 148,
+    "5": 0,
+    "6": 78
+  },
+  "top_docs": [
+    {
+      "id": "da705680-c5dc-44f7-803a-7ae26286d858",
+      "source_type": "europe_pmc",
+      "title": "Cellular Senescence and Immunosenescence in Melanoma: Insights From the Tumor Microenvironment.",
+      "level": 1,
+      "doc_weight": 0.7073,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c4cb3935-2e3b-4c6f-b0ed-ced11e97ca3d",
+      "source_type": "pubmed",
+      "title": "Immunotherapy and senolytics in head and neck squamous cell carcinoma: phase 2 trial results.",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8b5d9f92-bf5d-4ace-9f7f-1c983b370fa6",
+      "source_type": "pubmed",
+      "title": "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study.",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "72c3018a-8edb-4c00-992f-b2c0e736f1ef",
+      "source_type": "europe_pmc",
+      "title": "Targeting cellular senescence in progenitor cells as a strategy to enhance bone regeneration by cell therapies: a systematic review of pre-clinical investigations.",
+      "level": 1,
+      "doc_weight": 0.6237,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "95fa6b0c-6397-46e5-b03b-d93c2808b89e",
+      "source_type": "pubmed",
+      "title": "Senolytic Therapy to Modulate the Progression of Alzheimer's Disease (SToMP-AD): A Pilot Clinical Trial.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3b8da80c-5177-40d5-8439-8e6d43ab562e",
+      "source_type": "pubmed",
+      "title": "Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial.",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "cf443c5a-b3a2-44d4-86b8-2de4b4fb0dbe",
+      "source_type": "pubmed",
+      "title": "Targeting aging with urolithin A in humans: A systematic review.",
+      "level": 1,
+      "doc_weight": 0.5409,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0a24071c-b55c-4fbd-b7d0-3d123c45ebce",
+      "source_type": "europe_pmc",
+      "title": "Senolytics, dasatanib plus quercetin, reduce kidney inflammation, senescent cell abundance, and injury while restoring geroprotective factors in murine diabetic kidney disease.",
+      "level": 2,
+      "doc_weight": 0.4259,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=305"
+  ]
+}

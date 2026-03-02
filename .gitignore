@@ -16,6 +16,9 @@ data/age_nt.db
 # Old/unused
 data/chroma_db/
 
+# Generated plot images (MCP tool outputs)
+data/plots/
+
 .venv/
 venv/
 

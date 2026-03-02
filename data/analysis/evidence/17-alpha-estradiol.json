@@ -1,0 +1,121 @@
+{
+  "confidence": 49.33,
+  "confidence_raw": 49.33,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 23.63,
+    "2": 17.09,
+    "3": 3.02,
+    "4": 5.57,
+    "5": 0.0,
+    "6": 0.01
+  },
+  "selected_counts_by_level": {
+    "1": 3,
+    "2": 23,
+    "3": 7,
+    "4": 68,
+    "5": 0,
+    "6": 20
+  },
+  "top_docs": [
+    {
+      "id": "ea64f2dc-29fc-4bdf-9fcc-098a7cf69c16",
+      "source_type": "news",
+      "title": "[PDF] 17\u03b1-Estradiol - Alzheimer's Drug Discovery Foundation",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "febb191b-ec29-4508-adaf-794c6b979829",
+      "source_type": "europe_pmc",
+      "title": "Managing Menopausal Skin Changes: A Narrative Review of Skin Quality Changes, Their Aesthetic Impact, and the Actual Role of Hormone Replacement Therapy in Improvement.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "6aea79b4-3eb6-4725-ab1e-11a725e7c2bb",
+      "source_type": "europe_pmc",
+      "title": "Antioxidant strategies against cellular senescence: unveiling the power of synthetic versus natural antioxidants in a systematic review.",
+      "level": 1,
+      "doc_weight": 0.4993,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "10a661a1-4c8c-4fca-b40d-ea1362152702",
+      "source_type": "europe_pmc",
+      "title": "Biomarkers of female reproductive aging in gerotherapeutic clinical trials.",
+      "level": 2,
+      "doc_weight": 0.3381,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "7cd7c284-6679-48ec-b097-2b3ad9c61bd1",
+      "source_type": "europe_pmc",
+      "title": "Senotherapeutics for Brain Aging Management.",
+      "level": 2,
+      "doc_weight": 0.3143,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b6778071-2431-4b4c-9c16-e7b5deb48d38",
+      "source_type": "europe_pmc",
+      "title": "Exploring the effects of estrogen deficiency and aging on organismal homeostasis during menopause.",
+      "level": 3,
+      "doc_weight": 0.3132,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a1f11587-7e6e-4202-aaf4-bda5a6036542",
+      "source_type": "europe_pmc",
+      "title": "Topical estrogen for skin aging: A systematic review of safety and efficacy.",
+      "level": 1,
+      "doc_weight": 0.2188,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "6bc98ef2-71ae-450f-8ef7-ea5403e7ea16",
+      "source_type": "pubmed",
+      "title": "A new approach to describe the skin surface physical properties in vivo.",
+      "level": 2,
+      "doc_weight": 0.1571,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=121"
+  ]
+}

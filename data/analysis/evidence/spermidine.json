@@ -1,0 +1,121 @@
+{
+  "confidence": 58.1,
+  "confidence_raw": 58.1,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 7.63,
+    "2": 29.47,
+    "3": 9.72,
+    "4": 10.95,
+    "5": 0.0,
+    "6": 0.32
+  },
+  "selected_counts_by_level": {
+    "1": 2,
+    "2": 32,
+    "3": 19,
+    "4": 183,
+    "5": 0,
+    "6": 53
+  },
+  "top_docs": [
+    {
+      "id": "4ca213ea-6e43-46e4-adbc-da79685d0534",
+      "source_type": "news",
+      "title": "Spermidine and Longevity: Landmark Studies on Extending the ...",
+      "level": 2,
+      "doc_weight": 0.7097,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "78dea1de-d6ff-4a81-8c49-06f399fc6282",
+      "source_type": "pubmed",
+      "title": "Effects of Spermidine-Rich Rice Germ Extract Supplement on Biomarkers of Healthy Aging and Autophagy-Proof-of-Concept Pilot Study.",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "277a89eb-6d15-4ce7-b762-581076a1ed97",
+      "source_type": "pubmed",
+      "title": "Spermidine in health and disease.",
+      "level": 2,
+      "doc_weight": 0.6162,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "48a3eb6d-7fab-473a-a9b9-a8d24ca83b8f",
+      "source_type": "clinicaltrials",
+      "title": "Spinal Cord sTimulation thEraPy for Parkinson's Disease Patients With Gait Problems",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "47f45442-214b-4296-ac44-d9a1598cbc3c",
+      "source_type": "europe_pmc",
+      "title": "Nutritional Factors: Benefits in Glaucoma and Ophthalmologic Pathologies.",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "aec0fe34-930b-4d31-9459-2bbaa8ba1fd3",
+      "source_type": "clinicaltrials",
+      "title": "Vagus Nerve Stimulation: Integration of Behavior and Cardiac Modulation",
+      "level": 2,
+      "doc_weight": 0.479,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "7ebaa690-3a67-4955-a3ec-d63d37614ba7",
+      "source_type": "news",
+      "title": "Role of spermidine in longevity | ECEESPE2025 - Endocrine Abstracts",
+      "level": 3,
+      "doc_weight": 0.4592,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c894efb2-0b21-4cd0-8713-838966e664ba",
+      "source_type": "clinicaltrials",
+      "title": "Effect of \"Coping With Stress Program\" to Depression and Anxiety Symptoms and Brain Functions in Adolescent at High-Risk for Depression",
+      "level": 2,
+      "doc_weight": 0.418,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=289"
+  ]
+}

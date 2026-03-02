@@ -11,13 +11,13 @@
   "key_people": [],
   "investors_notable": [],
   "risks": [
-    "Publicly verifiable information on corporate structure (company vs. program/nonprofit), governance, and jurisdiction is insufficient to underwrite diligence (source needed).",
-    "No publicly disclosed therapeutic pipeline/asset list identified; without named programs, target product profiles, or preclinical packages, translational and value assessment is not possible (source needed).",
-    "No publicly disclosed funding history (rounds, investors, amounts) identified; capital adequacy and runway cannot be assessed (source needed).",
-    "If the entity is primarily a fellowship/accelerator rather than an asset-owning biotech, acquisition likelihood and strategic fit for pharma buyers may be low (source needed)."
+    "Publicly verifiable information on corporate structure (company vs. program/nonprofit), governance, and jurisdiction is insufficient to underwrite diligence.",
+    "No publicly disclosed therapeutic pipeline/asset list identified; without named programs, target product profiles, or preclinical packages, translational and value assessment is not possible.",
+    "No publicly disclosed funding history (rounds, investors, amounts) identified; capital adequacy and runway cannot be assessed.",
+    "If the entity is primarily a fellowship/accelerator rather than an asset-owning biotech, acquisition likelihood and strategic fit for pharma buyers may be low."
   ],
   "competitive_advantages": [
-    "Potential talent-network and venture creation model could accelerate formation of longevity startups, but evidence of outputs (spun-out companies, IP created, clinical assets) not identified (source needed)."
+    "Potential talent-network and venture creation model could accelerate formation of longevity startups, but evidence of outputs (spun-out companies, IP created, clinical assets) not identified."
   ],
   "acquisition_estimate": null,
   "sources": [

@@ -1,0 +1,121 @@
+{
+  "confidence": 81.05,
+  "confidence_raw": 81.05,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.84,
+    "2": 30.0,
+    "3": 13.31,
+    "4": 7.81,
+    "5": 0.0,
+    "6": 0.09
+  },
+  "selected_counts_by_level": {
+    "1": 18,
+    "2": 69,
+    "3": 38,
+    "4": 123,
+    "5": 0,
+    "6": 48
+  },
+  "top_docs": [
+    {
+      "id": "d83c4658-35d2-483b-96d2-7af907ed1b30",
+      "source_type": "europe_pmc",
+      "title": "Fish and Omega-3 Fatty Acids: Sex and Racial Differences in Cardiovascular Outcomes and Cognitive Function.",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ab2707aa-85f9-4381-8121-f477f9de9138",
+      "source_type": "europe_pmc",
+      "title": "Sex-Specific Diet-Microbiota Interactions in Ageing: Implications for Healthy Longevity.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a711a71b-4eab-47d1-b636-9c6ca4055615",
+      "source_type": "nih_grant",
+      "title": "Comprehensive Determination of Isoprostanoid Metabolism",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "efffaa86-89d3-4d53-8419-77410d2d8c05",
+      "source_type": "europe_pmc",
+      "title": "Circulating Docosahexaenoic Acid and Risk of All-Cause and Cause-Specific Mortality.",
+      "level": 1,
+      "doc_weight": 0.66,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e9cc58cd-39a4-42c1-ab11-03f344a1f458",
+      "source_type": "pubmed",
+      "title": "Fish oil-derived n-3 PUFA therapy increases muscle mass and function in healthy older adults.",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "68b12aee-09fa-4fcf-acf3-7a5bfd4d9f13",
+      "source_type": "nih_grant",
+      "title": "Improving sarcopenia by targeting mitochondria",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e08aeb20-c4d2-4d37-afef-e47e6341dc05",
+      "source_type": "nih_grant",
+      "title": "Improving sarcopenia by targeting mitochondria",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4d68513c-bca7-48d5-aeaa-a9b72ee3e67e",
+      "source_type": "news",
+      "title": "Omega-3 Supplements May Help with Longevity",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=296"
+  ]
+}

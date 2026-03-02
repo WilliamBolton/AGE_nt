@@ -1,0 +1,121 @@
+{
+  "confidence": 72.09,
+  "confidence_raw": 72.09,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.61,
+    "2": 29.78,
+    "3": 3.99,
+    "4": 8.47,
+    "5": 0.0,
+    "6": 0.24
+  },
+  "selected_counts_by_level": {
+    "1": 12,
+    "2": 68,
+    "3": 12,
+    "4": 131,
+    "5": 0,
+    "6": 61
+  },
+  "top_docs": [
+    {
+      "id": "6a70e8ae-1891-431c-b454-43770114c308",
+      "source_type": "europe_pmc",
+      "title": "NAD\u207a supplementation for anti-aging and wellness: a PRISMA-guided systematic review of preclinical and clinical evidence.",
+      "level": 1,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "16ac2de8-eb0b-4770-a7a9-fff854fa5ac6",
+      "source_type": "clinicaltrials",
+      "title": "Vascular Graft Infections - Epidemiology, Best Treatment Options, Imaging Modalities and Impact of Negative Pressure Wound Therapy",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bfa9bb8d-1266-446c-9f06-e6e7d2217fcf",
+      "source_type": "europe_pmc",
+      "title": "Nicotinamide Riboside Supplementation Benefits in Patients With Werner Syndrome: A Double-Blind Randomized Crossover Placebo-Controlled Trial.",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2da01e39-9a00-4f87-ab66-8f8440369c82",
+      "source_type": "pubmed",
+      "title": "A randomized placebo-controlled trial of nicotinamide riboside and pterostilbene supplementation in experimental muscle injury in elderly individuals.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3909e7a5-c7b7-42be-bcd7-5118c7c8c431",
+      "source_type": "news",
+      "title": "A pill that staves off aging? It's on the horizon",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e9d6593a-6112-4deb-a18e-5bc4425d0a9d",
+      "source_type": "pubmed",
+      "title": "A randomized placebo-controlled trial of nicotinamide riboside in older adults with mild cognitive impairment.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b4d9ae33-396c-43c3-910b-4735bd392c65",
+      "source_type": "europe_pmc",
+      "title": "A randomized placebo-controlled trial of nicotinamide riboside in older adults with mild cognitive impairment.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5fde09d4-3d1c-486c-9029-bb5081845a16",
+      "source_type": "semantic_scholar",
+      "title": "Clinical Trials Corner",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=284"
+  ]
+}

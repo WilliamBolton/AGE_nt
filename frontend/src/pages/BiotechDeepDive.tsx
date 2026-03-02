@@ -66,7 +66,7 @@ export default function BiotechDeepDive() {
   }, [selected]);
 
   return (
-    <div className="p-6 space-y-6 max-w-5xl mx-auto">
+    <div className="p-6 space-y-6 max-w-7xl mx-auto">
       <div className="flex items-center justify-between">
         <h2 className="text-2xl font-bold font-heading text-on-surface">Biotech Deep Dive</h2>
         <select

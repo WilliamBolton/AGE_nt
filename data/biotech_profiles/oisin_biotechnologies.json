@@ -9,10 +9,10 @@
     {
       "compound": "Senescent-cell targeted gene therapy (reported p16INK4a promoter-driven “suicide gene” payload delivered via lipid nanoparticles/\"fusogenic\" liposomes)",
       "intervention_link": "senolytics",
-      "target": "Senescent cells (p16INK4a-high cells) (source needed for Oisin-specific target marker; p16INK4a as a commonly used senescence marker: https://pubmed.ncbi.nlm.nih.gov/26602710/)",
-      "mechanism": "Transcriptional targeting (senescence-associated promoter) to drive expression of a cytotoxic/apoptotic payload in senescent cells, aiming to ablate senescent cells (source needed for Oisin-specific construct details; concept of senescent-cell ablation improving age-related phenotypes shown in INK-ATTAC mouse model: https://www.nature.com/articles/nature10600)",
+      "target": "Senescent cells (p16INK4a-high cells)",
+      "mechanism": "Transcriptional targeting (senescence-associated promoter) to drive expression of a cytotoxic/apoptotic payload in senescent cells, aiming to ablate senescent cells",
       "indication": null,
-      "phase": "preclinical (no Oisin Biotechnologies trials found in ClinicalTrials.gov search at time of writing) (source: https://clinicaltrials.gov/search?term=%22Oisin%20Biotechnologies%22)",
+      "phase": "preclinical (no Oisin Biotechnologies trials found in ClinicalTrials.gov search at time of writing)",
       "hallmarks": [
         "cellular_senescence",
         "chronic_inflammation",
@@ -45,24 +45,24 @@
     "Targeting risk: p16INK4a and other senescence markers can be heterogeneous across tissues/cell states, raising the possibility of incomplete clearance or off-target effects if promoter activity occurs in non-senescent contexts (senescence heterogeneity review: https://pubmed.ncbi.nlm.nih.gov/31097663/; p16INK4a biology context: https://pubmed.ncbi.nlm.nih.gov/26602710/).",
     "Translation risk: benefits of senescent-cell clearance are strong in multiple mouse studies, but human therapeutic index, dosing frequency, and long-term outcomes remain uncertain (senolytics/senescence-targeting clinical translation discussion: https://pubmed.ncbi.nlm.nih.gov/31988420/).",
     "Potential tissue repair trade-offs: senescent cells can have context-dependent roles (e.g., wound healing, tumor suppression), so indiscriminate or poorly controlled ablation could have unintended consequences (context-dependent senescence discussion: https://pubmed.ncbi.nlm.nih.gov/31097663/).",
-    "Financing risk: total funding, cash runway, and program prioritization are not reliably public in sources reviewed here (source needed; suggested verification via Crunchbase/PitchBook and press releases)."
+    "Financing risk: total funding, cash runway, and program prioritization are not reliably public in sources reviewed here."
   ],
   "competitive_advantages": [
-    "If validated, a transcriptionally targeted senolytic gene therapy could offer higher selectivity than small-molecule senolytics by restricting cytotoxic payload expression to senescent-marker-positive cells (source needed for Oisin-specific selectivity data; rationale and challenges for senescence targeting: https://pubmed.ncbi.nlm.nih.gov/31988420/).",
+    "If validated, a transcriptionally targeted senolytic gene therapy could offer higher selectivity than small-molecule senolytics by restricting cytotoxic payload expression to senescent-marker-positive cells.",
     "Potential platform optionality: nucleic-acid/lipid-particle delivery plus cell-state-specific promoters could, in principle, be adapted to other pathologic cell populations beyond senescent cells (platform generalization concept for nucleic-acid therapeutics: https://pubmed.ncbi.nlm.nih.gov/32094905/)."
   ],
   "acquisition_estimate": {
     "low_usd": 50000000,
     "high_usd": 250000000,
-    "methodology": "Analyst estimate (source needed): stage-weighted valuation range for a preclinical, platform-style gene-therapy senolytic company. Approach: (1) anchor on historical gene therapy acquisition deal sizes primarily in clinical-stage assets; (2) apply a large preclinical discount (e.g., 85–95%) for technical, translational, and regulatory risk; (3) adjust for strategic scarcity/option value in senescence-targeting modalities. This yields a wide range reflecting high uncertainty, dependence on in vivo data quality, delivery biodistribution, and IP position (source needed for Oisin-specific IP strength).",
+    "methodology": "Analyst estimate: stage-weighted valuation range for a preclinical, platform-style gene-therapy senolytic company. Approach: (1) anchor on historical gene therapy acquisition deal sizes primarily in clinical-stage assets; (2) apply a large preclinical discount (e.g., 85–95%) for technical, translational, and regulatory risk; (3) adjust for strategic scarcity/option value in senescence-targeting modalities. This yields a wide range reflecting high uncertainty, dependence on in vivo data quality, delivery biodistribution, and IP position.",
     "comparable_deals": [
-      "Astellas acquisition of Audentes Therapeutics (gene therapy) for approximately $3B (2019) (source: https://www.businesswire.com/news/home/20191203005520/en/Astellas-to-Acquire-Audentes-Therapeutics)",
-      "Novartis acquisition of AveXis (gene therapy) for approximately $8.7B (2018) (source: https://www.novartis.com/news/media-releases/novartis-completes-acquisition-avexis-inc-87-billion)",
-      "Bayer acquisition of BlueRock Therapeutics (cell therapy platform; staged acquisition to full ownership) (2019) (source: https://www.bayer.com/en/news-stories/bayer-to-acquire-bluerock-therapeutics)"
+      "Astellas acquisition of Audentes Therapeutics (gene therapy) for approximately $3B (2019)",
+      "Novartis acquisition of AveXis (gene therapy) for approximately $8.7B (2018)",
+      "Bayer acquisition of BlueRock Therapeutics (cell therapy platform; staged acquisition to full ownership) (2019)"
     ]
   },
   "sources": [
-    "https://oisinbio.com/ (source needed to confirm accessibility and specific pipeline details)",
+    "https://oisinbio.com/",
     "https://clinicaltrials.gov/search?term=%22Oisin%20Biotechnologies%22",
     "https://www.nature.com/articles/nature10600",
     "https://pubmed.ncbi.nlm.nih.gov/31988420/",

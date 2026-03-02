@@ -1,0 +1,121 @@
+{
+  "confidence": 78.04,
+  "confidence_raw": 78.04,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.25,
+    "2": 29.57,
+    "3": 9.45,
+    "4": 9.64,
+    "5": 0.03,
+    "6": 0.1
+  },
+  "selected_counts_by_level": {
+    "1": 8,
+    "2": 52,
+    "3": 26,
+    "4": 165,
+    "5": 2,
+    "6": 56
+  },
+  "top_docs": [
+    {
+      "id": "0bdc0757-276e-42b2-b5f6-6700b894f091",
+      "source_type": "europe_pmc",
+      "title": "Sterilization and contraception increase lifespan across vertebrates.",
+      "level": 1,
+      "doc_weight": 1.0395,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d658a9a1-826c-4549-8c28-b9779778dd73",
+      "source_type": "pubmed",
+      "title": "A meta-analysis of genome-wide association studies identifies multiple longevity genes.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "fef11a59-3d8c-4f7b-84f4-f0e55dcaf9e2",
+      "source_type": "news",
+      "title": "Methylene Blue for Longevity: Benefits, Safety, and Real Science",
+      "level": 2,
+      "doc_weight": 0.751,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "6be603ec-4fdd-4f1a-925f-5a8d6c118946",
+      "source_type": "news",
+      "title": "[PDF] Methylene blue (and TRx0237)",
+      "level": 2,
+      "doc_weight": 0.751,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5a69a185-6bfc-483e-a5f9-e083d054b70c",
+      "source_type": "clinicaltrials",
+      "title": "MATRIx: MesenchymAl Stromal Cells for Traumatic bRain Injury",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "34f09e6e-6b3f-410e-93a9-40835e776f12",
+      "source_type": "clinicaltrials",
+      "title": "A Phase 2, Open-label Study Evaluating Dosimetry, Randomized Dose Optimization, Dose Escalation and Efficacy of Ac-225 Rosopatamab Tetraxetan in Participants With PSMA PET-Positive Castration-Resistant Prostate Cancer",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b9a3ff76-595d-4afd-b182-fe67a833670b",
+      "source_type": "nih_grant",
+      "title": "Hollow Fiber Catheter for Drug Delivery into the Prostate",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "468c3fba-d55e-4326-bd4e-d363d055844f",
+      "source_type": "nih_grant",
+      "title": "Hollow Fiber Catheter for Drug Delivery into the Prostate",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=309"
+  ]
+}

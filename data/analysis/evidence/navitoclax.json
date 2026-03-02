@@ -1,0 +1,121 @@
+{
+  "confidence": 64.98,
+  "confidence_raw": 64.98,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 23.32,
+    "2": 27.58,
+    "3": 6.08,
+    "4": 7.9,
+    "5": 0.03,
+    "6": 0.07
+  },
+  "selected_counts_by_level": {
+    "1": 4,
+    "2": 40,
+    "3": 12,
+    "4": 91,
+    "5": 1,
+    "6": 20
+  },
+  "top_docs": [
+    {
+      "id": "730bd8d7-c742-4bb8-b535-0e8cf86ee96f",
+      "source_type": "europe_pmc",
+      "title": "Cellular Senescence and Immunosenescence in Melanoma: Insights From the Tumor Microenvironment.",
+      "level": 1,
+      "doc_weight": 0.7073,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b863186f-0a9c-4d88-959e-4c89d6c3412c",
+      "source_type": "news",
+      "title": "Treatment of advanced atherosclerotic mice with ABT-263 reduced ...",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "15d90b4c-31ce-4f10-a153-e258f7843c1e",
+      "source_type": "europe_pmc",
+      "title": "Targeting Aging and Diseases Associated with Ferroptosis and Senescence Through Modulation of Iron, Oxidative Stress and Lipid Peroxidation.",
+      "level": 2,
+      "doc_weight": 0.6033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "864281ba-1f18-4137-911d-cec6787604d8",
+      "source_type": "news",
+      "title": "German Study Demonstrates Senolytic Therapy Helps Obese Mice ...",
+      "level": 2,
+      "doc_weight": 0.4438,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2f335be1-3aa9-4782-b01b-dcf1103c35e7",
+      "source_type": "clinicaltrials",
+      "title": "A Phase 1b-2 Trial to Assess the Safety and Efficacy of a Venetoclax and Navitoclax Consolidation in High-risk Patients With T- Cell Acute Lymphoblastic Leukemia Prior to Allogeneic Transplantation Followed by Venetoclax and Navitoclax Post-transplant Maintenance",
+      "level": 2,
+      "doc_weight": 0.3702,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8e2187a4-311c-44b5-a7dc-f9d7cb0a9d06",
+      "source_type": "europe_pmc",
+      "title": "Senotherapeutics for Brain Aging Management.",
+      "level": 2,
+      "doc_weight": 0.3143,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "200501e2-6dd0-418b-a802-878f64eed101",
+      "source_type": "europe_pmc",
+      "title": "Heterogeneity of Cellular Senescence, Senotyping, and Targeting by Senolytics and Senomorphics in Lung Diseases.",
+      "level": 2,
+      "doc_weight": 0.3143,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d2f9b357-57d2-43d2-af38-a59234bc6640",
+      "source_type": "semantic_scholar",
+      "title": "Longevity biotechnology: bridging AI, biomarkers, geroscience and clinical applications for healthy longevity",
+      "level": 2,
+      "doc_weight": 0.3143,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=168"
+  ]
+}

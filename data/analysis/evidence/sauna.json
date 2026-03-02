@@ -1,0 +1,121 @@
+{
+  "confidence": 80.49,
+  "confidence_raw": 80.49,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 28.96,
+    "2": 29.79,
+    "3": 12.18,
+    "4": 9.42,
+    "5": 0.0,
+    "6": 0.13
+  },
+  "selected_counts_by_level": {
+    "1": 10,
+    "2": 46,
+    "3": 41,
+    "4": 130,
+    "5": 0,
+    "6": 36
+  },
+  "top_docs": [
+    {
+      "id": "b6e203af-f510-435f-9251-cfe965383cec",
+      "source_type": "europe_pmc",
+      "title": "Relationship between heat shock proteins and cellular resistance to drugs and ageing.",
+      "level": 1,
+      "doc_weight": 1.1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b8c20edb-f156-4ab8-bb72-31aa5d5ef35b",
+      "source_type": "europe_pmc",
+      "title": "The Role of Sauna Bathing in Ischemic Heart Disease: A Narrative Review of Therapeutic Potential, Physiological Mechanisms, and Emerging Clinical Applications.",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "283fdc21-4c55-434f-a5eb-3942dbc0e05e",
+      "source_type": "nih_grant",
+      "title": "Heat Therapy versus Exercise Training in Hypertension",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8450f476-56e1-4b43-b6d4-b86fb551388e",
+      "source_type": "europe_pmc",
+      "title": "Heat stress effects on the immune system of older adults: A systematic literature review.",
+      "level": 1,
+      "doc_weight": 0.751,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "9f8a2f7a-ad26-4563-af4b-c9c0e30313fb",
+      "source_type": "pubmed",
+      "title": "Acute effect of Finnish sauna bathing on brachial artery flow-mediated dilation and reactive hyperemia in healthy middle-aged and older adults.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c180dd60-df83-434f-9324-246aed8b3670",
+      "source_type": "clinicaltrials",
+      "title": "Leveraging Family-Based Assets for Black MSM In House Ball Communities (Our Family, Our Voices-\"OFOV)",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b70e2dfc-c134-4fed-8481-47784dd02603",
+      "source_type": "europe_pmc",
+      "title": "Longevity cosmeceuticals as the next frontier in cosmetic innovation: a scientific framework for substantiating product claims.",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4506a2f4-1a14-443a-9d35-426bad7cbda3",
+      "source_type": "nih_grant",
+      "title": "Passive heat therapy for lowering systolic blood pressure and improving vascular function in mid-life and older adults",
+      "level": 2,
+      "doc_weight": 0.4819,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=263"
+  ]
+}

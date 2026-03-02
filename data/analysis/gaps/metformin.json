@@ -1,0 +1,289 @@
+{
+  "gap_analysis_version": "deterministic_gap_v1",
+  "evidence_map": {
+    "counts_by_level": {
+      "1": 7,
+      "2": 45,
+      "3": 10,
+      "4": 46,
+      "5": 0,
+      "6": 12
+    },
+    "human_docs_count": 27,
+    "rct_docs_count": 14,
+    "human_direct_endpoints_count": 7
+  },
+  "gaps": [
+    {
+      "key": "G1_human_evidence",
+      "title": "Any human evidence relevant to ageing/healthspan",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Without human evidence, claims remain preclinical.",
+      "evidence_ids": [
+        "ddb4fc67-e57f-4955-bce4-0c7b983cb0f4",
+        "b4e130e0-df65-4b52-833b-b2ceaf11685f",
+        "fe4eff2b-2c82-47c0-b4b0-7b45b4775c9b",
+        "a8ecf16f-3808-41fa-8a34-73e15b8b3fac",
+        "ffa23f3e-7a5d-4b74-a3b8-63480d918e4c",
+        "dd92d5aa-fb8a-4c3e-a3f7-381bc4c66151",
+        "e0d37440-e930-4838-83f5-d3a67ba7b610",
+        "839bc51b-21bb-4825-b994-263695d971df"
+      ],
+      "how_to_close": "At least one well-described human study (interventional or observational) with ageing/healthspan-relevant outcomes."
+    },
+    {
+      "key": "G2_randomised_evidence",
+      "title": "Randomised controlled trial evidence",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Randomisation reduces bias and strengthens causal claims.",
+      "evidence_ids": [
+        "b4e130e0-df65-4b52-833b-b2ceaf11685f",
+        "a8ecf16f-3808-41fa-8a34-73e15b8b3fac",
+        "e0d37440-e930-4838-83f5-d3a67ba7b610",
+        "d7f5be06-ee48-4406-9409-edc0995dafe5",
+        "66404cb4-0f53-4981-9a1a-989800761b63",
+        "64550cc1-dfec-407a-83ce-7d5a12b6d669",
+        "c7d23cac-5e5e-4f36-9cf2-1de9b1fe4186",
+        "0282cbfc-a156-4139-a4af-3965b106cc8d"
+      ],
+      "how_to_close": "At least one adequately powered RCT in a relevant population with pre-specified ageing/healthspan endpoints."
+    },
+    {
+      "key": "G3_human_endpoints",
+      "title": "Clinically meaningful endpoints in humans",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Functional/clinical outcomes are harder to over-interpret than biomarkers.",
+      "evidence_ids": [
+        "dd92d5aa-fb8a-4c3e-a3f7-381bc4c66151",
+        "4f6d941e-bb32-4455-b747-7b9c140a1bfd",
+        "72262967-71df-44ac-b14a-a8a34d85311b",
+        "9b7f64fd-d0bf-4ccc-9cc7-ecf44ad6d164",
+        "605c75fa-6c50-4e21-9a07-d287ddaf53ee",
+        "784ccbb0-8387-4f2a-a60e-6c301ec459ab",
+        "e692c653-cc8d-42f1-812d-3a2be8f9705c"
+      ],
+      "how_to_close": "Human studies measuring validated functional/clinical proxies (e.g., infections, frailty, gait speed) or hard endpoints."
+    },
+    {
+      "key": "G4_replication",
+      "title": "Replication across independent human studies",
+      "status": "Satisfied",
+      "severity": "Medium",
+      "why_it_matters": "Replication reduces the chance that findings are spurious or context-specific.",
+      "evidence_ids": [
+        "ddb4fc67-e57f-4955-bce4-0c7b983cb0f4",
+        "b4e130e0-df65-4b52-833b-b2ceaf11685f",
+        "fe4eff2b-2c82-47c0-b4b0-7b45b4775c9b",
+        "a8ecf16f-3808-41fa-8a34-73e15b8b3fac",
+        "ffa23f3e-7a5d-4b74-a3b8-63480d918e4c",
+        "dd92d5aa-fb8a-4c3e-a3f7-381bc4c66151"
+      ],
+      "how_to_close": "Multiple independent human studies (ideally multi-site) with consistent direction on key endpoints."
+    },
+    {
+      "key": "G5_older_adults",
+      "title": "Evidence in older adults / ageing-target populations",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Anti-ageing claims should be supported in older/adult ageing-relevant populations.",
+      "evidence_ids": [
+        "b4e130e0-df65-4b52-833b-b2ceaf11685f",
+        "a8ecf16f-3808-41fa-8a34-73e15b8b3fac",
+        "ffa23f3e-7a5d-4b74-a3b8-63480d918e4c",
+        "4f6d941e-bb32-4455-b747-7b9c140a1bfd",
+        "0282cbfc-a156-4139-a4af-3965b106cc8d",
+        "827804ea-f867-45f1-a178-9d2590b0dc3e",
+        "784ccbb0-8387-4f2a-a60e-6c301ec459ab"
+      ],
+      "how_to_close": "Trials/cohorts explicitly enrolling older adults (e.g., \u226565) or measuring ageing phenotypes."
+    },
+    {
+      "key": "S1_human_safety",
+      "title": "Human safety / tolerability reporting",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Even if efficacy is promising, poor safety evidence limits real-world use.",
+      "evidence_ids": [
+        "fe4eff2b-2c82-47c0-b4b0-7b45b4775c9b",
+        "a8ecf16f-3808-41fa-8a34-73e15b8b3fac",
+        "66404cb4-0f53-4981-9a1a-989800761b63",
+        "64550cc1-dfec-407a-83ce-7d5a12b6d669",
+        "0282cbfc-a156-4139-a4af-3965b106cc8d",
+        "784ccbb0-8387-4f2a-a60e-6c301ec459ab",
+        "b9f95f93-b7ba-4976-b301-af744dc2d3f4"
+      ],
+      "how_to_close": "Human studies or regulatory summaries reporting adverse events, tolerability and key risks."
+    },
+    {
+      "key": "S2_duration",
+      "title": "Adequate duration for chronic use",
+      "status": "Satisfied",
+      "severity": "Medium",
+      "why_it_matters": "Short trials may miss delayed harms/benefits and do not reflect long-term use.",
+      "evidence_ids": [
+        "b4e130e0-df65-4b52-833b-b2ceaf11685f",
+        "a8ecf16f-3808-41fa-8a34-73e15b8b3fac",
+        "ffa23f3e-7a5d-4b74-a3b8-63480d918e4c",
+        "72262967-71df-44ac-b14a-a8a34d85311b",
+        "784ccbb0-8387-4f2a-a60e-6c301ec459ab",
+        "e692c653-cc8d-42f1-812d-3a2be8f9705c"
+      ],
+      "how_to_close": "Longer-duration human studies (months to years) with follow-up."
+    },
+    {
+      "key": "D1_results_posted",
+      "title": "Registered trials with results posted / publications linked",
+      "status": "Missing",
+      "severity": "High",
+      "why_it_matters": "Unreported completed trials can bias the evidence base (publication/reporting bias).",
+      "evidence_ids": [],
+      "how_to_close": "Ensure completed trials post results and/or link peer-reviewed publications (NCT\u2192paper linkage)."
+    },
+    {
+      "key": "P1_animal_in_vivo",
+      "title": "Robust in vivo (animal) evidence",
+      "status": "Satisfied",
+      "severity": "Low",
+      "why_it_matters": "Strong in vivo evidence improves biological plausibility and prioritisation.",
+      "evidence_ids": [
+        "075ef82e-ad8a-4649-bee1-5a8fc420afbb",
+        "d3a419ba-a665-45dd-ac11-9d5fb8c62a52",
+        "80f738df-2a36-4ea8-a891-feaccbba1e57",
+        "f4472830-7607-4925-bc8a-65c20775566c",
+        "f6a30670-21b6-4f31-8247-cbd666d46992",
+        "0cac86c1-53bf-4128-a003-6c7155f9302e",
+        "b51c9623-d20b-4a13-b10a-541fb845585f",
+        "5cc1a046-afa8-4953-89d3-b0606f4638e8"
+      ],
+      "how_to_close": "Multiple independent animal studies showing healthspan/lifespan benefits with appropriate controls."
+    }
+  ],
+  "exemplars": [
+    {
+      "id": "dd92d5aa-fb8a-4c3e-a3f7-381bc4c66151",
+      "source_type": "SourceType.PUBMED",
+      "title": "Metformin reduces all-cause mortality and diseases of ageing independent of its effect on diabetes control: A systematic review and meta-analysis.",
+      "level": 1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "4f6d941e-bb32-4455-b747-7b9c140a1bfd",
+      "source_type": "SourceType.PUBMED",
+      "title": "Metformin alleviates auditory cell senescence by mitophagy induction.",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": true,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "72262967-71df-44ac-b14a-a8a34d85311b",
+      "source_type": "SourceType.PUBMED",
+      "title": "Comparative Effectiveness of Metformin Versus Sulfonylureas on Exceptional Longevity in Women With Type 2 Diabetes: Target Trial Emulation.",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "long",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "9b7f64fd-d0bf-4ccc-9cc7-ecf44ad6d164",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Metformin Alleviates Abnormal Glucose Metabolism Induced by Statins in Schizophrenia Patients: A Randomized, Double-Blind, Placebo-Controlled Multicenter Clinical Study",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "605c75fa-6c50-4e21-9a07-d287ddaf53ee",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Improving the Response of Recurrent Glioma to Radiation Therapy Through Metabolic Intervention",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "784ccbb0-8387-4f2a-a60e-6c301ec459ab",
+      "source_type": "SourceType.EUROPE_PMC",
+      "title": "Metformin and physical performance in older people with probable sarcopenia and physical prefrailty or frailty in England\u00a0(MET-PREVENT): a double-blind, randomised, placebo-controlled trial.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "long",
+      "older_adults": true,
+      "safety_reported": true,
+      "results_available": true
+    },
+    {
+      "id": "e692c653-cc8d-42f1-812d-3a2be8f9705c",
+      "source_type": "SourceType.EUROPE_PMC",
+      "title": "Use of potential gerotherapeutic drugs and mortality in geriatric rehabilitation inpatients: RESORT.",
+      "level": 3,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "duration_band": "medium",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "b4e130e0-df65-4b52-833b-b2ceaf11685f",
+      "source_type": "SourceType.PUBMED",
+      "title": "Disuse-induced muscle fibrosis, cellular senescence, and senescence-associated secretory phenotype in older adults are alleviated during re-ambulation with metformin pre-treatment.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "long",
+      "older_adults": true,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "a8ecf16f-3808-41fa-8a34-73e15b8b3fac",
+      "source_type": "SourceType.PUBMED",
+      "title": "Effects of testosterone and metformin on the GlycanAge index of biological age and the composition of the IgG glycome.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "duration_band": "long",
+      "older_adults": true,
+      "safety_reported": true,
+      "results_available": true
+    },
+    {
+      "id": "e0d37440-e930-4838-83f5-d3a67ba7b610",
+      "source_type": "SourceType.PUBMED",
+      "title": "The impact of metformin on placental ageing in humans and mice.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    }
+  ],
+  "notes": [
+    "documents_scanned=120"
+  ]
+}

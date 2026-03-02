@@ -1,0 +1,121 @@
+{
+  "confidence": 80.87,
+  "confidence_raw": 80.87,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.34,
+    "2": 29.83,
+    "3": 10.7,
+    "4": 10.92,
+    "5": 0.0,
+    "6": 0.08
+  },
+  "selected_counts_by_level": {
+    "1": 12,
+    "2": 52,
+    "3": 21,
+    "4": 275,
+    "5": 0,
+    "6": 13
+  },
+  "top_docs": [
+    {
+      "id": "00f489a0-0c64-495f-a4c2-d4c511ed06b3",
+      "source_type": "pubmed",
+      "title": "The effect of resveratrol on longevity across species: a meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "04566426-5f49-4791-b88a-1e84cccbc845",
+      "source_type": "clinicaltrials",
+      "title": "Phase II Study to Evaluate the Impact on Biomarkers of Resveratrol Treatment in Patients With Mild to Moderate Alzheimer's Disease",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "90ed390f-e0a5-49a6-acea-6975ed93b53a",
+      "source_type": "europe_pmc",
+      "title": "Trans-resveratrol reduces visible signs of skin ageing in healthy adult females over 40: an 8-week randomized placebo-controlled trial.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "09da9d9f-22e2-4152-a3d2-c0892681e046",
+      "source_type": "europe_pmc",
+      "title": "Photoprotective Effects of Phytochemicals on Blue Light-Induced Retinal Damage: Current Evidence and Future Perspectives.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8a264de3-cf05-4556-ab3d-c6511c72dd1c",
+      "source_type": "nih_grant",
+      "title": "A Novel Multicomponent DMSO Free Cryococktail and Recovery Reagent for the Improved Cryopreservation of NK Cells",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a4e7cb87-ff1c-469c-ae36-3703282fc03c",
+      "source_type": "news",
+      "title": "A healthier approach to clinical trials evaluating resveratrol ...",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b334c991-b100-4dcf-9b3b-6cb9eb4215f6",
+      "source_type": "clinicaltrials",
+      "title": "An Open-Label, Randomized, Double Arm, Phase 2 Study to Evaluate the Safety and Efficacy of C and RQC for Preventing Progression in Age-Related Macular Degeneration",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4f02fc3d-9d59-4e6e-a638-4644f1ee8a67",
+      "source_type": "pubmed",
+      "title": "Therapeutic effect of dietary ingredients on cellular senescence in animals and humans: A systematic review.",
+      "level": 1,
+      "doc_weight": 0.5301,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=373"
+  ]
+}

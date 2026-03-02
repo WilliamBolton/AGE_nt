@@ -1,0 +1,121 @@
+{
+  "confidence": 64.9,
+  "confidence_raw": 64.9,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 27.25,
+    "2": 27.17,
+    "3": 3.13,
+    "4": 7.26,
+    "5": 0.0,
+    "6": 0.08
+  },
+  "selected_counts_by_level": {
+    "1": 8,
+    "2": 49,
+    "3": 16,
+    "4": 106,
+    "5": 0,
+    "6": 21
+  },
+  "top_docs": [
+    {
+      "id": "88e04669-8b4d-4881-8d8a-215a4fae9925",
+      "source_type": "news",
+      "title": "[PDF] Berberine - Alzheimer's Drug Discovery Foundation",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0ac3e6bb-c931-42c4-b01f-fad1631747d6",
+      "source_type": "europe_pmc",
+      "title": "A Review of Telomere Attrition in Cancer and Aging: Current Molecular Insights and Future Therapeutic Approaches.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5e379a3b-1c9e-4371-bb9b-fdcbf85ecb50",
+      "source_type": "news",
+      "title": "Berberine: benefits, dosage and side effects | BIOGENA International",
+      "level": 1,
+      "doc_weight": 0.561,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "1c04d7d9-2c80-42dc-ac99-7bdf5cf40647",
+      "source_type": "news",
+      "title": "Berberine: Overrated or Underrated? (Latest Research) - YouTube",
+      "level": 2,
+      "doc_weight": 0.4539,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b7587b0f-8f92-482d-9cfc-abe062d10a41",
+      "source_type": "pubmed",
+      "title": "Berberine and Coptidis Rhizoma as potential anticancer agents: Recent updates and future perspectives.",
+      "level": 2,
+      "doc_weight": 0.4309,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3d217efd-7e00-42d0-9b5d-82250e170420",
+      "source_type": "pubmed",
+      "title": "Advances in structural modifications and biological activities of berberine: an active compound in traditional Chinese medicine.",
+      "level": 1,
+      "doc_weight": 0.3982,
+      "relevance": 1,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b2b73e67-2d73-4130-abc9-75d6b27c81cd",
+      "source_type": "news",
+      "title": "Berberine vs Metformin: Which Is More Effective for Metabolic Aging?",
+      "level": 2,
+      "doc_weight": 0.3978,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f7b728dd-dd5e-4bcd-9f3c-c4d4bca0897f",
+      "source_type": "europe_pmc",
+      "title": "Mitochondrial Health Through Nicotinamide Riboside and Berberine: Shared Pathways and Therapeutic Potential.",
+      "level": 2,
+      "doc_weight": 0.362,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=200"
+  ]
+}

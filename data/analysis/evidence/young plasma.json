@@ -1,0 +1,121 @@
+{
+  "confidence": 48.35,
+  "confidence_raw": 48.35,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 0.0,
+    "2": 29.54,
+    "3": 8.02,
+    "4": 10.72,
+    "5": 0.0,
+    "6": 0.07
+  },
+  "selected_counts_by_level": {
+    "1": 0,
+    "2": 40,
+    "3": 13,
+    "4": 163,
+    "5": 0,
+    "6": 19
+  },
+  "top_docs": [
+    {
+      "id": "db7085fc-d380-4a98-8017-e028e66e3053",
+      "source_type": "pubmed",
+      "title": "Multi-Omics Analysis Reveals Biomarkers That Contribute to Biological Age Rejuvenation in Response to Single-Blinded Randomized Placebo-Controlled Therapeutic Plasma Exchange.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "dd41e47f-53c4-48d1-9d0f-7b6daea9d484",
+      "source_type": "pubmed",
+      "title": "Cellular parabioisis as a senotherapeutic approach.",
+      "level": 2,
+      "doc_weight": 0.6162,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "7eba0fb8-161c-47c8-8f00-96afe7939242",
+      "source_type": "europe_pmc",
+      "title": "Cellular parabioisis as a senotherapeutic approach.",
+      "level": 2,
+      "doc_weight": 0.6162,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ed3d8f33-82f4-4057-ae81-19e3141692c2",
+      "source_type": "news",
+      "title": "The super rich are injecting blood from teenagers to gain 'immortality'",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "7226e837-a536-49ed-a96d-fdd4adc75f82",
+      "source_type": "clinicaltrials",
+      "title": "Brothers Building Brothers by Breaking Barriers for Telehealth Delivery (Tele-B6)",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e578c6dc-35ad-4792-8496-7e671d538818",
+      "source_type": "semantic_scholar",
+      "title": "Young Plasma Attenuated Chronic Kidney Disease Progression after Acute Kidney Injury by Inhibiting Inflammation in Mice",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "552627cf-1f6a-478a-b45c-40fd7a10dc3c",
+      "source_type": "news",
+      "title": "How young blood might help reverse aging. Yes, really - Forever Labs",
+      "level": 2,
+      "doc_weight": 0.479,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5290b5b9-fd0e-4668-aa5e-351d9d72abf4",
+      "source_type": "news",
+      "title": "How Plasma Exchange Affects Aging in a Human Trial",
+      "level": 2,
+      "doc_weight": 0.4506,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=235"
+  ]
+}

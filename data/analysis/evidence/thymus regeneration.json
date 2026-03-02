@@ -1,0 +1,121 @@
+{
+  "confidence": 59.33,
+  "confidence_raw": 59.33,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 17.07,
+    "2": 27.71,
+    "3": 3.12,
+    "4": 11.37,
+    "5": 0.0,
+    "6": 0.06
+  },
+  "selected_counts_by_level": {
+    "1": 3,
+    "2": 16,
+    "3": 7,
+    "4": 191,
+    "5": 0,
+    "6": 8
+  },
+  "top_docs": [
+    {
+      "id": "d85cdf5d-5d78-40e8-a52d-ed2b47fd5dea",
+      "source_type": "nih_grant",
+      "title": "The impact of aging and thymus regeneration on tissue-resident CD8 T cell responses to viral lung infection and vaccination",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3dddb7ac-d0d7-4ad9-a010-3adcfa480bba",
+      "source_type": "nih_grant",
+      "title": "The impact of aging and thymus regeneration on tissue-resident CD8 T cell responses to viral lung infection and vaccination",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "cf8a5be5-714a-4a2b-b0da-12baf5d6a66f",
+      "source_type": "news",
+      "title": "[PDF] Reversing immunosenescence for prevention of COVID-19 - Aging-US",
+      "level": 2,
+      "doc_weight": 0.6162,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0630e3a7-205e-43c2-9810-da71d2d0d27e",
+      "source_type": "pubmed",
+      "title": "Primary and secondary defects of the thymus.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "88bea200-4e48-4346-9eed-ecaf7fe0e06c",
+      "source_type": "news",
+      "title": "Regeneration of the Atrophied Thymus is a Growing Field Once Again",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d4cd8702-c2b6-4ffd-ab97-19ff9bfffbeb",
+      "source_type": "europe_pmc",
+      "title": "Systematic review and meta-analysis of the effects of blood flow restriction training on bone health in older adults.",
+      "level": 1,
+      "doc_weight": 0.561,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d93f1c1d-feca-4c76-8a19-a5235c13d372",
+      "source_type": "pubmed",
+      "title": "Impact of growth hormone (GH) deficiency and GH replacement upon thymus function in adult patients.",
+      "level": 2,
+      "doc_weight": 0.479,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5670f766-bf92-4e8c-b77c-54b8868069b4",
+      "source_type": "clinicaltrials",
+      "title": "Randomized, Controlled, Open Label, Multi-Center Phase III Trial Comparing the Safety and Antiviral Activity of a Protease-Containing Regimen (d4T/ddI/IDV/RTV) Versus a Protease-Sparing Regimen (d4T/ddI/EFV) and the Ability of Interleukin-2 to Purge HIV From Latent Stores in Patients With Acute/Early HIV Infection",
+      "level": 2,
+      "doc_weight": 0.4539,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=225"
+  ]
+}

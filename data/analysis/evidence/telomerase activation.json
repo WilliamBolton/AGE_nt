@@ -1,0 +1,121 @@
+{
+  "confidence": 75.99,
+  "confidence_raw": 75.99,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.17,
+    "2": 28.93,
+    "3": 10.23,
+    "4": 7.59,
+    "5": 0.02,
+    "6": 0.04
+  },
+  "selected_counts_by_level": {
+    "1": 11,
+    "2": 38,
+    "3": 24,
+    "4": 82,
+    "5": 2,
+    "6": 10
+  },
+  "top_docs": [
+    {
+      "id": "3fee6b58-5b2b-4e58-ac32-a76bccd1ed85",
+      "source_type": "pubmed",
+      "title": "Telomerase Biology Associations Offer Keys to Cancer and Aging Therapeutics.",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "45cfe30d-944b-47a1-945d-01a53c1e00da",
+      "source_type": "clinicaltrials",
+      "title": "Effect of Daily Avocado Consumption on Cellular Aging in Female Breast Cancer Survivors: The ACCA Study",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "896b61bf-5653-496d-b666-e7e0c81dd605",
+      "source_type": "pubmed",
+      "title": "Telomerase activation in the treatment of aging or degenerative diseases: a systematic review.",
+      "level": 1,
+      "doc_weight": 0.6636,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e30d33e4-bf4b-4271-ab11-308ba6b172b2",
+      "source_type": "news",
+      "title": "[PDF] TA-65\u00ae",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "12487e2d-be36-4e30-8117-38724e05a5e7",
+      "source_type": "clinicaltrials",
+      "title": "The MATCH Study: Mindfulness And Tai Chi for Cancer Health A Preference-Based Multi-Site Randomized Comparative Effectiveness Trial (CET) of Mindfulness-Based Cancer Recovery (MBCR) vs. Tai Chi/Qigong (TCQ) in Cancer Survivors",
+      "level": 2,
+      "doc_weight": 0.6141,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4cf93212-481c-49d6-94c0-7a710dbd5514",
+      "source_type": "europe_pmc",
+      "title": "Effects of TA-65 on telomere length, functional outcomes, and inflammation: a systematic review and meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.6078,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ac2b08ba-c8ae-465a-9df9-202878de56f0",
+      "source_type": "europe_pmc",
+      "title": "A Review of Telomere Attrition in Cancer and Aging: Current Molecular Insights and Future Therapeutic Approaches.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "48a64421-a5d6-4ddc-926e-c924362f1355",
+      "source_type": "news",
+      "title": "Cycloastragenol: benefits, dosage, contraindications - Darwin Nutrition",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=167"
+  ]
+}

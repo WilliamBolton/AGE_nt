@@ -2,16 +2,16 @@
   "company": "Juvena Therapeutics",
   "ticker": null,
   "founded": 2017,
-  "hq": "Cambridge, Massachusetts, USA (https://www.crunchbase.com/organization/juvena-therapeutics)",
+  "hq": "Cambridge, Massachusetts, USA",
   "stage": "preclinical",
   "total_funding_usd": 41000000,
   "pipeline": [
     {
-      "compound": "Lead muscle-regenerative protein therapeutic (program name undisclosed publicly) (source needed)",
+      "compound": "Lead muscle-regenerative protein therapeutic (program name undisclosed publicly)",
       "intervention_link": null,
-      "target": "Undisclosed; described as a naturally occurring circulating factor/protein identified from human biology (https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)",
-      "mechanism": "Systemic protein therapeutic intended to drive skeletal muscle regeneration and improve muscle function (company-described approach) (https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)",
-      "indication": "Muscle wasting and myotonic dystrophy (https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)",
+      "target": "Undisclosed; described as a naturally occurring circulating factor/protein identified from human biology",
+      "mechanism": "Systemic protein therapeutic intended to drive skeletal muscle regeneration and improve muscle function (company-described approach)",
+      "indication": "Muscle wasting and myotonic dystrophy",
       "phase": "preclinical",
       "hallmarks": [
         "altered_intercellular_communication",
@@ -23,10 +23,10 @@
       "source": "https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy"
     },
     {
-      "compound": "JuvNET (discovery platform for regenerative systemic factors) (source needed)",
+      "compound": "JuvNET (discovery platform for regenerative systemic factors)",
       "intervention_link": null,
-      "target": "Multiple/undisclosed secreted factors (platform-based discovery) (https://www.juvenatherapeutics.com/)",
-      "mechanism": "Computational/omics-driven identification of secreted proteins that modulate tissue regeneration (https://www.juvenatherapeutics.com/)",
+      "target": "Multiple/undisclosed secreted factors (platform-based discovery)",
+      "mechanism": "Computational/omics-driven identification of secreted proteins that modulate tissue regeneration",
       "indication": null,
       "phase": "discovery",
       "hallmarks": [
@@ -54,7 +54,7 @@
     }
   ],
   "investors_notable": [
-    "source needed (see Crunchbase and Series A press release for investor syndicate) (https://www.crunchbase.com/organization/juvena-therapeutics; https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)"
+    "source needed (see Crunchbase and Series A press release for investor syndicate)"
   ],
   "risks": [
     "Scientific/translation risk: regenerative effects seen in discovery or animal models may not translate to clinically meaningful functional benefit in humans (analysis; source needed for program-specific data).",
@@ -64,8 +64,8 @@
     "Financing risk: advancing a biologics platform and multiple programs through IND-enabling studies is capital-intensive and may require additional fundraising under uncertain market conditions (analysis; source needed)."
   ],
   "competitive_advantages": [
-    "Platform approach centered on systemic/circulating factors for regeneration (company positioning) (https://www.juvenatherapeutics.com/).",
-    "Focus on muscle-wasting and myotonic dystrophy as initial therapeutic areas (company communication) (https://www.businesswire.com/news/home/20200116005272/en/Juvena-Therapeutics-Secures-41-Million-Series-A-Financing-to-Advance-Therapeutics-for-Muscle-Wasting-and-Myotonic-Dystrophy)."
+    "Platform approach centered on systemic/circulating factors for regeneration (company positioning).",
+    "Focus on muscle-wasting and myotonic dystrophy as initial therapeutic areas (company communication)."
   ],
   "acquisition_estimate": {
     "low_usd": 150000000,

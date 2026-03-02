@@ -1,0 +1,121 @@
+{
+  "confidence": 72.29,
+  "confidence_raw": 72.29,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 26.38,
+    "2": 30.0,
+    "3": 8.01,
+    "4": 7.87,
+    "5": 0.0,
+    "6": 0.04
+  },
+  "selected_counts_by_level": {
+    "1": 5,
+    "2": 85,
+    "3": 13,
+    "4": 96,
+    "5": 1,
+    "6": 17
+  },
+  "top_docs": [
+    {
+      "id": "cce64345-42bc-4103-b5db-47760465d2a8",
+      "source_type": "europe_pmc",
+      "title": "Rapamycin exerts its geroprotective effects in the ageing human immune system by enhancing resilience against DNA damage",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "7f6dc1cf-869e-4f9f-8785-6e8dfad85e6c",
+      "source_type": "europe_pmc",
+      "title": "Rapamycin Exerts Its Geroprotective Effects in the Ageing Human Immune System by Enhancing Resilience Against DNA Damage.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "fb647634-8861-4575-9933-e55587a4e3ba",
+      "source_type": "nih_grant",
+      "title": "Impacting Inflammation through Mechanistic Target of Rapamycin (imTOR)",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d82b9425-c0ca-46eb-a35d-57bd57452e47",
+      "source_type": "nih_grant",
+      "title": "Impacting Inflammation through Mechanistic Target of Rapamycin (imTOR)",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0d4e93cc-8eab-49b0-a57b-359563c8bec7",
+      "source_type": "news",
+      "title": "Rapamycin Dosing for Longevity: What Emerging Human ...",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3a34a61d-8147-4f62-ba0b-5a27ab807fb5",
+      "source_type": "news",
+      "title": "Rapamycin Dosing for Longevity: What Emerging Human Research ...",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "fafdfd63-9f74-49ba-a5cf-e8befd07d1ee",
+      "source_type": "europe_pmc",
+      "title": "Targeting ageing with rapamycin and its derivatives in humans: a systematic review.",
+      "level": 1,
+      "doc_weight": 0.6636,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bf16487c-e91f-45d9-b29d-197475020430",
+      "source_type": "nih_grant",
+      "title": "In Vitro Human Tissue-Engineered Blood Vessel Disease Model of Progeria",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=217"
+  ]
+}

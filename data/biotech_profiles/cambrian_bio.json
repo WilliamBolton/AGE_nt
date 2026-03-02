@@ -12,7 +12,7 @@
       "target": "Various (portfolio approach)",
       "mechanism": "Various (portfolio approach)",
       "indication": null,
-      "phase": "multiple (preclinical–clinical) (source needed for asset-level breakdown)",
+      "phase": "multiple (preclinical–clinical)",
       "hallmarks": [],
       "categories": [],
       "source": "https://www.cambrianbio.com/ (pipeline/portfolio referenced; source needed for asset-level details)"
@@ -24,18 +24,18 @@
     {
       "name": "James Peyer",
       "role": "Co-founder & CEO",
-      "background": "CEO biography/source needed beyond company bio; company lists him as Co-founder & CEO. (https://www.cambrianbio.com/; source needed for full career history)"
+      "background": "CEO biography/source needed beyond company bio; company lists him as Co-founder & CEO."
     }
   ],
   "investors_notable": [],
   "risks": [
-    "High clinical attrition risk typical for drug development; historical probabilities of success from Phase 1 to approval are low across therapeutic areas. (https://doi.org/10.1093/biostatistics/kxx069)",
-    "Regulatory risk: 'aging' itself is generally not an approved disease indication; programs may need to pursue specific age-related diseases and endpoints. (https://doi.org/10.1016/j.cmet.2016.02.011)",
-    "Portfolio/company-structure risk: multi-asset 'hub-and-spoke' or portfolio models add operational and capital allocation complexity versus single-asset biotechs. (source needed)",
-    "Financing risk: advancing multiple programs in parallel can require substantial follow-on capital, and biotech funding cycles are volatile. (source needed)"
+    "High clinical attrition risk typical for drug development; historical probabilities of success from Phase 1 to approval are low across therapeutic areas.",
+    "Regulatory risk: 'aging' itself is generally not an approved disease indication; programs may need to pursue specific age-related diseases and endpoints.",
+    "Portfolio/company-structure risk: multi-asset 'hub-and-spoke' or portfolio models add operational and capital allocation complexity versus single-asset biotechs.",
+    "Financing risk: advancing multiple programs in parallel can require substantial follow-on capital, and biotech funding cycles are volatile."
   ],
   "competitive_advantages": [
-    "Portfolio strategy aimed at developing multiple therapeutics targeting underlying biology of aging (as described by the company). (https://www.cambrianbio.com/)"
+    "Portfolio strategy aimed at developing multiple therapeutics targeting underlying biology of aging (as described by the company)."
   ],
   "acquisition_estimate": {
     "low_usd": 500000000,

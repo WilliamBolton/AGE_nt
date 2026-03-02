@@ -1,0 +1,121 @@
+{
+  "confidence": 78.57,
+  "confidence_raw": 78.57,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.94,
+    "2": 29.97,
+    "3": 7.92,
+    "4": 10.51,
+    "5": 0.0,
+    "6": 0.24
+  },
+  "selected_counts_by_level": {
+    "1": 16,
+    "2": 56,
+    "3": 15,
+    "4": 164,
+    "5": 0,
+    "6": 106
+  },
+  "top_docs": [
+    {
+      "id": "caca9ce0-e79a-4aea-bc90-656f1d1f310e",
+      "source_type": "pubmed",
+      "title": "Curcumin for the Treatment of Prostate Diseases: A Systematic Review of Controlled Clinical Trials.",
+      "level": 1,
+      "doc_weight": 0.8836,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d05a3944-1c91-4d13-bbfb-889262312d34",
+      "source_type": "clinicaltrials",
+      "title": "Boswellia Serrata, Curcumin, and Methylsulfonylmethane Combination Supplementation Improves Joint Health",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e470ea52-db16-4a3c-9643-d8e4b20c09fc",
+      "source_type": "nih_grant",
+      "title": "A novel nutraceutical drug for tendinopathy treatment",
+      "level": 2,
+      "doc_weight": 0.7097,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bdfb4b72-8a26-45a5-babf-56f0c7ff66ed",
+      "source_type": "pubmed",
+      "title": "Targeting cognitive aging with curcumin supplementation: A systematic review and meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.7073,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "9d09155b-e589-413b-83ec-369a5cfa3a62",
+      "source_type": "europe_pmc",
+      "title": "Targeting cognitive aging with curcumin supplementation: A systematic review and meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.7073,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2df0789a-c8d2-4213-a346-f8584e1ed11e",
+      "source_type": "europe_pmc",
+      "title": "Sex-Specific Diet-Microbiota Interactions in Ageing: Implications for Healthy Longevity.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "939a6f1a-2c3a-4082-ab2d-af280c52fca6",
+      "source_type": "nih_grant",
+      "title": "Curcumin Supplementation for Improving Vascular and Cognitive Function",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f10b62db-2476-42ec-8a9b-cce0e4568e11",
+      "source_type": "nih_grant",
+      "title": "Curcumin Supplementation for Improving Vascular and Cognitive Function",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=357"
+  ]
+}

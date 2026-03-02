@@ -1,0 +1,51 @@
+{
+  "counts_by_source_type": {
+    "SourceType.PUBMED": 50,
+    "SourceType.CLINICAL_TRIALS": 50,
+    "SourceType.EUROPE_PMC": 50,
+    "SourceType.SEMANTIC_SCHOLAR": 50,
+    "SourceType.NIH_GRANT": 23,
+    "SourceType.NEWS": 28,
+    "SourceType.SOCIAL": 50
+  },
+  "hype_mass": 0.0,
+  "evidence_mass": 0.0,
+  "hype_to_evidence_ratio": 1.0,
+  "hype_share_0to1": 0.0,
+  "hype_dominance_score_0to100": 0.0,
+  "hype_score_0to100": 22.5,
+  "hype_score_components": {
+    "ratio_component_0to100": 50.0,
+    "share_component_0to100": 0.0,
+    "volume_component_0to100": 0.0
+  },
+  "confidence_source": "not_provided",
+  "confidence_score_0to100": null,
+  "hype_confidence_gap": null,
+  "overhype_risk_0to100": null,
+  "underhype_signal_0to100": null,
+  "alignment_label": "confidence_unavailable",
+  "interpretation": "Confidence score not available; overhype assessment unavailable.",
+  "evidence_breakdown": {
+    "level_counts": {
+      "1": 13,
+      "2": 15,
+      "3": 53,
+      "4": 38,
+      "5": 0,
+      "6": 182
+    },
+    "human_level_1_3_count": 0,
+    "meta_like_count": 0,
+    "rct_like_count": 0,
+    "observational_like_count": 0
+  },
+  "top_hype_doc_ids": [],
+  "top_evidence_doc_ids": [],
+  "notes": [
+    "hype sources = source_type social/news with optional engagement weighting",
+    "evidence sources = pubmed/europe_pmc/clinicaltrials/regulatory; clinicaltrials completed-without-results are downweighted",
+    "hype_score_0to100 combines ratio, share, and volume components"
+  ],
+  "_source": "deterministic"
+}

@@ -1,5 +1,5 @@
 {
-  "company": "Regeneron Pharmaceuticals, Inc.",
+  "company": "Regeneron",
   "ticker": "REGN (NASDAQ listing: https://www.nasdaq.com/market-activity/stocks/regn)",
   "hq": "Tarrytown, New York, USA (Regeneron contact page: https://www.regeneron.com/contact)",
   "market_cap_approx": null,
@@ -12,7 +12,7 @@
     "Infectious disease (INMAZEB: https://www.regeneron.com/products/inmazeb)"
   ],
   "aging_relevance": "moderate",
-  "aging_relevance_reasoning": "Regeneron’s marketed portfolio includes therapies directly used in age-associated conditions and biology-adjacent pathways: (1) EYLEA (aflibercept) is indicated for neovascular (wet) age-related macular degeneration (nAMD) (https://www.regeneron.com/products/eylea), and AMD is an age-related eye disease (National Eye Institute: https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration). (2) Multiple marketed biologics modulate inflammatory cytokine signaling (e.g., Dupixent for type 2 inflammation and Kevzara targeting the IL-6 receptor; product pages: https://www.regeneron.com/products/dupixent and https://www.regeneron.com/products/kevzara), which overlaps mechanistically with inflammation-related aging hallmarks (analyst mapping). (3) Regeneron also highlights large-scale human genetics for target discovery via the Regeneron Genetics Center (https://www.regeneron.com/science/genetics-center), which can be relevant for identifying targets associated with healthspan-related traits (analyst interpretation).",
+  "aging_relevance_reasoning": "Regeneron’s marketed portfolio includes therapies directly used in age-associated conditions and biology-adjacent pathways: (1) EYLEA (aflibercept) is indicated for neovascular (wet) age-related macular degeneration (nAMD), and AMD is an age-related eye disease (National Eye Institute: https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration). (2) Multiple marketed biologics modulate inflammatory cytokine signaling (e.g., Dupixent for type 2 inflammation and Kevzara targeting the IL-6 receptor; product pages: https://www.regeneron.com/products/dupixent and https://www.regeneron.com/products/kevzara), which overlaps mechanistically with inflammation-related aging hallmarks (analyst mapping). (3) Regeneron also highlights large-scale human genetics for target discovery via the Regeneron Genetics Center, which can be relevant for identifying targets associated with healthspan-related traits (analyst interpretation).",
   "existing_longevity_assets": [
     {
       "compound": "EYLEA (aflibercept)",
@@ -73,7 +73,7 @@
       "target": "Checkmate Pharmaceuticals",
       "year": null,
       "value_usd": null,
-      "relevance": "Potential oncology pipeline expansion; any aging/longevity relevance would be indirect via cancer burden in older adults (source needed for deal specifics).",
+      "relevance": "Potential oncology pipeline expansion; any aging/longevity relevance would be indirect via cancer burden in older adults.",
       "source": "source needed"
     },
     {

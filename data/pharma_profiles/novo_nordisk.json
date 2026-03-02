@@ -1,16 +1,16 @@
 {
-  "company": "Novo Nordisk A/S",
-  "ticker": "NYSE: NVO (ADR); CPH: NOVO-B (source: https://www.nyse.com/quote/XNYS:NVO ; https://www.novonordisk.com/investors/shares/share-information.html)",
-  "hq": "Bagsværd, Denmark (source: https://www.novonordisk.com/about/who-we-are.html)",
+  "company": "Novo Nordisk",
+  "ticker": "NYSE: NVO (ADR); CPH: NOVO-B",
+  "hq": "Bagsværd, Denmark",
   "market_cap_approx": null,
   "therapeutic_areas": [
-    "Diabetes (source: https://www.novonordisk.com/about/who-we-are.html)",
-    "Obesity (source: https://www.novonordisk.com/about/who-we-are.html)",
-    "Rare blood disorders (source: https://www.novonordisk.com/about/who-we-are.html)",
-    "Rare endocrine disorders (source: https://www.novonordisk.com/about/who-we-are.html)"
+    "Diabetes",
+    "Obesity",
+    "Rare blood disorders",
+    "Rare endocrine disorders"
   ],
   "aging_relevance": "moderate",
-  "aging_relevance_reasoning": "Novo Nordisk’s core marketed portfolio is concentrated in diabetes and obesity (https://www.novonordisk.com/about/who-we-are.html). Its GLP-1 medicine semaglutide is FDA-approved for chronic weight management (Wegovy; Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215256) and for type 2 diabetes (Ozempic; Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209637), and Wegovy also has an FDA-approved indication to reduce risk of major adverse cardiovascular events in adults with obesity/overweight and established cardiovascular disease (FDA announcement: https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-treatment-reduce-risk-serious-heart-problems-obesity). Because cardiometabolic dysfunction is a major driver of late-life morbidity, these assets are relevant to longevity via risk-factor modification rather than direct targeting of aging biology (source needed for this broader mechanistic framing).",
+  "aging_relevance_reasoning": "Novo Nordisk’s core marketed portfolio is concentrated in diabetes and obesity. Its GLP-1 medicine semaglutide is FDA-approved for chronic weight management (Wegovy; Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215256) and for type 2 diabetes (Ozempic; Drugs@FDA: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209637), and Wegovy also has an FDA-approved indication to reduce risk of major adverse cardiovascular events in adults with obesity/overweight and established cardiovascular disease (FDA announcement: https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-treatment-reduce-risk-serious-heart-problems-obesity). Because cardiometabolic dysfunction is a major driver of late-life morbidity, these assets are relevant to longevity via risk-factor modification rather than direct targeting of aging biology.",
   "existing_longevity_assets": [
     {
       "compound": "semaglutide (Wegovy/Ozempic/Rybelsus)",
@@ -40,7 +40,7 @@
       "target": "Dicerna Pharmaceuticals",
       "year": 2021,
       "value_usd": 3300000000,
-      "relevance": "Expanded Novo Nordisk’s RNAi platform and pipeline in cardiometabolic/rare disease areas, which can intersect with aging-related biology depending on targets (source needed for specific aging linkage beyond modality/platform).",
+      "relevance": "Expanded Novo Nordisk’s RNAi platform and pipeline in cardiometabolic/rare disease areas, which can intersect with aging-related biology depending on targets.",
       "source": "Novo Nordisk to acquire Dicerna Pharmaceuticals (press release): https://www.businesswire.com/news/home/20211116006233/en/Novo-Nordisk-to-Acquire-Dicerna-Pharmaceuticals"
     },
     {
@@ -70,11 +70,11 @@
     "avg_deal_size_usd": null,
     "focus_areas": [
       "Obesity and cardiometabolic disease (sources: https://www.novonordisk.com/about/who-we-are.html ; https://www.businesswire.com/news/home/20230810021720/en/Novo-Nordisk-to-Acquire-Inversago-Pharma)",
-      "Cardiovascular inflammation (source: https://www.businesswire.com/news/home/20200622005340/en/Novo-Nordisk-to-Acquire-Corvidia-Therapeutics)",
-      "RNAi/Genetic medicines platforms (source: https://www.businesswire.com/news/home/20211116006233/en/Novo-Nordisk-to-Acquire-Dicerna-Pharmaceuticals)",
-      "Drug delivery enabling technologies (source: https://www.businesswire.com/news/home/20201012005233/en/Novo-Nordisk-to-Acquire-Emisphere-Technologies)"
+      "Cardiovascular inflammation",
+      "RNAi/Genetic medicines platforms",
+      "Drug delivery enabling technologies"
     ],
-    "recent_trend": "Strategic emphasis on obesity/cardiometabolic expansion (including platform build-out) rather than explicit ‘anti-aging’ drug development (source needed for explicit internal strategy statements framed around aging/longevity)."
+    "recent_trend": "Strategic emphasis on obesity/cardiometabolic expansion (including platform build-out) rather than explicit ‘anti-aging’ drug development."
   },
   "sources": [
     "https://www.novonordisk.com/about/who-we-are.html",

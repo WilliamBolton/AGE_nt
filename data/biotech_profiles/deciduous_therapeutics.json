@@ -11,17 +11,17 @@
   "key_people": [],
   "investors_notable": [],
   "risks": [
-    "Early-stage R&D risk: efficacy observed in model systems may not translate to humans (source needed).",
-    "Safety/tolerability risk: interventions that modulate fundamental aging biology can have on-target toxicity or narrow therapeutic windows (source needed).",
-    "Regulatory risk: longevity/aging indications are not generally recognized as approvable endpoints, increasing the need for disease-specific positioning and validated biomarkers (source needed).",
-    "Financing risk: preclinical biotechs often require multiple fundraising rounds before clinical value inflection (source needed).",
-    "IP/freedom-to-operate risk: crowded longevity modalities (e.g., senescence, immunomodulation, metabolic pathways) can create patent thickets and litigation exposure (source needed)."
+    "Early-stage R&D risk: efficacy observed in model systems may not translate to humans.",
+    "Safety/tolerability risk: interventions that modulate fundamental aging biology can have on-target toxicity or narrow therapeutic windows.",
+    "Regulatory risk: longevity/aging indications are not generally recognized as approvable endpoints, increasing the need for disease-specific positioning and validated biomarkers.",
+    "Financing risk: preclinical biotechs often require multiple fundraising rounds before clinical value inflection.",
+    "IP/freedom-to-operate risk: crowded longevity modalities (e.g., senescence, immunomodulation, metabolic pathways) can create patent thickets and litigation exposure."
   ],
   "competitive_advantages": [],
   "acquisition_estimate": {
     "low_usd": 200000000,
     "high_usd": 800000000,
-    "methodology": "Heuristic range for a preclinical-to-early clinical platform/asset acquisition: benchmark against total announced deal values for (i) preclinical/early clinical therapeutic acquisitions and (ii) platform acquisitions with significant milestone components, then apply a substantial haircut to reflect typical uncertainty before first-in-human efficacy. Comparables used include Roche–Carmot (total deal value $2.7B; obesity/metabolic assets, including preclinical/clinical mix) and Bayer–BlueRock (deal value disclosed as 'up to' $1B for a regenerative medicine platform), and Merck–VelosBio ($2.75B for a clinical-stage oncology asset). This profile lacks verifiable public data on Deciduous Therapeutics' stage, assets, and financing, so the range is intentionally broad and should be re-scoped after confirming pipeline/clinical status and capital raised (source needed for Deciduous-specific inputs).",
+    "methodology": "Heuristic range for a preclinical-to-early clinical platform/asset acquisition: benchmark against total announced deal values for (i) preclinical/early clinical therapeutic acquisitions and (ii) platform acquisitions with significant milestone components, then apply a substantial haircut to reflect typical uncertainty before first-in-human efficacy. Comparables used include Roche–Carmot (total deal value $2.7B; obesity/metabolic assets, including preclinical/clinical mix) and Bayer–BlueRock (deal value disclosed as 'up to' $1B for a regenerative medicine platform), and Merck–VelosBio ($2.75B for a clinical-stage oncology asset). This profile lacks verifiable public data on Deciduous Therapeutics' stage, assets, and financing, so the range is intentionally broad and should be re-scoped after confirming pipeline/clinical status and capital raised.",
     "comparable_deals": [
       "Roche to acquire Carmot Therapeutics for USD 2.7 billion (Roche press release, 2023-12-04): https://www.roche.com/media/releases/med-cor-2023-12-04",
       "Bayer to acquire BlueRock Therapeutics (deal terms disclosed as 'up to $1.0 billion') (Bayer press release, 2019-08-06): https://www.bayer.com/en/us/news-stories/bayer-to-acquire-bluerock-therapeutics",

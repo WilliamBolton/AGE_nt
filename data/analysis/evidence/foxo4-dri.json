@@ -1,0 +1,121 @@
+{
+  "confidence": 35.38,
+  "confidence_raw": 35.38,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 0.0,
+    "2": 22.75,
+    "3": 4.98,
+    "4": 7.61,
+    "5": 0.0,
+    "6": 0.03
+  },
+  "selected_counts_by_level": {
+    "1": 0,
+    "2": 10,
+    "3": 10,
+    "4": 105,
+    "5": 3,
+    "6": 20
+  },
+  "top_docs": [
+    {
+      "id": "8557ea85-cfb8-42c9-a761-dcbc80de1440",
+      "source_type": "europe_pmc",
+      "title": "Targeting Aging and Diseases Associated with Ferroptosis and Senescence Through Modulation of Iron, Oxidative Stress and Lipid Peroxidation.",
+      "level": 2,
+      "doc_weight": 0.6033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "fff5c006-a18d-4e14-9ce0-ee0262b56a37",
+      "source_type": "news",
+      "title": "The anti-aging peptide FOXO4-DRI | The Guardian Nigeria News",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "aeae213b-be67-4aad-8d54-47dc536623fa",
+      "source_type": "europe_pmc",
+      "title": "Immunosenescence: signaling pathways, diseases and therapeutic targets.",
+      "level": 2,
+      "doc_weight": 0.479,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "47c0545f-4e21-4920-b608-ac7cd3e77875",
+      "source_type": "europe_pmc",
+      "title": "FOXO transcription factors as mediators of stress adaptation.",
+      "level": 3,
+      "doc_weight": 0.3389,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3479f0d7-784f-418b-a5f0-d792bca3e89b",
+      "source_type": "europe_pmc",
+      "title": "Senotherapeutics for Brain Aging Management.",
+      "level": 2,
+      "doc_weight": 0.3143,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "787223a1-b37e-499e-b2c9-43aea2c0c3f8",
+      "source_type": "europe_pmc",
+      "title": "Heterogeneity of Cellular Senescence, Senotyping, and Targeting by Senolytics and Senomorphics in Lung Diseases.",
+      "level": 2,
+      "doc_weight": 0.3143,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bea1f3cd-c99d-4c9b-80a9-c3cfe8b14771",
+      "source_type": "europe_pmc",
+      "title": "Cellular senescence in adult pulmonary hypertension: current state and future challenges.",
+      "level": 3,
+      "doc_weight": 0.2662,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ececdbae-76a9-4089-bd84-6256926a42ea",
+      "source_type": "europe_pmc",
+      "title": "Senescent macrophages in tumor: phenotypes, roles, and interventions.",
+      "level": 3,
+      "doc_weight": 0.2263,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=148"
+  ]
+}

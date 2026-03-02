@@ -1,0 +1,121 @@
+{
+  "confidence": 81.67,
+  "confidence_raw": 81.67,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.77,
+    "2": 29.83,
+    "3": 12.57,
+    "4": 9.36,
+    "5": 0.0,
+    "6": 0.15
+  },
+  "selected_counts_by_level": {
+    "1": 12,
+    "2": 47,
+    "3": 36,
+    "4": 124,
+    "5": 0,
+    "6": 47
+  },
+  "top_docs": [
+    {
+      "id": "039722ef-2cba-4cbb-858a-5d1c9e504d49",
+      "source_type": "europe_pmc",
+      "title": "The Effects of Sodium-Glucose Co-transporter 2 Inhibitors on Cardiovascular Outcomes in Heart Failure: A Systematic Review and Meta-Analysis.",
+      "level": 1,
+      "doc_weight": 1.1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "1d1b7e95-cdcf-40ba-abae-80f28d12f7c3",
+      "source_type": "europe_pmc",
+      "title": "SGLT2 Inhibitors in Older Adults With Cardiovascular Disease: A Systematic Review and Meta-Analysis.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "211b7160-c909-4cab-b680-d40ef20282e8",
+      "source_type": "europe_pmc",
+      "title": "Effect of SGLT2 inhibitors on heart failure outcomes in patients with and without diabetes: A systematic review and meta-analysis of randomized controlled trials.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e3feef94-cdc0-45f7-a5dd-ba7c0df6b957",
+      "source_type": "pubmed",
+      "title": "Efficacy and Safety of Dapagliflozin in the Elderly: Analysis From the DECLARE-TIMI 58 Study.",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0c6b53b0-8f11-4156-8b91-ec5dcf64a1c3",
+      "source_type": "pubmed",
+      "title": "SGLT inhibitors for improving Healthspan and lifespan.",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3fa9bcc9-2f59-458d-8228-216d01ee663d",
+      "source_type": "clinicaltrials",
+      "title": "Efficacy and Safety of Levosimendan in Patients With Acute Decompensated Heart Failure: A Real-World Evidence",
+      "level": 2,
+      "doc_weight": 0.7225,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c94938e2-c4a4-4dff-8d49-1358a14ee1e0",
+      "source_type": "pubmed",
+      "title": "Repurposing SGLT-2 Inhibitors to Target Aging: Available Evidence and Molecular Mechanisms.",
+      "level": 2,
+      "doc_weight": 0.7097,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5fbb353b-7451-47c9-ae7d-9df983e0d338",
+      "source_type": "news",
+      "title": "Age doesn't matter: Canagliflozin is safe and effective for long-term ...",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=266"
+  ]
+}

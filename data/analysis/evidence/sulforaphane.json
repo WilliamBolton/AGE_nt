@@ -1,0 +1,121 @@
+{
+  "confidence": 51.22,
+  "confidence_raw": 51.22,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 7.34,
+    "2": 29.64,
+    "3": 5.78,
+    "4": 8.3,
+    "5": 0.0,
+    "6": 0.16
+  },
+  "selected_counts_by_level": {
+    "1": 1,
+    "2": 57,
+    "3": 16,
+    "4": 127,
+    "5": 1,
+    "6": 35
+  },
+  "top_docs": [
+    {
+      "id": "fcb9333d-69d8-40c5-bcea-15726bbf6ac1",
+      "source_type": "nih_grant",
+      "title": "Mitochondrial Dynamics in RPE Homeostasis and Disease",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c7d942fd-1f11-4768-bfa3-8cea987b7687",
+      "source_type": "nih_grant",
+      "title": "Mitochondrial Dynamics in RPE Homeostasis and Disease",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5c14cfc7-8189-4519-832f-9949275519ed",
+      "source_type": "nih_grant",
+      "title": "Mitochondrial Dynamics in RPE Homeostasis and Disease",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "28e94123-1c66-4bb4-a47a-9c29708c3223",
+      "source_type": "nih_grant",
+      "title": "Mitochondrial Dynamics in RPE Homeostasis and Disease",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "da2febb9-8f55-4770-9124-974ede05aec9",
+      "source_type": "europe_pmc",
+      "title": "Sulforaphane recovers cone function in an Nrf2-dependent manner in middle-aged mice undergoing RPE oxidative stress.",
+      "level": 2,
+      "doc_weight": 0.479,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "95ced574-13f2-47a5-a496-ae75ca9fcbb7",
+      "source_type": "news",
+      "title": "How to Protect Yourself From Molecular Damage & Stress As You Age",
+      "level": 2,
+      "doc_weight": 0.418,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "92601bfb-135b-4901-a2de-01ddcaef7606",
+      "source_type": "clinicaltrials",
+      "title": "A Randomized, Double-blind, Placebo Controlled, Cross-over Clinical Trial of Acute Safety and Biological Effects of a Polyphenol Supplement",
+      "level": 2,
+      "doc_weight": 0.362,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "1bb93917-bd34-4f3f-b6e0-31e21cdc6ec9",
+      "source_type": "nih_grant",
+      "title": "Treatment strategy to enhance Nrf2 signaling in older adults: combining acute exercise with the phytochemical sulforaphane",
+      "level": 2,
+      "doc_weight": 0.362,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=237"
+  ]
+}

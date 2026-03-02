@@ -9,10 +9,10 @@
     {
       "compound": "BGE-175",
       "intervention_link": null,
-      "target": "NLRP3 inflammasome (source needed)",
-      "mechanism": "Small-molecule inhibitor (source needed)",
-      "indication": "Obesity / metabolic disease (source needed)",
-      "phase": "Phase 1 (source needed)",
+      "target": "NLRP3 inflammasome",
+      "mechanism": "Small-molecule inhibitor",
+      "indication": "Obesity / metabolic disease",
+      "phase": "Phase 1",
       "hallmarks": [
         "chronic_inflammation",
         "altered_intercellular_communication",
@@ -37,7 +37,7 @@
   "key_people": [
     {
       "name": "Kristen Fortney, PhD",
-      "role": "CEO & Co-founder (source needed)",
+      "role": "CEO & Co-founder",
       "background": "BioAge leadership/profile information (Crunchbase: https://www.crunchbase.com/organization/bioage-labs; source needed for specific prior roles/education)"
     }
   ],
@@ -53,7 +53,7 @@
   "competitive_advantages": [
     "Founded in 2015 (Crunchbase: https://www.crunchbase.com/organization/bioage-labs).",
     "Company positioning around human data-driven discovery for aging-related disease targets (BioAge website: https://www.bioagelabs.com/).",
-    "If BioAge’s lead program is supported by human evidence (e.g., cohort/genetic associations), that can improve target confidence versus purely animal-derived hypotheses (source needed for BioAge program-by-program evidence package)."
+    "If BioAge’s lead program is supported by human evidence (e.g., cohort/genetic associations), that can improve target confidence versus purely animal-derived hypotheses."
   ],
   "acquisition_estimate": {
     "low_usd": 250000000,

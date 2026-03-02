@@ -149,11 +149,11 @@
       "Unknown": 4
     },
     "lifespan_change": {
-      "positive_count": 0,
+      "positive_count": 3,
       "negative_count": 0,
       "null_count": 0,
-      "mean_change": null,
-      "max_extension": null,
+      "mean_change": 15.66,
+      "max_extension": 18.2,
       "max_reduction": null
     }
   },

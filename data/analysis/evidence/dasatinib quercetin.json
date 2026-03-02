@@ -1,0 +1,121 @@
+{
+  "confidence": 47.55,
+  "confidence_raw": 47.55,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 0.0,
+    "2": 29.95,
+    "3": 7.29,
+    "4": 10.16,
+    "5": 0.0,
+    "6": 0.16
+  },
+  "selected_counts_by_level": {
+    "1": 0,
+    "2": 51,
+    "3": 17,
+    "4": 135,
+    "5": 0,
+    "6": 62
+  },
+  "top_docs": [
+    {
+      "id": "dc868714-7632-4c6d-84fe-a7a3d7367853",
+      "source_type": "semantic_scholar",
+      "title": "Clinical studies with drugs and biologics aimed at slowing or reversing normal aging processes\u2014emerging results and future perspectives",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a1763c91-83a0-43e7-bc06-64adb3b97edc",
+      "source_type": "clinicaltrials",
+      "title": "Impacts of Nicotinamide Riboside on Functional Capacity and Muscle Physiology in Older Veterans",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "991dcc33-5918-404e-8a11-b46b55707733",
+      "source_type": "europe_pmc",
+      "title": "Targeting senescent microglia in progressive multiple sclerosis: a geroscience-informed approach.",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f8214a68-7a1a-4dc1-bc8f-3e66f82b3783",
+      "source_type": "pubmed",
+      "title": "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study.",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d57d9133-850b-471a-b952-28c992650ec1",
+      "source_type": "pubmed",
+      "title": "Senolytics dasatinib and quercetin in idiopathic pulmonary fibrosis: results of a phase I, single-blind, single-center, randomized, placebo-controlled pilot trial on feasibility and\u00a0tolerability.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "849c23a3-ecce-4316-aac8-a5f4654dceba",
+      "source_type": "semantic_scholar",
+      "title": "Senolytics dasatinib and quercetin in idiopathic pulmonary fibrosis: results of a phase I, single-blind, single-center, randomized, placebo-controlled pilot trial on feasibility and tolerability",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b4ff013b-ab01-47b7-970c-733fc0905893",
+      "source_type": "pubmed",
+      "title": "Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial.",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e162029b-cfe1-40c0-bac1-bd23f4b26c52",
+      "source_type": "clinicaltrials",
+      "title": "Predictors of Antidepressant Response",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=265"
+  ]
+}

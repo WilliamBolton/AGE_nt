@@ -210,18 +210,29 @@ def _determine_strategy(relevance: float, stage: str) -> str:
 
 # ── Gemini narrative ─────────────────────────────────────────────────────────
 
-NARRATIVE_PROMPT = """You are a pharma M&A strategist. Given the analysis below, write:
+NARRATIVE_PROMPT = """You are a pharma M&A strategist specialising in longevity and aging therapeutics.
 
-1. An executive summary (2-3 paragraphs) of the longevity acquisition landscape for {pharma_name}
-2. For each top target, a 1-2 sentence strategy_detail explaining why this target matters for {pharma_name}
+Given the structured analysis below, reason deeply about:
+- **Hallmark overlap**: Which aging hallmarks does {pharma_name}'s existing pipeline target? Which biotechs address the SAME hallmarks (synergy) vs COMPLEMENTARY hallmarks (portfolio expansion)? Why does this matter for M&A strategy?
+- **Evidence quality**: For each biotech's matched interventions, what does the evidence confidence score tell us? High-evidence interventions (50+) de-risk acquisitions. Low-evidence ones (<30) are speculative bets.
+- **Strategic fit**: Does this biotech fill a gap in {pharma_name}'s portfolio, or is it a competitive play to block rivals? Consider stage (preclinical vs clinical), mechanism novelty, and IP landscape.
+- **Category concentration**: Which intervention categories are crowded (many biotechs, high competition) vs underserved (few players, opportunity)?
+
+Write:
+1. An executive summary (2-3 paragraphs) synthesising the strategic landscape. Be specific — name companies, cite hallmark overlaps, and reference evidence scores. Identify the top 2-3 themes (e.g. "senolytic consolidation play", "epigenetic portfolio gap").
+2. For each top target, a 2-3 sentence strategy_detail that explains: (a) why this target is relevant to {pharma_name} specifically (hallmark overlap), (b) the evidence strength for their lead programs, and (c) recommended approach (acquire, partner, monitor).
 
 Pharma profile:
 {pharma_json}
 
-Top biotech targets (ranked by relevance):
+Top biotech targets (ranked by strategic relevance score, hallmark overlap + stage bonus):
 {targets_json}
 
-Category landscape: {categories_json}
+Category landscape (intervention category → number of biotechs + company list):
+{categories_json}
+
+Hallmark heatmap (aging hallmark → number of biotechs targeting it):
+{hallmarks_json}
 
 Return JSON:
 {{
@@ -237,19 +248,21 @@ async def _generate_narrative(
     pharma: dict,
     targets: list[dict],
     categories: dict,
+    hallmarks: dict,
     gemini_key: str,
 ) -> dict:
-    """Use Gemini to generate narrative for the DD report."""
+    """Use Gemini to reason over overlaps and generate narrative for the DD report."""
     try:
         client = genai.Client(api_key=gemini_key)
         prompt = NARRATIVE_PROMPT.format(
             pharma_name=pharma.get("company", ""),
             pharma_json=json.dumps(pharma, indent=2, default=str)[:3000],
-            targets_json=json.dumps(targets[:10], indent=2, default=str)[:3000],
-            categories_json=json.dumps(categories, indent=2, default=str)[:1000],
+            targets_json=json.dumps(targets[:10], indent=2, default=str)[:4000],
+            categories_json=json.dumps(categories, indent=2, default=str)[:1500],
+            hallmarks_json=json.dumps(hallmarks, indent=2, default=str)[:1500],
         )
         resp = await client.aio.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-3.1-pro-preview",
             contents=prompt,
             config=genai.types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -379,13 +392,14 @@ async def analyse_acquisition_landscape(
     for i, t in enumerate(targets):
         t.rank = i + 1
 
-    # 7. Generate narrative with Gemini
+    # 7. Generate narrative with Gemini (reasons over hallmark overlaps + evidence)
     narrative = {"executive_summary": "", "target_details": {}}
     if gemini_key:
         narrative = await _generate_narrative(
             pharma,
             [t.model_dump() for t in targets[:top_n]],
             category_counts,
+            hallmark_counts,
             gemini_key,
         )
 

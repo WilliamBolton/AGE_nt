@@ -1,17 +1,17 @@
 {
-  "company": "Rejuvenate Bio (https://www.rejuvenatebio.com/ ; https://www.crunchbase.com/organization/rejuvenate-bio)",
+  "company": "Rejuvenate Bio",
   "ticker": null,
   "founded": null,
-  "hq": "Cambridge, Massachusetts, United States (https://www.crunchbase.com/organization/rejuvenate-bio)",
+  "hq": "Cambridge, Massachusetts, United States",
   "stage": "preclinical",
   "total_funding_usd": null,
   "pipeline": [
     {
       "compound": "AAV-mediated FGF21 gene therapy (program name undisclosed)",
       "intervention_link": null,
-      "target": "FGF21 (endocrine metabolic regulator) (source needed)",
-      "mechanism": "Adeno-associated virus (AAV) vector delivering an FGF21 transgene to drive sustained expression (source needed)",
-      "indication": "Age-related metabolic/cardiometabolic disease (source needed)",
+      "target": "FGF21 (endocrine metabolic regulator)",
+      "mechanism": "Adeno-associated virus (AAV) vector delivering an FGF21 transgene to drive sustained expression",
+      "indication": "Age-related metabolic/cardiometabolic disease",
       "phase": "preclinical",
       "hallmarks": [
         "deregulated_nutrient_sensing",
@@ -29,9 +29,9 @@
     {
       "compound": "AAV-mediated soluble TGF-β receptor II (sTGFβR2) / TGF-β pathway inhibition gene therapy (program name undisclosed)",
       "intervention_link": null,
-      "target": "TGF-β signaling (via soluble decoy receptor TGFβR2) (source needed)",
-      "mechanism": "AAV vector delivering a soluble TGFβR2 transgene to sequester TGF-β ligands and reduce downstream signaling (source needed)",
-      "indication": "Age-related fibrotic / cardiovascular indications (source needed)",
+      "target": "TGF-β signaling (via soluble decoy receptor TGFβR2)",
+      "mechanism": "AAV vector delivering a soluble TGFβR2 transgene to sequester TGF-β ligands and reduce downstream signaling",
+      "indication": "Age-related fibrotic / cardiovascular indications",
       "phase": "preclinical",
       "hallmarks": [
         "altered_intercellular_communication",
@@ -47,9 +47,9 @@
     {
       "compound": "AAV-mediated αKlotho gene therapy (program name undisclosed)",
       "intervention_link": null,
-      "target": "αKlotho (longevity-associated circulating factor) (source needed)",
-      "mechanism": "AAV vector delivering an αKlotho transgene to increase circulating/expressed αKlotho protein (source needed)",
-      "indication": "Age-related chronic disease (e.g., cardiovascular/renal) (source needed)",
+      "target": "αKlotho (longevity-associated circulating factor)",
+      "mechanism": "AAV vector delivering an αKlotho transgene to increase circulating/expressed αKlotho protein",
+      "indication": "Age-related chronic disease (e.g., cardiovascular/renal)",
       "phase": "preclinical",
       "hallmarks": [
         "deregulated_nutrient_sensing",
@@ -80,32 +80,32 @@
   "key_people": [
     {
       "name": "George Church",
-      "role": "Co-founder (source needed)",
-      "background": "Harvard geneticist and professor (https://churchlab.hms.harvard.edu/george-m-church ; Rejuvenate Bio listed as organization on Crunchbase: https://www.crunchbase.com/organization/rejuvenate-bio)"
+      "role": "Co-founder",
+      "background": "Harvard geneticist and professor"
     }
   ],
   "investors_notable": [],
   "risks": [
-    "Platform/biology risk: longevity-factor gene modulation (e.g., endocrine factors, TGF-β pathway) may produce unintended systemic effects when expressed long-term via AAV; dose/expressional control is difficult to fine-tune (source needed).",
+    "Platform/biology risk: longevity-factor gene modulation (e.g., endocrine factors, TGF-β pathway) may produce unintended systemic effects when expressed long-term via AAV; dose/expressional control is difficult to fine-tune.",
     "Safety/regulatory risk: AAV gene therapy can trigger immune responses and has class risks (e.g., hepatotoxicity, complement activation in some contexts) that can limit dosing and patient eligibility (FDA CBER gene therapy communications: https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products).",
-    "Manufacturing risk: AAV CMC scale-up, potency assays, and batch consistency are frequent bottlenecks for IND-enabling packages and clinical supply (source needed).",
-    "Indication strategy risk: If positioning as an 'anti-aging' intervention, regulatory endpoints and reimbursement pathways are unclear; success likely requires focusing on conventional disease indications with accepted clinical endpoints (source needed).",
-    "Financing risk: capital intensity for gene therapy development and manufacturing may require large follow-on rounds or partnerships; dilution/financing timing risk is material (source needed).",
-    "IP/competition risk: aging-related gene therapy and systemic factor modulation are active areas across academia and industry, increasing freedom-to-operate and differentiation challenges (source needed)."
+    "Manufacturing risk: AAV CMC scale-up, potency assays, and batch consistency are frequent bottlenecks for IND-enabling packages and clinical supply.",
+    "Indication strategy risk: If positioning as an 'anti-aging' intervention, regulatory endpoints and reimbursement pathways are unclear; success likely requires focusing on conventional disease indications with accepted clinical endpoints.",
+    "Financing risk: capital intensity for gene therapy development and manufacturing may require large follow-on rounds or partnerships; dilution/financing timing risk is material.",
+    "IP/competition risk: aging-related gene therapy and systemic factor modulation are active areas across academia and industry, increasing freedom-to-operate and differentiation challenges."
   ],
   "competitive_advantages": [
     "Potential for long-duration biology modulation from a single administration if AAV-mediated expression is durable in the relevant tissue(s) (general AAV characteristic; NIH overview: https://medlineplus.gov/genetics/understanding/therapy/genetherapy/).",
-    "Ability to target multiple aging-relevant pathways via distinct gene payloads (e.g., metabolic/endocrine factors and pro-fibrotic signaling) could support combination or portfolio strategies (source needed).",
-    "Veterinary-to-human translational pathway may allow earlier real-world evidence generation in companion animals for certain age-associated conditions (source needed)."
+    "Ability to target multiple aging-relevant pathways via distinct gene payloads (e.g., metabolic/endocrine factors and pro-fibrotic signaling) could support combination or portfolio strategies.",
+    "Veterinary-to-human translational pathway may allow earlier real-world evidence generation in companion animals for certain age-associated conditions."
   ],
   "acquisition_estimate": {
     "low_usd": 200000000,
     "high_usd": 700000000,
-    "methodology": "Stage-adjusted comparable-deal triangulation for gene therapy assets/companies. Anchor comps include (i) pre-/early-clinical gene therapy platform acquisitions with mid-hundreds of millions upfront/near-term value and (ii) later-stage gene therapy acquisitions in the multi-billion range. Apply a substantial discount to later-stage comps given Rejuvenate Bio appears preclinical (https://www.crunchbase.com/organization/rejuvenate-bio) and longevity-indication/regulatory uncertainty. Range represents plausible upfront-equivalent enterprise value for a strategic buyer acquiring platform + lead preclinical programs, assuming credible IND-enabling progress and differentiated IP; otherwise value may skew lower (source needed).",
+    "methodology": "Stage-adjusted comparable-deal triangulation for gene therapy assets/companies. Anchor comps include (i) pre-/early-clinical gene therapy platform acquisitions with mid-hundreds of millions upfront/near-term value and (ii) later-stage gene therapy acquisitions in the multi-billion range. Apply a substantial discount to later-stage comps given Rejuvenate Bio appears preclinical and longevity-indication/regulatory uncertainty. Range represents plausible upfront-equivalent enterprise value for a strategic buyer acquiring platform + lead preclinical programs, assuming credible IND-enabling progress and differentiated IP; otherwise value may skew lower.",
     "comparable_deals": [
-      "Pfizer acquisition of Bamboo Therapeutics (announced 2016; deal value reported up to ~$645M) (https://www.pfizer.com/news/press-release/press-release-detail/pfizer_to_acquire_bamboo_therapeutics)",
-      "Astellas acquisition of Audentes Therapeutics (announced 2019; equity value ~$3B) (https://www.astellas.com/en/news/14356)",
-      "Roche acquisition of Spark Therapeutics (completed 2019; equity value ~$4.3B) (https://www.roche.com/media/releases/med-cor-2019-12-23)"
+      "Pfizer acquisition of Bamboo Therapeutics (announced 2016; deal value reported up to ~$645M)",
+      "Astellas acquisition of Audentes Therapeutics (announced 2019; equity value ~$3B)",
+      "Roche acquisition of Spark Therapeutics (completed 2019; equity value ~$4.3B)"
     ]
   },
   "sources": [

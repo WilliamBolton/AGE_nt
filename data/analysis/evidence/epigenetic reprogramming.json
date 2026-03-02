@@ -1,0 +1,121 @@
+{
+  "confidence": 45.64,
+  "confidence_raw": 45.64,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 0.0,
+    "2": 27.55,
+    "3": 8.61,
+    "4": 9.36,
+    "5": 0.0,
+    "6": 0.12
+  },
+  "selected_counts_by_level": {
+    "1": 0,
+    "2": 29,
+    "3": 33,
+    "4": 163,
+    "5": 1,
+    "6": 44
+  },
+  "top_docs": [
+    {
+      "id": "3a51c73c-aafd-42dc-be23-e4c8da85aaae",
+      "source_type": "europe_pmc",
+      "title": "Application of Endogenous Stem Cells in the Repair of Annulus Fibrosus Injury of Intervertebral Discs.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4391975b-f26d-425e-af7b-1f7081d506f8",
+      "source_type": "clinicaltrials",
+      "title": "Phase II Study of Dose-Adjusted EPOCH+/-Rituximab in Adults With Untreated Burkitt Lymphoma, c-MYC Positive Diffuse Large B-Cell Lymphoma and Plasmablastic Lymphoma",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4991af62-1102-42fe-af90-77ddb0573ff6",
+      "source_type": "clinicaltrials",
+      "title": "National, Multicentric, Prospective Phase II Study Estimating the Interest of a Dose Decrease for Radiation Therapy Associated With a Carboplatine and Etoposide Based Chemotherapy for the Treatment of Standard Risk Adult Medulloblastomas",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f4ebd4cb-d8d3-4143-a93c-0cebf81d4180",
+      "source_type": "clinicaltrials",
+      "title": "Improving the Response of Recurrent Glioma to Radiation Therapy Through Metabolic Intervention",
+      "level": 2,
+      "doc_weight": 0.4841,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "7b94c032-73f1-44fb-a595-a5fd83e4dbb0",
+      "source_type": "clinicaltrials",
+      "title": "European Low and Intermediate Risk Neuroblastoma Protocol",
+      "level": 3,
+      "doc_weight": 0.4418,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2ed295b6-1f78-4cb8-974d-601a964f26c6",
+      "source_type": "europe_pmc",
+      "title": "Immortality Reconsidered: Clinical Challenges at the Frontier of Plastic Surgery.",
+      "level": 2,
+      "doc_weight": 0.4309,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "dd129ba2-ed03-4fd2-aecd-11f7acee444a",
+      "source_type": "semantic_scholar",
+      "title": "Immortality Reconsidered: Clinical Challenges at the Frontier of Plastic Surgery",
+      "level": 2,
+      "doc_weight": 0.4309,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bc65d39c-ece4-4b1c-91f5-40af1ca06458",
+      "source_type": "clinicaltrials",
+      "title": "Tolerability and Effects of a New Omega-3 Fatty Acid-based Supplement on Clinical and Biological Markers of Healthy Ageing",
+      "level": 2,
+      "doc_weight": 0.4097,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=270"
+  ]
+}

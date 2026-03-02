@@ -1,0 +1,121 @@
+{
+  "confidence": 80.67,
+  "confidence_raw": 80.67,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 30.0,
+    "2": 30.0,
+    "3": 11.02,
+    "4": 9.54,
+    "5": 0.0,
+    "6": 0.11
+  },
+  "selected_counts_by_level": {
+    "1": 53,
+    "2": 66,
+    "3": 31,
+    "4": 127,
+    "5": 0,
+    "6": 48
+  },
+  "top_docs": [
+    {
+      "id": "f0643216-3c25-4ecc-a42c-5d2106160af9",
+      "source_type": "pubmed",
+      "title": "Resistance training and blood pressure: Insights from a meta-analysis of the aging population.",
+      "level": 1,
+      "doc_weight": 1.1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "db2a5eaa-c045-470e-8cf2-440d594cf537",
+      "source_type": "pubmed",
+      "title": "The Additive Effects of Creatine Supplementation and Exercise Training in an Aging Population: A Systematic Review of Randomized Controlled Trials.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "189a1d72-3e46-4095-bef7-0b5a150f83b5",
+      "source_type": "europe_pmc",
+      "title": "Effects of different exercise modalities on balance performance in healthy older adults: a systematic review and network meta-analysis of randomized controlled trials.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2a35bacc-e834-4bc0-ae6d-3006b18c11fe",
+      "source_type": "europe_pmc",
+      "title": "The impact of exercise interventions on cognitive frailty: a scoping review of outcomes and biological mechanisms.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "48503ccb-c4b1-4b84-8177-ee8ab3baa526",
+      "source_type": "europe_pmc",
+      "title": "The effect of mind-body exercise on cognitive function and neuroplasticity in elderly people with mild cognitive impairment: a systematic review and meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8451d35e-7b0d-4ec4-861f-056408725c33",
+      "source_type": "europe_pmc",
+      "title": "The effectiveness of exercise interventions on muscle strength and balance function in pre-frail older adults: a systematic review and Bayesian network meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "90175726-8529-4892-87f0-e403dbb7690b",
+      "source_type": "europe_pmc",
+      "title": "Arterial stiffness adaptations to chronic resistance and aerobic exercise: a systematic review of exercise modalities.",
+      "level": 1,
+      "doc_weight": 0.8836,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e04e73ce-0b4a-4ab5-aeac-42b30cafbeba",
+      "source_type": "news",
+      "title": "4 Essential Exercise Types for Aging Well",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=325"
+  ]
+}

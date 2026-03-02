@@ -1,0 +1,121 @@
+{
+  "confidence": 73.16,
+  "confidence_raw": 73.16,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 24.33,
+    "2": 30.0,
+    "3": 7.84,
+    "4": 10.68,
+    "5": 0.03,
+    "6": 0.29
+  },
+  "selected_counts_by_level": {
+    "1": 4,
+    "2": 79,
+    "3": 15,
+    "4": 180,
+    "5": 1,
+    "6": 88
+  },
+  "top_docs": [
+    {
+      "id": "ebc889dc-77ea-43a1-9d5b-ce9edc36e8d3",
+      "source_type": "pubmed",
+      "title": "The phytochemical epigallocatechin gallate prolongs the lifespan by improving lipid metabolism, reducing inflammation and oxidative stress in high-fat diet-fed obese rats.",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "1f111d73-5de4-4e70-8c6f-cc3db0964b9d",
+      "source_type": "nih_grant",
+      "title": "Targeting Senescence to Mitigate Chemotherapy-induced Functional Decline",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e03cc5f2-2e8e-4481-acfa-d9206804cff4",
+      "source_type": "nih_grant",
+      "title": "Targeting Senescence to Mitigate Chemotherapy-induced Functional Decline",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3847e178-0d20-4e6a-b870-7e0de7aff5bd",
+      "source_type": "nih_grant",
+      "title": "COVID-FIS: A PHASE 2 PLACEBO-CONTROLLED PILOT STUDY IN COVID-19 OF FISETIN TO ALLEVIATE DYSFUNCTION AND EXCESSIVE INFLAMMATORY RESPONSE IN OLDER ADULTS IN NURSING HOMES",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bf4baad5-12a2-4ea6-bf73-5fee775ce46f",
+      "source_type": "nih_grant",
+      "title": "Targeting Senescence to Mitigate Chemotherapy-induced Functional Decline",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e5fb901c-231a-48c5-a9db-051a278896e0",
+      "source_type": "nih_grant",
+      "title": "Senolytics To slOw Progression of Sepsis (STOP-Sepsis) trial",
+      "level": 2,
+      "doc_weight": 0.751,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "21a07d9f-0349-47d8-80e5-2085bdd20e60",
+      "source_type": "nih_grant",
+      "title": "Senolytics To slOw Progression of Sepsis (STOP-Sepsis) trial",
+      "level": 2,
+      "doc_weight": 0.751,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "154dbd23-c1cf-460a-822e-b3e87675749a",
+      "source_type": "news",
+      "title": "Fisetin: A Powerful Senolytic that Slows Aging - InsideTracker",
+      "level": 2,
+      "doc_weight": 0.7097,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=367"
+  ]
+}

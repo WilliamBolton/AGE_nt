@@ -19,7 +19,7 @@ from contextlib import asynccontextmanager
 
 import aiosqlite
 from loguru import logger
-from mcp.server.fastmcp import Context, FastMCP
+from mcp.server.fastmcp import Context, FastMCP, Image
 
 from src.config import PROJECT_ROOT, settings
 from src.stats.summary import generate_summary
@@ -60,6 +60,25 @@ async def server_lifespan(server: FastMCP):
 
 mcp = FastMCP(
     "age-nt",
+    instructions="""You are AGE-nt, a longevity research assistant with access to a database of ~11,500 documents across 54 aging interventions.
+
+CRITICAL FORMATTING RULES — follow these exactly:
+
+1. COMPARISON TABLE: When comparing 2+ interventions, you MUST start with a markdown comparison table like this:
+| Metric | Rapamycin | HBOT |
+|---|---|---|
+| Total Documents | 342 | 281 |
+| Confidence Score | 72/100 | 45/100 |
+| Clinical Trials | 65 | 40 |
+| Phase 3+ Trials | 12 | 3 |
+| NIH Grants | $14.2M | $8.1M |
+| Bryan Johnson | Strong Advocate | Interested |
+
+2. VISUALISATIONS: Prefer creating one comprehensive multi-panel matplotlib figure (using plt.subplots) with a single save_plot() call. This displays more reliably than multiple separate plots. If you do create multiple plots, keep it to 2 at most.
+
+3. NUMBERS: Always cite specific numbers from tool outputs. Never paraphrase vaguely.
+
+4. STRUCTURE: For comparisons use this order: (1) Summary comparison table, (2) Key insights with specific numbers, (3) Visualisation(s), (4) Influencer perspectives.""",
     host="0.0.0.0",
     port=8001,
     lifespan=server_lifespan,
@@ -120,6 +139,49 @@ def _run_tool_cached(tool_name: str, intervention: str, storage: StorageManager)
 
 
 # ── Tools ────────────────────────────────────────────────────────────────────
+
+
+@mcp.tool()
+async def check_intervention_data(intervention: str, ctx: Context) -> str:
+    """Check what data exists for an aging intervention before running analysis.
+
+    Shows document count, source breakdown, whether summary stats exist,
+    and whether the ingest pipeline needs to be run. Always call this first
+    when asked about an intervention you haven't seen before.
+
+    Args:
+        intervention: Name of the intervention (e.g. 'rapamycin', 'metformin')
+    """
+    try:
+        from src.tools.ingest_tool import check_intervention_data as _check
+        storage = _get_storage(ctx)
+        result = _check(intervention, storage)
+        return _json(result)
+    except Exception as e:
+        return _json({"error": str(e), "tool": "check_intervention_data"})
+
+
+@mcp.tool()
+async def run_ingest_pipeline(intervention: str, ctx: Context) -> str:
+    """Run the data sourcing pipeline for an aging intervention.
+
+    Collects evidence from PubMed, ClinicalTrials.gov, Europe PMC,
+    Semantic Scholar, DrugAge, NIH grants, patents, FDA/regulatory,
+    news, social media, and Google Trends. Takes 1-3 minutes.
+
+    Only use this when check_intervention_data shows no data exists,
+    or when the user explicitly asks to collect/refresh data.
+
+    Args:
+        intervention: Name of the intervention to collect data for
+    """
+    try:
+        from src.tools.ingest_tool import run_ingest_pipeline as _run
+        storage = _get_storage(ctx)
+        result = await _run(intervention, storage)
+        return _json(result)
+    except Exception as e:
+        return _json({"error": str(e), "tool": "run_ingest_pipeline"})
 
 
 @mcp.tool()
@@ -665,7 +727,7 @@ async def run_python(
     code: str,
     ctx: Context,
     timeout: int = 30,
-) -> str:
+):
     """Execute Python code for data analysis and visualisation.
 
     Runs code in a subprocess with access to pandas, numpy, matplotlib,
@@ -691,7 +753,8 @@ async def run_python(
       save_plot('intervention_counts')
 
     Output: Captured stdout. Use print() to return results.
-    Plots: Call save_plot('name') to save figures. Paths returned in response.
+    Plots: Call save_plot('name') to save figures. Plot images are returned
+    inline and MUST be displayed to the user — do not summarise or skip them.
 
     Args:
         code: Python code to execute.
@@ -750,6 +813,20 @@ async def run_python(
                 result["error"] = stderr_str[-5000:]
             elif stderr_str:
                 result["warnings"] = stderr_str[-2000:]
+
+            # If plots were generated, return text + inline images
+            if plots:
+                result["_note"] = (
+                    f"{len(plots)} plot(s) attached as inline images. "
+                    "IMPORTANT: Display every image to the user."
+                )
+                parts: list = [_json(result)]
+                for plot_path in plots:
+                    try:
+                        parts.append(Image(path=plot_path))
+                    except Exception as img_err:
+                        logger.warning(f"Could not read plot {plot_path}: {img_err}")
+                return parts
 
             return _json(result)
 

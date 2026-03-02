@@ -1,0 +1,121 @@
+{
+  "confidence": 75.82,
+  "confidence_raw": 75.82,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.51,
+    "2": 29.99,
+    "3": 6.29,
+    "4": 9.79,
+    "5": 0.0,
+    "6": 0.24
+  },
+  "selected_counts_by_level": {
+    "1": 15,
+    "2": 66,
+    "3": 15,
+    "4": 169,
+    "5": 0,
+    "6": 108
+  },
+  "top_docs": [
+    {
+      "id": "d6200330-cd42-4ab1-a4f3-089a97ae075d",
+      "source_type": "news",
+      "title": "The Evidence Behind Resveratrol and CoQ10's Effects on Aging",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3260a18d-f4d4-431c-bc72-de8b57ee79a9",
+      "source_type": "europe_pmc",
+      "title": "Cardioprotective effects of CoQ10 in pediatric patients with lysosomal storage disorders.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "71593d5b-7896-428e-9df6-52b5511d68a3",
+      "source_type": "pubmed",
+      "title": "The Effect of MitoQ on Aging-Related Biomarkers: A Systematic Review and Meta-Analysis.",
+      "level": 1,
+      "doc_weight": 0.66,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e68d406a-a338-44ae-87ab-1c6050b2e35d",
+      "source_type": "clinicaltrials",
+      "title": "MitoQ Supplementation for Restoring Aerobic Exercise Training Effects on Endothelial Function in Postmenopausal Women",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e0d318a5-d330-472c-b51e-4e757e299c15",
+      "source_type": "news",
+      "title": "Relationship: Aging (prevention) and coenzyme Q10 (CoQ10)",
+      "level": 1,
+      "doc_weight": 0.5874,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2e5a3037-aec6-4312-a8a9-879ee3d473fe",
+      "source_type": "news",
+      "title": "Relationship: Aging (prevention) and coenzyme Q10 (CoQ10)",
+      "level": 1,
+      "doc_weight": 0.5874,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "346bb488-7f88-4f31-ab86-833fb85aa9f6",
+      "source_type": "pubmed",
+      "title": "The effect of dietary intake of coenzyme Q10 on skin parameters and condition: Results of a randomised, placebo-controlled, double-blind study.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2dd69d05-7e13-48a3-bd2a-cc9bc61a1498",
+      "source_type": "pubmed",
+      "title": "Idebenone. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic use in age-related cognitive disorders.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=373"
+  ]
+}

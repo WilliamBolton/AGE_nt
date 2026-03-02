@@ -152,12 +152,12 @@
       "Female": 2
     },
     "lifespan_change": {
-      "positive_count": 0,
-      "negative_count": 0,
+      "positive_count": 4,
+      "negative_count": 4,
       "null_count": 0,
-      "mean_change": null,
-      "max_extension": null,
-      "max_reduction": null
+      "mean_change": -1.58,
+      "max_extension": 9.6,
+      "max_reduction": -20.37
     }
   },
   "grants": {

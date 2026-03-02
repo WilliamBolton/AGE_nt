@@ -11,8 +11,8 @@
     "semantic_scholar": 50,
     "nih_grant": 50,
     "news": 14,
-    "drugage": 1,
-    "social": 1
+    "social": 1,
+    "drugage": 1
   },
   "date_range": {
     "earliest": "1997-12-08",
@@ -116,11 +116,11 @@
       "Unknown": 1
     },
     "lifespan_change": {
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 0,
       "null_count": 0,
-      "mean_change": null,
-      "max_extension": null,
+      "mean_change": 8.51,
+      "max_extension": 8.51,
       "max_reduction": null
     }
   },

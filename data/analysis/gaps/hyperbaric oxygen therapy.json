@@ -1,0 +1,273 @@
+{
+  "gap_analysis_version": "deterministic_gap_v1",
+  "evidence_map": {
+    "counts_by_level": {
+      "1": 5,
+      "2": 21,
+      "3": 11,
+      "4": 55,
+      "5": 0,
+      "6": 28
+    },
+    "human_docs_count": 17,
+    "rct_docs_count": 6,
+    "human_direct_endpoints_count": 4
+  },
+  "gaps": [
+    {
+      "key": "G1_human_evidence",
+      "title": "Any human evidence relevant to ageing/healthspan",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Without human evidence, claims remain preclinical.",
+      "evidence_ids": [
+        "9bbeead9-70a3-45ec-aa22-095babf9a554",
+        "393b2650-8d58-4f4b-8955-1c62cb0f3978",
+        "aa482903-88d6-4618-8647-2f382e77a8cb",
+        "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2",
+        "906a4d58-1341-412c-b064-7d13f73ea4ca",
+        "024ae515-8d11-4736-b142-7a9d174f512c",
+        "0b4bb961-fea7-4691-b593-dab562b46c8c",
+        "a1ff96e9-05f5-4888-a3db-318a6e3625be"
+      ],
+      "how_to_close": "At least one well-described human study (interventional or observational) with ageing/healthspan-relevant outcomes."
+    },
+    {
+      "key": "G2_randomised_evidence",
+      "title": "Randomised controlled trial evidence",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Randomisation reduces bias and strengthens causal claims.",
+      "evidence_ids": [
+        "9bbeead9-70a3-45ec-aa22-095babf9a554",
+        "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2",
+        "0b4bb961-fea7-4691-b593-dab562b46c8c",
+        "a1ff96e9-05f5-4888-a3db-318a6e3625be",
+        "0768b4aa-8134-4536-a674-1cb7e9885de4",
+        "94669631-5517-41ca-8531-8cc94427a3d8"
+      ],
+      "how_to_close": "At least one adequately powered RCT in a relevant population with pre-specified ageing/healthspan endpoints."
+    },
+    {
+      "key": "G3_human_endpoints",
+      "title": "Clinically meaningful endpoints in humans",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Functional/clinical outcomes are harder to over-interpret than biomarkers.",
+      "evidence_ids": [
+        "a1ff96e9-05f5-4888-a3db-318a6e3625be",
+        "0768b4aa-8134-4536-a674-1cb7e9885de4",
+        "d02a5a8e-ef55-462f-9236-e63d926eafad",
+        "b2280e51-3424-421e-b3a8-06a2a1d2c535"
+      ],
+      "how_to_close": "Human studies measuring validated functional/clinical proxies (e.g., infections, frailty, gait speed) or hard endpoints."
+    },
+    {
+      "key": "G4_replication",
+      "title": "Replication across independent human studies",
+      "status": "Satisfied",
+      "severity": "Medium",
+      "why_it_matters": "Replication reduces the chance that findings are spurious or context-specific.",
+      "evidence_ids": [
+        "9bbeead9-70a3-45ec-aa22-095babf9a554",
+        "393b2650-8d58-4f4b-8955-1c62cb0f3978",
+        "aa482903-88d6-4618-8647-2f382e77a8cb",
+        "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2",
+        "906a4d58-1341-412c-b064-7d13f73ea4ca",
+        "024ae515-8d11-4736-b142-7a9d174f512c"
+      ],
+      "how_to_close": "Multiple independent human studies (ideally multi-site) with consistent direction on key endpoints."
+    },
+    {
+      "key": "G5_older_adults",
+      "title": "Evidence in older adults / ageing-target populations",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Anti-ageing claims should be supported in older/adult ageing-relevant populations.",
+      "evidence_ids": [
+        "9bbeead9-70a3-45ec-aa22-095babf9a554",
+        "0b4bb961-fea7-4691-b593-dab562b46c8c",
+        "eff50b3f-9e4a-4dbe-acbf-2340ddbf019f",
+        "94669631-5517-41ca-8531-8cc94427a3d8"
+      ],
+      "how_to_close": "Trials/cohorts explicitly enrolling older adults (e.g., \u226565) or measuring ageing phenotypes."
+    },
+    {
+      "key": "S1_human_safety",
+      "title": "Human safety / tolerability reporting",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Even if efficacy is promising, poor safety evidence limits real-world use.",
+      "evidence_ids": [
+        "d02a5a8e-ef55-462f-9236-e63d926eafad",
+        "ba4e2a56-0f89-4c83-81f9-8294bc643ace",
+        "16e72629-3973-47dd-9d86-3cbd8e449313"
+      ],
+      "how_to_close": "Human studies or regulatory summaries reporting adverse events, tolerability and key risks."
+    },
+    {
+      "key": "S2_duration",
+      "title": "Adequate duration for chronic use",
+      "status": "Satisfied",
+      "severity": "Medium",
+      "why_it_matters": "Short trials may miss delayed harms/benefits and do not reflect long-term use.",
+      "evidence_ids": [
+        "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2"
+      ],
+      "how_to_close": "Longer-duration human studies (months to years) with follow-up."
+    },
+    {
+      "key": "D1_results_posted",
+      "title": "Registered trials with results posted / publications linked",
+      "status": "Missing",
+      "severity": "High",
+      "why_it_matters": "Unreported completed trials can bias the evidence base (publication/reporting bias).",
+      "evidence_ids": [],
+      "how_to_close": "Ensure completed trials post results and/or link peer-reviewed publications (NCT\u2192paper linkage)."
+    },
+    {
+      "key": "P1_animal_in_vivo",
+      "title": "Robust in vivo (animal) evidence",
+      "status": "Satisfied",
+      "severity": "Low",
+      "why_it_matters": "Strong in vivo evidence improves biological plausibility and prioritisation.",
+      "evidence_ids": [
+        "f4528375-e92e-4da9-90d9-1df406902a7e",
+        "fea52eae-19f4-46cd-8e24-77f8ff216c2f",
+        "27eaf1ec-ca69-477d-b9fe-d4bfdf8de671",
+        "281655b6-e2cf-4d08-9869-2ca93e760643",
+        "72def60a-a648-4270-9d91-cf36292f7128",
+        "dd7220b7-3bc2-4b60-bf62-4b61fad134b5",
+        "6058da84-0833-45f4-a9d5-ca8a4997c38c",
+        "ece8a3e5-5014-42f6-bc31-e7f66267943a"
+      ],
+      "how_to_close": "Multiple independent animal studies showing healthspan/lifespan benefits with appropriate controls."
+    }
+  ],
+  "exemplars": [
+    {
+      "id": "a1ff96e9-05f5-4888-a3db-318a6e3625be",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Effects of iTBS on Cognitive Control in Children With ADHD: A Randomized, Sham-Controlled Study Integrating EEG During ANT, fNIRS, MRI, and Genetic Markers",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "acute",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "0768b4aa-8134-4536-a674-1cb7e9885de4",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Systematic Assessment of the Modulatory Role of Brain State on the Prefrontal Response to Excitatory Stimulation: a Concurrent RTMS/fNIRS Pilot Study",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "d02a5a8e-ef55-462f-9236-e63d926eafad",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "The Effect of Hyperbaric Oxygen Therapy on Patients Suffering From Neurologic Deficiency Due Traumatic Brain Injury",
+      "level": 3,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": true,
+      "results_available": true
+    },
+    {
+      "id": "b2280e51-3424-421e-b3a8-06a2a1d2c535",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Exploring the Cortical Hemodynamic Response of Excitatory Brain Stimulation: a Pilot Study",
+      "level": 3,
+      "relevance": 1,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "9bbeead9-70a3-45ec-aa22-095babf9a554",
+      "source_type": "SourceType.PUBMED",
+      "title": "Hyperbaric oxygen therapy increases telomere length and decreases immunosenescence in isolated blood cells: a prospective trial.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "unclear",
+      "older_adults": true,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "c4d1d0ce-fc9e-4b1b-96c5-57edf0060dd2",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "A Double-blind Randomized Trial of Hyperbaric Oxygen Versus Sham for Persistent Symptoms After Brain Injury",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "medium",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "0b4bb961-fea7-4691-b593-dab562b46c8c",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "A Prospective, Non-Randomized, Open-Label Study on the Clinical Effects of Hyperbaric Oxygen Therapy in Thai Autistic Children",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "unclear",
+      "older_adults": true,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "94669631-5517-41ca-8531-8cc94427a3d8",
+      "source_type": "SourceType.EUROPE_PMC",
+      "title": "Physical enhancement of older adults using hyperbaric oxygen: a randomized controlled trial.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "unclear",
+      "older_adults": true,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "393b2650-8d58-4f4b-8955-1c62cb0f3978",
+      "source_type": "SourceType.PUBMED",
+      "title": "Rethinking the heritability of aging.",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "unclear",
+      "older_adults": null,
+      "safety_reported": false,
+      "results_available": null
+    },
+    {
+      "id": "aa482903-88d6-4618-8647-2f382e77a8cb",
+      "source_type": "SourceType.PUBMED",
+      "title": "Geroscience and Its Promise.",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    }
+  ],
+  "notes": [
+    "documents_scanned=120"
+  ],
+  "_source": "deterministic"
+}

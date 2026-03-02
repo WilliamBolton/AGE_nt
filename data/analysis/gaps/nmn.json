@@ -1,0 +1,291 @@
+{
+  "gap_analysis_version": "deterministic_gap_v1",
+  "evidence_map": {
+    "counts_by_level": {
+      "1": 10,
+      "2": 28,
+      "3": 9,
+      "4": 57,
+      "5": 1,
+      "6": 15
+    },
+    "human_docs_count": 25,
+    "rct_docs_count": 13,
+    "human_direct_endpoints_count": 8
+  },
+  "gaps": [
+    {
+      "key": "G1_human_evidence",
+      "title": "Any human evidence relevant to ageing/healthspan",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Without human evidence, claims remain preclinical.",
+      "evidence_ids": [
+        "1351c6f7-fdae-4840-8b9a-4f9d873133a4",
+        "4dcbfd5d-d9ef-4ca1-9856-ae27001813d5",
+        "9e807155-6396-4205-8118-aa207c68b379",
+        "108e210a-e68a-4e95-b0cd-f203ba4812f1",
+        "b46e8572-3782-4a3b-a217-1bafac04cd20",
+        "67c06cb3-9449-4e56-9e34-d1928401b013",
+        "647c6a89-42f8-4a61-8fae-ad386b588dcd",
+        "a20d1ccb-bfde-4b41-b712-84c0f3074ab8"
+      ],
+      "how_to_close": "At least one well-described human study (interventional or observational) with ageing/healthspan-relevant outcomes."
+    },
+    {
+      "key": "G2_randomised_evidence",
+      "title": "Randomised controlled trial evidence",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Randomisation reduces bias and strengthens causal claims.",
+      "evidence_ids": [
+        "9e807155-6396-4205-8118-aa207c68b379",
+        "b46e8572-3782-4a3b-a217-1bafac04cd20",
+        "67c06cb3-9449-4e56-9e34-d1928401b013",
+        "647c6a89-42f8-4a61-8fae-ad386b588dcd",
+        "a20d1ccb-bfde-4b41-b712-84c0f3074ab8",
+        "88841bd8-e86e-4e4e-90b8-fd9ca72c09a4",
+        "7e41273d-cea1-492b-89d0-148687907e13",
+        "ad104e6e-ff9f-4a23-acd3-937b470cc6fd"
+      ],
+      "how_to_close": "At least one adequately powered RCT in a relevant population with pre-specified ageing/healthspan endpoints."
+    },
+    {
+      "key": "G3_human_endpoints",
+      "title": "Clinically meaningful endpoints in humans",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Functional/clinical outcomes are harder to over-interpret than biomarkers.",
+      "evidence_ids": [
+        "1351c6f7-fdae-4840-8b9a-4f9d873133a4",
+        "9e807155-6396-4205-8118-aa207c68b379",
+        "108e210a-e68a-4e95-b0cd-f203ba4812f1",
+        "5554f6af-56db-419d-bc5e-0c24dc657ddf",
+        "30ebd3b1-24d7-4639-8b98-90e5db5ac026",
+        "05bbb570-9fb2-49ee-a9c5-a1a698c49fda",
+        "d37e1506-3c58-4c71-b86d-e4d74e579b7a",
+        "4115bab1-b16d-474e-b492-14124dfc0ee6"
+      ],
+      "how_to_close": "Human studies measuring validated functional/clinical proxies (e.g., infections, frailty, gait speed) or hard endpoints."
+    },
+    {
+      "key": "G4_replication",
+      "title": "Replication across independent human studies",
+      "status": "Satisfied",
+      "severity": "Medium",
+      "why_it_matters": "Replication reduces the chance that findings are spurious or context-specific.",
+      "evidence_ids": [
+        "1351c6f7-fdae-4840-8b9a-4f9d873133a4",
+        "4dcbfd5d-d9ef-4ca1-9856-ae27001813d5",
+        "9e807155-6396-4205-8118-aa207c68b379",
+        "108e210a-e68a-4e95-b0cd-f203ba4812f1",
+        "b46e8572-3782-4a3b-a217-1bafac04cd20",
+        "67c06cb3-9449-4e56-9e34-d1928401b013"
+      ],
+      "how_to_close": "Multiple independent human studies (ideally multi-site) with consistent direction on key endpoints."
+    },
+    {
+      "key": "G5_older_adults",
+      "title": "Evidence in older adults / ageing-target populations",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Anti-ageing claims should be supported in older/adult ageing-relevant populations.",
+      "evidence_ids": [
+        "1351c6f7-fdae-4840-8b9a-4f9d873133a4",
+        "647c6a89-42f8-4a61-8fae-ad386b588dcd",
+        "a20d1ccb-bfde-4b41-b712-84c0f3074ab8",
+        "88841bd8-e86e-4e4e-90b8-fd9ca72c09a4",
+        "7e41273d-cea1-492b-89d0-148687907e13",
+        "ad104e6e-ff9f-4a23-acd3-937b470cc6fd",
+        "c7cca63f-a994-4a34-b35d-205dd0d350e0",
+        "5554f6af-56db-419d-bc5e-0c24dc657ddf"
+      ],
+      "how_to_close": "Trials/cohorts explicitly enrolling older adults (e.g., \u226565) or measuring ageing phenotypes."
+    },
+    {
+      "key": "S1_human_safety",
+      "title": "Human safety / tolerability reporting",
+      "status": "Satisfied",
+      "severity": "High",
+      "why_it_matters": "Even if efficacy is promising, poor safety evidence limits real-world use.",
+      "evidence_ids": [
+        "9e807155-6396-4205-8118-aa207c68b379",
+        "67c06cb3-9449-4e56-9e34-d1928401b013",
+        "647c6a89-42f8-4a61-8fae-ad386b588dcd",
+        "a20d1ccb-bfde-4b41-b712-84c0f3074ab8",
+        "7e41273d-cea1-492b-89d0-148687907e13",
+        "ad104e6e-ff9f-4a23-acd3-937b470cc6fd",
+        "363cd95a-356e-4741-8b72-23030e111a4d",
+        "4115bab1-b16d-474e-b492-14124dfc0ee6"
+      ],
+      "how_to_close": "Human studies or regulatory summaries reporting adverse events, tolerability and key risks."
+    },
+    {
+      "key": "S2_duration",
+      "title": "Adequate duration for chronic use",
+      "status": "Satisfied",
+      "severity": "Medium",
+      "why_it_matters": "Short trials may miss delayed harms/benefits and do not reflect long-term use.",
+      "evidence_ids": [
+        "9e807155-6396-4205-8118-aa207c68b379",
+        "647c6a89-42f8-4a61-8fae-ad386b588dcd",
+        "363cd95a-356e-4741-8b72-23030e111a4d",
+        "d37e1506-3c58-4c71-b86d-e4d74e579b7a",
+        "14e352a6-0096-49c3-a4fb-374a0873c1f7"
+      ],
+      "how_to_close": "Longer-duration human studies (months to years) with follow-up."
+    },
+    {
+      "key": "D1_results_posted",
+      "title": "Registered trials with results posted / publications linked",
+      "status": "Missing",
+      "severity": "High",
+      "why_it_matters": "Unreported completed trials can bias the evidence base (publication/reporting bias).",
+      "evidence_ids": [],
+      "how_to_close": "Ensure completed trials post results and/or link peer-reviewed publications (NCT\u2192paper linkage)."
+    },
+    {
+      "key": "P1_animal_in_vivo",
+      "title": "Robust in vivo (animal) evidence",
+      "status": "Satisfied",
+      "severity": "Low",
+      "why_it_matters": "Strong in vivo evidence improves biological plausibility and prioritisation.",
+      "evidence_ids": [
+        "7dcbb876-f795-4335-8d64-2f5423ea4994",
+        "a2c0656f-0f74-458c-a395-328b9445a136",
+        "e12e3351-1991-4480-81f8-a2376dc3a5da",
+        "68d5bc71-be23-42bf-9fee-7c5f6d3b57f9",
+        "847192f7-ad2a-427b-807b-c9cdf150519a",
+        "da88f181-3f86-4f80-86e1-a2ca8a1f53a0",
+        "3406f3f6-678c-4b17-945a-061a17d5a16a",
+        "d0d524df-a7f6-4cce-8d8b-5055a0c2f478"
+      ],
+      "how_to_close": "Multiple independent animal studies showing healthspan/lifespan benefits with appropriate controls."
+    }
+  ],
+  "exemplars": [
+    {
+      "id": "1351c6f7-fdae-4840-8b9a-4f9d873133a4",
+      "source_type": "SourceType.PUBMED",
+      "title": "Effects of Nicotinamide Mononucleotide Supplementation on Muscle and Liver Functions Among the Middle-aged and Elderly: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+      "level": 1,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": true,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "9e807155-6396-4205-8118-aa207c68b379",
+      "source_type": "SourceType.PUBMED",
+      "title": "NMN: The NAD precursor at the intersection between axon degeneration and anti-ageing therapies.",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "long",
+      "older_adults": false,
+      "safety_reported": true,
+      "results_available": true
+    },
+    {
+      "id": "108e210a-e68a-4e95-b0cd-f203ba4812f1",
+      "source_type": "SourceType.PUBMED",
+      "title": "Beta-Hydroxybutyrate but not NMN supplementation mimics caloric restriction reducing early mortality in Daphnia.",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "5554f6af-56db-419d-bc5e-0c24dc657ddf",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Nicotinamide Riboside Supplementation for Treating Elevated Systolic Blood Pressure and Arterial Stiffness in Middle-aged and Older Adults",
+      "level": 3,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "duration_band": "unclear",
+      "older_adults": true,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "30ebd3b1-24d7-4639-8b98-90e5db5ac026",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Nicotinamide Adenine Dinucleotide (NAD+) Metabolism in Human Brown Adipose Tissue",
+      "level": 3,
+      "relevance": 1,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "05bbb570-9fb2-49ee-a9c5-a1a698c49fda",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "A Randomized, Double Blind, Placebo-Controlled Study to Evaluate the Effect of Nicotinamide Mononucleotide (NMN) As an Adjuvant to Standard of Care (SOC) On Fatigue Associated With COVID-19 Infection",
+      "level": 2,
+      "relevance": 1,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": null
+    },
+    {
+      "id": "d37e1506-3c58-4c71-b86d-e4d74e579b7a",
+      "source_type": "SourceType.EUROPE_PMC",
+      "title": "The Effect of Nicotinamide Mononucleotide and Riboside on Skeletal Muscle Mass and Function: A Systematic Review and Meta-Analysis.",
+      "level": 1,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "long",
+      "older_adults": true,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "4115bab1-b16d-474e-b492-14124dfc0ee6",
+      "source_type": "SourceType.EUROPE_PMC",
+      "title": "NAD\u207a supplementation for anti-aging and wellness: a PRISMA-guided systematic review of preclinical and clinical evidence.",
+      "level": 1,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": true,
+      "results_available": true
+    },
+    {
+      "id": "b46e8572-3782-4a3b-a217-1bafac04cd20",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "Efficacy Evaluation of the Anti-ageing Effect of a Cosmetic Active Versus Placebo",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "short",
+      "older_adults": false,
+      "safety_reported": false,
+      "results_available": true
+    },
+    {
+      "id": "67c06cb3-9449-4e56-9e34-d1928401b013",
+      "source_type": "SourceType.CLINICAL_TRIALS",
+      "title": "A Prospective, Multi-center, Double-blind, Placebo-controlled, Randomized, Multiple-arm, Parallel Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of UthPeak NMNH (Reduced Nicotinamide Mononucleotide) in Healthy Adult Participants",
+      "level": 2,
+      "relevance": 2,
+      "endpoint_grade": 0,
+      "duration_band": "unclear",
+      "older_adults": false,
+      "safety_reported": true,
+      "results_available": true
+    }
+  ],
+  "notes": [
+    "documents_scanned=120"
+  ]
+}

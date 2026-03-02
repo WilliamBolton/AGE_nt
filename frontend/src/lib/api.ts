@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || "";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 function headers(): HeadersInit {
   const h: HeadersInit = { "Content-Type": "application/json" };
@@ -48,6 +48,10 @@ export const api = {
   listTools: () => get<{ tools: { name: string; description: string }[]; count: number }>("/tools"),
   runTool: (tool: string, intervention: string) =>
     get<Record<string, unknown>>(`/tools/${tool}/${intervention}`),
+
+  // Landscape (all interventions + evidence scores in one call)
+  landscapeScores: () =>
+    get<{ interventions: { name: string; document_count: number; confidence: number; source_types: number }[]; count: number }>("/tools/landscape/scores"),
 
   // Interventions
   listInterventions: () =>

@@ -1,0 +1,121 @@
+{
+  "confidence": 73.26,
+  "confidence_raw": 73.26,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 28.22,
+    "2": 29.92,
+    "3": 7.39,
+    "4": 7.55,
+    "5": 0.04,
+    "6": 0.14
+  },
+  "selected_counts_by_level": {
+    "1": 8,
+    "2": 49,
+    "3": 16,
+    "4": 75,
+    "5": 1,
+    "6": 37
+  },
+  "top_docs": [
+    {
+      "id": "1b60a370-643f-41ab-915a-644c9cd7ed0d",
+      "source_type": "news",
+      "title": "Urolithin A: The Promise and Reality of a Gut Metabolite",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "52802143-56d5-46f6-807c-29940a98e64e",
+      "source_type": "clinicaltrials",
+      "title": "Studie Vlivu Urolithinu A na Populaci s BI vy\u0161\u0161\u00edm ne\u00fd 30 p\u0159i v\u00fd\u017eivov\u00e9 Restrikci",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "174cdee9-5e46-4091-8a88-339b48f66e0d",
+      "source_type": "europe_pmc",
+      "title": "Sex-Specific Diet-Microbiota Interactions in Ageing: Implications for Healthy Longevity.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e6bb8d22-af5a-4580-a2a8-85232028a13e",
+      "source_type": "europe_pmc",
+      "title": "A Natural Autophagy Activator Castanea crenata Flower Alleviates Skeletal Muscle Ageing.",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d178a6e3-1d61-4b60-896e-0a2525f0d993",
+      "source_type": "clinicaltrials",
+      "title": "Urolithin A Supplementation During Pulmonary Rehabilitation Participation in Patients With Chronic Obstructive Pulmonary Disease: a Randomized Pilot and Feasibility Study",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "01f80c29-31ad-4be0-91f3-4dd891c60128",
+      "source_type": "clinicaltrials",
+      "title": "Evaluation of Urolithin A and Fisetin on Improving Sleep and Aging Biomarkers in Middle-Aged and Older Adults: A Randomized Controlled Trial",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "cea04ef3-11ad-46c4-986d-94e00252d048",
+      "source_type": "europe_pmc",
+      "title": "Targeting aging with urolithin A in humans: A systematic review.",
+      "level": 1,
+      "doc_weight": 0.5409,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0de5732c-0637-4c98-bf2f-a96d4451ae55",
+      "source_type": "semantic_scholar",
+      "title": "Social Connections, Leukocyte Telomere Length, and All-Cause Mortality in Older Adults From Costa Rica: The Costa Rican Longevity and Healthy Aging Study (CRELES)",
+      "level": 3,
+      "doc_weight": 0.4895,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=186"
+  ]
+}

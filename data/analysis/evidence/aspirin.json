@@ -1,0 +1,121 @@
+{
+  "confidence": 78.68,
+  "confidence_raw": 78.68,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 27.42,
+    "2": 30.0,
+    "3": 13.32,
+    "4": 7.72,
+    "5": 0.0,
+    "6": 0.21
+  },
+  "selected_counts_by_level": {
+    "1": 10,
+    "2": 121,
+    "3": 44,
+    "4": 95,
+    "5": 0,
+    "6": 67
+  },
+  "top_docs": [
+    {
+      "id": "35a18214-8f4f-4d4f-8391-085ade9fb4e2",
+      "source_type": "pubmed",
+      "title": "Comprehensive systematic review and meta-analysis on anticoagulants and aspirin for stroke prevention in non-valvular atrial fibrillation patients.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "91c4feca-923d-4175-9322-eb091b62a3a8",
+      "source_type": "pubmed",
+      "title": "Slowing the progression of age-related hearing loss: Rationale and study design of the ASPIRIN in HEARING, retinal vessels imaging and neurocognition in older generations (ASPREE-HEARING) trial.",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "37863ed6-4d6f-414d-a5d7-0d1c7342a153",
+      "source_type": "news",
+      "title": "Daily aspirin shows no benefit for healthy older adults - NIH",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "fd04e7c3-5b30-41af-9de6-8c64d9107887",
+      "source_type": "nih_grant",
+      "title": "Effects of inflammaging on intestinal epithelial cells and aspirin chemoprevention.",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d973048d-01ee-4605-93bf-8830f16c0bc3",
+      "source_type": "nih_grant",
+      "title": "Effects of inflammaging on intestinal epithelial cells and aspirin chemoprevention.",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "218c2135-a257-43ae-829e-6c88a4ca1c8b",
+      "source_type": "nih_grant",
+      "title": "Metformin BenefIts Lower Extremities with Intermittent Claudication (MOBILE_IC)",
+      "level": 2,
+      "doc_weight": 0.751,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "98170d02-a681-4a38-adf6-8a42d0650544",
+      "source_type": "nih_grant",
+      "title": "Metformin BenefIts Lower Extremities with Intermittent Claudication (MOBILE_IC)",
+      "level": 2,
+      "doc_weight": 0.751,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5330da6f-8ebe-4361-867b-5d6d06965e72",
+      "source_type": "pubmed",
+      "title": "Aspirin and healthy lifespan in older people: main outcome of the ASPREE-XT observational study.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=337"
+  ]
+}

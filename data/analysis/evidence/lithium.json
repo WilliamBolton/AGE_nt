@@ -1,0 +1,121 @@
+{
+  "confidence": 74.96,
+  "confidence_raw": 74.96,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 22.46,
+    "2": 29.94,
+    "3": 12.39,
+    "4": 10.04,
+    "5": 0.02,
+    "6": 0.11
+  },
+  "selected_counts_by_level": {
+    "1": 4,
+    "2": 50,
+    "3": 37,
+    "4": 195,
+    "5": 2,
+    "6": 62
+  },
+  "top_docs": [
+    {
+      "id": "827c784c-a1bc-47f6-8609-d9b10eec7c94",
+      "source_type": "news",
+      "title": "The Anti-Aging and Longevity Benefits of Lithium - NOVOS",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "407144ee-1907-44d4-867d-7946489d5551",
+      "source_type": "news",
+      "title": "The Anti-Aging and Longevity Benefits of Lithium - NOVOS",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "16b61342-e479-4d0d-9289-794a39dce2d2",
+      "source_type": "news",
+      "title": "Lithium treatment extends human lifespan: findings from the UK ...",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "25a0a7e7-37df-4952-b467-7bb10ab4bd47",
+      "source_type": "nih_grant",
+      "title": "Developing Lithium as a Disease-Modifying Therapy for Emphysema Using a Precision Medicine Approach",
+      "level": 2,
+      "doc_weight": 0.7097,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "68d60a24-dd57-4e78-bd5a-c96923411b29",
+      "source_type": "europe_pmc",
+      "title": "Rapamycin Exerts Its Geroprotective Effects in the Ageing Human Immune System by Enhancing Resilience Against DNA Damage.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f1a79081-b5c5-40e4-883b-df0688d8bff9",
+      "source_type": "nih_grant",
+      "title": "Interventions for Symptom Management in Older Patients with HAND",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f52ef4a9-3d5c-441a-9bb3-219cff3f80ff",
+      "source_type": "nih_grant",
+      "title": "Interventions for Symptom Management in Older Patients with HAND",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8099aa7e-6ca5-4c39-a501-74bb494a208b",
+      "source_type": "nih_grant",
+      "title": "Interventions for Symptom Management in Older Patients with HAND",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=350"
+  ]
+}

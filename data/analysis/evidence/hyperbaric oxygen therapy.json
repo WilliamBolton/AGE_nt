@@ -1,0 +1,121 @@
+{
+  "confidence": 75.35,
+  "confidence_raw": 75.35,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 26.92,
+    "2": 29.05,
+    "3": 10.21,
+    "4": 9.01,
+    "5": 0.0,
+    "6": 0.15
+  },
+  "selected_counts_by_level": {
+    "1": 13,
+    "2": 40,
+    "3": 39,
+    "4": 155,
+    "5": 0,
+    "6": 54
+  },
+  "top_docs": [
+    {
+      "id": "dde98e5a-f38e-41e1-85c0-92b9a0003d7b",
+      "source_type": "europe_pmc",
+      "title": "Hyperbaric oxygen therapy for osteoporosis: A systematic review of preclinical evidence and mechanisms.",
+      "level": 1,
+      "doc_weight": 0.6237,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "16e72629-3973-47dd-9d86-3cbd8e449313",
+      "source_type": "europe_pmc",
+      "title": "Reduce Flap Necrosis After Autologous Breast Reconstruction: A Systematic Review.",
+      "level": 1,
+      "doc_weight": 0.597,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a41ed51e-985c-43ac-83aa-dbf6b5428e20",
+      "source_type": "semantic_scholar",
+      "title": "Microvascular, Biochemical, and Clinical Impact of Hyperbaric Oxygen Therapy in Recalcitrant Diabetic Foot Ulcers",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "95ce4e18-b0ca-42fe-8ee9-ad63d45e979b",
+      "source_type": "semantic_scholar",
+      "title": "Effect of hyperbaric oxygen therapy on ataxia: A case report",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a1ff96e9-05f5-4888-a3db-318a6e3625be",
+      "source_type": "clinicaltrials",
+      "title": "Effects of iTBS on Cognitive Control in Children With ADHD: A Randomized, Sham-Controlled Study Integrating EEG During ANT, fNIRS, MRI, and Genetic Markers",
+      "level": 2,
+      "doc_weight": 0.5128,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4b24e8b7-9513-463d-a26e-1c257cfffbe3",
+      "source_type": "europe_pmc",
+      "title": "Expression and Roles of Free Radicals and Reactive Oxygen Species in Hearing Loss.",
+      "level": 2,
+      "doc_weight": 0.479,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0768b4aa-8134-4536-a674-1cb7e9885de4",
+      "source_type": "clinicaltrials",
+      "title": "Systematic Assessment of the Modulatory Role of Brain State on the Prefrontal Response to Excitatory Stimulation: a Concurrent RTMS/fNIRS Pilot Study",
+      "level": 2,
+      "doc_weight": 0.4115,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d7fd1966-757f-4b24-bb29-30145da25d63",
+      "source_type": "semantic_scholar",
+      "title": "The effect of hyperbaric oxygen therapy on split-thickness skin graft uptake in posttraumatic wounds and donor site healing: a randomized controlled trial.",
+      "level": 2,
+      "doc_weight": 0.4097,
+      "relevance": 1,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=301"
+  ]
+}

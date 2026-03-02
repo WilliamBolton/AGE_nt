@@ -1,0 +1,121 @@
+{
+  "confidence": 60.44,
+  "confidence_raw": 60.44,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 14.54,
+    "2": 29.15,
+    "3": 6.72,
+    "4": 9.96,
+    "5": 0.0,
+    "6": 0.06
+  },
+  "selected_counts_by_level": {
+    "1": 2,
+    "2": 39,
+    "3": 12,
+    "4": 150,
+    "5": 0,
+    "6": 30
+  },
+  "top_docs": [
+    {
+      "id": "4f49b5b2-149e-40f9-b29a-7e44d6424387",
+      "source_type": "pubmed",
+      "title": "Effect of oral trehalose supplementation on inflammation and wound healing in patients with peri-trochanteric fractures: study protocol for a randomised clinical trial.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3a402ad0-75e5-42f7-9e45-abdc9c453e40",
+      "source_type": "clinicaltrials",
+      "title": "tislelizUMaB in canceR Patients With molEcuLar residuaL Disease",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "960250b5-d106-4638-9cfe-b0842e41f8f2",
+      "source_type": "europe_pmc",
+      "title": "Rapamycin Exerts Its Geroprotective Effects in the Ageing Human Immune System by Enhancing Resilience Against DNA Damage.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "69fcfbca-dad5-4d4e-8f80-5d836001fe29",
+      "source_type": "europe_pmc",
+      "title": "Effect of oral trehalose supplementation on inflammation and wound healing in patients with peri-trochanteric fractures: study protocol for a randomised clinical trial.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "92e07e0d-1955-4d52-84d4-58ddfa298fe4",
+      "source_type": "news",
+      "title": "The Anti-Aging and Longevity Benefits of Trehalose - NOVOS",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "80f8e1a0-5133-447c-ab99-87354ed12ccf",
+      "source_type": "news",
+      "title": "The Anti-Aging and Longevity Benefits of Trehalose",
+      "level": 2,
+      "doc_weight": 0.4819,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ecd4c5a0-fc07-40f6-860a-4528a8826a3d",
+      "source_type": "news",
+      "title": "Oral trehalose supplementation improves resistance artery ...",
+      "level": 2,
+      "doc_weight": 0.4646,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "4490a191-084d-4178-80b6-fec6642462bb",
+      "source_type": "europe_pmc",
+      "title": "Meta-Analysis and Experimental Evidence Reveal No Impact of Nosema ceranae Infection on Honeybee Carbohydrate Consumption.",
+      "level": 1,
+      "doc_weight": 0.429,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=233"
+  ]
+}

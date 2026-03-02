@@ -1,5 +1,5 @@
 {
-  "company": "Calico Life Sciences (Calico)",
+  "company": "Calico",
   "ticker": null,
   "founded": 2013,
   "hq": "South San Francisco, California, USA",
@@ -48,33 +48,33 @@
     {
       "name": "Arthur D. Levinson",
       "role": "Chief Executive Officer",
-      "background": "CEO of Calico and chair of Apple (source: Calico leadership page https://www.calicolabs.com/; Apple leadership/board bio source needed)"
+      "background": "CEO of Calico and chair of Apple"
     },
     {
       "name": "Cynthia Kenyon",
       "role": "Vice President, Aging Research",
-      "background": "Known for foundational C. elegans longevity research and leads aging research at Calico (source: Calico leadership page https://www.calicolabs.com/; specific academic history source needed)"
+      "background": "Known for foundational C. elegans longevity research and leads aging research at Calico"
     }
   ],
   "investors_notable": [
-    "Alphabet/Google (Calico launched by Google as a company focused on health and well-being) (source: Google Official Blog, 2013 https://blog.google/inside-google/company-announcements/launching-calico/)",
-    "AbbVie (R&D collaboration with Calico; parties planned to invest up to $1.5B) (source: AbbVie press release, 2014 https://news.abbvie.com/news/press-releases/abbvie-and-calico-announce-research-and-development-collaboration.htm)"
+    "Alphabet/Google (Calico launched by Google as a company focused on health and well-being)",
+    "AbbVie (R&D collaboration with Calico; parties planned to invest up to $1.5B)"
   ],
   "risks": [
-    "Scientific/translation risk: interventions that modify fundamental aging biology often fail to translate from model systems to human clinical benefit (source needed).",
-    "Execution opacity: Calico discloses limited public detail on specific therapeutic assets and timelines, which can hinder external validation and partnering beyond existing alliances (source needed).",
-    "Long timelines and high capital intensity typical for aging-biology-driven drug discovery and validation (source needed).",
-    "Dependency on collaboration structure/IP sharing for partnered programs could limit strategic flexibility (source needed)."
+    "Scientific/translation risk: interventions that modify fundamental aging biology often fail to translate from model systems to human clinical benefit.",
+    "Execution opacity: Calico discloses limited public detail on specific therapeutic assets and timelines, which can hinder external validation and partnering beyond existing alliances.",
+    "Long timelines and high capital intensity typical for aging-biology-driven drug discovery and validation.",
+    "Dependency on collaboration structure/IP sharing for partnered programs could limit strategic flexibility."
   ],
   "competitive_advantages": [
-    "Backed by Alphabet/Google, providing potentially substantial long-term capital support (source: Google Official Blog, 2013 https://blog.google/inside-google/company-announcements/launching-calico/).",
-    "Large pharma partnership with AbbVie with a stated plan to invest up to $1.5B in the collaboration, supporting scale of discovery/development (source: AbbVie press release, 2014 https://news.abbvie.com/news/press-releases/abbvie-and-calico-announce-research-and-development-collaboration.htm).",
-    "Dedicated focus on aging and age-related disease biology as the core mission (source: Google Official Blog, 2013 https://blog.google/inside-google/company-announcements/launching-calico/; Calico site https://www.calicolabs.com/)."
+    "Backed by Alphabet/Google, providing potentially substantial long-term capital support.",
+    "Large pharma partnership with AbbVie with a stated plan to invest up to $1.5B in the collaboration, supporting scale of discovery/development.",
+    "Dedicated focus on aging and age-related disease biology as the core mission."
   ],
   "acquisition_estimate": {
     "low_usd": 3000000000,
     "high_usd": 10000000000,
-    "methodology": "Speculative range assuming a hypothetical sale/spin-out of a private, platform-centric, preclinical/early-translational longevity company with a major pharma collaboration: anchored to (i) the scale signaled by the Calico–AbbVie collaboration (up to $1.5B planned investment) and (ii) public-market precedent M&A for R&D platforms/clinical-stage biotechs (comps below). Discount applied for limited publicly disclosed clinical assets/data and uncertainty in aging-to-disease translation. Calico is an Alphabet-owned company and not known to be for sale (source: Google Official Blog, 2013 https://blog.google/inside-google/company-announcements/launching-calico/).",
+    "methodology": "Speculative range assuming a hypothetical sale/spin-out of a private, platform-centric, preclinical/early-translational longevity company with a major pharma collaboration: anchored to (i) the scale signaled by the Calico–AbbVie collaboration (up to $1.5B planned investment) and (ii) public-market precedent M&A for R&D platforms/clinical-stage biotechs (comps below). Discount applied for limited publicly disclosed clinical assets/data and uncertainty in aging-to-disease translation. Calico is an Alphabet-owned company and not known to be for sale.",
     "comparable_deals": [
       "Roche acquisition of Carmot Therapeutics for $2.7B (press release) https://www.roche.com/media/releases/med-cor-2023-12-04",
       "Bristol Myers Squibb acquisition of Turning Point Therapeutics for ~$4.1B (press release) https://news.bms.com/news/details/2022/Bristol-Myers-Squibb-to-Acquire-Turning-Point-Therapeutics/default.aspx",

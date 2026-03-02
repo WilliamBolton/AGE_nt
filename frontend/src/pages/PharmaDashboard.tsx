@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { Building2, TrendingUp, Shield, AlertCircle } from "lucide-react";
+import { Building2, TrendingUp, Shield, Play, Loader2 } from "lucide-react";
 import { api } from "../lib/api";
+import ReactMarkdown from "react-markdown";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
 
 interface Profile {
@@ -50,6 +51,7 @@ export default function PharmaDashboard() {
   const [dd, setDd] = useState<DDResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [analysed, setAnalysed] = useState(false);
 
   useEffect(() => {
     api.listPharma().then((data) => {
@@ -59,16 +61,24 @@ export default function PharmaDashboard() {
     }).catch(() => setError("Failed to load pharma profiles. Is the API running?"));
   }, []);
 
+  // Reset analysis when company changes
   useEffect(() => {
+    setDd(null);
+    setAnalysed(false);
+    setError("");
+  }, [selected]);
+
+  const runAnalysis = () => {
     if (!selected) return;
     setLoading(true);
     setError("");
+    setAnalysed(true);
     api
       .runPharmaDd(selected)
       .then((data) => setDd(data as DDResult))
       .catch((e) => setError(e.message))
       .finally(() => setLoading(false));
-  }, [selected]);
+  };
 
   const hallmarkData = dd
     ? Object.entries(dd.hallmark_heatmap)
@@ -76,38 +86,72 @@ export default function PharmaDashboard() {
         .sort((a, b) => b.count - a.count)
     : [];
 
+  const selectedProfile = profiles.find((p) => p.slug === selected);
+
   return (
     <div className="p-6 space-y-6 max-w-7xl mx-auto">
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-2xl font-bold font-heading text-on-surface">Pharma Due Diligence</h2>
           <p className="text-sm text-on-surface-variant mt-1">
-            Acquisition landscape analysis for longevity biotech targets
+            Acquisition landscape analysis for longevity focused biotechs
           </p>
         </div>
-        <select
-          value={selected}
-          onChange={(e) => setSelected(e.target.value)}
-          className="px-4 py-2 border border-outline-variant rounded-lg text-sm bg-surface-container-lowest text-on-surface"
-        >
-          {profiles.map((p) => (
-            <option key={p.slug} value={p.slug}>
-              {p.company}
-            </option>
-          ))}
-        </select>
+        <div className="flex items-center gap-3">
+          <select
+            value={selected}
+            onChange={(e) => setSelected(e.target.value)}
+            className="px-4 py-2.5 border border-outline-variant rounded-lg text-sm bg-surface-container-lowest text-on-surface"
+          >
+            {profiles.map((p) => (
+              <option key={p.slug} value={p.slug}>
+                {p.company}
+              </option>
+            ))}
+          </select>
+          <button
+            onClick={runAnalysis}
+            disabled={loading || !selected}
+            className="flex items-center gap-2 px-5 py-2.5 bg-primary text-on-primary rounded-lg text-sm font-medium hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-opacity"
+          >
+            {loading ? (
+              <>
+                <Loader2 size={16} className="animate-spin" />
+                Analysing...
+              </>
+            ) : (
+              <>
+                <Play size={16} />
+                Analyse
+              </>
+            )}
+          </button>
+        </div>
       </div>
+
+      {/* Pre-analysis: show company info */}
+      {!analysed && selectedProfile && (
+        <div className="bg-surface-container-lowest rounded-xl border border-outline-variant p-8 text-center space-y-3">
+          <Building2 size={48} className="mx-auto text-primary" />
+          <h3 className="text-xl font-semibold font-heading text-on-surface">{selectedProfile.company}</h3>
+          <p className="text-sm text-on-surface-variant max-w-md mx-auto">
+            Map 25 longevity biotechs against {selectedProfile.company}'s portfolio, score strategic fit, and generate an AI-reasoned M&A landscape.
+          </p>
+        </div>
+      )}
 
       {error && (
         <div className="flex items-center gap-2 px-4 py-3 bg-error-container border border-error rounded-lg text-sm text-on-error-container">
-          <AlertCircle size={16} />
           {error}
         </div>
       )}
 
       {loading && (
-        <div className="flex items-center justify-center py-20">
+        <div className="flex flex-col items-center justify-center py-20 space-y-3">
           <div className="animate-spin w-8 h-8 border-2 border-primary border-t-transparent rounded-full" />
+          <p className="text-sm text-on-surface-variant">
+            Running DD pipeline — mapping biotechs, scoring hallmark overlaps, generating narrative...
+          </p>
         </div>
       )}
 
@@ -119,14 +163,14 @@ export default function PharmaDashboard() {
               <h3 className="text-sm font-semibold text-on-surface-variant uppercase tracking-wider mb-3 font-heading">
                 Executive Summary
               </h3>
-              <p className="text-sm text-on-surface whitespace-pre-wrap leading-relaxed">
-                {dd.executive_summary}
-              </p>
+              <div className="text-sm text-on-surface leading-relaxed">
+                <ReactMarkdown>{dd.executive_summary}</ReactMarkdown>
+              </div>
             </div>
           )}
 
           {/* Stats cards */}
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-3 gap-4">
             {[
               {
                 icon: Building2,
@@ -135,18 +179,13 @@ export default function PharmaDashboard() {
               },
               {
                 icon: TrendingUp,
-                label: "Matched Interventions",
-                value: (dd.landscape_stats.total_matched_interventions as number) || 0,
+                label: "Categories Covered",
+                value: (dd.landscape_stats.categories_covered as number) || 0,
               },
               {
                 icon: Shield,
-                label: "Tools Available",
-                value: ((dd.landscape_stats.tools_available as string[]) || []).length,
-              },
-              {
-                icon: Building2,
-                label: "Categories Covered",
-                value: (dd.landscape_stats.categories_covered as number) || 0,
+                label: "Hallmarks Covered",
+                value: (dd.landscape_stats.hallmarks_covered as number) || 0,
               },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="bg-surface-container-lowest rounded-xl border border-outline-variant p-4">
@@ -173,7 +212,6 @@ export default function PharmaDashboard() {
                     <th className="px-6 py-3">Stage</th>
                     <th className="px-6 py-3">Strategy</th>
                     <th className="px-6 py-3">Relevance</th>
-                    <th className="px-6 py-3">Interventions</th>
                     <th className="px-6 py-3">Est. Value</th>
                   </tr>
                 </thead>
@@ -184,7 +222,7 @@ export default function PharmaDashboard() {
                       <td className="px-6 py-4">
                         <div className="font-medium text-sm text-on-surface">{t.company}</div>
                         {t.strategy_detail && (
-                          <div className="text-xs text-on-surface-variant mt-0.5 max-w-xs truncate">
+                          <div className="text-xs text-on-surface-variant mt-0.5 max-w-md">
                             {t.strategy_detail}
                           </div>
                         )}
@@ -212,23 +250,6 @@ export default function PharmaDashboard() {
                           </span>
                         </div>
                       </td>
-                      <td className="px-6 py-4">
-                        <div className="flex flex-wrap gap-1">
-                          {t.matched_interventions.slice(0, 3).map((i) => (
-                            <span
-                              key={i}
-                              className="px-1.5 py-0.5 bg-primary-container text-on-primary-container rounded text-xs"
-                            >
-                              {i}
-                            </span>
-                          ))}
-                          {t.matched_interventions.length > 3 && (
-                            <span className="text-xs text-on-surface-variant">
-                              +{t.matched_interventions.length - 3}
-                            </span>
-                          )}
-                        </div>
-                      </td>
                       <td className="px-6 py-4 text-sm text-on-surface">
                         {formatUsd(t.acquisition_estimate?.low_usd)} –{" "}
                         {formatUsd(t.acquisition_estimate?.high_usd)}
@@ -244,6 +265,9 @@ export default function PharmaDashboard() {
           {hallmarkData.length > 0 && (
             <div className="bg-surface-container-lowest rounded-xl border border-outline-variant p-6">
               <h3 className="font-semibold font-heading mb-4 text-on-surface">Hallmark Coverage</h3>
+              <p className="text-xs text-on-surface-variant mb-4">
+                Number of biotech companies targeting each aging hallmark. Overlap with {dd.pharma}'s pipeline hallmarks drives the relevance score.
+              </p>
               <ResponsiveContainer width="100%" height={300}>
                 <BarChart data={hallmarkData} layout="vertical">
                   <XAxis type="number" />

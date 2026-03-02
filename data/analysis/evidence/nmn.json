@@ -1,0 +1,121 @@
+{
+  "confidence": 78.39,
+  "confidence_raw": 78.39,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.86,
+    "2": 29.62,
+    "3": 8.25,
+    "4": 10.49,
+    "5": 0.01,
+    "6": 0.15
+  },
+  "selected_counts_by_level": {
+    "1": 15,
+    "2": 49,
+    "3": 15,
+    "4": 185,
+    "5": 1,
+    "6": 61
+  },
+  "top_docs": [
+    {
+      "id": "4115bab1-b16d-474e-b492-14124dfc0ee6",
+      "source_type": "europe_pmc",
+      "title": "NAD\u207a supplementation for anti-aging and wellness: a PRISMA-guided systematic review of preclinical and clinical evidence.",
+      "level": 1,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5554f6af-56db-419d-bc5e-0c24dc657ddf",
+      "source_type": "clinicaltrials",
+      "title": "Nicotinamide Riboside Supplementation for Treating Elevated Systolic Blood Pressure and Arterial Stiffness in Middle-aged and Older Adults",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c12e35b0-ba82-47b2-adb0-89dc4317bf05",
+      "source_type": "europe_pmc",
+      "title": "Meta-analysis of niacin and NAD metabolite treatment in infectious disease animal studies suggests benefit but requires confirmation in clinically relevant models.",
+      "level": 1,
+      "doc_weight": 0.5874,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "9e807155-6396-4205-8118-aa207c68b379",
+      "source_type": "pubmed",
+      "title": "NMN: The NAD precursor at the intersection between axon degeneration and anti-ageing therapies.",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ad104e6e-ff9f-4a23-acd3-937b470cc6fd",
+      "source_type": "clinicaltrials",
+      "title": "Nicotinamide Mononucleotide Supplementation for Exercise Tolerance Improvement in Healthy Older Adults",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d7f72d38-0194-40e5-bfdd-212a41e40a03",
+      "source_type": "europe_pmc",
+      "title": "NMN supplementation as a strategy to improve oocyte quality: a systematic review and transcriptomic analysis.",
+      "level": 1,
+      "doc_weight": 0.4993,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bfc6fdb8-58b3-4669-85d7-59693693a3b3",
+      "source_type": "europe_pmc",
+      "title": "Antioxidant strategies against cellular senescence: unveiling the power of synthetic versus natural antioxidants in a systematic review.",
+      "level": 1,
+      "doc_weight": 0.4993,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "54c4eaf5-f9c4-44bd-83db-102a0a9283d3",
+      "source_type": "news",
+      "title": "NMN and Personalised Longevity: Hype or the Future of Preventive ...",
+      "level": 2,
+      "doc_weight": 0.4819,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=326"
+  ]
+}

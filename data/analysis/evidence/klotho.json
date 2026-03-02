@@ -1,0 +1,121 @@
+{
+  "confidence": 81.31,
+  "confidence_raw": 81.31,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 27.89,
+    "2": 29.96,
+    "3": 12.92,
+    "4": 10.45,
+    "5": 0.0,
+    "6": 0.09
+  },
+  "selected_counts_by_level": {
+    "1": 6,
+    "2": 55,
+    "3": 37,
+    "4": 155,
+    "5": 0,
+    "6": 28
+  },
+  "top_docs": [
+    {
+      "id": "6687f60f-01d6-414c-97d8-bf3f834a515c",
+      "source_type": "pubmed",
+      "title": "Association of Klotho polymorphisms with healthy aging: a systematic review and meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "04863b13-022a-439c-972f-ae47825e1f90",
+      "source_type": "clinicaltrials",
+      "title": "ATLAS: A Randomized, Double-blind, Placebo-controlled Phase 3 Study of JNJ-56021927 in Subjects With High-risk, Localized or Locally Advanced Prostate Cancer Receiving Treatment With Primary Radiation Therapy",
+      "level": 2,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c408c86c-1fa4-4ff4-b8b1-a304bb91e2b3",
+      "source_type": "europe_pmc",
+      "title": "Strength but not power training increases soluble alpha klotho levels in pre-frail older adults.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c4f3823e-e486-4fb7-92c7-82aebddded0f",
+      "source_type": "nih_grant",
+      "title": "Dissecting the role of soluble a-Klotho in cardiovascular aging",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "1aafc297-f89e-482f-91b7-6175a2157289",
+      "source_type": "nih_grant",
+      "title": "Dissecting the role of soluble a-Klotho in cardiovascular aging",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "9b31e5c5-5f33-4b36-aaf8-516c5c7e5cac",
+      "source_type": "nih_grant",
+      "title": "Dissecting the role of soluble a-Klotho in cardiovascular aging",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "959c7e5c-44fd-4866-a3c7-d553d024b993",
+      "source_type": "nih_grant",
+      "title": "Dissecting the role of soluble a-Klotho in cardiovascular aging",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "50e0f446-f2f1-441c-89b7-15affc0daba9",
+      "source_type": "nih_grant",
+      "title": "Dissecting the role of soluble \u03b1-Klotho in cardiovascular aging",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=281"
+  ]
+}

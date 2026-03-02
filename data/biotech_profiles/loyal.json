@@ -26,9 +26,9 @@
     {
       "compound": "LOY-002",
       "intervention_link": null,
-      "target": "Undisclosed (company has described it as targeting age-related metabolic dysfunction in senior dogs) (source needed)",
-      "mechanism": "Oral drug candidate for senior dogs; detailed molecular target/mechanism not publicly disclosed (source needed)",
-      "indication": "Improving healthspan/aging outcomes in senior dogs (source needed)",
+      "target": "Undisclosed (company has described it as targeting age-related metabolic dysfunction in senior dogs)",
+      "mechanism": "Oral drug candidate for senior dogs; detailed molecular target/mechanism not publicly disclosed",
+      "indication": "Improving healthspan/aging outcomes in senior dogs",
       "phase": "clinical",
       "hallmarks": [
         "deregulated_nutrient_sensing"
@@ -41,9 +41,9 @@
     {
       "compound": "LOY-003",
       "intervention_link": null,
-      "target": "Undisclosed (source needed)",
-      "mechanism": "Oral drug candidate; detailed molecular target/mechanism not publicly disclosed (source needed)",
-      "indication": "Dog longevity/healthy aging (source needed)",
+      "target": "Undisclosed",
+      "mechanism": "Oral drug candidate; detailed molecular target/mechanism not publicly disclosed",
+      "indication": "Dog longevity/healthy aging",
       "phase": "preclinical",
       "hallmarks": [
         "deregulated_nutrient_sensing"
@@ -70,26 +70,26 @@
     }
   ],
   "investors_notable": [
-    "Khosla Ventures (source needed; e.g., verify via Crunchbase https://www.crunchbase.com/organization/loyal)",
-    "First Round Capital (source needed; e.g., verify via Crunchbase https://www.crunchbase.com/organization/loyal)",
-    "BoxGroup (source needed; e.g., verify via Crunchbase https://www.crunchbase.com/organization/loyal)"
+    "Khosla Ventures",
+    "First Round Capital",
+    "BoxGroup"
   ],
   "risks": [
-    "Primary endpoints risk: Demonstrating a regulator-acceptable and clinically meaningful 'longevity/healthspan' benefit in veterinary medicine is non-traditional and may face endpoint, trial-design, and evidentiary challenges (source needed).",
-    "Translational risk: Lowering IGF-1 in large-breed dogs may not translate into meaningful lifespan/healthspan extension or could introduce tradeoffs (e.g., metabolic, musculoskeletal, or other safety effects) that limit benefit-risk (source needed).",
-    "Execution risk: Long-duration field studies in pet dogs can have high variance (breed, environment, owner adherence) and operational complexity, increasing cost and timelines (source needed).",
-    "Commercial risk: Even with approval, uptake could depend on pricing, route of administration (injectable vs oral), and willingness of owners/veterinarians to treat an aging indication rather than a disease label (source needed).",
-    "IP/competition risk: Adjacent dog-aging efforts (e.g., rapamycin studies in companion dogs) could shape standards of evidence and competitive positioning (source needed)."
+    "Primary endpoints risk: Demonstrating a regulator-acceptable and clinically meaningful 'longevity/healthspan' benefit in veterinary medicine is non-traditional and may face endpoint, trial-design, and evidentiary challenges.",
+    "Translational risk: Lowering IGF-1 in large-breed dogs may not translate into meaningful lifespan/healthspan extension or could introduce tradeoffs (e.g., metabolic, musculoskeletal, or other safety effects) that limit benefit-risk.",
+    "Execution risk: Long-duration field studies in pet dogs can have high variance (breed, environment, owner adherence) and operational complexity, increasing cost and timelines.",
+    "Commercial risk: Even with approval, uptake could depend on pricing, route of administration (injectable vs oral), and willingness of owners/veterinarians to treat an aging indication rather than a disease label.",
+    "IP/competition risk: Adjacent dog-aging efforts (e.g., rapamycin studies in companion dogs) could shape standards of evidence and competitive positioning."
   ],
   "competitive_advantages": [
     "Indication focus: Targeting the companion dog as a faster, commercially addressable path for 'aging biology' therapeutics compared with human longevity drug development (company positioning source: https://loyal.com/).",
     "Program rationale: Size/longevity biology in dogs provides a tractable, naturally occurring model where IGF-1 signaling is implicated in breed-size differences, offering a clear biological hypothesis for LOY-001 (company materials source: https://loyal.com/) (independent validation source needed).",
-    "Multi-asset pipeline: Multiple candidates (LOY-001/002/003) potentially diversify technical and regulatory risk versus a single-asset company (source: https://loyal.com/)."
+    "Multi-asset pipeline: Multiple candidates (LOY-001/002/003) potentially diversify technical and regulatory risk versus a single-asset company."
   ],
   "acquisition_estimate": {
     "low_usd": 250000000,
     "high_usd": 1200000000,
-    "methodology": "Range anchored to precedent M&A in veterinary therapeutics (primarily development-stage or commercial-stage animal health biopharma) and adjusted for (i) Loyal being pre-revenue/early clinical in a novel 'longevity' indication (downward pressure), versus (ii) potentially large companion-animal market opportunity and platform value from multiple assets (upward pressure). Low end approximates smaller strategic takeouts (e.g., Aratana), while high end reflects a premium strategic acquisition akin to larger vet-biopharma deals (e.g., Kindred) plus pipeline optionality. Deal value would be highly sensitive to FDA CVM interactions, clinical readouts, and clarity on approvable label/claims (source needed for any specific internal milestones).",
+    "methodology": "Range anchored to precedent M&A in veterinary therapeutics (primarily development-stage or commercial-stage animal health biopharma) and adjusted for (i) Loyal being pre-revenue/early clinical in a novel 'longevity' indication (downward pressure), versus (ii) potentially large companion-animal market opportunity and platform value from multiple assets (upward pressure). Low end approximates smaller strategic takeouts (e.g., Aratana), while high end reflects a premium strategic acquisition akin to larger vet-biopharma deals (e.g., Kindred) plus pipeline optionality. Deal value would be highly sensitive to FDA CVM interactions, clinical readouts, and clarity on approvable label/claims.",
     "comparable_deals": [
       "Elanco acquisition of Kindred Biosciences for ~$440M (press release: https://investor.elanco.com/news-releases/news-release-details/elanco-animal-health-completes-acquisition-kindred-biosciences)",
       "Elanco acquisition of Aratana Therapeutics for ~$245M (press release: https://investor.elanco.com/news-releases/news-release-details/elanco-animal-health-completes-acquisition-aratana-therapeutics)"

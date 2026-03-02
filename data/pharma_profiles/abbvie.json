@@ -1,17 +1,17 @@
 {
-  "company": "AbbVie Inc.",
+  "company": "AbbVie",
   "ticker": "ABBV",
-  "hq": "North Chicago, Illinois, United States (source: AbbVie Inc. Form 10-K FY2023; SEC EDGAR company filings page https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1551152&owner=exclude&count=40&hidefilings=0)",
+  "hq": "North Chicago, Illinois, United States",
   "market_cap_approx": null,
   "therapeutic_areas": [
-    "Immunology (source: AbbVie Inc. Form 10-K FY2023)",
-    "Oncology (source: AbbVie Inc. Form 10-K FY2023)",
-    "Neuroscience (source: AbbVie Inc. Form 10-K FY2023)",
-    "Aesthetics (source: AbbVie Inc. Form 10-K FY2023)",
-    "Eye care (source: AbbVie Inc. Form 10-K FY2023)"
+    "Immunology",
+    "Oncology",
+    "Neuroscience",
+    "Aesthetics",
+    "Eye care"
   ],
   "aging_relevance": "moderate",
-  "aging_relevance_reasoning": "AbbVie has explicit strategic exposure to aging biology via its R&D collaboration with Calico that is specifically framed around therapies for age-related diseases (source: Calico/AbbVie collaboration press release reference: “AbbVie and Calico announce a new research and development collaboration,” 2014; source needed for URL). AbbVie also develops navitoclax (ABT-263), a BCL-2 family inhibitor that has published evidence as a senolytic in preclinical models (source: PubMed 26711051 https://pubmed.ncbi.nlm.nih.gov/26711051/) and is in AbbVie-sponsored clinical studies (e.g., myelofibrosis) (source: ClinicalTrials.gov NCT03222609 https://clinicaltrials.gov/study/NCT03222609). However, AbbVie’s marketed portfolio is primarily disease/indication-led (immunology, oncology, neuroscience) rather than organized around geroscience endpoints (source: AbbVie Inc. Form 10-K FY2023).",
+  "aging_relevance_reasoning": "AbbVie has explicit strategic exposure to aging biology via its R&D collaboration with Calico that is specifically framed around therapies for age-related diseases. AbbVie also develops navitoclax (ABT-263), a BCL-2 family inhibitor that has published evidence as a senolytic in preclinical models and is in AbbVie-sponsored clinical studies (e.g., myelofibrosis). However, AbbVie’s marketed portfolio is primarily disease/indication-led (immunology, oncology, neuroscience) rather than organized around geroscience endpoints.",
   "existing_longevity_assets": [
     {
       "compound": "Navitoclax (ABT-263)",
@@ -86,10 +86,10 @@
     "FDA Drugs@FDA (Rinvoq, NDA 211675): https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211675",
     "ClinicalTrials.gov (Navitoclax; NCT03222609): https://clinicaltrials.gov/study/NCT03222609",
     "PubMed (navitoclax as senolytic; PMID: 26711051): https://pubmed.ncbi.nlm.nih.gov/26711051/",
-    "Calico/AbbVie collaboration press release reference: “AbbVie and Calico announce a new research and development collaboration,” 2014 (source needed for URL)",
-    "AbbVie press release reference: “AbbVie to acquire Allergan, a highly attractive growth platform,” June 25, 2019 (source needed for URL)",
-    "AbbVie press release reference: “AbbVie to acquire ImmunoGen,” Nov 30, 2023 (source needed for URL)",
-    "AbbVie press release reference: “AbbVie to acquire Cerevel Therapeutics,” Dec 6, 2023 (source needed for URL)"
+    "Calico/AbbVie collaboration press release reference: “AbbVie and Calico announce a new research and development collaboration,” 2014",
+    "AbbVie press release reference: “AbbVie to acquire Allergan, a highly attractive growth platform,” June 25, 2019",
+    "AbbVie press release reference: “AbbVie to acquire ImmunoGen,” Nov 30, 2023",
+    "AbbVie press release reference: “AbbVie to acquire Cerevel Therapeutics,” Dec 6, 2023"
   ],
   "needs_review": true
 }

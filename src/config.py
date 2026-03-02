@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     openai_model: str = "gpt-5.2"
     openai_embedding_model: str = "text-embedding-3-small"
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-2.0-flash"
+    gemini_model: str = "gemini-3.1-pro-preview"
     medgemma_endpoint: str = ""
 
     # External APIs

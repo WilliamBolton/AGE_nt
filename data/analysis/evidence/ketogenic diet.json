@@ -1,0 +1,121 @@
+{
+  "confidence": 70.67,
+  "confidence_raw": 70.67,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 21.19,
+    "2": 29.91,
+    "3": 9.53,
+    "4": 10.0,
+    "5": 0.0,
+    "6": 0.04
+  },
+  "selected_counts_by_level": {
+    "1": 6,
+    "2": 48,
+    "3": 21,
+    "4": 166,
+    "5": 0,
+    "6": 33
+  },
+  "top_docs": [
+    {
+      "id": "8e3a9c37-de22-4181-be06-208e615cea90",
+      "source_type": "nih_grant",
+      "title": "Dietary Ketone Supplementation as a Novel Strategy to Attenuate the Adverse Vascular and Renal Consequences of High Dietary Salt in Older Adults",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f487f92a-9722-4c7c-bb87-f7dd08a1f4ea",
+      "source_type": "nih_grant",
+      "title": "Dietary Ketone Supplementation as a Novel Strategy to Attenuate the Adverse Vascular and Renal Consequences of High Dietary Salt in Older Adults",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3a06b958-30a5-49f0-a59e-9fbd773bfd42",
+      "source_type": "pubmed",
+      "title": "Cognitive Effects of a Ketogenic Diet on Neurocognitive Impairment in Adults Aging With HIV: A Pilot Study.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "22e53eb4-0b9a-4e45-b2f2-5731992ae731",
+      "source_type": "europe_pmc",
+      "title": "Intermittent fasting and immune aging: implications for immunosenescence, inflammaging, neuroinflammation, and frailty.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "239b01c0-765b-4a99-898a-df5ffac84a91",
+      "source_type": "nih_grant",
+      "title": "TAKEOFF: Targeting Aging with Ketone Ester in Older adults for Function in Frailty",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "252a4d02-efcc-4715-83b6-18a39ef33eb5",
+      "source_type": "nih_grant",
+      "title": "TAKEOFF: Targeting Aging with Ketone Ester in Older adults for Function in Frailty",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "29d80a3a-45b6-4f84-bead-3811c1cf7fcf",
+      "source_type": "europe_pmc",
+      "title": "A Randomized Open-Label, Observational Study of the Novel Ketone Ester, Bis Octanoyl (R)-1,3-Butanediol, and Its Acute Effect on \u00df-Hydroxybutyrate and Glucose Concentrations in Healthy Older Adults.",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2c785d0f-c4c2-405a-b24a-1b148094632e",
+      "source_type": "nih_grant",
+      "title": "Mechanisms of the signaling metabolite \u03b2-hydroxybutyrate in Alzheimer's disease and the aging brain",
+      "level": 2,
+      "doc_weight": 0.5238,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=274"
+  ]
+}

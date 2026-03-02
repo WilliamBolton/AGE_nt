@@ -1,0 +1,121 @@
+{
+  "confidence": 81.06,
+  "confidence_raw": 81.06,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.71,
+    "2": 29.85,
+    "3": 10.78,
+    "4": 10.46,
+    "5": 0.0,
+    "6": 0.26
+  },
+  "selected_counts_by_level": {
+    "1": 10,
+    "2": 64,
+    "3": 25,
+    "4": 170,
+    "5": 0,
+    "6": 64
+  },
+  "top_docs": [
+    {
+      "id": "7273619f-133d-4967-b3d7-61de5e7eb06e",
+      "source_type": "pubmed",
+      "title": "Rapamycin not dietary restriction improves resilience against pathogens: a meta-analysis.",
+      "level": 1,
+      "doc_weight": 1.1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "6a595615-1eb4-4d97-b400-900d9d3e7eb7",
+      "source_type": "pubmed",
+      "title": "Calorie restriction is the most reasonable anti-ageing intervention: a meta-analysis of survival curves.",
+      "level": 1,
+      "doc_weight": 1.1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "29972a75-05b6-4d09-8f06-71fc351cc5dd",
+      "source_type": "pubmed",
+      "title": "Comparative and meta-analytic insights into life extension via dietary restriction.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "20a37afd-5529-430b-9913-5a3253badbbd",
+      "source_type": "nih_grant",
+      "title": "Examining dietary and metabolomics patterns on cardiometabolic outcome variability in response to calorie restriction",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "02deacbe-7f1c-4964-85d6-1ac740a02332",
+      "source_type": "pubmed",
+      "title": "Which is the Most Reasonable Anti-aging Strategy: Meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.715,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "da92163c-edc8-4840-bfb4-943249587224",
+      "source_type": "news",
+      "title": "Will calorie restriction work in humans?",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "93b66ae5-328f-490d-96f5-51deafd5da0f",
+      "source_type": "europe_pmc",
+      "title": "Intermittent fasting and immune aging: implications for immunosenescence, inflammaging, neuroinflammation, and frailty.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "8b5151a8-a744-43fd-8d7f-aa4d62fd75af",
+      "source_type": "nih_grant",
+      "title": "Legacy Effects of CALERIE, a 2-year Calorie Restriction Intervention, on Hallmarks of Healthspan and Aging",
+      "level": 2,
+      "doc_weight": 0.5128,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=333"
+  ]
+}

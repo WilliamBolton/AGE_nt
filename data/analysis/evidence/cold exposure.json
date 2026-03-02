@@ -1,0 +1,121 @@
+{
+  "confidence": 79.25,
+  "confidence_raw": 79.25,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 28.43,
+    "2": 28.57,
+    "3": 12.69,
+    "4": 9.38,
+    "5": 0.0,
+    "6": 0.18
+  },
+  "selected_counts_by_level": {
+    "1": 7,
+    "2": 34,
+    "3": 27,
+    "4": 140,
+    "5": 0,
+    "6": 41
+  },
+  "top_docs": [
+    {
+      "id": "31102fd3-71d4-4f80-8574-3b714034eaaa",
+      "source_type": "europe_pmc",
+      "title": "Treatment of Solar Lentigines: A Systematic Review of Clinical Trials.",
+      "level": 1,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d5dcd7dc-97ac-47b7-a08d-bc1f63e6ce91",
+      "source_type": "europe_pmc",
+      "title": "[Effective management of biological age and quality of life in patients based on the integrated use of pathogenetically focused medical rehabilitation methods].",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bc2751b4-6d80-46a3-a642-9b16a32e85b6",
+      "source_type": "semantic_scholar",
+      "title": "A systematic review and meta-analysis of cold exposure and cardiovascular disease outcomes",
+      "level": 1,
+      "doc_weight": 0.66,
+      "relevance": 1,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b4da117a-2bc9-41b5-9d33-81b4af0f69aa",
+      "source_type": "europe_pmc",
+      "title": "Practical Approaches for Seborrheic Keratosis Treatment: Curettage Versus 532-nm Lithium Borate Laser Versus Cryotherapy: A Prospective Interventional Study.",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e8055777-33fa-427d-96d6-4e9b59c6080f",
+      "source_type": "clinicaltrials",
+      "title": "Recurrent Prostate Cancer After Irradiation Treated With Brachytherapy Remedial: Phase 2 Study",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2df794b2-f53e-4f35-8f40-16c84c6a3726",
+      "source_type": "clinicaltrials",
+      "title": "Phase II Randomized Control Trial of Whole Body Cooling in Neonatal Encephalopathy Using Phase Changing Material",
+      "level": 2,
+      "doc_weight": 0.5128,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2af74b4d-1964-4616-a787-80899c0b2944",
+      "source_type": "semantic_scholar",
+      "title": "Early Biological Aging and Fetal Exposure to High and Low Ambient Temperature: A Birth Cohort Study",
+      "level": 3,
+      "doc_weight": 0.4895,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d4f0d2a3-daa8-460b-a1a1-9937a916726b",
+      "source_type": "pubmed",
+      "title": "Efficacy of Intralesional Triamcinolone Acetonide Combined With Cryotherapy Compared to Intralesional Triamcinolone Acetonide Alone in Treating Limited Patchy Alopecia Areata of the Scalp and Face: A Prospective, Randomized, Within-Subject Controlled Trial.",
+      "level": 2,
+      "doc_weight": 0.4882,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=249"
+  ]
+}

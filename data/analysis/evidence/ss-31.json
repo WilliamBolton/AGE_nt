@@ -1,0 +1,121 @@
+{
+  "confidence": 66.18,
+  "confidence_raw": 66.18,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 21.76,
+    "2": 26.41,
+    "3": 8.24,
+    "4": 9.66,
+    "5": 0.0,
+    "6": 0.11
+  },
+  "selected_counts_by_level": {
+    "1": 4,
+    "2": 35,
+    "3": 17,
+    "4": 133,
+    "5": 0,
+    "6": 34
+  },
+  "top_docs": [
+    {
+      "id": "903c222c-4457-45ac-8563-00b25c7e78bd",
+      "source_type": "europe_pmc",
+      "title": "Meditation training and non-native language training both reduce older adults loneliness in the age-well randomized controlled trial.",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b29351ff-0267-4a3c-9870-d697a566ceb9",
+      "source_type": "europe_pmc",
+      "title": "Contemporary insights into elamipretide's mitochondrial mechanism of action and therapeutic effects.",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2be2fbcc-ae50-4a97-b723-c2a5a8b7f69c",
+      "source_type": "europe_pmc",
+      "title": "NMN supplementation as a strategy to improve oocyte quality: a systematic review and transcriptomic analysis.",
+      "level": 1,
+      "doc_weight": 0.4993,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "bbc7e563-04fb-4060-8d19-b4678726f0c4",
+      "source_type": "clinicaltrials",
+      "title": "Impact of a Ciclosporin A Preconditioning for Prevention of Ischemia-reperfusion Injury After Renal Artery Stenosis Dilation",
+      "level": 2,
+      "doc_weight": 0.4917,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": -1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "132f1e15-cd83-408f-8673-12bddf666ef0",
+      "source_type": "semantic_scholar",
+      "title": "Mitochondrial protein interaction landscape of SS-31",
+      "level": 2,
+      "doc_weight": 0.479,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0cfffbee-5946-417d-8219-5f58527ef18d",
+      "source_type": "semantic_scholar",
+      "title": "Occupational physical activity and longevity in working men and women in Norway: a prospective cohort study.",
+      "level": 3,
+      "doc_weight": 0.4161,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "f279a490-06fd-4338-871d-de9c3009fc38",
+      "source_type": "news",
+      "title": "SS-31 (also known as Elamipretide\u00ae, Bendavia\u00ae, and ...",
+      "level": 2,
+      "doc_weight": 0.3858,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "118cec09-018f-472e-bf48-93881ef18350",
+      "source_type": "pubmed",
+      "title": "From discoveries in ageing research to therapeutics for healthy ageing.",
+      "level": 2,
+      "doc_weight": 0.3143,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=223"
+  ]
+}

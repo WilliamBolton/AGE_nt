@@ -1,0 +1,121 @@
+{
+  "confidence": 73.52,
+  "confidence_raw": 73.52,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.99,
+    "2": 29.65,
+    "3": 8.42,
+    "4": 5.38,
+    "5": 0.0,
+    "6": 0.07
+  },
+  "selected_counts_by_level": {
+    "1": 34,
+    "2": 81,
+    "3": 36,
+    "4": 75,
+    "5": 0,
+    "6": 33
+  },
+  "top_docs": [
+    {
+      "id": "894bd24c-4e47-4ae8-b472-f3df83b0922b",
+      "source_type": "semantic_scholar",
+      "title": "Managing Hyperphagia, Obesity, and Hyperglycemia in Prader-Willi Syndrome: A Meta-Analysis of GLP-1 Agonists and SGLT2 Inhibitors",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ebcf8f2c-9c82-4c2f-b7b6-60e1074adbb7",
+      "source_type": "europe_pmc",
+      "title": "The Influence of GLP-1 Agonists on Human Mesenchymal Stem Cells: A Systematic Review.",
+      "level": 1,
+      "doc_weight": 0.8836,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "2ab5581e-6d64-4af3-9c78-0585bad38528",
+      "source_type": "europe_pmc",
+      "title": "Developing a Comprehensive Approach for Managing Cardiorenal Metabolic Diseases (CRMD) in Saudi Arabia: Thinking beyond Single Disease-Literature Review and Multidisciplinary Consensus Report.",
+      "level": 1,
+      "doc_weight": 0.8836,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a6cebf1e-7033-4772-b2a8-f2e21cb3bbdb",
+      "source_type": "pubmed",
+      "title": "Assessment of Thyroid Carcinogenic Risk and Safety Profile of GLP1-RA Semaglutide (Ozempic) Therapy for Diabetes Mellitus and Obesity: A Systematic Literature Review.",
+      "level": 1,
+      "doc_weight": 0.7947,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "0c304f29-2efb-441f-9800-217d5b16667e",
+      "source_type": "news",
+      "title": "Ozempic weight loss: Jabs could slow ageing, researchers say - BBC",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "c0693852-9f2b-4185-bafb-4a0019113ace",
+      "source_type": "europe_pmc",
+      "title": "GLP-1 Receptor Agonists in Heart Failure.",
+      "level": 2,
+      "doc_weight": 0.663,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "3a4caf4b-0ea7-421c-b7af-e500f451f920",
+      "source_type": "semantic_scholar",
+      "title": "ASSESSING GEROTHERAPEUTIC POTENTIAL OF GLP-1 RECEPTOR AGONISTS",
+      "level": 2,
+      "doc_weight": 0.6162,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "d6727589-8d6b-4c9b-8662-60a3dff1d869",
+      "source_type": "europe_pmc",
+      "title": "A Closer Look at the Dermatological Profile of GLP-1 Agonists.",
+      "level": 1,
+      "doc_weight": 0.5874,
+      "relevance": 2,
+      "endpoint_grade": 1,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=259"
+  ]
+}

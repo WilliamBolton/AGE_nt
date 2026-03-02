@@ -2,17 +2,17 @@
   "company": "NewLimit",
   "ticker": null,
   "founded": 2022,
-  "hq": "South San Francisco, California, United States (source: https://www.crunchbase.com/organization/newlimit)",
+  "hq": "South San Francisco, California, United States",
   "stage": "preclinical",
   "total_funding_usd": 40000000,
   "pipeline": [
     {
-      "compound": "Partial epigenetic reprogramming therapy platform (specific factor combinations undisclosed) (source: https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
+      "compound": "Partial epigenetic reprogramming therapy platform (specific factor combinations undisclosed)",
       "intervention_link": null,
-      "target": "Age-associated epigenetic/gene-expression state in somatic cells (source: https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
-      "mechanism": "Develops interventions intended to \"reprogram\" or reset aged cells toward a more youthful state via epigenetic reprogramming (source: https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
+      "target": "Age-associated epigenetic/gene-expression state in somatic cells",
+      "mechanism": "Develops interventions intended to \"reprogram\" or reset aged cells toward a more youthful state via epigenetic reprogramming",
       "indication": null,
-      "phase": "preclinical (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/ ; source needed for any specific clinical-stage asset)",
+      "phase": "preclinical",
       "hallmarks": [
         "epigenetic_alterations"
       ],
@@ -31,43 +31,43 @@
   "key_people": [
     {
       "name": "Brian Armstrong",
-      "role": "Co-founder (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/ ; https://www.newlimit.com/ (source needed if NewLimit lists founders on a specific page))",
-      "background": "Founder/CEO of Coinbase (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)"
+      "role": "Co-founder",
+      "background": "Founder/CEO of Coinbase"
     },
     {
       "name": "Blake Byers",
-      "role": "Co-founder (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
-      "background": "Former partner at GV (Google Ventures) per reporting (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)"
+      "role": "Co-founder",
+      "background": "Former partner at GV (Google Ventures) per reporting"
     },
     {
       "name": "Jacob Kimmel",
-      "role": "Co-founder (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
-      "background": "Aging/biotech researcher and entrepreneur; prior affiliations reported but exact prior roles need verification (source needed)"
+      "role": "Co-founder",
+      "background": "Aging/biotech researcher and entrepreneur; prior affiliations reported but exact prior roles need verification"
     }
   ],
   "investors_notable": [
-    "Seed financing of $40M reported (lead/participants source needed beyond TechCrunch unless confirmed in Crunchbase/press release) (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/)",
-    "Founders and investors listed on Crunchbase (see organization profile; specific investor list may require login) (source: https://www.crunchbase.com/organization/newlimit)"
+    "Seed financing of $40M reported (lead/participants source needed beyond TechCrunch unless confirmed in Crunchbase/press release)",
+    "Founders and investors listed on Crunchbase (see organization profile; specific investor list may require login)"
   ],
   "risks": [
-    "Biology/translation risk: partial epigenetic reprogramming may fail to produce durable functional rejuvenation in vivo or may vary strongly by cell type (source needed).",
-    "Safety risk: reprogramming approaches may increase tumorigenicity, dedifferentiation, or off-target cell-state changes (source needed).",
-    "Delivery/manufacturing risk: achieving precise, tissue-specific, titratable delivery of reprogramming payloads at clinical scale is non-trivial (source needed).",
-    "Biomarker risk: selecting aging/rejuvenation biomarkers that predict clinical outcomes remains an open challenge (source needed).",
-    "Competitive risk: multiple well-capitalized groups pursue cellular reprogramming/age-reset approaches (source needed)."
+    "Biology/translation risk: partial epigenetic reprogramming may fail to produce durable functional rejuvenation in vivo or may vary strongly by cell type.",
+    "Safety risk: reprogramming approaches may increase tumorigenicity, dedifferentiation, or off-target cell-state changes.",
+    "Delivery/manufacturing risk: achieving precise, tissue-specific, titratable delivery of reprogramming payloads at clinical scale is non-trivial.",
+    "Biomarker risk: selecting aging/rejuvenation biomarkers that predict clinical outcomes remains an open challenge.",
+    "Competitive risk: multiple well-capitalized groups pursue cellular reprogramming/age-reset approaches."
   ],
   "competitive_advantages": [
-    "High-level focus on epigenetic reprogramming as a potential upstream lever on cellular aging (source: https://www.newlimit.com/ ; https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/).",
-    "Substantial seed capital to build an iterative discovery platform (source: https://techcrunch.com/2022/04/04/coinbase-ceo-brian-armstrong-launches-newlimit-an-anti-aging-company/ ; https://www.crunchbase.com/organization/newlimit).",
-    "Founder/operator profile may help with recruiting and capital access (source needed)."
+    "High-level focus on epigenetic reprogramming as a potential upstream lever on cellular aging.",
+    "Substantial seed capital to build an iterative discovery platform.",
+    "Founder/operator profile may help with recruiting and capital access."
   ],
   "acquisition_estimate": {
     "low_usd": 300000000,
     "high_usd": 1200000000,
     "methodology": "Range is an analyst estimate for a preclinical platform company: anchored to (i) early-stage cell programming/regenerative medicine acquisitions around ~$1B total consideration, then (ii) adjusted downward for preclinical/no disclosed clinical assets and upward for platform optionality and strategic value to pharma. Comparables used: Bayer acquisition of BlueRock Therapeutics (deal value up to $1B) and Vertex acquisition of Semma Therapeutics (~$950M). (sources: BlueRock: https://www.bayer.com/en/us/news-stories/bayer-to-acquire-bluerock-therapeutics ; Semma: https://investors.vrtx.com/news-releases/news-release-details/vertex-acquire-semma-therapeutics-transformational).",
     "comparable_deals": [
-      "Bayer to acquire BlueRock Therapeutics (up to $1B total consideration) (source: https://www.bayer.com/en/us/news-stories/bayer-to-acquire-bluerock-therapeutics).",
-      "Vertex to acquire Semma Therapeutics (~$950M) (source: https://investors.vrtx.com/news-releases/news-release-details/vertex-acquire-semma-therapeutics-transformational)."
+      "Bayer to acquire BlueRock Therapeutics (up to $1B total consideration).",
+      "Vertex to acquire Semma Therapeutics (~$950M)."
     ]
   },
   "sources": [

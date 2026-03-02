@@ -1,0 +1,121 @@
+{
+  "confidence": 66.05,
+  "confidence_raw": 66.05,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 17.11,
+    "2": 29.99,
+    "3": 7.86,
+    "4": 10.79,
+    "5": 0.0,
+    "6": 0.29
+  },
+  "selected_counts_by_level": {
+    "1": 3,
+    "2": 62,
+    "3": 15,
+    "4": 201,
+    "5": 0,
+    "6": 104
+  },
+  "top_docs": [
+    {
+      "id": "b625f12f-f504-423a-93ce-128c08781c68",
+      "source_type": "semantic_scholar",
+      "title": "Clinical studies with drugs and biologics aimed at slowing or reversing normal aging processes\u2014emerging results and future perspectives",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ce6aa76c-e2aa-4f02-919b-4715efcb7029",
+      "source_type": "pubmed",
+      "title": "Quercetin Reduces Vascular Senescence and Inflammation in Symptomatic Male but Not Female Coronary Artery Disease Patients.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5bce5d50-9bf0-4f47-8c74-d51265132052",
+      "source_type": "pubmed",
+      "title": "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study.",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "42eeadc2-5f03-45e7-a3a7-50201b6a0238",
+      "source_type": "nih_grant",
+      "title": "Identifying novel contributors to Wnt/beta-catenin mediated epigenetic activity in the evolution of OSCC",
+      "level": 2,
+      "doc_weight": 0.643,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "34f423bc-9df2-46bc-bfdb-6bc1d50ea351",
+      "source_type": "clinicaltrials",
+      "title": "Improving Physical Ability and Cellular Senescence Elimination in HIV",
+      "level": 2,
+      "doc_weight": 0.5803,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "e25a0d1f-544d-4ccf-aa2c-c5d8dd9a042c",
+      "source_type": "nih_grant",
+      "title": "Extratumoral biological determinants that decrease survival in older adults with glioblastoma",
+      "level": 2,
+      "doc_weight": 0.5635,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "85603594-efbe-4308-9b84-359d5982402a",
+      "source_type": "pubmed",
+      "title": "Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial.",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "5a20d15f-c236-423b-9dd0-966a1d4eafec",
+      "source_type": "clinicaltrials",
+      "title": "An Open-Label, Randomized, Double Arm, Phase 2 Study to Evaluate the Safety and Efficacy of C and RQC for Preventing Progression in Age-Related Macular Degeneration",
+      "level": 2,
+      "doc_weight": 0.5466,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=385"
+  ]
+}

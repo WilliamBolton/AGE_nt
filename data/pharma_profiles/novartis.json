@@ -11,14 +11,14 @@
     "Neuroscience"
   ],
   "aging_relevance": "moderate",
-  "aging_relevance_reasoning": "Novartis markets everolimus (Afinitor), an mTOR inhibitor (FDA Prescribing Information: Afinitor (everolimus), NDA 022334; https://doi.org/10.1016/j.cell.2013.05.039). mTOR pathway modulation is directly connected to the hallmark of deregulated nutrient sensing and to autophagy regulation (https://doi.org/10.1016/j.cell.2013.05.039). Everolimus (RAD001) has also been studied in older adults with reported improvements in aspects of immune function (https://doi.org/10.1126/scitranslmed.3009892). Novartis also markets canakinumab (Ilaris), an IL-1β neutralizing antibody (FDA Prescribing Information: Ilaris (canakinumab), BLA 125319), and IL-1β inhibition reduced recurrent cardiovascular events in CANTOS (https://doi.org/10.1056/NEJMoa1707914), aligning with chronic inflammation as a hallmark (https://doi.org/10.1016/j.cell.2013.05.039). However, Novartis publicly positions its R&D and commercial strategy around disease-focused therapeutic areas rather than aging/longevity as a primary indication (Novartis Annual Report 2023, Strategy / therapeutic area structure: source needed). Novartis is listed on the NYSE as NVS (https://www.nyse.com/quote/XNYS:NVS) and is headquartered in Basel, Switzerland (Novartis Annual Report 2023 / company information: source needed).",
+  "aging_relevance_reasoning": "Novartis markets everolimus (Afinitor), an mTOR inhibitor (FDA Prescribing Information: Afinitor (everolimus), NDA 022334; https://doi.org/10.1016/j.cell.2013.05.039). mTOR pathway modulation is directly connected to the hallmark of deregulated nutrient sensing and to autophagy regulation. Everolimus (RAD001) has also been studied in older adults with reported improvements in aspects of immune function. Novartis also markets canakinumab (Ilaris), an IL-1β neutralizing antibody (FDA Prescribing Information: Ilaris (canakinumab), BLA 125319), and IL-1β inhibition reduced recurrent cardiovascular events in CANTOS, aligning with chronic inflammation as a hallmark. However, Novartis publicly positions its R&D and commercial strategy around disease-focused therapeutic areas rather than aging/longevity as a primary indication (Novartis Annual Report 2023, Strategy / therapeutic area structure: source needed). Novartis is listed on the NYSE as NVS and is headquartered in Basel, Switzerland (Novartis Annual Report 2023 / company information: source needed).",
   "existing_longevity_assets": [
     {
       "compound": "everolimus (Afinitor; also known as RAD001)",
       "intervention_link": "everolimus",
       "status": "Marketed (oncology indications); also studied in older adults for immune function endpoints",
       "indication": "Multiple oncology indications (per label); studied in older adults for immune function/vaccine-response endpoints in academic clinical research",
-      "relevance": "Direct mechanistic overlap with longevity biology via mTOR inhibition (deregulated nutrient sensing; autophagy regulation) (FDA Prescribing Information: Afinitor (everolimus), NDA 022334; https://doi.org/10.1016/j.cell.2013.05.039). Evidence of evaluation in older adults for immune function outcomes (https://doi.org/10.1126/scitranslmed.3009892).",
+      "relevance": "Direct mechanistic overlap with longevity biology via mTOR inhibition (deregulated nutrient sensing; autophagy regulation) (FDA Prescribing Information: Afinitor (everolimus), NDA 022334; https://doi.org/10.1016/j.cell.2013.05.039). Evidence of evaluation in older adults for immune function outcomes.",
       "source": "FDA Prescribing Information: Afinitor (everolimus), NDA 022334; https://doi.org/10.1126/scitranslmed.3009892; https://doi.org/10.1016/j.cell.2013.05.039"
     },
     {
@@ -26,7 +26,7 @@
       "intervention_link": null,
       "status": "Marketed",
       "indication": "Approved for multiple autoinflammatory/periodic fever syndromes and other inflammatory indications (per label); studied for secondary prevention in atherosclerotic cardiovascular disease (CANTOS)",
-      "relevance": "Targets IL-1β-driven inflammation (FDA Prescribing Information: Ilaris (canakinumab), BLA 125319). Chronic inflammation is a hallmark of aging (https://doi.org/10.1016/j.cell.2013.05.039). In CANTOS, IL-1β inhibition with canakinumab reduced recurrent cardiovascular events (https://doi.org/10.1056/NEJMoa1707914), relevant to age-associated cardiometabolic risk.",
+      "relevance": "Targets IL-1β-driven inflammation (FDA Prescribing Information: Ilaris (canakinumab), BLA 125319). Chronic inflammation is a hallmark of aging. In CANTOS, IL-1β inhibition with canakinumab reduced recurrent cardiovascular events, relevant to age-associated cardiometabolic risk.",
       "source": "FDA Prescribing Information: Ilaris (canakinumab), BLA 125319; https://doi.org/10.1056/NEJMoa1707914; https://doi.org/10.1016/j.cell.2013.05.039"
     },
     {
@@ -34,7 +34,7 @@
       "intervention_link": null,
       "status": "Marketed",
       "indication": "Adjunct LDL-C lowering therapy for adults with ASCVD and/or heterozygous familial hypercholesterolemia (per label)",
-      "relevance": "Cardiometabolic risk modification is highly age-associated, though inclisiran is not positioned as a geroscience/longevity drug (FDA Prescribing Information: Leqvio (inclisiran), NDA 214012). Novartis acquired The Medicines Company to obtain inclisiran (https://www.novartis.com/news/media-releases/novartis-makes-late-stage-growth-bet-agrees-acquire-medicines-company-97-billion).",
+      "relevance": "Cardiometabolic risk modification is highly age-associated, though inclisiran is not positioned as a geroscience/longevity drug (FDA Prescribing Information: Leqvio (inclisiran), NDA 214012). Novartis acquired The Medicines Company to obtain inclisiran.",
       "source": "FDA Prescribing Information: Leqvio (inclisiran), NDA 214012; https://www.novartis.com/news/media-releases/novartis-makes-late-stage-growth-bet-agrees-acquire-medicines-company-97-billion"
     }
   ],
@@ -51,7 +51,7 @@
       "target": "The Medicines Company",
       "year": 2019,
       "value_usd": 9700000000,
-      "relevance": "Added late-stage/marketed cardiometabolic RNA therapeutic (inclisiran/Leqvio) relevant to age-associated ASCVD risk management (https://www.novartis.com/news/media-releases/novartis-makes-late-stage-growth-bet-agrees-acquire-medicines-company-97-billion).",
+      "relevance": "Added late-stage/marketed cardiometabolic RNA therapeutic (inclisiran/Leqvio) relevant to age-associated ASCVD risk management.",
       "source": "https://www.novartis.com/news/media-releases/novartis-makes-late-stage-growth-bet-agrees-acquire-medicines-company-97-billion"
     },
     {
@@ -73,7 +73,7 @@
     "preferred_stage": "Late-stage/near-commercial (inferred from The Medicines Company being described as a late-stage growth bet and from the sizes/stated asset maturity of recent acquisitions)",
     "avg_deal_size_usd": 6833333333,
     "focus_areas": [
-      "Cardiovascular/metabolic risk reduction (inclisiran) (https://www.novartis.com/news/media-releases/novartis-makes-late-stage-growth-bet-agrees-acquire-medicines-company-97-billion)",
+      "Cardiovascular/metabolic risk reduction (inclisiran)",
       "Gene therapy / rare disease platform expansion (AveXis acquisition: source needed)",
       "Oncology platforms (radioligand therapy via Endocyte acquisition: source needed)"
     ],

@@ -1,0 +1,121 @@
+{
+  "confidence": 78.42,
+  "confidence_raw": 78.42,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 29.97,
+    "2": 29.96,
+    "3": 8.59,
+    "4": 9.71,
+    "5": 0.0,
+    "6": 0.2
+  },
+  "selected_counts_by_level": {
+    "1": 12,
+    "2": 65,
+    "3": 21,
+    "4": 140,
+    "5": 0,
+    "6": 80
+  },
+  "top_docs": [
+    {
+      "id": "520a79e8-2d34-4f5a-81ea-e078281d8d5e",
+      "source_type": "pubmed",
+      "title": "Rapamycin not dietary restriction improves resilience against pathogens: a meta-analysis.",
+      "level": 1,
+      "doc_weight": 1.1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "87e1a7af-343b-40f7-aa0b-5dde68159d8e",
+      "source_type": "pubmed",
+      "title": "Meta-Analysis of 29 Experiments Evaluating the Effects of Rapamycin on Life Span in the Laboratory Mouse.",
+      "level": 1,
+      "doc_weight": 1.1,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "97f2773b-774c-434b-b7c6-9884e34f140a",
+      "source_type": "pubmed",
+      "title": "Immunotherapy for metastatic renal cell carcinoma.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "9a0ed901-4ffe-4748-a30d-acf03acd5e55",
+      "source_type": "europe_pmc",
+      "title": "Rapamycin exerts its geroprotective effects in the ageing human immune system by enhancing resilience against DNA damage",
+      "level": 2,
+      "doc_weight": 0.8033,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "26dd1260-8ccb-4e3a-9961-7e32234818ed",
+      "source_type": "pubmed",
+      "title": "MyMD-1 Improves Health Span and Prolongs Life Span in Old Mice: A Noninferiority Study to Rapamycin.",
+      "level": 2,
+      "doc_weight": 0.7565,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "02d5926f-c903-4239-8104-8b5c3a723d54",
+      "source_type": "europe_pmc",
+      "title": "Rapamycin Exerts Its Geroprotective Effects in the Ageing Human Immune System by Enhancing Resilience Against DNA Damage.",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "a9d45de3-2539-4ac3-947e-40ae218abd48",
+      "source_type": "nih_grant",
+      "title": "Impacting Inflammation through Mechanistic Target of Rapamycin (imTOR)",
+      "level": 2,
+      "doc_weight": 0.6828,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 1,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "82d3d3f4-88e3-4d49-873e-c08bde9ffddd",
+      "source_type": "clinicaltrials",
+      "title": "Inpatient Evaluation of Neuropsychiatric Patients",
+      "level": 2,
+      "doc_weight": 0.6755,
+      "relevance": 2,
+      "endpoint_grade": 2,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=318"
+  ]
+}

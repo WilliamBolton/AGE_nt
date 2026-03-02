@@ -2,16 +2,16 @@
   "company": "Altos Labs",
   "ticker": null,
   "founded": 2021,
-  "hq": "Redwood City, California, United States (source: https://www.crunchbase.com/organization/altos-labs)",
+  "hq": "Redwood City, California, United States",
   "stage": "preclinical",
   "total_funding_usd": 3000000000,
   "pipeline": [
     {
       "compound": "Cellular Rejuvenation Programming (partial epigenetic reprogramming using induced-expression reprogramming factors; specific therapeutic construct(s)/delivery undisclosed publicly)",
       "intervention_link": null,
-      "target": "Epigenetic state / chromatin and transcriptional programs associated with cellular age (source: https://www.altoslabs.com/ ; https://doi.org/10.1016/j.cell.2016.11.052)",
-      "mechanism": "Transient/partial reprogramming to restore youthful epigenetic and gene-expression patterns while aiming to retain cell identity (source: https://doi.org/10.1016/j.cell.2016.11.052 ; https://www.nature.com/articles/s41586-020-2975-4)",
-      "indication": "Not publicly disclosed; platform aimed at age-related disease and regenerative medicine (source: https://www.altoslabs.com/ ; https://www.nature.com/articles/d41586-022-00696-9)",
+      "target": "Epigenetic state / chromatin and transcriptional programs associated with cellular age",
+      "mechanism": "Transient/partial reprogramming to restore youthful epigenetic and gene-expression patterns while aiming to retain cell identity",
+      "indication": "Not publicly disclosed; platform aimed at age-related disease and regenerative medicine",
       "phase": "preclinical",
       "hallmarks": [
         "epigenetic_alterations",
@@ -39,45 +39,45 @@
   "key_people": [
     {
       "name": "Hal V. Barron",
-      "role": "Chief Executive Officer (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
-      "background": "Physician-scientist and biotech executive; previously Chief Scientific Officer and President, R&D at GlaxoSmithKline (source: https://www.nature.com/articles/d41586-022-00696-9)"
+      "role": "Chief Executive Officer (reported)",
+      "background": "Physician-scientist and biotech executive; previously Chief Scientific Officer and President, R&D at GlaxoSmithKline"
     },
     {
       "name": "Rick Klausner",
-      "role": "Scientific leadership role at Altos (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
-      "background": "Former Director of the U.S. National Cancer Institute (source: https://www.cancer.gov/about-nci/overview/history/past-directors/richard-klausner)"
+      "role": "Scientific leadership role at Altos (reported)",
+      "background": "Former Director of the U.S. National Cancer Institute"
     },
     {
       "name": "Shinya Yamanaka",
-      "role": "Scientific founder/advisor associated with Altos (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
-      "background": "Co-discoverer of induced pluripotent stem cells; Nobel Prize in Physiology or Medicine 2012 (source: https://www.nobelprize.org/prizes/medicine/2012/summary/)"
+      "role": "Scientific founder/advisor associated with Altos (reported)",
+      "background": "Co-discoverer of induced pluripotent stem cells; Nobel Prize in Physiology or Medicine 2012"
     },
     {
       "name": "Juan Carlos Izpisua Belmonte",
-      "role": "Scientific founder/leader associated with Altos (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
-      "background": "Stem-cell and regenerative biology researcher; former Salk Institute professor (source: https://www.salk.edu/scientist/juan-carlos-izpisua-belmonte/)"
+      "role": "Scientific founder/leader associated with Altos (reported)",
+      "background": "Stem-cell and regenerative biology researcher; former Salk Institute professor"
     },
     {
       "name": "Manuel Serrano",
-      "role": "Scientific founder/leader associated with Altos (reported) (source: https://www.nature.com/articles/d41586-022-00696-9)",
-      "background": "Researcher known for work in cellular senescence and cancer biology; affiliated with IRB Barcelona (source: https://www.irbbarcelona.org/en/profile/manuel-serrano)"
+      "role": "Scientific founder/leader associated with Altos (reported)",
+      "background": "Researcher known for work in cellular senescence and cancer biology; affiliated with IRB Barcelona"
     }
   ],
   "investors_notable": [
-    "Yuri Milner / related funding entities (reported major backer) (source: https://www.nature.com/articles/d41586-022-00696-9)",
-    "Jeff Bezos (reported investor/backer) (source: https://www.technologyreview.com/2022/02/03/1044719/jeff-bezos-anti-aging-altos-labs/)"
+    "Yuri Milner / related funding entities (reported major backer)",
+    "Jeff Bezos (reported investor/backer)"
   ],
   "risks": [
-    "Oncogenicity/tumor risk from in vivo reprogramming if factor expression is not tightly controlled (e.g., dedifferentiation/teratoma-like pathology reported as a concern in partial reprogramming literature) (source: https://doi.org/10.1016/j.cell.2016.11.052)",
-    "Translation risk: strong preclinical rejuvenation signals may not predict human efficacy across complex age-related diseases (source needed)",
-    "Delivery risk: achieving safe, tissue-specific, regulatable delivery of reprogramming factors in vivo is technically difficult (source: https://www.nature.com/articles/s41586-020-2975-4)",
-    "Regulatory/clinical-development uncertainty because 'rejuvenation' endpoints and biomarkers may not be accepted as primary clinical endpoints without disease-specific outcomes (source needed)",
-    "IP and competitive intensity risk as multiple groups pursue partial reprogramming/epigenetic rejuvenation strategies (source needed)"
+    "Oncogenicity/tumor risk from in vivo reprogramming if factor expression is not tightly controlled (e.g., dedifferentiation/teratoma-like pathology reported as a concern in partial reprogramming literature)",
+    "Translation risk: strong preclinical rejuvenation signals may not predict human efficacy across complex age-related diseases",
+    "Delivery risk: achieving safe, tissue-specific, regulatable delivery of reprogramming factors in vivo is technically difficult",
+    "Regulatory/clinical-development uncertainty because 'rejuvenation' endpoints and biomarkers may not be accepted as primary clinical endpoints without disease-specific outcomes",
+    "IP and competitive intensity risk as multiple groups pursue partial reprogramming/epigenetic rejuvenation strategies"
   ],
   "competitive_advantages": [
-    "Large capitalization at launch and ability to fund long time-horizon basic-to-translational programs (source: https://www.crunchbase.com/organization/altos-labs ; https://www.nature.com/articles/d41586-022-00696-9)",
-    "High-profile scientific leadership with direct ties to iPSC discovery and aging/reprogramming research (source: https://www.nature.com/articles/d41586-022-00696-9 ; https://www.nobelprize.org/prizes/medicine/2012/summary/)",
-    "Platform is grounded in peer-reviewed in vivo partial reprogramming evidence base (source: https://doi.org/10.1016/j.cell.2016.11.052 ; https://www.nature.com/articles/s41586-020-2975-4)"
+    "Large capitalization at launch and ability to fund long time-horizon basic-to-translational programs",
+    "High-profile scientific leadership with direct ties to iPSC discovery and aging/reprogramming research",
+    "Platform is grounded in peer-reviewed in vivo partial reprogramming evidence base"
   ],
   "acquisition_estimate": {
     "low_usd": 2000000000,

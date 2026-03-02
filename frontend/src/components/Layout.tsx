@@ -1,13 +1,12 @@
 import { NavLink, Outlet } from "react-router-dom";
-import { MessageSquare, Building2, Microscope, Map, Settings, Sun, Moon } from "lucide-react";
+import { MessageSquare, Building2, Microscope, Settings, Sun, Moon } from "lucide-react";
 import { useState, useEffect } from "react";
 import SettingsPanel from "./SettingsPanel";
 
 const NAV = [
   { to: "/", icon: MessageSquare, label: "Chat" },
-  { to: "/pharma", icon: Building2, label: "Pharma DD" },
   { to: "/biotech", icon: Microscope, label: "Biotech" },
-  { to: "/landscape", icon: Map, label: "Landscape" },
+  { to: "/pharma", icon: Building2, label: "Pharma DD" },
 ];
 
 export default function Layout() {
@@ -22,10 +21,10 @@ export default function Layout() {
   return (
     <div className="flex h-screen bg-surface text-on-surface">
       {/* Sidebar */}
-      <nav className="w-56 bg-primary text-on-primary flex flex-col shrink-0">
-        <div className="p-4 border-b border-on-primary/20">
-          <h1 className="text-lg font-bold tracking-tight font-heading">AGE-nt</h1>
-          <p className="text-xs text-on-primary/70 mt-0.5">Longevity Evidence Platform</p>
+      <nav className="w-56 bg-[#DBC66E] flex flex-col shrink-0">
+        <div className="p-4 border-b border-[#534600]/20">
+          <h1 className="text-lg font-bold tracking-tight font-heading text-[#15130B]">AGE-nt</h1>
+          <p className="text-xs text-[#534600] mt-0.5">Longevity Intervention Intelligence</p>
         </div>
 
         <div className="flex-1 p-2 space-y-1">
@@ -36,8 +35,8 @@ export default function Layout() {
               className={({ isActive }) =>
                 `flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors ${
                   isActive
-                    ? "bg-on-primary/20 text-on-primary font-medium"
-                    : "text-on-primary/70 hover:bg-on-primary/10 hover:text-on-primary"
+                    ? "bg-[#534600]/20 text-[#15130B] font-medium"
+                    : "text-[#534600] hover:bg-[#534600]/10 hover:text-[#15130B]"
                 }`
               }
             >
@@ -47,17 +46,17 @@ export default function Layout() {
           ))}
         </div>
 
-        <div className="border-t border-on-primary/20">
+        <div className="border-t border-[#534600]/20">
           <button
             onClick={() => setDark(!dark)}
-            className="flex items-center gap-3 w-full px-5 py-3 text-sm text-on-primary/70 hover:text-on-primary hover:bg-on-primary/10 transition-colors"
+            className="flex items-center gap-3 w-full px-5 py-3 text-sm text-[#534600] hover:text-[#15130B] hover:bg-[#534600]/10 transition-colors"
           >
             {dark ? <Sun size={18} /> : <Moon size={18} />}
             {dark ? "Light Mode" : "Dark Mode"}
           </button>
           <button
             onClick={() => setShowSettings(true)}
-            className="flex items-center gap-3 w-full px-5 py-3 text-sm text-on-primary/70 hover:text-on-primary hover:bg-on-primary/10 transition-colors"
+            className="flex items-center gap-3 w-full px-5 py-3 text-sm text-[#534600] hover:text-[#15130B] hover:bg-[#534600]/10 transition-colors"
           >
             <Settings size={18} />
             Settings

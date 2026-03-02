@@ -1,0 +1,121 @@
+{
+  "confidence": 84.76,
+  "confidence_raw": 84.76,
+  "gating_penalty": 1.0,
+  "checklist": {
+    "any_human_evidence": true,
+    "any_rct": true,
+    "any_human_endpoints": true,
+    "any_human_safety": true
+  },
+  "tier_contributions": {
+    "1": 30.0,
+    "2": 29.98,
+    "3": 14.6,
+    "4": 9.92,
+    "5": 0.0,
+    "6": 0.26
+  },
+  "selected_counts_by_level": {
+    "1": 23,
+    "2": 39,
+    "3": 45,
+    "4": 104,
+    "5": 0,
+    "6": 37
+  },
+  "top_docs": [
+    {
+      "id": "11274ec8-af32-43d4-92f7-612a2af50472",
+      "source_type": "pubmed",
+      "title": "Tracking the Epigenetic Clock Across the Human Life Course: A Meta-analysis of Longitudinal Cohort Data.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "ddd93809-cbdf-4baa-bd80-de9f483a6426",
+      "source_type": "pubmed",
+      "title": "The epigenetic clock as a predictor of disease and mortality risk: a systematic review and meta-analysis.",
+      "level": 1,
+      "doc_weight": 0.935,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "88cf8ac8-127e-4c2e-a4b0-3347b3a4777a",
+      "source_type": "pubmed",
+      "title": "DNA methylation markers of age(ing) in non-model animals.",
+      "level": 1,
+      "doc_weight": 0.8836,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "13bc0601-93c5-4dc7-8f73-edcc28b65134",
+      "source_type": "pubmed",
+      "title": "A systematic review of phenotypic and epigenetic clocks used for aging and mortality quantification in humans.",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "24fe9fed-53d0-4016-a697-b7cc8bc6c898",
+      "source_type": "pubmed",
+      "title": "A Systematic Review and Meta-analysis of Environmental, Lifestyle, and Health Factors Associated With DNA Methylation Age.",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "b20b9a7d-56be-49cf-8bea-29cca05c7fef",
+      "source_type": "pubmed",
+      "title": "A systematic review of biological, social and environmental factors associated with epigenetic clock acceleration.",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "9384f10f-51d7-4b58-b735-bc9c501d730a",
+      "source_type": "europe_pmc",
+      "title": "Caregiving stress and biological aging measured by epigenetic clocks: protocol for a scoping review.",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    },
+    {
+      "id": "27b7e9de-b938-4b11-9915-bf971d0ed57a",
+      "source_type": "news",
+      "title": "A systematic review of phenotypic and epigenetic clocks used for ...",
+      "level": 1,
+      "doc_weight": 0.8321,
+      "relevance": 2,
+      "endpoint_grade": 3,
+      "effect_direction": 0,
+      "why_influential": "High weighted contribution under rubric multipliers."
+    }
+  ],
+  "notes": [
+    "deterministic_rubric_score_v1",
+    "documents_scored=248"
+  ]
+}
